@@ -1,0 +1,25 @@
+# Временные материалы проекта
+/tmp/
+
+# Кэш Python, виртуальные окружения и результаты проверок
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Локальные параметры запуска
+.env
+.env.*
+!.env.example
+
+# Локальные файлы редакторов и операционной системы
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
