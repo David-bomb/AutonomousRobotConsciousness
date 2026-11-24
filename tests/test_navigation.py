@@ -104,3 +104,28 @@ class NavigationTests(unittest.TestCase):
             modes.add(robot.mode)
         self.assertEqual(modes, set(Mode))
         self.assertEqual((env.refuels, env.repairs), (1, 1))
+
+    def test_crossroads_explores_dead_ends_before_finding_finish(self):
+        level = self.levels["10-crossroads"]
+        env = Environment(level)
+        robot = Automaton()
+        finish_search = []
+        while env.status == Status.RUNNING:
+            advance(env, robot)
+            if robot.mode == Mode.GOAL:
+                finish_search.append(env.position)
+            else:
+                finish_search.clear()
+        self.assertEqual(env.status, Status.SUCCESS)
+
+        entrance = (27, 3)
+        first = finish_search.index(entrance)
+        last = len(finish_search) - 1 - finish_search[::-1].index(entrance)
+        excursion = finish_search[first:last + 1]
+        for tip in ((32, 3), (31, 5), (29, 6)):
+            with self.subTest(tip=tip):
+                exits = [destination(level.grid, tip, move) for move in Move]
+                index = excursion.index(tip)
+                self.assertEqual([p for p in exits if p is not None], [excursion[index - 1]])
+                self.assertEqual(excursion[index + 1], excursion[index - 1])
+        self.assertEqual(finish_search[last + 1], (27, 2))
