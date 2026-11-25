@@ -1,0 +1,2091 @@
+{
+  "seed": 39139,
+  "epochs": [
+    12,
+    24,
+    48
+  ],
+  "history": [
+    {
+      "stage": 1,
+      "epoch": 1,
+      "epsilon": 0.24,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 394
+    },
+    {
+      "stage": 1,
+      "epoch": 2,
+      "epsilon": 0.2218181818181818,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 404
+    },
+    {
+      "stage": 1,
+      "epoch": 3,
+      "epsilon": 0.20363636363636362,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 409
+    },
+    {
+      "stage": 1,
+      "epoch": 4,
+      "epsilon": 0.18545454545454543,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 412
+    },
+    {
+      "stage": 1,
+      "epoch": 5,
+      "epsilon": 0.16727272727272724,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 391
+    },
+    {
+      "stage": 1,
+      "epoch": 6,
+      "epsilon": 0.14909090909090908,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 339
+    },
+    {
+      "stage": 1,
+      "epoch": 7,
+      "epsilon": 0.13090909090909086,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 380
+    },
+    {
+      "stage": 1,
+      "epoch": 8,
+      "epsilon": 0.1127272727272727,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 354
+    },
+    {
+      "stage": 1,
+      "epoch": 9,
+      "epsilon": 0.09454545454545452,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 364
+    },
+    {
+      "stage": 1,
+      "epoch": 10,
+      "epsilon": 0.07636363636363636,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 352
+    },
+    {
+      "stage": 1,
+      "epoch": 11,
+      "epsilon": 0.05818181818181817,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 334
+    },
+    {
+      "stage": 1,
+      "epoch": 12,
+      "epsilon": 0.03999999999999998,
+      "outcomes": {
+        "SUCCESS": 30
+      },
+      "steps": 311
+    },
+    {
+      "stage": 2,
+      "epoch": 1,
+      "epsilon": 0.24,
+      "outcomes": {
+        "SUCCESS": 22,
+        "EMPTY": 8,
+        "BROKEN": 10
+      },
+      "steps": 1239
+    },
+    {
+      "stage": 2,
+      "epoch": 2,
+      "epsilon": 0.23130434782608694,
+      "outcomes": {
+        "EMPTY": 9,
+        "BROKEN": 5,
+        "SUCCESS": 26
+      },
+      "steps": 1097
+    },
+    {
+      "stage": 2,
+      "epoch": 3,
+      "epsilon": 0.2226086956521739,
+      "outcomes": {
+        "EMPTY": 9,
+        "SUCCESS": 25,
+        "BROKEN": 6
+      },
+      "steps": 1166
+    },
+    {
+      "stage": 2,
+      "epoch": 4,
+      "epsilon": 0.21391304347826084,
+      "outcomes": {
+        "SUCCESS": 21,
+        "EMPTY": 8,
+        "BROKEN": 11
+      },
+      "steps": 902
+    },
+    {
+      "stage": 2,
+      "epoch": 5,
+      "epsilon": 0.20521739130434782,
+      "outcomes": {
+        "EMPTY": 8,
+        "SUCCESS": 22,
+        "BROKEN": 10
+      },
+      "steps": 1017
+    },
+    {
+      "stage": 2,
+      "epoch": 6,
+      "epsilon": 0.19652173913043477,
+      "outcomes": {
+        "BROKEN": 11,
+        "SUCCESS": 24,
+        "EMPTY": 5
+      },
+      "steps": 1097
+    },
+    {
+      "stage": 2,
+      "epoch": 7,
+      "epsilon": 0.18782608695652173,
+      "outcomes": {
+        "SUCCESS": 19,
+        "EMPTY": 10,
+        "BROKEN": 11
+      },
+      "steps": 861
+    },
+    {
+      "stage": 2,
+      "epoch": 8,
+      "epsilon": 0.17913043478260868,
+      "outcomes": {
+        "SUCCESS": 22,
+        "BROKEN": 10,
+        "EMPTY": 8
+      },
+      "steps": 775
+    },
+    {
+      "stage": 2,
+      "epoch": 9,
+      "epsilon": 0.17043478260869566,
+      "outcomes": {
+        "EMPTY": 6,
+        "SUCCESS": 24,
+        "BROKEN": 10
+      },
+      "steps": 1019
+    },
+    {
+      "stage": 2,
+      "epoch": 10,
+      "epsilon": 0.1617391304347826,
+      "outcomes": {
+        "SUCCESS": 19,
+        "EMPTY": 8,
+        "BROKEN": 13
+      },
+      "steps": 947
+    },
+    {
+      "stage": 2,
+      "epoch": 11,
+      "epsilon": 0.15304347826086956,
+      "outcomes": {
+        "EMPTY": 5,
+        "SUCCESS": 23,
+        "BROKEN": 12
+      },
+      "steps": 917
+    },
+    {
+      "stage": 2,
+      "epoch": 12,
+      "epsilon": 0.1443478260869565,
+      "outcomes": {
+        "SUCCESS": 20,
+        "BROKEN": 11,
+        "EMPTY": 9
+      },
+      "steps": 853
+    },
+    {
+      "stage": 2,
+      "epoch": 13,
+      "epsilon": 0.13565217391304346,
+      "outcomes": {
+        "SUCCESS": 19,
+        "EMPTY": 10,
+        "BROKEN": 11
+      },
+      "steps": 794
+    },
+    {
+      "stage": 2,
+      "epoch": 14,
+      "epsilon": 0.1269565217391304,
+      "outcomes": {
+        "BROKEN": 10,
+        "SUCCESS": 23,
+        "EMPTY": 7
+      },
+      "steps": 947
+    },
+    {
+      "stage": 2,
+      "epoch": 15,
+      "epsilon": 0.11826086956521738,
+      "outcomes": {
+        "SUCCESS": 21,
+        "BROKEN": 12,
+        "EMPTY": 7
+      },
+      "steps": 1002
+    },
+    {
+      "stage": 2,
+      "epoch": 16,
+      "epsilon": 0.10956521739130434,
+      "outcomes": {
+        "SUCCESS": 23,
+        "EMPTY": 10,
+        "BROKEN": 7
+      },
+      "steps": 796
+    },
+    {
+      "stage": 2,
+      "epoch": 17,
+      "epsilon": 0.1008695652173913,
+      "outcomes": {
+        "EMPTY": 10,
+        "SUCCESS": 22,
+        "BROKEN": 8
+      },
+      "steps": 844
+    },
+    {
+      "stage": 2,
+      "epoch": 18,
+      "epsilon": 0.09217391304347824,
+      "outcomes": {
+        "SUCCESS": 23,
+        "EMPTY": 10,
+        "BROKEN": 7
+      },
+      "steps": 802
+    },
+    {
+      "stage": 2,
+      "epoch": 19,
+      "epsilon": 0.0834782608695652,
+      "outcomes": {
+        "BROKEN": 8,
+        "EMPTY": 10,
+        "SUCCESS": 22
+      },
+      "steps": 920
+    },
+    {
+      "stage": 2,
+      "epoch": 20,
+      "epsilon": 0.07478260869565215,
+      "outcomes": {
+        "SUCCESS": 22,
+        "BROKEN": 8,
+        "EMPTY": 10
+      },
+      "steps": 889
+    },
+    {
+      "stage": 2,
+      "epoch": 21,
+      "epsilon": 0.06608695652173913,
+      "outcomes": {
+        "SUCCESS": 20,
+        "EMPTY": 12,
+        "BROKEN": 8
+      },
+      "steps": 689
+    },
+    {
+      "stage": 2,
+      "epoch": 22,
+      "epsilon": 0.05739130434782608,
+      "outcomes": {
+        "SUCCESS": 23,
+        "BROKEN": 6,
+        "EMPTY": 11
+      },
+      "steps": 831
+    },
+    {
+      "stage": 2,
+      "epoch": 23,
+      "epsilon": 0.04869565217391303,
+      "outcomes": {
+        "SUCCESS": 25,
+        "EMPTY": 9,
+        "BROKEN": 6
+      },
+      "steps": 837
+    },
+    {
+      "stage": 2,
+      "epoch": 24,
+      "epsilon": 0.03999999999999998,
+      "outcomes": {
+        "BROKEN": 8,
+        "SUCCESS": 22,
+        "EMPTY": 10
+      },
+      "steps": 776
+    },
+    {
+      "stage": 3,
+      "epoch": 1,
+      "epsilon": 0.24,
+      "outcomes": {
+        "BROKEN": 19,
+        "EMPTY": 19,
+        "SUCCESS": 12
+      },
+      "steps": 1052
+    },
+    {
+      "stage": 3,
+      "epoch": 2,
+      "epsilon": 0.23574468085106381,
+      "outcomes": {
+        "SUCCESS": 11,
+        "BROKEN": 21,
+        "EMPTY": 18
+      },
+      "steps": 888
+    },
+    {
+      "stage": 3,
+      "epoch": 3,
+      "epsilon": 0.23148936170212764,
+      "outcomes": {
+        "EMPTY": 19,
+        "BROKEN": 17,
+        "SUCCESS": 14
+      },
+      "steps": 898
+    },
+    {
+      "stage": 3,
+      "epoch": 4,
+      "epsilon": 0.2272340425531915,
+      "outcomes": {
+        "EMPTY": 21,
+        "BROKEN": 14,
+        "SUCCESS": 15
+      },
+      "steps": 995
+    },
+    {
+      "stage": 3,
+      "epoch": 5,
+      "epsilon": 0.2229787234042553,
+      "outcomes": {
+        "EMPTY": 18,
+        "BROKEN": 16,
+        "SUCCESS": 16
+      },
+      "steps": 1045
+    },
+    {
+      "stage": 3,
+      "epoch": 6,
+      "epsilon": 0.21872340425531914,
+      "outcomes": {
+        "BROKEN": 20,
+        "EMPTY": 16,
+        "SUCCESS": 14
+      },
+      "steps": 1114
+    },
+    {
+      "stage": 3,
+      "epoch": 7,
+      "epsilon": 0.21446808510638296,
+      "outcomes": {
+        "BROKEN": 19,
+        "SUCCESS": 12,
+        "EMPTY": 19
+      },
+      "steps": 858
+    },
+    {
+      "stage": 3,
+      "epoch": 8,
+      "epsilon": 0.2102127659574468,
+      "outcomes": {
+        "SUCCESS": 13,
+        "EMPTY": 18,
+        "BROKEN": 19
+      },
+      "steps": 873
+    },
+    {
+      "stage": 3,
+      "epoch": 9,
+      "epsilon": 0.20595744680851064,
+      "outcomes": {
+        "BROKEN": 21,
+        "EMPTY": 16,
+        "SUCCESS": 13
+      },
+      "steps": 1017
+    },
+    {
+      "stage": 3,
+      "epoch": 10,
+      "epsilon": 0.20170212765957446,
+      "outcomes": {
+        "EMPTY": 16,
+        "BROKEN": 23,
+        "SUCCESS": 11
+      },
+      "steps": 844
+    },
+    {
+      "stage": 3,
+      "epoch": 11,
+      "epsilon": 0.19744680851063828,
+      "outcomes": {
+        "SUCCESS": 17,
+        "BROKEN": 15,
+        "EMPTY": 18
+      },
+      "steps": 1175
+    },
+    {
+      "stage": 3,
+      "epoch": 12,
+      "epsilon": 0.1931914893617021,
+      "outcomes": {
+        "BROKEN": 18,
+        "EMPTY": 19,
+        "SUCCESS": 13
+      },
+      "steps": 1059
+    },
+    {
+      "stage": 3,
+      "epoch": 13,
+      "epsilon": 0.18893617021276593,
+      "outcomes": {
+        "EMPTY": 16,
+        "SUCCESS": 17,
+        "BROKEN": 17
+      },
+      "steps": 977
+    },
+    {
+      "stage": 3,
+      "epoch": 14,
+      "epsilon": 0.18468085106382978,
+      "outcomes": {
+        "BROKEN": 17,
+        "EMPTY": 14,
+        "SUCCESS": 19
+      },
+      "steps": 1047
+    },
+    {
+      "stage": 3,
+      "epoch": 15,
+      "epsilon": 0.1804255319148936,
+      "outcomes": {
+        "EMPTY": 10,
+        "BROKEN": 22,
+        "SUCCESS": 18
+      },
+      "steps": 1306
+    },
+    {
+      "stage": 3,
+      "epoch": 16,
+      "epsilon": 0.17617021276595746,
+      "outcomes": {
+        "EMPTY": 12,
+        "SUCCESS": 19,
+        "BROKEN": 19
+      },
+      "steps": 1081
+    },
+    {
+      "stage": 3,
+      "epoch": 17,
+      "epsilon": 0.17191489361702128,
+      "outcomes": {
+        "EMPTY": 19,
+        "BROKEN": 17,
+        "SUCCESS": 14
+      },
+      "steps": 919
+    },
+    {
+      "stage": 3,
+      "epoch": 18,
+      "epsilon": 0.1676595744680851,
+      "outcomes": {
+        "EMPTY": 18,
+        "BROKEN": 16,
+        "SUCCESS": 16
+      },
+      "steps": 1141
+    },
+    {
+      "stage": 3,
+      "epoch": 19,
+      "epsilon": 0.16340425531914893,
+      "outcomes": {
+        "EMPTY": 17,
+        "SUCCESS": 22,
+        "BROKEN": 11
+      },
+      "steps": 1463
+    },
+    {
+      "stage": 3,
+      "epoch": 20,
+      "epsilon": 0.15914893617021275,
+      "outcomes": {
+        "BROKEN": 18,
+        "EMPTY": 17,
+        "SUCCESS": 15
+      },
+      "steps": 1094
+    },
+    {
+      "stage": 3,
+      "epoch": 21,
+      "epsilon": 0.15489361702127658,
+      "outcomes": {
+        "SUCCESS": 17,
+        "BROKEN": 19,
+        "EMPTY": 14
+      },
+      "steps": 999
+    },
+    {
+      "stage": 3,
+      "epoch": 22,
+      "epsilon": 0.1506382978723404,
+      "outcomes": {
+        "BROKEN": 22,
+        "EMPTY": 14,
+        "SUCCESS": 14
+      },
+      "steps": 993
+    },
+    {
+      "stage": 3,
+      "epoch": 23,
+      "epsilon": 0.14638297872340422,
+      "outcomes": {
+        "BROKEN": 20,
+        "EMPTY": 13,
+        "SUCCESS": 17
+      },
+      "steps": 1016
+    },
+    {
+      "stage": 3,
+      "epoch": 24,
+      "epsilon": 0.14212765957446805,
+      "outcomes": {
+        "EMPTY": 16,
+        "SUCCESS": 13,
+        "BROKEN": 21
+      },
+      "steps": 925
+    },
+    {
+      "stage": 3,
+      "epoch": 25,
+      "epsilon": 0.1378723404255319,
+      "outcomes": {
+        "SUCCESS": 18,
+        "BROKEN": 24,
+        "EMPTY": 8
+      },
+      "steps": 1008
+    },
+    {
+      "stage": 3,
+      "epoch": 26,
+      "epsilon": 0.13361702127659575,
+      "outcomes": {
+        "BROKEN": 24,
+        "SUCCESS": 17,
+        "EMPTY": 9
+      },
+      "steps": 1106
+    },
+    {
+      "stage": 3,
+      "epoch": 27,
+      "epsilon": 0.12936170212765957,
+      "outcomes": {
+        "BROKEN": 22,
+        "SUCCESS": 20,
+        "EMPTY": 8
+      },
+      "steps": 1316
+    },
+    {
+      "stage": 3,
+      "epoch": 28,
+      "epsilon": 0.1251063829787234,
+      "outcomes": {
+        "BROKEN": 23,
+        "SUCCESS": 21,
+        "EMPTY": 6
+      },
+      "steps": 1253
+    },
+    {
+      "stage": 3,
+      "epoch": 29,
+      "epsilon": 0.12085106382978722,
+      "outcomes": {
+        "SUCCESS": 20,
+        "EMPTY": 11,
+        "BROKEN": 19
+      },
+      "steps": 1262
+    },
+    {
+      "stage": 3,
+      "epoch": 30,
+      "epsilon": 0.11659574468085104,
+      "outcomes": {
+        "BROKEN": 20,
+        "SUCCESS": 18,
+        "EMPTY": 12
+      },
+      "steps": 1185
+    },
+    {
+      "stage": 3,
+      "epoch": 31,
+      "epsilon": 0.1123404255319149,
+      "outcomes": {
+        "BROKEN": 21,
+        "SUCCESS": 15,
+        "EMPTY": 14
+      },
+      "steps": 1077
+    },
+    {
+      "stage": 3,
+      "epoch": 32,
+      "epsilon": 0.10808510638297872,
+      "outcomes": {
+        "SUCCESS": 18,
+        "BROKEN": 20,
+        "EMPTY": 12
+      },
+      "steps": 971
+    },
+    {
+      "stage": 3,
+      "epoch": 33,
+      "epsilon": 0.10382978723404254,
+      "outcomes": {
+        "BROKEN": 21,
+        "EMPTY": 10,
+        "SUCCESS": 19
+      },
+      "steps": 1129
+    },
+    {
+      "stage": 3,
+      "epoch": 34,
+      "epsilon": 0.09957446808510637,
+      "outcomes": {
+        "BROKEN": 24,
+        "EMPTY": 9,
+        "SUCCESS": 17
+      },
+      "steps": 1090
+    },
+    {
+      "stage": 3,
+      "epoch": 35,
+      "epsilon": 0.09531914893617019,
+      "outcomes": {
+        "BROKEN": 20,
+        "SUCCESS": 20,
+        "EMPTY": 10
+      },
+      "steps": 1185
+    },
+    {
+      "stage": 3,
+      "epoch": 36,
+      "epsilon": 0.09106382978723404,
+      "outcomes": {
+        "SUCCESS": 24,
+        "EMPTY": 7,
+        "BROKEN": 19
+      },
+      "steps": 1294
+    },
+    {
+      "stage": 3,
+      "epoch": 37,
+      "epsilon": 0.08680851063829786,
+      "outcomes": {
+        "SUCCESS": 21,
+        "BROKEN": 23,
+        "EMPTY": 6
+      },
+      "steps": 1187
+    },
+    {
+      "stage": 3,
+      "epoch": 38,
+      "epsilon": 0.08255319148936169,
+      "outcomes": {
+        "SUCCESS": 19,
+        "BROKEN": 24,
+        "EMPTY": 7
+      },
+      "steps": 1047
+    },
+    {
+      "stage": 3,
+      "epoch": 39,
+      "epsilon": 0.07829787234042551,
+      "outcomes": {
+        "BROKEN": 25,
+        "SUCCESS": 16,
+        "EMPTY": 9
+      },
+      "steps": 1164
+    },
+    {
+      "stage": 3,
+      "epoch": 40,
+      "epsilon": 0.07404255319148934,
+      "outcomes": {
+        "BROKEN": 21,
+        "EMPTY": 9,
+        "SUCCESS": 20
+      },
+      "steps": 1093
+    },
+    {
+      "stage": 3,
+      "epoch": 41,
+      "epsilon": 0.06978723404255319,
+      "outcomes": {
+        "SUCCESS": 19,
+        "EMPTY": 10,
+        "BROKEN": 21
+      },
+      "steps": 1109
+    },
+    {
+      "stage": 3,
+      "epoch": 42,
+      "epsilon": 0.06553191489361698,
+      "outcomes": {
+        "EMPTY": 18,
+        "SUCCESS": 20,
+        "BROKEN": 12
+      },
+      "steps": 1196
+    },
+    {
+      "stage": 3,
+      "epoch": 43,
+      "epsilon": 0.061276595744680834,
+      "outcomes": {
+        "SUCCESS": 22,
+        "EMPTY": 13,
+        "BROKEN": 15
+      },
+      "steps": 1228
+    },
+    {
+      "stage": 3,
+      "epoch": 44,
+      "epsilon": 0.057021276595744685,
+      "outcomes": {
+        "SUCCESS": 22,
+        "EMPTY": 18,
+        "BROKEN": 10
+      },
+      "steps": 1447
+    },
+    {
+      "stage": 3,
+      "epoch": 45,
+      "epsilon": 0.05276595744680848,
+      "outcomes": {
+        "SUCCESS": 14,
+        "EMPTY": 15,
+        "BROKEN": 21
+      },
+      "steps": 1074
+    },
+    {
+      "stage": 3,
+      "epoch": 46,
+      "epsilon": 0.04851063829787233,
+      "outcomes": {
+        "BROKEN": 24,
+        "EMPTY": 12,
+        "SUCCESS": 14
+      },
+      "steps": 923
+    },
+    {
+      "stage": 3,
+      "epoch": 47,
+      "epsilon": 0.04425531914893613,
+      "outcomes": {
+        "BROKEN": 22,
+        "SUCCESS": 18,
+        "EMPTY": 10
+      },
+      "steps": 1076
+    },
+    {
+      "stage": 3,
+      "epoch": 48,
+      "epsilon": 0.03999999999999998,
+      "outcomes": {
+        "SUCCESS": 15,
+        "EMPTY": 14,
+        "BROKEN": 21
+      },
+      "steps": 1285
+    }
+  ],
+  "validation": [
+    {
+      "epoch": 12,
+      "maps": [
+        {
+          "map": "val-1-01",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-02",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-03",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-04",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-05",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-06",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-07",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-08",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-09",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-10",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-11",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-12",
+          "stage": 1,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-01",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 100,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-02",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-03",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 100,
+          "refuels": 3,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-04",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-05",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 9,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-06",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-07",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-08",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-09",
+          "stage": 2,
+          "outcome": "LIMIT",
+          "steps": 1496,
+          "refuels": 19,
+          "repairs": 709
+        },
+        {
+          "map": "val-2-10",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-2-11",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 100,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-12",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 100,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-01",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-02",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 47,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-03",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 111,
+          "refuels": 1,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-04",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-05",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 32,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-06",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-07",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-08",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-09",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 9,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-10",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-11",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-12",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "epoch": 24,
+      "maps": [
+        {
+          "map": "val-1-01",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-02",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 19,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-03",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-04",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-05",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 5,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-06",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 8,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-07",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 7,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-08",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-09",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 6,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-10",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-11",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 7,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-12",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-01",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 26,
+          "refuels": 2,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-02",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-03",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-04",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-05",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 22,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-06",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-07",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 28,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-08",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-09",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 34,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-10",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-11",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-12",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-01",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 2,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-02",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-03",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 23,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-04",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-05",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-06",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 105,
+          "refuels": 1,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-07",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 28,
+          "refuels": 3,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-08",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-09",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 3,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-10",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-11",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 23,
+          "refuels": 2,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-12",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 40,
+          "refuels": 0,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "epoch": 36,
+      "maps": [
+        {
+          "map": "val-1-01",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-02",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 19,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-03",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-04",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-05",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 5,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-06",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 8,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-07",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 7,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-08",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-09",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 6,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-10",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-11",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 7,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-12",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-01",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 26,
+          "refuels": 2,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-02",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-03",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 26,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-04",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 42,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-2-05",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 22,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-06",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-07",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-08",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-09",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 34,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-10",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 69,
+          "refuels": 0,
+          "repairs": 3
+        },
+        {
+          "map": "val-2-11",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 34,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-12",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 36,
+          "refuels": 1,
+          "repairs": 2
+        },
+        {
+          "map": "val-3-01",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-02",
+          "stage": 3,
+          "outcome": "SUCCESS",
+          "steps": 96,
+          "refuels": 1,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-03",
+          "stage": 3,
+          "outcome": "SUCCESS",
+          "steps": 83,
+          "refuels": 2,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-04",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-05",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 102,
+          "refuels": 1,
+          "repairs": 3
+        },
+        {
+          "map": "val-3-06",
+          "stage": 3,
+          "outcome": "SUCCESS",
+          "steps": 68,
+          "refuels": 1,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-07",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 28,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-08",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-09",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 9,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-10",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-11",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-12",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "epoch": 48,
+      "maps": [
+        {
+          "map": "val-1-01",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-02",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 19,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-03",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-04",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-05",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 5,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-06",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 8,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-07",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 7,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-08",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-09",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 6,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-10",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-11",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 7,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-1-12",
+          "stage": 1,
+          "outcome": "SUCCESS",
+          "steps": 10,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-01",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 26,
+          "refuels": 2,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-02",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-2-03",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-04",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 38,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-2-05",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 9,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-06",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-07",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-08",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 19,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-2-09",
+          "stage": 2,
+          "outcome": "EMPTY",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-10",
+          "stage": 2,
+          "outcome": "BROKEN",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-11",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 34,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-2-12",
+          "stage": 2,
+          "outcome": "SUCCESS",
+          "steps": 36,
+          "refuels": 1,
+          "repairs": 2
+        },
+        {
+          "map": "val-3-01",
+          "stage": 3,
+          "outcome": "SUCCESS",
+          "steps": 51,
+          "refuels": 1,
+          "repairs": 2
+        },
+        {
+          "map": "val-3-02",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 47,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-03",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 117,
+          "refuels": 2,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-04",
+          "stage": 3,
+          "outcome": "EMPTY",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-05",
+          "stage": 3,
+          "outcome": "SUCCESS",
+          "steps": 83,
+          "refuels": 1,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-06",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-07",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 28,
+          "refuels": 1,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-08",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-09",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 2,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-10",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "map": "val-3-11",
+          "stage": 3,
+          "outcome": "SUCCESS",
+          "steps": 51,
+          "refuels": 1,
+          "repairs": 1
+        },
+        {
+          "map": "val-3-12",
+          "stage": 3,
+          "outcome": "BROKEN",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    }
+  ],
+  "selected": 36,
+  "policy_sha256": "b589fdec2e0b8101928f8d2c894f720b62b35479c8eadc31f7a8cc49f8e09dc3",
+  "datasets": {
+    "train": "9e18643967598d4b0ab2c192510e921efdbf8d9a7dd7204fdada70aa2dddce6e",
+    "val": "07d6060cb73172bdbd059b086a3589d4a049424188b68c78606393556c7877c7"
+  },
+  "seconds": 7.41
+}

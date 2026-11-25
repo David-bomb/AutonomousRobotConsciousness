@@ -1,0 +1,85 @@
+{
+  "policy_sha256": "677eb3af68ce55e890d45061ad3f57436e9ebbaefb42305578bffdc82a0f90a5",
+  "maps": [
+    {
+      "map": "01-diagonal",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 4,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "02-loop",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "03-dead-end",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "04-fuel",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 18,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "05-repair",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "06-expedition",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 42,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "07-locks",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 50,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "08-galleries",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 58,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "09-switchbacks",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 78,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "10-crossroads",
+      "stage": 0,
+      "outcome": "SUCCESS",
+      "steps": 79,
+      "refuels": 1,
+      "repairs": 1
+    }
+  ]
+}

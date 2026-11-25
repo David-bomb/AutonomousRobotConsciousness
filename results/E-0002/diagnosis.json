@@ -1,0 +1,1512 @@
+[
+  {
+    "name": "val-3-01",
+    "outcome": "EMPTY",
+    "steps": 15,
+    "critical": {
+      "step": 5,
+      "pos": [
+        1,
+        21
+      ],
+      "mode": "REPAIR",
+      "move": "NORTH",
+      "fuel": 11,
+      "health": 11,
+      "dF": 7,
+      "dR": 11,
+      "after": [
+        1,
+        20
+      ],
+      "after_dF": 8,
+      "after_dR": 12,
+      "alternatives": [
+        "SOUTH"
+      ]
+    },
+    "trace": [
+      {
+        "step": 1,
+        "pos": [
+          1,
+          25
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 15,
+        "health": 15,
+        "dF": 3,
+        "dR": 7
+      },
+      {
+        "step": 2,
+        "pos": [
+          1,
+          24
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 14,
+        "health": 14,
+        "dF": 4,
+        "dR": 8
+      },
+      {
+        "step": 3,
+        "pos": [
+          1,
+          23
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 13,
+        "health": 13,
+        "dF": 5,
+        "dR": 9
+      },
+      {
+        "step": 4,
+        "pos": [
+          1,
+          22
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 12,
+        "health": 12,
+        "dF": 6,
+        "dR": 10
+      },
+      {
+        "step": 5,
+        "pos": [
+          1,
+          21
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 11,
+        "health": 11,
+        "dF": 7,
+        "dR": 11
+      },
+      {
+        "step": 6,
+        "pos": [
+          1,
+          20
+        ],
+        "mode": "FUEL",
+        "move": "NORTH",
+        "fuel": 10,
+        "health": 10,
+        "dF": 8,
+        "dR": 12
+      },
+      {
+        "step": 7,
+        "pos": [
+          1,
+          19
+        ],
+        "mode": "FUEL",
+        "move": "EAST",
+        "fuel": 9,
+        "health": 9,
+        "dF": 9,
+        "dR": 13
+      },
+      {
+        "step": 8,
+        "pos": [
+          2,
+          19
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 8,
+        "health": 8,
+        "dF": 10,
+        "dR": 14
+      },
+      {
+        "step": 9,
+        "pos": [
+          2,
+          18
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 7,
+        "health": 7,
+        "dF": 11,
+        "dR": 15
+      },
+      {
+        "step": 10,
+        "pos": [
+          3,
+          18
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 6,
+        "health": 6,
+        "dF": 11,
+        "dR": 15
+      },
+      {
+        "step": 11,
+        "pos": [
+          3,
+          17
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 5,
+        "health": 5,
+        "dF": 12,
+        "dR": 16
+      },
+      {
+        "step": 12,
+        "pos": [
+          3,
+          16
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 4,
+        "health": 4,
+        "dF": 13,
+        "dR": 16
+      },
+      {
+        "step": 13,
+        "pos": [
+          3,
+          15
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 3,
+        "health": 3,
+        "dF": 14,
+        "dR": 15
+      },
+      {
+        "step": 14,
+        "pos": [
+          3,
+          14
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 2,
+        "health": 2,
+        "dF": 13,
+        "dR": 14
+      },
+      {
+        "step": 15,
+        "pos": [
+          3,
+          13
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 1,
+        "health": 1,
+        "dF": 12,
+        "dR": 13
+      }
+    ]
+  },
+  {
+    "name": "val-3-02",
+    "outcome": "BROKEN",
+    "steps": 26,
+    "critical": {
+      "step": 24,
+      "pos": [
+        7,
+        3
+      ],
+      "mode": "FUEL",
+      "move": "SOUTH",
+      "fuel": 24,
+      "health": 3,
+      "dF": 22,
+      "dR": 1,
+      "after": [
+        7,
+        4
+      ],
+      "after_dF": 21,
+      "after_dR": 2,
+      "alternatives": [
+        "WEST"
+      ]
+    },
+    "trace": [
+      {
+        "step": 1,
+        "pos": [
+          2,
+          1
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 47,
+        "health": 26,
+        "dF": 33,
+        "dR": 16
+      },
+      {
+        "step": 2,
+        "pos": [
+          3,
+          1
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 46,
+        "health": 25,
+        "dF": 32,
+        "dR": 15
+      },
+      {
+        "step": 3,
+        "pos": [
+          3,
+          2
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 45,
+        "health": 24,
+        "dF": 31,
+        "dR": 14
+      },
+      {
+        "step": 4,
+        "pos": [
+          3,
+          3
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 44,
+        "health": 23,
+        "dF": 30,
+        "dR": 13
+      },
+      {
+        "step": 5,
+        "pos": [
+          2,
+          3
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 43,
+        "health": 22,
+        "dF": 29,
+        "dR": 12
+      },
+      {
+        "step": 6,
+        "pos": [
+          1,
+          3
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 42,
+        "health": 21,
+        "dF": 28,
+        "dR": 11
+      },
+      {
+        "step": 7,
+        "pos": [
+          1,
+          4
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 41,
+        "health": 20,
+        "dF": 27,
+        "dR": 10
+      },
+      {
+        "step": 8,
+        "pos": [
+          1,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 40,
+        "health": 19,
+        "dF": 26,
+        "dR": 9
+      },
+      {
+        "step": 9,
+        "pos": [
+          2,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 39,
+        "health": 18,
+        "dF": 25,
+        "dR": 8
+      },
+      {
+        "step": 10,
+        "pos": [
+          3,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 38,
+        "health": 17,
+        "dF": 24,
+        "dR": 7
+      },
+      {
+        "step": 11,
+        "pos": [
+          4,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 37,
+        "health": 16,
+        "dF": 23,
+        "dR": 6
+      },
+      {
+        "step": 12,
+        "pos": [
+          5,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 36,
+        "health": 15,
+        "dF": 22,
+        "dR": 5
+      },
+      {
+        "step": 13,
+        "pos": [
+          6,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 35,
+        "health": 14,
+        "dF": 21,
+        "dR": 4
+      },
+      {
+        "step": 14,
+        "pos": [
+          7,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 34,
+        "health": 13,
+        "dF": 20,
+        "dR": 3
+      },
+      {
+        "step": 15,
+        "pos": [
+          7,
+          6
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 33,
+        "health": 12,
+        "dF": 19,
+        "dR": 4
+      },
+      {
+        "step": 16,
+        "pos": [
+          7,
+          7
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 32,
+        "health": 11,
+        "dF": 18,
+        "dR": 5
+      },
+      {
+        "step": 17,
+        "pos": [
+          7,
+          8
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 31,
+        "health": 10,
+        "dF": 17,
+        "dR": 6
+      },
+      {
+        "step": 18,
+        "pos": [
+          7,
+          7
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 30,
+        "health": 9,
+        "dF": 18,
+        "dR": 5
+      },
+      {
+        "step": 19,
+        "pos": [
+          7,
+          6
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 29,
+        "health": 8,
+        "dF": 19,
+        "dR": 4
+      },
+      {
+        "step": 20,
+        "pos": [
+          7,
+          5
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 28,
+        "health": 7,
+        "dF": 20,
+        "dR": 3
+      },
+      {
+        "step": 21,
+        "pos": [
+          7,
+          4
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 27,
+        "health": 6,
+        "dF": 21,
+        "dR": 2
+      },
+      {
+        "step": 22,
+        "pos": [
+          7,
+          3
+        ],
+        "mode": "FUEL",
+        "move": "SOUTH",
+        "fuel": 26,
+        "health": 5,
+        "dF": 22,
+        "dR": 1
+      },
+      {
+        "step": 23,
+        "pos": [
+          7,
+          4
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 25,
+        "health": 4,
+        "dF": 21,
+        "dR": 2
+      },
+      {
+        "step": 24,
+        "pos": [
+          7,
+          3
+        ],
+        "mode": "FUEL",
+        "move": "SOUTH",
+        "fuel": 24,
+        "health": 3,
+        "dF": 22,
+        "dR": 1
+      },
+      {
+        "step": 25,
+        "pos": [
+          7,
+          4
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 23,
+        "health": 2,
+        "dF": 21,
+        "dR": 2
+      },
+      {
+        "step": 26,
+        "pos": [
+          7,
+          3
+        ],
+        "mode": "FUEL",
+        "move": "SOUTH",
+        "fuel": 22,
+        "health": 1,
+        "dF": 22,
+        "dR": 1
+      }
+    ]
+  },
+  {
+    "name": "val-3-07",
+    "outcome": "BROKEN",
+    "steps": 28,
+    "critical": {
+      "step": 14,
+      "pos": [
+        8,
+        21
+      ],
+      "mode": "REPAIR",
+      "move": "WEST",
+      "fuel": 96,
+      "health": 15,
+      "dF": 4,
+      "dR": 15,
+      "after": [
+        7,
+        21
+      ],
+      "after_dF": 5,
+      "after_dR": 16,
+      "alternatives": [
+        "EAST"
+      ]
+    },
+    "trace": [
+      {
+        "step": 1,
+        "pos": [
+          5,
+          21
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 12,
+        "health": 28,
+        "dF": 7,
+        "dR": 22
+      },
+      {
+        "step": 2,
+        "pos": [
+          4,
+          21
+        ],
+        "mode": "FUEL",
+        "move": "EAST",
+        "fuel": 11,
+        "health": 27,
+        "dF": 8,
+        "dR": 23
+      },
+      {
+        "step": 3,
+        "pos": [
+          5,
+          21
+        ],
+        "mode": "FUEL",
+        "move": "SOUTH",
+        "fuel": 10,
+        "health": 26,
+        "dF": 7,
+        "dR": 22
+      },
+      {
+        "step": 4,
+        "pos": [
+          5,
+          22
+        ],
+        "mode": "FUEL",
+        "move": "SOUTH",
+        "fuel": 9,
+        "health": 25,
+        "dF": 6,
+        "dR": 21
+      },
+      {
+        "step": 5,
+        "pos": [
+          5,
+          23
+        ],
+        "mode": "FUEL",
+        "move": "EAST",
+        "fuel": 8,
+        "health": 24,
+        "dF": 5,
+        "dR": 20
+      },
+      {
+        "step": 6,
+        "pos": [
+          6,
+          23
+        ],
+        "mode": "FUEL",
+        "move": "EAST",
+        "fuel": 7,
+        "health": 23,
+        "dF": 4,
+        "dR": 19
+      },
+      {
+        "step": 7,
+        "pos": [
+          7,
+          23
+        ],
+        "mode": "FUEL",
+        "move": "EAST",
+        "fuel": 6,
+        "health": 22,
+        "dF": 3,
+        "dR": 18
+      },
+      {
+        "step": 8,
+        "pos": [
+          8,
+          23
+        ],
+        "mode": "FUEL",
+        "move": "EAST",
+        "fuel": 5,
+        "health": 21,
+        "dF": 2,
+        "dR": 17
+      },
+      {
+        "step": 9,
+        "pos": [
+          9,
+          23
+        ],
+        "mode": "FUEL",
+        "move": "EAST",
+        "fuel": 4,
+        "health": 20,
+        "dF": 1,
+        "dR": 16
+      },
+      {
+        "step": 10,
+        "pos": [
+          10,
+          23
+        ],
+        "mode": "REPAIR",
+        "move": "WEST",
+        "fuel": 100,
+        "health": 19,
+        "dF": 0,
+        "dR": 17
+      },
+      {
+        "step": 11,
+        "pos": [
+          9,
+          23
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 99,
+        "health": 18,
+        "dF": 1,
+        "dR": 16
+      },
+      {
+        "step": 12,
+        "pos": [
+          9,
+          22
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 98,
+        "health": 17,
+        "dF": 2,
+        "dR": 15
+      },
+      {
+        "step": 13,
+        "pos": [
+          9,
+          21
+        ],
+        "mode": "REPAIR",
+        "move": "WEST",
+        "fuel": 97,
+        "health": 16,
+        "dF": 3,
+        "dR": 14
+      },
+      {
+        "step": 14,
+        "pos": [
+          8,
+          21
+        ],
+        "mode": "REPAIR",
+        "move": "WEST",
+        "fuel": 96,
+        "health": 15,
+        "dF": 4,
+        "dR": 15
+      },
+      {
+        "step": 15,
+        "pos": [
+          7,
+          21
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 95,
+        "health": 14,
+        "dF": 5,
+        "dR": 16
+      },
+      {
+        "step": 16,
+        "pos": [
+          7,
+          20
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 94,
+        "health": 13,
+        "dF": 6,
+        "dR": 17
+      },
+      {
+        "step": 17,
+        "pos": [
+          7,
+          19
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 93,
+        "health": 12,
+        "dF": 7,
+        "dR": 18
+      },
+      {
+        "step": 18,
+        "pos": [
+          6,
+          19
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 92,
+        "health": 11,
+        "dF": 8,
+        "dR": 19
+      },
+      {
+        "step": 19,
+        "pos": [
+          5,
+          19
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 91,
+        "health": 10,
+        "dF": 9,
+        "dR": 18
+      },
+      {
+        "step": 20,
+        "pos": [
+          5,
+          18
+        ],
+        "mode": "GOAL",
+        "move": "NW",
+        "fuel": 90,
+        "health": 9,
+        "dF": 10,
+        "dR": 17
+      },
+      {
+        "step": 21,
+        "pos": [
+          4,
+          17
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 89,
+        "health": 8,
+        "dF": 11,
+        "dR": 16
+      },
+      {
+        "step": 22,
+        "pos": [
+          3,
+          17
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 88,
+        "health": 7,
+        "dF": 12,
+        "dR": 15
+      },
+      {
+        "step": 23,
+        "pos": [
+          2,
+          17
+        ],
+        "mode": "GOAL",
+        "move": "NW",
+        "fuel": 87,
+        "health": 6,
+        "dF": 13,
+        "dR": 14
+      },
+      {
+        "step": 24,
+        "pos": [
+          1,
+          16
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 86,
+        "health": 5,
+        "dF": 14,
+        "dR": 13
+      },
+      {
+        "step": 25,
+        "pos": [
+          1,
+          15
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 85,
+        "health": 4,
+        "dF": 15,
+        "dR": 12
+      },
+      {
+        "step": 26,
+        "pos": [
+          1,
+          14
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 84,
+        "health": 3,
+        "dF": 16,
+        "dR": 11
+      },
+      {
+        "step": 27,
+        "pos": [
+          1,
+          13
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 83,
+        "health": 2,
+        "dF": 15,
+        "dR": 10
+      },
+      {
+        "step": 28,
+        "pos": [
+          1,
+          12
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 82,
+        "health": 1,
+        "dF": 14,
+        "dR": 9
+      }
+    ]
+  },
+  {
+    "name": "val-3-09",
+    "outcome": "BROKEN",
+    "steps": 20,
+    "critical": {
+      "step": 9,
+      "pos": [
+        9,
+        13
+      ],
+      "mode": "REPAIR",
+      "move": "WEST",
+      "fuel": 98,
+      "health": 12,
+      "dF": 2,
+      "dR": 11,
+      "after": [
+        8,
+        13
+      ],
+      "after_dF": 3,
+      "after_dR": 12,
+      "alternatives": [
+        "SOUTH"
+      ]
+    },
+    "trace": [
+      {
+        "step": 1,
+        "pos": [
+          10,
+          12
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 9,
+        "health": 20,
+        "dF": 4,
+        "dR": 13
+      },
+      {
+        "step": 2,
+        "pos": [
+          10,
+          11
+        ],
+        "mode": "FUEL",
+        "move": "SOUTH",
+        "fuel": 8,
+        "health": 19,
+        "dF": 5,
+        "dR": 14
+      },
+      {
+        "step": 3,
+        "pos": [
+          10,
+          12
+        ],
+        "mode": "FUEL",
+        "move": "SOUTH",
+        "fuel": 7,
+        "health": 18,
+        "dF": 4,
+        "dR": 13
+      },
+      {
+        "step": 4,
+        "pos": [
+          10,
+          13
+        ],
+        "mode": "FUEL",
+        "move": "WEST",
+        "fuel": 6,
+        "health": 17,
+        "dF": 3,
+        "dR": 12
+      },
+      {
+        "step": 5,
+        "pos": [
+          9,
+          13
+        ],
+        "mode": "FUEL",
+        "move": "SOUTH",
+        "fuel": 5,
+        "health": 16,
+        "dF": 2,
+        "dR": 11
+      },
+      {
+        "step": 6,
+        "pos": [
+          9,
+          14
+        ],
+        "mode": "FUEL",
+        "move": "SOUTH",
+        "fuel": 4,
+        "health": 15,
+        "dF": 1,
+        "dR": 10
+      },
+      {
+        "step": 7,
+        "pos": [
+          9,
+          15
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 100,
+        "health": 14,
+        "dF": 0,
+        "dR": 9
+      },
+      {
+        "step": 8,
+        "pos": [
+          9,
+          14
+        ],
+        "mode": "REPAIR",
+        "move": "NORTH",
+        "fuel": 99,
+        "health": 13,
+        "dF": 1,
+        "dR": 10
+      },
+      {
+        "step": 9,
+        "pos": [
+          9,
+          13
+        ],
+        "mode": "REPAIR",
+        "move": "WEST",
+        "fuel": 98,
+        "health": 12,
+        "dF": 2,
+        "dR": 11
+      },
+      {
+        "step": 10,
+        "pos": [
+          8,
+          13
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 97,
+        "health": 11,
+        "dF": 3,
+        "dR": 12
+      },
+      {
+        "step": 11,
+        "pos": [
+          7,
+          13
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 96,
+        "health": 10,
+        "dF": 4,
+        "dR": 13
+      },
+      {
+        "step": 12,
+        "pos": [
+          8,
+          13
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 95,
+        "health": 9,
+        "dF": 3,
+        "dR": 12
+      },
+      {
+        "step": 13,
+        "pos": [
+          9,
+          13
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 94,
+        "health": 8,
+        "dF": 2,
+        "dR": 11
+      },
+      {
+        "step": 14,
+        "pos": [
+          10,
+          13
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 93,
+        "health": 7,
+        "dF": 3,
+        "dR": 12
+      },
+      {
+        "step": 15,
+        "pos": [
+          10,
+          12
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 92,
+        "health": 6,
+        "dF": 4,
+        "dR": 13
+      },
+      {
+        "step": 16,
+        "pos": [
+          10,
+          11
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 91,
+        "health": 5,
+        "dF": 5,
+        "dR": 14
+      },
+      {
+        "step": 17,
+        "pos": [
+          9,
+          11
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 90,
+        "health": 4,
+        "dF": 6,
+        "dR": 15
+      },
+      {
+        "step": 18,
+        "pos": [
+          9,
+          10
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 89,
+        "health": 3,
+        "dF": 7,
+        "dR": 16
+      },
+      {
+        "step": 19,
+        "pos": [
+          9,
+          9
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 88,
+        "health": 2,
+        "dF": 8,
+        "dR": 17
+      },
+      {
+        "step": 20,
+        "pos": [
+          9,
+          8
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 87,
+        "health": 1,
+        "dF": 9,
+        "dR": 18
+      }
+    ]
+  },
+  {
+    "name": "val-3-10",
+    "outcome": "BROKEN",
+    "steps": 16,
+    "critical": {
+      "step": 5,
+      "pos": [
+        11,
+        6
+      ],
+      "mode": "GOAL",
+      "move": "WEST",
+      "fuel": 18,
+      "health": 12,
+      "dF": 12,
+      "dR": 3,
+      "after": [
+        10,
+        6
+      ],
+      "after_dF": 11,
+      "after_dR": 4,
+      "alternatives": [
+        "SOUTH"
+      ]
+    },
+    "trace": [
+      {
+        "step": 1,
+        "pos": [
+          11,
+          4
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 22,
+        "health": 16,
+        "dF": 14,
+        "dR": 5
+      },
+      {
+        "step": 2,
+        "pos": [
+          11,
+          3
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 21,
+        "health": 15,
+        "dF": 15,
+        "dR": 6
+      },
+      {
+        "step": 3,
+        "pos": [
+          11,
+          4
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 20,
+        "health": 14,
+        "dF": 14,
+        "dR": 5
+      },
+      {
+        "step": 4,
+        "pos": [
+          11,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "SOUTH",
+        "fuel": 19,
+        "health": 13,
+        "dF": 13,
+        "dR": 4
+      },
+      {
+        "step": 5,
+        "pos": [
+          11,
+          6
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 18,
+        "health": 12,
+        "dF": 12,
+        "dR": 3
+      },
+      {
+        "step": 6,
+        "pos": [
+          10,
+          6
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 17,
+        "health": 11,
+        "dF": 11,
+        "dR": 4
+      },
+      {
+        "step": 7,
+        "pos": [
+          9,
+          6
+        ],
+        "mode": "GOAL",
+        "move": "NORTH",
+        "fuel": 16,
+        "health": 10,
+        "dF": 10,
+        "dR": 5
+      },
+      {
+        "step": 8,
+        "pos": [
+          9,
+          5
+        ],
+        "mode": "REPAIR",
+        "move": "SOUTH",
+        "fuel": 15,
+        "health": 9,
+        "dF": 11,
+        "dR": 6
+      },
+      {
+        "step": 9,
+        "pos": [
+          9,
+          6
+        ],
+        "mode": "REPAIR",
+        "move": "EAST",
+        "fuel": 14,
+        "health": 8,
+        "dF": 10,
+        "dR": 5
+      },
+      {
+        "step": 10,
+        "pos": [
+          10,
+          6
+        ],
+        "mode": "FUEL",
+        "move": "WEST",
+        "fuel": 13,
+        "health": 7,
+        "dF": 11,
+        "dR": 4
+      },
+      {
+        "step": 11,
+        "pos": [
+          9,
+          6
+        ],
+        "mode": "REPAIR",
+        "move": "EAST",
+        "fuel": 12,
+        "health": 6,
+        "dF": 10,
+        "dR": 5
+      },
+      {
+        "step": 12,
+        "pos": [
+          10,
+          6
+        ],
+        "mode": "FUEL",
+        "move": "WEST",
+        "fuel": 11,
+        "health": 5,
+        "dF": 11,
+        "dR": 4
+      },
+      {
+        "step": 13,
+        "pos": [
+          9,
+          6
+        ],
+        "mode": "FUEL",
+        "move": "NORTH",
+        "fuel": 10,
+        "health": 4,
+        "dF": 10,
+        "dR": 5
+      },
+      {
+        "step": 14,
+        "pos": [
+          9,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 9,
+        "health": 3,
+        "dF": 11,
+        "dR": 6
+      },
+      {
+        "step": 15,
+        "pos": [
+          8,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "WEST",
+        "fuel": 8,
+        "health": 2,
+        "dF": 12,
+        "dR": 7
+      },
+      {
+        "step": 16,
+        "pos": [
+          7,
+          5
+        ],
+        "mode": "GOAL",
+        "move": "EAST",
+        "fuel": 7,
+        "health": 1,
+        "dF": 13,
+        "dR": 8
+      }
+    ]
+  }
+]
