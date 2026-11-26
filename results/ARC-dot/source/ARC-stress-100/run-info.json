@@ -1,0 +1,41 @@
+{
+  "map_sha256": "ea09b467f486a64ffcabe20086c632da27c9c431e55d017be2732174971ef899",
+  "agents": [
+    "A",
+    "B",
+    "C (frontier-auto)",
+    "D",
+    "E",
+    "F",
+    "frontier",
+    "frontier-reserve",
+    "pilot",
+    "pilot+2",
+    "pilot+3",
+    "resources",
+    "resources+2",
+    "resources+3"
+  ],
+  "tiers": [
+    "H1",
+    "H2",
+    "H3",
+    "H4"
+  ],
+  "python": "3.12.14",
+  "reconstructed": true,
+  "equivalent_duplicate_comparisons": 2200,
+  "source_sha256": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "environment.py": "703046fe3788f308f5ec4e66be5610f869e6dd68d0506b365aaefc9b719d306b",
+    "frontier_automaton.py": "9b0208095a45fb51b11abfeafc3536c3a3862200e25fbc62d713be877abe60aa",
+    "frontier_guarded.py": "2cae915a7bad588edb1760045a566fbd8e9a9a193e805f3ef89dee235c7d0841",
+    "frontier_reserve.py": "075bc6116cf997ca9a96199e557db25289a5d43fe775e8fd692bc3d7796f28bd",
+    "grid.py": "94ec765ab3cc9671a03e0f5fb0911011bd17969134f25effc98198e44e4f9d01",
+    "interface.py": "71009a026fe9825b31c66f416bd0ae7e8fa21f780d08e42ac5b1ab3d7aab662f",
+    "levels.py": "1717a053b9e6175eb3b7837759a046948527d8f8739e1fd285ed2b95c99a6189",
+    "memory.py": "026f40914da9f29b687b181884c11dcd1ba521a8b8aa06b4292e90f1bdb67b57",
+    "pilot_automaton.py": "e5f7538550a31322cee18f281278038f0113e88c4ba9acdbf7b56ea691b2549f",
+    "resource_automaton.py": "0de8e32be67b6603ac9c7c9acb09994188920cf6a369cecf0a452e69085a8e92"
+  }
+}

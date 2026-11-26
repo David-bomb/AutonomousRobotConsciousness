@@ -1,0 +1,107 @@
+{"map": "H1-16", "split": "I", "samples": 0, "supports": [], "safe": ["NORTH", "EAST", "NE"], "parent": "NE"}
+{"map": "H1-24", "split": "I", "samples": 2, "supports": [[["SOUTH"], 1], [[], 1]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "H2-02", "split": "I", "samples": 0, "supports": [], "safe": ["EAST"], "parent": "EAST"}
+{"map": "H2-06", "split": "I", "samples": 2, "supports": [[["SOUTH"], 2]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "H2-09", "split": "I", "samples": 11, "supports": [[["EAST", "NE"], 7], [["EAST", "NE", "NW"], 4]], "safe": ["NORTH", "EAST", "NE"], "parent": "NE"}
+{"map": "H2-11", "split": "I", "samples": 4, "supports": [[["SOUTH", "SW", "WEST"], 4]], "safe": ["SOUTH", "WEST", "SW"], "parent": "SOUTH"}
+{"map": "H2-19", "split": "I", "samples": 0, "supports": [], "safe": ["WEST", "NW"], "parent": "WEST"}
+{"map": "H3-02", "split": "I", "samples": 0, "supports": [], "safe": ["NORTH", "EAST", "SOUTH", "NE", "SE"], "parent": "EAST"}
+{"map": "H3-03", "split": "I", "samples": 0, "supports": [], "safe": ["EAST"], "parent": "EAST"}
+{"map": "H3-04", "split": "I", "samples": 1, "supports": [[["NORTH"], 1]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H3-06", "split": "I", "samples": 31, "supports": [[["WEST"], 1], [["SOUTH", "WEST"], 30]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "H3-07", "split": "I", "samples": 2, "supports": [[["NORTH"], 2]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H3-12", "split": "I", "samples": 4, "supports": [[["WEST"], 4]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "H3-13", "split": "I", "samples": 11, "supports": [[["NORTH"], 11]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H3-14", "split": "I", "samples": 1, "supports": [[["NORTH", "NW"], 1]], "safe": ["NORTH", "NW"], "parent": "NW"}
+{"map": "H3-17", "split": "I", "samples": 1, "supports": [[[], 1]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H3-18", "split": "I", "samples": 31, "supports": [[["NORTH"], 3], [["EAST", "NORTH"], 28]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H4-01", "split": "I", "samples": 1, "supports": [[["NORTH"], 1]], "safe": ["EAST"], "parent": "NORTH"}
+{"map": "H4-03", "split": "I", "samples": 1, "supports": [[["WEST"], 1]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "H4-04", "split": "I", "samples": 4, "supports": [[["SOUTH"], 3], [[], 1]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "H4-05", "split": "I", "samples": 0, "supports": [], "safe": ["WEST", "NW"], "parent": "WEST"}
+{"map": "H4-06", "split": "I", "samples": 2, "supports": [[["NORTH"], 2]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H4-07", "split": "I", "samples": 0, "supports": [], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H4-08", "split": "I", "samples": 2, "supports": [[["NORTH", "NW"], 1], [["NW"], 1]], "safe": ["NORTH", "NW"], "parent": "NW"}
+{"map": "H4-09", "split": "I", "samples": 5, "supports": [[["WEST"], 5]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "H4-11", "split": "I", "samples": 5, "supports": [[["EAST", "NORTH"], 2], [["NORTH"], 3]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H4-13", "split": "I", "samples": 0, "supports": [], "safe": ["EAST"], "parent": "EAST"}
+{"map": "H4-14", "split": "I", "samples": 0, "supports": [], "safe": ["NORTH"], "parent": "SOUTH"}
+{"map": "H4-15", "split": "I", "samples": 1, "supports": [[[], 1]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H4-18", "split": "I", "samples": 3, "supports": [[["WEST"], 2], [["SOUTH"], 1]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "H4-19", "split": "I", "samples": 8, "supports": [[["NORTH"], 1], [["SOUTH", "WEST"], 1], [[], 3], [["SOUTH"], 2], [["NORTH", "SOUTH"], 1]], "safe": ["WEST"], "parent": "NORTH"}
+{"map": "H4-20", "split": "I", "samples": 3, "supports": [[["EAST", "WEST"], 1], [["EAST"], 2]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "H4-21", "split": "I", "samples": 0, "supports": [], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "H4-22", "split": "I", "samples": 2, "supports": [[["NORTH", "SOUTH"], 2]], "safe": ["NORTH", "SOUTH"], "parent": "NORTH"}
+{"map": "H4-23", "split": "I", "samples": 0, "supports": [], "safe": ["EAST", "SOUTH", "SE"], "parent": "EAST"}
+{"map": "H4-25", "split": "I", "samples": 2, "supports": [[["EAST", "WEST"], 1], [["EAST"], 1]], "safe": ["WEST"], "parent": "EAST"}
+{"map": "fresh-H1-18", "split": "II", "samples": 1, "supports": [[["EAST"], 1]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "fresh-H1-23", "split": "II", "samples": 32, "supports": [[["SOUTH"], 1], [["EAST", "SOUTH"], 31]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "fresh-H2-02", "split": "II", "samples": 4, "supports": [[["WEST"], 3], [["EAST", "WEST"], 1]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "fresh-H2-03", "split": "II", "samples": 0, "supports": [], "safe": ["NORTH", "SOUTH", "WEST", "SW", "NW"], "parent": "SW"}
+{"map": "fresh-H2-06", "split": "II", "samples": 14, "supports": [[[], 8], [["NORTH"], 6]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "fresh-H2-12", "split": "II", "samples": 1, "supports": [[["WEST"], 1]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "fresh-H2-13", "split": "II", "samples": 1, "supports": [[["EAST", "NORTH", "WEST"], 1]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "fresh-H2-17", "split": "II", "samples": 1, "supports": [[["NORTH", "SE", "SOUTH"], 1]], "safe": ["EAST", "SOUTH", "SE"], "parent": "NORTH"}
+{"map": "fresh-H2-23", "split": "II", "samples": 1, "supports": [[["EAST"], 1]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "fresh-H3-02", "split": "II", "samples": 9, "supports": [[["EAST"], 4], [["NORTH"], 4], [["EAST", "NORTH"], 1]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "fresh-H3-04", "split": "II", "samples": 32, "supports": [[["WEST"], 30], [["EAST", "WEST"], 2]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "fresh-H3-13", "split": "II", "samples": 4, "supports": [[["EAST"], 4]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "fresh-H3-15", "split": "II", "samples": 7, "supports": [[["SOUTH"], 7]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "fresh-H3-16", "split": "II", "samples": 1, "supports": [[["NORTH", "SOUTH"], 1]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "fresh-H3-17", "split": "II", "samples": 1, "supports": [[["EAST"], 1]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "fresh-H3-18", "split": "II", "samples": 0, "supports": [], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "fresh-H3-21", "split": "II", "samples": 0, "supports": [], "safe": ["WEST"], "parent": "WEST"}
+{"map": "fresh-H3-24", "split": "II", "samples": 8, "supports": [[["NORTH", "SOUTH"], 1], [["SOUTH"], 7]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "fresh-H4-01", "split": "II", "samples": 0, "supports": [], "safe": ["EAST"], "parent": "SOUTH"}
+{"map": "fresh-H4-02", "split": "II", "samples": 4, "supports": [[["EAST", "WEST"], 4]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "fresh-H4-03", "split": "II", "samples": 2, "supports": [[["SOUTH", "SW", "WEST"], 2]], "safe": ["SOUTH", "WEST", "SW"], "parent": "SW"}
+{"map": "fresh-H4-05", "split": "II", "samples": 2, "supports": [[["NORTH"], 2]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "fresh-H4-06", "split": "II", "samples": 1, "supports": [[[], 1]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "fresh-H4-07", "split": "II", "samples": 0, "supports": [], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "fresh-H4-08", "split": "II", "samples": 0, "supports": [], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "fresh-H4-09", "split": "II", "samples": 31, "supports": [[["EAST", "NORTH"], 29], [["NORTH"], 1], [["EAST"], 1]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "fresh-H4-13", "split": "II", "samples": 5, "supports": [[["NW"], 2], [["NORTH"], 3]], "safe": ["NORTH", "NW"], "parent": "NORTH"}
+{"map": "fresh-H4-14", "split": "II", "samples": 0, "supports": [], "safe": ["EAST"], "parent": "EAST"}
+{"map": "fresh-H4-15", "split": "II", "samples": 2, "supports": [[[], 1], [["WEST"], 1]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "fresh-H4-16", "split": "II", "samples": 0, "supports": [], "safe": ["SOUTH"], "parent": "NORTH"}
+{"map": "fresh-H4-17", "split": "II", "samples": 12, "supports": [[["SOUTH"], 12]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "fresh-H4-19", "split": "II", "samples": 0, "supports": [], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "fresh-H4-20", "split": "II", "samples": 0, "supports": [], "safe": ["EAST"], "parent": "EAST"}
+{"map": "fresh-H4-21", "split": "II", "samples": 0, "supports": [], "safe": ["EAST"], "parent": "WEST"}
+{"map": "fresh-H4-22", "split": "II", "samples": 0, "supports": [], "safe": ["EAST"], "parent": "WEST"}
+{"map": "fresh-H4-23", "split": "II", "samples": 0, "supports": [], "safe": ["WEST"], "parent": "EAST"}
+{"map": "fresh-H4-25", "split": "II", "samples": 2, "supports": [[["NORTH", "WEST"], 2]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "check-H2-02", "split": "III", "samples": 0, "supports": [], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "check-H2-06", "split": "III", "samples": 0, "supports": [], "safe": ["WEST"], "parent": "WEST"}
+{"map": "check-H2-07", "split": "III", "samples": 0, "supports": [], "safe": ["SOUTH", "WEST", "SW"], "parent": "WEST"}
+{"map": "check-H2-10", "split": "III", "samples": 11, "supports": [[["NORTH"], 11]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "check-H2-13", "split": "III", "samples": 14, "supports": [[["SOUTH"], 14]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "check-H2-22", "split": "III", "samples": 0, "supports": [], "safe": ["WEST"], "parent": "WEST"}
+{"map": "check-H3-02", "split": "III", "samples": 0, "supports": [], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "check-H3-04", "split": "III", "samples": 7, "supports": [[["WEST"], 6], [["EAST", "WEST"], 1]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "check-H3-08", "split": "III", "samples": 2, "supports": [[["NORTH"], 2]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "check-H3-13", "split": "III", "samples": 32, "supports": [[["EAST"], 8], [["NORTH"], 6], [["EAST", "NORTH"], 18]], "safe": ["EAST"], "parent": "NORTH"}
+{"map": "check-H3-14", "split": "III", "samples": 3, "supports": [[["EAST"], 3]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "check-H3-16", "split": "III", "samples": 0, "supports": [], "safe": ["NORTH", "EAST", "NE"], "parent": "WEST"}
+{"map": "check-H3-18", "split": "III", "samples": 0, "supports": [], "safe": ["EAST", "WEST"], "parent": "WEST"}
+{"map": "check-H3-21", "split": "III", "samples": 0, "supports": [], "safe": ["NORTH", "WEST", "NW"], "parent": "NW"}
+{"map": "check-H3-24", "split": "III", "samples": 16, "supports": [[["NORTH"], 16]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "check-H4-01", "split": "III", "samples": 2, "supports": [[["EAST"], 2]], "safe": ["WEST"], "parent": "EAST"}
+{"map": "check-H4-02", "split": "III", "samples": 2, "supports": [[["EAST"], 1], [[], 1]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "check-H4-05", "split": "III", "samples": 2, "supports": [[["NORTH", "NW", "WEST"], 1], [["NORTH", "NW", "SOUTH", "SW", "WEST"], 1]], "safe": ["NORTH", "WEST", "NW"], "parent": "NORTH"}
+{"map": "check-H4-06", "split": "III", "samples": 0, "supports": [], "safe": ["SOUTH"], "parent": "WEST"}
+{"map": "check-H4-07", "split": "III", "samples": 1, "supports": [[["EAST"], 1]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "check-H4-08", "split": "III", "samples": 32, "supports": [[["NORTH"], 9], [["EAST", "NORTH"], 23]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "check-H4-09", "split": "III", "samples": 4, "supports": [[["NORTH"], 3], [["EAST", "NORTH"], 1]], "safe": ["EAST"], "parent": "NORTH"}
+{"map": "check-H4-10", "split": "III", "samples": 13, "supports": [[["EAST", "SE"], 13]], "safe": ["EAST", "SOUTH", "SE"], "parent": "EAST"}
+{"map": "check-H4-12", "split": "III", "samples": 0, "supports": [], "safe": ["NORTH", "EAST", "SOUTH", "SE"], "parent": "NORTH"}
+{"map": "check-H4-13", "split": "III", "samples": 17, "supports": [[["SW", "WEST"], 16], [["SW"], 1]], "safe": ["WEST", "SW"], "parent": "SW"}
+{"map": "check-H4-14", "split": "III", "samples": 9, "supports": [[["SOUTH"], 5], [["NORTH", "SOUTH"], 2], [["NORTH"], 2]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "check-H4-15", "split": "III", "samples": 4, "supports": [[[], 1], [["NORTH"], 3]], "safe": ["NORTH"], "parent": "NORTH"}
+{"map": "check-H4-18", "split": "III", "samples": 29, "supports": [[["WEST"], 29]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "check-H4-19", "split": "III", "samples": 0, "supports": [], "safe": ["NORTH", "EAST", "SOUTH", "WEST", "SE", "NW"], "parent": "EAST"}
+{"map": "check-H4-21", "split": "III", "samples": 0, "supports": [], "safe": ["EAST"], "parent": "EAST"}
+{"map": "check-H4-22", "split": "III", "samples": 7, "supports": [[["WEST"], 7]], "safe": ["WEST"], "parent": "WEST"}
+{"map": "check-H4-24", "split": "III", "samples": 10, "supports": [[["SOUTH"], 1], [["NORTH", "SOUTH"], 9]], "safe": ["SOUTH"], "parent": "SOUTH"}
+{"map": "val-3-07", "split": "val", "samples": 5, "supports": [[["EAST"], 5]], "safe": ["EAST"], "parent": "EAST"}
+{"map": "val-3-10", "split": "val", "samples": 1, "supports": [[["WEST"], 1]], "safe": ["WEST"], "parent": "WEST"}

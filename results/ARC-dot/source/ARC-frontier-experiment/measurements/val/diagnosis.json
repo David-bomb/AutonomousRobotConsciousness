@@ -1,0 +1,267 @@
+{
+  "controller_sha256": "7e6a243e454a15f8fdc03f1e7d6bbae559f4e3997acb8e1d040c56974ea24389",
+  "policy_sha256": "677eb3af68ce55e890d45061ad3f57436e9ebbaefb42305578bffdc82a0f90a5",
+  "holdout_seed": 91462713,
+  "splits": {
+    "val": {
+      "val-1-01": "2453b60c897972733f1cf832d7690968a7ffe12c29256b55068fcc4867f478be",
+      "val-1-02": "ea509c22f243e1b1f71601c31407a92c74955d133c43f573ee22e334e56d8995",
+      "val-1-03": "f2aefae17a11f1e6d36f730fde13c156bdded47d4729ddf4a59bb9365308f1a5",
+      "val-1-04": "957f9829af0d71a5631ab9baf02315304b9a34fbb2da5e32f93391a0604f4b9a",
+      "val-1-05": "0f4bfe811b6a9299f7ae177f661d0d2814ca29ec94052dce0c6cdb8c979026ac",
+      "val-1-06": "cdbcf8b509a9d224293ba2d696dc9ff8f419e53de282fc0cbfc2c60c065a8596",
+      "val-1-07": "a8292f298d689e0cee6e9bf4fc5d6400a967dd3a4413797207aaff8a1710f19e",
+      "val-1-08": "2463d49590488f6000760fb78f4f0907e9dce95cb5f7813a6dece923ecfcac7d",
+      "val-1-09": "c106b0ee9ae40f199cbb05a2fd7df7596b63e9c9643f05ffbfab3a5fb3e766ac",
+      "val-1-10": "3f8d3167eb4817c5bdfd469f75e6f87a214710294e0f8061da6e140bf93106c0",
+      "val-1-11": "0da7348bf3f305e4ac27ddf632685e177b9ebc11992c17583338f4f43b6fcb2e",
+      "val-1-12": "a9fcf07c62d87e1ad42efe5043bb1e81dd3b62c47c5b390c3dc7c6dd1f6ba054",
+      "val-2-01": "cfabd5ed645de1efd90c1ac3345e782ce68b0d236704386534f5a98dd47c7f07",
+      "val-2-02": "fed0a61bc93992e96dc0283e7d6f75226909489c3c99e5f1a606e9839a4c5e93",
+      "val-2-03": "c612c5528e41db240517d83322010ff59958b116bbef14c80d0765569a69c93b",
+      "val-2-04": "1aa0a457f617fdb59e5bd6aebd8d53ab27e35f4f86f0d3cff633952f2b760edc",
+      "val-2-05": "ea6c52c8eaa3f872e8fc1fd5e26ec0fd65a4133d6d84079d78e96bf8254ebd52",
+      "val-2-06": "444bf973d7b23f260200f884845d0750c9351bfdc27e77ac51ba78db9ab20fdb",
+      "val-2-07": "47933791302c698d90cc9505eb1202a1b25f93d666c0f4ab823d674c60e52b36",
+      "val-2-08": "c5668144f15155764ae2cbf240c7a63d859a2cbaaf0bdad9913df76234fecfff",
+      "val-2-09": "5119c477b610e8d21cba8305e3cb49b9bf0b2f99e08a99708c23d477a7ff64aa",
+      "val-2-10": "5d8d55f784b6950121af6ebf4ce41db2fd64c70dc8d97a1e998c01e22df25e1c",
+      "val-2-11": "8a9f5f3c00175507c7b8f8896a4b46fe5d1916ba175135bacee4538e03cf35fc",
+      "val-2-12": "4731e772016d454fa11c73b8dc26a760aad39b8dcb00b1a14594960b59a39ab6",
+      "val-3-01": "3cfd5a400c61f2f7cec1ad16daba0e865852c8715a9dffa1c1116e620307bc1a",
+      "val-3-02": "2f7b912c15f76c2643636a401dd5a441322a8b4d0b2e25e16b669b964acd7288",
+      "val-3-03": "092317994d1f28058e99d72bb114dacb1afbb8fb864a0a22f780b31186eb07f5",
+      "val-3-04": "518ae930f1ee638c8c9215826e97e8633b6b4a5087aa4fdac55ac008e65d77c0",
+      "val-3-05": "9e83e050ba3d30fcbaffb04005075339a11e548d821b771b197fee09b52fb320",
+      "val-3-06": "dc1999f39f129e06ddbc483ddf3297afc902223988df619ac5dfc9bbc16769af",
+      "val-3-07": "2599f73cf2f77096453c4e5db6cd9159ae22d4a7722ebfcee754fd54981453de",
+      "val-3-08": "7df5df884f80b2dbf83bbc1b47bba2c95ef2d11204e13589bab1ed390dfad8a9",
+      "val-3-09": "96d50ad7e4e2cef475b90017975d7915c4d34881b757d506008ac9c406370b23",
+      "val-3-10": "7361b170cb8810cca7291b8ba4a43fa8e3abf69df2b488cd1f1ed812bfab9ded",
+      "val-3-11": "e5c3f0c6c84c806134639d6aa78c6dd080ff68ce72d045c85f26e5ef9791d690",
+      "val-3-12": "a95de7d840d306be83161e21a720e692d425d762ed37825f069b4ce195089935"
+    }
+  },
+  "failures": [
+    {
+      "split": "val",
+      "case": "val-2-04",
+      "agent": "pilot",
+      "initially_feasible": true,
+      "step": 8,
+      "position": [
+        11,
+        4
+      ],
+      "move": "NORTH",
+      "activity": "В мастерскую",
+      "fuel": 93,
+      "health": 8,
+      "fuel_distance": 10,
+      "repair_distance": 7,
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-2-07",
+      "agent": "sarsa",
+      "initially_feasible": true,
+      "step": 4,
+      "position": [
+        9,
+        10
+      ],
+      "move": "SOUTH",
+      "activity": null,
+      "fuel": 9,
+      "health": 97,
+      "fuel_distance": 9,
+      "repair_distance": 20,
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-3-01",
+      "agent": "pilot",
+      "initially_feasible": true,
+      "step": 5,
+      "position": [
+        1,
+        21
+      ],
+      "move": "NORTH",
+      "activity": "В мастерскую",
+      "fuel": 11,
+      "health": 11,
+      "fuel_distance": 7,
+      "repair_distance": 11,
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-3-02",
+      "agent": "pilot",
+      "initially_feasible": true,
+      "step": 24,
+      "position": [
+        7,
+        3
+      ],
+      "move": "SOUTH",
+      "activity": "На заправку",
+      "fuel": 24,
+      "health": 3,
+      "fuel_distance": 22,
+      "repair_distance": 1,
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-3-05",
+      "agent": "sarsa",
+      "initially_feasible": true,
+      "step": 82,
+      "position": [
+        7,
+        15
+      ],
+      "move": "NORTH",
+      "activity": null,
+      "fuel": 21,
+      "health": 90,
+      "fuel_distance": 21,
+      "repair_distance": 9,
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-3-07",
+      "agent": "pilot",
+      "initially_feasible": true,
+      "step": 14,
+      "position": [
+        8,
+        21
+      ],
+      "move": "WEST",
+      "activity": "В мастерскую",
+      "fuel": 96,
+      "health": 15,
+      "fuel_distance": 4,
+      "repair_distance": 15,
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-3-07",
+      "agent": "sarsa",
+      "initially_feasible": true,
+      "step": 13,
+      "position": [
+        7,
+        21
+      ],
+      "move": "NORTH",
+      "activity": null,
+      "fuel": 95,
+      "health": 16,
+      "fuel_distance": 5,
+      "repair_distance": 16,
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-3-09",
+      "agent": "pilot",
+      "initially_feasible": true,
+      "step": 9,
+      "position": [
+        9,
+        13
+      ],
+      "move": "WEST",
+      "activity": "В мастерскую",
+      "fuel": 98,
+      "health": 12,
+      "fuel_distance": 2,
+      "repair_distance": 11,
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-3-10",
+      "agent": "pilot",
+      "initially_feasible": true,
+      "step": 5,
+      "position": [
+        11,
+        6
+      ],
+      "move": "WEST",
+      "activity": "К финишу",
+      "fuel": 18,
+      "health": 12,
+      "fuel_distance": 12,
+      "repair_distance": 3,
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-3-10",
+      "agent": "resources",
+      "initially_feasible": true,
+      "step": 13,
+      "position": [
+        9,
+        6
+      ],
+      "move": "NORTH",
+      "activity": "На заправку",
+      "fuel": 10,
+      "health": 95,
+      "fuel_distance": 10,
+      "repair_distance": 5,
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "split": "val",
+      "case": "val-3-12",
+      "agent": "sarsa",
+      "initially_feasible": true,
+      "step": 18,
+      "position": [
+        19,
+        21
+      ],
+      "move": "NORTH",
+      "activity": null,
+      "fuel": 23,
+      "health": 94,
+      "fuel_distance": 23,
+      "repair_distance": 6,
+      "viable": [
+        "SOUTH"
+      ]
+    }
+  ]
+}

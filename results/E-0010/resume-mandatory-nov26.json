@@ -1,0 +1,212 @@
+{
+  "groups": [
+    [
+      "connected-excursions"
+    ],
+    [
+      "exchanged-roads",
+      "preserved-exchanges"
+    ],
+    [
+      "terrain-trials",
+      "terrain-rooms"
+    ],
+    [
+      "street-exits",
+      "bounded-street-exits"
+    ],
+    [
+      "corner-approaches",
+      "multiple-corners"
+    ],
+    [
+      "resource-deadline",
+      "directed-deadline"
+    ],
+    [
+      "gauge-exits",
+      "fitted-gauge-exits"
+    ],
+    [
+      "side-step",
+      "paired-side-step",
+      "two-side-step"
+    ],
+    [
+      "available-exits",
+      "flexible-exits"
+    ],
+    [
+      "exact-approaches",
+      "repeated-approaches"
+    ]
+  ],
+  "partial_runs": {
+    "connected-excursions": {
+      "parent": "return-windows",
+      "saved": 279,
+      "first_missing": "check-H4-05",
+      "remaining": 57,
+      "sha256_lf": "b3a2fabcb975a3b8530718495f4644774e44dd40c432873257fd4e875f9a38a4"
+    },
+    "exchanged-roads": {
+      "parent": "ranked-standby",
+      "saved": 275,
+      "first_missing": "check-H4-01",
+      "remaining": 61,
+      "sha256_lf": "01f49246603c5f6e5bf7d875c3e93f76d1f1dad9326d7444d66f2e61f4ed6514"
+    },
+    "preserved-exchanges": {
+      "parent": "exchanged-roads",
+      "saved": 275,
+      "first_missing": "check-H4-01",
+      "remaining": 61,
+      "sha256_lf": "03a2db2a363e377df18f4271db48988cbbe7920187b6b2587731106d95db241e"
+    },
+    "terrain-trials": {
+      "parent": "exchanged-roads",
+      "saved": 224,
+      "first_missing": "check-H1-25",
+      "remaining": 112,
+      "sha256_lf": "b28ce3ba11e791a1415c5b6b0ea94ed9153b196bee0eae9284bbef349b5d53f7"
+    },
+    "terrain-rooms": {
+      "parent": "terrain-trials",
+      "saved": 224,
+      "first_missing": "check-H1-25",
+      "remaining": 112,
+      "sha256_lf": "79ffdf93f62226965d03f19548b410b26f6b0a1f0a2531c8bf657304ad5c8f3e"
+    },
+    "street-exits": {
+      "parent": "ranked-standby",
+      "saved": 204,
+      "first_missing": "check-H1-05",
+      "remaining": 132,
+      "sha256_lf": "b7c48c5095e96e53b0f65db135e59f0fd2ec238846625303d6b8a6ebc73b406e"
+    },
+    "bounded-street-exits": {
+      "parent": "street-exits",
+      "saved": 204,
+      "first_missing": "check-H1-05",
+      "remaining": 132,
+      "sha256_lf": "ac3504158b3571ef15c896d3d03fc47a39b6d0c806ced5814de3fdf38a6fe08f"
+    },
+    "corner-approaches": {
+      "parent": "ranked-standby",
+      "saved": 173,
+      "first_missing": "fresh-H3-24",
+      "remaining": 163,
+      "sha256_lf": "f4de61c07d7ba1d8fec6b3fd535b4c8b510eb790a5d09d4024d7d950ba86bc14"
+    },
+    "multiple-corners": {
+      "parent": "corner-approaches",
+      "saved": 174,
+      "first_missing": "fresh-H3-25",
+      "remaining": 162,
+      "sha256_lf": "51a6a4f8c2a4b82fe32cd23e38b647bfe040efbf007e81e94a0edc3c239c759f"
+    },
+    "resource-deadline": {
+      "parent": "mandatory-proof",
+      "saved": 84,
+      "first_missing": "H4-10",
+      "remaining": 252,
+      "sha256_lf": "ea5e17086d84a8cfeac8dfaef9165ec7ccfc7e99f3cf802dff883cba495f946c"
+    },
+    "directed-deadline": {
+      "parent": "resource-deadline",
+      "saved": 84,
+      "first_missing": "H4-10",
+      "remaining": 252,
+      "sha256_lf": "9b64f64639a3112661fb4876703a77ef06b91f7a70e16ec5bf363d30ea7dae59"
+    },
+    "gauge-exits": {
+      "parent": "ranked-standby",
+      "saved": 137,
+      "first_missing": "fresh-H2-13",
+      "remaining": 199,
+      "sha256_lf": "e71fc5c28a3deff69aa28635007bfa4dbbdd4461076d491d483ffc175bc2affa"
+    },
+    "fitted-gauge-exits": {
+      "parent": "gauge-exits",
+      "saved": 137,
+      "first_missing": "fresh-H2-13",
+      "remaining": 199,
+      "sha256_lf": "2f5f90e10d143850a343a8e453a91268ba3469044b26b3d6b3e9cd048e368102"
+    },
+    "side-step": {
+      "parent": "ranked-standby",
+      "saved": 86,
+      "first_missing": "H4-12",
+      "remaining": 250,
+      "sha256_lf": "724de490f366c3ebecd75f2f0a45341096f8818beb2100593e206bfefaa8c135"
+    },
+    "paired-side-step": {
+      "parent": "side-step",
+      "saved": 86,
+      "first_missing": "H4-12",
+      "remaining": 250,
+      "sha256_lf": "724de490f366c3ebecd75f2f0a45341096f8818beb2100593e206bfefaa8c135"
+    },
+    "two-side-step": {
+      "parent": "side-step",
+      "saved": 86,
+      "first_missing": "H4-12",
+      "remaining": 250,
+      "sha256_lf": "ff657e2ea75472475dd0bff85887bd789aabcb911b5e8995530fda5c361d3750"
+    },
+    "available-exits": {
+      "parent": "ranked-standby",
+      "saved": 73,
+      "first_missing": "H3-24",
+      "remaining": 263,
+      "sha256_lf": "540c54020a218107d5be0efdb71ffbbe39b74962a486f155eaff925aa138824d"
+    },
+    "flexible-exits": {
+      "parent": "available-exits",
+      "saved": 73,
+      "first_missing": "H3-24",
+      "remaining": 263,
+      "sha256_lf": "9c228f6277dca23c5181f5689208e1e0849555fba07ae8fc9a2e9221e8d55790"
+    },
+    "exact-approaches": {
+      "parent": "ranked-standby",
+      "saved": 77,
+      "first_missing": "H4-03",
+      "remaining": 259,
+      "sha256_lf": "95fa87dfb127162198590f249e106f4658de098f02f7297045c60a886dc42721"
+    },
+    "repeated-approaches": {
+      "parent": "ranked-standby",
+      "saved": 77,
+      "first_missing": "H4-03",
+      "remaining": 259,
+      "sha256_lf": "95fa87dfb127162198590f249e106f4658de098f02f7297045c60a886dc42721"
+    }
+  },
+  "partial_episodes": 3032,
+  "exit_controls": {
+    "saved": 103,
+    "expected": 122,
+    "missing": [
+      "check-H3-20",
+      "check-H3-22",
+      "check-H3-23",
+      "check-H3-24",
+      "check-H3-25",
+      "check-H4-03",
+      "check-H4-04",
+      "check-H4-05",
+      "check-H4-08",
+      "check-H4-10",
+      "check-H4-11",
+      "check-H4-12",
+      "check-H4-13",
+      "check-H4-14",
+      "check-H4-17",
+      "check-H4-18",
+      "check-H4-20",
+      "check-H4-21",
+      "check-H4-22"
+    ]
+  }
+}

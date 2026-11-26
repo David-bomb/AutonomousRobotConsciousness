@@ -1,0 +1,16 @@
+Опытный контроллер frontier для AutonomousRobotConsciousness.
+Основа: df9ba049d7a53a41990127a857d4b57efcb4ff5c. Python 3.12 или новее.
+
+В локальной копии репозитория примените патч из архива:
+  git apply --check /путь/к/frontier.patch
+  git apply /путь/к/frontier.patch
+
+Запуск:
+  python -m maze --controller frontier --split val --level val-3-10
+  python -m maze --controller frontier --level 09-switchbacks
+  python -m unittest discover -s tests -v
+  python -m scripts.evaluate_frontier tmp/frontier-comparison
+
+REPORT.md описывает диагноз, варианты агента и результаты.
+measurements содержит сравнение четырёх контроллеров по каждой карте.
+Сохранённые эксперименты в results не изменяются.

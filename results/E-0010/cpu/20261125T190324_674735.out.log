@@ -1,0 +1,84 @@
+Checked 49 Markdown files and 613 local links; 0 errors.
+......................................
+----------------------------------------------------------------------
+Ran 38 tests in 156.024s
+
+OK
+Test: 10/10. C:\Users\David\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{ec099018-5af2-47be-ae6b-393266e79bba}\Temp\tmp84p7_kw1\test.json
+Сохранена оценка этой модели на десяти уровнях: C:\Users\David\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{ec099018-5af2-47be-ae6b-393266e79bba}\Temp\tmp84p7_kw1\test.json
+61 [93, 92, 86, 36] [{'size': 1, 'full_val': 41, 'at_target': 0, 'example': ('street-trunk-reserve',), 'upper': [73, 76, 67, 36]}, {'size': 2, 'full_val': 1719, 'at_target': 0, 'example': ('witness', 'terminal-streets'), 'upper': [77, 79, 75, 36]}, {'size': 3, 'full_val': 35650, 'at_target': 0, 'example': ('relay', 'terminal-streets', 'street-trunk-reserve'), 'upper': [80, 87, 79, 36]}]
+reserve, anchor, passage, joint, roads, excursion, range, range-roads, bridge, relay, corridor, cells, fork-budget, outer, outer-service, coupled, return, witness, streets, last-unit, shared, consensus, homing, probe-order, mission, marked-streets, many-streets, mixed-streets, trunk, trunk-reserve, street-trunk, exact-worlds, street-consensus, calibrated, all-approaches, insured-approaches, survey-streets, scouting-sortie, terminal-streets, texture-cells, adaptive-trunk, stable-streets, preview, symmetric-streets, last-mission, cycle-gate, margin-gate, wall-lines, proven-approach, individual-stops, deadline-mission, deadline-goal, paired-witness, common-vote, street-trunk-reserve, deduced-roads, conditioned-streets, weighted-rooms, passage-flow, mission-order, viability-vote
+Проверено физических расхождений 9
+63 Counter()
+{'searches': 120, 'cells_checked': 7979, 'cpu_seconds': {'original': [0.03125, 0.03125, 0.0625], 'cached': [0.03125, 0.015625, 0.015625]}, 'median_cpu_seconds': {'original': 0.03125, 'cached': 0.015625}}
+Проверено {'street-trunk': 3, 'street-trunk-reserve': 3}
+Дописано {'mission-order-reserve': 3, 'first-landing': 3}
+Дописано {'known-landing': 3, 'boundary-landing': 3}
+test_actual_reading_eliminates_an_impossible_first_step (test_automaton_resources.ResourceTests.test_actual_reading_eliminates_an_impossible_first_step) ... ok
+test_confirmed_route_requires_repair_then_fuel (test_automaton_resources.ResourceTests.test_confirmed_route_requires_repair_then_fuel) ... ok
+test_first_service_must_leave_other_resource_alive (test_automaton_resources.ResourceTests.test_first_service_must_leave_other_resource_alive) ... ok
+test_reachability_respects_last_unit_and_episode_limit (test_automaton_resources.ResourceTests.test_reachability_respects_last_unit_and_episode_limit) ... ok
+test_service_offset_shifts_both_resource_boundaries (test_automaton_resources.ResourceTests.test_service_offset_shifts_both_resource_boundaries) ... ok
+test_switch_to_fuel_keeps_the_previous_actual_fuel_reading (test_automaton_resources.ResourceTests.test_switch_to_fuel_keeps_the_previous_actual_fuel_reading) ... ok
+test_first_stop_can_be_the_farther_workshop (test_experimental_guards.NavigationGuards.test_first_stop_can_be_the_farther_workshop) ... ok
+test_flow_and_conditional_readings_on_a_known_corridor (test_experimental_guards.NavigationGuards.test_flow_and_conditional_readings_on_a_known_corridor) ... ok
+test_hypothetical_corner_obeys_physical_movement (test_experimental_guards.NavigationGuards.test_hypothetical_corner_obeys_physical_movement) ... ok
+test_last_unit_preserves_direct_finish (test_experimental_guards.NavigationGuards.test_last_unit_preserves_direct_finish) ... ok
+test_one_probe_spends_both_resources (test_experimental_guards.NavigationGuards.test_one_probe_spends_both_resources) ... ok
+test_onward_support_includes_direct_finish_from_first_station (test_experimental_guards.NavigationGuards.test_onward_support_includes_direct_finish_from_first_station) ... ok
+test_projected_trip_reaches_a_station_on_its_last_unit (test_experimental_guards.NavigationGuards.test_projected_trip_reaches_a_station_on_its_last_unit) ... ok
+test_relay_station_rejoins_a_renewable_pair (test_experimental_guards.NavigationGuards.test_relay_station_rejoins_a_renewable_pair) ... ok
+test_required_stock_for_a_relay_and_last_unit_at_goal (test_experimental_guards.NavigationGuards.test_required_stock_for_a_relay_and_last_unit_at_goal) ... ok
+test_rotated_rectangular_memory_keeps_each_known_cell (test_experimental_guards.NavigationGuards.test_rotated_rectangular_memory_keeps_each_known_cell) ... ok
+test_sensor_determines_hidden_gate_with_two_different_trip_lengths (test_experimental_guards.NavigationGuards.test_sensor_determines_hidden_gate_with_two_different_trip_lengths) ... ok
+test_translated_routes_obey_the_actual_map_boundary (test_experimental_guards.NavigationGuards.test_translated_routes_obey_the_actual_map_boundary) ... ok
+test_both_service_modes_change_the_route (test_navigation.NavigationTests.test_both_service_modes_change_the_route) ... ok
+test_crossroads_explores_dead_ends_before_finding_finish (test_navigation.NavigationTests.test_crossroads_explores_dead_ends_before_finding_finish) ... ok
+test_eight_moves_and_blocked_corner (test_navigation.NavigationTests.test_eight_moves_and_blocked_corner) ... ok
+test_identical_input_except_remembered_road (test_navigation.NavigationTests.test_identical_input_except_remembered_road) ... ok
+test_last_unit_service_finish_and_failures (test_navigation.NavigationTests.test_last_unit_service_finish_and_failures) ... ok
+test_lengths_use_roads_and_do_not_reveal_them (test_navigation.NavigationTests.test_lengths_use_roads_and_do_not_reveal_them) ... ok
+test_only_observation_is_needed_by_replacement (test_navigation.NavigationTests.test_only_observation_is_needed_by_replacement) ... ok
+test_progression (test_navigation.NavigationTests.test_progression) ... ok
+test_unreachable_service_and_independent_minima (test_navigation.NavigationTests.test_unreachable_service_and_independent_minima) ... ok
+test_bit_search_matches_reference_on_partial_map (test_sarsa.SarsaTests.test_bit_search_matches_reference_on_partial_map) ... ok
+test_evaluation_freezes_q (test_sarsa.SarsaTests.test_evaluation_freezes_q) ... ok
+test_on_policy_update_executes_sampled_action_and_stops_bootstrap (test_sarsa.SarsaTests.test_on_policy_update_executes_sampled_action_and_stops_bootstrap) ... ok
+test_same_window_different_remembered_road (test_sarsa.SarsaTests.test_same_window_different_remembered_road) ... ok
+test_splits_and_required_detours (test_sarsa.SarsaTests.test_splits_and_required_detours) ... ok
+test_test_gate_and_single_use_on_temporary_maps (test_sarsa.SarsaTests.test_test_gate_and_single_use_on_temporary_maps) ... ok
+test_known_fuel_routes_reverse_coordinate_order (test_service_choices.ServiceChoiceTests.test_known_fuel_routes_reverse_coordinate_order) ... ok
+test_only_a_resource_shortage_causes_a_service_visit (test_service_choices.ServiceChoiceTests.test_only_a_resource_shortage_causes_a_service_visit) ... ok
+test_budget_must_cover_return (test_sight_automaton.SightTests.test_budget_must_cover_return) ... ok
+test_executed_side_step_is_reversed_once (test_sight_automaton.SightTests.test_executed_side_step_is_reversed_once) ... ok
+test_off_route_window_can_distinguish_a_passage (test_sight_automaton.SightTests.test_off_route_window_can_distinguish_a_passage) ... ok
+test_window_separates_shortest_approaches (test_sight_automaton.SightTests.test_window_separates_shortest_approaches) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 6.504s
+
+OK
+Test: 10/10. C:\Users\David\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{ec099018-5af2-47be-ae6b-393266e79bba}\Temp\tmp4myt6jyk\test.json
+Сохранена оценка этой модели на десяти уровнях: C:\Users\David\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{ec099018-5af2-47be-ae6b-393266e79bba}\Temp\tmp4myt6jyk\test.json
+fresh-H1-11 {'street-trunk-reserve': ('EMPTY', 770, None), 'known-landing': ('EMPTY', 770, None), 'boundary-landing': ('LIMIT', 4232, {'step': 754, 'point': (21, 9), 'kind': 'R', 'fuel': 16, 'health': 100, 'known_renewable': True, 'possible_finish': True}), 'first-landing': ('LIMIT', 4232, {'step': 754, 'point': (21, 9), 'kind': 'R', 'fuel': 16, 'health': 100, 'known_renewable': True, 'possible_finish': True})}
+Проверено {'mission-order': 4}
+Дописано {'shortcut-reserve': 3}
+Дописано {'first-landing': 2, 'after-landing': 3, 'outward-after-landing': 3}
+fresh-H1-11 {'first-landing': ('LIMIT', 4232, {'step': 754, 'point': (21, 9), 'kind': 'R', 'fuel': 16, 'health': 100, 'known_renewable': True, 'possible_finish': True, 'unknown': 240}), 'after-landing': ('EMPTY', 870, {'step': 754, 'point': (21, 9), 'kind': 'R', 'fuel': 16, 'health': 100, 'known_renewable': True, 'possible_finish': True, 'unknown': 240}), 'outward-after-landing': ('EMPTY', 870, {'step': 754, 'point': (21, 9), 'kind': 'R', 'fuel': 16, 'health': 100, 'known_renewable': True, 'possible_finish': True, 'unknown': 240})}
+Проверено записанных поездок 288
+Выезды 24
+room-passages {'I': 'ea09b467f486a64ffcabe20086c632da27c9c431e55d017be2732174971ef899', 'II': 'ed26050bcb1cd455e9fad8a19bd522e82426615ededac10dbf244e91d8c79e64', 'III': 'daf93cb623f52361a60c89dac63ba29ee99bc6ec6a7231d4effd1ee48d73f9e3', 'val': '07d6060cb73172bdbd059b086a3589d4a049424188b68c78606393556c7877c7'}
+Замеры ЦП {'20261125T183539_389818.jsonl': (4014, 70.1, 0), '20261125T184301_750549.jsonl': (11120, 75.6, 0), '20261125T190324_674735.jsonl': (21942, 100.0, 2)}
+Первые новые окна 24 {'near': 13, 'goal': 14, 'stock': 11, 'margin': 12, 'new_per_step': 13, 'new': 8}
+........................................
+----------------------------------------------------------------------
+Ran 40 tests in 7.151s
+
+OK
+Test: 10/10. C:\Users\David\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{ec099018-5af2-47be-ae6b-393266e79bba}\Temp\tmpui1sxi_1\test.json
+Сохранена оценка этой модели на десяти уровнях: C:\Users\David\AppData\Local\Packages\openai.codex_2p2nqsd0c76g0\AC\#!sandbox.{ec099018-5af2-47be-ae6b-393266e79bba}\Temp\tmpui1sxi_1\test.json
+Checked 49 Markdown files and 651 local links; 0 errors.
+{'I': Counter({'сохранён': 73, 'оба отказа': 25, 'приобретён': 2}), 'II': Counter({'сохранён': 75, 'оба отказа': 22, 'приобретён': 2, 'потерян': 1}), 'III': Counter({'сохранён': 64, 'оба отказа': 35, 'приобретён': 1}), 'val': Counter({'сохранён': 36})}
+Проверено записанных поездок 336
+reserve, anchor, passage, joint, roads, excursion, range, range-roads, bridge, relay, corridor, cells, fork-budget, outer, outer-service, coupled, return, witness, streets, last-unit, shared, consensus, homing, probe-order, mission, marked-streets, many-streets, mixed-streets, trunk, trunk-reserve, street-trunk, exact-worlds, street-consensus, calibrated, all-approaches, insured-approaches, survey-streets, scouting-sortie, terminal-streets, texture-cells, adaptive-trunk, stable-streets, preview, symmetric-streets, last-mission, cycle-gate, margin-gate, wall-lines, proven-approach, individual-stops, deadline-mission, deadline-goal, paired-witness, common-vote, street-trunk-reserve, deduced-roads, conditioned-streets, room-passages, weighted-rooms, passage-flow, mission-order, viability-vote
+62 [93, 92, 86, 36] [{'size': 1, 'full_val': 42, 'at_target': 0, 'example': ('street-trunk-reserve',), 'upper': [73, 76, 67, 36]}, {'size': 2, 'full_val': 1780, 'at_target': 0, 'example': ('witness', 'terminal-streets'), 'upper': [77, 79, 75, 36]}, {'size': 3, 'full_val': 37480, 'at_target': 0, 'example': ('relay', 'terminal-streets', 'street-trunk-reserve'), 'upper': [80, 87, 79, 36]}]

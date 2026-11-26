@@ -1,0 +1,212 @@
+{
+  "map": "fresh-H1-11",
+  "before": {
+    "step": 721,
+    "pos": [
+      7,
+      9
+    ],
+    "fuel": 50,
+    "health": 66,
+    "dF": 50,
+    "dR": 27,
+    "move": "WEST",
+    "viable": [
+      "EAST"
+    ],
+    "delta": [
+      1,
+      1
+    ],
+    "refuels": 17,
+    "repairs": 12
+  },
+  "known_first": [
+    {
+      "kind": "R",
+      "point": [
+        14,
+        5
+      ],
+      "length": 27,
+      "actions": "111100111111000033003322221",
+      "viable": false
+    },
+    {
+      "kind": "R",
+      "point": [
+        21,
+        9
+      ],
+      "length": 34,
+      "actions": "1111001111110000330011111122222222",
+      "viable": true
+    }
+  ],
+  "runs": {
+    "street-trunk-reserve": {
+      "first_difference": null,
+      "reference_step": 721,
+      "first_station": null,
+      "states": 771,
+      "status": "EMPTY",
+      "steps": 770,
+      "refuels": 17,
+      "repairs": 12,
+      "repeating_tail": null,
+      "first_loss": {
+        "step": 721,
+        "pos": [
+          7,
+          9
+        ],
+        "fuel": 50,
+        "health": 66,
+        "dF": 50,
+        "dR": 27,
+        "move": "WEST",
+        "viable": [
+          "EAST"
+        ],
+        "delta": [
+          1,
+          1
+        ],
+        "refuels": 17,
+        "repairs": 12
+      },
+      "finish_without_deadline": false
+    },
+    "known-landing": {
+      "first_difference": null,
+      "reference_step": 721,
+      "first_station": null,
+      "states": 771,
+      "status": "EMPTY",
+      "steps": 770,
+      "refuels": 17,
+      "repairs": 12,
+      "repeating_tail": null,
+      "first_loss": {
+        "step": 721,
+        "pos": [
+          7,
+          9
+        ],
+        "fuel": 50,
+        "health": 66,
+        "dF": 50,
+        "dR": 27,
+        "move": "WEST",
+        "viable": [
+          "EAST"
+        ],
+        "delta": [
+          1,
+          1
+        ],
+        "refuels": 17,
+        "repairs": 12
+      },
+      "finish_without_deadline": false
+    },
+    "boundary-landing": {
+      "first_difference": 721,
+      "reference_step": 721,
+      "first_station": {
+        "step": 754,
+        "point": [
+          21,
+          9
+        ],
+        "kind": "R",
+        "fuel": 16,
+        "health": 100,
+        "known_renewable": true,
+        "possible_finish": true
+      },
+      "states": 4233,
+      "status": "LIMIT",
+      "steps": 4232,
+      "refuels": 52,
+      "repairs": 82,
+      "repeating_tail": {
+        "start": 670,
+        "period": 100,
+        "repeats": 35,
+        "unchanged_memory": true
+      },
+      "first_loss": {
+        "step": 4119,
+        "pos": [
+          9,
+          9
+        ],
+        "fuel": 52,
+        "health": 68,
+        "dF": 48,
+        "dR": 25,
+        "move": "WEST",
+        "viable": [
+          "EAST"
+        ],
+        "delta": [
+          1,
+          1
+        ],
+        "refuels": 51,
+        "repairs": 80
+      },
+      "finish_without_deadline": true
+    },
+    "first-landing": {
+      "first_difference": 721,
+      "reference_step": 721,
+      "first_station": {
+        "step": 754,
+        "point": [
+          21,
+          9
+        ],
+        "kind": "R",
+        "fuel": 16,
+        "health": 100,
+        "known_renewable": true,
+        "possible_finish": true
+      },
+      "states": 4233,
+      "status": "LIMIT",
+      "steps": 4232,
+      "refuels": 52,
+      "repairs": 82,
+      "repeating_tail": {
+        "start": 670,
+        "period": 100,
+        "repeats": 35,
+        "unchanged_memory": true
+      },
+      "first_loss": {
+        "step": 4119,
+        "pos": [
+          9,
+          9
+        ],
+        "fuel": 52,
+        "health": 68,
+        "dF": 48,
+        "dR": 25,
+        "move": "WEST",
+        "viable": [
+          "EAST"
+        ],
+        "delta": [
+          1,
+          1
+        ],
+        "refuels": 51,
+        "repairs": 80
+      },
+      "finish_without_deadline": true
+    }
+  }
+}

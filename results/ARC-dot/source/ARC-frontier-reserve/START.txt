@@ -1,0 +1,14 @@
+Эксперимент frontier-reserve для AutonomousRobotConsciousness.
+Исходный коммит: df9ba049d7a53a41990127a857d4b57efcb4ff5c. Python 3.12 или новее.
+
+Если прежний патч frontier уже применён, используйте update-from-frontier.patch.
+Если применяете на исходном коммите, используйте full.patch.
+Патчи взаимоисключающие. Перед установкой проверьте: git apply --check ПАТЧ
+Для установки: git apply ПАТЧ
+
+Запуск: python -m maze --controller frontier-reserve --split val
+Сравнение: python -m scripts.compare_frontier_reserve tmp/frontier-reserve-fresh
+Тесты: python -m unittest discover -s tests -v
+
+REPORT.md описывает правила, ограничения и метрики.
+В measurements лежат исходы по картам и диагностика новой сотни.

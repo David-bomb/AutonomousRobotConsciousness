@@ -1,0 +1,70 @@
+{"map": "H1-16", "split": "I", "step": 3, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST", "SE", "SW"], "choices": {"specific-paths": "EAST", "return-paths": "SE", "last-return-paths": "EAST"}}
+{"map": "H1-23", "split": "I", "step": 6, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "NORTH", "return-paths": "SOUTH", "last-return-paths": "NORTH"}}
+{"map": "H1-23", "split": "I", "step": 8, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "SOUTH", "return-paths": "SOUTH", "last-return-paths": "SOUTH"}}
+{"map": "H1-24", "split": "I", "step": 3, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "WEST", "return-paths": "EAST", "last-return-paths": "WEST"}}
+{"map": "H1-24", "split": "I", "step": 5, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "NORTH", "return-paths": "EAST", "last-return-paths": "NORTH"}}
+{"map": "H1-24", "split": "I", "step": 7, "status": "SUCCESS", "safe": ["EAST"], "choices": {"specific-paths": "EAST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "H2-02", "split": "I", "step": 8, "status": "BROKEN", "safe": ["NORTH"], "choices": {"specific-paths": "NORTH", "return-paths": "NORTH", "last-return-paths": "NORTH"}}
+{"map": "H2-08", "split": "I", "step": 13, "status": "SUCCESS", "safe": ["NORTH", "EAST", "WEST"], "choices": {"specific-paths": "EAST", "return-paths": "WEST", "last-return-paths": "EAST"}}
+{"map": "H2-08", "split": "I", "step": 15, "status": "SUCCESS", "safe": ["NORTH", "EAST", "WEST"], "choices": {"specific-paths": "WEST", "return-paths": "NORTH", "last-return-paths": "WEST"}}
+{"map": "H2-11", "split": "I", "step": 5, "status": "BROKEN", "safe": ["EAST", "SOUTH", "SE"], "choices": {"specific-paths": "EAST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "H2-19", "split": "I", "step": 3, "status": "SUCCESS", "safe": ["NORTH", "EAST", "WEST", "NE", "NW"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "H2-19", "split": "I", "step": 6, "status": "SUCCESS", "safe": ["WEST", "NW"], "choices": {"specific-paths": "WEST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "H2-25", "split": "I", "step": 10, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST", "SE", "SW"], "choices": {"specific-paths": "SE", "return-paths": "EAST", "last-return-paths": "SE"}}
+{"map": "H3-04", "split": "I", "step": 12, "status": "SUCCESS", "safe": ["WEST"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "H3-12", "split": "I", "step": 4, "status": "SUCCESS", "safe": ["SOUTH"], "choices": {"specific-paths": "SOUTH", "return-paths": "SOUTH", "last-return-paths": "SOUTH"}}
+{"map": "H3-13", "split": "I", "step": 32, "status": "EMPTY", "safe": ["EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "SOUTH", "return-paths": "WEST", "last-return-paths": "SOUTH"}}
+{"map": "H3-13", "split": "I", "step": 34, "status": "EMPTY", "safe": ["WEST"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "H3-14", "split": "I", "step": 9, "status": "BROKEN", "safe": ["NORTH", "NE"], "choices": {"specific-paths": "SW", "return-paths": "NE", "last-return-paths": "NE"}}
+{"map": "H3-16", "split": "I", "step": 4, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "EAST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "H3-17", "split": "I", "step": 33, "status": "SUCCESS", "safe": ["NORTH", "WEST", "NW"], "choices": {"specific-paths": "WEST", "return-paths": "NORTH", "last-return-paths": "NORTH"}}
+{"map": "H3-21", "split": "I", "step": 11, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST", "NE", "SE"], "choices": {"specific-paths": "NE", "return-paths": "NORTH", "last-return-paths": "NE"}}
+{"map": "H3-21", "split": "I", "step": 13, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST", "NE", "SE"], "choices": {"specific-paths": "SE", "return-paths": "WEST", "last-return-paths": "SE"}}
+{"map": "H3-24", "split": "I", "step": 40, "status": "EMPTY", "safe": ["NORTH", "EAST", "WEST", "NE", "NW"], "choices": {"specific-paths": "NW", "return-paths": "NW", "last-return-paths": "NW"}}
+{"map": "H4-08", "split": "I", "step": 14, "status": "BROKEN", "safe": ["NORTH"], "choices": {"specific-paths": "SOUTH", "return-paths": "NORTH", "last-return-paths": "NORTH"}}
+{"map": "H4-09", "split": "I", "step": 39, "status": "BROKEN", "safe": ["SOUTH"], "choices": {"specific-paths": "SOUTH", "return-paths": "SOUTH", "last-return-paths": "SOUTH"}}
+{"map": "H4-13", "split": "I", "step": 17, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "H4-13", "split": "I", "step": 24, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "WEST", "return-paths": "EAST", "last-return-paths": "WEST"}}
+{"map": "H4-13", "split": "I", "step": 29, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "H4-21", "split": "I", "step": 16, "status": "BROKEN", "safe": ["EAST"], "choices": {"specific-paths": "EAST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "H4-22", "split": "I", "step": 15, "status": "EMPTY", "safe": ["NORTH"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "fresh-H1-03", "split": "II", "step": 3, "status": "SUCCESS", "safe": ["NORTH", "EAST", "WEST"], "choices": {"specific-paths": "NORTH", "return-paths": "EAST", "last-return-paths": "NORTH"}}
+{"map": "fresh-H1-07", "split": "II", "step": 4, "status": "SUCCESS", "safe": ["NORTH", "SOUTH", "WEST"], "choices": {"specific-paths": "NORTH", "return-paths": "NORTH", "last-return-paths": "NORTH"}}
+{"map": "fresh-H1-21", "split": "II", "step": 4, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH"], "choices": {"specific-paths": "SOUTH", "return-paths": "NORTH", "last-return-paths": "SOUTH"}}
+{"map": "fresh-H1-21", "split": "II", "step": 6, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH"], "choices": {"specific-paths": "NORTH", "return-paths": "EAST", "last-return-paths": "NORTH"}}
+{"map": "fresh-H2-03", "split": "II", "step": 27, "status": "EMPTY", "safe": ["NORTH", "EAST", "NE"], "choices": {"specific-paths": "NORTH", "return-paths": "NORTH", "last-return-paths": "NORTH"}}
+{"map": "fresh-H2-06", "split": "II", "step": 11, "status": "EMPTY", "safe": ["EAST"], "choices": {"specific-paths": "WEST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "fresh-H2-07", "split": "II", "step": 7, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "NE", "SE"], "choices": {"specific-paths": "NE", "return-paths": "NORTH", "last-return-paths": "NE"}}
+{"map": "fresh-H2-12", "split": "II", "step": 4, "status": "SUCCESS", "safe": ["SOUTH"], "choices": {"specific-paths": "SOUTH", "return-paths": "NORTH", "last-return-paths": "NORTH"}}
+{"map": "fresh-H2-16", "split": "II", "step": 10, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "EAST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "fresh-H2-17", "split": "II", "step": 19, "status": "BROKEN", "safe": ["NORTH", "EAST", "SOUTH", "WEST", "NE", "SE", "SW", "NW"], "choices": {"specific-paths": "SOUTH", "return-paths": "SW", "last-return-paths": "SOUTH"}}
+{"map": "fresh-H3-09", "split": "II", "step": 16, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST", "NE", "SW", "NW"], "choices": {"specific-paths": "EAST", "return-paths": "SW", "last-return-paths": "EAST"}}
+{"map": "fresh-H3-13", "split": "II", "step": 11, "status": "BROKEN", "safe": ["NORTH", "SOUTH", "WEST"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "fresh-H3-13", "split": "II", "step": 13, "status": "BROKEN", "safe": ["NORTH"], "choices": {"specific-paths": "NORTH", "return-paths": "NORTH", "last-return-paths": "NORTH"}}
+{"map": "fresh-H3-16", "split": "II", "step": 27, "status": "SUCCESS", "safe": ["EAST"], "choices": {"specific-paths": "EAST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "fresh-H3-21", "split": "II", "step": 5, "status": "BROKEN", "safe": ["EAST"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "fresh-H3-23", "split": "II", "step": 19, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "EAST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "fresh-H3-23", "split": "II", "step": 33, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "WEST", "return-paths": "NORTH", "last-return-paths": "WEST"}}
+{"map": "fresh-H3-23", "split": "II", "step": 35, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "NORTH", "return-paths": "EAST", "last-return-paths": "NORTH"}}
+{"map": "fresh-H4-03", "split": "II", "step": 19, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST", "NE", "SE", "NW"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "fresh-H4-04", "split": "II", "step": 3, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "SOUTH", "return-paths": "WEST", "last-return-paths": "SOUTH"}}
+{"map": "fresh-H4-04", "split": "II", "step": 5, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "fresh-H4-20", "split": "II", "step": 16, "status": "BROKEN", "safe": ["EAST"], "choices": {"specific-paths": "WEST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "fresh-H4-23", "split": "II", "step": 27, "status": "BROKEN", "safe": ["WEST"], "choices": {"specific-paths": "WEST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "check-H1-02", "split": "III", "step": 3, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST", "SE"], "choices": {"specific-paths": "SE", "return-paths": "SOUTH", "last-return-paths": "SE"}}
+{"map": "check-H1-12", "split": "III", "step": 3, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST", "NE", "SE", "SW", "NW"], "choices": {"specific-paths": "SE", "return-paths": "SE", "last-return-paths": "SE"}}
+{"map": "check-H2-05", "split": "III", "step": 7, "status": "SUCCESS", "safe": ["NORTH", "EAST", "WEST", "NE", "NW"], "choices": {"specific-paths": "NE", "return-paths": "EAST", "last-return-paths": "NE"}}
+{"map": "check-H2-13", "split": "III", "step": 5, "status": "EMPTY", "safe": ["NORTH"], "choices": {"specific-paths": "WEST", "return-paths": "NORTH", "last-return-paths": "NORTH"}}
+{"map": "check-H3-02", "split": "III", "step": 8, "status": "EMPTY", "safe": ["WEST"], "choices": {"specific-paths": "EAST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "check-H3-05", "split": "III", "step": 15, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "WEST", "return-paths": "EAST", "last-return-paths": "WEST"}}
+{"map": "check-H3-14", "split": "III", "step": 7, "status": "BROKEN", "safe": ["EAST"], "choices": {"specific-paths": "EAST", "return-paths": "SOUTH", "last-return-paths": "SOUTH"}}
+{"map": "check-H3-20", "split": "III", "step": 3, "status": "SUCCESS", "safe": ["NORTH", "EAST", "WEST", "NE", "NW"], "choices": {"specific-paths": "NW", "return-paths": "NW", "last-return-paths": "NW"}}
+{"map": "check-H3-24", "split": "III", "step": 8, "status": "BROKEN", "safe": ["EAST"], "choices": {"specific-paths": "WEST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "check-H4-11", "split": "III", "step": 20, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST", "NE", "SE", "NW"], "choices": {"specific-paths": "WEST", "return-paths": "WEST", "last-return-paths": "WEST"}}
+{"map": "check-H4-22", "split": "III", "step": 32, "status": "EMPTY", "safe": ["SOUTH"], "choices": {"specific-paths": "SOUTH", "return-paths": "SOUTH", "last-return-paths": "SOUTH"}}
+{"map": "check-H4-23", "split": "III", "step": 21, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "SOUTH", "return-paths": "SOUTH", "last-return-paths": "SOUTH"}}
+{"map": "check-H4-24", "split": "III", "step": 25, "status": "EMPTY", "safe": ["SOUTH"], "choices": {"specific-paths": "EAST", "return-paths": "SOUTH", "last-return-paths": "SOUTH"}}
+{"map": "val-3-06", "split": "val", "step": 12, "status": "SUCCESS", "safe": ["NORTH", "EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "SOUTH", "return-paths": "SOUTH", "last-return-paths": "SOUTH"}}
+{"map": "val-3-07", "split": "val", "step": 11, "status": "SUCCESS", "safe": ["NORTH", "EAST", "WEST"], "choices": {"specific-paths": "NORTH", "return-paths": "NORTH", "last-return-paths": "NORTH"}}
+{"map": "val-3-12", "split": "val", "step": 12, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "EAST", "return-paths": "EAST", "last-return-paths": "EAST"}}
+{"map": "val-3-12", "split": "val", "step": 14, "status": "SUCCESS", "safe": ["EAST", "SOUTH", "WEST"], "choices": {"specific-paths": "SOUTH", "return-paths": "WEST", "last-return-paths": "SOUTH"}}

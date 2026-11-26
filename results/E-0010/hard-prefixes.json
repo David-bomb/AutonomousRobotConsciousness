@@ -1,0 +1,792 @@
+{
+  "snapshot": "coverage-62-11b594fc31c2.json",
+  "reference": "street-trunk",
+  "maps": {
+    "H3-02": {
+      "selected_service": "F",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "I",
+      "step": 4,
+      "prefix": "314",
+      "reference_move": "NW",
+      "viable_moves": [
+        "EAST",
+        "SOUTH",
+        "SE"
+      ],
+      "shared_prefix": 13,
+      "different_action": 0,
+      "viable_action": 0,
+      "unanimous_failed_estimate": true,
+      "following_losses": []
+    },
+    "H3-09": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "I",
+      "step": 5,
+      "prefix": "1100",
+      "reference_move": "WEST",
+      "viable_moves": [
+        "SOUTH"
+      ],
+      "shared_prefix": 62,
+      "different_action": 0,
+      "viable_action": 0,
+      "unanimous_failed_estimate": null,
+      "following_losses": []
+    },
+    "H4-05": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "I",
+      "step": 3,
+      "prefix": "33",
+      "reference_move": "WEST",
+      "viable_moves": [
+        "NW"
+      ],
+      "shared_prefix": 44,
+      "different_action": 2,
+      "viable_action": 2,
+      "unanimous_failed_estimate": false,
+      "following_losses": [
+        {
+          "step": 6,
+          "position": [
+            17,
+            12
+          ],
+          "move": "WEST",
+          "refuels": 0,
+          "repairs": 0,
+          "agents": [
+            "coupled",
+            "return"
+          ],
+          "witnesses": {}
+        }
+      ]
+    },
+    "H4-14": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "I",
+      "step": 1,
+      "prefix": "",
+      "reference_move": "SOUTH",
+      "viable_moves": [
+        "NORTH"
+      ],
+      "shared_prefix": 62,
+      "different_action": 1,
+      "viable_action": 1,
+      "unanimous_failed_estimate": true,
+      "following_losses": [
+        {
+          "step": 1890,
+          "position": [
+            35,
+            29
+          ],
+          "move": "WEST",
+          "refuels": 27,
+          "repairs": 20,
+          "agents": [
+            "witness"
+          ],
+          "witnesses": {}
+        }
+      ]
+    },
+    "H4-21": {
+      "selected_service": "R",
+      "refuels_before": 1,
+      "repairs_before": 0,
+      "split": "I",
+      "step": 24,
+      "prefix": "03333222233110211112233",
+      "reference_move": "SOUTH",
+      "viable_moves": [
+        "WEST"
+      ],
+      "shared_prefix": 21,
+      "different_action": 6,
+      "viable_action": 6,
+      "unanimous_failed_estimate": false,
+      "following_losses": [
+        {
+          "step": 32,
+          "position": [
+            23,
+            31
+          ],
+          "move": "WEST",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "streets",
+            "survey-streets",
+            "scouting-sortie",
+            "terminal-streets",
+            "last-mission",
+            "deadline-goal"
+          ],
+          "witnesses": {
+            "deadline-goal": "streets"
+          }
+        }
+      ]
+    },
+    "fresh-H2-06": {
+      "selected_service": "F",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "II",
+      "step": 11,
+      "prefix": "1100111120",
+      "reference_move": "WEST",
+      "viable_moves": [
+        "EAST"
+      ],
+      "shared_prefix": 25,
+      "different_action": 1,
+      "viable_action": 1,
+      "unanimous_failed_estimate": false,
+      "following_losses": [
+        {
+          "step": 13,
+          "position": [
+            9,
+            17
+          ],
+          "move": "EAST",
+          "refuels": 0,
+          "repairs": 0,
+          "agents": [
+            "deadline-mission"
+          ],
+          "witnesses": {}
+        }
+      ]
+    },
+    "fresh-H4-13": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "II",
+      "step": 2,
+      "prefix": "0",
+      "reference_move": "EAST",
+      "viable_moves": [
+        "NW"
+      ],
+      "shared_prefix": 22,
+      "different_action": 0,
+      "viable_action": 0,
+      "unanimous_failed_estimate": true,
+      "following_losses": []
+    },
+    "fresh-H4-15": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "II",
+      "step": 4,
+      "prefix": "333",
+      "reference_move": "NORTH",
+      "viable_moves": [
+        "SOUTH"
+      ],
+      "shared_prefix": 21,
+      "different_action": 0,
+      "viable_action": 0,
+      "unanimous_failed_estimate": true,
+      "following_losses": []
+    },
+    "fresh-H4-16": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "II",
+      "step": 1,
+      "prefix": "",
+      "reference_move": "NORTH",
+      "viable_moves": [
+        "SOUTH"
+      ],
+      "shared_prefix": 62,
+      "different_action": 0,
+      "viable_action": 0,
+      "unanimous_failed_estimate": true,
+      "following_losses": []
+    },
+    "fresh-H4-20": {
+      "selected_service": "R",
+      "refuels_before": 1,
+      "repairs_before": 0,
+      "split": "II",
+      "step": 16,
+      "prefix": "632312233332011",
+      "reference_move": "SOUTH",
+      "viable_moves": [
+        "EAST"
+      ],
+      "shared_prefix": 40,
+      "different_action": 26,
+      "viable_action": 26,
+      "unanimous_failed_estimate": false,
+      "following_losses": [
+        {
+          "step": 19,
+          "position": [
+            6,
+            8
+          ],
+          "move": "SE",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "passage",
+            "room-passages",
+            "weighted-rooms"
+          ],
+          "witnesses": {
+            "weighted-rooms": "passage"
+          }
+        },
+        {
+          "step": 18,
+          "position": [
+            5,
+            7
+          ],
+          "move": "SOUTH",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "roads",
+            "range-roads",
+            "relay",
+            "cells",
+            "outer",
+            "outer-service",
+            "last-unit",
+            "shared",
+            "consensus",
+            "homing",
+            "probe-order",
+            "mission",
+            "exact-worlds",
+            "symmetric-streets",
+            "conditioned-streets"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 19,
+          "position": [
+            6,
+            8
+          ],
+          "move": "SW",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "marked-streets",
+            "all-approaches",
+            "insured-approaches",
+            "preview"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 20,
+          "position": [
+            7,
+            8
+          ],
+          "move": "SOUTH",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "many-streets",
+            "texture-cells",
+            "cycle-gate"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 25,
+          "position": [
+            11,
+            10
+          ],
+          "move": "SW",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "mixed-streets"
+          ],
+          "witnesses": {}
+        }
+      ]
+    },
+    "fresh-H4-23": {
+      "selected_service": "F",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "II",
+      "step": 1,
+      "prefix": "",
+      "reference_move": "EAST",
+      "viable_moves": [
+        "WEST"
+      ],
+      "shared_prefix": 62,
+      "different_action": 46,
+      "viable_action": 46,
+      "unanimous_failed_estimate": false,
+      "following_losses": [
+        {
+          "step": 27,
+          "position": [
+            19,
+            21
+          ],
+          "move": "SOUTH",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "reserve",
+            "anchor",
+            "excursion",
+            "range",
+            "bridge",
+            "corridor",
+            "trunk"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 7,
+          "position": [
+            19,
+            19
+          ],
+          "move": "NORTH",
+          "refuels": 0,
+          "repairs": 0,
+          "agents": [
+            "passage"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 5,
+          "position": [
+            21,
+            19
+          ],
+          "move": "NORTH",
+          "refuels": 0,
+          "repairs": 0,
+          "agents": [
+            "joint",
+            "roads",
+            "range-roads",
+            "outer",
+            "outer-service",
+            "coupled",
+            "return",
+            "last-unit",
+            "shared",
+            "homing"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 27,
+          "position": [
+            19,
+            21
+          ],
+          "move": "EAST",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "relay",
+            "consensus",
+            "probe-order",
+            "street-consensus",
+            "calibrated"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 33,
+          "position": [
+            15,
+            23
+          ],
+          "move": "SOUTH",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "cells",
+            "mission"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 7,
+          "position": [
+            19,
+            19
+          ],
+          "move": "EAST",
+          "refuels": 0,
+          "repairs": 0,
+          "agents": [
+            "fork-budget"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 33,
+          "position": [
+            15,
+            23
+          ],
+          "move": "NORTH",
+          "refuels": 1,
+          "repairs": 0,
+          "agents": [
+            "streets",
+            "marked-streets",
+            "many-streets",
+            "mixed-streets",
+            "all-approaches",
+            "insured-approaches",
+            "survey-streets",
+            "scouting-sortie",
+            "terminal-streets",
+            "stable-streets",
+            "preview",
+            "symmetric-streets",
+            "last-mission",
+            "margin-gate",
+            "deadline-goal",
+            "paired-witness",
+            "common-vote",
+            "conditioned-streets"
+          ],
+          "witnesses": {
+            "deadline-goal": "insured-approaches"
+          }
+        },
+        {
+          "step": 5,
+          "position": [
+            21,
+            19
+          ],
+          "move": "EAST",
+          "refuels": 0,
+          "repairs": 0,
+          "agents": [
+            "individual-stops",
+            "viability-vote"
+          ],
+          "witnesses": {
+            "viability-vote": "individual-stops"
+          }
+        }
+      ]
+    },
+    "check-H3-20": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "III",
+      "step": 8,
+      "prefix": "6470033",
+      "reference_move": "SOUTH",
+      "viable_moves": [
+        "WEST"
+      ],
+      "shared_prefix": 18,
+      "different_action": 3,
+      "viable_action": 3,
+      "unanimous_failed_estimate": true,
+      "following_losses": [
+        {
+          "step": 1057,
+          "position": [
+            15,
+            28
+          ],
+          "move": "NORTH",
+          "refuels": 11,
+          "repairs": 21,
+          "agents": [
+            "street-consensus",
+            "calibrated",
+            "street-trunk-reserve"
+          ],
+          "witnesses": {}
+        }
+      ]
+    },
+    "check-H3-21": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "III",
+      "step": 4,
+      "prefix": "111",
+      "reference_move": "SW",
+      "viable_moves": [
+        "NORTH",
+        "WEST",
+        "NW"
+      ],
+      "shared_prefix": 15,
+      "different_action": 4,
+      "viable_action": 2,
+      "unanimous_failed_estimate": false,
+      "following_losses": [
+        {
+          "step": 9,
+          "position": [
+            23,
+            17
+          ],
+          "move": "SOUTH",
+          "refuels": 0,
+          "repairs": 0,
+          "agents": [
+            "trunk-reserve",
+            "street-trunk-reserve"
+          ],
+          "witnesses": {}
+        }
+      ]
+    },
+    "check-H4-01": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "III",
+      "step": 1,
+      "prefix": "",
+      "reference_move": "EAST",
+      "viable_moves": [
+        "WEST"
+      ],
+      "shared_prefix": 62,
+      "different_action": 0,
+      "viable_action": 0,
+      "unanimous_failed_estimate": true,
+      "following_losses": []
+    },
+    "check-H4-09": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "III",
+      "step": 1,
+      "prefix": "",
+      "reference_move": "NORTH",
+      "viable_moves": [
+        "EAST"
+      ],
+      "shared_prefix": 62,
+      "different_action": 2,
+      "viable_action": 2,
+      "unanimous_failed_estimate": true,
+      "following_losses": [
+        {
+          "step": 588,
+          "position": [
+            7,
+            30
+          ],
+          "move": "SOUTH",
+          "refuels": 13,
+          "repairs": 9,
+          "agents": [
+            "witness"
+          ],
+          "witnesses": {}
+        },
+        {
+          "step": 23,
+          "position": [
+            27,
+            29
+          ],
+          "move": "NORTH",
+          "refuels": 0,
+          "repairs": 1,
+          "agents": [
+            "texture-cells"
+          ],
+          "witnesses": {}
+        }
+      ]
+    },
+    "check-H4-15": {
+      "selected_service": "F",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "III",
+      "step": 7,
+      "prefix": "110033",
+      "reference_move": "WEST",
+      "viable_moves": [
+        "NORTH"
+      ],
+      "shared_prefix": 61,
+      "different_action": 23,
+      "viable_action": 23,
+      "unanimous_failed_estimate": false,
+      "following_losses": [
+        {
+          "step": 9,
+          "position": [
+            7,
+            5
+          ],
+          "move": "WEST",
+          "refuels": 0,
+          "repairs": 0,
+          "agents": [
+            "roads",
+            "range-roads",
+            "relay",
+            "outer",
+            "outer-service",
+            "streets",
+            "last-unit",
+            "shared",
+            "homing",
+            "mission",
+            "many-streets",
+            "mixed-streets",
+            "survey-streets",
+            "scouting-sortie",
+            "terminal-streets",
+            "texture-cells",
+            "stable-streets",
+            "symmetric-streets",
+            "last-mission",
+            "deadline-goal",
+            "viability-vote"
+          ],
+          "witnesses": {
+            "deadline-goal": "texture-cells",
+            "viability-vote": "texture-cells"
+          }
+        },
+        {
+          "step": 3153,
+          "position": [
+            25,
+            11
+          ],
+          "move": "SOUTH",
+          "refuels": 33,
+          "repairs": 39,
+          "agents": [
+            "witness",
+            "paired-witness"
+          ],
+          "witnesses": {}
+        }
+      ]
+    },
+    "check-H4-16": {
+      "selected_service": "R",
+      "refuels_before": 0,
+      "repairs_before": 0,
+      "split": "III",
+      "step": 13,
+      "prefix": "330000330011",
+      "reference_move": "EAST",
+      "viable_moves": [
+        "NORTH"
+      ],
+      "shared_prefix": 9,
+      "different_action": 1,
+      "viable_action": 1,
+      "unanimous_failed_estimate": true,
+      "following_losses": [
+        {
+          "step": 15,
+          "position": [
+            25,
+            25
+          ],
+          "move": "EAST",
+          "refuels": 0,
+          "repairs": 0,
+          "agents": [
+            "adaptive-trunk"
+          ],
+          "witnesses": {}
+        }
+      ]
+    },
+    "check-H4-22": {
+      "selected_service": "R",
+      "refuels_before": 1,
+      "repairs_before": 0,
+      "split": "III",
+      "step": 42,
+      "prefix": "23333001333330011000033002211132233222211",
+      "reference_move": "SOUTH",
+      "viable_moves": [
+        "EAST"
+      ],
+      "shared_prefix": 9,
+      "different_action": 1,
+      "viable_action": 1,
+      "unanimous_failed_estimate": false,
+      "following_losses": [
+        {
+          "step": 4712,
+          "position": [
+            19,
+            33
+          ],
+          "move": "SOUTH",
+          "refuels": 53,
+          "repairs": 62,
+          "agents": [
+            "cycle-gate"
+          ],
+          "witnesses": {}
+        }
+      ]
+    }
+  },
+  "counts": {
+    "total": 114,
+    "direct": 108,
+    "matched": 6,
+    "without_next_service": 73,
+    "selected_service_only": 33,
+    "other_service_only": 0,
+    "both_services_increased": 8,
+    "by2": 38,
+    "by8": 72,
+    "both": 8,
+    "one": 65
+  }
+}
+

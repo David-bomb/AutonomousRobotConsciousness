@@ -1,0 +1,5123 @@
+[
+  {
+    "map": "H3-11",
+    "split": "I",
+    "choices": {
+      "near": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "goal": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "stock": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "margin": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "new": [
+        [
+          2,
+          25
+        ],
+        90,
+        60,
+        48
+      ],
+      "new_per_step": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "wall-window": [
+        [
+          2,
+          25
+        ],
+        90,
+        60,
+        48
+      ],
+      "exit-flow": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "corridor-flow": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "exit-current": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "sampled-margin": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "simple-exit-paths": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "gateway-paths": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "service-exit-paths": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ],
+      "feasible-windows": [
+        [
+          6,
+          13
+        ],
+        2,
+        48,
+        60
+      ]
+    },
+    "winners": [],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            6,
+            13
+          ],
+          2,
+          48,
+          60
+        ],
+        "direct_length": 46,
+        "finished": false
+      },
+      "spare": {
+        "choice": [
+          [
+            6,
+            13
+          ],
+          2,
+          48,
+          60
+        ],
+        "direct_length": 46,
+        "finished": false
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "H3-19",
+    "split": "I",
+    "choices": {
+      "near": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "goal": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "stock": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "margin": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "new": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "new_per_step": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "wall-window": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "exit-flow": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "corridor-flow": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "exit-current": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "sampled-margin": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "simple-exit-paths": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "gateway-paths": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "service-exit-paths": [
+        [
+          19,
+          7
+        ],
+        1,
+        74,
+        49
+      ],
+      "feasible-windows": [
+        [
+          27,
+          9
+        ],
+        77,
+        48,
+        73
+      ]
+    },
+    "winners": [
+      [
+        [
+          27,
+          9
+        ],
+        77,
+        48,
+        73
+      ],
+      [
+        [
+          27,
+          9
+        ],
+        125,
+        50,
+        25
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            27,
+            9
+          ],
+          77,
+          48,
+          73
+        ],
+        "direct_length": 14,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            27,
+            9
+          ],
+          77,
+          48,
+          73
+        ],
+        "direct_length": 14,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": true
+    }
+  },
+  {
+    "map": "H3-22",
+    "split": "I",
+    "choices": {
+      "near": [
+        [
+          29,
+          22
+        ],
+        1,
+        49,
+        71
+      ],
+      "goal": [
+        [
+          3,
+          25
+        ],
+        95,
+        55,
+        39
+      ],
+      "stock": [
+        [
+          29,
+          22
+        ],
+        1,
+        49,
+        71
+      ],
+      "margin": [
+        [
+          29,
+          22
+        ],
+        1,
+        49,
+        71
+      ],
+      "new": [
+        [
+          29,
+          22
+        ],
+        1,
+        49,
+        71
+      ],
+      "new_per_step": [
+        [
+          29,
+          22
+        ],
+        1,
+        49,
+        71
+      ],
+      "wall-window": [
+        [
+          1,
+          32
+        ],
+        107,
+        43,
+        59
+      ],
+      "exit-flow": [
+        [
+          3,
+          25
+        ],
+        107,
+        43,
+        59
+      ],
+      "corridor-flow": [
+        [
+          3,
+          25
+        ],
+        107,
+        43,
+        59
+      ],
+      "exit-current": [
+        [
+          29,
+          22
+        ],
+        1,
+        49,
+        71
+      ],
+      "sampled-margin": [
+        [
+          3,
+          25
+        ],
+        107,
+        43,
+        59
+      ],
+      "simple-exit-paths": [
+        [
+          3,
+          25
+        ],
+        107,
+        43,
+        59
+      ],
+      "gateway-paths": [
+        [
+          3,
+          25
+        ],
+        107,
+        43,
+        59
+      ],
+      "service-exit-paths": [
+        [
+          3,
+          25
+        ],
+        107,
+        43,
+        59
+      ],
+      "feasible-windows": [
+        [
+          3,
+          25
+        ],
+        107,
+        43,
+        59
+      ]
+    },
+    "winners": [
+      [
+        [
+          3,
+          25
+        ],
+        95,
+        55,
+        39
+      ],
+      [
+        [
+          3,
+          25
+        ],
+        107,
+        43,
+        59
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            3,
+            25
+          ],
+          95,
+          55,
+          39
+        ],
+        "direct_length": 30,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            3,
+            25
+          ],
+          107,
+          43,
+          59
+        ],
+        "direct_length": 30,
+        "finished": true
+      }
+    },
+    "deduced_cells": [
+      [
+        27,
+        21,
+        "."
+      ],
+      [
+        27,
+        22,
+        "."
+      ],
+      [
+        27,
+        23,
+        "."
+      ],
+      [
+        28,
+        23,
+        "."
+      ],
+      [
+        29,
+        23,
+        "."
+      ]
+    ],
+    "first_landmarks": [
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": true,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": true,
+      "corridor-flow": true,
+      "exit-current": false,
+      "sampled-margin": true,
+      "simple-exit-paths": true,
+      "gateway-paths": true,
+      "service-exit-paths": true,
+      "feasible-windows": true
+    }
+  },
+  {
+    "map": "H3-24",
+    "split": "I",
+    "choices": {
+      "near": [
+        [
+          33,
+          9
+        ],
+        1,
+        13,
+        41
+      ],
+      "goal": [
+        [
+          28,
+          13
+        ],
+        8,
+        6,
+        34
+      ],
+      "stock": [
+        [
+          33,
+          9
+        ],
+        1,
+        13,
+        41
+      ],
+      "margin": [
+        [
+          28,
+          13
+        ],
+        8,
+        6,
+        34
+      ],
+      "new": [
+        [
+          31,
+          8
+        ],
+        3,
+        11,
+        39
+      ],
+      "new_per_step": [
+        [
+          33,
+          9
+        ],
+        1,
+        13,
+        41
+      ],
+      "wall-window": [
+        [
+          33,
+          9
+        ],
+        1,
+        13,
+        41
+      ],
+      "exit-flow": [
+        [
+          28,
+          13
+        ],
+        8,
+        6,
+        34
+      ],
+      "corridor-flow": [
+        [
+          28,
+          13
+        ],
+        8,
+        6,
+        34
+      ],
+      "exit-current": [
+        [
+          28,
+          13
+        ],
+        8,
+        6,
+        34
+      ],
+      "sampled-margin": [
+        [
+          28,
+          13
+        ],
+        8,
+        6,
+        34
+      ],
+      "simple-exit-paths": [
+        [
+          28,
+          13
+        ],
+        8,
+        6,
+        34
+      ],
+      "gateway-paths": [
+        [
+          28,
+          13
+        ],
+        8,
+        6,
+        34
+      ],
+      "service-exit-paths": [
+        [
+          31,
+          8
+        ],
+        3,
+        11,
+        39
+      ],
+      "feasible-windows": [
+        [
+          28,
+          13
+        ],
+        8,
+        6,
+        34
+      ]
+    },
+    "winners": [],
+    "oracle": {},
+    "deduced_cells": [],
+    "first_landmarks": [],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "H4-12",
+    "split": "I",
+    "choices": {
+      "near": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "goal": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "stock": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "margin": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "new": [
+        [
+          14,
+          23
+        ],
+        6,
+        42,
+        25
+      ],
+      "new_per_step": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "wall-window": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "exit-flow": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "corridor-flow": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "exit-current": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "sampled-margin": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "simple-exit-paths": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "gateway-paths": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "service-exit-paths": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ],
+      "feasible-windows": [
+        [
+          11,
+          27
+        ],
+        1,
+        47,
+        30
+      ]
+    },
+    "winners": [],
+    "oracle": {},
+    "deduced_cells": [
+      [
+        16,
+        23,
+        "."
+      ]
+    ],
+    "first_landmarks": [],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "H4-20",
+    "split": "I",
+    "choices": {
+      "near": [
+        [
+          15,
+          27
+        ],
+        1,
+        49,
+        69
+      ],
+      "goal": [
+        [
+          1,
+          6
+        ],
+        92,
+        58,
+        38
+      ],
+      "stock": [
+        [
+          15,
+          27
+        ],
+        1,
+        49,
+        69
+      ],
+      "margin": [
+        [
+          15,
+          27
+        ],
+        1,
+        49,
+        69
+      ],
+      "new": [
+        [
+          15,
+          27
+        ],
+        1,
+        49,
+        69
+      ],
+      "new_per_step": [
+        [
+          15,
+          27
+        ],
+        1,
+        49,
+        69
+      ],
+      "wall-window": [
+        [
+          15,
+          27
+        ],
+        1,
+        49,
+        69
+      ],
+      "exit-flow": [
+        [
+          1,
+          6
+        ],
+        110,
+        40,
+        60
+      ],
+      "corridor-flow": [
+        [
+          1,
+          6
+        ],
+        110,
+        40,
+        60
+      ],
+      "exit-current": [
+        [
+          1,
+          6
+        ],
+        110,
+        40,
+        60
+      ],
+      "sampled-margin": [
+        [
+          1,
+          6
+        ],
+        110,
+        40,
+        60
+      ],
+      "simple-exit-paths": [
+        [
+          1,
+          6
+        ],
+        110,
+        40,
+        60
+      ],
+      "gateway-paths": [
+        [
+          1,
+          6
+        ],
+        110,
+        40,
+        60
+      ],
+      "service-exit-paths": [
+        [
+          1,
+          6
+        ],
+        110,
+        40,
+        60
+      ],
+      "feasible-windows": [
+        [
+          1,
+          6
+        ],
+        110,
+        40,
+        60
+      ]
+    },
+    "winners": [
+      [
+        [
+          1,
+          6
+        ],
+        92,
+        58,
+        38
+      ],
+      [
+        [
+          1,
+          6
+        ],
+        110,
+        40,
+        60
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            1,
+            6
+          ],
+          92,
+          58,
+          38
+        ],
+        "direct_length": 37,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            1,
+            6
+          ],
+          110,
+          40,
+          60
+        ],
+        "direct_length": 37,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": true,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": true,
+      "corridor-flow": true,
+      "exit-current": true,
+      "sampled-margin": true,
+      "simple-exit-paths": true,
+      "gateway-paths": true,
+      "service-exit-paths": true,
+      "feasible-windows": true
+    }
+  },
+  {
+    "map": "fresh-H1-11",
+    "split": "II",
+    "choices": {
+      "near": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "goal": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "stock": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "margin": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "new": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "new_per_step": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "wall-window": [
+        [
+          10,
+          19
+        ],
+        85,
+        70,
+        49
+      ],
+      "exit-flow": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "corridor-flow": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "exit-current": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "sampled-margin": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "simple-exit-paths": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "gateway-paths": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "service-exit-paths": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ],
+      "feasible-windows": [
+        [
+          6,
+          9
+        ],
+        1,
+        49,
+        65
+      ]
+    },
+    "winners": [
+      [
+        [
+          10,
+          3
+        ],
+        101,
+        49,
+        65
+      ],
+      [
+        [
+          10,
+          3
+        ],
+        103,
+        47,
+        84
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            10,
+            3
+          ],
+          101,
+          49,
+          65
+        ],
+        "direct_length": 14,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            10,
+            3
+          ],
+          101,
+          49,
+          65
+        ],
+        "direct_length": 14,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "fresh-H2-12",
+    "split": "II",
+    "choices": {
+      "near": [
+        [
+          19,
+          12
+        ],
+        1,
+        49,
+        75
+      ],
+      "goal": [
+        [
+          14,
+          1
+        ],
+        93,
+        57,
+        31
+      ],
+      "stock": [
+        [
+          19,
+          12
+        ],
+        1,
+        49,
+        75
+      ],
+      "margin": [
+        [
+          19,
+          12
+        ],
+        1,
+        49,
+        75
+      ],
+      "new": [
+        [
+          19,
+          12
+        ],
+        1,
+        49,
+        75
+      ],
+      "new_per_step": [
+        [
+          19,
+          12
+        ],
+        1,
+        49,
+        75
+      ],
+      "wall-window": [
+        [
+          19,
+          12
+        ],
+        1,
+        49,
+        75
+      ],
+      "exit-flow": [
+        [
+          14,
+          1
+        ],
+        109,
+        41,
+        67
+      ],
+      "corridor-flow": [
+        [
+          14,
+          1
+        ],
+        109,
+        41,
+        67
+      ],
+      "exit-current": [
+        [
+          14,
+          1
+        ],
+        109,
+        41,
+        67
+      ],
+      "sampled-margin": [
+        [
+          14,
+          1
+        ],
+        109,
+        41,
+        67
+      ],
+      "simple-exit-paths": [
+        [
+          14,
+          1
+        ],
+        109,
+        41,
+        67
+      ],
+      "gateway-paths": [
+        [
+          14,
+          1
+        ],
+        109,
+        41,
+        67
+      ],
+      "service-exit-paths": [
+        [
+          14,
+          1
+        ],
+        109,
+        41,
+        67
+      ],
+      "feasible-windows": [
+        [
+          14,
+          1
+        ],
+        109,
+        41,
+        67
+      ]
+    },
+    "winners": [
+      [
+        [
+          14,
+          1
+        ],
+        93,
+        57,
+        31
+      ],
+      [
+        [
+          14,
+          1
+        ],
+        109,
+        41,
+        67
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            14,
+            1
+          ],
+          93,
+          57,
+          31
+        ],
+        "direct_length": 29,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            14,
+            1
+          ],
+          109,
+          41,
+          67
+        ],
+        "direct_length": 29,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": true,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": true,
+      "corridor-flow": true,
+      "exit-current": true,
+      "sampled-margin": true,
+      "simple-exit-paths": true,
+      "gateway-paths": true,
+      "service-exit-paths": true,
+      "feasible-windows": true
+    }
+  },
+  {
+    "map": "fresh-H3-03",
+    "split": "II",
+    "choices": {
+      "near": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "goal": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "stock": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "margin": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "new": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "new_per_step": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "wall-window": [
+        [
+          33,
+          4
+        ],
+        101,
+        78,
+        49
+      ],
+      "exit-flow": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "corridor-flow": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "exit-current": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "sampled-margin": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "simple-exit-paths": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "gateway-paths": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "service-exit-paths": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ],
+      "feasible-windows": [
+        [
+          33,
+          18
+        ],
+        1,
+        78,
+        49
+      ]
+    },
+    "winners": [],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            30,
+            17
+          ],
+          111,
+          68,
+          39
+        ],
+        "direct_length": 34,
+        "finished": false
+      },
+      "spare": {
+        "choice": [
+          [
+            30,
+            17
+          ],
+          111,
+          68,
+          39
+        ],
+        "direct_length": 34,
+        "finished": false
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "fresh-H3-13",
+    "split": "II",
+    "choices": {
+      "near": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "goal": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "stock": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "margin": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "new": [
+        [
+          1,
+          19
+        ],
+        82,
+        43,
+        68
+      ],
+      "new_per_step": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "wall-window": [
+        [
+          1,
+          19
+        ],
+        82,
+        43,
+        68
+      ],
+      "exit-flow": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "corridor-flow": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "exit-current": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "sampled-margin": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "simple-exit-paths": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "gateway-paths": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "service-exit-paths": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ],
+      "feasible-windows": [
+        [
+          26,
+          11
+        ],
+        1,
+        74,
+        49
+      ]
+    },
+    "winners": [
+      [
+        [
+          5,
+          12
+        ],
+        83,
+        42,
+        67
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            5,
+            12
+          ],
+          83,
+          42,
+          67
+        ],
+        "direct_length": 40,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            5,
+            12
+          ],
+          83,
+          42,
+          67
+        ],
+        "direct_length": 40,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "fresh-H3-22",
+    "split": "II",
+    "choices": {
+      "near": [
+        [
+          4,
+          9
+        ],
+        1,
+        46,
+        53
+      ],
+      "goal": [
+        [
+          5,
+          8
+        ],
+        1,
+        46,
+        53
+      ],
+      "stock": [
+        [
+          31,
+          18
+        ],
+        105,
+        56,
+        49
+      ],
+      "margin": [
+        [
+          5,
+          8
+        ],
+        1,
+        46,
+        53
+      ],
+      "new": [
+        [
+          5,
+          8
+        ],
+        1,
+        46,
+        53
+      ],
+      "new_per_step": [
+        [
+          5,
+          8
+        ],
+        1,
+        46,
+        53
+      ],
+      "wall-window": [
+        [
+          4,
+          9
+        ],
+        1,
+        46,
+        53
+      ],
+      "exit-flow": [
+        [
+          21,
+          4
+        ],
+        101,
+        46,
+        53
+      ],
+      "corridor-flow": [
+        [
+          21,
+          4
+        ],
+        101,
+        46,
+        53
+      ],
+      "exit-current": [
+        [
+          21,
+          4
+        ],
+        101,
+        46,
+        53
+      ],
+      "sampled-margin": [
+        [
+          21,
+          4
+        ],
+        101,
+        46,
+        53
+      ],
+      "simple-exit-paths": [
+        [
+          21,
+          4
+        ],
+        101,
+        46,
+        53
+      ],
+      "gateway-paths": [
+        [
+          21,
+          4
+        ],
+        101,
+        46,
+        53
+      ],
+      "service-exit-paths": [
+        [
+          21,
+          4
+        ],
+        101,
+        46,
+        53
+      ],
+      "feasible-windows": [
+        [
+          30,
+          3
+        ],
+        107,
+        54,
+        47
+      ]
+    },
+    "winners": [
+      [
+        [
+          12,
+          9
+        ],
+        101,
+        46,
+        53
+      ],
+      [
+        [
+          12,
+          9
+        ],
+        109,
+        52,
+        45
+      ],
+      [
+        [
+          12,
+          9
+        ],
+        129,
+        32,
+        73
+      ],
+      [
+        [
+          21,
+          4
+        ],
+        29,
+        18,
+        25
+      ],
+      [
+        [
+          21,
+          4
+        ],
+        101,
+        46,
+        53
+      ],
+      [
+        [
+          21,
+          4
+        ],
+        109,
+        52,
+        45
+      ],
+      [
+        [
+          21,
+          4
+        ],
+        121,
+        26,
+        73
+      ],
+      [
+        [
+          21,
+          4
+        ],
+        129,
+        32,
+        73
+      ],
+      [
+        [
+          28,
+          3
+        ],
+        101,
+        46,
+        53
+      ],
+      [
+        [
+          28,
+          3
+        ],
+        109,
+        52,
+        45
+      ],
+      [
+        [
+          30,
+          3
+        ],
+        103,
+        44,
+        51
+      ],
+      [
+        [
+          30,
+          3
+        ],
+        107,
+        54,
+        47
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            21,
+            4
+          ],
+          29,
+          18,
+          25
+        ],
+        "direct_length": 15,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            21,
+            4
+          ],
+          101,
+          46,
+          53
+        ],
+        "direct_length": 15,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": true,
+      "corridor-flow": true,
+      "exit-current": true,
+      "sampled-margin": true,
+      "simple-exit-paths": true,
+      "gateway-paths": true,
+      "service-exit-paths": true,
+      "feasible-windows": true
+    }
+  },
+  {
+    "map": "fresh-H4-05",
+    "split": "II",
+    "choices": {
+      "near": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "goal": [
+        [
+          25,
+          29
+        ],
+        105,
+        44,
+        57
+      ],
+      "stock": [
+        [
+          25,
+          21
+        ],
+        101,
+        48,
+        61
+      ],
+      "margin": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "new": [
+        [
+          25,
+          29
+        ],
+        105,
+        44,
+        57
+      ],
+      "new_per_step": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "wall-window": [
+        [
+          29,
+          17
+        ],
+        101,
+        48,
+        61
+      ],
+      "exit-flow": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "corridor-flow": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "exit-current": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "sampled-margin": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "simple-exit-paths": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "gateway-paths": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "service-exit-paths": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ],
+      "feasible-windows": [
+        [
+          24,
+          23
+        ],
+        2,
+        47,
+        60
+      ]
+    },
+    "winners": [
+      [
+        [
+          27,
+          19
+        ],
+        11,
+        38,
+        51
+      ],
+      [
+        [
+          27,
+          19
+        ],
+        101,
+        48,
+        61
+      ],
+      [
+        [
+          27,
+          19
+        ],
+        111,
+        38,
+        67
+      ],
+      [
+        [
+          27,
+          19
+        ],
+        125,
+        50,
+        37
+      ],
+      [
+        [
+          27,
+          19
+        ],
+        135,
+        40,
+        67
+      ],
+      [
+        [
+          29,
+          17
+        ],
+        11,
+        38,
+        51
+      ],
+      [
+        [
+          29,
+          17
+        ],
+        101,
+        48,
+        61
+      ],
+      [
+        [
+          29,
+          17
+        ],
+        111,
+        38,
+        67
+      ],
+      [
+        [
+          29,
+          17
+        ],
+        125,
+        50,
+        37
+      ],
+      [
+        [
+          29,
+          17
+        ],
+        135,
+        40,
+        67
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            29,
+            17
+          ],
+          11,
+          38,
+          51
+        ],
+        "direct_length": 9,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            29,
+            17
+          ],
+          101,
+          48,
+          61
+        ],
+        "direct_length": 9,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": true,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H2-11",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "goal": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "stock": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "margin": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "new": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "new_per_step": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "wall-window": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "exit-flow": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "corridor-flow": [
+        [
+          15,
+          1
+        ],
+        73,
+        49,
+        77
+      ],
+      "exit-current": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "sampled-margin": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "simple-exit-paths": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "gateway-paths": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "service-exit-paths": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ],
+      "feasible-windows": [
+        [
+          23,
+          19
+        ],
+        1,
+        77,
+        49
+      ]
+    },
+    "winners": [
+      [
+        [
+          15,
+          1
+        ],
+        73,
+        49,
+        77
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            15,
+            1
+          ],
+          73,
+          49,
+          77
+        ],
+        "direct_length": 29,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            15,
+            1
+          ],
+          73,
+          49,
+          77
+        ],
+        "direct_length": 29,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": true,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H2-22",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "goal": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "stock": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "margin": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "new": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "new_per_step": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "wall-window": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "exit-flow": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "corridor-flow": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "exit-current": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "sampled-margin": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "simple-exit-paths": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "gateway-paths": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ],
+      "service-exit-paths": [
+        [
+          17,
+          18
+        ],
+        10,
+        60,
+        2
+      ],
+      "feasible-windows": [
+        [
+          23,
+          13
+        ],
+        1,
+        69,
+        11
+      ]
+    },
+    "winners": [
+      [
+        [
+          17,
+          18
+        ],
+        10,
+        60,
+        2
+      ]
+    ],
+    "oracle": {},
+    "deduced_cells": [
+      [
+        16,
+        19,
+        "."
+      ],
+      [
+        17,
+        19,
+        "."
+      ]
+    ],
+    "first_landmarks": [
+      "R"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": true,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H2-24",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "goal": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "stock": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "margin": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "new": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "new_per_step": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "wall-window": [
+        [
+          8,
+          11
+        ],
+        100,
+        49,
+        54
+      ],
+      "exit-flow": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "corridor-flow": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "exit-current": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "sampled-margin": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "simple-exit-paths": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "gateway-paths": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "service-exit-paths": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ],
+      "feasible-windows": [
+        [
+          15,
+          26
+        ],
+        1,
+        49,
+        54
+      ]
+    },
+    "winners": [
+      [
+        [
+          8,
+          11
+        ],
+        100,
+        49,
+        54
+      ],
+      [
+        [
+          8,
+          11
+        ],
+        100,
+        50,
+        45
+      ],
+      [
+        [
+          8,
+          11
+        ],
+        103,
+        47,
+        69
+      ],
+      [
+        [
+          8,
+          12
+        ],
+        100,
+        49,
+        54
+      ],
+      [
+        [
+          8,
+          12
+        ],
+        100,
+        50,
+        45
+      ],
+      [
+        [
+          8,
+          12
+        ],
+        103,
+        47,
+        69
+      ],
+      [
+        [
+          11,
+          13
+        ],
+        100,
+        49,
+        54
+      ],
+      [
+        [
+          11,
+          13
+        ],
+        100,
+        50,
+        45
+      ],
+      [
+        [
+          11,
+          13
+        ],
+        103,
+        47,
+        69
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            8,
+            11
+          ],
+          100,
+          50,
+          45
+        ],
+        "direct_length": 19,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            8,
+            11
+          ],
+          100,
+          49,
+          54
+        ],
+        "direct_length": 19,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": true,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H3-05",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "goal": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "stock": [
+        [
+          1,
+          27
+        ],
+        135,
+        49,
+        92
+      ],
+      "margin": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "new": [
+        [
+          1,
+          27
+        ],
+        49,
+        35,
+        92
+      ],
+      "new_per_step": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "wall-window": [
+        [
+          1,
+          27
+        ],
+        135,
+        49,
+        92
+      ],
+      "exit-flow": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "corridor-flow": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "exit-current": [
+        [
+          1,
+          27
+        ],
+        135,
+        49,
+        92
+      ],
+      "sampled-margin": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "simple-exit-paths": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "gateway-paths": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "service-exit-paths": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ],
+      "feasible-windows": [
+        [
+          17,
+          33
+        ],
+        1,
+        83,
+        40
+      ]
+    },
+    "winners": [],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            17,
+            33
+          ],
+          1,
+          83,
+          40
+        ],
+        "direct_length": 34,
+        "finished": false
+      },
+      "spare": {
+        "choice": [
+          [
+            17,
+            33
+          ],
+          1,
+          83,
+          40
+        ],
+        "direct_length": 34,
+        "finished": false
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H3-07",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "goal": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "stock": [
+        [
+          9,
+          15
+        ],
+        99,
+        74,
+        49
+      ],
+      "margin": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "new": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "new_per_step": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "wall-window": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "exit-flow": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "corridor-flow": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "exit-current": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "sampled-margin": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "simple-exit-paths": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "gateway-paths": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "service-exit-paths": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ],
+      "feasible-windows": [
+        [
+          15,
+          31
+        ],
+        1,
+        72,
+        47
+      ]
+    },
+    "winners": [],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            15,
+            31
+          ],
+          1,
+          72,
+          47
+        ],
+        "direct_length": 17,
+        "finished": false
+      },
+      "spare": {
+        "choice": [
+          [
+            15,
+            31
+          ],
+          1,
+          72,
+          47
+        ],
+        "direct_length": 17,
+        "finished": false
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H3-10",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          11,
+          9
+        ],
+        1,
+        48,
+        53
+      ],
+      "goal": [
+        [
+          11,
+          9
+        ],
+        1,
+        48,
+        53
+      ],
+      "stock": [
+        [
+          11,
+          9
+        ],
+        1,
+        48,
+        53
+      ],
+      "margin": [
+        [
+          11,
+          9
+        ],
+        1,
+        48,
+        53
+      ],
+      "new": [
+        [
+          11,
+          9
+        ],
+        1,
+        48,
+        53
+      ],
+      "new_per_step": [
+        [
+          11,
+          9
+        ],
+        1,
+        48,
+        53
+      ],
+      "wall-window": [
+        [
+          17,
+          3
+        ],
+        101,
+        48,
+        53
+      ],
+      "exit-flow": [
+        [
+          17,
+          3
+        ],
+        101,
+        48,
+        53
+      ],
+      "corridor-flow": [
+        [
+          17,
+          3
+        ],
+        101,
+        48,
+        53
+      ],
+      "exit-current": [
+        [
+          17,
+          3
+        ],
+        101,
+        48,
+        53
+      ],
+      "sampled-margin": [
+        [
+          11,
+          9
+        ],
+        1,
+        48,
+        53
+      ],
+      "simple-exit-paths": [
+        [
+          17,
+          3
+        ],
+        101,
+        48,
+        53
+      ],
+      "gateway-paths": [
+        [
+          17,
+          3
+        ],
+        101,
+        48,
+        53
+      ],
+      "service-exit-paths": [
+        [
+          17,
+          3
+        ],
+        101,
+        48,
+        53
+      ],
+      "feasible-windows": [
+        [
+          11,
+          9
+        ],
+        1,
+        48,
+        53
+      ]
+    },
+    "winners": [
+      [
+        [
+          17,
+          3
+        ],
+        101,
+        48,
+        53
+      ],
+      [
+        [
+          17,
+          3
+        ],
+        109,
+        50,
+        45
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            17,
+            3
+          ],
+          31,
+          18,
+          23
+        ],
+        "direct_length": 12,
+        "finished": false
+      },
+      "spare": {
+        "choice": [
+          [
+            17,
+            3
+          ],
+          101,
+          48,
+          53
+        ],
+        "direct_length": 12,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": true,
+      "exit-flow": true,
+      "corridor-flow": true,
+      "exit-current": true,
+      "sampled-margin": false,
+      "simple-exit-paths": true,
+      "gateway-paths": true,
+      "service-exit-paths": true,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H3-19",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "goal": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "stock": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "margin": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "new": [
+        [
+          19,
+          21
+        ],
+        27,
+        21,
+        44
+      ],
+      "new_per_step": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "wall-window": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "exit-flow": [
+        [
+          15,
+          17
+        ],
+        101,
+        47,
+        70
+      ],
+      "corridor-flow": [
+        [
+          15,
+          17
+        ],
+        101,
+        47,
+        70
+      ],
+      "exit-current": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "sampled-margin": [
+        [
+          15,
+          17
+        ],
+        101,
+        47,
+        70
+      ],
+      "simple-exit-paths": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "gateway-paths": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "service-exit-paths": [
+        [
+          7,
+          13
+        ],
+        1,
+        47,
+        70
+      ],
+      "feasible-windows": [
+        [
+          15,
+          17
+        ],
+        101,
+        47,
+        70
+      ]
+    },
+    "winners": [
+      [
+        [
+          15,
+          17
+        ],
+        23,
+        25,
+        48
+      ],
+      [
+        [
+          15,
+          17
+        ],
+        101,
+        47,
+        70
+      ],
+      [
+        [
+          15,
+          17
+        ],
+        143,
+        51,
+        28
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            15,
+            17
+          ],
+          23,
+          25,
+          48
+        ],
+        "direct_length": 8,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            15,
+            17
+          ],
+          101,
+          47,
+          70
+        ],
+        "direct_length": 8,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": true,
+      "corridor-flow": true,
+      "exit-current": false,
+      "sampled-margin": true,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": true
+    }
+  },
+  {
+    "map": "check-H3-22",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          18,
+          13
+        ],
+        1,
+        49,
+        99
+      ],
+      "goal": [
+        [
+          18,
+          13
+        ],
+        1,
+        49,
+        99
+      ],
+      "stock": [
+        [
+          18,
+          13
+        ],
+        1,
+        49,
+        99
+      ],
+      "margin": [
+        [
+          18,
+          13
+        ],
+        1,
+        49,
+        99
+      ],
+      "new": [
+        [
+          10,
+          7
+        ],
+        13,
+        37,
+        87
+      ],
+      "new_per_step": [
+        [
+          18,
+          13
+        ],
+        1,
+        49,
+        99
+      ],
+      "wall-window": [
+        [
+          18,
+          13
+        ],
+        1,
+        49,
+        99
+      ],
+      "exit-flow": [
+        [
+          18,
+          13
+        ],
+        1,
+        49,
+        99
+      ],
+      "corridor-flow": [
+        [
+          18,
+          13
+        ],
+        1,
+        49,
+        99
+      ],
+      "exit-current": [
+        [
+          26,
+          21
+        ],
+        120,
+        56,
+        49
+      ],
+      "sampled-margin": [
+        [
+          10,
+          7
+        ],
+        127,
+        61,
+        42
+      ],
+      "simple-exit-paths": [
+        [
+          26,
+          21
+        ],
+        120,
+        56,
+        49
+      ],
+      "gateway-paths": [
+        [
+          26,
+          21
+        ],
+        120,
+        56,
+        49
+      ],
+      "service-exit-paths": [
+        [
+          26,
+          21
+        ],
+        120,
+        56,
+        49
+      ],
+      "feasible-windows": [
+        [
+          10,
+          7
+        ],
+        127,
+        61,
+        42
+      ]
+    },
+    "winners": [],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            26,
+            21
+          ],
+          120,
+          56,
+          49
+        ],
+        "direct_length": 36,
+        "finished": false
+      },
+      "spare": {
+        "choice": [
+          [
+            26,
+            21
+          ],
+          120,
+          56,
+          49
+        ],
+        "direct_length": 36,
+        "finished": false
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H3-25",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "goal": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "stock": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "margin": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "new": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "new_per_step": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "wall-window": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "exit-flow": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "corridor-flow": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "exit-current": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "sampled-margin": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "simple-exit-paths": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "gateway-paths": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "service-exit-paths": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ],
+      "feasible-windows": [
+        [
+          23,
+          13
+        ],
+        1,
+        49,
+        53
+      ]
+    },
+    "winners": [],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            23,
+            13
+          ],
+          1,
+          49,
+          53
+        ],
+        "direct_length": 31,
+        "finished": false
+      },
+      "spare": {
+        "choice": [
+          [
+            23,
+            13
+          ],
+          1,
+          49,
+          53
+        ],
+        "direct_length": 31,
+        "finished": false
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H4-03",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "goal": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "stock": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "margin": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "new": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "new_per_step": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "wall-window": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "exit-flow": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "corridor-flow": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "exit-current": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "sampled-margin": [
+        [
+          20,
+          17
+        ],
+        1,
+        66,
+        42
+      ],
+      "simple-exit-paths": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "gateway-paths": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "service-exit-paths": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ],
+      "feasible-windows": [
+        [
+          19,
+          18
+        ],
+        1,
+        66,
+        42
+      ]
+    },
+    "winners": [
+      [
+        [
+          23,
+          14
+        ],
+        13,
+        54,
+        30
+      ],
+      [
+        [
+          23,
+          14
+        ],
+        101,
+        66,
+        42
+      ],
+      [
+        [
+          23,
+          14
+        ],
+        135,
+        32,
+        56
+      ],
+      [
+        [
+          24,
+          13
+        ],
+        13,
+        54,
+        30
+      ],
+      [
+        [
+          24,
+          13
+        ],
+        101,
+        66,
+        42
+      ],
+      [
+        [
+          24,
+          13
+        ],
+        135,
+        32,
+        56
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            23,
+            14
+          ],
+          13,
+          54,
+          30
+        ],
+        "direct_length": 19,
+        "finished": true
+      },
+      "spare": {
+        "choice": [
+          [
+            23,
+            14
+          ],
+          101,
+          66,
+          42
+        ],
+        "direct_length": 19,
+        "finished": true
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H4-13",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "goal": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "stock": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "margin": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "new": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "new_per_step": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "wall-window": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "exit-flow": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "corridor-flow": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "exit-current": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "sampled-margin": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "simple-exit-paths": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "gateway-paths": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "service-exit-paths": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ],
+      "feasible-windows": [
+        [
+          9,
+          7
+        ],
+        1,
+        86,
+        49
+      ]
+    },
+    "winners": [
+      [
+        [
+          9,
+          30
+        ],
+        93,
+        49,
+        57
+      ],
+      [
+        [
+          9,
+          30
+        ],
+        108,
+        50,
+        42
+      ],
+      [
+        [
+          9,
+          32
+        ],
+        93,
+        49,
+        57
+      ],
+      [
+        [
+          9,
+          32
+        ],
+        108,
+        50,
+        42
+      ],
+      [
+        [
+          13,
+          1
+        ],
+        101,
+        57,
+        49
+      ],
+      [
+        [
+          14,
+          3
+        ],
+        102,
+        56,
+        48
+      ],
+      [
+        [
+          14,
+          3
+        ],
+        105,
+        82,
+        45
+      ]
+    ],
+    "oracle": {
+      "shortest": {
+        "choice": [
+          [
+            9,
+            7
+          ],
+          1,
+          86,
+          49
+        ],
+        "direct_length": 36,
+        "finished": false
+      },
+      "spare": {
+        "choice": [
+          [
+            9,
+            7
+          ],
+          1,
+          86,
+          49
+        ],
+        "direct_length": 36,
+        "finished": false
+      }
+    },
+    "deduced_cells": [],
+    "first_landmarks": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  },
+  {
+    "map": "check-H4-14",
+    "split": "III",
+    "choices": {
+      "near": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "goal": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "stock": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "margin": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "new": [
+        [
+          31,
+          11
+        ],
+        20,
+        59,
+        24
+      ],
+      "new_per_step": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "wall-window": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "exit-flow": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "corridor-flow": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "exit-current": [
+        [
+          31,
+          11
+        ],
+        20,
+        59,
+        24
+      ],
+      "sampled-margin": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "simple-exit-paths": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "gateway-paths": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "service-exit-paths": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ],
+      "feasible-windows": [
+        [
+          23,
+          18
+        ],
+        1,
+        78,
+        43
+      ]
+    },
+    "winners": [],
+    "oracle": {},
+    "deduced_cells": [],
+    "first_landmarks": [],
+    "finishes": {
+      "near": false,
+      "goal": false,
+      "stock": false,
+      "margin": false,
+      "new": false,
+      "new_per_step": false,
+      "wall-window": false,
+      "exit-flow": false,
+      "corridor-flow": false,
+      "exit-current": false,
+      "sampled-margin": false,
+      "simple-exit-paths": false,
+      "gateway-paths": false,
+      "service-exit-paths": false,
+      "feasible-windows": false
+    }
+  }
+]

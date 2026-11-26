@@ -1,0 +1,456 @@
+{
+  "seed": 68319041,
+  "split": "fresh",
+  "source_sha256": {
+    "maze/frontier_automaton.py": "9b0208095a45fb51b11abfeafc3536c3a3862200e25fbc62d713be877abe60aa",
+    "maze/frontier_reserve.py": "f95ad86cec6ff0899154fb1174d8c3deecbcd6b87e9d9dfb07cb81b0ac6b654c"
+  },
+  "geometries": {
+    "fresh-3-001": "5546f9ba109bf5907cd4c72bbbf60e38d87ca4cd22d980b029d26ed63672b69d",
+    "fresh-3-002": "59cf763168935793d28e08f577a2238b4d8fdfabe91c8563f4f3a04f115b3e11",
+    "fresh-3-003": "e23b0a6c92db77b38102ef00e01fc9fa476e514024edbe54a523d9bdc05b4c13",
+    "fresh-3-004": "060472376fd02454d9d845f74201b8b67f8de364bfd4fa5213149db59f899eea",
+    "fresh-3-005": "f07b26b6b9e3347e2dc400e93c38d5799afe5650b68ee60c1d1710a3a5e1ea23",
+    "fresh-3-006": "954a913a5f6105cd5a8b63410cf6afd1380d0192f3c307c349f03d833581472c",
+    "fresh-3-007": "8d877638ea6052125296e8eeadf4b8e49559976cf93657c35abeba5d05c71aaa",
+    "fresh-3-008": "151064340ae023b21fcc47c2259ab5710fd7237a325e1a303dbf825b003cf76e",
+    "fresh-3-009": "24d314a7382150912ae63f55bdec813ba359b0eb6a3707e78acf2b9c8fd6f72c",
+    "fresh-3-010": "0176fed1896aabfe40caa5d7ddb7f235e0d969cceb8fbc9cd1bb5e248dee07a4",
+    "fresh-3-011": "d5dd6022acb2c6c58ef18acee6bf7578b81154d86a1227429cbafa402acafd94",
+    "fresh-3-012": "0524cd33b25f1f904fabec6e84d057ed7e134ac9b285dd1ee6028f5579bddb90",
+    "fresh-3-013": "8083b2b78058ef3950c544659d5b860e39eb9c7c8b9d5439e74346b45368ce82",
+    "fresh-3-014": "8fc0d670605df503a2ea00cade2c7f153d2c7dd808b348ae77b06899c04ef91c",
+    "fresh-3-015": "c170ed57b0bfbab6eb8453bf3665b9a86b9bc7cf6addff11dad16e4876d6f010",
+    "fresh-3-016": "af2a5fe7fe133507b466dd2e89fd66ced0dea503f8141571f7a3816ca1526ba5",
+    "fresh-3-017": "f27ff52e26364cd9b1cb7a0915430842f61e0b23e70eb73c54e07d45c1734183",
+    "fresh-3-018": "32fcb43e0ae363cdfcb41a35c88e1a2994d7b55d6edbe45304b6dee7d0cdd36a",
+    "fresh-3-019": "5f5d4747fac018e233114d43a5427b5c9c8ad92b7b2232f02aa2e474198303ec",
+    "fresh-3-020": "888f9b71cb0da4cdfbc6781bdfa4fb10749691aa0bcff3b702611658d9440331",
+    "fresh-3-021": "f12de2724f9ad6cf225b0d27b9a1d96a6d962014df4a751c904ef524b8427d8d",
+    "fresh-3-022": "aacff4f2cc8a705da5b363258ac4ce11060bff75f165d849ccaece0b7c028f5e",
+    "fresh-3-023": "dd123c732d505e59855d0ba399091d76592ff9e569c6a63045efae7946a39194",
+    "fresh-3-024": "1bdb43d6ab40262e7f6c9545926c9c026f09a69ca3013e5145488e9d75bf4c74",
+    "fresh-3-025": "922e5a242f629c207067cca13bc0da63a341cd0cc3761fa2662a87bd37365788",
+    "fresh-3-026": "c1ad46ea2ff6c43239c1d5f56aa8d597494afdc165acaf1d7cdec2eee380eb33",
+    "fresh-3-027": "ab38fd801ddaae9d1f308b0af277edb2829b9321ee5af484259203817533e143",
+    "fresh-3-028": "ffb2af75d2050517ca0b81897b1cd9c29ba3cf8868a615f1702e6f3c63dd67fc",
+    "fresh-3-029": "ecb0f837326c7381a244ab2b0706d808d37efe9c45b76ff763d040ff93797a35",
+    "fresh-3-030": "d259d0f24925cea1c97de2bb437c2984c0f16d44076afe2f04bc03c1b6fd8c55",
+    "fresh-3-031": "9543661016932ff18c8e1995489bf3bd4a2042aac716140e848522cbdc05ef22",
+    "fresh-3-032": "4211982e55ff0a1f90f3d5b42b4a49a7fe7d95d90cb90a7943618c1a72be02f9",
+    "fresh-3-033": "39af36132e09e7cb1cde9e1b99aff00b0421b7892ea1cbf760f438af3a0ea2e3",
+    "fresh-3-034": "91b9c5c2cecb3e9d05dc7d7096643eaa36457866b07690d6cc44c49c8220cee9",
+    "fresh-3-035": "5a25823e31a896afda46ccec82b7e7a66943a7e8180ac9b6434bb4b3988b8f76",
+    "fresh-3-036": "6aee2e354058b13c63193e0e20e0c9a0194a1fdcecc4a91d8394e5a9f8042b91",
+    "fresh-3-037": "a421a0a8cd3bcf6d1beb51547cf1f5b1ba740d1cbdda14cf20f6c07af967fa57",
+    "fresh-3-038": "5ce7ddaeff7feeefd4beaf952c3ad8f26dccf8d97394e769944988016263cc6f",
+    "fresh-3-039": "41c84a8754a43d044e96e52b8b51ffea9182c0df0cdbceeb08aafcb01ad9d801",
+    "fresh-3-040": "c2ec38ed683bd793868910396cb608c1c9d4081fdd5f2c5618ebdc095554c248",
+    "fresh-3-041": "306a5c405d4b8eb1bef82b21696670a1607d0d481e19a0cc2ec321e15cfd8bdb",
+    "fresh-3-042": "18905f3b0bd64046675369615323ea4c131237a5032d76054d666554e0586df2",
+    "fresh-3-043": "326c908bdd5daf4ec132c7f3c7b5b4c02d910930a35a427e197ddb52760f15fe",
+    "fresh-3-044": "24d7678e1d60530472f4a6b4ccebf9355120312e2aa6814a47a281e1680a00ea",
+    "fresh-3-045": "fc91d72f520f1521903c416f125c5003ad712960eb4eeb5fda906bba6f18f11c",
+    "fresh-3-046": "058bf8cea5b0b4fc3aa43016ab995f324c96b1dfac97f880e5792c237d2cd9d2",
+    "fresh-3-047": "fd578c498abb0ee2c6a5276505807066baae75673842eaba74f799986ff3f68f",
+    "fresh-3-048": "1bb305dadb388ad66cbd1370659fa36f7cd0c99cd5c050b26c36c43667872d48",
+    "fresh-3-049": "0b065f36e211ff0905f8f1b7d19deb68a7a450e6d056bb525b5df58efaa7abbc",
+    "fresh-3-050": "e841dbb54a77ea3a86de5649f908ac4b28ebaf5fa3d6bafc494b18fd106d354e",
+    "fresh-3-051": "40bc400d002d86b7177220828909e54316685c4d6a943d5f6a64417cc1b9e3e8",
+    "fresh-3-052": "571f76afe56613703bf0161f547e750ea79af70f274a621a4e4f0d543a28ec7e",
+    "fresh-3-053": "70bda2f1dc6e13bbf597917f8a169fa9335e91858a3460eee4fc5a63b4a54d70",
+    "fresh-3-054": "ea4d2ede14aa5944b2fd0ed7eb71883a11e952b305d5e0f6d98730e3c65db134",
+    "fresh-3-055": "cf466e75866cd7372c89e7f846efacf7db0491f93900381229ba21fe12a69d6f",
+    "fresh-3-056": "36cc601b8fecc4af06fe26db3e5a8b87d68b20decad373a54bdbaefe9d504918",
+    "fresh-3-057": "7fd5841618ffddc9b527c14a4e0cc7cc16e324cdfed76f5379847efd5a0e6d0b",
+    "fresh-3-058": "1649c94fbc8f0edee2aa828e91dbe0b91f964dc994332f8832820875ae7377bd",
+    "fresh-3-059": "6c64cee4aa6a27ba1af1ee03374576e0a8a714b325e718bf000da251d5f916ea",
+    "fresh-3-060": "e795a7d59af370b6ee5c542bf3a191f965eb3108e44b2af6ab057de4ffcf21db",
+    "fresh-3-061": "e0c7a3c2e7c7a84b272dce47fcc715add3ed359888edad31adf131cbb9eb1d71",
+    "fresh-3-062": "73fccaebd7bf84cd869713ca9707f63fd2ce9fe07e9d71813d15a2823d6542dc",
+    "fresh-3-063": "77341e9c1a2a6f9627b07aa50f7e4648d5eb178197b1b5da8e4e4268fbc6d74a",
+    "fresh-3-064": "a204a904e6f1ae6cafb133f37c83114e7831de9b03eb9a627100b3f39cbe6c92",
+    "fresh-3-065": "71147cec064182e1471107f78e5bd28273828254c46e8e4a9621b172e9ea9883",
+    "fresh-3-066": "bdcc0bded20a4eef69dc657d88171df859f588291b0f8d35535975862f08a541",
+    "fresh-3-067": "ee82bca5c75e55284cd8b530feadfdbd10ab18febacf7ef8d75d5fff7efa6808",
+    "fresh-3-068": "0784225ca799df2337fb22b2d801cc81e47890e68cabb63c7ae85a9d2dcfecdd",
+    "fresh-3-069": "61de6f8c19daf1f814670a5b18311f19d587d10bee8705dafc516b8e3636b0cc",
+    "fresh-3-070": "95599dcfae2f786631931ad411352ffad8d5dd8247b3ec844df6869fcaee16c3",
+    "fresh-3-071": "30348a97e0d2e9f8e1ef21263db00db360f08149be192ae92bf7d0febeae2e5f",
+    "fresh-3-072": "9bd22811a64bd72e6b654a257a86a19d735c3477c352b424e6346467ed4b9d40",
+    "fresh-3-073": "1aee85dbd532b5dfb5740bd95e7fb7a1d3b0029b0cc82afa0038e79b8fbf7512",
+    "fresh-3-074": "622d915b20c57a3681fa79738f83b62cb21860b2efb7817288a8ee30b5147589",
+    "fresh-3-075": "efbff98fdff2a538fe4b61ae4cf7b6321c180782dcb0c99ceeeccf130d9d5c45",
+    "fresh-3-076": "100419d5204b7e11bac51641ff0cfd2e3b34b6bbefbd8ec6415aa2fd257f5936",
+    "fresh-3-077": "67d05e16c261d45a5bacd3dfecc8b0ff50b834106b592ae26300e8ee28ab4880",
+    "fresh-3-078": "4a1d89b00044ab217bf26263a4eb8f0c43455ccc43bda75b4ff8ab23e4eebd14",
+    "fresh-3-079": "f341f10bc06ff5b30ab9552ba62a165bbafb1be62759f5ac6eb3ed577cd04b51",
+    "fresh-3-080": "f951fec8143b4919dea733c015fbf01804cd4584caad039d963020a79e7ac801",
+    "fresh-3-081": "1b9281e6a0423082b03fcb66175efed123421cc4b680ef08739ef27613f8467f",
+    "fresh-3-082": "2af66434aada6d732fb35504f9455d12e7c0d036b0350f429715871603bc3392",
+    "fresh-3-083": "aacc431234920459eb3694919929a55786a382a44efe9d9633db2b610bcf4f4b",
+    "fresh-3-084": "ab7e2863b1362e8e79f20ec6dbcf25b7beff8e64b6a2d10c4f36d4eedd826f23",
+    "fresh-3-085": "94b067b540072085579cef7f7f0b551dda5d56e49e41ba4ab61fc236df451cdb",
+    "fresh-3-086": "39d8e73b5101c1e6cceb02ad9db15668e3414f97d56afc85f1d758d9dc5a1532",
+    "fresh-3-087": "8d6116a5bce8936d7e19586222cc7035ac278b7ac10112363b26fd86c68b02cb",
+    "fresh-3-088": "8db87e8de6096bfe19a85312ed8f06bc581903522e3722d57fb5f6f35f4cbe67",
+    "fresh-3-089": "838fb001f9a38057b42f42538caefc20bd66712a4f4cdf6af3684e45d5f6b059",
+    "fresh-3-090": "0c617f79b5271856c6c1e55f1b94a11c7ebde0310f0ebf5d91adc09187e4b2cf",
+    "fresh-3-091": "0610695158665f6db855968a23e7baeadfb30e271ec6e7f978df0de629fe9f94",
+    "fresh-3-092": "b5d3d9fb2a435c20b46991c2aebe7a985c35142993888ff3424265a1038d6acd",
+    "fresh-3-093": "42b82ffc99c50126502703cd629e0819221e77288021bb0b016d915d0be4b0ab",
+    "fresh-3-094": "cd606f590f5ff56f73c01b4405b09ea09fc477017a78b27dcba0001b2f7fe75f",
+    "fresh-3-095": "41799746958ad116114c5cc58670731bbd23c57e6dd2541c502b16a9693d43e4",
+    "fresh-3-096": "b004610ebd6e846aa8122146bcf76146f2f976781c327fdfb395dc3fe9b2d054",
+    "fresh-3-097": "e6bf2d36a840f1a90438b9502071225e168e78ffb8627e35c11756aebf947aae",
+    "fresh-3-098": "b60d647ae96dde6e984b441b08464e1c37d0d03f35eab6f16604cca7593ce6fa",
+    "fresh-3-099": "e8fe0fbbff949ab8e46e73da437b7c0eac7c082139b5dd0c7ecc2ae9dadfc9dc",
+    "fresh-3-100": "5ca14ead311d9e9e32996f8ef3a055e3bd3955dd6d333b6d0e1d2f5df8322438"
+  },
+  "failures": [
+    {
+      "case": "fresh-3-001",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 19,
+      "position": [
+        19,
+        21
+      ],
+      "move": "SOUTH",
+      "activity": "В мастерскую",
+      "fuel": 89,
+      "health": 35,
+      "fuel_distance": 4,
+      "repair_distance": 35,
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "case": "fresh-3-011",
+      "agent": "frontier-reserve",
+      "initially_feasible": true,
+      "step": 17,
+      "position": [
+        17,
+        1
+      ],
+      "move": "SOUTH",
+      "activity": "В мастерскую",
+      "fuel": 90,
+      "health": 6,
+      "fuel_distance": 8,
+      "repair_distance": 5,
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "case": "fresh-3-038",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 8,
+      "position": [
+        9,
+        9
+      ],
+      "move": "SOUTH",
+      "activity": "В мастерскую",
+      "fuel": 54,
+      "health": 12,
+      "fuel_distance": 4,
+      "repair_distance": 11,
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "case": "fresh-3-044",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 5348,
+      "position": [
+        13,
+        7
+      ],
+      "move": "EAST",
+      "activity": "На заправку",
+      "fuel": 57,
+      "health": 94,
+      "fuel_distance": 30,
+      "repair_distance": 2,
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "case": "fresh-3-044",
+      "agent": "frontier-reserve",
+      "initially_feasible": true,
+      "step": 1519,
+      "position": [
+        4,
+        1
+      ],
+      "move": "WEST",
+      "activity": "Выход из застоя с возвратом к сервису",
+      "fuel": 82,
+      "health": 50,
+      "fuel_distance": 18,
+      "repair_distance": 49,
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "case": "fresh-3-048",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 13,
+      "position": [
+        17,
+        6
+      ],
+      "move": "EAST",
+      "activity": "На заправку",
+      "fuel": 12,
+      "health": 97,
+      "fuel_distance": 12,
+      "repair_distance": 3,
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "case": "fresh-3-048",
+      "agent": "frontier-reserve",
+      "initially_feasible": true,
+      "step": 19,
+      "position": [
+        15,
+        10
+      ],
+      "move": "SE",
+      "activity": "На заправку",
+      "fuel": 6,
+      "health": 91,
+      "fuel_distance": 6,
+      "repair_distance": 9,
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "case": "fresh-3-052",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 6,
+      "position": [
+        14,
+        2
+      ],
+      "move": "SOUTH",
+      "activity": "К финишу",
+      "fuel": 14,
+      "health": 11,
+      "fuel_distance": 13,
+      "repair_distance": 2,
+      "viable": [
+        "NORTH",
+        "EAST",
+        "NE"
+      ]
+    },
+    {
+      "case": "fresh-3-059",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 31,
+      "position": [
+        17,
+        2
+      ],
+      "move": "NORTH",
+      "activity": "В мастерскую",
+      "fuel": 78,
+      "health": 8,
+      "fuel_distance": 19,
+      "repair_distance": 8,
+      "viable": [
+        "NW"
+      ]
+    },
+    {
+      "case": "fresh-3-062",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 18,
+      "position": [
+        20,
+        11
+      ],
+      "move": "NORTH",
+      "activity": "На заправку",
+      "fuel": 29,
+      "health": 89,
+      "fuel_distance": 29,
+      "repair_distance": 5,
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "case": "fresh-3-062",
+      "agent": "frontier-reserve",
+      "initially_feasible": true,
+      "step": 18,
+      "position": [
+        20,
+        11
+      ],
+      "move": "NORTH",
+      "activity": "На заправку",
+      "fuel": 29,
+      "health": 89,
+      "fuel_distance": 29,
+      "repair_distance": 5,
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "case": "fresh-3-078",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 16,
+      "position": [
+        15,
+        13
+      ],
+      "move": "SOUTH",
+      "activity": "На заправку",
+      "fuel": 14,
+      "health": 91,
+      "fuel_distance": 14,
+      "repair_distance": 7,
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "case": "fresh-3-078",
+      "agent": "frontier-reserve",
+      "initially_feasible": true,
+      "step": 16,
+      "position": [
+        15,
+        13
+      ],
+      "move": "SOUTH",
+      "activity": "На заправку",
+      "fuel": 14,
+      "health": 91,
+      "fuel_distance": 14,
+      "repair_distance": 7,
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "case": "fresh-3-085",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 22,
+      "position": [
+        17,
+        15
+      ],
+      "move": "SOUTH",
+      "activity": "В мастерскую",
+      "fuel": 87,
+      "health": 5,
+      "fuel_distance": 13,
+      "repair_distance": 5,
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "case": "fresh-3-085",
+      "agent": "frontier-reserve",
+      "initially_feasible": true,
+      "step": 12,
+      "position": [
+        9,
+        17
+      ],
+      "move": "WEST",
+      "activity": "В мастерскую",
+      "fuel": 97,
+      "health": 15,
+      "fuel_distance": 3,
+      "repair_distance": 15,
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "case": "fresh-3-093",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 10,
+      "position": [
+        23,
+        21
+      ],
+      "move": "EAST",
+      "activity": "В мастерскую",
+      "fuel": 95,
+      "health": 13,
+      "fuel_distance": 3,
+      "repair_distance": 12,
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "case": "fresh-3-093",
+      "agent": "frontier-reserve",
+      "initially_feasible": true,
+      "step": 10,
+      "position": [
+        23,
+        21
+      ],
+      "move": "EAST",
+      "activity": "В мастерскую",
+      "fuel": 95,
+      "health": 13,
+      "fuel_distance": 3,
+      "repair_distance": 12,
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "case": "fresh-3-099",
+      "agent": "frontier",
+      "initially_feasible": true,
+      "step": 4206,
+      "position": [
+        9,
+        19
+      ],
+      "move": "NORTH",
+      "activity": "На заправку",
+      "fuel": 33,
+      "health": 50,
+      "fuel_distance": 13,
+      "repair_distance": 28,
+      "viable": [
+        "SOUTH"
+      ]
+    }
+  ]
+}

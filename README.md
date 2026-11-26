@@ -22,13 +22,15 @@ python -m maze.learning train --run tmp/sarsa-reproduction
 
 ## Дискретный автомат
 
-По умолчанию запускается исходный автомат D-0008. Для просмотра новой версии E-0002 на сложной валидационной карте выберите контроллер `resources`. Такой же параметр доступен для любой карты. [Разбор ошибок и проверка правил](docs/experiments/E-0002-automaton.md)
+Для сравнений закреплён `frontier-reserve` со стенда E-0006. Пример ниже показывает прохождение валидационной карты. Для запуска на полной скорости опустите `--visual`. Архивный пилот запускается по умолчанию или через `--controller pilot`, ресурсный автомат E-0002 — через `--controller resources`. [Решение о базовой версии](docs/decisions/0010-frontier-reserve.md)
 
 ```powershell
-python -m maze --controller resources --split val --level val-3-10 --visual
+python -m maze --controller frontier-reserve --split val --level val-3-01 --visual
 ```
 
-Параметр `--service-offset 2` повышает порог выбора заправки и ремонта на две единицы. Для прибавки в три единицы укажите `--service-offset 3`. По умолчанию прибавка равна нулю. [Сравнение порогов на сложных картах](docs/experiments/E-0003-service-offset.md)
+Экспериментальные `--controller sight-route` и `--controller sight-detour` выбирают точку обзора при поиске дороги к сервису. Для повтора конкретной стресс-карты можно начать просмотр с хода первого расхождения. [Сравнение E-0009 и команды просмотра](docs/experiments/E-0009-sight.md)
+
+У контроллеров `pilot` и `resources` параметр `--service-offset 2` повышает порог выбора заправки и ремонта на две единицы. По умолчанию прибавка равна нулю. [Сравнение порогов на сложных картах](docs/experiments/E-0003-service-offset.md)
 
 ```powershell
 python -m maze --visual
@@ -43,6 +45,8 @@ python -m unittest discover -s tests -v
 ```
 
 Первая команда проходит все уровни подряд, вторая — один выбранный. Обе работают без отрисовки и задержек. Сторонние пакеты для запуска не требуются.
+
+Для просмотра поездки E-0010 выполните `python -m maze --controller ranked-standby --split val --level val-3-10 --visual`. В этой версии робот выбирает запасной поворот до проверки дороги. Для экспериментальных контроллеров E-0010 нужны NumPy и SciPy. Варианты, доступные в этом режиме, перечислены в `python -m maze --help`. [Лучшие результаты по наборам](docs/experiments/E-0010-results.md) · [Стенд для остальных версий](docs/experiments/E-0010-lineage.md#воспроизведение)
 
 [Правила архивного автомата](docs/decisions/0008-maze-pilot.md#переходы-автомата) · [Результаты пилота](docs/decisions/0008-maze-pilot.md#реализация-и-проверка) · [Архитектура](docs/architecture.md) · [Карты](maze/levels) · [Спрайты](maze/assets)
 

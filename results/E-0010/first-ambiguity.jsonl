@@ -1,0 +1,336 @@
+{"map": "H1-01", "split": "I", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-02", "split": "I", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-03", "split": "I", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-04", "split": "I", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-05", "split": "I", "tier": "H1", "family": "corridors", "parent_status": "EMPTY", "event": null}
+{"map": "H1-06", "split": "I", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-07", "split": "I", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-08", "split": "I", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-09", "split": "I", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-10", "split": "I", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-11", "split": "I", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-12", "split": "I", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-13", "split": "I", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-14", "split": "I", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-15", "split": "I", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-16", "split": "I", "tier": "H1", "family": "rooms", "parent_status": "EMPTY", "event": {"step": 6, "selected": "F", "pos": [3, 4], "slack": 1, "safe": ["NORTH", "EAST", "NE"], "possible": ["NE", "EAST", "NORTH", "SOUTH", "NW", "WEST"], "choice": {"actual": "NE", "trunk": "SOUTH", "reserve": "SOUTH", "many": "NE"}}}
+{"map": "H1-17", "split": "I", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-18", "split": "I", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-19", "split": "I", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-20", "split": "I", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-21", "split": "I", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-22", "split": "I", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-23", "split": "I", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H1-24", "split": "I", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 6, "selected": "R", "pos": [3, 6], "slack": 1, "safe": ["SOUTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "H1-25", "split": "I", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-01", "split": "I", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-02", "split": "I", "tier": "H2", "family": "corridors", "parent_status": "BROKEN", "event": {"step": 7, "selected": "R", "pos": [2, 5], "slack": 1, "safe": ["EAST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "WEST", "reserve": "WEST", "many": "EAST"}}}
+{"map": "H2-03", "split": "I", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-04", "split": "I", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-05", "split": "I", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-06", "split": "I", "tier": "H2", "family": "loops", "parent_status": "EMPTY", "event": {"step": 5, "selected": "F", "pos": [5, 1], "slack": 0, "safe": ["SOUTH"], "possible": ["SOUTH", "WEST"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "H2-07", "split": "I", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-08", "split": "I", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-09", "split": "I", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 22, "selected": "F", "pos": [8, 12], "slack": 1, "safe": ["NORTH", "EAST", "NE"], "possible": ["NE", "EAST", "NW", "WEST"], "choice": {"actual": "NE", "trunk": "NE", "reserve": "NE", "many": "EAST"}}}
+{"map": "H2-10", "split": "I", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-11", "split": "I", "tier": "H2", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 4, "selected": "R", "pos": [19, 21], "slack": 1, "safe": ["SOUTH", "WEST", "SW"], "possible": ["SOUTH", "WEST", "SW"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "H2-12", "split": "I", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-13", "split": "I", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-14", "split": "I", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-15", "split": "I", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-16", "split": "I", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-17", "split": "I", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-18", "split": "I", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-19", "split": "I", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 6, "selected": "R", "pos": [9, 12], "slack": 0, "safe": ["WEST", "NW"], "possible": ["EAST", "NE", "WEST", "NW"], "choice": {"actual": "WEST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "H2-20", "split": "I", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-21", "split": "I", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-22", "split": "I", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-23", "split": "I", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-24", "split": "I", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H2-25", "split": "I", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H3-01", "split": "I", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H3-02", "split": "I", "tier": "H3", "family": "rooms", "parent_status": "EMPTY", "event": {"step": 2, "selected": "F", "pos": [17, 7], "slack": 1, "safe": ["NORTH", "EAST", "SOUTH", "NE", "SE"], "possible": ["NW", "WEST", "SW", "NORTH", "SOUTH", "NE", "EAST", "SE"], "choice": {"actual": "EAST", "trunk": "WEST", "reserve": "EAST", "many": "NW"}}}
+{"map": "H3-03", "split": "I", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": {"step": 2, "selected": "F", "pos": [25, 21], "slack": 0, "safe": ["EAST"], "possible": ["EAST", "NORTH"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "H3-04", "split": "I", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": {"step": 11, "selected": "R", "pos": [33, 4], "slack": 0, "safe": ["NORTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "H3-05", "split": "I", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H3-06", "split": "I", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 29, "selected": "R", "pos": [23, 9], "slack": 1, "safe": ["WEST"], "possible": ["WEST", "SOUTH"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "H3-07", "split": "I", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 15, "selected": "R", "pos": [17, 10], "slack": 1, "safe": ["NORTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "H3-08", "split": "I", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H3-09", "split": "I", "tier": "H3", "family": "branching", "parent_status": "EMPTY", "event": null}
+{"map": "H3-10", "split": "I", "tier": "H3", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H3-11", "split": "I", "tier": "H3", "family": "corridors", "parent_status": "EMPTY", "event": null}
+{"map": "H3-12", "split": "I", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 3, "selected": "F", "pos": [22, 21], "slack": 0, "safe": ["WEST"], "possible": ["WEST", "EAST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "H3-13", "split": "I", "tier": "H3", "family": "loops", "parent_status": "EMPTY", "event": {"step": 33, "selected": "F", "pos": [13, 28], "slack": 1, "safe": ["NORTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "H3-14", "split": "I", "tier": "H3", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 8, "selected": "R", "pos": [16, 24], "slack": 0, "safe": ["NORTH", "NW"], "possible": ["NE", "EAST", "SE", "NORTH", "SOUTH", "NW", "WEST", "SW"], "choice": {"actual": "NW", "trunk": "EAST", "reserve": "NORTH", "many": "EAST"}}}
+{"map": "H3-15", "split": "I", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H3-16", "split": "I", "tier": "H3", "family": "loops", "parent_status": "BROKEN", "event": null}
+{"map": "H3-17", "split": "I", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 6, "selected": "R", "pos": [27, 10], "slack": 0, "safe": ["NORTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "NORTH"}}}
+{"map": "H3-18", "split": "I", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 16, "selected": "R", "pos": [5, 29], "slack": 1, "safe": ["NORTH"], "possible": ["EAST", "SOUTH", "NORTH", "WEST"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "H3-19", "split": "I", "tier": "H3", "family": "rooms", "parent_status": "BROKEN", "event": null}
+{"map": "H3-20", "split": "I", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H3-21", "split": "I", "tier": "H3", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H3-22", "split": "I", "tier": "H3", "family": "rooms", "parent_status": "EMPTY", "event": null}
+{"map": "H3-23", "split": "I", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H3-24", "split": "I", "tier": "H3", "family": "loops", "parent_status": "EMPTY", "event": null}
+{"map": "H3-25", "split": "I", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H4-01", "split": "I", "tier": "H4", "family": "loops", "parent_status": "EMPTY", "event": {"step": 1, "selected": "F", "pos": [3, 17], "slack": 0, "safe": ["EAST"], "possible": ["EAST", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "H4-02", "split": "I", "tier": "H4", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "H4-03", "split": "I", "tier": "H4", "family": "loops", "parent_status": "EMPTY", "event": {"step": 2, "selected": "F", "pos": [19, 29], "slack": 0, "safe": ["WEST"], "possible": ["NORTH", "WEST"], "choice": {"actual": "WEST", "trunk": "NORTH", "reserve": "WEST", "many": "WEST"}}}
+{"map": "H4-04", "split": "I", "tier": "H4", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "F", "pos": [5, 16], "slack": 1, "safe": ["SOUTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "H4-05", "split": "I", "tier": "H4", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [22, 13], "slack": 0, "safe": ["WEST", "NW"], "possible": ["EAST", "WEST", "NW", "NE", "NORTH"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "NW"}}}
+{"map": "H4-06", "split": "I", "tier": "H4", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 10, "selected": "F", "pos": [17, 2], "slack": 0, "safe": ["NORTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "H4-07", "split": "I", "tier": "H4", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [1, 27], "slack": 1, "safe": ["NORTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "H4-08", "split": "I", "tier": "H4", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 5, "selected": "F", "pos": [3, 17], "slack": 0, "safe": ["NORTH", "NW"], "possible": ["NW", "NORTH"], "choice": {"actual": "NW", "trunk": "NW", "reserve": "NW", "many": "NORTH"}}}
+{"map": "H4-09", "split": "I", "tier": "H4", "family": "branching", "parent_status": "BROKEN", "event": {"step": 38, "selected": "R", "pos": [26, 23], "slack": 1, "safe": ["WEST"], "possible": ["EAST", "WEST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "H4-10", "split": "I", "tier": "H4", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "H4-11", "split": "I", "tier": "H4", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "R", "pos": [21, 33], "slack": 1, "safe": ["NORTH"], "possible": ["NORTH", "EAST"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "EAST"}}}
+{"map": "H4-12", "split": "I", "tier": "H4", "family": "rooms", "parent_status": "EMPTY", "event": null}
+{"map": "H4-13", "split": "I", "tier": "H4", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "R", "pos": [27, 1], "slack": 0, "safe": ["EAST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "H4-14", "split": "I", "tier": "H4", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [17, 18], "slack": 0, "safe": ["NORTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "H4-15", "split": "I", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "F", "pos": [25, 32], "slack": 1, "safe": ["NORTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "H4-16", "split": "I", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "H4-17", "split": "I", "tier": "H4", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "H4-18", "split": "I", "tier": "H4", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "R", "pos": [13, 19], "slack": 1, "safe": ["EAST"], "possible": ["SOUTH", "EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "SOUTH"}}}
+{"map": "H4-19", "split": "I", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "R", "pos": [19, 25], "slack": 0, "safe": ["WEST"], "possible": ["WEST", "SOUTH", "NORTH"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "NORTH", "many": "SOUTH"}}}
+{"map": "H4-20", "split": "I", "tier": "H4", "family": "corridors", "parent_status": "EMPTY", "event": {"step": 1, "selected": "F", "pos": [3, 23], "slack": 1, "safe": ["EAST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "H4-21", "split": "I", "tier": "H4", "family": "corridors", "parent_status": "BROKEN", "event": {"step": 1, "selected": "F", "pos": [29, 22], "slack": 1, "safe": ["NORTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "SOUTH"}}}
+{"map": "H4-22", "split": "I", "tier": "H4", "family": "loops", "parent_status": "EMPTY", "event": {"step": 14, "selected": "F", "pos": [27, 8], "slack": 1, "safe": ["NORTH", "SOUTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "H4-23", "split": "I", "tier": "H4", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "F", "pos": [25, 10], "slack": 1, "safe": ["EAST", "SOUTH", "SE"], "possible": ["EAST", "SE", "SOUTH", "NORTH"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "SE"}}}
+{"map": "H4-24", "split": "I", "tier": "H4", "family": "loops", "parent_status": "BROKEN", "event": null}
+{"map": "H4-25", "split": "I", "tier": "H4", "family": "corridors", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [6, 11], "slack": 1, "safe": ["WEST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "fresh-H1-01", "split": "II", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-02", "split": "II", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-03", "split": "II", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-04", "split": "II", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-05", "split": "II", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-06", "split": "II", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-07", "split": "II", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-08", "split": "II", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-09", "split": "II", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-10", "split": "II", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-11", "split": "II", "tier": "H1", "family": "corridors", "parent_status": "EMPTY", "event": null}
+{"map": "fresh-H1-12", "split": "II", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-13", "split": "II", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-14", "split": "II", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-15", "split": "II", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-16", "split": "II", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-17", "split": "II", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-18", "split": "II", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 7, "selected": "R", "pos": [14, 15], "slack": 1, "safe": ["EAST"], "possible": ["WEST", "SW", "SOUTH", "EAST"], "choice": {"actual": "EAST", "trunk": "WEST", "reserve": "WEST", "many": "EAST"}}}
+{"map": "fresh-H1-19", "split": "II", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-20", "split": "II", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-21", "split": "II", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-22", "split": "II", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-23", "split": "II", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 15, "selected": "R", "pos": [13, 11], "slack": 1, "safe": ["SOUTH"], "possible": ["EAST", "SOUTH", "NORTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "fresh-H1-24", "split": "II", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H1-25", "split": "II", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-01", "split": "II", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-02", "split": "II", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 12, "selected": "F", "pos": [14, 7], "slack": 0, "safe": ["WEST"], "possible": ["WEST", "EAST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "fresh-H2-03", "split": "II", "tier": "H2", "family": "rooms", "parent_status": "EMPTY", "event": {"step": 27, "selected": "F", "pos": [7, 13], "slack": 1, "safe": ["NORTH", "SOUTH", "WEST", "SW", "NW"], "possible": ["SW", "WEST", "NW", "SOUTH", "SE", "EAST", "NE"], "choice": {"actual": "SW", "trunk": "SW", "reserve": "SW", "many": "WEST"}}}
+{"map": "fresh-H2-04", "split": "II", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-05", "split": "II", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-06", "split": "II", "tier": "H2", "family": "branching", "parent_status": "EMPTY", "event": {"step": 10, "selected": "F", "pos": [7, 18], "slack": 1, "safe": ["NORTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "SOUTH", "many": "NORTH"}}}
+{"map": "fresh-H2-07", "split": "II", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-08", "split": "II", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-09", "split": "II", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-10", "split": "II", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-11", "split": "II", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-12", "split": "II", "tier": "H2", "family": "corridors", "parent_status": "EMPTY", "event": {"step": 3, "selected": "F", "pos": [2, 9], "slack": 1, "safe": ["WEST"], "possible": ["EAST", "WEST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "EAST"}}}
+{"map": "fresh-H2-13", "split": "II", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 2, "selected": "F", "pos": [5, 25], "slack": 1, "safe": ["NORTH"], "possible": ["NORTH", "EAST", "WEST"], "choice": {"actual": "NORTH", "trunk": "EAST", "reserve": "EAST", "many": "NORTH"}}}
+{"map": "fresh-H2-14", "split": "II", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-15", "split": "II", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-16", "split": "II", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-17", "split": "II", "tier": "H2", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 24, "selected": "R", "pos": [15, 9], "slack": 1, "safe": ["EAST", "SOUTH", "SE"], "possible": ["NORTH", "SE", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "fresh-H2-18", "split": "II", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-19", "split": "II", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-20", "split": "II", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-21", "split": "II", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-22", "split": "II", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-23", "split": "II", "tier": "H2", "family": "branching", "parent_status": "BROKEN", "event": {"step": 2, "selected": "R", "pos": [6, 11], "slack": 1, "safe": ["EAST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "fresh-H2-24", "split": "II", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H2-25", "split": "II", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-01", "split": "II", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-02", "split": "II", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 22, "selected": "R", "pos": [9, 11], "slack": 1, "safe": ["EAST"], "possible": ["EAST", "NORTH"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "fresh-H3-03", "split": "II", "tier": "H3", "family": "corridors", "parent_status": "BROKEN", "event": null}
+{"map": "fresh-H3-04", "split": "II", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": {"step": 8, "selected": "R", "pos": [14, 15], "slack": 1, "safe": ["WEST"], "possible": ["EAST", "WEST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "fresh-H3-05", "split": "II", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-06", "split": "II", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-07", "split": "II", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-08", "split": "II", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-09", "split": "II", "tier": "H3", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-10", "split": "II", "tier": "H3", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-11", "split": "II", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-12", "split": "II", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-13", "split": "II", "tier": "H3", "family": "corridors", "parent_status": "BROKEN", "event": {"step": 12, "selected": "F", "pos": [10, 7], "slack": 0, "safe": ["EAST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "fresh-H3-14", "split": "II", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-15", "split": "II", "tier": "H3", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 2, "selected": "R", "pos": [23, 30], "slack": 1, "safe": ["SOUTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "fresh-H3-16", "split": "II", "tier": "H3", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 26, "selected": "R", "pos": [11, 18], "slack": 0, "safe": ["SOUTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "SOUTH", "trunk": "NORTH", "reserve": "NORTH", "many": "SOUTH"}}}
+{"map": "fresh-H3-17", "split": "II", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 2, "selected": "R", "pos": [25, 25], "slack": 0, "safe": ["EAST"], "possible": ["NORTH", "NE", "EAST"], "choice": {"actual": "EAST", "trunk": "NORTH", "reserve": "NORTH", "many": "EAST"}}}
+{"map": "fresh-H3-18", "split": "II", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 9, "selected": "F", "pos": [23, 8], "slack": 0, "safe": ["SOUTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "fresh-H3-19", "split": "II", "tier": "H3", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-20", "split": "II", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-21", "split": "II", "tier": "H3", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 2, "selected": "R", "pos": [30, 5], "slack": 0, "safe": ["WEST"], "possible": ["WEST", "EAST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "fresh-H3-22", "split": "II", "tier": "H3", "family": "loops", "parent_status": "EMPTY", "event": null}
+{"map": "fresh-H3-23", "split": "II", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H3-24", "split": "II", "tier": "H3", "family": "loops", "parent_status": "BROKEN", "event": {"step": 34, "selected": "R", "pos": [9, 10], "slack": 1, "safe": ["SOUTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "fresh-H3-25", "split": "II", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H4-01", "split": "II", "tier": "H4", "family": "loops", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [23, 3], "slack": 0, "safe": ["EAST"], "possible": ["SOUTH", "EAST"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "EAST"}}}
+{"map": "fresh-H4-02", "split": "II", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "R", "pos": [16, 13], "slack": 0, "safe": ["EAST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "WEST"}}}
+{"map": "fresh-H4-03", "split": "II", "tier": "H4", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "F", "pos": [24, 1], "slack": 1, "safe": ["SOUTH", "WEST", "SW"], "possible": ["SW", "WEST", "SOUTH", "EAST"], "choice": {"actual": "SW", "trunk": "SW", "reserve": "SW", "many": "SW"}}}
+{"map": "fresh-H4-04", "split": "II", "tier": "H4", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H4-05", "split": "II", "tier": "H4", "family": "branching", "parent_status": "EMPTY", "event": {"step": 1, "selected": "F", "pos": [9, 23], "slack": 1, "safe": ["NORTH"], "possible": ["NORTH", "WEST", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "fresh-H4-06", "split": "II", "tier": "H4", "family": "loops", "parent_status": "EMPTY", "event": {"step": 1, "selected": "R", "pos": [29, 24], "slack": 0, "safe": ["NORTH"], "possible": ["NW", "NORTH", "WEST"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "fresh-H4-07", "split": "II", "tier": "H4", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "F", "pos": [11, 15], "slack": 1, "safe": ["SOUTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "fresh-H4-08", "split": "II", "tier": "H4", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "F", "pos": [25, 27], "slack": 0, "safe": ["NORTH"], "possible": ["NORTH", "EAST"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "fresh-H4-09", "split": "II", "tier": "H4", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 9, "selected": "F", "pos": [9, 33], "slack": 1, "safe": ["NORTH"], "possible": ["EAST", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "EAST"}}}
+{"map": "fresh-H4-10", "split": "II", "tier": "H4", "family": "loops", "parent_status": "EMPTY", "event": null}
+{"map": "fresh-H4-11", "split": "II", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H4-12", "split": "II", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H4-13", "split": "II", "tier": "H4", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [12, 24], "slack": 0, "safe": ["NORTH", "NW"], "possible": ["WEST", "NW", "SW", "SOUTH", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "SOUTH"}}}
+{"map": "fresh-H4-14", "split": "II", "tier": "H4", "family": "rooms", "parent_status": "EMPTY", "event": {"step": 1, "selected": "F", "pos": [11, 11], "slack": 1, "safe": ["EAST"], "possible": ["NORTH", "EAST"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "EAST", "many": "EAST"}}}
+{"map": "fresh-H4-15", "split": "II", "tier": "H4", "family": "branching", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [30, 31], "slack": 1, "safe": ["WEST"], "possible": ["EAST", "WEST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "EAST"}}}
+{"map": "fresh-H4-16", "split": "II", "tier": "H4", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [35, 8], "slack": 1, "safe": ["SOUTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "fresh-H4-17", "split": "II", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": {"step": 23, "selected": "R", "pos": [11, 14], "slack": 0, "safe": ["SOUTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "fresh-H4-18", "split": "II", "tier": "H4", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H4-19", "split": "II", "tier": "H4", "family": "branching", "parent_status": "EMPTY", "event": {"step": 1, "selected": "R", "pos": [29, 4], "slack": 1, "safe": ["SOUTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "fresh-H4-20", "split": "II", "tier": "H4", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 5, "selected": "F", "pos": [4, 5], "slack": 0, "safe": ["EAST"], "possible": ["WEST", "EAST"], "choice": {"actual": "EAST", "trunk": "WEST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "fresh-H4-21", "split": "II", "tier": "H4", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "R", "pos": [22, 29], "slack": 0, "safe": ["EAST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "WEST", "many": "EAST"}}}
+{"map": "fresh-H4-22", "split": "II", "tier": "H4", "family": "corridors", "parent_status": "EMPTY", "event": {"step": 1, "selected": "F", "pos": [30, 5], "slack": 1, "safe": ["EAST"], "possible": ["EAST", "WEST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "EAST"}}}
+{"map": "fresh-H4-23", "split": "II", "tier": "H4", "family": "branching", "parent_status": "EMPTY", "event": {"step": 1, "selected": "F", "pos": [25, 19], "slack": 0, "safe": ["WEST"], "possible": ["WEST", "EAST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "WEST"}}}
+{"map": "fresh-H4-24", "split": "II", "tier": "H4", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "fresh-H4-25", "split": "II", "tier": "H4", "family": "corridors", "parent_status": "EMPTY", "event": {"step": 1, "selected": "F", "pos": [23, 15], "slack": 0, "safe": ["WEST"], "possible": ["NORTH", "WEST"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "WEST", "many": "WEST"}}}
+{"map": "check-H1-01", "split": "III", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-02", "split": "III", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-03", "split": "III", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-04", "split": "III", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-05", "split": "III", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-06", "split": "III", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-07", "split": "III", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-08", "split": "III", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-09", "split": "III", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-10", "split": "III", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-11", "split": "III", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-12", "split": "III", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-13", "split": "III", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-14", "split": "III", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-15", "split": "III", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-16", "split": "III", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-17", "split": "III", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-18", "split": "III", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-19", "split": "III", "tier": "H1", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-20", "split": "III", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-21", "split": "III", "tier": "H1", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-22", "split": "III", "tier": "H1", "family": "corridors", "parent_status": "BROKEN", "event": null}
+{"map": "check-H1-23", "split": "III", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-24", "split": "III", "tier": "H1", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H1-25", "split": "III", "tier": "H1", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-01", "split": "III", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-02", "split": "III", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 7, "selected": "F", "pos": [17, 6], "slack": 1, "safe": ["SOUTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "SOUTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "check-H2-03", "split": "III", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-04", "split": "III", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-05", "split": "III", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-06", "split": "III", "tier": "H2", "family": "loops", "parent_status": "EMPTY", "event": {"step": 2, "selected": "F", "pos": [2, 15], "slack": 1, "safe": ["WEST"], "possible": ["EAST", "WEST"], "choice": {"actual": "WEST", "trunk": "EAST", "reserve": "EAST", "many": "WEST"}}}
+{"map": "check-H2-07", "split": "III", "tier": "H2", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 26, "selected": "F", "pos": [15, 6], "slack": 1, "safe": ["SOUTH", "WEST", "SW"], "possible": ["WEST", "SW"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "SW"}}}
+{"map": "check-H2-08", "split": "III", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-09", "split": "III", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-10", "split": "III", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": {"step": 13, "selected": "R", "pos": [5, 17], "slack": 0, "safe": ["NORTH"], "possible": ["NORTH", "EAST"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "check-H2-11", "split": "III", "tier": "H2", "family": "corridors", "parent_status": "BROKEN", "event": null}
+{"map": "check-H2-12", "split": "III", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-13", "split": "III", "tier": "H2", "family": "branching", "parent_status": "EMPTY", "event": {"step": 12, "selected": "F", "pos": [13, 14], "slack": 1, "safe": ["SOUTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "check-H2-14", "split": "III", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-15", "split": "III", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-16", "split": "III", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-17", "split": "III", "tier": "H2", "family": "rooms", "parent_status": "EMPTY", "event": null}
+{"map": "check-H2-18", "split": "III", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-19", "split": "III", "tier": "H2", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-20", "split": "III", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-21", "split": "III", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-22", "split": "III", "tier": "H2", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 2, "selected": "R", "pos": [7, 11], "slack": 1, "safe": ["WEST"], "possible": ["WEST", "EAST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "check-H2-23", "split": "III", "tier": "H2", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H2-24", "split": "III", "tier": "H2", "family": "rooms", "parent_status": "EMPTY", "event": null}
+{"map": "check-H2-25", "split": "III", "tier": "H2", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H3-01", "split": "III", "tier": "H3", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H3-02", "split": "III", "tier": "H3", "family": "loops", "parent_status": "EMPTY", "event": {"step": 7, "selected": "F", "pos": [3, 32], "slack": 0, "safe": ["SOUTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "SOUTH", "trunk": "NORTH", "reserve": "NORTH", "many": "SOUTH"}}}
+{"map": "check-H3-03", "split": "III", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H3-04", "split": "III", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 2, "selected": "F", "pos": [4, 17], "slack": 0, "safe": ["WEST"], "possible": ["EAST", "WEST"], "choice": {"actual": "WEST", "trunk": "EAST", "reserve": "EAST", "many": "WEST"}}}
+{"map": "check-H3-05", "split": "III", "tier": "H3", "family": "corridors", "parent_status": "BROKEN", "event": null}
+{"map": "check-H3-06", "split": "III", "tier": "H3", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H3-07", "split": "III", "tier": "H3", "family": "corridors", "parent_status": "BROKEN", "event": null}
+{"map": "check-H3-08", "split": "III", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 17, "selected": "R", "pos": [27, 27], "slack": 1, "safe": ["NORTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "check-H3-09", "split": "III", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H3-10", "split": "III", "tier": "H3", "family": "branching", "parent_status": "BROKEN", "event": null}
+{"map": "check-H3-11", "split": "III", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H3-12", "split": "III", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H3-13", "split": "III", "tier": "H3", "family": "loops", "parent_status": "BROKEN", "event": {"step": 13, "selected": "R", "pos": [21, 27], "slack": 1, "safe": ["EAST"], "possible": ["EAST", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "check-H3-14", "split": "III", "tier": "H3", "family": "branching", "parent_status": "BROKEN", "event": {"step": 14, "selected": "R", "pos": [8, 7], "slack": 0, "safe": ["EAST"], "possible": ["WEST", "EAST"], "choice": {"actual": "EAST", "trunk": "WEST", "reserve": "WEST", "many": "EAST"}}}
+{"map": "check-H3-15", "split": "III", "tier": "H3", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H3-16", "split": "III", "tier": "H3", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 26, "selected": "R", "pos": [23, 26], "slack": 1, "safe": ["NORTH", "EAST", "NE"], "possible": ["NORTH", "EAST", "SE", "SOUTH", "SW", "WEST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "NORTH"}}}
+{"map": "check-H3-17", "split": "III", "tier": "H3", "family": "branching", "parent_status": "EMPTY", "event": null}
+{"map": "check-H3-18", "split": "III", "tier": "H3", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 2, "selected": "R", "pos": [2, 7], "slack": 1, "safe": ["EAST", "WEST"], "possible": ["EAST", "WEST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "EAST", "many": "WEST"}}}
+{"map": "check-H3-19", "split": "III", "tier": "H3", "family": "branching", "parent_status": "EMPTY", "event": null}
+{"map": "check-H3-20", "split": "III", "tier": "H3", "family": "rooms", "parent_status": "EMPTY", "event": null}
+{"map": "check-H3-21", "split": "III", "tier": "H3", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 4, "selected": "R", "pos": [21, 19], "slack": 1, "safe": ["NORTH", "WEST", "NW"], "possible": ["SOUTH", "SW", "NW", "NORTH"], "choice": {"actual": "SW", "trunk": "SW", "reserve": "NW", "many": "SOUTH"}}}
+{"map": "check-H3-22", "split": "III", "tier": "H3", "family": "rooms", "parent_status": "EMPTY", "event": null}
+{"map": "check-H3-23", "split": "III", "tier": "H3", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H3-24", "split": "III", "tier": "H3", "family": "branching", "parent_status": "BROKEN", "event": {"step": 7, "selected": "R", "pos": [11, 14], "slack": 0, "safe": ["NORTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "check-H3-25", "split": "III", "tier": "H3", "family": "corridors", "parent_status": "EMPTY", "event": null}
+{"map": "check-H4-01", "split": "III", "tier": "H4", "family": "corridors", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [4, 19], "slack": 1, "safe": ["WEST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "check-H4-02", "split": "III", "tier": "H4", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "F", "pos": [24, 33], "slack": 1, "safe": ["WEST"], "possible": ["WEST", "EAST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "EAST"}}}
+{"map": "check-H4-03", "split": "III", "tier": "H4", "family": "branching", "parent_status": "BROKEN", "event": null}
+{"map": "check-H4-04", "split": "III", "tier": "H4", "family": "loops", "parent_status": "BROKEN", "event": null}
+{"map": "check-H4-05", "split": "III", "tier": "H4", "family": "rooms", "parent_status": "EMPTY", "event": {"step": 1, "selected": "F", "pos": [17, 4], "slack": 1, "safe": ["NORTH", "WEST", "NW"], "possible": ["NORTH", "SOUTH", "NW", "WEST", "SW"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "check-H4-06", "split": "III", "tier": "H4", "family": "loops", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [19, 1], "slack": 1, "safe": ["SOUTH"], "possible": ["SOUTH", "WEST"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "WEST", "many": "SOUTH"}}}
+{"map": "check-H4-07", "split": "III", "tier": "H4", "family": "corridors", "parent_status": "EMPTY", "event": {"step": 1, "selected": "F", "pos": [14, 17], "slack": 1, "safe": ["EAST"], "possible": ["EAST", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "check-H4-08", "split": "III", "tier": "H4", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 11, "selected": "R", "pos": [27, 29], "slack": 0, "safe": ["NORTH"], "possible": ["NORTH", "EAST"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "check-H4-09", "split": "III", "tier": "H4", "family": "corridors", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [27, 35], "slack": 0, "safe": ["EAST"], "possible": ["NORTH", "EAST", "WEST"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "check-H4-10", "split": "III", "tier": "H4", "family": "rooms", "parent_status": "SUCCESS", "event": {"step": 3, "selected": "R", "pos": [17, 13], "slack": 1, "safe": ["EAST", "SOUTH", "SE"], "possible": ["EAST", "SE"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "check-H4-11", "split": "III", "tier": "H4", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H4-12", "split": "III", "tier": "H4", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 2, "selected": "R", "pos": [1, 13], "slack": 1, "safe": ["NORTH", "EAST", "SOUTH", "SE"], "possible": ["NORTH", "EAST", "SE"], "choice": {"actual": "SE", "trunk": "SE", "reserve": "NORTH", "many": "SE"}}}
+{"map": "check-H4-13", "split": "III", "tier": "H4", "family": "rooms", "parent_status": "BROKEN", "event": {"step": 5, "selected": "R", "pos": [25, 30], "slack": 0, "safe": ["WEST", "SW"], "possible": ["SW", "WEST"], "choice": {"actual": "SW", "trunk": "SW", "reserve": "SW", "many": "SW"}}}
+{"map": "check-H4-14", "split": "III", "tier": "H4", "family": "branching", "parent_status": "BROKEN", "event": {"step": 1, "selected": "R", "pos": [11, 29], "slack": 0, "safe": ["SOUTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "check-H4-15", "split": "III", "tier": "H4", "family": "branching", "parent_status": "EMPTY", "event": {"step": 3, "selected": "F", "pos": [9, 9], "slack": 1, "safe": ["NORTH"], "possible": ["NORTH", "SOUTH"], "choice": {"actual": "NORTH", "trunk": "NORTH", "reserve": "NORTH", "many": "NORTH"}}}
+{"map": "check-H4-16", "split": "III", "tier": "H4", "family": "branching", "parent_status": "EMPTY", "event": null}
+{"map": "check-H4-17", "split": "III", "tier": "H4", "family": "rooms", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H4-18", "split": "III", "tier": "H4", "family": "loops", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "R", "pos": [34, 19], "slack": 0, "safe": ["WEST"], "possible": ["WEST", "EAST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "check-H4-19", "split": "III", "tier": "H4", "family": "rooms", "parent_status": "EMPTY", "event": {"step": 2, "selected": "F", "pos": [17, 22], "slack": 1, "safe": ["NORTH", "EAST", "SOUTH", "WEST", "SE", "NW"], "possible": ["EAST", "SE", "SOUTH", "NORTH", "SW", "WEST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "NORTH"}}}
+{"map": "check-H4-20", "split": "III", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H4-21", "split": "III", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": {"step": 1, "selected": "R", "pos": [30, 3], "slack": 1, "safe": ["EAST"], "possible": ["WEST", "EAST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "WEST"}}}
+{"map": "check-H4-22", "split": "III", "tier": "H4", "family": "loops", "parent_status": "BROKEN", "event": {"step": 12, "selected": "F", "pos": [17, 15], "slack": 0, "safe": ["WEST"], "possible": ["WEST", "SOUTH"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "check-H4-23", "split": "III", "tier": "H4", "family": "branching", "parent_status": "SUCCESS", "event": null}
+{"map": "check-H4-24", "split": "III", "tier": "H4", "family": "branching", "parent_status": "EMPTY", "event": {"step": 24, "selected": "F", "pos": [15, 14], "slack": 1, "safe": ["SOUTH"], "possible": ["SOUTH", "NORTH"], "choice": {"actual": "SOUTH", "trunk": "SOUTH", "reserve": "SOUTH", "many": "SOUTH"}}}
+{"map": "check-H4-25", "split": "III", "tier": "H4", "family": "corridors", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-01", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-02", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-03", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-04", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-05", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-06", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-07", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-08", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-09", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-10", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-11", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-1-12", "split": "val", "tier": "1", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-01", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-02", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-03", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-04", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-05", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-06", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-07", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-08", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-09", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-10", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-11", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-2-12", "split": "val", "tier": "2", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-01", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-02", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-03", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-04", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-05", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-06", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-07", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": {"step": 14, "selected": "R", "pos": [8, 21], "slack": 0, "safe": ["EAST"], "possible": ["WEST", "EAST"], "choice": {"actual": "EAST", "trunk": "EAST", "reserve": "EAST", "many": "EAST"}}}
+{"map": "val-3-08", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-09", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-10", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": {"step": 8, "selected": "F", "pos": [13, 7], "slack": 0, "safe": ["WEST"], "possible": ["SOUTH", "WEST"], "choice": {"actual": "WEST", "trunk": "WEST", "reserve": "WEST", "many": "WEST"}}}
+{"map": "val-3-11", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}
+{"map": "val-3-12", "split": "val", "tier": "3", "family": "val", "parent_status": "SUCCESS", "event": null}

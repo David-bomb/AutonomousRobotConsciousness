@@ -1,0 +1,2672 @@
+{
+  "known1": {
+    "sight-route": {
+      "maps": 100,
+      "reserve": 57,
+      "finishes": 51,
+      "gains": [
+        "H2-11",
+        "H2-19"
+      ],
+      "losses": [
+        "H1-17",
+        "H2-18",
+        "H2-20",
+        "H2-24",
+        "H3-05",
+        "H3-07",
+        "H3-17",
+        "H4-06"
+      ],
+      "divergences": 43,
+      "first_by_result": {
+        "Оба финишировали": {
+          "maps": 23,
+          "information": 2,
+          "excluded_own": 2,
+          "nearer": 14,
+          "farther": 9,
+          "both_viable": 23,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 11,
+          "worse_service_step": 9
+        },
+        "Потерян финиш": {
+          "maps": 8,
+          "information": 3,
+          "excluded_own": 3,
+          "nearer": 1,
+          "farther": 7,
+          "both_viable": 8,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 0,
+          "worse_service_step": 7
+        },
+        "Приобретён финиш": {
+          "maps": 2,
+          "information": 0,
+          "excluded_own": 0,
+          "nearer": 2,
+          "farther": 0,
+          "both_viable": 2,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 2,
+          "worse_service_step": 0
+        },
+        "Оба остановились": {
+          "maps": 10,
+          "information": 2,
+          "excluded_own": 2,
+          "nearer": 5,
+          "farther": 5,
+          "both_viable": 10,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 3,
+          "worse_service_step": 5
+        }
+      },
+      "first_viability": {
+        "1/1": 43
+      },
+      "shared_success": {
+        "total": 49,
+        "faster": 6,
+        "equal": 32,
+        "slower": 11,
+        "median_delta": 0,
+        "mean_delta": -10.489795918367347
+      },
+      "shared_diverged_failures": {
+        "total": 10,
+        "later": 4,
+        "same": 4,
+        "earlier": 2
+      },
+      "probes": 58,
+      "detours": 0,
+      "informative": 15,
+      "informative_base": 1,
+      "more": 15,
+      "fewer": 1,
+      "discovered_own_error": 15,
+      "excluded_own_only": 15,
+      "reading_up": 31,
+      "by_tier": {
+        "H1": {
+          "maps": 25,
+          "reserve": 22,
+          "finishes": 21,
+          "gains": [],
+          "losses": [
+            "H1-17"
+          ],
+          "divergences": 9,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 8,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 7,
+              "farther": 1,
+              "both_viable": 8,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 5,
+              "worse_service_step": 1
+            },
+            "Потерян финиш": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 9
+          },
+          "shared_success": {
+            "total": 21,
+            "faster": 4,
+            "equal": 15,
+            "slower": 2,
+            "median_delta": 0,
+            "mean_delta": -15.952380952380953
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 11,
+          "detours": 0,
+          "informative": 2,
+          "informative_base": 0,
+          "more": 2,
+          "fewer": 0,
+          "discovered_own_error": 2,
+          "excluded_own_only": 2,
+          "reading_up": 4
+        },
+        "H2": {
+          "maps": 25,
+          "reserve": 18,
+          "finishes": 17,
+          "gains": [
+            "H2-11",
+            "H2-19"
+          ],
+          "losses": [
+            "H2-18",
+            "H2-20",
+            "H2-24"
+          ],
+          "divergences": 14,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 9,
+              "information": 2,
+              "excluded_own": 2,
+              "nearer": 4,
+              "farther": 5,
+              "both_viable": 9,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 3,
+              "worse_service_step": 5
+            },
+            "Приобретён финиш": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 0,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 0
+            },
+            "Потерян финиш": {
+              "maps": 3,
+              "information": 2,
+              "excluded_own": 2,
+              "nearer": 0,
+              "farther": 3,
+              "both_viable": 3,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 3
+            }
+          },
+          "first_viability": {
+            "1/1": 14
+          },
+          "shared_success": {
+            "total": 15,
+            "faster": 1,
+            "equal": 9,
+            "slower": 5,
+            "median_delta": 0,
+            "mean_delta": -20.733333333333334
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 19,
+          "detours": 0,
+          "informative": 7,
+          "informative_base": 1,
+          "more": 7,
+          "fewer": 1,
+          "discovered_own_error": 7,
+          "excluded_own_only": 7,
+          "reading_up": 11
+        },
+        "H3": {
+          "maps": 25,
+          "reserve": 11,
+          "finishes": 8,
+          "gains": [],
+          "losses": [
+            "H3-05",
+            "H3-07",
+            "H3-17"
+          ],
+          "divergences": 12,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 4,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 3,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 3
+            },
+            "Потерян финиш": {
+              "maps": 3,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 1,
+              "farther": 2,
+              "both_viable": 3,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            },
+            "Оба остановились": {
+              "maps": 5,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 3,
+              "farther": 2,
+              "both_viable": 5,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 2
+            }
+          },
+          "first_viability": {
+            "1/1": 12
+          },
+          "shared_success": {
+            "total": 8,
+            "faster": 0,
+            "equal": 5,
+            "slower": 3,
+            "median_delta": 0.0,
+            "mean_delta": 5.75
+          },
+          "shared_diverged_failures": {
+            "total": 5,
+            "later": 4,
+            "same": 1,
+            "earlier": 0
+          },
+          "probes": 18,
+          "detours": 0,
+          "informative": 5,
+          "informative_base": 0,
+          "more": 5,
+          "fewer": 0,
+          "discovered_own_error": 5,
+          "excluded_own_only": 5,
+          "reading_up": 12
+        },
+        "H4": {
+          "maps": 25,
+          "reserve": 6,
+          "finishes": 5,
+          "gains": [],
+          "losses": [
+            "H4-06"
+          ],
+          "divergences": 8,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 0,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 0
+            },
+            "Оба остановились": {
+              "maps": 5,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 2,
+              "farther": 3,
+              "both_viable": 5,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 3
+            },
+            "Потерян финиш": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 8
+          },
+          "shared_success": {
+            "total": 5,
+            "faster": 1,
+            "equal": 3,
+            "slower": 1,
+            "median_delta": 0,
+            "mean_delta": 17.2
+          },
+          "shared_diverged_failures": {
+            "total": 5,
+            "later": 0,
+            "same": 3,
+            "earlier": 2
+          },
+          "probes": 10,
+          "detours": 0,
+          "informative": 1,
+          "informative_base": 0,
+          "more": 1,
+          "fewer": 0,
+          "discovered_own_error": 1,
+          "excluded_own_only": 1,
+          "reading_up": 4
+        }
+      }
+    },
+    "sight-detour": {
+      "maps": 100,
+      "reserve": 57,
+      "finishes": 51,
+      "gains": [
+        "H2-11",
+        "H2-19"
+      ],
+      "losses": [
+        "H1-17",
+        "H2-18",
+        "H2-20",
+        "H2-24",
+        "H3-05",
+        "H3-07",
+        "H3-17",
+        "H4-06"
+      ],
+      "divergences": 43,
+      "first_by_result": {
+        "Оба финишировали": {
+          "maps": 23,
+          "information": 2,
+          "excluded_own": 2,
+          "nearer": 14,
+          "farther": 9,
+          "both_viable": 23,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 11,
+          "worse_service_step": 9
+        },
+        "Потерян финиш": {
+          "maps": 8,
+          "information": 3,
+          "excluded_own": 3,
+          "nearer": 1,
+          "farther": 7,
+          "both_viable": 8,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 0,
+          "worse_service_step": 7
+        },
+        "Приобретён финиш": {
+          "maps": 2,
+          "information": 0,
+          "excluded_own": 0,
+          "nearer": 2,
+          "farther": 0,
+          "both_viable": 2,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 2,
+          "worse_service_step": 0
+        },
+        "Оба остановились": {
+          "maps": 10,
+          "information": 2,
+          "excluded_own": 2,
+          "nearer": 5,
+          "farther": 5,
+          "both_viable": 10,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 3,
+          "worse_service_step": 5
+        }
+      },
+      "first_viability": {
+        "1/1": 43
+      },
+      "shared_success": {
+        "total": 49,
+        "faster": 6,
+        "equal": 32,
+        "slower": 11,
+        "median_delta": 0,
+        "mean_delta": -10.489795918367347
+      },
+      "shared_diverged_failures": {
+        "total": 10,
+        "later": 4,
+        "same": 4,
+        "earlier": 2
+      },
+      "probes": 58,
+      "detours": 0,
+      "informative": 15,
+      "informative_base": 1,
+      "more": 15,
+      "fewer": 1,
+      "discovered_own_error": 15,
+      "excluded_own_only": 15,
+      "reading_up": 31,
+      "by_tier": {
+        "H1": {
+          "maps": 25,
+          "reserve": 22,
+          "finishes": 21,
+          "gains": [],
+          "losses": [
+            "H1-17"
+          ],
+          "divergences": 9,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 8,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 7,
+              "farther": 1,
+              "both_viable": 8,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 5,
+              "worse_service_step": 1
+            },
+            "Потерян финиш": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 9
+          },
+          "shared_success": {
+            "total": 21,
+            "faster": 4,
+            "equal": 15,
+            "slower": 2,
+            "median_delta": 0,
+            "mean_delta": -15.952380952380953
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 11,
+          "detours": 0,
+          "informative": 2,
+          "informative_base": 0,
+          "more": 2,
+          "fewer": 0,
+          "discovered_own_error": 2,
+          "excluded_own_only": 2,
+          "reading_up": 4
+        },
+        "H2": {
+          "maps": 25,
+          "reserve": 18,
+          "finishes": 17,
+          "gains": [
+            "H2-11",
+            "H2-19"
+          ],
+          "losses": [
+            "H2-18",
+            "H2-20",
+            "H2-24"
+          ],
+          "divergences": 14,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 9,
+              "information": 2,
+              "excluded_own": 2,
+              "nearer": 4,
+              "farther": 5,
+              "both_viable": 9,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 3,
+              "worse_service_step": 5
+            },
+            "Приобретён финиш": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 0,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 0
+            },
+            "Потерян финиш": {
+              "maps": 3,
+              "information": 2,
+              "excluded_own": 2,
+              "nearer": 0,
+              "farther": 3,
+              "both_viable": 3,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 3
+            }
+          },
+          "first_viability": {
+            "1/1": 14
+          },
+          "shared_success": {
+            "total": 15,
+            "faster": 1,
+            "equal": 9,
+            "slower": 5,
+            "median_delta": 0,
+            "mean_delta": -20.733333333333334
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 19,
+          "detours": 0,
+          "informative": 7,
+          "informative_base": 1,
+          "more": 7,
+          "fewer": 1,
+          "discovered_own_error": 7,
+          "excluded_own_only": 7,
+          "reading_up": 11
+        },
+        "H3": {
+          "maps": 25,
+          "reserve": 11,
+          "finishes": 8,
+          "gains": [],
+          "losses": [
+            "H3-05",
+            "H3-07",
+            "H3-17"
+          ],
+          "divergences": 12,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 4,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 3,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 3
+            },
+            "Потерян финиш": {
+              "maps": 3,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 1,
+              "farther": 2,
+              "both_viable": 3,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            },
+            "Оба остановились": {
+              "maps": 5,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 3,
+              "farther": 2,
+              "both_viable": 5,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 2
+            }
+          },
+          "first_viability": {
+            "1/1": 12
+          },
+          "shared_success": {
+            "total": 8,
+            "faster": 0,
+            "equal": 5,
+            "slower": 3,
+            "median_delta": 0.0,
+            "mean_delta": 5.75
+          },
+          "shared_diverged_failures": {
+            "total": 5,
+            "later": 4,
+            "same": 1,
+            "earlier": 0
+          },
+          "probes": 18,
+          "detours": 0,
+          "informative": 5,
+          "informative_base": 0,
+          "more": 5,
+          "fewer": 0,
+          "discovered_own_error": 5,
+          "excluded_own_only": 5,
+          "reading_up": 12
+        },
+        "H4": {
+          "maps": 25,
+          "reserve": 6,
+          "finishes": 5,
+          "gains": [],
+          "losses": [
+            "H4-06"
+          ],
+          "divergences": 8,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 0,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 0
+            },
+            "Оба остановились": {
+              "maps": 5,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 2,
+              "farther": 3,
+              "both_viable": 5,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 3
+            },
+            "Потерян финиш": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 8
+          },
+          "shared_success": {
+            "total": 5,
+            "faster": 1,
+            "equal": 3,
+            "slower": 1,
+            "median_delta": 0,
+            "mean_delta": 17.2
+          },
+          "shared_diverged_failures": {
+            "total": 5,
+            "later": 0,
+            "same": 3,
+            "earlier": 2
+          },
+          "probes": 10,
+          "detours": 0,
+          "informative": 1,
+          "informative_base": 0,
+          "more": 1,
+          "fewer": 0,
+          "discovered_own_error": 1,
+          "excluded_own_only": 1,
+          "reading_up": 4
+        }
+      }
+    }
+  },
+  "known2": {
+    "sight-route": {
+      "maps": 100,
+      "reserve": 53,
+      "finishes": 51,
+      "gains": [
+        "fresh-H3-15"
+      ],
+      "losses": [
+        "fresh-H2-11",
+        "fresh-H3-02",
+        "fresh-H3-06"
+      ],
+      "divergences": 42,
+      "first_by_result": {
+        "Оба финишировали": {
+          "maps": 25,
+          "information": 13,
+          "excluded_own": 12,
+          "nearer": 8,
+          "farther": 17,
+          "both_viable": 25,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 6,
+          "worse_service_step": 17
+        },
+        "Оба остановились": {
+          "maps": 13,
+          "information": 5,
+          "excluded_own": 5,
+          "nearer": 4,
+          "farther": 9,
+          "both_viable": 13,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 3,
+          "worse_service_step": 9
+        },
+        "Потерян финиш": {
+          "maps": 3,
+          "information": 3,
+          "excluded_own": 3,
+          "nearer": 0,
+          "farther": 3,
+          "both_viable": 3,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 0,
+          "worse_service_step": 3
+        },
+        "Приобретён финиш": {
+          "maps": 1,
+          "information": 0,
+          "excluded_own": 0,
+          "nearer": 1,
+          "farther": 0,
+          "both_viable": 1,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 1,
+          "worse_service_step": 0
+        }
+      },
+      "first_viability": {
+        "1/1": 42
+      },
+      "shared_success": {
+        "total": 50,
+        "faster": 5,
+        "equal": 32,
+        "slower": 13,
+        "median_delta": 0.0,
+        "mean_delta": -1.38
+      },
+      "shared_diverged_failures": {
+        "total": 13,
+        "later": 2,
+        "same": 5,
+        "earlier": 6
+      },
+      "probes": 53,
+      "detours": 0,
+      "informative": 25,
+      "informative_base": 1,
+      "more": 25,
+      "fewer": 1,
+      "discovered_own_error": 24,
+      "excluded_own_only": 24,
+      "reading_up": 36,
+      "by_tier": {
+        "H1": {
+          "maps": 25,
+          "reserve": 23,
+          "finishes": 23,
+          "gains": [],
+          "losses": [],
+          "divergences": 12,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 12,
+              "information": 6,
+              "excluded_own": 5,
+              "nearer": 4,
+              "farther": 8,
+              "both_viable": 12,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 8
+            }
+          },
+          "first_viability": {
+            "1/1": 12
+          },
+          "shared_success": {
+            "total": 23,
+            "faster": 0,
+            "equal": 16,
+            "slower": 7,
+            "median_delta": 0,
+            "mean_delta": 8.652173913043478
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 14,
+          "detours": 0,
+          "informative": 7,
+          "informative_base": 0,
+          "more": 7,
+          "fewer": 0,
+          "discovered_own_error": 6,
+          "excluded_own_only": 6,
+          "reading_up": 9
+        },
+        "H2": {
+          "maps": 25,
+          "reserve": 15,
+          "finishes": 14,
+          "gains": [],
+          "losses": [
+            "fresh-H2-11"
+          ],
+          "divergences": 15,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 9,
+              "information": 6,
+              "excluded_own": 6,
+              "nearer": 2,
+              "farther": 7,
+              "both_viable": 9,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 7
+            },
+            "Оба остановились": {
+              "maps": 5,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 3,
+              "farther": 2,
+              "both_viable": 5,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 2
+            },
+            "Потерян финиш": {
+              "maps": 1,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 15
+          },
+          "shared_success": {
+            "total": 14,
+            "faster": 4,
+            "equal": 5,
+            "slower": 5,
+            "median_delta": 0.0,
+            "mean_delta": -12.357142857142858
+          },
+          "shared_diverged_failures": {
+            "total": 5,
+            "later": 1,
+            "same": 2,
+            "earlier": 2
+          },
+          "probes": 18,
+          "detours": 0,
+          "informative": 7,
+          "informative_base": 1,
+          "more": 7,
+          "fewer": 1,
+          "discovered_own_error": 7,
+          "excluded_own_only": 7,
+          "reading_up": 12
+        },
+        "H3": {
+          "maps": 25,
+          "reserve": 10,
+          "finishes": 9,
+          "gains": [
+            "fresh-H3-15"
+          ],
+          "losses": [
+            "fresh-H3-02",
+            "fresh-H3-06"
+          ],
+          "divergences": 12,
+          "first_by_result": {
+            "Оба остановились": {
+              "maps": 6,
+              "information": 3,
+              "excluded_own": 3,
+              "nearer": 1,
+              "farther": 5,
+              "both_viable": 6,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 5
+            },
+            "Потерян финиш": {
+              "maps": 2,
+              "information": 2,
+              "excluded_own": 2,
+              "nearer": 0,
+              "farther": 2,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            },
+            "Оба финишировали": {
+              "maps": 3,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 1,
+              "farther": 2,
+              "both_viable": 3,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 2
+            },
+            "Приобретён финиш": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 0,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 0
+            }
+          },
+          "first_viability": {
+            "1/1": 12
+          },
+          "shared_success": {
+            "total": 8,
+            "faster": 0,
+            "equal": 7,
+            "slower": 1,
+            "median_delta": 0.0,
+            "mean_delta": 0.5
+          },
+          "shared_diverged_failures": {
+            "total": 6,
+            "later": 1,
+            "same": 2,
+            "earlier": 3
+          },
+          "probes": 17,
+          "detours": 0,
+          "informative": 8,
+          "informative_base": 0,
+          "more": 8,
+          "fewer": 0,
+          "discovered_own_error": 8,
+          "excluded_own_only": 8,
+          "reading_up": 12
+        },
+        "H4": {
+          "maps": 25,
+          "reserve": 5,
+          "finishes": 5,
+          "gains": [],
+          "losses": [],
+          "divergences": 3,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 0,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 0
+            },
+            "Оба остановились": {
+              "maps": 2,
+              "information": 2,
+              "excluded_own": 2,
+              "nearer": 0,
+              "farther": 2,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            }
+          },
+          "first_viability": {
+            "1/1": 3
+          },
+          "shared_success": {
+            "total": 5,
+            "faster": 1,
+            "equal": 4,
+            "slower": 0,
+            "median_delta": 0,
+            "mean_delta": -19.8
+          },
+          "shared_diverged_failures": {
+            "total": 2,
+            "later": 0,
+            "same": 1,
+            "earlier": 1
+          },
+          "probes": 4,
+          "detours": 0,
+          "informative": 3,
+          "informative_base": 0,
+          "more": 3,
+          "fewer": 0,
+          "discovered_own_error": 3,
+          "excluded_own_only": 3,
+          "reading_up": 3
+        }
+      }
+    },
+    "sight-detour": {
+      "maps": 100,
+      "reserve": 53,
+      "finishes": 51,
+      "gains": [
+        "fresh-H3-15"
+      ],
+      "losses": [
+        "fresh-H2-11",
+        "fresh-H3-02",
+        "fresh-H3-06"
+      ],
+      "divergences": 42,
+      "first_by_result": {
+        "Оба финишировали": {
+          "maps": 25,
+          "information": 13,
+          "excluded_own": 12,
+          "nearer": 8,
+          "farther": 17,
+          "both_viable": 25,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 6,
+          "worse_service_step": 17
+        },
+        "Оба остановились": {
+          "maps": 13,
+          "information": 5,
+          "excluded_own": 5,
+          "nearer": 4,
+          "farther": 9,
+          "both_viable": 13,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 3,
+          "worse_service_step": 9
+        },
+        "Потерян финиш": {
+          "maps": 3,
+          "information": 3,
+          "excluded_own": 3,
+          "nearer": 0,
+          "farther": 3,
+          "both_viable": 3,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 0,
+          "worse_service_step": 3
+        },
+        "Приобретён финиш": {
+          "maps": 1,
+          "information": 0,
+          "excluded_own": 0,
+          "nearer": 1,
+          "farther": 0,
+          "both_viable": 1,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 1,
+          "worse_service_step": 0
+        }
+      },
+      "first_viability": {
+        "1/1": 42
+      },
+      "shared_success": {
+        "total": 50,
+        "faster": 5,
+        "equal": 32,
+        "slower": 13,
+        "median_delta": 0.0,
+        "mean_delta": -1.38
+      },
+      "shared_diverged_failures": {
+        "total": 13,
+        "later": 2,
+        "same": 5,
+        "earlier": 6
+      },
+      "probes": 53,
+      "detours": 0,
+      "informative": 25,
+      "informative_base": 1,
+      "more": 25,
+      "fewer": 1,
+      "discovered_own_error": 24,
+      "excluded_own_only": 24,
+      "reading_up": 36,
+      "by_tier": {
+        "H1": {
+          "maps": 25,
+          "reserve": 23,
+          "finishes": 23,
+          "gains": [],
+          "losses": [],
+          "divergences": 12,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 12,
+              "information": 6,
+              "excluded_own": 5,
+              "nearer": 4,
+              "farther": 8,
+              "both_viable": 12,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 8
+            }
+          },
+          "first_viability": {
+            "1/1": 12
+          },
+          "shared_success": {
+            "total": 23,
+            "faster": 0,
+            "equal": 16,
+            "slower": 7,
+            "median_delta": 0,
+            "mean_delta": 8.652173913043478
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 14,
+          "detours": 0,
+          "informative": 7,
+          "informative_base": 0,
+          "more": 7,
+          "fewer": 0,
+          "discovered_own_error": 6,
+          "excluded_own_only": 6,
+          "reading_up": 9
+        },
+        "H2": {
+          "maps": 25,
+          "reserve": 15,
+          "finishes": 14,
+          "gains": [],
+          "losses": [
+            "fresh-H2-11"
+          ],
+          "divergences": 15,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 9,
+              "information": 6,
+              "excluded_own": 6,
+              "nearer": 2,
+              "farther": 7,
+              "both_viable": 9,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 7
+            },
+            "Оба остановились": {
+              "maps": 5,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 3,
+              "farther": 2,
+              "both_viable": 5,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 2
+            },
+            "Потерян финиш": {
+              "maps": 1,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 15
+          },
+          "shared_success": {
+            "total": 14,
+            "faster": 4,
+            "equal": 5,
+            "slower": 5,
+            "median_delta": 0.0,
+            "mean_delta": -12.357142857142858
+          },
+          "shared_diverged_failures": {
+            "total": 5,
+            "later": 1,
+            "same": 2,
+            "earlier": 2
+          },
+          "probes": 18,
+          "detours": 0,
+          "informative": 7,
+          "informative_base": 1,
+          "more": 7,
+          "fewer": 1,
+          "discovered_own_error": 7,
+          "excluded_own_only": 7,
+          "reading_up": 12
+        },
+        "H3": {
+          "maps": 25,
+          "reserve": 10,
+          "finishes": 9,
+          "gains": [
+            "fresh-H3-15"
+          ],
+          "losses": [
+            "fresh-H3-02",
+            "fresh-H3-06"
+          ],
+          "divergences": 12,
+          "first_by_result": {
+            "Оба остановились": {
+              "maps": 6,
+              "information": 3,
+              "excluded_own": 3,
+              "nearer": 1,
+              "farther": 5,
+              "both_viable": 6,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 5
+            },
+            "Потерян финиш": {
+              "maps": 2,
+              "information": 2,
+              "excluded_own": 2,
+              "nearer": 0,
+              "farther": 2,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            },
+            "Оба финишировали": {
+              "maps": 3,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 1,
+              "farther": 2,
+              "both_viable": 3,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 2
+            },
+            "Приобретён финиш": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 0,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 0
+            }
+          },
+          "first_viability": {
+            "1/1": 12
+          },
+          "shared_success": {
+            "total": 8,
+            "faster": 0,
+            "equal": 7,
+            "slower": 1,
+            "median_delta": 0.0,
+            "mean_delta": 0.5
+          },
+          "shared_diverged_failures": {
+            "total": 6,
+            "later": 1,
+            "same": 2,
+            "earlier": 3
+          },
+          "probes": 17,
+          "detours": 0,
+          "informative": 8,
+          "informative_base": 0,
+          "more": 8,
+          "fewer": 0,
+          "discovered_own_error": 8,
+          "excluded_own_only": 8,
+          "reading_up": 12
+        },
+        "H4": {
+          "maps": 25,
+          "reserve": 5,
+          "finishes": 5,
+          "gains": [],
+          "losses": [],
+          "divergences": 3,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 0,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 0
+            },
+            "Оба остановились": {
+              "maps": 2,
+              "information": 2,
+              "excluded_own": 2,
+              "nearer": 0,
+              "farther": 2,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            }
+          },
+          "first_viability": {
+            "1/1": 3
+          },
+          "shared_success": {
+            "total": 5,
+            "faster": 1,
+            "equal": 4,
+            "slower": 0,
+            "median_delta": 0,
+            "mean_delta": -19.8
+          },
+          "shared_diverged_failures": {
+            "total": 2,
+            "later": 0,
+            "same": 1,
+            "earlier": 1
+          },
+          "probes": 4,
+          "detours": 0,
+          "informative": 3,
+          "informative_base": 0,
+          "more": 3,
+          "fewer": 0,
+          "discovered_own_error": 3,
+          "excluded_own_only": 3,
+          "reading_up": 3
+        }
+      }
+    }
+  },
+  "fresh": {
+    "sight-route": {
+      "maps": 100,
+      "reserve": 49,
+      "finishes": 47,
+      "gains": [
+        "check-H2-03",
+        "check-H3-08",
+        "check-H3-11"
+      ],
+      "losses": [
+        "check-H2-10",
+        "check-H2-18",
+        "check-H3-12",
+        "check-H3-13",
+        "check-H3-23"
+      ],
+      "divergences": 37,
+      "first_by_result": {
+        "Оба финишировали": {
+          "maps": 17,
+          "information": 8,
+          "excluded_own": 7,
+          "nearer": 6,
+          "farther": 10,
+          "both_viable": 17,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 4,
+          "worse_service_step": 11
+        },
+        "Оба остановились": {
+          "maps": 12,
+          "information": 5,
+          "excluded_own": 5,
+          "nearer": 3,
+          "farther": 9,
+          "both_viable": 11,
+          "saved_immediately": 0,
+          "lost_immediately": 1,
+          "better_service_step": 1,
+          "worse_service_step": 8
+        },
+        "Приобретён финиш": {
+          "maps": 3,
+          "information": 0,
+          "excluded_own": 0,
+          "nearer": 2,
+          "farther": 1,
+          "both_viable": 2,
+          "saved_immediately": 1,
+          "lost_immediately": 0,
+          "better_service_step": 2,
+          "worse_service_step": 0
+        },
+        "Потерян финиш": {
+          "maps": 5,
+          "information": 2,
+          "excluded_own": 2,
+          "nearer": 1,
+          "farther": 4,
+          "both_viable": 5,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 1,
+          "worse_service_step": 4
+        }
+      },
+      "first_viability": {
+        "1/1": 35,
+        "0/1": 1,
+        "1/0": 1
+      },
+      "shared_success": {
+        "total": 44,
+        "faster": 8,
+        "equal": 29,
+        "slower": 7,
+        "median_delta": 0.0,
+        "mean_delta": -7.136363636363637
+      },
+      "shared_diverged_failures": {
+        "total": 12,
+        "later": 4,
+        "same": 3,
+        "earlier": 5
+      },
+      "probes": 56,
+      "detours": 0,
+      "informative": 22,
+      "informative_base": 3,
+      "more": 20,
+      "fewer": 1,
+      "discovered_own_error": 19,
+      "excluded_own_only": 18,
+      "reading_up": 32,
+      "by_tier": {
+        "H1": {
+          "maps": 25,
+          "reserve": 23,
+          "finishes": 23,
+          "gains": [],
+          "losses": [],
+          "divergences": 11,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 10,
+              "information": 6,
+              "excluded_own": 5,
+              "nearer": 3,
+              "farther": 6,
+              "both_viable": 10,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 3,
+              "worse_service_step": 7
+            },
+            "Оба остановились": {
+              "maps": 1,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 11
+          },
+          "shared_success": {
+            "total": 23,
+            "faster": 4,
+            "equal": 14,
+            "slower": 5,
+            "median_delta": 0,
+            "mean_delta": -15.91304347826087
+          },
+          "shared_diverged_failures": {
+            "total": 1,
+            "later": 1,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 15,
+          "detours": 0,
+          "informative": 9,
+          "informative_base": 1,
+          "more": 8,
+          "fewer": 0,
+          "discovered_own_error": 8,
+          "excluded_own_only": 8,
+          "reading_up": 10
+        },
+        "H2": {
+          "maps": 25,
+          "reserve": 15,
+          "finishes": 14,
+          "gains": [
+            "check-H2-03"
+          ],
+          "losses": [
+            "check-H2-10",
+            "check-H2-18"
+          ],
+          "divergences": 11,
+          "first_by_result": {
+            "Оба остановились": {
+              "maps": 4,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 2,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 2
+            },
+            "Приобретён финиш": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 0
+            },
+            "Оба финишировали": {
+              "maps": 4,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 2,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            },
+            "Потерян финиш": {
+              "maps": 2,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 0,
+              "farther": 2,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            }
+          },
+          "first_viability": {
+            "1/1": 11
+          },
+          "shared_success": {
+            "total": 13,
+            "faster": 2,
+            "equal": 10,
+            "slower": 1,
+            "median_delta": 0,
+            "mean_delta": 0.07692307692307693
+          },
+          "shared_diverged_failures": {
+            "total": 4,
+            "later": 2,
+            "same": 1,
+            "earlier": 1
+          },
+          "probes": 20,
+          "detours": 0,
+          "informative": 4,
+          "informative_base": 1,
+          "more": 3,
+          "fewer": 0,
+          "discovered_own_error": 3,
+          "excluded_own_only": 2,
+          "reading_up": 9
+        },
+        "H3": {
+          "maps": 25,
+          "reserve": 7,
+          "finishes": 6,
+          "gains": [
+            "check-H3-08",
+            "check-H3-11"
+          ],
+          "losses": [
+            "check-H3-12",
+            "check-H3-13",
+            "check-H3-23"
+          ],
+          "divergences": 9,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 2,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 1,
+              "farther": 1,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 1
+            },
+            "Приобретён финиш": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 0,
+              "both_viable": 1,
+              "saved_immediately": 1,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 0
+            },
+            "Потерян финиш": {
+              "maps": 3,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 1,
+              "farther": 2,
+              "both_viable": 3,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 2
+            },
+            "Оба остановились": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 1,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 8,
+            "0/1": 1
+          },
+          "shared_success": {
+            "total": 4,
+            "faster": 2,
+            "equal": 2,
+            "slower": 0,
+            "median_delta": -1.0,
+            "mean_delta": -15.75
+          },
+          "shared_diverged_failures": {
+            "total": 2,
+            "later": 0,
+            "same": 1,
+            "earlier": 1
+          },
+          "probes": 12,
+          "detours": 0,
+          "informative": 3,
+          "informative_base": 1,
+          "more": 3,
+          "fewer": 1,
+          "discovered_own_error": 2,
+          "excluded_own_only": 2,
+          "reading_up": 4
+        },
+        "H4": {
+          "maps": 25,
+          "reserve": 4,
+          "finishes": 4,
+          "gains": [],
+          "losses": [],
+          "divergences": 6,
+          "first_by_result": {
+            "Оба остановились": {
+              "maps": 5,
+              "information": 4,
+              "excluded_own": 4,
+              "nearer": 0,
+              "farther": 5,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 1,
+              "better_service_step": 0,
+              "worse_service_step": 4
+            },
+            "Оба финишировали": {
+              "maps": 1,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 5,
+            "1/0": 1
+          },
+          "shared_success": {
+            "total": 4,
+            "faster": 0,
+            "equal": 3,
+            "slower": 1,
+            "median_delta": 0.0,
+            "mean_delta": 28.5
+          },
+          "shared_diverged_failures": {
+            "total": 5,
+            "later": 1,
+            "same": 1,
+            "earlier": 3
+          },
+          "probes": 9,
+          "detours": 0,
+          "informative": 6,
+          "informative_base": 0,
+          "more": 6,
+          "fewer": 0,
+          "discovered_own_error": 6,
+          "excluded_own_only": 6,
+          "reading_up": 9
+        }
+      }
+    },
+    "sight-detour": {
+      "maps": 100,
+      "reserve": 49,
+      "finishes": 47,
+      "gains": [
+        "check-H2-03",
+        "check-H3-08",
+        "check-H3-11"
+      ],
+      "losses": [
+        "check-H2-10",
+        "check-H2-18",
+        "check-H3-12",
+        "check-H3-13",
+        "check-H3-23"
+      ],
+      "divergences": 37,
+      "first_by_result": {
+        "Оба финишировали": {
+          "maps": 17,
+          "information": 8,
+          "excluded_own": 7,
+          "nearer": 6,
+          "farther": 10,
+          "both_viable": 17,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 4,
+          "worse_service_step": 11
+        },
+        "Оба остановились": {
+          "maps": 12,
+          "information": 5,
+          "excluded_own": 5,
+          "nearer": 3,
+          "farther": 9,
+          "both_viable": 11,
+          "saved_immediately": 0,
+          "lost_immediately": 1,
+          "better_service_step": 1,
+          "worse_service_step": 8
+        },
+        "Приобретён финиш": {
+          "maps": 3,
+          "information": 0,
+          "excluded_own": 0,
+          "nearer": 2,
+          "farther": 1,
+          "both_viable": 2,
+          "saved_immediately": 1,
+          "lost_immediately": 0,
+          "better_service_step": 2,
+          "worse_service_step": 0
+        },
+        "Потерян финиш": {
+          "maps": 5,
+          "information": 2,
+          "excluded_own": 2,
+          "nearer": 1,
+          "farther": 4,
+          "both_viable": 5,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 1,
+          "worse_service_step": 4
+        }
+      },
+      "first_viability": {
+        "1/1": 35,
+        "0/1": 1,
+        "1/0": 1
+      },
+      "shared_success": {
+        "total": 44,
+        "faster": 8,
+        "equal": 29,
+        "slower": 7,
+        "median_delta": 0.0,
+        "mean_delta": -7.136363636363637
+      },
+      "shared_diverged_failures": {
+        "total": 12,
+        "later": 4,
+        "same": 3,
+        "earlier": 5
+      },
+      "probes": 56,
+      "detours": 0,
+      "informative": 22,
+      "informative_base": 3,
+      "more": 20,
+      "fewer": 1,
+      "discovered_own_error": 19,
+      "excluded_own_only": 18,
+      "reading_up": 32,
+      "by_tier": {
+        "H1": {
+          "maps": 25,
+          "reserve": 23,
+          "finishes": 23,
+          "gains": [],
+          "losses": [],
+          "divergences": 11,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 10,
+              "information": 6,
+              "excluded_own": 5,
+              "nearer": 3,
+              "farther": 6,
+              "both_viable": 10,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 3,
+              "worse_service_step": 7
+            },
+            "Оба остановились": {
+              "maps": 1,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 11
+          },
+          "shared_success": {
+            "total": 23,
+            "faster": 4,
+            "equal": 14,
+            "slower": 5,
+            "median_delta": 0,
+            "mean_delta": -15.91304347826087
+          },
+          "shared_diverged_failures": {
+            "total": 1,
+            "later": 1,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 15,
+          "detours": 0,
+          "informative": 9,
+          "informative_base": 1,
+          "more": 8,
+          "fewer": 0,
+          "discovered_own_error": 8,
+          "excluded_own_only": 8,
+          "reading_up": 10
+        },
+        "H2": {
+          "maps": 25,
+          "reserve": 15,
+          "finishes": 14,
+          "gains": [
+            "check-H2-03"
+          ],
+          "losses": [
+            "check-H2-10",
+            "check-H2-18"
+          ],
+          "divergences": 11,
+          "first_by_result": {
+            "Оба остановились": {
+              "maps": 4,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 2,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 2
+            },
+            "Приобретён финиш": {
+              "maps": 1,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 0
+            },
+            "Оба финишировали": {
+              "maps": 4,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 2,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            },
+            "Потерян финиш": {
+              "maps": 2,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 0,
+              "farther": 2,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 2
+            }
+          },
+          "first_viability": {
+            "1/1": 11
+          },
+          "shared_success": {
+            "total": 13,
+            "faster": 2,
+            "equal": 10,
+            "slower": 1,
+            "median_delta": 0,
+            "mean_delta": 0.07692307692307693
+          },
+          "shared_diverged_failures": {
+            "total": 4,
+            "later": 2,
+            "same": 1,
+            "earlier": 1
+          },
+          "probes": 20,
+          "detours": 0,
+          "informative": 4,
+          "informative_base": 1,
+          "more": 3,
+          "fewer": 0,
+          "discovered_own_error": 3,
+          "excluded_own_only": 2,
+          "reading_up": 9
+        },
+        "H3": {
+          "maps": 25,
+          "reserve": 7,
+          "finishes": 6,
+          "gains": [
+            "check-H3-08",
+            "check-H3-11"
+          ],
+          "losses": [
+            "check-H3-12",
+            "check-H3-13",
+            "check-H3-23"
+          ],
+          "divergences": 9,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 2,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 1,
+              "farther": 1,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 1
+            },
+            "Приобретён финиш": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 2,
+              "farther": 0,
+              "both_viable": 1,
+              "saved_immediately": 1,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 0
+            },
+            "Потерян финиш": {
+              "maps": 3,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 1,
+              "farther": 2,
+              "both_viable": 3,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 2
+            },
+            "Оба остановились": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 1,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 8,
+            "0/1": 1
+          },
+          "shared_success": {
+            "total": 4,
+            "faster": 2,
+            "equal": 2,
+            "slower": 0,
+            "median_delta": -1.0,
+            "mean_delta": -15.75
+          },
+          "shared_diverged_failures": {
+            "total": 2,
+            "later": 0,
+            "same": 1,
+            "earlier": 1
+          },
+          "probes": 12,
+          "detours": 0,
+          "informative": 3,
+          "informative_base": 1,
+          "more": 3,
+          "fewer": 1,
+          "discovered_own_error": 2,
+          "excluded_own_only": 2,
+          "reading_up": 4
+        },
+        "H4": {
+          "maps": 25,
+          "reserve": 4,
+          "finishes": 4,
+          "gains": [],
+          "losses": [],
+          "divergences": 6,
+          "first_by_result": {
+            "Оба остановились": {
+              "maps": 5,
+              "information": 4,
+              "excluded_own": 4,
+              "nearer": 0,
+              "farther": 5,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 1,
+              "better_service_step": 0,
+              "worse_service_step": 4
+            },
+            "Оба финишировали": {
+              "maps": 1,
+              "information": 1,
+              "excluded_own": 1,
+              "nearer": 0,
+              "farther": 1,
+              "both_viable": 1,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 0,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 5,
+            "1/0": 1
+          },
+          "shared_success": {
+            "total": 4,
+            "faster": 0,
+            "equal": 3,
+            "slower": 1,
+            "median_delta": 0.0,
+            "mean_delta": 28.5
+          },
+          "shared_diverged_failures": {
+            "total": 5,
+            "later": 1,
+            "same": 1,
+            "earlier": 3
+          },
+          "probes": 9,
+          "detours": 0,
+          "informative": 6,
+          "informative_base": 0,
+          "more": 6,
+          "fewer": 0,
+          "discovered_own_error": 6,
+          "excluded_own_only": 6,
+          "reading_up": 9
+        }
+      }
+    }
+  },
+  "val": {
+    "sight-route": {
+      "maps": 36,
+      "reserve": 35,
+      "finishes": 35,
+      "gains": [],
+      "losses": [],
+      "divergences": 6,
+      "first_by_result": {
+        "Оба финишировали": {
+          "maps": 6,
+          "information": 2,
+          "excluded_own": 1,
+          "nearer": 4,
+          "farther": 2,
+          "both_viable": 6,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 3,
+          "worse_service_step": 2
+        }
+      },
+      "first_viability": {
+        "1/1": 6
+      },
+      "shared_success": {
+        "total": 35,
+        "faster": 1,
+        "equal": 32,
+        "slower": 2,
+        "median_delta": 0,
+        "mean_delta": 11.228571428571428
+      },
+      "shared_diverged_failures": {
+        "total": 0,
+        "later": 0,
+        "same": 0,
+        "earlier": 0
+      },
+      "probes": 8,
+      "detours": 0,
+      "informative": 3,
+      "informative_base": 0,
+      "more": 3,
+      "fewer": 0,
+      "discovered_own_error": 2,
+      "excluded_own_only": 2,
+      "reading_up": 4,
+      "by_tier": {
+        "1": {
+          "maps": 12,
+          "reserve": 12,
+          "finishes": 12,
+          "gains": [],
+          "losses": [],
+          "divergences": 0,
+          "first_by_result": {},
+          "first_viability": {},
+          "shared_success": {
+            "total": 12,
+            "faster": 0,
+            "equal": 12,
+            "slower": 0,
+            "median_delta": 0.0,
+            "mean_delta": 0
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 0,
+          "detours": 0,
+          "informative": 0,
+          "informative_base": 0,
+          "more": 0,
+          "fewer": 0,
+          "discovered_own_error": 0,
+          "excluded_own_only": 0,
+          "reading_up": 0
+        },
+        "2": {
+          "maps": 12,
+          "reserve": 12,
+          "finishes": 12,
+          "gains": [],
+          "losses": [],
+          "divergences": 2,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 1,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 2
+          },
+          "shared_success": {
+            "total": 12,
+            "faster": 0,
+            "equal": 11,
+            "slower": 1,
+            "median_delta": 0.0,
+            "mean_delta": 0.16666666666666666
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 2,
+          "detours": 0,
+          "informative": 0,
+          "informative_base": 0,
+          "more": 0,
+          "fewer": 0,
+          "discovered_own_error": 0,
+          "excluded_own_only": 0,
+          "reading_up": 1
+        },
+        "3": {
+          "maps": 12,
+          "reserve": 11,
+          "finishes": 11,
+          "gains": [],
+          "losses": [],
+          "divergences": 4,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 4,
+              "information": 2,
+              "excluded_own": 1,
+              "nearer": 3,
+              "farther": 1,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 4
+          },
+          "shared_success": {
+            "total": 11,
+            "faster": 1,
+            "equal": 9,
+            "slower": 1,
+            "median_delta": 0,
+            "mean_delta": 35.54545454545455
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 6,
+          "detours": 0,
+          "informative": 3,
+          "informative_base": 0,
+          "more": 3,
+          "fewer": 0,
+          "discovered_own_error": 2,
+          "excluded_own_only": 2,
+          "reading_up": 3
+        }
+      }
+    },
+    "sight-detour": {
+      "maps": 36,
+      "reserve": 35,
+      "finishes": 35,
+      "gains": [],
+      "losses": [],
+      "divergences": 6,
+      "first_by_result": {
+        "Оба финишировали": {
+          "maps": 6,
+          "information": 2,
+          "excluded_own": 1,
+          "nearer": 4,
+          "farther": 2,
+          "both_viable": 6,
+          "saved_immediately": 0,
+          "lost_immediately": 0,
+          "better_service_step": 3,
+          "worse_service_step": 2
+        }
+      },
+      "first_viability": {
+        "1/1": 6
+      },
+      "shared_success": {
+        "total": 35,
+        "faster": 1,
+        "equal": 32,
+        "slower": 2,
+        "median_delta": 0,
+        "mean_delta": 11.228571428571428
+      },
+      "shared_diverged_failures": {
+        "total": 0,
+        "later": 0,
+        "same": 0,
+        "earlier": 0
+      },
+      "probes": 8,
+      "detours": 0,
+      "informative": 3,
+      "informative_base": 0,
+      "more": 3,
+      "fewer": 0,
+      "discovered_own_error": 2,
+      "excluded_own_only": 2,
+      "reading_up": 4,
+      "by_tier": {
+        "1": {
+          "maps": 12,
+          "reserve": 12,
+          "finishes": 12,
+          "gains": [],
+          "losses": [],
+          "divergences": 0,
+          "first_by_result": {},
+          "first_viability": {},
+          "shared_success": {
+            "total": 12,
+            "faster": 0,
+            "equal": 12,
+            "slower": 0,
+            "median_delta": 0.0,
+            "mean_delta": 0
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 0,
+          "detours": 0,
+          "informative": 0,
+          "informative_base": 0,
+          "more": 0,
+          "fewer": 0,
+          "discovered_own_error": 0,
+          "excluded_own_only": 0,
+          "reading_up": 0
+        },
+        "2": {
+          "maps": 12,
+          "reserve": 12,
+          "finishes": 12,
+          "gains": [],
+          "losses": [],
+          "divergences": 2,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 2,
+              "information": 0,
+              "excluded_own": 0,
+              "nearer": 1,
+              "farther": 1,
+              "both_viable": 2,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 1,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 2
+          },
+          "shared_success": {
+            "total": 12,
+            "faster": 0,
+            "equal": 11,
+            "slower": 1,
+            "median_delta": 0.0,
+            "mean_delta": 0.16666666666666666
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 2,
+          "detours": 0,
+          "informative": 0,
+          "informative_base": 0,
+          "more": 0,
+          "fewer": 0,
+          "discovered_own_error": 0,
+          "excluded_own_only": 0,
+          "reading_up": 1
+        },
+        "3": {
+          "maps": 12,
+          "reserve": 11,
+          "finishes": 11,
+          "gains": [],
+          "losses": [],
+          "divergences": 4,
+          "first_by_result": {
+            "Оба финишировали": {
+              "maps": 4,
+              "information": 2,
+              "excluded_own": 1,
+              "nearer": 3,
+              "farther": 1,
+              "both_viable": 4,
+              "saved_immediately": 0,
+              "lost_immediately": 0,
+              "better_service_step": 2,
+              "worse_service_step": 1
+            }
+          },
+          "first_viability": {
+            "1/1": 4
+          },
+          "shared_success": {
+            "total": 11,
+            "faster": 1,
+            "equal": 9,
+            "slower": 1,
+            "median_delta": 0,
+            "mean_delta": 35.54545454545455
+          },
+          "shared_diverged_failures": {
+            "total": 0,
+            "later": 0,
+            "same": 0,
+            "earlier": 0
+          },
+          "probes": 6,
+          "detours": 0,
+          "informative": 3,
+          "informative_base": 0,
+          "more": 3,
+          "fewer": 0,
+          "discovered_own_error": 2,
+          "excluded_own_only": 2,
+          "reading_up": 3
+        }
+      }
+    }
+  }
+}

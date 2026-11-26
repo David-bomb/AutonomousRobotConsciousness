@@ -1,0 +1,222 @@
+{
+  "E4_episodes": {
+    "compared": 1344,
+    "differences": [],
+    "additional": 0
+  },
+  "E4_diagnosis": {
+    "compared": 336,
+    "differences": [],
+    "additional": 0
+  },
+  "E4_pair": {
+    "agents": [
+      "frontier",
+      "resources"
+    ],
+    "wins": 9,
+    "losses": 2,
+    "common": 75,
+    "medians": [
+      133,
+      83
+    ]
+  },
+  "E5_episodes": {
+    "compared": 200,
+    "differences": [],
+    "additional": 0
+  },
+  "E5_diagnosis": {
+    "compared": 18,
+    "differences": [],
+    "additional": 0
+  },
+  "E5_pair": {
+    "agents": [
+      "frontier-reserve",
+      "frontier"
+    ],
+    "wins": 5,
+    "losses": 1,
+    "common": 88,
+    "medians": [
+      137.0,
+      136.0
+    ]
+  },
+  "E5_development": {
+    "archive": 10,
+    "confirm": 85,
+    "holdout": 90,
+    "train": 90,
+    "val": 35
+  },
+  "E6_development": {
+    "compared": 2016,
+    "differences": [],
+    "additional": 0
+  },
+  "E6_AB": {
+    "A": [
+      136,
+      85,
+      89
+    ],
+    "B": [
+      135,
+      90,
+      93
+    ],
+    "C": [
+      136,
+      87,
+      90
+    ],
+    "D": [
+      136,
+      84,
+      87
+    ],
+    "E": [
+      136,
+      84,
+      87
+    ],
+    "F": [
+      136,
+      86,
+      89
+    ]
+  },
+  "E6_C": {
+    "compared": 100,
+    "differences": [],
+    "additional": 0
+  },
+  "E6_reserve": {
+    "compared": 100,
+    "differences": [],
+    "additional": 0
+  },
+  "E6_frontier": {
+    "compared": 100,
+    "differences": [],
+    "additional": 0
+  },
+  "E6_diagnosis": {
+    "compared": 35,
+    "differences": [],
+    "additional": 0
+  },
+  "stress_all_fields": {
+    "compared": 1400,
+    "differences": [],
+    "additional": 200
+  },
+  "stress_physical": {
+    "compared": 1400,
+    "differences": [],
+    "additional": 200
+  },
+  "stress_by_tier": {
+    "A": [
+      23,
+      17,
+      7,
+      3
+    ],
+    "B": [
+      22,
+      18,
+      11,
+      6
+    ],
+    "C (frontier-auto)": [
+      23,
+      18,
+      10,
+      4
+    ],
+    "D": [
+      23,
+      17,
+      4,
+      3
+    ],
+    "E": [
+      23,
+      17,
+      4,
+      2
+    ],
+    "F": [
+      23,
+      17,
+      7,
+      3
+    ],
+    "SARSA (frozen)": [
+      12,
+      7,
+      0,
+      0
+    ],
+    "frontier": [
+      23,
+      17,
+      7,
+      3
+    ],
+    "frontier-reserve": [
+      22,
+      18,
+      11,
+      6
+    ],
+    "pilot": [
+      8,
+      7,
+      0,
+      0
+    ],
+    "pilot+2": [
+      10,
+      7,
+      0,
+      0
+    ],
+    "pilot+3": [
+      11,
+      6,
+      0,
+      0
+    ],
+    "resources": [
+      19,
+      14,
+      6,
+      6
+    ],
+    "resources (E-0002 r1)": [
+      18,
+      13,
+      6,
+      5
+    ],
+    "resources+2": [
+      18,
+      14,
+      5,
+      5
+    ],
+    "resources+3": [
+      18,
+      14,
+      5,
+      5
+    ]
+  },
+  "stress_solved": 64,
+  "stress_old_solved": 64
+}

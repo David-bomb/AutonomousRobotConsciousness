@@ -1,0 +1,61 @@
+{
+  "controller_sha256": "7e6a243e454a15f8fdc03f1e7d6bbae559f4e3997acb8e1d040c56974ea24389",
+  "policy_sha256": "677eb3af68ce55e890d45061ad3f57436e9ebbaefb42305578bffdc82a0f90a5",
+  "holdout_seed": 91462713,
+  "splits": {
+    "archive": {
+      "01-diagonal": "98b0b06dbf45df6d7a05e4cf7e357dc73f9c216cdf7c52190e11e291ae13407f",
+      "02-loop": "5b5e594b689b2bccbfaf6a2cee3dd26b21b512134c9fa52c3a07ae4d5f3c7ec0",
+      "03-dead-end": "94f57bac70fa4eda558877ad1e242b1007572b35cc8172fb4c2ffbffe82f887a",
+      "04-fuel": "799f650abed1c980ff074a946594922d923ef85176b78b1d12a26441670769bd",
+      "05-repair": "9b42a221b8ac5d1fbf378d4734b2147cd4f47d25952bc936f53abdbe003be505",
+      "06-expedition": "dfd4f9bd8ee9caedc146b7971fd579fb799d3b959b6c0c14188a92c7e5169ed8",
+      "07-locks": "5d9310917a29ee8c47a94897f6391355773d6720ade64b781bb7b964ee80711f",
+      "08-galleries": "a23e03da10eb2d3adfa4efe9f6d63aabb9704e42a55132e54f0f11784dd36149",
+      "09-switchbacks": "73ce472230d19e04e1439bc6d1719ae605a9ed504436e8cbb6023ce285fe5dd5",
+      "10-crossroads": "bbc5578af08ea98b7d5d703579a8c9bcea3157d883bdf5b2cecd3d5e4f41d4f6"
+    }
+  },
+  "failures": [
+    {
+      "split": "archive",
+      "case": "08-galleries",
+      "agent": "resources",
+      "initially_feasible": true,
+      "step": 78,
+      "position": [
+        19,
+        14
+      ],
+      "move": "NORTH",
+      "activity": "На заправку",
+      "fuel": 23,
+      "health": 47,
+      "fuel_distance": 23,
+      "repair_distance": 39,
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "split": "archive",
+      "case": "09-switchbacks",
+      "agent": "resources",
+      "initially_feasible": true,
+      "step": 4973,
+      "position": [
+        3,
+        9
+      ],
+      "move": "EAST",
+      "activity": "На заправку",
+      "fuel": 44,
+      "health": 78,
+      "fuel_distance": 12,
+      "repair_distance": 22,
+      "viable": [
+        "NORTH"
+      ]
+    }
+  ]
+}

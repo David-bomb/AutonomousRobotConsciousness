@@ -1,0 +1,542 @@
+diff --git a/README.md b/README.md
+index 0cb7220..221d1fb 100644
+--- a/README.md
++++ b/README.md
+@@ -44,6 +44,15 @@ python -m scripts.evaluate_frontier tmp/frontier-run --split val archive holdout
+ 
+ [Диагностика и границы эксперимента](docs/experiments/E-0004-frontier.md)
+ 
++Доработанный вариант `frontier-reserve` проверяет оставшиеся варианты обслуживания, когда запас мал, и пытается выйти из повторных заездов без новых наблюдений. Оба варианта доступны отдельно.
++
++```powershell
++python -m maze --controller frontier-reserve --split val
++python -m scripts.compare_frontier_reserve tmp/frontier-reserve-fresh
++```
++
++[Правила и парное сравнение](docs/experiments/E-0005-frontier-reserve.md)
++
+ В окне выберите уровень и нажмите «Пуск». Таймер между ходами установлен на 0,5 с. Видна карта памяти и окно восприятия. Переключатель полной карты меняет только вид наблюдателя. Доступны пауза и повтор со старта. Для этого режима нужен Tk, входящий в обычную установку Python для Windows.
+ 
+ ```powershell
+diff --git a/docs/experiments/E-0005-frontier-reserve.md b/docs/experiments/E-0005-frontier-reserve.md
+new file mode 100644
+index 0000000..6f868e8
+--- /dev/null
++++ b/docs/experiments/E-0005-frontier-reserve.md
+@@ -0,0 +1,37 @@
++# E-0005. Резерв и выход из застоя в frontier
++
++Локальный вариант `frontier-reserve`. Первая версия `frontier`, исходный автомат по умолчанию, SARSA, физика и сохранённые результаты не заменяются.
++
++## Общая проблема
++
++На последней сотне E-0004 четырнадцать из шестнадцати отказов начинались с ошибочного хода при запасе в 0–1 относительно хотя бы одного сервиса. Ещё один шаг сохранил возможность доехать до каждого сервиса по отдельности, но не доехать до финиша; на одной карте обнаружен цикл. Эти классы определяют правила и синтетические проверки. Идентификаторы, решения и параметры отдельных карт в контроллер не входят.
++
++## Правила
++
++- К порогу запасного контроллера добавлены две единицы: один пробный ход и возврат. Это не обещание, что оба ресурса позволят потратить этот резерв.
++- В стеснённых состояниях проверяется, может ли выбранный ход хотя бы в оптимистической модели оставить успешное продолжение. Открытые стены учитываются, неизвестные клетки считаются проходимыми. Модель проверяет последовательности заправок и ремонтов, расход обоих запасов, правила терминальных состояний и путь к финишу. При первом отрезке используются нижние границы, полученные из фактических измерений: после одного хода длина не может уменьшиться более чем на один. Аналогичная граница используется от предыдущей реально посещённой клетки, если замер есть. Датчик не вызывается в воображаемой точке. Если продолжение невозможно даже при таком допущении, этот ход не выбирается при наличии альтернативы, не исключённой тем же тестом. Положительный ответ модели не доказывает, что маршрут действительно существует.
++- При нескольких ещё правдоподобных направлениях к сервису более длинный, но открытый подход может быть предпочтительнее неизвестного. Для ранжирования подтверждённое ребро имеет вес 1, неизвестное — 2. Это оценка неопределённости, не физическая длина и не показание датчика. Она применяется при малом запасе, когда открытого маршрута до выбранного сервиса ещё нет; при равенстве предпочтительно окно, которое откроет больше клеток.
++- Если не было новых наблюдений после четырёх пополнений и обычный план разведки отсутствует, выбирается ближайшая новая точка наблюдения с открытым маршрутом хотя бы к одному сервису. Вариант использует тот же счётчик пополнений, но верхняя граница счётчика увеличена. Если и такой выход не найден, гарантий разрыва цикла нет. История координат, метки ветвей и поля наблюдения не добавлены.
++
++## Проверка
++
++Для разработки использовались целые наборы train / val и две прежние сотни сложных карт. Проверялись прибавки 0, 2 и 4, совместная проверка последовательности обслуживания, правило застоя и оценки неизвестных дорог. Архивные уровни только регрессионные. Для итогового сравнения до прогона зафиксированы канал наблюдения, зерно новой сотни `68319041` и метрики: число финишей, попарные выигрыши и проигрыши, ходы на общих финишах и виды отказов. Новая сотня исключает совпадающие геометрии старых наборов, в том числе при поворотах и отражениях. Это проверка переноса внутри того же генератора, не на произвольных лабиринтах.
++
++```powershell
++python -m maze --controller frontier-reserve --split val --level val-3-10
++python -m unittest discover -s tests -v
++python -m scripts.compare_frontier_reserve tmp/frontier-reserve-fresh
++```
++
++Скрипт создаёт новую папку. В `episodes.csv` записаны обе траектории в агрегате по карте; `diagnosis.json` включает отпечатки исходников и первый необратимый ход на каждой непройденной карте. Полную карту знает только внешний анализатор, а не контроллер.
++
++На наборах разработки `frontier` получил 293/326, вариант с совместной проверкой, выходом из застоя и прибавкой 2 без дополнительного ранжирования — 298/326, вариант с ранжированием — 300/326. Последний потерял один финиш на val (35/36 вместо 36/36), но прошёл 85 и 90 карт на двух старых сложных сотнях против 83 и 84. Вариант с прибавкой 4 и тем же ранжированием набрал тоже 300/326; выбран меньший резерв, соответствующий одной пробе с возвратом. Правила зафиксированы до новой сотни.
++
++## Независимая сотня
++
++| Контроллер | Финиш | Нет топлива | Поломка | Лимит |
++|---|---:|---:|---:|---:|
++| frontier | 89 | 4 | 5 | 2 |
++| frontier-reserve | 93 | 3 | 4 | 0 |
++
++Новая версия прошла пять карт, которые старая не прошла, и потеряла один её финиш. Обе финишировали на 88 картах; медианы числа ходов 136 и 137 соответственно. На 10 общих картах новый вариант был быстрее, на 5 медленнее, на 73 длина пути совпала. Столкновений не было. В каждом из семи оставшихся отказов второго варианта путь к финишу был возможен со старта при полной информации, а первый необратимый ход произошёл при запасе 0–1 хотя бы к одному виду обслуживания. Это улучшение на проверенной выборке, не доказательство исчезновения циклов или гарантии успешной навигации. По этой сотне настройки не менялись.
+diff --git a/docs/experiments/README.md b/docs/experiments/README.md
+index 04a9117..27c7292 100644
+--- a/docs/experiments/README.md
++++ b/docs/experiments/README.md
+@@ -10,6 +10,7 @@
+ | [E-0002](E-0002-automaton.md) | Где теряется путь к финишу и помогает ли учёт порядка заездов и обратной связи | Завершён | 11/12 сложных val, 82/100 новых сложных карт |
+ | [E-0003](E-0003-service-offset.md) | Как меняется результат при повышении порогов обслуживания на 2 и 3 единицы | Завершён | На контрольной сотне при +3 исходный автомат прошёл 41 карту, ресурсный — 83 |
+ | [E-0004](E-0004-frontier.md) | Помогает ли разведка с проверкой обоих запасов | Локальный опыт | 84/100 на новой сотне против 77/100 у ресурсного |
++| [E-0005](E-0005-frontier-reserve.md) | Резерв, совместное обслуживание и выход из застоя | Локальный опыт | 93/100 против 89/100 у frontier |
+ 
+ Каждый содержательный опыт получает запись `E-0001-short-name.md` по [шаблону](../templates/experiment.md). План опыта создаётся до итоговых запусков. Данные и их анализ связываются с этой записью; не нужно вставлять большие журналы в Markdown.
+ 
+diff --git a/docs/journal.md b/docs/journal.md
+index 5a8ad1a..ba83846 100644
+--- a/docs/journal.md
++++ b/docs/journal.md
+@@ -75,3 +75,7 @@
+ ## 25.11.2026 — разведка с проверкой обслуживания
+ 
+ После разбора отказов исходного автомата, ресурсного автомата и замороженной SARSA собран отдельный контроллер `frontier`. Новая логика пользуется текущим окном и открытой картой эпизода, не меняя интерфейс. Она исправила три разобранных отказа на знакомых картах; 09 и 10 всё ещё требуют лишних поездок. [Диагностика, итерации и проверка на новых картах](experiments/E-0004-frontier.md)
++
++## 25.11.2026 — доработка frontier по классам отказов
++
++Проверены резерв на пробу и возврат, совместная проверка двух запасов, ранжирование неизвестных подходов и выход из повторных заездов. В правилах нет исключений для отдельных карт. Итоговый вариант зафиксирован перед новой парной сотней. [E-0005](experiments/E-0005-frontier-reserve.md)
+diff --git a/docs/status.md b/docs/status.md
+index 537792a..156ed3c 100644
+--- a/docs/status.md
++++ b/docs/status.md
+@@ -4,6 +4,8 @@
+ 
+ ## Что проверено
+ 
++- Варианты `frontier` и `frontier-reserve` разделены. Второй проверяет оба запаса перед рискованными ходами и рассматривает дополнительный выход из застоя. На новой сотне 93/100 против 89/100 у исходного frontier. [Разработка и независимый повтор E-0005](experiments/E-0005-frontier-reserve.md)
++
+ - Экспериментальный автомат `frontier` прошёл 36/36 знакомых карт val и 10/10 архивных уровней. Это отдельный вариант, не замена действующих контроллеров. [Проверки и сравнение E-0004](experiments/E-0004-frontier.md)
+ 
+ - 25.11.2026 ресурсный вариант автомата прошёл 11/12 сложных карт val и 82/100 новых сложных карт. У исходного варианта на тех же наборах 7/12 и 33/100. На исходных уровнях 08 и 09 у новой версии регрессии, для неё используется явный выбор `--controller resources`. [Ошибки, правила и замеры E-0002](experiments/E-0002-automaton.md)
+diff --git a/maze/__main__.py b/maze/__main__.py
+index 8ed30c9..5ae4cc2 100644
+--- a/maze/__main__.py
++++ b/maze/__main__.py
+@@ -5,6 +5,7 @@ from .automaton import Automaton, ResourceAutomaton
+ from .datasets import load_split
+ from .environment import Environment, Status
+ from .frontier_automaton import FrontierAutomaton
++from .frontier_reserve import ReserveFrontier
+ from .levels import catalogue
+ from .runner import run
+ 
+@@ -13,8 +14,8 @@ def main() -> int:
+     parser = argparse.ArgumentParser(description="Проверка навигационного автомата")
+     parser.add_argument("--split", choices=("test", "val", "train"), default="test", help="набор карт")
+     parser.add_argument("--level", help="идентификатор уровня в выбранном наборе")
+-    parser.add_argument("--controller", choices=("pilot", "resources", "frontier"), default="pilot",
+-                        help="исходный D-0008, ресурсный E-0002 или опытный frontier")
++    parser.add_argument("--controller", choices=("pilot", "resources", "frontier", "frontier-reserve"), default="pilot",
++                        help="исходный D-0008, ресурсный E-0002, frontier или frontier-reserve")
+     parser.add_argument("--visual", action="store_true", help="открыть окно выбора уровня")
+     parser.add_argument("--service-offset", type=int, default=0, metavar="N",
+                         help="прибавить N единиц к порогу заправки и ремонта")
+@@ -24,10 +25,10 @@ def main() -> int:
+     levels = catalogue() if args.split == "test" else {c.name: c.level for c in load_split(args.split)}
+     if args.level and args.level not in levels:
+         parser.error(f"Уровень {args.level} отсутствует в {args.split}")
+-    if args.controller == "frontier":
++    if args.controller in ("frontier", "frontier-reserve"):
+         if args.service_offset:
+-            parser.error("--service-offset не применяется к frontier")
+-        controller = FrontierAutomaton
++            parser.error(f"--service-offset не применяется к {args.controller}")
++        controller = ReserveFrontier if args.controller == "frontier-reserve" else FrontierAutomaton
+     else:
+         controller_type = ResourceAutomaton if args.controller == "resources" else Automaton
+         controller = partial(controller_type, service_offset=args.service_offset)
+diff --git a/maze/frontier_automaton.py b/maze/frontier_automaton.py
+index f9eda69..7251157 100644
+--- a/maze/frontier_automaton.py
++++ b/maze/frontier_automaton.py
+@@ -130,15 +130,20 @@ def _near_goal(view, goal):
+ 
+ class FrontierAutomaton:
+     """Тот же вход Observation; никакого доступа к полной карте или Environment."""
++    STREAK_CAP = 2
++
+     def __init__(self):
+-        self._fallback = ResourceAutomaton()
++        self._fallback = self._make_fallback()
+         self.activity = "Планирование"
+         self._unseen = None
+         self._service_streak = 0
+ 
++    def _make_fallback(self):
++        return ResourceAutomaton()
++
+     def choose(self, view: Observation) -> Move:
+         if view.last_move is None:
+-            self._fallback = ResourceAutomaton()
++            self._fallback = self._make_fallback()
+         # Число неизвестных клеток монотонно: не нужны копия карты,
+         # история координат или пометки посещённых ветвей.
+         unseen = sum(row.count("?") for row in view.memory)
+@@ -146,7 +151,7 @@ class FrontierAutomaton:
+             self._service_streak = 0
+             self._unseen = unseen
+         elif view.moved and cell(view.memory, *view.position) in "FR":
+-            self._service_streak = min(2, self._service_streak + 1)
++            self._service_streak = min(self.STREAK_CAP, self._service_streak + 1)
+         x, y = view.position
+         goal = x + view.dx, y + view.dy
+         stops = tuple((p, kind) for kind in "FR" for p in locations(view.memory, kind))
+@@ -155,6 +160,8 @@ class FrontierAutomaton:
+             probe = _near_goal(view, goal)
+             if probe is not None:
+                 plan = "Проверка близкого финиша", probe
++        if plan is None:
++            plan = self._extra_plan(view, goal, stops)
+         if plan is not None:
+             self._fallback.mode = Mode.GOAL
+             self._fallback.returning = False
+@@ -163,9 +170,15 @@ class FrontierAutomaton:
+             self.activity, move = plan
+             return move
+ 
++        return self._fallback_move(view, goal, stops)
++
++    def _extra_plan(self, view, goal, stops):
++        return None
++
++    def _fallback_move(self, view, goal, stops):
+         active = self._fallback.mode
+         returning = self._fallback.returning
+-        service = service_order(view, active)
++        service = service_order(view, active, self._fallback.service_offset)
+         previous = self._fallback.last_lengths.get(service.mode) if service and view.moved else None
+         move = self._fallback.choose(view)
+         self.activity = self._fallback.activity
+diff --git a/maze/frontier_reserve.py b/maze/frontier_reserve.py
+new file mode 100644
+index 0000000..7298d2c
+--- /dev/null
++++ b/maze/frontier_reserve.py
+@@ -0,0 +1,192 @@
++"""Доработка frontier: резерв до развилки, проверка двух запасов и выход из застоя."""
++from functools import lru_cache
++from heapq import heappop, heappush
++
++from .frontier_automaton import FrontierAutomaton, _arrive, _frontiers, _paths, _service_states
++from .grid import cell, destination, wave
++from .interface import Move
++from .pilot_automaton import Mode, separation
++from .resource_automaton import Automaton as ResourceAutomaton
++from .resource_automaton import possible_directions, service_order
++
++
++@lru_cache(maxsize=128)
++def _optimistic(grid):
++    return tuple(row.replace("?", ".") for row in grid)
++
++
++@lru_cache(maxsize=128)
++def _lengths(grid, origin):
++    return {p: d for p, d, _ in wave(grid, [origin])}
++
++
++def _service_floors(view, previous, point):
++    """Не запрашивает датчик для point: использует неравенство треугольника."""
++    out = {}
++    for kind, mode, current in (("F", Mode.FUEL, view.fuel_distance),
++                                ("R", Mode.REPAIR, view.repair_distance)):
++        if current is None:
++            continue
++        floor = max(0, current - 1)
++        old = previous.get(mode)
++        if old is not None and view.moved:
++            dx, dy = view.last_move.value
++            prior = view.position[0] - dx, view.position[1] - dy
++            px, py = point[0] - prior[0], point[1] - prior[1]
++            move = next((m for m in Move if m.value == (px, py)), None)
++            distance = 0 if prior == point else (
++                1 if move is not None and destination(view.memory, prior, move) == point else 2)
++            floor = max(floor, old - distance)
++        out[kind] = floor
++    return out
++
++
++def _relaxed_route(grid, point, goal, fuel, health, stops, floors):
++    """Нижняя оценка успешного маршрута; None исключает ход, не подтверждает другие."""
++    queue = [(point, fuel, health, True)]
++    seen = {}
++    while queue:
++        p, f, h, first = queue.pop()
++        if p == goal:
++            return True
++        previous = seen.setdefault((p, first), [])
++        if any(of >= f and oh >= h for of, oh in previous):
++            continue
++        previous[:] = [(of, oh) for of, oh in previous if not (f >= of and h >= oh)]
++        previous.append((f, h))
++        for site, kind in stops:
++            distance = _lengths(grid, site).get(p)
++            if distance is None or not distance:
++                continue
++            if first:
++                distance = max(distance, floors.get(kind, 0))
++            after = _arrive(kind, distance, f, h)
++            if after is not None:
++                queue.append((site, *after, False))
++    return False
++
++
++@lru_cache(maxsize=96)
++def _estimated_lengths(memory, sites):
++    """Открытые рёбра предпочтительнее неизвестных; это не показание датчика."""
++    optimistic = _optimistic(memory)
++    queue = [(0, p) for p in sites]
++    seen = {}
++    while queue:
++        cost, point = heappop(queue)
++        if point in seen:
++            continue
++        seen[point] = cost
++        for m in Move:
++            q = destination(optimistic, point, m)
++            if q is None or q in seen:
++                continue
++            known = cell(memory, *point) not in "#?" and destination(memory, point, m) == q
++            heappush(queue, (cost + (1 if known else 2), q))
++    return seen
++
++
++def _prioritize_direction(view, service, previous, default):
++    options = possible_directions(view, service, previous)
++    if default not in options or len(options) < 2:
++        return default
++    roads = _paths(view.memory, view.position)
++    if any(roads.get(site, (float("inf"),))[0] <= service.stock
++           for site in service.sites):
++        return default
++    lengths = _estimated_lengths(view.memory, tuple(sorted(service.sites)))
++    def rank(move):
++        q = destination(view.memory, view.position, move)
++        x, y = q
++        discovered = sum(cell(view.memory, x + i, y + j) == "?"
++                         for i in (-1, 0, 1) for j in (-1, 0, 1))
++        estimate = lengths.get(q, float("inf"))
++        return estimate, -discovered, move != default
++    return min(options, key=rank)
++
++
++class ReserveFrontier(FrontierAutomaton):
++    """Законченные гипотезы сравниваются отдельно; v1 не подменяется."""
++    STREAK_CAP = 4
++    RESERVE = 2
++    # Три пары «проба, возврат»: в этом диапазоне добавляем проверку
++    # совместной достижимости. За его пределами оставляем базовый поиск.
++    CHECK_MARGIN = 3 * RESERVE
++
++    def _make_fallback(self):
++        # Одна обзорная проба и обратный ход расходуют две единицы.
++        return ResourceAutomaton(self.RESERVE)
++
++    def _extra_plan(self, view, goal, stops):
++        if self._service_streak < self.STREAK_CAP:
++            return None
++        candidates = _frontiers(view.memory)
++        if not candidates:
++            return None
++        # После повторных обслуживаний выбираем достижимое новое наблюдение,
++        # а не ещё один заезд сам по себе. Проверяем возможность хотя бы
++        # вернуться к известному сервису по уже открытой дороге.
++        best = None
++        for length, f, h, first, paths in _service_states(
++                view.memory, view.position, view.fuel, view.health, stops):
++            for point in candidates:
++                if point not in paths or point == view.position:
++                    continue
++                d, move = paths[point]
++                after = _arrive(".", d, f, h)
++                if after is None:
++                    continue
++                for station, kind in stops:
++                    ret = _paths(view.memory, station).get(point)
++                    if ret is None or not ret[0]:
++                        continue
++                    stocks = _arrive(kind, ret[0], *after)
++                    if stocks is None:
++                        continue
++                    # Близкое новое окно важнее близости к финишу при застое.
++                    score = (length + d, -min(stocks), separation(point, goal), point)
++                    if best is None or score < best[0]:
++                        best = score, first or move
++        return ("Выход из застоя с возвратом к сервису", best[1]) if best else None
++
++    def _fallback_move(self, view, goal, stops):
++        previous = self._fallback.last_lengths.copy()
++        was_returning = self._fallback.returning
++        service = service_order(view, self._fallback.mode, self.RESERVE)
++        move = super()._fallback_move(view, goal, stops)
++        if service is not None and not was_returning:
++            old = previous.get(service.mode) if view.moved else None
++            if (service.stock - service.distance <= self.CHECK_MARGIN
++                    and (old is None or old >= service.distance)):
++                move = _prioritize_direction(view, service, old, move)
++        margins = (stock - distance for stock, distance in
++                   ((view.fuel, view.fuel_distance), (view.health, view.repair_distance))
++                   if distance is not None)
++        if min(margins, default=100) > self.CHECK_MARGIN:
++            return move
++        grid = _optimistic(view.memory)
++        targets = (*stops, (goal, "B"))
++        options = []
++        for choice in Move:
++            q = destination(view.memory, view.position, choice)
++            if q is None:
++                continue
++            kind = "B" if q == goal else cell(view.memory, *q)
++            after = _arrive(kind, 1, view.fuel, view.health)
++            if after is None:
++                continue
++            floors = _service_floors(view, previous, q)
++            if not _relaxed_route(grid, q, goal, *after, targets, floors):
++                continue
++            if choice == move:
++                return move
++            # Из оставшихся ходов предпочтём подтверждённое пополнение;
++            # иначе — наибольший остаток у наиболее стеснённого ресурса.
++            slack = min(stock - floors.get(kind, 0)
++                        for kind, stock in zip("FR", after))
++            options.append(((q == goal, kind in "FR", slack), choice))
++        if not options:
++            return move
++        self._fallback.returning = False
++        self.activity = "Обход несовместимого порядка обслуживания"
++        return max(options, key=lambda row: row[0])[1]
+diff --git a/scripts/compare_frontier_reserve.py b/scripts/compare_frontier_reserve.py
+new file mode 100644
+index 0000000..3b2da54
+--- /dev/null
++++ b/scripts/compare_frontier_reserve.py
+@@ -0,0 +1,64 @@
++"""Парное сравнение замороженных frontier и frontier-reserve."""
++import argparse
++from collections import Counter
++import csv
++from hashlib import sha256
++import json
++from pathlib import Path
++
++from maze.datasets import development_sets, geometry
++from maze.frontier_automaton import FrontierAutomaton
++from maze.frontier_reserve import ReserveFrontier
++from scripts.audit_automaton import Reachability, independent_cases
++from scripts.evaluate_frontier import HOLDOUT_SEED, groups, measure
++
++SEED = 68319041
++ROOT = Path(__file__).resolve().parents[1]
++
++
++def fresh():
++    train, val = development_sets()
++    used = set()
++    for seed in (25112026, 25112027, HOLDOUT_SEED):
++        used.update(geometry(c.level.grid) for c in independent_cases(train, val, seed, used))
++    return independent_cases(train, val, SEED, used)
++
++
++def main():
++    p = argparse.ArgumentParser(description=__doc__)
++    p.add_argument("output", type=Path, help="новая папка")
++    p.add_argument("--split", choices=("fresh", "train", "val", "archive", "confirm", "holdout"),
++                   default="fresh")
++    args = p.parse_args()
++    args.output.mkdir(parents=True)
++    cases = fresh() if args.split == "fresh" else next(groups({args.split}))[1]
++    agents = {"frontier": FrontierAutomaton, "frontier-reserve": ReserveFrontier}
++    metadata = {
++        "seed": SEED if args.split == "fresh" else None,
++        "split": args.split,
++        "source_sha256": {name: sha256((ROOT / name).read_bytes()).hexdigest()
++                          for name in ("maze/frontier_automaton.py", "maze/frontier_reserve.py")},
++        "geometries": {c.name: geometry(c.level.grid) for c in cases},
++        "failures": [],
++    }
++    summary = {name: Counter() for name in agents}
++    with (args.output / "episodes.csv").open("x", encoding="utf-8", newline="") as f:
++        writer = None
++        for case in cases:
++            oracle = Reachability(case.level)
++            for name, factory in agents.items():
++                row, failure = measure(case, name, factory, oracle)
++                if writer is None:
++                    writer = csv.DictWriter(f, fieldnames=list(row))
++                    writer.writeheader()
++                writer.writerow(row)
++                summary[name][row["status"]] += 1
++                if failure:
++                    metadata["failures"].append(dict(case=case.name, agent=name, **failure))
++    (args.output / "diagnosis.json").write_text(
++        json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
++    print(args.split, {name: dict(counts) for name, counts in summary.items()})
++
++
++if __name__ == "__main__":
++    main()
+diff --git a/tests/test_frontier_reserve.py b/tests/test_frontier_reserve.py
+new file mode 100644
+index 0000000..e4060d0
+--- /dev/null
++++ b/tests/test_frontier_reserve.py
+@@ -0,0 +1,69 @@
++from dataclasses import replace
++import unittest
++
++from maze.environment import Environment, Status
++from maze.frontier_reserve import ReserveFrontier, _optimistic, _service_floors, _relaxed_route
++from maze.grid import destination, locations
++from maze.interface import Move
++from maze.levels import Level
++from maze.pilot_automaton import Mode
++from maze.runner import run
++from scripts.audit_automaton import Reachability
++
++
++class FrontierReserveTests(unittest.TestCase):
++    def test_reaching_either_service_is_not_a_feasible_service_chain(self):
++        grid = ("#########", "#F.A.R.B#", "#########")
++        stops = (((1, 1), "F"), ((5, 1), "R"), ((7, 1), "B"))
++        self.assertFalse(_relaxed_route(grid, (3, 1), (7, 1), 3, 3, stops, {}))
++        self.assertTrue(_relaxed_route(grid, (3, 1), (7, 1), 3, 7, stops, {}))
++
++    def test_relaxation_includes_successful_physically_legal_moves(self):
++        levels = (
++            "Развилка\n5 7\n#########\n#F.A.R.B#\n#...#...#\n#########",
++            "Развилка\n7 5\n#########\n#B.R.A.F#\n#...#...#\n#########",
++        )
++        for source in levels:
++            level = Level.parse(source)
++            for first in (None, Move.WEST, Move.EAST, Move.SOUTH):
++                env = Environment(level)
++                previous = {}
++                if first is not None and destination(level.grid, level.start, first):
++                    previous = {Mode.FUEL: env.view.fuel_distance, Mode.REPAIR: env.view.repair_distance}
++                    env.step(first)
++                view = env.view
++                oracle = Reachability(level)
++                targets = [(p, kind) for kind in "FRB" for p in locations(level.grid, kind)]
++                for move in Move:
++                    q = destination(view.memory, view.position, move)
++                    if q is None:
++                        continue
++                    stocks = oracle.after(q, view.fuel, view.health)
++                    if oracle.possible(q, *stocks, env.limit - env.steps - 1):
++                        with self.subTest(source=source, first=first, move=move):
++                            self.assertTrue(_relaxed_route(
++                                _optimistic(view.memory), q, level.goal, *stocks, targets,
++                                _service_floors(view, previous, q)))
++
++    def test_stall_probe_requires_an_observed_escape(self):
++        # В модели открыты середина коридора и ближний сервис, но не
++        # подход ко второму. Граница справа даёт новое наблюдение.
++        level = Level.parse("Коридор\n12 12\n###########\n#F.A...R.B#\n###########")
++        view = replace(Environment(level).view,
++                       memory=("###########", "#F.A..?R.B#", "###########"))
++        bot = ReserveFrontier()
++        stops = (((1, 1), "F"), ((7, 1), "R"))
++        bot._service_streak = 3
++        self.assertIsNone(bot._extra_plan(view, level.goal, stops))
++        bot._service_streak = 4
++        self.assertEqual(bot._extra_plan(view, level.goal, stops)[1], Move.EAST)
++        self.assertIsNone(bot._extra_plan(replace(view, health=3), level.goal, stops))
++
++    def test_same_observation_does_not_reveal_hidden_geometry(self):
++        a = Environment(Level.parse("Коридор\n9 9\n######\n#A..B#\n######"))
++        b = Environment(Level.parse("Тупик\n9 9\n######\n#A.#B#\n######"))
++        self.assertEqual(a.view, b.view)
++        player = ReserveFrontier()
++        first = player.choose(a.view)
++        self.assertEqual(run(a, player), Status.SUCCESS)
++        self.assertEqual(player.choose(b.view), first)

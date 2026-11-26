@@ -1,0 +1,11 @@
+Разработка frontier-auto для AutonomousRobotConsciousness.
+Исходный коммит: df9ba049d7a53a41990127a857d4b57efcb4ff5c. Python 3.12+.
+
+Если уже применён прежний патч frontier-reserve, используйте update-from-reserve.patch.
+Если применяете на исходном коммите, используйте full.patch.
+Перед установкой проверьте: git apply --check ПАТЧ
+Установка: git apply ПАТЧ
+
+Журнал всех итераций: frontier-iteration-log.md.
+Проверка: python -m unittest discover -s tests -v
+Запуск: python -m maze --controller frontier-auto --split train

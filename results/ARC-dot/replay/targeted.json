@@ -1,0 +1,477 @@
+{
+  "sarsa_val": [
+    {
+      "case": "val-2-07",
+      "step": 4,
+      "margins": [
+        0,
+        77
+      ],
+      "chosen": "SOUTH",
+      "chosen_q": 7.305890131304438,
+      "best_viable_q": 4.546142559914521
+    },
+    {
+      "case": "val-3-05",
+      "step": 82,
+      "margins": [
+        0,
+        81
+      ],
+      "chosen": "NORTH",
+      "chosen_q": 7.305890131304438,
+      "best_viable_q": 3.2790721376420207
+    },
+    {
+      "case": "val-3-07",
+      "step": 13,
+      "margins": [
+        90,
+        0
+      ],
+      "chosen": "NORTH",
+      "chosen_q": 4.546142559914521,
+      "best_viable_q": 2.1317166319115515
+    },
+    {
+      "case": "val-3-12",
+      "step": 18,
+      "margins": [
+        0,
+        88
+      ],
+      "chosen": "NORTH",
+      "chosen_q": 4.546142559914521,
+      "best_viable_q": 2.1317166319115515
+    }
+  ],
+  "resources_archive": {
+    "08-galleries": {
+      "0": {
+        "outcome": "BROKEN",
+        "steps": 124,
+        "cycle": null,
+        "first_fuel": {
+          "step": 100,
+          "health": 24,
+          "repair_distance": 32
+        }
+      },
+      "2": {
+        "outcome": "BROKEN",
+        "steps": 124,
+        "cycle": null,
+        "first_fuel": {
+          "step": 100,
+          "health": 24,
+          "repair_distance": 32
+        }
+      },
+      "3": {
+        "outcome": "BROKEN",
+        "steps": 124,
+        "cycle": null,
+        "first_fuel": {
+          "step": 100,
+          "health": 24,
+          "repair_distance": 32
+        }
+      }
+    },
+    "09-switchbacks": {
+      "0": {
+        "outcome": "LIMIT",
+        "steps": 5016,
+        "cycle": {
+          "start": 54,
+          "period": 68
+        },
+        "first_fuel": {
+          "step": 20,
+          "health": 55,
+          "repair_distance": 34
+        }
+      },
+      "2": {
+        "outcome": "LIMIT",
+        "steps": 5016,
+        "cycle": {
+          "start": 54,
+          "period": 68
+        },
+        "first_fuel": {
+          "step": 20,
+          "health": 55,
+          "repair_distance": 34
+        }
+      },
+      "3": {
+        "outcome": "LIMIT",
+        "steps": 5016,
+        "cycle": {
+          "start": 54,
+          "period": 68
+        },
+        "first_fuel": {
+          "step": 20,
+          "health": 55,
+          "repair_distance": 34
+        }
+      }
+    }
+  },
+  "resources_val_3_10": {
+    "step": 13,
+    "move": "NORTH",
+    "before": [
+      10,
+      10
+    ],
+    "after": [
+      9,
+      11
+    ],
+    "viable": [
+      "SOUTH"
+    ]
+  },
+  "frontier_failures": [
+    {
+      "case": "fresh-3-012",
+      "step": 10,
+      "margins": [
+        0,
+        94
+      ],
+      "after_margins": [
+        -1,
+        92
+      ]
+    },
+    {
+      "case": "fresh-3-013",
+      "step": 13,
+      "margins": [
+        93,
+        0
+      ],
+      "after_margins": [
+        91,
+        -2
+      ]
+    },
+    {
+      "case": "fresh-3-014",
+      "step": 30,
+      "margins": [
+        1,
+        80
+      ],
+      "after_margins": [
+        -1,
+        78
+      ]
+    },
+    {
+      "case": "fresh-3-016",
+      "step": 14,
+      "margins": [
+        1,
+        100
+      ],
+      "after_margins": [
+        -1,
+        98
+      ]
+    },
+    {
+      "case": "fresh-3-035",
+      "step": 5,
+      "margins": [
+        8,
+        13
+      ],
+      "after_margins": [
+        6,
+        13
+      ]
+    },
+    {
+      "case": "fresh-3-036",
+      "step": 15,
+      "margins": [
+        0,
+        92
+      ],
+      "after_margins": [
+        -2,
+        90
+      ]
+    },
+    {
+      "case": "fresh-3-052",
+      "step": 4054,
+      "margins": [
+        26,
+        8
+      ],
+      "after_margins": [
+        26,
+        8
+      ],
+      "cycle": {
+        "start": 1510,
+        "period": 92
+      }
+    },
+    {
+      "case": "fresh-3-056",
+      "step": 29,
+      "margins": [
+        1,
+        91
+      ],
+      "after_margins": [
+        -1,
+        89
+      ]
+    },
+    {
+      "case": "fresh-3-064",
+      "step": 586,
+      "margins": [
+        18,
+        0
+      ],
+      "after_margins": [
+        18,
+        -2
+      ]
+    },
+    {
+      "case": "fresh-3-071",
+      "step": 15,
+      "margins": [
+        90,
+        0
+      ],
+      "after_margins": [
+        88,
+        -2
+      ]
+    },
+    {
+      "case": "fresh-3-072",
+      "step": 15,
+      "margins": [
+        0,
+        84
+      ],
+      "after_margins": [
+        -2,
+        82
+      ]
+    },
+    {
+      "case": "fresh-3-075",
+      "step": 12,
+      "margins": [
+        89,
+        0
+      ],
+      "after_margins": [
+        89,
+        -1
+      ]
+    },
+    {
+      "case": "fresh-3-076",
+      "step": 2052,
+      "margins": [
+        39,
+        0
+      ],
+      "after_margins": [
+        39,
+        -2
+      ],
+      "cycle": null
+    },
+    {
+      "case": "fresh-3-079",
+      "step": 17,
+      "margins": [
+        84,
+        1
+      ],
+      "after_margins": [
+        84,
+        -1
+      ]
+    },
+    {
+      "case": "fresh-3-088",
+      "step": 17,
+      "margins": [
+        0,
+        87
+      ],
+      "after_margins": [
+        -1,
+        87
+      ]
+    },
+    {
+      "case": "fresh-3-098",
+      "step": 52,
+      "margins": [
+        0,
+        32
+      ],
+      "after_margins": [
+        -1,
+        32
+      ]
+    }
+  ],
+  "reserve_failures": [
+    {
+      "case": "fresh-3-011",
+      "step": 17,
+      "activity": "В мастерскую",
+      "margins": [
+        82,
+        1
+      ],
+      "chosen": "SOUTH",
+      "optimistic": [
+        "SOUTH",
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "case": "fresh-3-044",
+      "step": 1519,
+      "activity": "Выход из застоя с возвратом к сервису",
+      "margins": [
+        64,
+        1
+      ],
+      "chosen": "WEST",
+      "optimistic": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "case": "fresh-3-048",
+      "step": 19,
+      "activity": "На заправку",
+      "margins": [
+        0,
+        82
+      ],
+      "chosen": "SE",
+      "optimistic": [
+        "EAST",
+        "SOUTH",
+        "SE"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "case": "fresh-3-062",
+      "step": 18,
+      "activity": "На заправку",
+      "margins": [
+        0,
+        84
+      ],
+      "chosen": "NORTH",
+      "optimistic": [
+        "NORTH",
+        "EAST",
+        "WEST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "case": "fresh-3-078",
+      "step": 16,
+      "activity": "На заправку",
+      "margins": [
+        0,
+        84
+      ],
+      "chosen": "SOUTH",
+      "optimistic": [
+        "NORTH",
+        "SOUTH",
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "case": "fresh-3-085",
+      "step": 12,
+      "activity": "В мастерскую",
+      "margins": [
+        94,
+        0
+      ],
+      "chosen": "WEST",
+      "optimistic": [
+        "EAST",
+        "SOUTH",
+        "WEST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "case": "fresh-3-093",
+      "step": 10,
+      "activity": "В мастерскую",
+      "margins": [
+        92,
+        1
+      ],
+      "chosen": "EAST",
+      "optimistic": [
+        "NORTH",
+        "EAST",
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    }
+  ],
+  "stress_maps": {
+    "checked_optima": 100,
+    "families": {
+      "rooms": 25,
+      "corridors": 25,
+      "loops": 25,
+      "branching": 25
+    },
+    "median_margin": {
+      "H1": 7,
+      "H2": 5,
+      "H3": 3,
+      "H4": 1
+    }
+  }
+}

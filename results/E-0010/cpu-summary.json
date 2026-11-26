@@ -1,0 +1,50 @@
+{
+  "20261125T183539_389818.jsonl": {
+    "samples": 4014,
+    "maximum": 100.0,
+    "maximum_with_worker": 70.1,
+    "over_80_with_worker": 0,
+    "over_80_without_worker": 154,
+    "worst_overlap": {
+      "time": "2026-11-25T18:38:40.679483+00:00",
+      "task": "room-passages",
+      "total": 70.1,
+      "worker_cpu": 1.28,
+      "running_during_sample": true,
+      "running_next": false
+    },
+    "last": "2026-11-25T18:42:57.528168+00:00"
+  },
+  "20261125T184301_750549.jsonl": {
+    "samples": 11120,
+    "maximum": 100.0,
+    "maximum_with_worker": 75.6,
+    "over_80_with_worker": 0,
+    "over_80_without_worker": 558,
+    "worst_overlap": {
+      "time": "2026-11-25T18:43:05.382925+00:00",
+      "task": "scripts/check_docs.py",
+      "total": 75.6,
+      "worker_cpu": 3.39,
+      "running_during_sample": true,
+      "running_next": false
+    },
+    "last": "2026-11-25T19:03:20.619528+00:00"
+  },
+  "20261125T190324_674735.jsonl": {
+    "samples": 21942,
+    "maximum": 100.0,
+    "maximum_with_worker": 100.0,
+    "over_80_with_worker": 2,
+    "over_80_without_worker": 424,
+    "worst_overlap": {
+      "time": "2026-11-25T19:34:29.987496+00:00",
+      "task": "results/E-0010/room_observations.py",
+      "total": 100.0,
+      "worker_cpu": 1.16,
+      "running_during_sample": true,
+      "running_next": false
+    },
+    "last": "2026-11-25T19:43:32.671248+00:00"
+  }
+}
