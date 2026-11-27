@@ -1,0 +1,143 @@
+{
+  "source": "4d7c1c3d4cae7d97cd2378e50aa9ef42f7d6bace21eb2c4d28168a41570ee70d",
+  "scores": {
+    "before": {
+      "weights": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "groups": {
+        "H1": {
+          "count": 25,
+          "outcomes": {
+            "SUCCESS": 18,
+            "EMPTY": 3,
+            "BROKEN": 4
+          },
+          "both": 20,
+          "loss_at_terminal": {
+            "one": 2,
+            "both": 2,
+            "before": 3
+          }
+        },
+        "H2": {
+          "count": 25,
+          "outcomes": {
+            "SUCCESS": 16,
+            "BROKEN": 6,
+            "EMPTY": 3
+          },
+          "both": 16,
+          "loss_at_terminal": {
+            "one": 3,
+            "before": 6
+          }
+        },
+        "H3": {
+          "count": 25,
+          "outcomes": {
+            "BROKEN": 11,
+            "EMPTY": 8,
+            "SUCCESS": 6
+          },
+          "both": 10,
+          "loss_at_terminal": {
+            "one": 8,
+            "before": 7,
+            "both": 4
+          }
+        },
+        "H4": {
+          "count": 25,
+          "outcomes": {
+            "BROKEN": 13,
+            "EMPTY": 9,
+            "SUCCESS": 3
+          },
+          "both": 6,
+          "loss_at_terminal": {
+            "before": 15,
+            "both": 3,
+            "one": 4
+          }
+        }
+      }
+    },
+    "after": {
+      "weights": [
+        1,
+        0,
+        5,
+        14,
+        2,
+        0,
+        0,
+        6
+      ],
+      "groups": {
+        "H1": {
+          "count": 25,
+          "outcomes": {
+            "SUCCESS": 20,
+            "BROKEN": 3,
+            "EMPTY": 2
+          },
+          "both": 22,
+          "loss_at_terminal": {
+            "both": 2,
+            "one": 1,
+            "before": 2
+          }
+        },
+        "H2": {
+          "count": 25,
+          "outcomes": {
+            "BROKEN": 4,
+            "SUCCESS": 18,
+            "EMPTY": 3
+          },
+          "both": 18,
+          "loss_at_terminal": {
+            "before": 5,
+            "one": 2
+          }
+        },
+        "H3": {
+          "count": 25,
+          "outcomes": {
+            "BROKEN": 15,
+            "SUCCESS": 8,
+            "EMPTY": 2
+          },
+          "both": 14,
+          "loss_at_terminal": {
+            "one": 7,
+            "both": 6,
+            "before": 4
+          }
+        },
+        "H4": {
+          "count": 25,
+          "outcomes": {
+            "BROKEN": 13,
+            "EMPTY": 7,
+            "SUCCESS": 5
+          },
+          "both": 9,
+          "loss_at_terminal": {
+            "both": 4,
+            "one": 6,
+            "before": 10
+          }
+        }
+      }
+    }
+  }
+}

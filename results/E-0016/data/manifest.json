@@ -1,0 +1,38 @@
+{
+  "excluded_count": 79186,
+  "excluded_sha256": "e93400932a54a13245e6e72c8d5348452438614633aae8e8e2c0b8dfb6c2f6e3",
+  "generator_sha256": "6d8ecf7c4a06be6c80c488b84c51ccc81f46e55454008769e8bc4b8462352e7a",
+  "seeds": {
+    "train": [
+      9160100,
+      9160101,
+      9160102,
+      9160103,
+      9160104,
+      9160105,
+      9160106,
+      9160107
+    ],
+    "dev": [
+      9160200
+    ],
+    "confirmation": [
+      9160300,
+      9160301
+    ]
+  },
+  "splits": {
+    "train": {
+      "count": 800,
+      "sha256": "524c9b98b433779eb5cf51cbb654fe59c8a15ed78338deae6dd442785e2db0f5"
+    },
+    "dev": {
+      "count": 100,
+      "sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6"
+    },
+    "confirmation": {
+      "count": 200,
+      "sha256": "bf0fc2ea01b1947d43e894d72a62b0d8f4d3a37dfcc694edbf362088caaaf789"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "train_forks": 661,
+  "held_forks": 204,
+  "checkpoints": [
+    {
+      "iteration": 100,
+      "loss": 0.865095853805542,
+      "samples": 204,
+      "gains": 8,
+      "losses": 4,
+      "base": 120,
+      "alternative": 124
+    },
+    {
+      "iteration": 240,
+      "loss": 0.8137224912643433,
+      "samples": 204,
+      "gains": 8,
+      "losses": 2,
+      "base": 120,
+      "alternative": 126
+    },
+    {
+      "iteration": 500,
+      "loss": 0.8975207805633545,
+      "samples": 204,
+      "gains": 13,
+      "losses": 6,
+      "base": 120,
+      "alternative": 127
+    }
+  ],
+  "weights": "c95cf64445cfc8d22e079503e9dc58523b8a2e16085a25b7d9f8ff66f5b6ff59",
+  "protocol": "7899df6f2620a9a833fce961645a887d68c796556720f37f96932ed4a4f23f17"
+}

@@ -1,0 +1,45 @@
+{
+  "map": "handover-train-9165411-H4-10",
+  "tier": "H4",
+  "family": "corridors",
+  "win": true,
+  "gate": 37,
+  "steps": 840,
+  "outcome": "SUCCESS",
+  "reason": "matched",
+  "step": 725,
+  "fork": {
+    "chosen": 1,
+    "viable": [
+      1
+    ],
+    "known_goal": 0,
+    "safe_window": 0,
+    "risk_window": 8,
+    "fuel": 64,
+    "hp": 35,
+    "readings": [
+      36,
+      35
+    ],
+    "prior": [
+      35,
+      34
+    ],
+    "exit_chebyshev": 16,
+    "known_cells": 344,
+    "alternatives": [
+      3
+    ],
+    "late_scores": [
+      -1000000000000.0,
+      19.984118938446045,
+      -1000000000000.0,
+      8.97652217520772,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0
+    ]
+  }
+}

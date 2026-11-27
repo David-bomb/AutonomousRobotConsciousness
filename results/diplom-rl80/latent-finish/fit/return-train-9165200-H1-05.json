@@ -1,0 +1,169 @@
+{
+  "options": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      8.0,
+      0.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      8.0,
+      0.0,
+      6.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      2.0,
+      4.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      12.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      8.0,
+      4.0,
+      6.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      8.0,
+      2.0,
+      8.0,
+      0.0,
+      1.0,
+      2.0,
+      1.0
+    ],
+    [
+      0.0,
+      6.0,
+      3.0,
+      2.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      2.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "head": 0,
+      "gate": true,
+      "steps": 709,
+      "outcome": "EMPTY",
+      "actions_sha256": "18a71ca4d6bfac1fc8e74f2bd86d247004f802caed248c04be40dbdd95ca6750"
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "head": 1,
+      "gate": true,
+      "steps": 709,
+      "outcome": "EMPTY",
+      "actions_sha256": "18a71ca4d6bfac1fc8e74f2bd86d247004f802caed248c04be40dbdd95ca6750"
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "head": 2,
+      "gate": true,
+      "steps": 783,
+      "outcome": "exact_cycle",
+      "actions_sha256": "9f1dff04e4f8b98c3b1c455e1673aa1d0bdaf31a7979694fa459169c57fc9acc"
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "head": 3,
+      "gate": true,
+      "steps": 744,
+      "outcome": "exact_cycle",
+      "actions_sha256": "e672e8d80c2ecac022d79f8a7663cb1aa7046637d94a85b234d2ff7a91fee739"
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "head": 4,
+      "gate": true,
+      "steps": 790,
+      "outcome": "SUCCESS",
+      "actions_sha256": "b58d7739700382b391f835f36d820fdc6e01f9cb4b1e19ad43485e160fc65fd3"
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "head": 5,
+      "gate": true,
+      "steps": 787,
+      "outcome": "exact_cycle",
+      "actions_sha256": "b7dfeb0d9974c72ff8e648a0d50aeb1b12bfd0f46075316d4b327528bfba9935"
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "head": 6,
+      "gate": true,
+      "steps": 791,
+      "outcome": "exact_cycle",
+      "actions_sha256": "004422cec77bf89e84acb807ec599e000ccb1df9a54eba15e4378209f65f1eec"
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "head": 7,
+      "gate": true,
+      "steps": 787,
+      "outcome": "exact_cycle",
+      "actions_sha256": "640758bbbac7ac6d487cc3cba3ba07c29b92d037e59b8f94872d41b1dea4ea92"
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "head": 8,
+      "gate": true,
+      "steps": 764,
+      "outcome": "SUCCESS",
+      "actions_sha256": "e900e49755e2b45d5291235764cf583e7d5d652caf69002a6b34cb2394e2a9c7"
+    }
+  ],
+  "protocol_sha256": "c891eb89ae2abe1fbacfe4df8847a15ad5bf7f2ff1bebbe8ece15f62dc95c978"
+}

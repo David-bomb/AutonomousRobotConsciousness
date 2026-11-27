@@ -1,0 +1,153 @@
+{
+  "options": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.03,
+      4.55,
+      -0.08,
+      3.87,
+      0.67,
+      1.71,
+      3.5,
+      3.87,
+      0.75,
+      1.0
+    ],
+    [
+      2.21,
+      1.04,
+      -1.76,
+      -0.06,
+      11.91,
+      0.58,
+      3.25,
+      4.88,
+      11.96,
+      2.49
+    ],
+    [
+      1.21,
+      -0.29,
+      0.92,
+      -0.08,
+      5.06,
+      1.89,
+      2.89,
+      8.4,
+      14.32,
+      0.24
+    ],
+    [
+      2.13,
+      0.94,
+      4.07,
+      0.81,
+      0.25,
+      1.72,
+      0.44,
+      0.23,
+      4.23,
+      2.46
+    ],
+    [
+      1.395,
+      1.56,
+      0.7875000000000001,
+      1.135,
+      4.4725,
+      1.4749999999999999,
+      2.52,
+      4.345,
+      7.815,
+      1.5475
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "handover-train-9165411-H3-17",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "EMPTY",
+      "gate": false,
+      "prefix": 28,
+      "prefix_sha256": "7661629bd0b655b01f6ba00e224024281d8a779b4abb757774569882c97d72bc",
+      "late_steps": 0,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "handover-train-9165411-H3-17",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "BROKEN",
+      "gate": false,
+      "prefix": 45,
+      "prefix_sha256": "19738a6540157960da52b63a2e48bcaaef681ac9333484ef6fb376ce2ac207bd",
+      "late_steps": 0,
+      "refuels": 3,
+      "repairs": 0
+    },
+    {
+      "map": "handover-train-9165411-H3-17",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "EMPTY",
+      "gate": false,
+      "prefix": 28,
+      "prefix_sha256": "2b45ab9013838746c7654f0c477f74711207f935d290a932101695c798089eff",
+      "late_steps": 0,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "handover-train-9165411-H3-17",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "EMPTY",
+      "gate": false,
+      "prefix": 28,
+      "prefix_sha256": "d87e36eb6b56cf442f48e4ec2fcd9114289d8e3cf92a562b6a4f954c84a4416f",
+      "late_steps": 0,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "handover-train-9165411-H3-17",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "BROKEN",
+      "gate": false,
+      "prefix": 45,
+      "prefix_sha256": "14a84dbfc4c5aa32fb836301005532544d40c2ad2d519616c1a25fac2f9140af",
+      "late_steps": 0,
+      "refuels": 3,
+      "repairs": 0
+    },
+    {
+      "map": "handover-train-9165411-H3-17",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "EMPTY",
+      "gate": false,
+      "prefix": 28,
+      "prefix_sha256": "d87e36eb6b56cf442f48e4ec2fcd9114289d8e3cf92a562b6a4f954c84a4416f",
+      "late_steps": 0,
+      "refuels": 0,
+      "repairs": 0
+    }
+  ],
+  "distinct_early": 119,
+  "distinct_late": 0,
+  "protocol_sha256": "d45ad787df85ae24cd8ea215804c5d550e6c1a20197e5d868e996118287b8f80"
+}

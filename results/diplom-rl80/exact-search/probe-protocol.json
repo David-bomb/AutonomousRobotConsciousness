@@ -1,0 +1,13 @@
+{
+  "source": {
+    "exact_mission.cpp": "97134deeb68514e0889289a6c1da671077db689247422537ea43cd7c1938f7b8",
+    "exact_mission.dll": "c055758f90804ebbeb073ca90eee78c516ff95bb9c138e15ad9accaedef32bc3",
+    "mission_training_check.dll": "17f439ee0457eec1a3d9f903577498298c2affcc13f923ca6bfb5f78b40666f9",
+    "exact_policy.py": "27a86dabf9b3a930bae460d6f833f6ba8193daf95f42a02f74c9c56f3c62700f",
+    "exact_probe.py": "3e9b9915631597b2d855299cd01b60fccd8c49e6120ae0ae48d6d747f57e1d9e",
+    "origin_trace.py": "29f340675ff88b4063757e4b2fcdecc337c08d29ec20523eea67aa5e906c157c"
+  },
+  "cap": 2048,
+  "stop": 30,
+  "rule": "Before testing predictions, verify a valid latent mission for the actual start on independent train histories, irrespective of whether a first service was previously visited. The full-map train verifier is compiled separately. Compare estimated descents on the same held-back 286 training forks as the earlier morphology probe, including exact joint matches and a sample-count-dependent fallback."
+}

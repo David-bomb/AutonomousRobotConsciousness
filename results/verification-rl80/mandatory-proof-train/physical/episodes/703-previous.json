@@ -1,0 +1,24 @@
+{
+  "split": "sequence/train",
+  "id": "sequence-train-9161107-H1-04",
+  "geometry": "1f1ddaa57928938c3f519b315c8c7585fe704b2be094c4378c41b1b686697186",
+  "scenario_sha256": "be3e44eb0bdbc27dabb96786bc84829e59b02a30cd6a815165640aeeedc96488",
+  "outcome": "SUCCESS",
+  "steps": 64,
+  "refuels": 1,
+  "repairs": 3,
+  "actions_sha256": "6322d09b310a214be5991c19d2e1828cad0a7cd67ca2acaf90dcece5b5a6ef9d",
+  "mode": "previous",
+  "index": 703,
+  "tier": "H1",
+  "family": "branching",
+  "initial": [
+    11,
+    29
+  ],
+  "limit": 5000,
+  "actions": "2111333000000333300003311003300333333002233003311221111000033333",
+  "first_loss": null,
+  "elapsed_seconds": 8.092699199999515,
+  "diagnosis_seconds": 4.130000070290407e-05
+}

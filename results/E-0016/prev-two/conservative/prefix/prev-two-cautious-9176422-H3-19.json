@@ -1,0 +1,2741 @@
+{
+  "name": "prev-two-cautious-9176422-H3-19",
+  "geometry": "596b142ba1bd3c9c301bc058c9756a0aadbf3ebf9fbecf96d5f270d790125825",
+  "tier": "H3",
+  "actions": "13300003337733115746577007366222222112233222255",
+  "corrections": 3,
+  "events": [
+    {
+      "step": 0,
+      "own": 1,
+      "chosen": 1,
+      "legal": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 2,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        null,
+        null
+      ]
+    },
+    {
+      "step": 1,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        35,
+        12
+      ]
+    },
+    {
+      "step": 2,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        36,
+        13
+      ]
+    },
+    {
+      "step": 3,
+      "own": 0,
+      "chosen": 0,
+      "legal": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        35,
+        12
+      ]
+    },
+    {
+      "step": 4,
+      "own": 0,
+      "chosen": 0,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        34,
+        11
+      ]
+    },
+    {
+      "step": 5,
+      "own": 0,
+      "chosen": 0,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        33,
+        10
+      ]
+    },
+    {
+      "step": 6,
+      "own": 0,
+      "chosen": 0,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        32,
+        9
+      ]
+    },
+    {
+      "step": 7,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        31,
+        8
+      ]
+    },
+    {
+      "step": 8,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        30,
+        7
+      ]
+    },
+    {
+      "step": 9,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        29,
+        6
+      ]
+    },
+    {
+      "step": 10,
+      "own": 7,
+      "chosen": 7,
+      "legal": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "previous": [
+        28,
+        5
+      ]
+    },
+    {
+      "step": 11,
+      "own": 7,
+      "chosen": 7,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "previous": [
+        27,
+        4
+      ]
+    },
+    {
+      "step": 12,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        26,
+        3
+      ]
+    },
+    {
+      "step": 13,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        25,
+        2
+      ]
+    },
+    {
+      "step": 19,
+      "own": 6,
+      "chosen": 6,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "urgent": 0,
+      "slack": 2,
+      "signs": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "previous": [
+        25,
+        2
+      ]
+    },
+    {
+      "step": 20,
+      "own": 5,
+      "chosen": 5,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "urgent": 0,
+      "slack": 2,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "viable": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "previous": [
+        26,
+        3
+      ]
+    },
+    {
+      "step": 21,
+      "own": 7,
+      "chosen": 7,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "previous": [
+        25,
+        2
+      ]
+    },
+    {
+      "step": 22,
+      "own": 4,
+      "chosen": 7,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "previous": [
+        26,
+        3
+      ]
+    },
+    {
+      "step": 23,
+      "own": 0,
+      "chosen": 0,
+      "legal": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        25,
+        2
+      ]
+    },
+    {
+      "step": 24,
+      "own": 0,
+      "chosen": 0,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        24,
+        2
+      ]
+    },
+    {
+      "step": 25,
+      "own": 7,
+      "chosen": 7,
+      "legal": [
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "previous": [
+        23,
+        3
+      ]
+    },
+    {
+      "step": 26,
+      "own": 7,
+      "chosen": 3,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "previous": [
+        22,
+        4
+      ]
+    },
+    {
+      "step": 27,
+      "own": 3,
+      "chosen": 6,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "previous": [
+        21,
+        5
+      ]
+    },
+    {
+      "step": 28,
+      "own": 6,
+      "chosen": 6,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "previous": [
+        20,
+        6
+      ]
+    },
+    {
+      "step": 29,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        19,
+        7
+      ]
+    },
+    {
+      "step": 30,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        18,
+        8
+      ]
+    },
+    {
+      "step": 31,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        17,
+        9
+      ]
+    },
+    {
+      "step": 32,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        16,
+        10
+      ]
+    },
+    {
+      "step": 33,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        15,
+        11
+      ]
+    },
+    {
+      "step": 34,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        14,
+        12
+      ]
+    },
+    {
+      "step": 35,
+      "own": 1,
+      "chosen": 1,
+      "legal": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        13,
+        13
+      ]
+    },
+    {
+      "step": 36,
+      "own": 1,
+      "chosen": 1,
+      "legal": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        12,
+        14
+      ]
+    },
+    {
+      "step": 37,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        11,
+        15
+      ]
+    },
+    {
+      "step": 38,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        10,
+        16
+      ]
+    },
+    {
+      "step": 39,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        9,
+        17
+      ]
+    },
+    {
+      "step": 40,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        8,
+        18
+      ]
+    },
+    {
+      "step": 41,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        7,
+        19
+      ]
+    },
+    {
+      "step": 42,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        6,
+        20
+      ]
+    },
+    {
+      "step": 43,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        5,
+        21
+      ]
+    },
+    {
+      "step": 44,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        4,
+        22
+      ]
+    },
+    {
+      "step": 45,
+      "own": 5,
+      "chosen": 5,
+      "legal": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "previous": [
+        3,
+        23
+      ]
+    },
+    {
+      "step": 46,
+      "own": 5,
+      "chosen": 5,
+      "legal": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "previous": [
+        2,
+        24
+      ]
+    }
+  ],
+  "windows": true,
+  "outcome": "RUNNING"
+}

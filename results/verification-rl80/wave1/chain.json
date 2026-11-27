@@ -1,0 +1,17 @@
+{
+  "weights_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "modules": {
+    "frozen_adapter": "frozen/frozen_adapter.py",
+    "adapter": "frozen/adapter.py",
+    "policy": "frozen/policy.py",
+    "critical_policy": "frozen/critical_policy.py",
+    "rich_policy": "frozen/rich_policy.py"
+  },
+  "native_library": "frozen/geometry.dll",
+  "model": "Policy",
+  "identical_cpu_tensors": 12,
+  "parameters": 19321,
+  "train_mode": false,
+  "gradients": false,
+  "torch_threads": 1
+}

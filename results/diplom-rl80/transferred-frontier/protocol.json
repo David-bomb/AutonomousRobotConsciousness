@@ -1,0 +1,14 @@
+{
+  "mode": "unchanged transfer of both nonzero weights selected on whole training episodes",
+  "base_sha256": "2669a75798b386c89da21c0bc16f558a6c57772b6ff736f453d14c060ec11e74",
+  "base_adapter_sha256": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772",
+  "frontier_sha256": "ab3fba782ac8e8d81c41fa545137eef97c7170d30585439ce9a342fc6d644fb1",
+  "coefficients": [
+    12.0,
+    8.0
+  ],
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "adapter_sha256": "d1e953b49517193e4e6ecb33b09da1922f1bad3f3660a70c84cfccb18936f1e0",
+  "learn": "early base fitted on E-0016 train, late weights fitted on sequence train[1300:1500]",
+  "validation": "two actual previous readings, same 100 full episodes and a separate ablation; no new dev-selected coefficients"
+}

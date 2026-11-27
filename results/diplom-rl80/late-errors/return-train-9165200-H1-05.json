@@ -1,0 +1,45 @@
+{
+  "map": "return-train-9165200-H1-05",
+  "tier": "H1",
+  "family": "corridors",
+  "win": false,
+  "gate": 27,
+  "steps": 709,
+  "outcome": "EMPTY",
+  "reason": "first-loss",
+  "step": 659,
+  "fork": {
+    "chosen": 3,
+    "viable": [
+      1
+    ],
+    "known_goal": 0,
+    "safe_window": 0,
+    "risk_window": 8,
+    "fuel": 50,
+    "hp": 62,
+    "readings": [
+      50,
+      11
+    ],
+    "prior": [
+      49,
+      12
+    ],
+    "exit_chebyshev": 11,
+    "known_cells": 312,
+    "alternatives": [
+      3
+    ],
+    "late_scores": [
+      -1000000000000.0,
+      7.992333650588989,
+      -1000000000000.0,
+      23.36473498097712,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0
+    ]
+  }
+}

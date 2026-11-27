@@ -1,0 +1,2411 @@
+{
+  "coefficients": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.0,
+      0.5,
+      0.0,
+      0.5,
+      0.5
+    ],
+    [
+      5.0,
+      2.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    [
+      10.0,
+      3.0,
+      1.0,
+      2.0,
+      0.5
+    ],
+    [
+      6.0,
+      3.0,
+      1.0,
+      3.0,
+      3.0
+    ],
+    [
+      0.5,
+      0.0,
+      0.0,
+      4.0,
+      4.0
+    ],
+    [
+      4.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      12.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "maps": [
+    "sequence-train-9161111-H1-01",
+    "sequence-train-9161111-H1-02",
+    "sequence-train-9161111-H1-03",
+    "sequence-train-9161111-H1-04",
+    "sequence-train-9161111-H1-05",
+    "sequence-train-9161111-H1-06",
+    "sequence-train-9161111-H1-07",
+    "sequence-train-9161111-H1-08",
+    "sequence-train-9161111-H2-01",
+    "sequence-train-9161111-H2-02",
+    "sequence-train-9161111-H2-03",
+    "sequence-train-9161111-H2-04",
+    "sequence-train-9161111-H2-05",
+    "sequence-train-9161111-H2-06",
+    "sequence-train-9161111-H2-07",
+    "sequence-train-9161111-H2-08",
+    "sequence-train-9161111-H3-01",
+    "sequence-train-9161111-H3-02",
+    "sequence-train-9161111-H3-03",
+    "sequence-train-9161111-H3-04",
+    "sequence-train-9161111-H3-05",
+    "sequence-train-9161111-H3-06",
+    "sequence-train-9161111-H3-07",
+    "sequence-train-9161111-H3-08",
+    "sequence-train-9161111-H4-01",
+    "sequence-train-9161111-H4-02",
+    "sequence-train-9161111-H4-03",
+    "sequence-train-9161111-H4-04",
+    "sequence-train-9161111-H4-05",
+    "sequence-train-9161111-H4-06",
+    "sequence-train-9161111-H4-07",
+    "sequence-train-9161111-H4-08"
+  ],
+  "wins": [
+    9,
+    9,
+    10,
+    10,
+    10,
+    13,
+    9,
+    9
+  ],
+  "episodes": [
+    {
+      "map": "sequence-train-9161111-H1-01",
+      "tier": "H1",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-01",
+      "tier": "H1",
+      "model": 1,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-01",
+      "tier": "H1",
+      "model": 2,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-01",
+      "tier": "H1",
+      "model": 3,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-01",
+      "tier": "H1",
+      "model": 4,
+      "outcome": "exact_cycle",
+      "steps": 235,
+      "refuels": 3,
+      "repairs": 5
+    },
+    {
+      "map": "sequence-train-9161111-H1-01",
+      "tier": "H1",
+      "model": 5,
+      "outcome": "exact_cycle",
+      "steps": 239,
+      "refuels": 3,
+      "repairs": 5
+    },
+    {
+      "map": "sequence-train-9161111-H1-01",
+      "tier": "H1",
+      "model": 6,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-01",
+      "tier": "H1",
+      "model": 7,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-02",
+      "tier": "H1",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H1-02",
+      "tier": "H1",
+      "model": 1,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H1-02",
+      "tier": "H1",
+      "model": 2,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H1-02",
+      "tier": "H1",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 89,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-02",
+      "tier": "H1",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 89,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-02",
+      "tier": "H1",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 89,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-02",
+      "tier": "H1",
+      "model": 6,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H1-02",
+      "tier": "H1",
+      "model": 7,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H1-03",
+      "tier": "H1",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 54,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-03",
+      "tier": "H1",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 54,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-03",
+      "tier": "H1",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 52,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-03",
+      "tier": "H1",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 52,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-03",
+      "tier": "H1",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 52,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-03",
+      "tier": "H1",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 52,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-03",
+      "tier": "H1",
+      "model": 6,
+      "outcome": "SUCCESS",
+      "steps": 54,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-03",
+      "tier": "H1",
+      "model": 7,
+      "outcome": "SUCCESS",
+      "steps": 54,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-04",
+      "tier": "H1",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 80,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-04",
+      "tier": "H1",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 80,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-04",
+      "tier": "H1",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 80,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-04",
+      "tier": "H1",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 80,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-04",
+      "tier": "H1",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 80,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-04",
+      "tier": "H1",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 80,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-04",
+      "tier": "H1",
+      "model": 6,
+      "outcome": "SUCCESS",
+      "steps": 80,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-04",
+      "tier": "H1",
+      "model": 7,
+      "outcome": "SUCCESS",
+      "steps": 80,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-05",
+      "tier": "H1",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 54,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-05",
+      "tier": "H1",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 54,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-05",
+      "tier": "H1",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 60,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-05",
+      "tier": "H1",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 56,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-05",
+      "tier": "H1",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 56,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-05",
+      "tier": "H1",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 56,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-05",
+      "tier": "H1",
+      "model": 6,
+      "outcome": "SUCCESS",
+      "steps": 54,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-05",
+      "tier": "H1",
+      "model": 7,
+      "outcome": "SUCCESS",
+      "steps": 54,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-06",
+      "tier": "H1",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 34,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-06",
+      "tier": "H1",
+      "model": 1,
+      "outcome": "exact_cycle",
+      "steps": 61,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-06",
+      "tier": "H1",
+      "model": 2,
+      "outcome": "exact_cycle",
+      "steps": 61,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-06",
+      "tier": "H1",
+      "model": 3,
+      "outcome": "exact_cycle",
+      "steps": 61,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-06",
+      "tier": "H1",
+      "model": 4,
+      "outcome": "exact_cycle",
+      "steps": 61,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-06",
+      "tier": "H1",
+      "model": 5,
+      "outcome": "exact_cycle",
+      "steps": 61,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-06",
+      "tier": "H1",
+      "model": 6,
+      "outcome": "EMPTY",
+      "steps": 34,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-06",
+      "tier": "H1",
+      "model": 7,
+      "outcome": "EMPTY",
+      "steps": 34,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H1-07",
+      "tier": "H1",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 63,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H1-07",
+      "tier": "H1",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 63,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H1-07",
+      "tier": "H1",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 63,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H1-07",
+      "tier": "H1",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 63,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H1-07",
+      "tier": "H1",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 63,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H1-07",
+      "tier": "H1",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 63,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H1-07",
+      "tier": "H1",
+      "model": 6,
+      "outcome": "SUCCESS",
+      "steps": 63,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H1-07",
+      "tier": "H1",
+      "model": 7,
+      "outcome": "SUCCESS",
+      "steps": 63,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H1-08",
+      "tier": "H1",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 64,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-08",
+      "tier": "H1",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 64,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-08",
+      "tier": "H1",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 64,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-08",
+      "tier": "H1",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 64,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-08",
+      "tier": "H1",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 66,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H1-08",
+      "tier": "H1",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 64,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-08",
+      "tier": "H1",
+      "model": 6,
+      "outcome": "SUCCESS",
+      "steps": 64,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H1-08",
+      "tier": "H1",
+      "model": 7,
+      "outcome": "SUCCESS",
+      "steps": 64,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-01",
+      "tier": "H2",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 120,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-01",
+      "tier": "H2",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 120,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-01",
+      "tier": "H2",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 120,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-01",
+      "tier": "H2",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 120,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-01",
+      "tier": "H2",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 120,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-01",
+      "tier": "H2",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 120,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-01",
+      "tier": "H2",
+      "model": 6,
+      "outcome": "SUCCESS",
+      "steps": 120,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-01",
+      "tier": "H2",
+      "model": 7,
+      "outcome": "SUCCESS",
+      "steps": 120,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-02",
+      "tier": "H2",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 10,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-02",
+      "tier": "H2",
+      "model": 1,
+      "outcome": "EMPTY",
+      "steps": 10,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-02",
+      "tier": "H2",
+      "model": 2,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-02",
+      "tier": "H2",
+      "model": 3,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-02",
+      "tier": "H2",
+      "model": 4,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-02",
+      "tier": "H2",
+      "model": 5,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-02",
+      "tier": "H2",
+      "model": 6,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-02",
+      "tier": "H2",
+      "model": 7,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-03",
+      "tier": "H2",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 84,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-03",
+      "tier": "H2",
+      "model": 1,
+      "outcome": "exact_cycle",
+      "steps": 163,
+      "refuels": 4,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-03",
+      "tier": "H2",
+      "model": 2,
+      "outcome": "exact_cycle",
+      "steps": 157,
+      "refuels": 4,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-03",
+      "tier": "H2",
+      "model": 3,
+      "outcome": "exact_cycle",
+      "steps": 157,
+      "refuels": 4,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-03",
+      "tier": "H2",
+      "model": 4,
+      "outcome": "exact_cycle",
+      "steps": 149,
+      "refuels": 4,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-03",
+      "tier": "H2",
+      "model": 5,
+      "outcome": "exact_cycle",
+      "steps": 151,
+      "refuels": 4,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-03",
+      "tier": "H2",
+      "model": 6,
+      "outcome": "exact_cycle",
+      "steps": 163,
+      "refuels": 4,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-03",
+      "tier": "H2",
+      "model": 7,
+      "outcome": "exact_cycle",
+      "steps": 163,
+      "refuels": 4,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-04",
+      "tier": "H2",
+      "model": 0,
+      "outcome": "exact_cycle",
+      "steps": 56,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-04",
+      "tier": "H2",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-04",
+      "tier": "H2",
+      "model": 2,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-04",
+      "tier": "H2",
+      "model": 3,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-04",
+      "tier": "H2",
+      "model": 4,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-04",
+      "tier": "H2",
+      "model": 5,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-04",
+      "tier": "H2",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-04",
+      "tier": "H2",
+      "model": 7,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-05",
+      "tier": "H2",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-05",
+      "tier": "H2",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-05",
+      "tier": "H2",
+      "model": 2,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-05",
+      "tier": "H2",
+      "model": 3,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-05",
+      "tier": "H2",
+      "model": 4,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 3,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-05",
+      "tier": "H2",
+      "model": 5,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-05",
+      "tier": "H2",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-05",
+      "tier": "H2",
+      "model": 7,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H2-06",
+      "tier": "H2",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 104,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-06",
+      "tier": "H2",
+      "model": 1,
+      "outcome": "exact_cycle",
+      "steps": 327,
+      "refuels": 7,
+      "repairs": 4
+    },
+    {
+      "map": "sequence-train-9161111-H2-06",
+      "tier": "H2",
+      "model": 2,
+      "outcome": "exact_cycle",
+      "steps": 269,
+      "refuels": 6,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H2-06",
+      "tier": "H2",
+      "model": 3,
+      "outcome": "exact_cycle",
+      "steps": 265,
+      "refuels": 6,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H2-06",
+      "tier": "H2",
+      "model": 4,
+      "outcome": "exact_cycle",
+      "steps": 347,
+      "refuels": 8,
+      "repairs": 4
+    },
+    {
+      "map": "sequence-train-9161111-H2-06",
+      "tier": "H2",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 192,
+      "refuels": 4,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H2-06",
+      "tier": "H2",
+      "model": 6,
+      "outcome": "exact_cycle",
+      "steps": 276,
+      "refuels": 6,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H2-06",
+      "tier": "H2",
+      "model": 7,
+      "outcome": "exact_cycle",
+      "steps": 276,
+      "refuels": 6,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H2-07",
+      "tier": "H2",
+      "model": 0,
+      "outcome": "exact_cycle",
+      "steps": 137,
+      "refuels": 3,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H2-07",
+      "tier": "H2",
+      "model": 1,
+      "outcome": "exact_cycle",
+      "steps": 137,
+      "refuels": 3,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H2-07",
+      "tier": "H2",
+      "model": 2,
+      "outcome": "exact_cycle",
+      "steps": 137,
+      "refuels": 3,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H2-07",
+      "tier": "H2",
+      "model": 3,
+      "outcome": "exact_cycle",
+      "steps": 137,
+      "refuels": 3,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H2-07",
+      "tier": "H2",
+      "model": 4,
+      "outcome": "exact_cycle",
+      "steps": 137,
+      "refuels": 3,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H2-07",
+      "tier": "H2",
+      "model": 5,
+      "outcome": "exact_cycle",
+      "steps": 137,
+      "refuels": 3,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H2-07",
+      "tier": "H2",
+      "model": 6,
+      "outcome": "exact_cycle",
+      "steps": 137,
+      "refuels": 3,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H2-07",
+      "tier": "H2",
+      "model": 7,
+      "outcome": "exact_cycle",
+      "steps": 137,
+      "refuels": 3,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H2-08",
+      "tier": "H2",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 38,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-08",
+      "tier": "H2",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 229,
+      "refuels": 3,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H2-08",
+      "tier": "H2",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 219,
+      "refuels": 3,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H2-08",
+      "tier": "H2",
+      "model": 3,
+      "outcome": "exact_cycle",
+      "steps": 181,
+      "refuels": 2,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H2-08",
+      "tier": "H2",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 277,
+      "refuels": 4,
+      "repairs": 4
+    },
+    {
+      "map": "sequence-train-9161111-H2-08",
+      "tier": "H2",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 207,
+      "refuels": 2,
+      "repairs": 5
+    },
+    {
+      "map": "sequence-train-9161111-H2-08",
+      "tier": "H2",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 114,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H2-08",
+      "tier": "H2",
+      "model": 7,
+      "outcome": "BROKEN",
+      "steps": 114,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-01",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-01",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-01",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-01",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-01",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-01",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-01",
+      "tier": "H3",
+      "model": 6,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-01",
+      "tier": "H3",
+      "model": 7,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-02",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 44,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-02",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "EMPTY",
+      "steps": 44,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-02",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-02",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 192,
+      "refuels": 3,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H3-02",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "exact_cycle",
+      "steps": 282,
+      "refuels": 5,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H3-02",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 195,
+      "refuels": 3,
+      "repairs": 4
+    },
+    {
+      "map": "sequence-train-9161111-H3-02",
+      "tier": "H3",
+      "model": 6,
+      "outcome": "SUCCESS",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-02",
+      "tier": "H3",
+      "model": 7,
+      "outcome": "SUCCESS",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-03",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "exact_cycle",
+      "steps": 67,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-03",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "exact_cycle",
+      "steps": 67,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-03",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "exact_cycle",
+      "steps": 67,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-03",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "exact_cycle",
+      "steps": 67,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-03",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "exact_cycle",
+      "steps": 67,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-03",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "exact_cycle",
+      "steps": 67,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-03",
+      "tier": "H3",
+      "model": 6,
+      "outcome": "exact_cycle",
+      "steps": 67,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-03",
+      "tier": "H3",
+      "model": 7,
+      "outcome": "exact_cycle",
+      "steps": 67,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-04",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 66,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-04",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 66,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-04",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-04",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-04",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-04",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "BROKEN",
+      "steps": 66,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-04",
+      "tier": "H3",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 66,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-04",
+      "tier": "H3",
+      "model": 7,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-05",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-05",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 58,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-05",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 58,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-05",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 58,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-05",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 58,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-05",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 58,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-05",
+      "tier": "H3",
+      "model": 6,
+      "outcome": "SUCCESS",
+      "steps": 60,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-05",
+      "tier": "H3",
+      "model": 7,
+      "outcome": "SUCCESS",
+      "steps": 60,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-06",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-06",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-06",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-06",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-06",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "steps": 109,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-06",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 102,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-06",
+      "tier": "H3",
+      "model": 6,
+      "outcome": "SUCCESS",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-06",
+      "tier": "H3",
+      "model": 7,
+      "outcome": "SUCCESS",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H3-07",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-07",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-07",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-07",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-07",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-07",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-07",
+      "tier": "H3",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-07",
+      "tier": "H3",
+      "model": 7,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H3-08",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-08",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "EMPTY",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-08",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "exact_cycle",
+      "steps": 192,
+      "refuels": 7,
+      "repairs": 4
+    },
+    {
+      "map": "sequence-train-9161111-H3-08",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "exact_cycle",
+      "steps": 192,
+      "refuels": 7,
+      "repairs": 4
+    },
+    {
+      "map": "sequence-train-9161111-H3-08",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "exact_cycle",
+      "steps": 404,
+      "refuels": 19,
+      "repairs": 7
+    },
+    {
+      "map": "sequence-train-9161111-H3-08",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "exact_cycle",
+      "steps": 404,
+      "refuels": 19,
+      "repairs": 7
+    },
+    {
+      "map": "sequence-train-9161111-H3-08",
+      "tier": "H3",
+      "model": 6,
+      "outcome": "EMPTY",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H3-08",
+      "tier": "H3",
+      "model": 7,
+      "outcome": "exact_cycle",
+      "steps": 282,
+      "refuels": 12,
+      "repairs": 6
+    },
+    {
+      "map": "sequence-train-9161111-H4-01",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-01",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-01",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "exact_cycle",
+      "steps": 156,
+      "refuels": 3,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H4-01",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "exact_cycle",
+      "steps": 150,
+      "refuels": 3,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H4-01",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "exact_cycle",
+      "steps": 199,
+      "refuels": 4,
+      "repairs": 3
+    },
+    {
+      "map": "sequence-train-9161111-H4-01",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "SUCCESS",
+      "steps": 97,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-01",
+      "tier": "H4",
+      "model": 6,
+      "outcome": "exact_cycle",
+      "steps": 156,
+      "refuels": 3,
+      "repairs": 2
+    },
+    {
+      "map": "sequence-train-9161111-H4-01",
+      "tier": "H4",
+      "model": 7,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-02",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-02",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-02",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-02",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-02",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-02",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-02",
+      "tier": "H4",
+      "model": 6,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-02",
+      "tier": "H4",
+      "model": 7,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-03",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 55,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-03",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "EMPTY",
+      "steps": 55,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-03",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-03",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-03",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-03",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-03",
+      "tier": "H4",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-03",
+      "tier": "H4",
+      "model": 7,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-04",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-04",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-04",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-04",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-04",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-04",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-04",
+      "tier": "H4",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-04",
+      "tier": "H4",
+      "model": 7,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-05",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-05",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-05",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-05",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-05",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-05",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-05",
+      "tier": "H4",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-05",
+      "tier": "H4",
+      "model": 7,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-06",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 39,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-06",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 39,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-06",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-06",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-06",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-06",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-06",
+      "tier": "H4",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 39,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-06",
+      "tier": "H4",
+      "model": 7,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-07",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-07",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-07",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-07",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-07",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-07",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "EMPTY",
+      "steps": 43,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-07",
+      "tier": "H4",
+      "model": 6,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-07",
+      "tier": "H4",
+      "model": 7,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-08",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-08",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-08",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-08",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-08",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-08",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "sequence-train-9161111-H4-08",
+      "tier": "H4",
+      "model": 6,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "sequence-train-9161111-H4-08",
+      "tier": "H4",
+      "model": 7,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    }
+  ],
+  "seconds": 74.27
+}

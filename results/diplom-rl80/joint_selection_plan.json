@@ -1,0 +1,13 @@
+{
+  "study": "diplom-rl80",
+  "date_utc": "2026-11-27T14:19Z",
+  "purpose": "Prospective transfer check of frozen early and late policies as a single policy",
+  "early_families_in_order": ["protected-search/fixed", "protected-search/learned", "lookahead-search", "exact-search"],
+  "late_families_in_order": ["joint400", "departure-search"],
+  "source_rule": "Each learned family is represented by the checkpoint its already registered training and selection procedure writes. Include all four early families regardless of development or historical performance. Include both late families. Keep the earlier entry on exact behavioral or weight equivalence.",
+  "seeds": [9167301, 9167302],
+  "episodes_per_seed": 100,
+  "balance": "25 each H1, H2, H3, H4 per seed; disjoint canonical wall fingerprints from prior data and each other",
+  "winner_rule": "Before historical evaluation, maximize the smaller bank's complete physical success count, then the sum on both banks, then H4 total, then early-family order, then late-family order. No single-case results from original controls are accessible to the learner.",
+  "audit": "On training only, identical deterministic suffixes with equal ordinary observation, pair, remaining step budget, late head, and physical geometry may be reused. An exact repeat under an unchanged deterministic policy is a nonfinish. Freeze all eight combinations and both bank hashes before scoring. Replay the winning packaged controller via its normal entry on the full development hundred, with and without prior readings. The independent historical assessor runs the genuine environment step by step under one frozen policy."
+}

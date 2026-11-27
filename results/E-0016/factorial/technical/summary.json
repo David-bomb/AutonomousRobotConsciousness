@@ -1,0 +1,2136 @@
+{
+  "seeds": [
+    39139
+  ],
+  "per_seed": {
+    "39139": {
+      "R0C0": {
+        "n": 240,
+        "finishes": 6,
+        "visited_fuel": 75,
+        "visited_repair": 44,
+        "visited_both": 36,
+        "outcomes": {
+          "BROKEN": 93,
+          "EMPTY": 133,
+          "SUCCESS": 6,
+          "LIMIT": 8
+        },
+        "mean_return_R0": -2.007495946390303,
+        "mean_return_R1": -4.927135059346846
+      },
+      "R1C0": {
+        "n": 240,
+        "finishes": 8,
+        "visited_fuel": 47,
+        "visited_repair": 26,
+        "visited_both": 21,
+        "outcomes": {
+          "EMPTY": 134,
+          "BROKEN": 93,
+          "LIMIT": 5,
+          "SUCCESS": 8
+        },
+        "mean_return_R0": -3.6853160227785136,
+        "mean_return_R1": -5.1297387333710605
+      },
+      "R0C1": {
+        "n": 240,
+        "finishes": 3,
+        "visited_fuel": 71,
+        "visited_repair": 35,
+        "visited_both": 28,
+        "outcomes": {
+          "EMPTY": 134,
+          "BROKEN": 99,
+          "SUCCESS": 3,
+          "LIMIT": 4
+        },
+        "mean_return_R0": -2.414110412669253,
+        "mean_return_R1": -5.031531078920669
+      },
+      "R1C1": {
+        "n": 240,
+        "finishes": 7,
+        "visited_fuel": 51,
+        "visited_repair": 27,
+        "visited_both": 24,
+        "outcomes": {
+          "SUCCESS": 7,
+          "EMPTY": 142,
+          "LIMIT": 4,
+          "BROKEN": 87
+        },
+        "mean_return_R0": -3.9495028079956023,
+        "mean_return_R1": -5.067978188550375
+      }
+    }
+  },
+  "pooled": {
+    "R0C0": {
+      "all": {
+        "n": 240,
+        "finishes": 6,
+        "visited_fuel": 75,
+        "visited_repair": 44,
+        "visited_both": 36,
+        "outcomes": {
+          "BROKEN": 93,
+          "EMPTY": 133,
+          "SUCCESS": 6,
+          "LIMIT": 8
+        },
+        "mean_return_R0": -2.007495946390303,
+        "mean_return_R1": -4.927135059346846
+      },
+      "by_stage": {
+        "1": {
+          "n": 96,
+          "finishes": 6,
+          "visited_fuel": 48,
+          "visited_repair": 28,
+          "visited_both": 24,
+          "outcomes": {
+            "BROKEN": 39,
+            "EMPTY": 45,
+            "SUCCESS": 6,
+            "LIMIT": 6
+          },
+          "mean_return_R0": -2.7733867930184957,
+          "mean_return_R1": -5.011122491705595
+        },
+        "2": {
+          "n": 48,
+          "finishes": 0,
+          "visited_fuel": 8,
+          "visited_repair": 6,
+          "visited_both": 6,
+          "outcomes": {
+            "BROKEN": 18,
+            "EMPTY": 29,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -2.846263167369868,
+          "mean_return_R1": -5.228369060912525
+        },
+        "3": {
+          "n": 96,
+          "finishes": 0,
+          "visited_fuel": 19,
+          "visited_repair": 10,
+          "visited_both": 6,
+          "outcomes": {
+            "BROKEN": 36,
+            "EMPTY": 59,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -0.8222214892723274,
+          "mean_return_R1": -4.692530626205258
+        }
+      },
+      "by_deficit": {
+        "0": {
+          "n": 53,
+          "finishes": 2,
+          "visited_fuel": 21,
+          "visited_repair": 13,
+          "visited_both": 13,
+          "outcomes": {
+            "BROKEN": 22,
+            "SUCCESS": 2,
+            "EMPTY": 26,
+            "LIMIT": 3
+          },
+          "mean_return_R0": -1.2577470335448329,
+          "mean_return_R1": -4.430436656194422
+        },
+        "F": {
+          "n": 52,
+          "finishes": 1,
+          "visited_fuel": 19,
+          "visited_repair": 12,
+          "visited_both": 8,
+          "outcomes": {
+            "EMPTY": 38,
+            "BROKEN": 11,
+            "LIMIT": 2,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -2.2800742481553957,
+          "mean_return_R1": -5.382217493228003
+        },
+        "FR": {
+          "n": 83,
+          "finishes": 2,
+          "visited_fuel": 15,
+          "visited_repair": 9,
+          "visited_both": 8,
+          "outcomes": {
+            "EMPTY": 62,
+            "BROKEN": 18,
+            "SUCCESS": 2,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -2.395415201624355,
+          "mean_return_R1": -4.701559832767683
+        },
+        "R": {
+          "n": 52,
+          "finishes": 1,
+          "visited_fuel": 20,
+          "visited_repair": 10,
+          "visited_both": 7,
+          "outcomes": {
+            "BROKEN": 42,
+            "EMPTY": 7,
+            "LIMIT": 2,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -1.879905994555664,
+          "mean_return_R1": -5.338355686487788
+        }
+      },
+      "by_stage_and_deficit": {
+        "1/0": {
+          "n": 24,
+          "finishes": 2,
+          "visited_fuel": 15,
+          "visited_repair": 9,
+          "visited_both": 9,
+          "outcomes": {
+            "BROKEN": 10,
+            "SUCCESS": 2,
+            "EMPTY": 10,
+            "LIMIT": 2
+          },
+          "mean_return_R0": -2.01242215429266,
+          "mean_return_R1": -4.409819151996529
+        },
+        "1/F": {
+          "n": 24,
+          "finishes": 1,
+          "visited_fuel": 9,
+          "visited_repair": 7,
+          "visited_both": 5,
+          "outcomes": {
+            "EMPTY": 18,
+            "BROKEN": 4,
+            "LIMIT": 1,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -3.764745292598343,
+          "mean_return_R1": -5.5447798669637365
+        },
+        "1/FR": {
+          "n": 24,
+          "finishes": 2,
+          "visited_fuel": 11,
+          "visited_repair": 6,
+          "visited_both": 6,
+          "outcomes": {
+            "EMPTY": 14,
+            "BROKEN": 7,
+            "SUCCESS": 2,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -2.527057798571463,
+          "mean_return_R1": -4.609299865534305
+        },
+        "1/R": {
+          "n": 24,
+          "finishes": 1,
+          "visited_fuel": 13,
+          "visited_repair": 6,
+          "visited_both": 4,
+          "outcomes": {
+            "BROKEN": 18,
+            "EMPTY": 3,
+            "LIMIT": 2,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -2.7893219266115175,
+          "mean_return_R1": -5.48059108232781
+        },
+        "2/0": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 2,
+          "visited_repair": 1,
+          "visited_both": 1,
+          "outcomes": {
+            "BROKEN": 6,
+            "EMPTY": 6
+          },
+          "mean_return_R0": -1.7657012451800227,
+          "mean_return_R1": -4.722631988490286
+        },
+        "2/F": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 3,
+          "visited_repair": 2,
+          "visited_both": 2,
+          "outcomes": {
+            "EMPTY": 10,
+            "BROKEN": 1,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -3.57571987825475,
+          "mean_return_R1": -5.58668796075365
+        },
+        "2/FR": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 2,
+          "visited_repair": 2,
+          "visited_both": 2,
+          "outcomes": {
+            "EMPTY": 12
+          },
+          "mean_return_R0": -2.448455214457974,
+          "mean_return_R1": -5.183870466220863
+        },
+        "2/R": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 1,
+          "visited_repair": 1,
+          "visited_both": 1,
+          "outcomes": {
+            "BROKEN": 11,
+            "EMPTY": 1
+          },
+          "mean_return_R0": -3.595176331586727,
+          "mean_return_R1": -5.420285828185301
+        },
+        "3/0": {
+          "n": 17,
+          "finishes": 0,
+          "visited_fuel": 4,
+          "visited_repair": 3,
+          "visited_both": 3,
+          "outcomes": {
+            "BROKEN": 6,
+            "EMPTY": 10,
+            "LIMIT": 1
+          },
+          "mean_return_R0": 0.16623258042988065,
+          "mean_return_R1": -4.253288192264954
+        },
+        "3/F": {
+          "n": 16,
+          "finishes": 0,
+          "visited_fuel": 7,
+          "visited_repair": 3,
+          "visited_both": 1,
+          "outcomes": {
+            "BROKEN": 6,
+            "EMPTY": 10
+          },
+          "mean_return_R0": 0.9186665410835397,
+          "mean_return_R1": -4.985021081980166
+        },
+        "3/FR": {
+          "n": 47,
+          "finishes": 0,
+          "visited_fuel": 2,
+          "visited_repair": 1,
+          "visited_both": 0,
+          "outcomes": {
+            "EMPTY": 36,
+            "BROKEN": 11
+          },
+          "mean_return_R0": -2.3146513190555456,
+          "mean_return_R1": -4.625528164941362
+        },
+        "3/R": {
+          "n": 16,
+          "finishes": 0,
+          "visited_fuel": 6,
+          "visited_repair": 3,
+          "visited_both": 2,
+          "outcomes": {
+            "BROKEN": 13,
+            "EMPTY": 3
+          },
+          "mean_return_R0": 0.7706706563014132,
+          "mean_return_R1": -5.063554986454622
+        }
+      }
+    },
+    "R1C0": {
+      "all": {
+        "n": 240,
+        "finishes": 8,
+        "visited_fuel": 47,
+        "visited_repair": 26,
+        "visited_both": 21,
+        "outcomes": {
+          "EMPTY": 134,
+          "BROKEN": 93,
+          "LIMIT": 5,
+          "SUCCESS": 8
+        },
+        "mean_return_R0": -3.6853160227785136,
+        "mean_return_R1": -5.1297387333710605
+      },
+      "by_stage": {
+        "1": {
+          "n": 96,
+          "finishes": 6,
+          "visited_fuel": 26,
+          "visited_repair": 18,
+          "visited_both": 17,
+          "outcomes": {
+            "EMPTY": 49,
+            "BROKEN": 36,
+            "LIMIT": 5,
+            "SUCCESS": 6
+          },
+          "mean_return_R0": -4.6615003994818425,
+          "mean_return_R1": -5.355602326207322
+        },
+        "2": {
+          "n": 48,
+          "finishes": 0,
+          "visited_fuel": 6,
+          "visited_repair": 2,
+          "visited_both": 1,
+          "outcomes": {
+            "BROKEN": 17,
+            "EMPTY": 31
+          },
+          "mean_return_R0": -4.277538255067921,
+          "mean_return_R1": -5.518225718275218
+        },
+        "3": {
+          "n": 96,
+          "finishes": 2,
+          "visited_fuel": 15,
+          "visited_repair": 6,
+          "visited_both": 3,
+          "outcomes": {
+            "BROKEN": 40,
+            "EMPTY": 54,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -2.413020529930479,
+          "mean_return_R1": -4.709631648082721
+        }
+      },
+      "by_deficit": {
+        "0": {
+          "n": 53,
+          "finishes": 2,
+          "visited_fuel": 10,
+          "visited_repair": 5,
+          "visited_both": 4,
+          "outcomes": {
+            "EMPTY": 26,
+            "BROKEN": 24,
+            "LIMIT": 1,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -2.7329589702513526,
+          "mean_return_R1": -4.602985593274679
+        },
+        "F": {
+          "n": 52,
+          "finishes": 4,
+          "visited_fuel": 12,
+          "visited_repair": 7,
+          "visited_both": 6,
+          "outcomes": {
+            "EMPTY": 41,
+            "LIMIT": 2,
+            "SUCCESS": 4,
+            "BROKEN": 5
+          },
+          "mean_return_R0": -4.125949859955709,
+          "mean_return_R1": -5.4994593587286555
+        },
+        "FR": {
+          "n": 83,
+          "finishes": 1,
+          "visited_fuel": 13,
+          "visited_repair": 6,
+          "visited_both": 5,
+          "outcomes": {
+            "LIMIT": 1,
+            "EMPTY": 62,
+            "BROKEN": 19,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -4.045194039889887,
+          "mean_return_R1": -5.003707133368545
+        },
+        "R": {
+          "n": 52,
+          "finishes": 1,
+          "visited_fuel": 12,
+          "visited_repair": 8,
+          "visited_both": 6,
+          "outcomes": {
+            "BROKEN": 45,
+            "EMPTY": 5,
+            "SUCCESS": 1,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -3.6409331156723823,
+          "mean_return_R1": -5.49806693926956
+        }
+      },
+      "by_stage_and_deficit": {
+        "1/0": {
+          "n": 24,
+          "finishes": 2,
+          "visited_fuel": 4,
+          "visited_repair": 4,
+          "visited_both": 3,
+          "outcomes": {
+            "EMPTY": 12,
+            "BROKEN": 9,
+            "LIMIT": 1,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -3.4018900718864877,
+          "mean_return_R1": -4.625797158175644
+        },
+        "1/F": {
+          "n": 24,
+          "finishes": 3,
+          "visited_fuel": 7,
+          "visited_repair": 6,
+          "visited_both": 6,
+          "outcomes": {
+            "EMPTY": 18,
+            "LIMIT": 2,
+            "SUCCESS": 3,
+            "BROKEN": 1
+          },
+          "mean_return_R0": -4.110359585369679,
+          "mean_return_R1": -5.32294709562972
+        },
+        "1/FR": {
+          "n": 24,
+          "finishes": 0,
+          "visited_fuel": 7,
+          "visited_repair": 3,
+          "visited_both": 3,
+          "outcomes": {
+            "LIMIT": 1,
+            "EMPTY": 17,
+            "BROKEN": 6
+          },
+          "mean_return_R0": -6.250378804410508,
+          "mean_return_R1": -5.785329110757217
+        },
+        "1/R": {
+          "n": 24,
+          "finishes": 1,
+          "visited_fuel": 8,
+          "visited_repair": 5,
+          "visited_both": 5,
+          "outcomes": {
+            "BROKEN": 20,
+            "EMPTY": 2,
+            "SUCCESS": 1,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -4.883373136260698,
+          "mean_return_R1": -5.688335940266707
+        },
+        "2/0": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 3,
+          "visited_repair": 0,
+          "visited_both": 0,
+          "outcomes": {
+            "BROKEN": 6,
+            "EMPTY": 6
+          },
+          "mean_return_R0": -2.700299925250006,
+          "mean_return_R1": -4.8797886651997935
+        },
+        "2/F": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 1,
+          "visited_repair": 0,
+          "visited_both": 0,
+          "outcomes": {
+            "EMPTY": 11,
+            "BROKEN": 1
+          },
+          "mean_return_R0": -5.576395034648807,
+          "mean_return_R1": -6.104666083940399
+        },
+        "2/FR": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 0,
+          "visited_repair": 0,
+          "visited_both": 0,
+          "outcomes": {
+            "EMPTY": 12
+          },
+          "mean_return_R0": -5.093588568426344,
+          "mean_return_R1": -5.721137355142844
+        },
+        "2/R": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 2,
+          "visited_repair": 2,
+          "visited_both": 1,
+          "outcomes": {
+            "BROKEN": 10,
+            "EMPTY": 2
+          },
+          "mean_return_R0": -3.739869491946529,
+          "mean_return_R1": -5.367310768817838
+        },
+        "3/0": {
+          "n": 17,
+          "finishes": 0,
+          "visited_fuel": 3,
+          "visited_repair": 1,
+          "visited_both": 1,
+          "outcomes": {
+            "BROKEN": 9,
+            "EMPTY": 8
+          },
+          "mean_return_R0": -1.811639093826232,
+          "mean_return_R1": -4.375390627349706
+        },
+        "3/F": {
+          "n": 16,
+          "finishes": 1,
+          "visited_fuel": 4,
+          "visited_repair": 1,
+          "visited_both": 0,
+          "outcomes": {
+            "EMPTY": 12,
+            "BROKEN": 3,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -3.0615013908149287,
+          "mean_return_R1": -5.310322709468251
+        },
+        "3/FR": {
+          "n": 47,
+          "finishes": 1,
+          "visited_fuel": 6,
+          "visited_repair": 3,
+          "visited_both": 2,
+          "outcomes": {
+            "EMPTY": 33,
+            "BROKEN": 13,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -2.651467046465796,
+          "mean_return_R1": -4.4214073436106816
+        },
+        "3/R": {
+          "n": 16,
+          "finishes": 0,
+          "visited_fuel": 2,
+          "visited_repair": 1,
+          "visited_both": 0,
+          "outcomes": {
+            "BROKEN": 15,
+            "EMPTY": 1
+          },
+          "mean_return_R0": -1.7030708025842987,
+          "mean_return_R1": -5.310730565612634
+        }
+      }
+    },
+    "R0C1": {
+      "all": {
+        "n": 240,
+        "finishes": 3,
+        "visited_fuel": 71,
+        "visited_repair": 35,
+        "visited_both": 28,
+        "outcomes": {
+          "EMPTY": 134,
+          "BROKEN": 99,
+          "SUCCESS": 3,
+          "LIMIT": 4
+        },
+        "mean_return_R0": -2.414110412669253,
+        "mean_return_R1": -5.031531078920669
+      },
+      "by_stage": {
+        "1": {
+          "n": 96,
+          "finishes": 2,
+          "visited_fuel": 46,
+          "visited_repair": 24,
+          "visited_both": 21,
+          "outcomes": {
+            "EMPTY": 52,
+            "BROKEN": 39,
+            "SUCCESS": 2,
+            "LIMIT": 3
+          },
+          "mean_return_R0": -3.1586007754184924,
+          "mean_return_R1": -5.291239432982504
+        },
+        "2": {
+          "n": 48,
+          "finishes": 1,
+          "visited_fuel": 12,
+          "visited_repair": 5,
+          "visited_both": 3,
+          "outcomes": {
+            "BROKEN": 20,
+            "EMPTY": 26,
+            "LIMIT": 1,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -2.298706561071334,
+          "mean_return_R1": -5.089082872621586
+        },
+        "3": {
+          "n": 96,
+          "finishes": 0,
+          "visited_fuel": 13,
+          "visited_repair": 6,
+          "visited_both": 4,
+          "outcomes": {
+            "BROKEN": 40,
+            "EMPTY": 56
+          },
+          "mean_return_R0": -1.727321975718974,
+          "mean_return_R1": -4.743046828008378
+        }
+      },
+      "by_deficit": {
+        "0": {
+          "n": 53,
+          "finishes": 2,
+          "visited_fuel": 14,
+          "visited_repair": 9,
+          "visited_both": 7,
+          "outcomes": {
+            "EMPTY": 29,
+            "BROKEN": 21,
+            "SUCCESS": 2,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -1.7387618105611724,
+          "mean_return_R1": -4.551566470142093
+        },
+        "F": {
+          "n": 52,
+          "finishes": 0,
+          "visited_fuel": 20,
+          "visited_repair": 8,
+          "visited_both": 6,
+          "outcomes": {
+            "EMPTY": 35,
+            "BROKEN": 14,
+            "LIMIT": 3
+          },
+          "mean_return_R0": -2.8516024604819394,
+          "mean_return_R1": -5.429266011918347
+        },
+        "FR": {
+          "n": 83,
+          "finishes": 0,
+          "visited_fuel": 15,
+          "visited_repair": 10,
+          "visited_both": 8,
+          "outcomes": {
+            "EMPTY": 63,
+            "BROKEN": 20
+          },
+          "mean_return_R0": -2.5519740128095365,
+          "mean_return_R1": -4.8764316085887005
+        },
+        "R": {
+          "n": 52,
+          "finishes": 1,
+          "visited_fuel": 22,
+          "visited_repair": 8,
+          "visited_both": 7,
+          "outcomes": {
+            "BROKEN": 44,
+            "EMPTY": 7,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -2.444902924473582,
+          "mean_return_R1": -5.370553459438724
+        }
+      },
+      "by_stage_and_deficit": {
+        "1/0": {
+          "n": 24,
+          "finishes": 1,
+          "visited_fuel": 11,
+          "visited_repair": 6,
+          "visited_both": 5,
+          "outcomes": {
+            "EMPTY": 13,
+            "BROKEN": 9,
+            "SUCCESS": 1,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -2.7100662361207117,
+          "mean_return_R1": -4.839022382488465
+        },
+        "1/F": {
+          "n": 24,
+          "finishes": 0,
+          "visited_fuel": 10,
+          "visited_repair": 5,
+          "visited_both": 4,
+          "outcomes": {
+            "EMPTY": 16,
+            "BROKEN": 6,
+            "LIMIT": 2
+          },
+          "mean_return_R0": -3.703509482268044,
+          "mean_return_R1": -5.6019439241977125
+        },
+        "1/FR": {
+          "n": 24,
+          "finishes": 0,
+          "visited_fuel": 9,
+          "visited_repair": 8,
+          "visited_both": 7,
+          "outcomes": {
+            "EMPTY": 19,
+            "BROKEN": 5
+          },
+          "mean_return_R0": -3.2620958766507724,
+          "mean_return_R1": -5.2595291273334075
+        },
+        "1/R": {
+          "n": 24,
+          "finishes": 1,
+          "visited_fuel": 16,
+          "visited_repair": 5,
+          "visited_both": 5,
+          "outcomes": {
+            "BROKEN": 19,
+            "EMPTY": 4,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -2.958731506634443,
+          "mean_return_R1": -5.4644622979104325
+        },
+        "2/0": {
+          "n": 12,
+          "finishes": 1,
+          "visited_fuel": 1,
+          "visited_repair": 1,
+          "visited_both": 0,
+          "outcomes": {
+            "BROKEN": 4,
+            "EMPTY": 7,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -1.1480743261197794,
+          "mean_return_R1": -4.314261782588652
+        },
+        "2/F": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 5,
+          "visited_repair": 2,
+          "visited_both": 2,
+          "outcomes": {
+            "EMPTY": 8,
+            "BROKEN": 3,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -2.4851685317473415,
+          "mean_return_R1": -5.248993065227353
+        },
+        "2/FR": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 3,
+          "visited_repair": 0,
+          "visited_both": 0,
+          "outcomes": {
+            "EMPTY": 9,
+            "BROKEN": 3
+          },
+          "mean_return_R0": -1.9450670072144822,
+          "mean_return_R1": -5.511061530004031
+        },
+        "2/R": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 3,
+          "visited_repair": 2,
+          "visited_both": 1,
+          "outcomes": {
+            "BROKEN": 10,
+            "EMPTY": 2
+          },
+          "mean_return_R0": -3.6165163792037323,
+          "mean_return_R1": -5.28201511266631
+        },
+        "3/0": {
+          "n": 17,
+          "finishes": 0,
+          "visited_fuel": 2,
+          "visited_repair": 2,
+          "visited_both": 2,
+          "outcomes": {
+            "BROKEN": 8,
+            "EMPTY": 9
+          },
+          "mean_return_R0": -0.784464375259276,
+          "mean_return_R1": -4.3132555498084635
+        },
+        "3/F": {
+          "n": 16,
+          "finishes": 0,
+          "visited_fuel": 5,
+          "visited_repair": 1,
+          "visited_both": 0,
+          "outcomes": {
+            "EMPTY": 11,
+            "BROKEN": 5
+          },
+          "mean_return_R0": -1.8485673743537336,
+          "mean_return_R1": -5.305453853517551
+        },
+        "3/FR": {
+          "n": 47,
+          "finishes": 0,
+          "visited_fuel": 3,
+          "visited_repair": 2,
+          "visited_both": 1,
+          "outcomes": {
+            "EMPTY": 35,
+            "BROKEN": 12
+          },
+          "mean_return_R0": -2.3443135731276428,
+          "mean_return_R1": -4.518774172272596
+        },
+        "3/R": {
+          "n": 16,
+          "finishes": 0,
+          "visited_fuel": 3,
+          "visited_repair": 1,
+          "visited_both": 1,
+          "outcomes": {
+            "BROKEN": 15,
+            "EMPTY": 1
+          },
+          "mean_return_R0": -0.7954499601846792,
+          "mean_return_R1": -5.296093961810474
+        }
+      }
+    },
+    "R1C1": {
+      "all": {
+        "n": 240,
+        "finishes": 7,
+        "visited_fuel": 51,
+        "visited_repair": 27,
+        "visited_both": 24,
+        "outcomes": {
+          "SUCCESS": 7,
+          "EMPTY": 142,
+          "LIMIT": 4,
+          "BROKEN": 87
+        },
+        "mean_return_R0": -3.9495028079956023,
+        "mean_return_R1": -5.067978188550375
+      },
+      "by_stage": {
+        "1": {
+          "n": 96,
+          "finishes": 5,
+          "visited_fuel": 32,
+          "visited_repair": 17,
+          "visited_both": 16,
+          "outcomes": {
+            "SUCCESS": 5,
+            "EMPTY": 52,
+            "LIMIT": 3,
+            "BROKEN": 36
+          },
+          "mean_return_R0": -4.00304916052319,
+          "mean_return_R1": -5.254615041810686
+        },
+        "2": {
+          "n": 48,
+          "finishes": 0,
+          "visited_fuel": 7,
+          "visited_repair": 3,
+          "visited_both": 2,
+          "outcomes": {
+            "BROKEN": 17,
+            "EMPTY": 31
+          },
+          "mean_return_R0": -4.437239908371747,
+          "mean_return_R1": -5.486125797563147
+        },
+        "3": {
+          "n": 96,
+          "finishes": 2,
+          "visited_fuel": 12,
+          "visited_repair": 7,
+          "visited_both": 6,
+          "outcomes": {
+            "BROKEN": 34,
+            "EMPTY": 59,
+            "SUCCESS": 2,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -3.652087905279943,
+          "mean_return_R1": -4.672267530783679
+        }
+      },
+      "by_deficit": {
+        "0": {
+          "n": 53,
+          "finishes": 5,
+          "visited_fuel": 11,
+          "visited_repair": 9,
+          "visited_both": 7,
+          "outcomes": {
+            "SUCCESS": 5,
+            "BROKEN": 20,
+            "EMPTY": 28
+          },
+          "mean_return_R0": -2.6713954880804573,
+          "mean_return_R1": -4.08867615349097
+        },
+        "F": {
+          "n": 52,
+          "finishes": 0,
+          "visited_fuel": 10,
+          "visited_repair": 5,
+          "visited_both": 5,
+          "outcomes": {
+            "EMPTY": 47,
+            "BROKEN": 5
+          },
+          "mean_return_R0": -4.81283740536571,
+          "mean_return_R1": -5.883472187253545
+        },
+        "FR": {
+          "n": 83,
+          "finishes": 1,
+          "visited_fuel": 13,
+          "visited_repair": 5,
+          "visited_both": 4,
+          "outcomes": {
+            "EMPTY": 62,
+            "BROKEN": 18,
+            "SUCCESS": 1,
+            "LIMIT": 2
+          },
+          "mean_return_R0": -4.362416612970371,
+          "mean_return_R1": -5.001144540553901
+        },
+        "R": {
+          "n": 52,
+          "finishes": 1,
+          "visited_fuel": 17,
+          "visited_repair": 8,
+          "visited_both": 8,
+          "outcomes": {
+            "LIMIT": 2,
+            "BROKEN": 44,
+            "EMPTY": 5,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -3.729780559521588,
+          "mean_return_R1": -5.357295740652128
+        }
+      },
+      "by_stage_and_deficit": {
+        "1/0": {
+          "n": 24,
+          "finishes": 4,
+          "visited_fuel": 8,
+          "visited_repair": 6,
+          "visited_both": 5,
+          "outcomes": {
+            "SUCCESS": 4,
+            "BROKEN": 9,
+            "EMPTY": 11
+          },
+          "mean_return_R0": -1.7545470286978677,
+          "mean_return_R1": -3.7721298766665754
+        },
+        "1/F": {
+          "n": 24,
+          "finishes": 0,
+          "visited_fuel": 6,
+          "visited_repair": 3,
+          "visited_both": 3,
+          "outcomes": {
+            "EMPTY": 21,
+            "BROKEN": 3
+          },
+          "mean_return_R0": -5.603274881574137,
+          "mean_return_R1": -6.02613658003369
+        },
+        "1/FR": {
+          "n": 24,
+          "finishes": 0,
+          "visited_fuel": 7,
+          "visited_repair": 1,
+          "visited_both": 1,
+          "outcomes": {
+            "EMPTY": 16,
+            "BROKEN": 7,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -4.899380966515081,
+          "mean_return_R1": -5.980867125665846
+        },
+        "1/R": {
+          "n": 24,
+          "finishes": 1,
+          "visited_fuel": 11,
+          "visited_repair": 7,
+          "visited_both": 7,
+          "outcomes": {
+            "LIMIT": 2,
+            "BROKEN": 17,
+            "EMPTY": 4,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -3.7549937653056737,
+          "mean_return_R1": -5.239326584876635
+        },
+        "2/0": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 1,
+          "visited_repair": 1,
+          "visited_both": 0,
+          "outcomes": {
+            "BROKEN": 4,
+            "EMPTY": 8
+          },
+          "mean_return_R0": -3.0410407663052115,
+          "mean_return_R1": -4.896523017842924
+        },
+        "2/F": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 2,
+          "visited_repair": 1,
+          "visited_both": 1,
+          "outcomes": {
+            "EMPTY": 11,
+            "BROKEN": 1
+          },
+          "mean_return_R0": -4.757386389013901,
+          "mean_return_R1": -5.9261987005312555
+        },
+        "2/FR": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 1,
+          "visited_repair": 0,
+          "visited_both": 0,
+          "outcomes": {
+            "EMPTY": 11,
+            "BROKEN": 1
+          },
+          "mean_return_R0": -5.682356477256545,
+          "mean_return_R1": -5.627743814385814
+        },
+        "2/R": {
+          "n": 12,
+          "finishes": 0,
+          "visited_fuel": 3,
+          "visited_repair": 1,
+          "visited_both": 1,
+          "outcomes": {
+            "BROKEN": 11,
+            "EMPTY": 1
+          },
+          "mean_return_R0": -4.268176000911329,
+          "mean_return_R1": -5.494037657492594
+        },
+        "3/0": {
+          "n": 17,
+          "finishes": 1,
+          "visited_fuel": 2,
+          "visited_repair": 2,
+          "visited_both": 2,
+          "outcomes": {
+            "BROKEN": 7,
+            "EMPTY": 9,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -3.7048437049325202,
+          "mean_return_R1": -3.9653201694652047
+        },
+        "3/F": {
+          "n": 16,
+          "finishes": 0,
+          "visited_fuel": 2,
+          "visited_repair": 1,
+          "visited_both": 1,
+          "outcomes": {
+            "EMPTY": 15,
+            "BROKEN": 1
+          },
+          "mean_return_R0": -3.668769453316927,
+          "mean_return_R1": -5.637430713125047
+        },
+        "3/FR": {
+          "n": 47,
+          "finishes": 1,
+          "visited_fuel": 5,
+          "visited_repair": 4,
+          "visited_both": 3,
+          "outcomes": {
+            "EMPTY": 35,
+            "BROKEN": 10,
+            "SUCCESS": 1,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -3.751216126661709,
+          "mean_return_R1": -4.340877873986463
+        },
+        "3/R": {
+          "n": 16,
+          "finishes": 0,
+          "visited_fuel": 3,
+          "visited_repair": 0,
+          "visited_both": 0,
+          "outcomes": {
+            "BROKEN": 16
+          },
+          "mean_return_R0": -3.288164169803154,
+          "mean_return_R1": -5.431693036685015
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "R_at_C0": {
+      "finish": {
+        "mean": 0.008333333333333333,
+        "map_ci95": [
+          -0.016666666666666666,
+          0.03333333333333333
+        ],
+        "by_seed": [
+          0.008333333333333333
+        ]
+      },
+      "fuel_visit": {
+        "mean": -0.11666666666666667,
+        "map_ci95": [
+          -0.2,
+          -0.03333333333333333
+        ],
+        "by_seed": [
+          -0.11666666666666667
+        ]
+      },
+      "repair_visit": {
+        "mean": -0.075,
+        "map_ci95": [
+          -0.14583333333333334,
+          -0.008333333333333333
+        ],
+        "by_seed": [
+          -0.075
+        ]
+      },
+      "both": {
+        "mean": -0.0625,
+        "map_ci95": [
+          -0.12916666666666668,
+          0.0
+        ],
+        "by_seed": [
+          -0.0625
+        ]
+      },
+      "return_R0": {
+        "mean": -1.6778200763882103,
+        "map_ci95": [
+          -2.5883119802916736,
+          -0.7766832753881261
+        ],
+        "by_seed": [
+          -1.6778200763882103
+        ]
+      },
+      "return_R1": {
+        "mean": -0.2026036740242142,
+        "map_ci95": [
+          -0.48048276925656797,
+          0.07144095435457562
+        ],
+        "by_seed": [
+          -0.2026036740242142
+        ]
+      }
+    },
+    "R_at_C1": {
+      "finish": {
+        "mean": 0.016666666666666666,
+        "map_ci95": [
+          0.0,
+          0.0375
+        ],
+        "by_seed": [
+          0.016666666666666666
+        ]
+      },
+      "fuel_visit": {
+        "mean": -0.08333333333333333,
+        "map_ci95": [
+          -0.15416666666666667,
+          -0.0125
+        ],
+        "by_seed": [
+          -0.08333333333333333
+        ]
+      },
+      "repair_visit": {
+        "mean": -0.03333333333333333,
+        "map_ci95": [
+          -0.0875,
+          0.020833333333333332
+        ],
+        "by_seed": [
+          -0.03333333333333333
+        ]
+      },
+      "both": {
+        "mean": -0.016666666666666666,
+        "map_ci95": [
+          -0.06666666666666667,
+          0.03333333333333333
+        ],
+        "by_seed": [
+          -0.016666666666666666
+        ]
+      },
+      "return_R0": {
+        "mean": -1.5353923953263489,
+        "map_ci95": [
+          -2.4223111687930836,
+          -0.6631664220220687
+        ],
+        "by_seed": [
+          -1.5353923953263489
+        ]
+      },
+      "return_R1": {
+        "mean": -0.03644710962970578,
+        "map_ci95": [
+          -0.28723852298602887,
+          0.22109703802546382
+        ],
+        "by_seed": [
+          -0.03644710962970578
+        ]
+      }
+    },
+    "C_at_R0": {
+      "finish": {
+        "mean": -0.0125,
+        "map_ci95": [
+          -0.0375,
+          0.0125
+        ],
+        "by_seed": [
+          -0.0125
+        ]
+      },
+      "fuel_visit": {
+        "mean": -0.016666666666666666,
+        "map_ci95": [
+          -0.07083333333333333,
+          0.0375
+        ],
+        "by_seed": [
+          -0.016666666666666666
+        ]
+      },
+      "repair_visit": {
+        "mean": -0.0375,
+        "map_ci95": [
+          -0.09166666666666666,
+          0.016666666666666666
+        ],
+        "by_seed": [
+          -0.0375
+        ]
+      },
+      "both": {
+        "mean": -0.03333333333333333,
+        "map_ci95": [
+          -0.075,
+          0.008333333333333333
+        ],
+        "by_seed": [
+          -0.03333333333333333
+        ]
+      },
+      "return_R0": {
+        "mean": -0.4066144662789502,
+        "map_ci95": [
+          -1.0278824812154133,
+          0.20767586850987158
+        ],
+        "by_seed": [
+          -0.4066144662789502
+        ]
+      },
+      "return_R1": {
+        "mean": -0.10439601957382354,
+        "map_ci95": [
+          -0.3805310068665179,
+          0.1618663583795766
+        ],
+        "by_seed": [
+          -0.10439601957382354
+        ]
+      }
+    },
+    "C_at_R1": {
+      "finish": {
+        "mean": -0.004166666666666667,
+        "map_ci95": [
+          -0.03333333333333333,
+          0.020833333333333332
+        ],
+        "by_seed": [
+          -0.004166666666666667
+        ]
+      },
+      "fuel_visit": {
+        "mean": 0.016666666666666666,
+        "map_ci95": [
+          -0.04583333333333333,
+          0.07916666666666666
+        ],
+        "by_seed": [
+          0.016666666666666666
+        ]
+      },
+      "repair_visit": {
+        "mean": 0.004166666666666667,
+        "map_ci95": [
+          -0.041666666666666664,
+          0.05
+        ],
+        "by_seed": [
+          0.004166666666666667
+        ]
+      },
+      "both": {
+        "mean": 0.0125,
+        "map_ci95": [
+          -0.029166666666666667,
+          0.058333333333333334
+        ],
+        "by_seed": [
+          0.0125
+        ]
+      },
+      "return_R0": {
+        "mean": -0.2641867852170892,
+        "map_ci95": [
+          -1.0192089483546498,
+          0.4882604679694054
+        ],
+        "by_seed": [
+          -0.2641867852170892
+        ]
+      },
+      "return_R1": {
+        "mean": 0.061760544820684826,
+        "map_ci95": [
+          -0.19756179462596696,
+          0.32192595790877765
+        ],
+        "by_seed": [
+          0.061760544820684826
+        ]
+      }
+    },
+    "interaction": {
+      "finish": {
+        "mean": 0.008333333333333333,
+        "map_ci95": [
+          -0.025,
+          0.041666666666666664
+        ],
+        "by_seed": [
+          0.008333333333333333
+        ]
+      },
+      "fuel_visit": {
+        "mean": 0.03333333333333333,
+        "map_ci95": [
+          -0.041666666666666664,
+          0.10833333333333334
+        ],
+        "by_seed": [
+          0.03333333333333333
+        ]
+      },
+      "repair_visit": {
+        "mean": 0.041666666666666664,
+        "map_ci95": [
+          -0.0375,
+          0.12083333333333333
+        ],
+        "by_seed": [
+          0.041666666666666664
+        ]
+      },
+      "both": {
+        "mean": 0.04583333333333333,
+        "map_ci95": [
+          -0.016666666666666666,
+          0.1125
+        ],
+        "by_seed": [
+          0.04583333333333333
+        ]
+      },
+      "return_R0": {
+        "mean": 0.14242768106186102,
+        "map_ci95": [
+          -0.8398670356746155,
+          1.1360190618189543
+        ],
+        "by_seed": [
+          0.14242768106186102
+        ]
+      },
+      "return_R1": {
+        "mean": 0.16615656439450835,
+        "map_ci95": [
+          -0.18813448000767466,
+          0.531884969022851
+        ],
+        "by_seed": [
+          0.16615656439450835
+        ]
+      }
+    }
+  },
+  "training": {
+    "39139": {
+      "R0C0": [
+        {
+          "stage": 1,
+          "started": 265,
+          "completed": 243,
+          "wins": 12,
+          "by_need": {
+            "0": {
+              "started": 76,
+              "completed": 65,
+              "wins": 8
+            },
+            "R": {
+              "started": 68,
+              "completed": 66,
+              "wins": 1
+            },
+            "FR": {
+              "started": 53,
+              "completed": 50,
+              "wins": 1
+            },
+            "F": {
+              "started": 68,
+              "completed": 62,
+              "wins": 2
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 265,
+              "completed": 243,
+              "wins": 12
+            }
+          },
+          "direct_sum": 4979,
+          "unique_scenarios": 265,
+          "outcomes": {
+            "EMPTY": 126,
+            "BROKEN": 105,
+            "SUCCESS": 12
+          }
+        },
+        {
+          "stage": 2,
+          "started": 184,
+          "completed": 160,
+          "wins": 1,
+          "by_need": {
+            "FR": {
+              "started": 51,
+              "completed": 48,
+              "wins": 0
+            },
+            "0": {
+              "started": 45,
+              "completed": 36,
+              "wins": 1
+            },
+            "R": {
+              "started": 46,
+              "completed": 37,
+              "wins": 0
+            },
+            "F": {
+              "started": 42,
+              "completed": 39,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 184,
+              "completed": 160,
+              "wins": 1
+            }
+          },
+          "direct_sum": 8105,
+          "unique_scenarios": 184,
+          "outcomes": {
+            "EMPTY": 102,
+            "BROKEN": 57,
+            "SUCCESS": 1
+          }
+        },
+        {
+          "stage": 3,
+          "started": 142,
+          "completed": 118,
+          "wins": 0,
+          "by_need": {
+            "FR": {
+              "started": 64,
+              "completed": 54,
+              "wins": 0
+            },
+            "0": {
+              "started": 22,
+              "completed": 16,
+              "wins": 0
+            },
+            "R": {
+              "started": 25,
+              "completed": 23,
+              "wins": 0
+            },
+            "F": {
+              "started": 31,
+              "completed": 25,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 142,
+              "completed": 118,
+              "wins": 0
+            }
+          },
+          "direct_sum": 12916,
+          "unique_scenarios": 142,
+          "outcomes": {
+            "EMPTY": 78,
+            "BROKEN": 40
+          }
+        }
+      ],
+      "R1C0": [
+        {
+          "stage": 1,
+          "started": 256,
+          "completed": 232,
+          "wins": 5,
+          "by_need": {
+            "0": {
+              "started": 72,
+              "completed": 63,
+              "wins": 2
+            },
+            "R": {
+              "started": 66,
+              "completed": 62,
+              "wins": 0
+            },
+            "FR": {
+              "started": 52,
+              "completed": 49,
+              "wins": 1
+            },
+            "F": {
+              "started": 66,
+              "completed": 58,
+              "wins": 2
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 256,
+              "completed": 232,
+              "wins": 5
+            }
+          },
+          "direct_sum": 4856,
+          "unique_scenarios": 256,
+          "outcomes": {
+            "EMPTY": 120,
+            "BROKEN": 107,
+            "SUCCESS": 5
+          }
+        },
+        {
+          "stage": 2,
+          "started": 214,
+          "completed": 190,
+          "wins": 2,
+          "by_need": {
+            "F": {
+              "started": 39,
+              "completed": 34,
+              "wins": 0
+            },
+            "R": {
+              "started": 65,
+              "completed": 60,
+              "wins": 1
+            },
+            "FR": {
+              "started": 58,
+              "completed": 54,
+              "wins": 0
+            },
+            "0": {
+              "started": 52,
+              "completed": 42,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 214,
+              "completed": 190,
+              "wins": 2
+            }
+          },
+          "direct_sum": 8952,
+          "unique_scenarios": 214,
+          "outcomes": {
+            "BROKEN": 90,
+            "EMPTY": 98,
+            "SUCCESS": 2
+          }
+        },
+        {
+          "stage": 3,
+          "started": 137,
+          "completed": 114,
+          "wins": 0,
+          "by_need": {
+            "F": {
+              "started": 23,
+              "completed": 22,
+              "wins": 0
+            },
+            "FR": {
+              "started": 59,
+              "completed": 46,
+              "wins": 0
+            },
+            "R": {
+              "started": 29,
+              "completed": 26,
+              "wins": 0
+            },
+            "0": {
+              "started": 26,
+              "completed": 20,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 137,
+              "completed": 114,
+              "wins": 0
+            }
+          },
+          "direct_sum": 13585,
+          "unique_scenarios": 137,
+          "outcomes": {
+            "EMPTY": 67,
+            "BROKEN": 47
+          }
+        }
+      ],
+      "R0C1": [
+        {
+          "stage": 1,
+          "started": 185,
+          "completed": 161,
+          "wins": 4,
+          "by_need": {
+            "0": {
+              "started": 129,
+              "completed": 105,
+              "wins": 2
+            },
+            "R": {
+              "started": 29,
+              "completed": 29,
+              "wins": 2
+            },
+            "F": {
+              "started": 27,
+              "completed": 27,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 108,
+              "completed": 95,
+              "wins": 4
+            },
+            "2": {
+              "started": 35,
+              "completed": 29,
+              "wins": 0
+            },
+            "3": {
+              "started": 42,
+              "completed": 37,
+              "wins": 0
+            }
+          },
+          "direct_sum": 4491,
+          "unique_scenarios": 185,
+          "outcomes": {
+            "EMPTY": 75,
+            "BROKEN": 82,
+            "SUCCESS": 4
+          }
+        },
+        {
+          "stage": 2,
+          "started": 282,
+          "completed": 259,
+          "wins": 0,
+          "by_need": {
+            "F": {
+              "started": 147,
+              "completed": 138,
+              "wins": 0
+            },
+            "R": {
+              "started": 126,
+              "completed": 112,
+              "wins": 0
+            },
+            "FR": {
+              "started": 9,
+              "completed": 9,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 122,
+              "completed": 112,
+              "wins": 0
+            },
+            "1": {
+              "started": 93,
+              "completed": 86,
+              "wins": 0
+            },
+            "2": {
+              "started": 67,
+              "completed": 61,
+              "wins": 0
+            }
+          },
+          "direct_sum": 10487,
+          "unique_scenarios": 282,
+          "outcomes": {
+            "EMPTY": 145,
+            "BROKEN": 114
+          }
+        },
+        {
+          "stage": 3,
+          "started": 163,
+          "completed": 139,
+          "wins": 2,
+          "by_need": {
+            "FR": {
+              "started": 163,
+              "completed": 139,
+              "wins": 2
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 84,
+              "completed": 69,
+              "wins": 0
+            },
+            "2": {
+              "started": 33,
+              "completed": 30,
+              "wins": 0
+            },
+            "1": {
+              "started": 46,
+              "completed": 40,
+              "wins": 2
+            }
+          },
+          "direct_sum": 13263,
+          "unique_scenarios": 163,
+          "outcomes": {
+            "EMPTY": 114,
+            "BROKEN": 23,
+            "SUCCESS": 2
+          }
+        }
+      ],
+      "R1C1": [
+        {
+          "stage": 1,
+          "started": 154,
+          "completed": 130,
+          "wins": 6,
+          "by_need": {
+            "0": {
+              "started": 108,
+              "completed": 85,
+              "wins": 2
+            },
+            "R": {
+              "started": 25,
+              "completed": 24,
+              "wins": 0
+            },
+            "F": {
+              "started": 21,
+              "completed": 21,
+              "wins": 4
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 87,
+              "completed": 79,
+              "wins": 6
+            },
+            "2": {
+              "started": 31,
+              "completed": 24,
+              "wins": 0
+            },
+            "3": {
+              "started": 36,
+              "completed": 27,
+              "wins": 0
+            }
+          },
+          "direct_sum": 3872,
+          "unique_scenarios": 154,
+          "outcomes": {
+            "EMPTY": 58,
+            "BROKEN": 66,
+            "SUCCESS": 6
+          }
+        },
+        {
+          "stage": 2,
+          "started": 277,
+          "completed": 253,
+          "wins": 0,
+          "by_need": {
+            "F": {
+              "started": 141,
+              "completed": 131,
+              "wins": 0
+            },
+            "R": {
+              "started": 115,
+              "completed": 102,
+              "wins": 0
+            },
+            "FR": {
+              "started": 21,
+              "completed": 20,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 116,
+              "completed": 107,
+              "wins": 0
+            },
+            "1": {
+              "started": 114,
+              "completed": 103,
+              "wins": 0
+            },
+            "2": {
+              "started": 47,
+              "completed": 43,
+              "wins": 0
+            }
+          },
+          "direct_sum": 10204,
+          "unique_scenarios": 277,
+          "outcomes": {
+            "EMPTY": 142,
+            "BROKEN": 111
+          }
+        },
+        {
+          "stage": 3,
+          "started": 186,
+          "completed": 162,
+          "wins": 2,
+          "by_need": {
+            "FR": {
+              "started": 186,
+              "completed": 162,
+              "wins": 2
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 56,
+              "completed": 53,
+              "wins": 2
+            },
+            "3": {
+              "started": 103,
+              "completed": 83,
+              "wins": 0
+            },
+            "2": {
+              "started": 27,
+              "completed": 26,
+              "wins": 0
+            }
+          },
+          "direct_sum": 16334,
+          "unique_scenarios": 186,
+          "outcomes": {
+            "EMPTY": 133,
+            "BROKEN": 27,
+            "SUCCESS": 2
+          }
+        }
+      ]
+    }
+  },
+  "bootstrap": {
+    "seed": 160016,
+    "resamples": 20000,
+    "geometries": 60,
+    "scenarios_per_geometry": 4
+  },
+  "changes": {
+    "R_at_C0": {
+      "39139": {
+        "gained": [
+          "validation_id-00005-1",
+          "validation_id-00020-3",
+          "validation_id-00030-1",
+          "validation_id-00031-2",
+          "validation_id-00034-0",
+          "validation_id-00038-0",
+          "validation_id-00041-1",
+          "validation_id-00056-1"
+        ],
+        "lost": [
+          "validation_id-00001-0",
+          "validation_id-00003-3",
+          "validation_id-00007-0",
+          "validation_id-00030-3",
+          "validation_id-00035-2",
+          "validation_id-00038-1"
+        ]
+      }
+    },
+    "R_at_C1": {
+      "39139": {
+        "gained": [
+          "validation_id-00000-0",
+          "validation_id-00004-0",
+          "validation_id-00020-0",
+          "validation_id-00021-3",
+          "validation_id-00035-0"
+        ],
+        "lost": [
+          "validation_id-00044-0"
+        ]
+      }
+    },
+    "C_at_R0": {
+      "39139": {
+        "gained": [
+          "validation_id-00008-0",
+          "validation_id-00031-2",
+          "validation_id-00044-0"
+        ],
+        "lost": [
+          "validation_id-00001-0",
+          "validation_id-00003-3",
+          "validation_id-00007-0",
+          "validation_id-00030-3",
+          "validation_id-00035-2",
+          "validation_id-00038-1"
+        ]
+      }
+    },
+    "C_at_R1": {
+      "39139": {
+        "gained": [
+          "validation_id-00000-0",
+          "validation_id-00004-0",
+          "validation_id-00008-0",
+          "validation_id-00020-0",
+          "validation_id-00021-3",
+          "validation_id-00035-0"
+        ],
+        "lost": [
+          "validation_id-00005-1",
+          "validation_id-00020-3",
+          "validation_id-00030-1",
+          "validation_id-00034-0",
+          "validation_id-00038-0",
+          "validation_id-00041-1",
+          "validation_id-00056-1"
+        ]
+      }
+    }
+  }
+}

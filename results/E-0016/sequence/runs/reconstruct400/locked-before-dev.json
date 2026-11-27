@@ -1,0 +1,63 @@
+{
+  "methods": {
+    "missing": "missing",
+    "marginal": "marginal0.5",
+    "direct": "direct0.5"
+  },
+  "chosen": "missing",
+  "rank": {
+    "marginal1": {
+      "weights": [
+        0,
+        1,
+        0
+      ],
+      "wins": 41,
+      "minimum": 3
+    },
+    "direct1": {
+      "weights": [
+        0,
+        0,
+        1
+      ],
+      "wins": 41,
+      "minimum": 3
+    },
+    "missing": {
+      "weights": [
+        1,
+        0,
+        0
+      ],
+      "wins": 48,
+      "minimum": 8
+    },
+    "marginal0.5": {
+      "weights": [
+        0.5,
+        0.5,
+        0
+      ],
+      "wins": 46,
+      "minimum": 6
+    },
+    "direct0.5": {
+      "weights": [
+        0.5,
+        0,
+        0.5
+      ],
+      "wins": 45,
+      "minimum": 4
+    }
+  },
+  "hashes": {
+    "missing": "eb5f1162335fed9f90f6fed4f1dd5b456058ba72ee57720d451b9ac3b6e6e44f",
+    "marginal": "cc0f76d005bd6e9a0a0c0fa05412f089e446ca25e895096c24937e8c0c6122e1",
+    "direct": "4f01ffd8fe827d02a5805b4557f4c8fcb2e0434f8b8c2ba8d77e4c1be9e89ba2"
+  },
+  "weights_sha256": "eb5f1162335fed9f90f6fed4f1dd5b456058ba72ee57720d451b9ac3b6e6e44f",
+  "dev": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "selection": "e8c4c71768333ec4d7a8ef876110e974075e01f75a1bf328c178dbef36b5a6f7"
+}

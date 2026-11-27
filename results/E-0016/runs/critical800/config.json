@@ -1,0 +1,20 @@
+{
+  "seed": 1602,
+  "train_sha256": "524c9b98b433779eb5cf51cbb654fe59c8a15ed78338deae6dd442785e2db0f5",
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "maps": 800,
+  "groups": 12,
+  "init": "results\\E-0016\\runs\\recovery800\\rl.pt",
+  "init_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "sources": {
+    "critical.py": "0225e30f14fa855469d6aa27bc23f02dd0c8158118b127165afc824cc48f384c",
+    "critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "pilot.py": "ec25242bd2839fae4fbd9ba5ce157053235f85a16d3ecf97147e802231db9a3c",
+    "teacher.py": "aab06c3640a274b2b9cffbac432241fefc8bdcc1439e2e66c09823281de85586",
+    "dev.py": "0b350b48e9eb60fe42920bc6297aba72696d74c5077c729a38fc998e1a3665f9",
+    "adapter.py": "07ffee37d1dcaab0cd9b3dac631a89134baf996d7bcb3184800bc4e9855b1a06",
+    "geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133"
+  }
+}

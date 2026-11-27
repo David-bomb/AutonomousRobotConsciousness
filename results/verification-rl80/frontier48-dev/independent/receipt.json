@@ -1,0 +1,40 @@
+{
+  "episodes": 100,
+  "successes": {
+    "validation-1": 48
+  },
+  "passed": null,
+  "kind": "validation",
+  "controller_sha256": "e00eecfa64d2f040a6472ceea6f0edf3ec8bd6951d5c71623a4a12c93a560b43",
+  "checkpoint_sha256": "c921c6cfe26fee80b0ba5bd05946de47012a5d1da35d308092d2116350b2493b",
+  "lock_sha256": "bf590732bf56eb60fd98665dfcd9bf20c59387c70d04138540bfa7c3627efded",
+  "spec_sha256": "99a185a1425b1a236400ae2466bbbefc3410e1f468f85e368614ce6d2c5099ab",
+  "episodes_sha256": "f19387af0d25a6d792418f1679cd241826fbe8eb51feaa8b5a072ae60afe4d9f",
+  "source_receipt_sha256": "777f1e73705a548a77f3278acf5a0cdf053610b28fe4c1f37074b5b0b74b1410",
+  "original_adapter_sha256": "b81c4350e5a1cc4569ba6704e5993be7407da459e1b8747e7ca7f33ffcee56d0",
+  "action_encoding": "SHA-256(raw uint8 0..7): N E S W NE SE SW NW",
+  "matched_all": 100,
+  "matched_per_field": {
+    "outcome": 100,
+    "steps": 100,
+    "refuels": 100,
+    "repairs": 100,
+    "actions_sha256": 100
+  },
+  "differences": [],
+  "by_tier": {
+    "H1": 21,
+    "H2": 12,
+    "H3": 10,
+    "H4": 5
+  },
+  "outcomes": {
+    "EMPTY": 21,
+    "SUCCESS": 48,
+    "BROKEN": 30,
+    "LIMIT": 1
+  },
+  "steps": 45731,
+  "refuels": 647,
+  "repairs": 633
+}

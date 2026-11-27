@@ -1,0 +1,141 @@
+{
+  "name": "prev-two-geodesic-9176440-H3-22",
+  "geometry": "8c25c14d8b820196ba70b3f5cd63859867f1dbbb72d5452748634d4ec56060a1",
+  "tier": "H3",
+  "actions": "6233333111114733003300110011003311222",
+  "corrections": 0,
+  "events": [
+    {
+      "step": 2,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 2,
+      "signs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        32,
+        6
+      ]
+    },
+    {
+      "step": 3,
+      "own": 3,
+      "chosen": 3,
+      "legal": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 0,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        33,
+        5
+      ]
+    }
+  ],
+  "windows": false,
+  "outcome": "EMPTY"
+}

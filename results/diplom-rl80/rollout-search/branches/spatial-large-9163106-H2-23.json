@@ -1,0 +1,121 @@
+{
+  "map": "spatial-large-9163106-H2-23",
+  "tier": "H2",
+  "geometry": "896cc735e29fb3f55c972c5d7433e5605ccaedd2788a6b15ca9b674b91e12a83",
+  "samples": 3,
+  "features": "764297a1c5551b371850abd00799e8ec4d1a4625c66149b50cb9506c8cd49e8c",
+  "base": "eb11b8ec3f1c6c2f24996e23fe9384f91b3bba33cffa8202193109911cce6f4c",
+  "forks": [
+    {
+      "step": 0,
+      "slack": 5,
+      "parent": 1,
+      "responses": [
+        [
+          1,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          3,
+          "SUCCESS",
+          true,
+          false
+        ]
+      ]
+    },
+    {
+      "step": 15,
+      "slack": 3,
+      "parent": 4,
+      "responses": [
+        [
+          0,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          1,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          2,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          3,
+          "EMPTY",
+          false,
+          false
+        ],
+        [
+          4,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          5,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          6,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          7,
+          "EMPTY",
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "step": 17,
+      "slack": 2,
+      "parent": 2,
+      "responses": [
+        [
+          0,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          2,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          3,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          6,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          7,
+          "SUCCESS",
+          true,
+          false
+        ]
+      ]
+    }
+  ]
+}

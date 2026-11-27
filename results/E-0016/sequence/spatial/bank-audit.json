@@ -1,0 +1,118 @@
+{
+  "previous_excluded": 79186,
+  "archive_geometries_sha256": "e93400932a54a13245e6e72c8d5348452438614633aae8e8e2c0b8dfb6c2f6e3",
+  "banks": [
+    {
+      "path": "data/train.jsonl",
+      "role": "первичное обучение",
+      "maps": 800,
+      "sha256": "524c9b98b433779eb5cf51cbb654fe59c8a15ed78338deae6dd442785e2db0f5",
+      "geometries_sha256": "06965b261e3cc9a4d801f66104f6fa3ffc7247f6df145e51298a021c7e81df96",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    },
+    {
+      "path": "data/dev.jsonl",
+      "role": "открытая dev",
+      "maps": 100,
+      "sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+      "geometries_sha256": "b3b443e08417a67800e1cc8a035ac8d3ca7d4aa339a19e94f955b485301f78a9",
+      "overlap_with_previous": 0,
+      "access": "geometry field only"
+    },
+    {
+      "path": "data/confirmation.jsonl",
+      "role": "две сотни независимого оценщика",
+      "maps": 200,
+      "sha256": "bf0fc2ea01b1947d43e894d72a62b0d8f4d3a37dfcc694edbf362088caaaf789",
+      "geometries_sha256": "41e8cd142356145601fe4c43e29c98c24a610ddcadc1d205d977bfb391bf009a",
+      "overlap_with_previous": 0,
+      "access": "geometry field only"
+    },
+    {
+      "path": "sequence/train.jsonl",
+      "role": "обучение второй волны",
+      "maps": 1600,
+      "sha256": "6affb0aa46384b2f3485e630524bb0dc02abb5b5f9901adee4f786b0d1ada763",
+      "geometries_sha256": "98501d9bb9af81def0f6fca8973c920b70217dd10c0f768a124e580cf60be595",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    },
+    {
+      "path": "sequence/probe.jsonl",
+      "role": "вспомогательная проверка датчиков",
+      "maps": 100,
+      "sha256": "fdfdd48e8868d78c1d9fcfc5705d2eb8846efff3a9cbd699ee0ac0c8755a3610",
+      "geometries_sha256": "8df91f42de78073a8552cf6d2ea50835c4968723b58af41d61a0a6d250b90def",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    },
+    {
+      "path": "sequence/spatial/extra.jsonl",
+      "role": "ранние состояния, 3000 fit и 200 внутренних геометрий",
+      "maps": 3200,
+      "sha256": "759ed8ec5c8cd52c2b38ac363b00c897c09b8784a4bb83159c3c7ae40ab3d19f",
+      "geometries_sha256": "1667d5f3c9463994392066106bd79995c44ac0a602b96fca222332b6147c3e9c",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    },
+    {
+      "path": "sequence/spatial/selection.jsonl",
+      "role": "две сотни отбора ранних политик по финишам",
+      "maps": 200,
+      "sha256": "4648760011d24a8ee63d76312fd53c3cb8d2ab617adcdc42138f6ff5a7080802",
+      "geometries_sha256": "7217ffe5332a0417c4a665ebd281961cf620939c0ecc6665900f5aebd956eab8",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    },
+    {
+      "path": "sequence/spatial/large.jsonl",
+      "role": "12000 для предварительного обучения, включая 200 геометрий парных продолжений",
+      "maps": 12000,
+      "sha256": "0bb741c6a1fe660e9c1f63cfd3df2b27fe9c6d73005c37aaeadea4ae05d47ec1",
+      "geometries_sha256": "54ec05460645ea84cbf1450b85d48b12baaee779df7642214fa9dcdcd996e693",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    },
+    {
+      "path": "sequence/spatial/reward-screen.jsonl",
+      "role": "предварительный отбор LocalNet",
+      "maps": 100,
+      "sha256": "ae7c73524df0dafa49c2512296a35c70b81a411fdb2863f333ad0913fe2be2ab",
+      "geometries_sha256": "f1d2afc6172988c040a333124eaa8de8be501cc4b5c95f6e30a8a36de06c81fc",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    },
+    {
+      "path": "sequence/spatial/reward-selection.jsonl",
+      "role": "200 геометрий отбора LocalNet по финишам",
+      "maps": 200,
+      "sha256": "39a54a17229cac517e397cf53f64732d04907ef9ac6a43d585356c9cb78db2e3",
+      "geometries_sha256": "229fb6c87108f0f8bda07bc9e0a8add012f7752bafe788bfc58e00333190e3c0",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    },
+    {
+      "path": "sequence/spatial/reward-probe.jsonl",
+      "role": "100 геометрий проверки терминальных продолжений",
+      "maps": 100,
+      "sha256": "80d2f06e00e19715c0d7d2a7f341208c485ff8249ad59417646993efafef4b2c",
+      "geometries_sha256": "445e282c771720c09661e43b0a80d50c9871db44de9e98d1e02559671aea2c1f",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    },
+    {
+      "path": "sequence/spatial/gate-selection.jsonl",
+      "role": "200 полных стартов отбора политики с выходами из известной дороги",
+      "maps": 200,
+      "sha256": "9ac0cec12fca181b1ec7c4c343322df543eb1153bde77e7517618548369a9fa2",
+      "geometries_sha256": "9d2dc90d658016599b7c7150ea62447d5a7d09e7d42f5ad3f8a135618582771b",
+      "overlap_with_previous": 0,
+      "access": "canonical walls recomputed"
+    }
+  ],
+  "registered": 18800,
+  "combined_count": 97986,
+  "canonicalization": "walls without labels, four rotations and reflections",
+  "script": "f3430eab91bff79291f92ab990252b84eef56861cb34e81aece91f1e8be2ccea"
+}

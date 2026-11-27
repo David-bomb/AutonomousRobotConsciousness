@@ -1,0 +1,2504 @@
+{
+  "split": "E-0016 train[200:300] outside pilot200 training, no dev or controls",
+  "definition": "at first irreversible transition of resource-failed episodes only; actual neighbor distances used offline",
+  "dirs": [
+    "NORTH",
+    "EAST",
+    "SOUTH",
+    "WEST",
+    "NE",
+    "SE",
+    "SW",
+    "NW"
+  ],
+  "checkpoint": "bc8ce4f269b6893692f1be4ae593e35086ac3d5bcfc20df32333dea6163eac46",
+  "groups": {
+    "all": {
+      "n": 76,
+      "urgent_gradient_available": 76,
+      "urgent_gradient_missed": 76,
+      "urgent_gradient_sufficient": 76,
+      "ever_confirmed_goal": 0
+    },
+    "neither": {
+      "n": 37,
+      "urgent_gradient_available": 37,
+      "urgent_gradient_missed": 37,
+      "urgent_gradient_sufficient": 37,
+      "ever_confirmed_goal": 0
+    },
+    "one": {
+      "n": 22,
+      "urgent_gradient_available": 22,
+      "urgent_gradient_missed": 22,
+      "urgent_gradient_sufficient": 22,
+      "ever_confirmed_goal": 0
+    },
+    "both": {
+      "n": 17,
+      "urgent_gradient_available": 17,
+      "urgent_gradient_missed": 17,
+      "urgent_gradient_sufficient": 17,
+      "ever_confirmed_goal": 0
+    }
+  },
+  "records": [
+    {
+      "geometry": "90d007aa9a007fcd3ee3f39be3b7923eb915efc2a8f8b5fcc666d7c5b0524cb2",
+      "tier": "H1",
+      "first_loss": 5,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        20
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "b4fa2772068471ad6ffb99eeffc0dfb376974b250c8e0c1037f9908e1243ee42",
+      "tier": "H1",
+      "first_loss": 6,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        94
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "88af022a3bb8732ee431975ec9ebe93e4c6572e268955efec4e98605f5c809e1",
+      "tier": "H1",
+      "first_loss": 96,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        80
+      ],
+      "bad_move": 1,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "11da6adfe7810eec496f55aaf8142fa7428380c4c26f36cc81166012915a346e",
+      "tier": "H1",
+      "first_loss": 96,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        9,
+        27
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "f270dd948ae871e29bce837b6e6cb880ca5a10a4a56b3f63c14e7830a9427987",
+      "tier": "H1",
+      "first_loss": 104,
+      "phase": "both",
+      "urgent": [
+        "F",
+        "R"
+      ],
+      "slacks": [
+        1,
+        1
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "df98cd45758068aee02948c08ca8bbc5bc1e154c4d37fc404258d150f5a3a3be",
+      "tier": "H1",
+      "first_loss": 5,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        2
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "00054905a299ed001b53e8f3033e21dbd169375d0238cbd3213da5198679b6a4",
+      "tier": "H1",
+      "first_loss": 11,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        88,
+        0
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "6f614a802041e1d48b2f50be438ac7b4a231ffac33f677aee62ae34128876c30",
+      "tier": "H1",
+      "first_loss": 225,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        23
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "29ca3abd072d38b2025cfdfb63bb84a5f835272f57664ef540dff20a7148ece9",
+      "tier": "H1",
+      "first_loss": 99,
+      "phase": "both",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        70,
+        1
+      ],
+      "bad_move": 6,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          3,
+          6
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "7800cf81638105692559d833e27963cc728e54263f5a39a3ba1275e0fb5a75cb",
+      "tier": "H1",
+      "first_loss": 16,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        86
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "4b590bc1edb79702b2034f1bb4541d74bf2a15bf99c2f53cf9e958843705e8dd",
+      "tier": "H1",
+      "first_loss": 27,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        68
+      ],
+      "bad_move": 3,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "e5d3e723b9bb3789ad226b00648129c0c667fe6e71922e5336a6b02e862fbc1d",
+      "tier": "H1",
+      "first_loss": 93,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        92
+      ],
+      "bad_move": 2,
+      "viable": [
+        0,
+        3,
+        7
+      ],
+      "reducing": {
+        "F": [
+          0,
+          7
+        ],
+        "R": [
+          0,
+          7
+        ],
+        "B": [
+          0,
+          7
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "f36ef1294d2d3fed34083ef2edcfc9da4b5400f7009b58bf0d368d10bb2b2ef2",
+      "tier": "H1",
+      "first_loss": 21,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        82,
+        0
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "bfb0187a2dbb04195331cb00f8b2a714480d7f466b561656246e6228f4065245",
+      "tier": "H2",
+      "first_loss": 12,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        6,
+        2
+      ],
+      "bad_move": 3,
+      "viable": [
+        4
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          4
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "a62b51b39e8069423c1391dbd9196d4b723b5fbc415a5dacd1cc9d5325f5152f",
+      "tier": "H2",
+      "first_loss": 11,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        92
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "ba21c1d43f15083ad8649e542af7cdd926200e1f59a1fd727da1037d7aaaa947",
+      "tier": "H2",
+      "first_loss": 2,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        11,
+        1
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1,
+          3
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1,
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "25c1d3b6133d2ce291cc66fefbafb6046c7a83f604b39fac3ed29af632be4d3e",
+      "tier": "H2",
+      "first_loss": 85,
+      "phase": "both",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        18,
+        0
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "fc2bad4c62d60065d6a1d5460e78b6043d43a620be7cccb82ad43ec48e28d328",
+      "tier": "H2",
+      "first_loss": 99,
+      "phase": "both",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        -20,
+        -34
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "133333f4dacfc385545f923265696ff153696a4e979562af3b7d4e7cc450a72d",
+      "tier": "H2",
+      "first_loss": 86,
+      "phase": "both",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        88,
+        1
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "8bbb3db0dd2ec5fcc99aba57fb43bd828950771a85b460ddfc19128fbad43155",
+      "tier": "H2",
+      "first_loss": 11,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        6,
+        0
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "610d484332936549df33abd0593ea82b9188434bf57add8b252e991568aaec6f",
+      "tier": "H2",
+      "first_loss": 4,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        22,
+        0
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "a8b2eed018aabae639f00104bda50e262969d1ff24625344b0a6daf42ce2d735",
+      "tier": "H2",
+      "first_loss": 6,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        30,
+        0
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "f585028a75c58d88256d0426e795e72ddf5ba723d40afefd9564af7c903b5a63",
+      "tier": "H2",
+      "first_loss": 69,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        -1,
+        20
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "06e2b1715fcefac5ec930f1775dc2bfbecf6cfe89093c04944c95ba8c1f41e1b",
+      "tier": "H2",
+      "first_loss": 4,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        13,
+        0
+      ],
+      "bad_move": 2,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "6d83b313f26e7d87c1acd88529c72eadeaf2eb4cd67227d9db09779a64459942",
+      "tier": "H2",
+      "first_loss": 3,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        13
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "7ded083038a4687289c88d441f2086442c89f8afa6f724d1042857561d29b378",
+      "tier": "H2",
+      "first_loss": 5,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        14,
+        2
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "864398f16e1610dd277ec18e79770634704db9c586f2f085431e69a544c4479f",
+      "tier": "H2",
+      "first_loss": 2,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        5,
+        1
+      ],
+      "bad_move": 0,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "ae3bd37664004f777119770fa1c018138c3cd458f733cabcc5c3fef8d68ef4ec",
+      "tier": "H2",
+      "first_loss": 2,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        9,
+        1
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "edbc430cdb90a45bd258eed870201fcb7460b137ea6646a9a62aed09e27a572b",
+      "tier": "H2",
+      "first_loss": 23,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        81,
+        0
+      ],
+      "bad_move": 0,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "3baea0a8a97d1f9e4ee987403011468321a2b20e565aa3c36b6dc8625df45889",
+      "tier": "H2",
+      "first_loss": 83,
+      "phase": "both",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        23,
+        0
+      ],
+      "bad_move": 1,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "0d5d28375be34894f49198341d7d78689daeca5e035674821c3f75a65c64de24",
+      "tier": "H3",
+      "first_loss": 3,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        22,
+        0
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "9f3611da988a132d68e399fbcb9117987a6d2ee746feff47b419addf8b09430b",
+      "tier": "H3",
+      "first_loss": 65,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        10
+      ],
+      "bad_move": 3,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "aa16ed0a7e38c5b19578a4d0933ebeb8d94f3dbf29f1301d64c1daea2896dbaf",
+      "tier": "H3",
+      "first_loss": 6,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        3,
+        12
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "056ceeecaab13c4f9b7ae7cb1a5da45795e1b74e4f017ff58fcb7bb2cd395d21",
+      "tier": "H3",
+      "first_loss": 10,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        5
+      ],
+      "bad_move": 3,
+      "viable": [
+        0,
+        1,
+        4
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "8a317b0ccf3ea4d5aee8a6974b1f128191895bbb3a2a77dbd7ec6877b52b3cf5",
+      "tier": "H3",
+      "first_loss": 27,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        90,
+        0
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "48e251213c38235203ad09f2ed0edaa472e77fc29aced7d810ad5517f3dc15a6",
+      "tier": "H3",
+      "first_loss": 163,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        12
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "64bb64b218d865768f35d6c5cc53f5058f295306c91febd5205ae64e988f77de",
+      "tier": "H3",
+      "first_loss": 2,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        32
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "1ec9a5dec174fdbfa2a7244f752d83395d312f47356cf6712e5aae457426f4a6",
+      "tier": "H3",
+      "first_loss": 32,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        68,
+        0
+      ],
+      "bad_move": 0,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "839015e0b583f7a7c9fc7458562c359b1c49e67fdaf02688dfe533ccc31ae878",
+      "tier": "H3",
+      "first_loss": 32,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        72,
+        1
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "4661b548bb1b8ca62ca5f7997b3be4f6175e15aab2c40ebc5c724ade977a4bdd",
+      "tier": "H3",
+      "first_loss": 9,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        8,
+        0
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "efb2124eee06ea3e19ff60634e24b15982af70fe79901e934ed704faf1fee554",
+      "tier": "H3",
+      "first_loss": 10,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        27,
+        1
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "7972e3b3f7d257030e653a9f04d915d1c20f5900bda57b29ecf84dbbb0187ff0",
+      "tier": "H3",
+      "first_loss": 28,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        68
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "de191d9a749d49c365b34cbcc448ea862b44b1d1c5e876caa33bd818572198e6",
+      "tier": "H3",
+      "first_loss": 24,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        24,
+        0
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "6106b367ace1228e03258ee0c38772879ff3475a8bc83785f0597d35de3033ae",
+      "tier": "H3",
+      "first_loss": 12,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        28,
+        1
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "e9dfcbb5189c886e70d546ace77b1beed485e904ed5359d58da0bd10f5c85d4f",
+      "tier": "H3",
+      "first_loss": 119,
+      "phase": "both",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        42,
+        0
+      ],
+      "bad_move": 1,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "bfdc2dcdbeb9bba37d516505226ceb70012b46c336c627fcb7762eea538b92bd",
+      "tier": "H3",
+      "first_loss": 2,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        2,
+        14
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "252a9941b8b9b60d6da5e67f8508ce20c6934af76f6d5ee0c6ad9eaa4b1a4a72",
+      "tier": "H3",
+      "first_loss": 2,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        24
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "21046d950905e8a71b3f60ab3bb22eb38d0f5cf28940dd1cd14655dd7ff3f91f",
+      "tier": "H3",
+      "first_loss": 10,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        21
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "4ec282eadacafb790858dfe12b3c2a71a99c0a80c947a14b8b50d0fad409bcd0",
+      "tier": "H3",
+      "first_loss": 29,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        68
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "0e7e413dcfea852fd2ae92b1d75af648c69564b1653f129b143e22d953de5d07",
+      "tier": "H3",
+      "first_loss": 2,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        37,
+        1
+      ],
+      "bad_move": 5,
+      "viable": [
+        0,
+        2,
+        3,
+        6,
+        7
+      ],
+      "reducing": {
+        "F": [
+          3,
+          7
+        ],
+        "R": [
+          3,
+          7
+        ],
+        "B": [
+          3,
+          7
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "40be94686ae38ab716ed79cd66d8acb590ff49cc35640503d0eec162ba4fac70",
+      "tier": "H3",
+      "first_loss": 14,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        19
+      ],
+      "bad_move": 3,
+      "viable": [
+        0,
+        1
+      ],
+      "reducing": {
+        "F": [
+          0,
+          1
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "ca6fd9a2f1233a73c548470f2ecac2a4590e2212d5c9c70c0218de7f6b9aaf70",
+      "tier": "H3",
+      "first_loss": 17,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        81
+      ],
+      "bad_move": 0,
+      "viable": [
+        1,
+        2,
+        5
+      ],
+      "reducing": {
+        "F": [
+          2,
+          5
+        ],
+        "R": [
+          5
+        ],
+        "B": [
+          5
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "45c1deb07aca87dff7500795f7ecb48ba24be2cede09bffc4a3046f8d44688e8",
+      "tier": "H3",
+      "first_loss": 2,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        12,
+        0
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "56dd4bed295a62c4c17429af682b0b0e93b6be8046121d07de5fe4d9046e3da9",
+      "tier": "H3",
+      "first_loss": 3,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        9
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "7491bbb8cbb692b54fd69f2e77ec34172009f397d565a0dcd7a605f9b2d39222",
+      "tier": "H4",
+      "first_loss": 14,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        22
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "a1c18f1c258d093fcc978a648a4660826331739ae459a3356709f9121471f3e3",
+      "tier": "H4",
+      "first_loss": 6,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        24
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "467695ddab63763b711d9ac486ddcd0b5d094a4f950697f926ca94878bbdca7b",
+      "tier": "H4",
+      "first_loss": 1,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        22
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "16c0b9b11c5bb39f34b0aa35d025c395d95c5fc7a935b92cb212f41f7430321e",
+      "tier": "H4",
+      "first_loss": 2,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        22,
+        0
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "445d24dea079c19c3e0f394945eff70ef243bcc791efc57385ec8ef243c56142",
+      "tier": "H4",
+      "first_loss": 12,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        15
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "3e0def0975f3bf9f525ddd1461e89f7e45b975cb0ff8b43157e98398841666a9",
+      "tier": "H4",
+      "first_loss": 37,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        76
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "10174f7fd428f0b0f2bc5723f23dfac4ca2d1e6b5972066778071487623e42fd",
+      "tier": "H4",
+      "first_loss": 27,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        89,
+        1
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "2413fc43ba733b6525cc3d247cdbc27302114f61f1ea5ea57a734d2127fd8b09",
+      "tier": "H4",
+      "first_loss": 3,
+      "phase": "neither",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        48,
+        0
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "657ca611ee2990d93f41a75d189fb700404f2058ee8e6c415cdc025b475ecd88",
+      "tier": "H4",
+      "first_loss": 73,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        6,
+        8
+      ],
+      "bad_move": 3,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "73f1655387063d599e92587281ce53e42323dd9abc667b9efe841e169e9cb84b",
+      "tier": "H4",
+      "first_loss": 3,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        30
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "bb466d74bb3087deb6b302924dddeefa014a426dbddcadacdb62042a15ba3258",
+      "tier": "H4",
+      "first_loss": 94,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        37
+      ],
+      "bad_move": 0,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [
+          3
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "a235dd2b1750ce097581930b84336267b93b9f803ab8a80ce808c19a352f5b1f",
+      "tier": "H4",
+      "first_loss": 10,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        96,
+        0
+      ],
+      "bad_move": 2,
+      "viable": [
+        7
+      ],
+      "reducing": {
+        "F": [
+          3,
+          7
+        ],
+        "R": [
+          7
+        ],
+        "B": [
+          7
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "57b1912036d9bfcc0da74dd8698039575b546cec888304d5b1f7b15151f273eb",
+      "tier": "H4",
+      "first_loss": 56,
+      "phase": "both",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        18
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [
+          0
+        ],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "c39f071d12225cd95b26893fbbd5b359bf3161e85bfd6cf9fa7da077da5f0a07",
+      "tier": "H4",
+      "first_loss": 12,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        12
+      ],
+      "bad_move": 2,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "fd0a84d0b38f782e55e43cd5f9c2c481203caaa485b5f4c0d7ad37919b11ca0f",
+      "tier": "H4",
+      "first_loss": 16,
+      "phase": "neither",
+      "urgent": [
+        "F",
+        "R"
+      ],
+      "slacks": [
+        0,
+        0
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "df6021c6b1b203fdb0f61848316657ad31f8b7547aabc36b75f3eb5507162eb6",
+      "tier": "H4",
+      "first_loss": 8,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        1,
+        98
+      ],
+      "bad_move": 1,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          3
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "3171fd77486546b4dc7e5dfba5a5c264c5395f5bf25e10bf7a741c168bfdf3c3",
+      "tier": "H4",
+      "first_loss": 33,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        67
+      ],
+      "bad_move": 4,
+      "viable": [
+        2,
+        6
+      ],
+      "reducing": {
+        "F": [
+          2,
+          6
+        ],
+        "R": [
+          3,
+          7
+        ],
+        "B": [
+          2,
+          6
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "bc94215e807c5b8fdf00e50c0a25cc9ce89c74939defab5e0ac16d7827bab6c2",
+      "tier": "H4",
+      "first_loss": 26,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        100,
+        1
+      ],
+      "bad_move": 1,
+      "viable": [
+        3
+      ],
+      "reducing": {
+        "F": [],
+        "R": [
+          3
+        ],
+        "B": [
+          3
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "9774057e57b2379857aafa8e3ccc8f2d019992c3c9468de23c4948fb4612281a",
+      "tier": "H4",
+      "first_loss": 17,
+      "phase": "one",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        100
+      ],
+      "bad_move": 2,
+      "viable": [
+        0
+      ],
+      "reducing": {
+        "F": [
+          0
+        ],
+        "R": [],
+        "B": [
+          0
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "7ef9cc80286e23877a135643dc847544fd2f041f9b702a74a6bd37c0e0f15270",
+      "tier": "H4",
+      "first_loss": 6,
+      "phase": "neither",
+      "urgent": [
+        "F"
+      ],
+      "slacks": [
+        0,
+        32
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          2
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "f230083ed5d7b775754cdeee4c6d9d81187eaef53618e523bb692110c1f98428",
+      "tier": "H4",
+      "first_loss": 22,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        94,
+        1
+      ],
+      "bad_move": 0,
+      "viable": [
+        2
+      ],
+      "reducing": {
+        "F": [
+          1
+        ],
+        "R": [
+          2
+        ],
+        "B": [
+          2
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    },
+    {
+      "geometry": "be24561e2909ca8d41a1a350328d6baa4b211bd518568010b3fd92911b5916ad",
+      "tier": "H4",
+      "first_loss": 40,
+      "phase": "one",
+      "urgent": [
+        "R"
+      ],
+      "slacks": [
+        45,
+        0
+      ],
+      "bad_move": 3,
+      "viable": [
+        1
+      ],
+      "reducing": {
+        "F": [
+          4
+        ],
+        "R": [
+          1
+        ],
+        "B": [
+          1
+        ]
+      },
+      "urgent_gradient_available": true,
+      "urgent_gradient_missed": true,
+      "urgent_gradient_sufficient": true,
+      "ever_confirmed_goal": false
+    }
+  ]
+}

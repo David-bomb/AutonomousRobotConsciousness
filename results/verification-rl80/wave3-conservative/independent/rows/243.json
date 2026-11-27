@@ -1,0 +1,32 @@
+{
+  "split": "III",
+  "id": "check-H2-19",
+  "geometry": "db3265cd695be26c4dd48ea1fdfc2d828086e7288158d2f89e2283cb2013021c",
+  "scenario_sha256": "2fdaf79c6f039ba8617e298286fb3bc9ab425cc2d172f0a761475e3491fe6270",
+  "outcome": "SUCCESS",
+  "steps": 145,
+  "refuels": 2,
+  "repairs": 2,
+  "actions_sha256": "89ee2c57b217bf0c8f815173d799da421807f9984d12c458fb53237211123100",
+  "actions": "3223300001111112211222222223311222233003322333333000011111102333333222211111100112211000000000000330033333322223322223322222222223322111100110011",
+  "limit": 5800,
+  "initial": [
+    12,
+    27
+  ],
+  "final": [
+    63,
+    52
+  ],
+  "final_position": [
+    13,
+    19
+  ],
+  "initial_registers": [
+    null,
+    null
+  ],
+  "worker_pid": 3556,
+  "checkpoint_sha256": "f9bd509a7d4778f4d0e33cd1ad3924f8eb8a0923086c8448b42ac7ebddee35bf",
+  "policy_calls": 145
+}

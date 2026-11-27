@@ -1,0 +1,1647 @@
+{
+  "summary": {
+    "first_loss": {
+      "n": 27,
+      "baseline": 0,
+      "candidates": [
+        15,
+        10,
+        6,
+        7,
+        3,
+        1
+      ],
+      "viable_back": 24,
+      "viable_exit_descent": 26
+    },
+    "matched": {
+      "n": 13,
+      "baseline": 13,
+      "candidates": [
+        13,
+        13,
+        13,
+        12,
+        12,
+        12
+      ],
+      "viable_back": 11,
+      "viable_exit_descent": 12
+    }
+  },
+  "records": [
+    {
+      "map": "handover-train-9165411-H1-03",
+      "tier": "H1",
+      "win": false,
+      "valid": [
+        0
+      ],
+      "chosen": 2,
+      "survey": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "0": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "2": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        44,
+        43
+      ]
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 3,
+      "survey": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        49,
+        12
+      ]
+    },
+    {
+      "map": "return-train-9165200-H1-12",
+      "tier": "H1",
+      "win": false,
+      "valid": [
+        2
+      ],
+      "chosen": 0,
+      "survey": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "action_data": {
+        "2": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "0": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        39,
+        28
+      ]
+    },
+    {
+      "map": "return-train-9165201-H1-12",
+      "tier": "H1",
+      "win": false,
+      "valid": [
+        0
+      ],
+      "chosen": 3,
+      "survey": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "0": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        1,
+        49
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H1-04",
+      "tier": "H1",
+      "win": true,
+      "valid": [
+        0,
+        2,
+        3
+      ],
+      "chosen": 0,
+      "survey": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "action_data": {
+        "0": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            -1,
+            1,
+            1
+          ]
+        },
+        "2": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        34,
+        48
+      ]
+    },
+    {
+      "map": "return-train-9165201-H2-01",
+      "tier": "H2",
+      "win": false,
+      "valid": [
+        2
+      ],
+      "chosen": 3,
+      "survey": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "2": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        30,
+        49
+      ]
+    },
+    {
+      "map": "return-train-9165201-H2-02",
+      "tier": "H2",
+      "win": false,
+      "valid": [
+        3
+      ],
+      "chosen": 1,
+      "survey": [
+        3,
+        3,
+        1,
+        3,
+        3,
+        1
+      ],
+      "action_data": {
+        "3": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "1": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        48,
+        31
+      ]
+    },
+    {
+      "map": "return-train-9165201-H2-07",
+      "tier": "H2",
+      "win": false,
+      "valid": [
+        0
+      ],
+      "chosen": 2,
+      "survey": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "0": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "2": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        33,
+        50
+      ]
+    },
+    {
+      "map": "return-train-9165201-H2-11",
+      "tier": "H2",
+      "win": false,
+      "valid": [
+        2
+      ],
+      "chosen": 1,
+      "survey": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "action_data": {
+        "2": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "1": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        46,
+        28
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H3-11",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 3,
+      "survey": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        17,
+        49
+      ]
+    },
+    {
+      "map": "handover-train-9165411-H3-08",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 3,
+      "survey": [
+        1,
+        3,
+        3,
+        1,
+        3,
+        3
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        45,
+        18
+      ]
+    },
+    {
+      "map": "handover-train-9165411-H3-09",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 3,
+      "survey": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        49,
+        45
+      ]
+    },
+    {
+      "map": "handover-train-9165411-H3-12",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        0
+      ],
+      "chosen": 1,
+      "survey": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "action_data": {
+        "0": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "1": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        48,
+        38
+      ]
+    },
+    {
+      "map": "return-train-9165200-H3-03",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        2
+      ],
+      "chosen": 0,
+      "survey": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "action_data": {
+        "2": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "0": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        47,
+        34
+      ]
+    },
+    {
+      "map": "return-train-9165200-H3-06",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 3,
+      "survey": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            1,
+            1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        37,
+        34
+      ]
+    },
+    {
+      "map": "return-train-9165200-H3-12",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 0,
+      "survey": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "action_data": {
+        "1": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            -1,
+            1,
+            1
+          ]
+        },
+        "0": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        30,
+        46
+      ]
+    },
+    {
+      "map": "return-train-9165201-H3-03",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        0
+      ],
+      "chosen": 2,
+      "survey": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "0": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "2": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        30,
+        40
+      ]
+    },
+    {
+      "map": "return-train-9165201-H3-06",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 3,
+      "survey": [
+        1,
+        1,
+        1,
+        3,
+        3,
+        3
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        40,
+        49
+      ]
+    },
+    {
+      "map": "return-train-9165201-H3-13",
+      "tier": "H3",
+      "win": false,
+      "valid": [
+        3
+      ],
+      "chosen": 1,
+      "survey": [
+        3,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "action_data": {
+        "3": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            1,
+            -1
+          ]
+        },
+        "1": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            1,
+            -1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        37,
+        42
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H3-02",
+      "tier": "H3",
+      "win": true,
+      "valid": [
+        1,
+        2
+      ],
+      "chosen": 2,
+      "survey": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            1,
+            -1
+          ]
+        },
+        "2": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            1,
+            -1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        18,
+        18
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H3-04",
+      "tier": "H3",
+      "win": true,
+      "valid": [
+        1,
+        3
+      ],
+      "chosen": 3,
+      "survey": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            -1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        40,
+        48
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H3-05",
+      "tier": "H3",
+      "win": true,
+      "valid": [
+        2
+      ],
+      "chosen": 2,
+      "survey": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "2": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        44,
+        17
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H3-07",
+      "tier": "H3",
+      "win": true,
+      "valid": [
+        0,
+        2
+      ],
+      "chosen": 0,
+      "survey": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "action_data": {
+        "0": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "2": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        24,
+        19
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H3-08",
+      "tier": "H3",
+      "win": true,
+      "valid": [
+        0,
+        2
+      ],
+      "chosen": 0,
+      "survey": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        0
+      ],
+      "action_data": {
+        "0": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            1,
+            -1,
+            1
+          ]
+        },
+        "2": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            -1,
+            1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        21,
+        29
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H4-09",
+      "tier": "H4",
+      "win": false,
+      "valid": [
+        2
+      ],
+      "chosen": 0,
+      "survey": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "action_data": {
+        "2": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "0": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        69,
+        53
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H4-12",
+      "tier": "H4",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 3,
+      "survey": [
+        1,
+        3,
+        3,
+        1,
+        3,
+        3
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        1,
+        26
+      ]
+    },
+    {
+      "map": "handover-train-9165411-H4-19",
+      "tier": "H4",
+      "win": false,
+      "valid": [
+        2
+      ],
+      "chosen": 0,
+      "survey": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "action_data": {
+        "2": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            0,
+            -1,
+            -1
+          ]
+        },
+        "0": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            -1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        41,
+        23
+      ]
+    },
+    {
+      "map": "return-train-9165200-H4-01",
+      "tier": "H4",
+      "win": false,
+      "valid": [
+        3
+      ],
+      "chosen": 1,
+      "survey": [
+        3,
+        3,
+        3,
+        1,
+        1,
+        1
+      ],
+      "action_data": {
+        "3": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "1": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        36,
+        40
+      ]
+    },
+    {
+      "map": "return-train-9165200-H4-03",
+      "tier": "H4",
+      "win": false,
+      "valid": [
+        0
+      ],
+      "chosen": 2,
+      "survey": [
+        0,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "0": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "2": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        44,
+        3
+      ]
+    },
+    {
+      "map": "return-train-9165201-H4-08",
+      "tier": "H4",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 3,
+      "survey": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        45,
+        52
+      ]
+    },
+    {
+      "map": "return-train-9165201-H4-11",
+      "tier": "H4",
+      "win": false,
+      "valid": [
+        0
+      ],
+      "chosen": 2,
+      "survey": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "0": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            1,
+            1
+          ]
+        },
+        "2": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            1,
+            -1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        43,
+        23
+      ]
+    },
+    {
+      "map": "return-train-9165201-H4-15",
+      "tier": "H4",
+      "win": false,
+      "valid": [
+        1
+      ],
+      "chosen": 2,
+      "survey": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "2": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        71,
+        43
+      ]
+    },
+    {
+      "map": "return-train-9165201-H4-16",
+      "tier": "H4",
+      "win": false,
+      "valid": [
+        3
+      ],
+      "chosen": 2,
+      "survey": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "3": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "2": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        42,
+        49
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H4-02",
+      "tier": "H4",
+      "win": true,
+      "valid": [
+        1
+      ],
+      "chosen": 1,
+      "survey": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "action_data": {
+        "1": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            1,
+            -1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        17,
+        24
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H4-04",
+      "tier": "H4",
+      "win": true,
+      "valid": [
+        0,
+        3
+      ],
+      "chosen": 3,
+      "survey": [
+        3,
+        3,
+        0,
+        3,
+        3,
+        3
+      ],
+      "action_data": {
+        "0": {
+          "back": false,
+          "novel": 2,
+          "deltas": [
+            -1,
+            1,
+            1
+          ]
+        },
+        "3": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            1,
+            -1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        17,
+        31
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H4-06",
+      "tier": "H4",
+      "win": true,
+      "valid": [
+        0
+      ],
+      "chosen": 0,
+      "survey": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "action_data": {
+        "0": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        19,
+        7
+      ]
+    },
+    {
+      "map": "handover-train-9165410-H4-14",
+      "tier": "H4",
+      "win": true,
+      "valid": [
+        1,
+        3
+      ],
+      "chosen": 1,
+      "survey": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "action_data": {
+        "1": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        "3": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "reading": [
+        27,
+        16
+      ]
+    },
+    {
+      "map": "handover-train-9165411-H4-10",
+      "tier": "H4",
+      "win": true,
+      "valid": [
+        1
+      ],
+      "chosen": 1,
+      "survey": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "action_data": {
+        "1": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        35,
+        34
+      ]
+    },
+    {
+      "map": "handover-train-9165411-H4-15",
+      "tier": "H4",
+      "win": true,
+      "valid": [
+        1,
+        3
+      ],
+      "chosen": 1,
+      "survey": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "action_data": {
+        "1": {
+          "back": false,
+          "novel": 3,
+          "deltas": [
+            -1,
+            1,
+            1
+          ]
+        },
+        "3": {
+          "back": true,
+          "novel": 0,
+          "deltas": [
+            1,
+            -1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        54,
+        64
+      ]
+    },
+    {
+      "map": "handover-train-9165411-H4-18",
+      "tier": "H4",
+      "win": true,
+      "valid": [
+        2
+      ],
+      "chosen": 2,
+      "survey": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "action_data": {
+        "2": {
+          "back": false,
+          "novel": 0,
+          "deltas": [
+            -1,
+            -1,
+            -1
+          ]
+        }
+      },
+      "reading": [
+        28,
+        36
+      ]
+    }
+  ]
+}

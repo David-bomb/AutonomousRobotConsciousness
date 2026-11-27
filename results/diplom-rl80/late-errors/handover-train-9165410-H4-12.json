@@ -1,0 +1,45 @@
+{
+  "map": "handover-train-9165410-H4-12",
+  "tier": "H4",
+  "family": "branching",
+  "win": false,
+  "gate": 19,
+  "steps": 1801,
+  "outcome": "BROKEN",
+  "reason": "first-loss",
+  "step": 1773,
+  "fork": {
+    "chosen": 3,
+    "viable": [
+      1
+    ],
+    "known_goal": 0,
+    "safe_window": 0,
+    "risk_window": 8,
+    "fuel": 98,
+    "hp": 28,
+    "readings": [
+      2,
+      27
+    ],
+    "prior": [
+      1,
+      26
+    ],
+    "exit_chebyshev": 20,
+    "known_cells": 654,
+    "alternatives": [
+      3
+    ],
+    "late_scores": [
+      9.05379182100296,
+      8.42285931110382,
+      -1000000000000.0,
+      22.869342371821404,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0
+    ]
+  }
+}

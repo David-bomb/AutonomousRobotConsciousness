@@ -1,0 +1,16 @@
+{
+  "study": "diplom-rl80",
+  "director_recorded_utc_minute": "2026-11-27T13:41Z",
+  "task": "Independent selection preceding the third historical wave",
+  "fresh_selection_seeds": [9167001, 9167002],
+  "maps_per_seed": 100,
+  "registrations": [
+    ["A", "service-window/fixed", "eb11b8ec3f1c6c2f24996e23fe9384f91b3bba33cffa8202193109911cce6f4c"],
+    ["B", "Diplom/prev-two/conservative/frozen.pt", "f9bd509a7d4778f4d0e33cd1ad3924f8eb8a0923086c8448b42ac7ebddee35bf"],
+    ["C", "tree-search", "839140fa1346c675d550f6ee4ace6aaa5eb9f7a1d07c254a2be8a6e86f6f0bed"],
+    ["D", "panel-search", "07859179f66199b6ecf95c5ef662f3bde4ad31b5956aa7ef8ae568446d958576"]
+  ],
+  "rule": "Maximize the lower of the two success counts, then the sum, then H4 successes across both, then use A/B/C/D order.",
+  "scope": "One ordinary physical rollout per training-selection geometry and candidate. Two reset previous real readings. The independent worker checks disjointness by canonical geometry. Historical and confirmation evaluation are separate actions.",
+  "verification_chat": "01a21c3d-e220-7dc2-9682-891e18fc90a0"
+}

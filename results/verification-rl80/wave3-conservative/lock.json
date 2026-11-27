@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "runtime": {
+    "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.8.0+cu129",
+    "numpy": "2.2.6"
+  },
+  "adapter": "results/verification-rl80/wave3-conservative/frozen/results/E-0016/prev-two/cautious_policy.py",
+  "adapter_sha256": "85d37f27fd57e1b2c320e757f7febb37c5a9350f0c0043350041454a0bd34d1a",
+  "checkpoint": "results/verification-rl80/wave3-conservative/model.pt",
+  "checkpoint_sha256": "f9bd509a7d4778f4d0e33cd1ad3924f8eb8a0923086c8448b42ac7ebddee35bf",
+  "spec": "results/verification-rl80/stress-spec.json",
+  "spec_sha256": "58f493edd1adb2e0011a0fec3a5b095e47145881783e9cf6252c7a8d902c3168",
+  "dependencies": {
+    "results/verification-rl80/wave3-conservative/chain.json": "a1e226c6b128884318b956e897a14841099bbac513e30515d51c3ee0b429e46f",
+    "results/verification-rl80/wave3-conservative/director-plan.json": "2d0175d65816d213e01874e7aa1dd885cae59bad572c8c37a85ec6b2da0225dc",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/prev-two/adapter.py": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/prev-two/cautious_geometry.cpp": "39373806198c11fa858c9efb876e18c6995422cae2b324e8e32d41114a2a20af",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/prev-two/cautious_geometry.dll": "647f1ff0946b1b1a7f943cce69bdb8a5081fcaf4ed36adba1d34eefe49512534",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/prev-two/cautious_policy.py": "85d37f27fd57e1b2c320e757f7febb37c5a9350f0c0043350041454a0bd34d1a",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/prev-two/early_policy.py": "080699067ee419965439a62d4063fc5b348746677b3d1a6a158a69e10a02f4d6",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/rich_policy.py": "41bebfb12845274ee6300495df4b50772cbc43ae0f938449f454d615671cbe46",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/alt_model.py": "babd5088de57c2c2b9d42c45e6b7cb4a6e548aa48183207b53f82cd32f020757",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/alternatives.cpp": "be1f60856fbf655e213c6662060edbc08113a5da04ab3f359a4afcaf90108d16",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/alternatives.dll": "1b17565bf1637c3bfcb8eee42d3dc4b8550dd6b6d3ff5174ee3c35679b07c3b2",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/belief/features.py": "9b4994e8f72d0d248c99126d567a54d6dd024070520e0d7134e10becd1cf4f94",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/belief/itineraries.cpp": "d9b19658ff7e2d5ce33d94757781b965e80578eff1d8ba5bdd65f2933c011d98",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/belief/itineraries.dll": "7711a2b36d3691307c8f739d1de7c10471377e7a9a79122dd2cecef472f1050c",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/belief/itineraries.py": "cbb06793c7d39d41a5c8ed91e85f77e1f2b05206aa8faf8be3c99375aa34d0a4",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/belief/joint_model.py": "cb0d08cbf37b9b98e555b1e04569b8afd44624b2c840119fd5e9bb57809a6446",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/belief/safety_net.py": "4db390c0d9dca54937f30005459128a236ecb018de3af1028c931c721e56a36f",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/belief/walks.cpp": "bcaeb211c53d8b0e70ad0a5c343cd835dbd4ec6a3000e7a06d53fb2a55d5a0e4",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/belief/walks.dll": "21d1d6b49aecd8f5d122999276d3efbba86875970ef242189cf93d609ea6713d",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/geometry.cpp": "11d17aa98f626590e8270ef582dc8abb68790b17910f146319fd565aeea1197e",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/model.py": "909793dc8e1855d0a62923505d7284687fb1f2deed84ebf00005af3a2121876d",
+    "results/verification-rl80/wave3-conservative/frozen/results/E-0016/sequence/sequence.dll": "02c34dd6d02d1a9f5a6b9d815534aa7af740dcd23220770d8e75f68481130eff",
+    "results/verification-rl80/wave3-conservative/origin.json": "79d446adc337a876d0071196705b15699c4c26b19e2b90129eb4da954cea1bdd",
+    "results/verification-rl80/wave3-conservative/registration.md": "6f69c5b37ea4e4b6749446beaa23871268fb7ab540ba929d68791cf06d63b046",
+    "results/verification-rl80/wave3-conservative/run.py": "9e45d1a77e0f3baf686336247ed56991fa0e6998c676c907fae3055961d35e44",
+    "results/verification-rl80/wave3-conservative/selection.json": "632a75895e3cf630c9b650a9066618c3f420426e1fe86000a46970480cecf8c9",
+    "results/verification-rl80/wave3-conservative/worker.py": "e1e2b5f563316f754b6ae3d22151f0116afb25fd266e7c6d569fd7591f3346f1"
+  },
+  "tools_sha256_lf": {
+    "evaluate.py": "c77a5b08ea52aa07315d736a8d21083906fbc66878454c40d7f773f161bb6cb3",
+    "suite.py": "3e33b35488c7ebbf5bda63e0577bd60e3393564b6c1d6f8c411e2fbb02b9a188",
+    "policy_worker.py": "9e3750dd8232ece6a01e9a55babe7835717845c0ee97a7d27acb372d07fd4b0a",
+    "policy_api.py": "28b49a5567e7a8553c6f4e7c11293bf3f31f360ecf5a6d0cad41015effe701cb"
+  }
+}

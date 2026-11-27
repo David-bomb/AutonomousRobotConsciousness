@@ -1,0 +1,141 @@
+{
+  "name": "prev-two-geodesic-9176444-H4-01",
+  "geometry": "85d175d6ef0101a10905c5eae78011b3ca10a9d8734367596fdc792ec6f9902d",
+  "tier": "H4",
+  "actions": "11221113330033333333003333001133333333000",
+  "corrections": 0,
+  "events": [
+    {
+      "step": 1,
+      "own": 1,
+      "chosen": 1,
+      "legal": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 2,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        7,
+        37
+      ]
+    },
+    {
+      "step": 2,
+      "own": 2,
+      "chosen": 2,
+      "legal": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "urgent": 1,
+      "slack": 0,
+      "signs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "viable": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "previous": [
+        6,
+        38
+      ]
+    }
+  ],
+  "windows": false,
+  "outcome": "BROKEN"
+}

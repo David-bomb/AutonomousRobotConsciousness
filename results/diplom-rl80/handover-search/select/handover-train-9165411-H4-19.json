@@ -1,0 +1,153 @@
+{
+  "options": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.03,
+      4.55,
+      -0.08,
+      3.87,
+      0.67,
+      1.71,
+      3.5,
+      3.87,
+      0.75,
+      1.0
+    ],
+    [
+      2.21,
+      1.04,
+      -1.76,
+      -0.06,
+      11.91,
+      0.58,
+      3.25,
+      4.88,
+      11.96,
+      2.49
+    ],
+    [
+      1.21,
+      -0.29,
+      0.92,
+      -0.08,
+      5.06,
+      1.89,
+      2.89,
+      8.4,
+      14.32,
+      0.24
+    ],
+    [
+      2.13,
+      0.94,
+      4.07,
+      0.81,
+      0.25,
+      1.72,
+      0.44,
+      0.23,
+      4.23,
+      2.46
+    ],
+    [
+      1.395,
+      1.56,
+      0.7875000000000001,
+      1.135,
+      4.4725,
+      1.4749999999999999,
+      2.52,
+      4.345,
+      7.815,
+      1.5475
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "handover-train-9165411-H4-19",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "EMPTY",
+      "gate": true,
+      "prefix": 21,
+      "prefix_sha256": "35a7aaccdba2af12ffd43b3c4028b630f068fab2c0142b19864e84d67179f347",
+      "late_steps": 3569,
+      "refuels": 44,
+      "repairs": 43
+    },
+    {
+      "map": "handover-train-9165411-H4-19",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "EMPTY",
+      "gate": true,
+      "prefix": 21,
+      "prefix_sha256": "045249eb19a58c60a0060e25f18b825a9a0116f1219ddeb8660a58b6039410ba",
+      "late_steps": 3569,
+      "refuels": 44,
+      "repairs": 43
+    },
+    {
+      "map": "handover-train-9165411-H4-19",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "EMPTY",
+      "gate": true,
+      "prefix": 23,
+      "prefix_sha256": "eb4bf6c3f8ee8ccd3f5f87aeb34f6718b87e9e537d2bcd1d80411d8aef2ee8db",
+      "late_steps": 3313,
+      "refuels": 39,
+      "repairs": 40
+    },
+    {
+      "map": "handover-train-9165411-H4-19",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "EMPTY",
+      "gate": true,
+      "prefix": 23,
+      "prefix_sha256": "eb4bf6c3f8ee8ccd3f5f87aeb34f6718b87e9e537d2bcd1d80411d8aef2ee8db",
+      "late_steps": 3313,
+      "refuels": 39,
+      "repairs": 40
+    },
+    {
+      "map": "handover-train-9165411-H4-19",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "BROKEN",
+      "gate": false,
+      "prefix": 23,
+      "prefix_sha256": "0cdec6aaafeeae74debd07a028dc0374f310d1b68de8c27be9253fdf6e188bc2",
+      "late_steps": 0,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "handover-train-9165411-H4-19",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "EMPTY",
+      "gate": true,
+      "prefix": 23,
+      "prefix_sha256": "eb4bf6c3f8ee8ccd3f5f87aeb34f6718b87e9e537d2bcd1d80411d8aef2ee8db",
+      "late_steps": 3313,
+      "refuels": 39,
+      "repairs": 40
+    }
+  ],
+  "distinct_early": 53,
+  "distinct_late": 6524,
+  "protocol_sha256": "d45ad787df85ae24cd8ea215804c5d550e6c1a20197e5d868e996118287b8f80"
+}

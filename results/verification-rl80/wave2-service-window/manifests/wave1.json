@@ -1,0 +1,38 @@
+{
+  "tag": "wave1",
+  "sha256": "369c0d5616a07a19f6fa992d53bdaa5a3004c5c54344c427f2345272b2f56432",
+  "base_sha256": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "utc": "2026-11-27T10:24:15.901005+00:00",
+  "adapter_sha256": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772",
+  "registration": "235a857c002708cce053838262827891d6b9733c8cf40e91852fd3e0bdd3354d",
+  "training": {
+    "parent": "super1500",
+    "method": "terminal population after policy gradient",
+    "selected": 1,
+    "first_scores": [
+      15,
+      16,
+      11,
+      11,
+      11,
+      10,
+      10,
+      11,
+      6,
+      10,
+      9,
+      9,
+      10,
+      9,
+      9,
+      10
+    ],
+    "second_scores": [
+      17,
+      19,
+      13,
+      16
+    ],
+    "train_file": "terminal/wave1.json"
+  }
+}

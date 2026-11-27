@@ -1,0 +1,12 @@
+{
+  "source": "1694bf83356355a6a1e357083055bac312b91b0edfc5d74e6753221f7c27feef",
+  "samples": 384,
+  "code": {
+    "morphology_worlds.cpp": "011e678e73ed56b38cd4cc2fe7b415fb6c7977f03aeece0893669ba30260181a",
+    "morphology_worlds.dll": "b7208ebed8a5676a7631ef70738c2eb1bd614bd072536a335ede15c9a11f03b8",
+    "morph_policy.py": "c2dd3133aa813b605c5abef978f0a4a864e3081b043f4b554820a88d6eb026a0",
+    "morph_probe.py": "4dfb75974849060c9d1ac643107390098d8fab84e6643a122698133ad17bd56b",
+    "origin_trace.py": "29f340675ff88b4063757e4b2fcdecc337c08d29ec20523eea67aa5e906c157c"
+  },
+  "method": "Same 286 held-back training forks as the earlier conditional-world experiment. Build feasible underlying coarse trees, then exact-count rectangles or extra holes compatible with all observed floor/wall/landmark cells. Compare predicted service descent against true physical next readings. The true family is used only for reporting."
+}

@@ -1,0 +1,30 @@
+{
+  "seed": 1610,
+  "epochs": 6,
+  "device": "cpu",
+  "updates": 1488,
+  "before": {
+    "labels": 37828,
+    "correct": 17472,
+    "tight_decisions": 3125,
+    "tight_downhill": 1130,
+    "uniform_expected": 1431.9202575683594
+  },
+  "after": {
+    "labels": 37828,
+    "correct": 34544,
+    "tight_decisions": 3125,
+    "tight_downhill": 2838,
+    "uniform_expected": 1431.9202575683594
+  },
+  "seconds": 30.166715500000464,
+  "weights_sha256": "405521a1a3bad60218fcf13427c17d4c6a21c3d4ddcfca707828eb71c9fd97c3",
+  "sources": {
+    "sensor.py": "ef464a2bfdbb1c0cb102a81711a08676a3b046c0f491c63c9b4dc3b18152ab36",
+    "model.py": "909793dc8e1855d0a62923505d7284687fb1f2deed84ebf00005af3a2121876d",
+    "train.py": "8430e4fc9237b31c829876842c18260df4156e9a99712057ddae399e3f7f8d57",
+    "prepare-train-600.json": "fd99e17da890d183079cd750f411a6bbec630ac8a0c6928597a4fb957ef3e9e8",
+    "prepare-probe-100.json": "171e5549ede1ecb7cf033cec09a2dd9f09d1f9b16673f1a808ed44aea44d2049",
+    "prepare-partial-100.json": "c4f4e66e07003ef1cdd9a9bd8cd1388f777b4d1b1e30cf37dd596d8f11a392f0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "validation",
+  "inputs": [
+    "results/E-0016/data/dev.jsonl"
+  ],
+  "contract": {
+    "version": 1,
+    "threshold": null,
+    "sets": {
+      "validation-1": {
+        "path": "results/E-0016/data/dev.jsonl",
+        "sha256_lf": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+        "geometries": "27573b0ed0cb07a49f6cb4eec6d61b18d1e89105fed41c6796e5fc8b83b8bf65",
+        "stocks": "fecf911f791f449165ce0add594fbf3b8e525448393fbda96b748acfc3e4a1f9",
+        "scenarios": "9f698a5dd9c885b907eb238c290d85dbfaf7e7e090a2e6320ff6464cae8c93b6",
+        "count": 100
+      }
+    },
+    "environment_sha256_lf": {
+      "maze/environment.py": "703046fe3788f308f5ec4e66be5610f869e6dd68d0506b365aaefc9b719d306b",
+      "maze/memory.py": "026f40914da9f29b687b181884c11dcd1ba521a8b8aa06b4292e90f1bdb67b57",
+      "maze/interface.py": "71009a026fe9825b31c66f416bd0ae7e8fa21f780d08e42ac5b1ab3d7aab662f",
+      "maze/grid.py": "e0e0e0a3bc7912a2d08f68210d980cafe78aa810bd7a68bc9d57461d9661d867",
+      "maze/levels.py": "6b100178a475715d90399ca3aa9cf32530981d94af2ceaa0b6467bb6a247a842",
+      "maze/datasets.py": "f31150fe9a2d328ff14f2ce83e73cbdc164f7c8f939e9bf67341339a856ae2f7"
+    },
+    "actions": [
+      "NORTH",
+      "EAST",
+      "SOUTH",
+      "WEST",
+      "NE",
+      "SE",
+      "SW",
+      "NW"
+    ],
+    "limit": "8*height*width"
+  },
+  "exclusion": {
+    "historical_count": 79186,
+    "historical_sha256": "39af135936384df8eb93808d1868e3f20a2afd23375db57172b4939d5cfd31bb",
+    "additional": {
+      "results/E-0016/data/train.jsonl": {
+        "count": 800,
+        "sha256_lf": "524c9b98b433779eb5cf51cbb654fe59c8a15ed78338deae6dd442785e2db0f5"
+      }
+    },
+    "common": 0
+  }
+}

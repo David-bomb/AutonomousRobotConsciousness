@@ -1,0 +1,38 @@
+{
+  "A": {
+    "producer_protocol_sha256": "6b5c78e2c416ff2bcbe1745024ffcdcecfbb6be268a525f1d491ec3a6ffb8aa9",
+    "weights_sha256": "eb11b8ec3f1c6c2f24996e23fe9384f91b3bba33cffa8202193109911cce6f4c",
+    "matched_code": {
+      "service_window_policy.py": "119b44af723943de0942d3be0f01fb47aa32621a3852d0a2d0401dbef974962f"
+    }
+  },
+  "C": {
+    "producer_protocol_sha256": "f545d6fbdcaff46a8770dd48298ad3358dccb861a50dcd208bf31c8ef7a062b0",
+    "weights_sha256": "839140fa1346c675d550f6ee4ace6aaa5eb9f7a1d07c254a2be8a6e86f6f0bed",
+    "matched_code": {
+      "tree_policy.py": "dfde2d1faae17da5c6af6fa3b23e30e42367405066b3cd00da73352318f4520e",
+      "tree_paths.cpp": "c221f0e612491e26d670cd9d2279c19c16b59e9353470f8b4bc3e54ce6a9fda5",
+      "tree_paths.dll": "8b0d1bd08ba83b1f1ae90c5b21ddafeb3f8780393308b7a9f12e4d35338776eb"
+    }
+  },
+  "D": {
+    "producer_protocol_sha256": "3a163cb8ff419095040b90fd0b7ffa6e88be08454a4379fe87aa67950c46551f",
+    "weights_sha256": "07859179f66199b6ecf95c5ef662f3bde4ad31b5956aa7ef8ae568446d958576",
+    "matched_code": {
+      "panel_policy.py": "1f4d6aa757ad37fa81bc81d271f8e0e3a80169d4dcd6cfa03b4ccb5ed1c759ba",
+      "geodesic_evidence.dll": "ca3a35125b20a0081265b7795920a0ba62cc528361f52dadd3eab47695997bab",
+      "tree_paths.dll": "8b0d1bd08ba83b1f1ae90c5b21ddafeb3f8780393308b7a9f12e4d35338776eb"
+    }
+  },
+  "B": {
+    "threshold": 0.9,
+    "weights_sha256": "f9bd509a7d4778f4d0e33cd1ad3924f8eb8a0923086c8448b42ac7ebddee35bf",
+    "matched_code": {
+      "cautious_policy.py": "85d37f27fd57e1b2c320e757f7febb37c5a9350f0c0043350041454a0bd34d1a",
+      "cautious_geometry.cpp": "39373806198c11fa858c9efb876e18c6995422cae2b324e8e32d41114a2a20af",
+      "cautious_geometry.dll": "647f1ff0946b1b1a7f943cce69bdb8a5081fcaf4ed36adba1d34eefe49512534",
+      "early_policy.py": "080699067ee419965439a62d4063fc5b348746677b3d1a6a158a69e10a02f4d6",
+      "adapter.py": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772"
+    }
+  }
+}

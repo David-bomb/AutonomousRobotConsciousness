@@ -1,0 +1,370 @@
+{
+  "weights_sha256": "bec9166f3c4ffd63740ab1c17a5e3f69a4639a756833187adee4a42b688d7200",
+  "baseline_sha256": "42da105a27647ff04d905117edb1ddb150f3f3e3213a8b1f92c6619e694f5a30",
+  "selection": {
+    "total": {
+      "starts": 200,
+      "base": 110,
+      "room": 111,
+      "gained": 2,
+      "lost": 1,
+      "both_services_base": 123,
+      "both_services_room": 124
+    },
+    "h4": {
+      "corridors": {
+        "starts": 12,
+        "base": 3,
+        "room": 3,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 5,
+        "both_services_room": 5
+      },
+      "branching": {
+        "starts": 12,
+        "base": 6,
+        "room": 6,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 7,
+        "both_services_room": 7
+      },
+      "loops": {
+        "starts": 12,
+        "base": 2,
+        "room": 2,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 3,
+        "both_services_room": 3
+      },
+      "rooms": {
+        "starts": 14,
+        "base": 6,
+        "room": 6,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 7,
+        "both_services_room": 7
+      }
+    }
+  },
+  "selection_before_after_RL": {
+    "total": {
+      "starts": 200,
+      "base": 111,
+      "room": 111,
+      "gained": 0,
+      "lost": 0,
+      "both_services_base": 124,
+      "both_services_room": 124
+    },
+    "h4": {
+      "corridors": {
+        "starts": 12,
+        "base": 3,
+        "room": 3,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 5,
+        "both_services_room": 5
+      },
+      "branching": {
+        "starts": 12,
+        "base": 6,
+        "room": 6,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 7,
+        "both_services_room": 7
+      },
+      "loops": {
+        "starts": 12,
+        "base": 2,
+        "room": 2,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 3,
+        "both_services_room": 3
+      },
+      "rooms": {
+        "starts": 14,
+        "base": 6,
+        "room": 6,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 7,
+        "both_services_room": 7
+      }
+    }
+  },
+  "dev": {
+    "total": {
+      "starts": 100,
+      "base": 60,
+      "room": 59,
+      "gained": 0,
+      "lost": 1,
+      "both_services_base": 66,
+      "both_services_room": 65
+    },
+    "h4": {
+      "corridors": {
+        "starts": 6,
+        "base": 2,
+        "room": 2,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 2,
+        "both_services_room": 2
+      },
+      "branching": {
+        "starts": 6,
+        "base": 1,
+        "room": 1,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 1,
+        "both_services_room": 1
+      },
+      "loops": {
+        "starts": 6,
+        "base": 4,
+        "room": 4,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 4,
+        "both_services_room": 4
+      },
+      "rooms": {
+        "starts": 7,
+        "base": 1,
+        "room": 0,
+        "gained": 0,
+        "lost": 1,
+        "both_services_base": 1,
+        "both_services_room": 0
+      }
+    }
+  },
+  "independent": {
+    "total": {
+      "starts": 100,
+      "base": 52,
+      "room": 52,
+      "gained": 0,
+      "lost": 0,
+      "both_services_base": 59,
+      "both_services_room": 59
+    },
+    "h4": {
+      "corridors": {
+        "starts": 6,
+        "base": 1,
+        "room": 1,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 3,
+        "both_services_room": 3
+      },
+      "branching": {
+        "starts": 6,
+        "base": 2,
+        "room": 2,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 3,
+        "both_services_room": 3
+      },
+      "loops": {
+        "starts": 6,
+        "base": 1,
+        "room": 1,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 1,
+        "both_services_room": 1
+      },
+      "rooms": {
+        "starts": 7,
+        "base": 1,
+        "room": 1,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 1,
+        "both_services_room": 1
+      }
+    }
+  },
+  "independent_before_after_RL": {
+    "total": {
+      "starts": 100,
+      "base": 52,
+      "room": 52,
+      "gained": 0,
+      "lost": 0,
+      "both_services_base": 59,
+      "both_services_room": 59
+    },
+    "h4": {
+      "corridors": {
+        "starts": 6,
+        "base": 1,
+        "room": 1,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 3,
+        "both_services_room": 3
+      },
+      "branching": {
+        "starts": 6,
+        "base": 2,
+        "room": 2,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 3,
+        "both_services_room": 3
+      },
+      "loops": {
+        "starts": 6,
+        "base": 1,
+        "room": 1,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 1,
+        "both_services_room": 1
+      },
+      "rooms": {
+        "starts": 7,
+        "base": 1,
+        "room": 1,
+        "gained": 0,
+        "lost": 0,
+        "both_services_base": 1,
+        "both_services_room": 1
+      }
+    }
+  },
+  "independent_early_choices": {
+    "first_tight": {
+      "all_all": {
+        "count": 68,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 14,
+        "core_roads": 127,
+        "real_roads": 127
+      },
+      "all_H4": {
+        "count": 24,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 4,
+        "core_roads": 26,
+        "real_roads": 26
+      },
+      "rooms_all": {
+        "count": 18,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 14,
+        "core_roads": 127,
+        "real_roads": 127
+      },
+      "rooms_H4": {
+        "count": 6,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 4,
+        "core_roads": 26,
+        "real_roads": 26
+      },
+      "loops_all": {
+        "count": 15,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 0,
+        "core_roads": 0,
+        "real_roads": 0
+      },
+      "loops_H4": {
+        "count": 6,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 0,
+        "core_roads": 0,
+        "real_roads": 0
+      }
+    },
+    "first_loss": {
+      "all_all": {
+        "count": 41,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 10,
+        "core_roads": 74,
+        "real_roads": 74
+      },
+      "all_H4": {
+        "count": 17,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 4,
+        "core_roads": 19,
+        "real_roads": 19
+      },
+      "rooms_all": {
+        "count": 15,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 10,
+        "core_roads": 74,
+        "real_roads": 74
+      },
+      "rooms_H4": {
+        "count": 6,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 4,
+        "core_roads": 19,
+        "real_roads": 19
+      },
+      "loops_all": {
+        "count": 11,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 0,
+        "core_roads": 0,
+        "real_roads": 0
+      },
+      "loops_H4": {
+        "count": 5,
+        "changed": 0,
+        "gained": 0,
+        "lost": 0,
+        "classified_as_rooms": 0,
+        "core_roads": 0,
+        "real_roads": 0
+      }
+    }
+  },
+  "sources": {
+    "selection.json": "6b3e74bdf49bc14ac985751f1572eeec3eb508faa8ca1a771cf3bc67faf439f4",
+    "locked-before-dev.json": "0ae0d0801b42cfe1cf81465476285b1d2bf2f9d11d7f729f571493311c671324",
+    "rl.physical.json": "eafa44afebd1e7307589a8033a4f33e739892236990fe1546f62427e40e66761",
+    "independent.json": "5070deabf6acd8a0d252ae8e5bed5724661847c9cce8850ae6febafe31216960",
+    "independent-pre.json": "a50c1f12aa49c11b2131d84b213cd8a8d3589f3ab23ac2e03fd26cf2016fbd1e"
+  }
+}

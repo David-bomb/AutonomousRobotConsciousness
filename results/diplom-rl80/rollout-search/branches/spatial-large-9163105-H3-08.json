@@ -1,0 +1,133 @@
+{
+  "map": "spatial-large-9163105-H3-08",
+  "tier": "H3",
+  "geometry": "905d135f0949c26f00a86e52ef4258a7d913cb18bc328561f84cba2b5ae6b78a",
+  "samples": 3,
+  "features": "440703987ac8d4dda55fe5a3442c8d7023422db29d9c36aa7edef447e144c169",
+  "base": "eb11b8ec3f1c6c2f24996e23fe9384f91b3bba33cffa8202193109911cce6f4c",
+  "forks": [
+    {
+      "step": 1,
+      "slack": 2,
+      "parent": 6,
+      "responses": [
+        [
+          0,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          1,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          2,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          3,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          6,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          7,
+          "SUCCESS",
+          true,
+          true
+        ]
+      ]
+    },
+    {
+      "step": 3,
+      "slack": 0,
+      "parent": 7,
+      "responses": [
+        [
+          0,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          1,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          3,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          7,
+          "SUCCESS",
+          true,
+          true
+        ]
+      ]
+    },
+    {
+      "step": 18,
+      "slack": 3,
+      "parent": 5,
+      "responses": [
+        [
+          0,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          1,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          2,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          3,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          4,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          5,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          7,
+          "SUCCESS",
+          true,
+          false
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "weights": "bec9166f3c4ffd63740ab1c17a5e3f69a4639a756833187adee4a42b688d7200",
+  "source": "7163e8d5ed7dc617f08dece6d4138b29308e5199146bfd08a3e26fce8ee44bfb",
+  "independent": "5070deabf6acd8a0d252ae8e5bed5724661847c9cce8850ae6febafe31216960",
+  "groups": {
+    "all": {
+      "losses": 41,
+      "room_classified": 10,
+      "core_present": 10,
+      "walls_present": 35,
+      "direction_dependent": 10,
+      "raises_safe_above_other": 2,
+      "changed": 0,
+      "rescued": 0
+    },
+    "rooms": {
+      "losses": 15,
+      "room_classified": 10,
+      "core_present": 10,
+      "walls_present": 15,
+      "direction_dependent": 10,
+      "raises_safe_above_other": 2,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H1": {
+      "losses": 2,
+      "room_classified": 0,
+      "core_present": 1,
+      "walls_present": 2,
+      "direction_dependent": 1,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H1_rooms": {
+      "losses": 1,
+      "room_classified": 0,
+      "core_present": 1,
+      "walls_present": 1,
+      "direction_dependent": 1,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "branching": {
+      "losses": 9,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 9,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H1_branching": {
+      "losses": 1,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 1,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H2_branching": {
+      "losses": 3,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 3,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H2": {
+      "losses": 10,
+      "room_classified": 3,
+      "core_present": 3,
+      "walls_present": 9,
+      "direction_dependent": 3,
+      "raises_safe_above_other": 1,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H2_loops": {
+      "losses": 2,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 1,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "loops": {
+      "losses": 11,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 5,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H2_rooms": {
+      "losses": 4,
+      "room_classified": 3,
+      "core_present": 3,
+      "walls_present": 4,
+      "direction_dependent": 3,
+      "raises_safe_above_other": 1,
+      "changed": 0,
+      "rescued": 0
+    },
+    "corridors": {
+      "losses": 6,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 6,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H2_corridors": {
+      "losses": 1,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 1,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H3_loops": {
+      "losses": 4,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 2,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H3": {
+      "losses": 12,
+      "room_classified": 3,
+      "core_present": 2,
+      "walls_present": 10,
+      "direction_dependent": 2,
+      "raises_safe_above_other": 1,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H3_branching": {
+      "losses": 2,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 2,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H3_corridors": {
+      "losses": 2,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 2,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H3_rooms": {
+      "losses": 4,
+      "room_classified": 3,
+      "core_present": 2,
+      "walls_present": 4,
+      "direction_dependent": 2,
+      "raises_safe_above_other": 1,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H4_branching": {
+      "losses": 3,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 3,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H4": {
+      "losses": 17,
+      "room_classified": 4,
+      "core_present": 4,
+      "walls_present": 14,
+      "direction_dependent": 4,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H4_rooms": {
+      "losses": 6,
+      "room_classified": 4,
+      "core_present": 4,
+      "walls_present": 6,
+      "direction_dependent": 4,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H4_loops": {
+      "losses": 5,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 2,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    },
+    "H4_corridors": {
+      "losses": 3,
+      "room_classified": 0,
+      "core_present": 0,
+      "walls_present": 3,
+      "direction_dependent": 0,
+      "raises_safe_above_other": 0,
+      "changed": 0,
+      "rescued": 0
+    }
+  }
+}

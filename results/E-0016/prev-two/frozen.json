@@ -1,0 +1,24 @@
+{
+  "tag": "route-rl",
+  "weights": "weights/route-rl.pt",
+  "sha256": "636b13f2abd1c64d762d30c76454c9c4f6d2c7fb09b9056e32d84b759bca4d55",
+  "dev_result": "dev/route-rl-honest.json",
+  "ablation": "dev/route-rl-ablated.json",
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "identical_uncached_episodes": 100,
+  "identical_actions": 129073,
+  "module": "results.E-0016.prev-two.frozen_adapter",
+  "factory": "load",
+  "device": "cpu",
+  "sources": {
+    "results/E-0016/prev-two/adapter.py": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772",
+    "results/E-0016/prev-two/frozen_adapter.py": "7e24d3c0c971bceb9d223bed3d1914ae247d223bd5395b18877e76cd702e59ea",
+    "results/E-0016/sequence/model.py": "909793dc8e1855d0a62923505d7284687fb1f2deed84ebf00005af3a2121876d",
+    "results/E-0016/sequence/sequence.dll": "02c34dd6d02d1a9f5a6b9d815534aa7af740dcd23220770d8e75f68481130eff",
+    "results/E-0016/policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "results/E-0016/critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "results/E-0016/rich_policy.py": "41bebfb12845274ee6300495df4b50772cbc43ae0f938449f454d615671cbe46",
+    "results/E-0016/geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "results/E-0016/prev-two/route_adapter.py": "bcabaeecfe7b401df8ee686076bb83e0c23a8286307ea701dc2df7c7dd4aca2b"
+  }
+}

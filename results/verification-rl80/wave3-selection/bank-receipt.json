@@ -1,0 +1,167 @@
+{
+  "seeds": [
+    9167001,
+    9167002
+  ],
+  "sets": {
+    "9167001": {
+      "sha256": "1db74426788c16546c34da8c625055cb3ad7dd7018f5c668fb4caca7bccc7242",
+      "canonical_walls_sha256": "addcfef37aad3b22e98cfbcbe50d9ae66ab972bba8e63a963af97e381f6d38da",
+      "maps": 100,
+      "overlap": 0
+    },
+    "9167002": {
+      "sha256": "7672227424af31939d03bbcf15b552224461f47998c862bdc9d142a734834b90",
+      "canonical_walls_sha256": "411231ac4b02627d2b0a698cc54893eed8fc2ffdc6d8b64ba98c94865343319a",
+      "maps": 100,
+      "overlap": 0
+    }
+  },
+  "mutual_overlap": 0,
+  "protected": {
+    "I": {
+      "count": 100,
+      "sha256_lf": "ea09b467f486a64ffcabe20086c632da27c9c431e55d017be2732174971ef899"
+    },
+    "II": {
+      "count": 100,
+      "sha256_lf": "ed26050bcb1cd455e9fad8a19bd522e82426615ededac10dbf244e91d8c79e64"
+    },
+    "III": {
+      "count": 100,
+      "sha256_lf": "daf93cb623f52361a60c89dac63ba29ee99bc6ec6a7231d4effd1ee48d73f9e3"
+    },
+    "data/dev.jsonl": {
+      "count": 100,
+      "sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6"
+    },
+    "data/confirmation.jsonl": {
+      "count": 200,
+      "sha256": "bf0fc2ea01b1947d43e894d72a62b0d8f4d3a37dfcc694edbf362088caaaf789"
+    }
+  },
+  "prior_archive_and_registered": 97986,
+  "factorial_distinct": 30060,
+  "extra_sources": {
+    "results/E-0016/prev-two/conservative/9176420.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/conservative/9176421.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/conservative/9176422.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/conservative/9176423.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/conservative/9176424.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/conservative/9176425.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/conservative/9176426.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/conservative/9176427.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/early/fit1.json": {
+      "fingerprints": 66,
+      "additional": 66
+    },
+    "results/E-0016/prev-two/early/fit2.json": {
+      "fingerprints": 66,
+      "additional": 66
+    },
+    "results/E-0016/prev-two/early/fit3.json": {
+      "fingerprints": 66,
+      "additional": 66
+    },
+    "results/E-0016/prev-two/early/hold-early600.json": {
+      "fingerprints": 48,
+      "additional": 48
+    },
+    "results/E-0016/prev-two/early/select-early1200.json": {
+      "fingerprints": 32,
+      "additional": 32
+    },
+    "results/E-0016/prev-two/geodesic/9176440.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/geodesic/9176441.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/geodesic/9176442.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/geodesic/9176443.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/geodesic/9176444.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/geodesic/9176445.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/geodesic/9176446.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/geodesic/9176447.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/geodesic/9176448.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/prev-two/geodesic/9176449.json": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "results/E-0016/sequence/spatial/risk-selection.jsonl": {
+      "fingerprints": 200,
+      "additional": 200
+    },
+    "results/E-0016/sequence/spatial/route-selection.jsonl": {
+      "fingerprints": 200,
+      "additional": 200
+    },
+    "train.jsonl@phase100-train": {
+      "fingerprints": 100,
+      "additional": 100
+    },
+    "train.jsonl@handover-search": {
+      "fingerprints": 200,
+      "additional": 200
+    },
+    "bank.jsonl@return-search": {
+      "fingerprints": 200,
+      "additional": 200
+    },
+    "holdout.jsonl@panel-search": {
+      "fingerprints": 200,
+      "additional": 200
+    }
+  },
+  "excluded_count": 101164,
+  "excluded_sha256": "c1779ed5834f9754793935e92dcd0a1d0bd1f206e0497ef8fa9cd940c339cbe8",
+  "generator_sha256": "6d8ecf7c4a06be6c80c488b84c51ccc81f46e55454008769e8bc4b8462352e7a",
+  "extractor_sha256": "a767a04ce52609d81e827c14f19e1bb389c00111f5fd648174a90b34148c2a7d"
+}

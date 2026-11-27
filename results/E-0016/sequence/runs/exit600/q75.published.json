@@ -1,0 +1,53 @@
+{
+  "weights": "sequence/runs/exit600/q75.pt",
+  "weights_sha256": "a55a337ab5766339485b1abfc895d6e7aaad75d3aecba3fd421602cd3a53cf5f",
+  "adapter": "sequence/alt_adapter.py",
+  "source_sha256": {
+    "policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "rich_policy.py": "41bebfb12845274ee6300495df4b50772cbc43ae0f938449f454d615671cbe46",
+    "geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "dev.py": "f908f4c7329270a31dc7fb028bad730109efd70300a92d7a4e319d05cf8f8c8b",
+    "sequence/model.py": "909793dc8e1855d0a62923505d7284687fb1f2deed84ebf00005af3a2121876d",
+    "sequence/geometry.cpp": "11d17aa98f626590e8270ef582dc8abb68790b17910f146319fd565aeea1197e",
+    "sequence/sequence.dll": "02c34dd6d02d1a9f5a6b9d815534aa7af740dcd23220770d8e75f68481130eff",
+    "sequence/alt_adapter.py": "5da98ab6feb0f9efa0d710892240a2d591687c8a75b6f7166d9a3e414eeabafe",
+    "sequence/alt_model.py": "babd5088de57c2c2b9d42c45e6b7cb4a6e548aa48183207b53f82cd32f020757",
+    "sequence/alternatives.cpp": "be1f60856fbf655e213c6662060edbc08113a5da04ab3f359a4afcaf90108d16",
+    "sequence/alternatives.dll": "1b17565bf1637c3bfcb8eee42d3dc4b8550dd6b6d3ff5174ee3c35679b07c3b2"
+  },
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "summary": {
+    "wins": 42,
+    "by_tier": {
+      "H1": 20,
+      "H2": 11,
+      "H3": 7,
+      "H4": 4
+    },
+    "outcomes": {
+      "EMPTY": 30,
+      "LIMIT": 7,
+      "SUCCESS": 42,
+      "BROKEN": 21
+    },
+    "fuel": 68,
+    "repair": 68,
+    "either": 79,
+    "both": 57
+  },
+  "exact_repeats": 100,
+  "isolated": {
+    "split": "validation-1",
+    "id": "dev-9160200-H1-01",
+    "geometry": "448ba1667e531b89c4a704259098985ca88648f6888b09a25ee1f64d41f609eb",
+    "scenario_sha256": "f25a95a094bdf1728697a0443a9c853b05ca87fcfeaf5ca6de36ff683f31ba65",
+    "outcome": "EMPTY",
+    "steps": 29,
+    "refuels": 0,
+    "repairs": 1,
+    "actions_sha256": "a98e74bbee5f1433a82b357c4903220af636acf2ba3af2a00c106833323b8016"
+  },
+  "worker_sha256": "9e3750dd8232ece6a01e9a55babe7835717845c0ee97a7d27acb372d07fd4b0a"
+}

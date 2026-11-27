@@ -1,0 +1,1023 @@
+{
+  "weights_sha256": "e39ab3bb9aff3fa5d378c145688c640bf86269339bab22163d20a4f35d5597e2",
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "protocol_sha256": "748c7ccafee2a93a4f587797de5a5177c2b83e3a3a25f98e8208297c15655341",
+  "ablated": true,
+  "summary": {
+    "wins": 43,
+    "outcomes": {
+      "EMPTY": 25,
+      "SUCCESS": 43,
+      "BROKEN": 32
+    },
+    "by_tier": {
+      "H1": 21,
+      "H2": 9,
+      "H3": 9,
+      "H4": 4
+    },
+    "both": 53
+  },
+  "episodes": [
+    {
+      "map": "dev-9160200-H1-01",
+      "geometry": "448ba1667e531b89c4a704259098985ca88648f6888b09a25ee1f64d41f609eb",
+      "tier": "H1",
+      "outcome": "EMPTY",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "a98e74bbee5f1433a82b357c4903220af636acf2ba3af2a00c106833323b8016"
+    },
+    {
+      "map": "dev-9160200-H1-02",
+      "geometry": "9f0aaafe9c28fb2000da9b0e8ad66bef803273a675011e2abcc90d55f3d8e1f6",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 48,
+      "refuels": 1,
+      "repairs": 1,
+      "actions_sha256": "cb45258dceadd6fd8ab4e2071961e3ea7fdef791f676c93b90d7c04d34012d14"
+    },
+    {
+      "map": "dev-9160200-H1-03",
+      "geometry": "e892f99b646292af089cd8518604221b3e759cf1c26468e0bb074d306bc27ec0",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 415,
+      "refuels": 6,
+      "repairs": 5,
+      "actions_sha256": "e217b8c3b107cd10ea3187792c0078f5a0eb4fadbc6325345c3b5e45619e40b0"
+    },
+    {
+      "map": "dev-9160200-H1-04",
+      "geometry": "298d519ffc40de40f23548a9fffdd1193ffb45eeb1553d76afd9683f5da6c5fe",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 191,
+      "refuels": 3,
+      "repairs": 4,
+      "actions_sha256": "0ef6b47cef5404ee04ba20a5c18eecfb1d3ef284bbabfe4455b742ed9c763400"
+    },
+    {
+      "map": "dev-9160200-H1-05",
+      "geometry": "6104ddc5d45e62902b37b205300854ad4cbf362e63e8e0840d76c1f9a4e49565",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 371,
+      "refuels": 6,
+      "repairs": 5,
+      "actions_sha256": "979fbac4053ca856c419373ef1f593e0626e11c1f4fb1e32d92039dc783a9226"
+    },
+    {
+      "map": "dev-9160200-H1-06",
+      "geometry": "a9043b5857ed6bd2fc761464a77ccbd903cd405dec869a52ff287dc2327bff34",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 60,
+      "refuels": 1,
+      "repairs": 1,
+      "actions_sha256": "d61d9e9be8c59831c855c24b530ecd256ffdd8009df2a77024ac0135035984d2"
+    },
+    {
+      "map": "dev-9160200-H1-07",
+      "geometry": "5d3027142666fc3d8c4a87884ab0ff958a4e8658bf74e44905ea2d5985a0c6d9",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 175,
+      "refuels": 5,
+      "repairs": 5,
+      "actions_sha256": "0bee8a8dc6823c574668f522bcd228d104fdc4dd0b27e73aa2a1377d062b840c"
+    },
+    {
+      "map": "dev-9160200-H1-08",
+      "geometry": "94186a74ce4939e65ad4876f80cfb068c5ee58e64ffc7f2ebcb21b55780081fd",
+      "tier": "H1",
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "e979b36ebc590cf438088ec4f008101b56f855b8080272d113152d24b067da78"
+    },
+    {
+      "map": "dev-9160200-H1-09",
+      "geometry": "8c296cc59755dbc154767cd76ed8a7219df1f8489191545143af25e2b4c5cd95",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 73,
+      "refuels": 2,
+      "repairs": 2,
+      "actions_sha256": "5d30cc628df67af7be7614cefcd1167fd94f8c5ff4cabaf3f1ce4dcdf303a357"
+    },
+    {
+      "map": "dev-9160200-H1-10",
+      "geometry": "ae98fb203ab398e103bf45bed9f561757962078b572d250b9ccc806e0e142589",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 428,
+      "refuels": 11,
+      "repairs": 6,
+      "actions_sha256": "b4f32090123805c231bbf824ec34a185d79976ce4e580b8a6b6d9d772db76c0e"
+    },
+    {
+      "map": "dev-9160200-H1-11",
+      "geometry": "90c8a9a4f12bcbc5530074cbdbdd9f252fbf4f0a8545997ec0802fe99573a5b3",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 65,
+      "refuels": 1,
+      "repairs": 3,
+      "actions_sha256": "033952403c35631c98bfb486aeea2d43acc7a9e63d3c172bca7bbbeaf5718342"
+    },
+    {
+      "map": "dev-9160200-H1-12",
+      "geometry": "47ab6cbfdb5dfb6fbf83d860fdc2ee39122844299b4f827b41530f89067d05f7",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 78,
+      "refuels": 2,
+      "repairs": 1,
+      "actions_sha256": "96c251b3441aac93bab6437e38661b24bc925f0a4fc5b9c28cfdaaa54cfed64b"
+    },
+    {
+      "map": "dev-9160200-H1-13",
+      "geometry": "6a692668485c80ef963d14138ae350c0a049a20ca99251981333cdbe48cd4b4a",
+      "tier": "H1",
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "59fe2eef36ccfdfdf68a48372c47f2c07349d03839176854a8597a84180f36ac"
+    },
+    {
+      "map": "dev-9160200-H1-14",
+      "geometry": "04b7eb5f200d3b95a6faa12e50b7df73e032b8d106e44a79485d01d9c8c493f5",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 46,
+      "refuels": 1,
+      "repairs": 1,
+      "actions_sha256": "2aa9eb25ff69e0b60f58170a7411d2b67701d8199b08ccdfd3d397e5f8cfe1c9"
+    },
+    {
+      "map": "dev-9160200-H1-15",
+      "geometry": "c87cbdd2025a44be018e76b717426b78343c4dc8e0b158d31cfc1a478848f144",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 347,
+      "refuels": 7,
+      "repairs": 6,
+      "actions_sha256": "39bdbc5b034a9b7c0470681920941897c6f914584aa906b01a9a8249836cac53"
+    },
+    {
+      "map": "dev-9160200-H1-16",
+      "geometry": "7e6c04b7b39b4fa4df3b56ed29e0c981e8143d0f562bef203f668af47e3a3899",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 483,
+      "refuels": 6,
+      "repairs": 9,
+      "actions_sha256": "a29ea274bbe456ee0c26193467bcbc6bfdcdfe083062b4a5e92d5f900edfd1c0"
+    },
+    {
+      "map": "dev-9160200-H1-17",
+      "geometry": "12e8f6dae69e1a68cb8cb61e76f09c18dbf54fe8e2271938aaf9ca080f6afc99",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 68,
+      "refuels": 2,
+      "repairs": 2,
+      "actions_sha256": "2594a5a42ac9949957fca854c056d81085fda8043dfa3c4536317466ad32f50f"
+    },
+    {
+      "map": "dev-9160200-H1-18",
+      "geometry": "4bf4e47e3cf7e394a5fb8635ab3bad1dd37d83c5d4629912326cdfe6c2b2dcea",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 50,
+      "refuels": 1,
+      "repairs": 1,
+      "actions_sha256": "adf3233dcead2ec8d8c7aa20f6b82f4957111f59f108b53a9bd9df6341ddaa87"
+    },
+    {
+      "map": "dev-9160200-H1-19",
+      "geometry": "0870babfaee419abc82015adc64c3dce7aefeda10fdafccd99494b493d458af0",
+      "tier": "H1",
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "4a22bb2d8cded1c444e2bf58461538d1718ef2df605ed7a164aee04970692803"
+    },
+    {
+      "map": "dev-9160200-H1-20",
+      "geometry": "3fe04d4c51d6b921c779188ade90f982ebb9de25ea52c2fcca4bc248f1c60f73",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 459,
+      "refuels": 9,
+      "repairs": 7,
+      "actions_sha256": "f85db7ab8822e465ceaa8544d941d4d451eadd46a1e5dadebec405ccafc760ab"
+    },
+    {
+      "map": "dev-9160200-H1-21",
+      "geometry": "2140327e5d3d80126d1f2262b83894ee250df0f3488b45bbe714575381a0b0ad",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 42,
+      "refuels": 1,
+      "repairs": 1,
+      "actions_sha256": "c3422c9e95721ac8a39a5429163de21e5bf2f4757972c7e6cf31db5990e95636"
+    },
+    {
+      "map": "dev-9160200-H1-22",
+      "geometry": "94c864e42cb873e4627826dd6f1d544471fe114efdbddd1d5cc31a4c3239412b",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 433,
+      "refuels": 7,
+      "repairs": 9,
+      "actions_sha256": "a696a8f9f5329ca77358723124a685dacac060e779fef72d45f0c886e9ffe2bd"
+    },
+    {
+      "map": "dev-9160200-H1-23",
+      "geometry": "5d903300760489062b86695182540f459554e04c449bfa77627606cd4e0c4dd5",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 77,
+      "refuels": 1,
+      "repairs": 1,
+      "actions_sha256": "4468088bb291ec26953181e65562a51cb388b8d85a144aeb85dfe4eb63c8814d"
+    },
+    {
+      "map": "dev-9160200-H1-24",
+      "geometry": "0fdbbbf0e1bded3c7efa652b1ae2c5ebad5ddceb402644b4da300a65aca6d2a8",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 67,
+      "refuels": 2,
+      "repairs": 2,
+      "actions_sha256": "b4e97aef555b848a77b85b490b3a81217837ec713f7e6eb05a6d24f61045095b"
+    },
+    {
+      "map": "dev-9160200-H1-25",
+      "geometry": "d1c33672d725df9c8ce613e48d96052a7a7d6ba43c004409ad45bc94bdf1ea7e",
+      "tier": "H1",
+      "outcome": "SUCCESS",
+      "steps": 288,
+      "refuels": 5,
+      "repairs": 4,
+      "actions_sha256": "216583113b64e1a4c6b124bb58a972185f8cb4eef4c558d622e7af4c00464a22"
+    },
+    {
+      "map": "dev-9160200-H2-01",
+      "geometry": "714640f8e9444538fb9b1b2b134e4d0e0cae5be9d5bee9824bc68414ef1cc132",
+      "tier": "H2",
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "d4b5e47ed026a3248875d499c3f4482d2f67bca6c0624b3a2b2fabad86e86358"
+    },
+    {
+      "map": "dev-9160200-H2-02",
+      "geometry": "19fdc77778119f9a5ee7d098ecf9da74de5a2aa3c232887b54071a87c7a0b6c4",
+      "tier": "H2",
+      "outcome": "SUCCESS",
+      "steps": 383,
+      "refuels": 5,
+      "repairs": 6,
+      "actions_sha256": "e26d104d4ebed7ff78cf50aab64e4336c370b2c4e1e775319f37a42b33e9cdc4"
+    },
+    {
+      "map": "dev-9160200-H2-03",
+      "geometry": "213ebbb945fb45ec3d6a6e16bb74e484dbc264d69019592210e6516c989499c6",
+      "tier": "H2",
+      "outcome": "SUCCESS",
+      "steps": 164,
+      "refuels": 3,
+      "repairs": 3,
+      "actions_sha256": "697df73159536a05fd07f288afb08d66dcd8171b560b781556c487435856bc83"
+    },
+    {
+      "map": "dev-9160200-H2-04",
+      "geometry": "96a9ff395887ce295e5f607ddd8f9511c6825b08d29bb86cc96fceaa42d68903",
+      "tier": "H2",
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "ac70e1d49cc414bb7fb7664a37ddbf71e852bbb0cf65508507072cd606ba40db"
+    },
+    {
+      "map": "dev-9160200-H2-05",
+      "geometry": "1188d02c669daeaf527ce98eedbf8c179fc80be131843dffd418b10d82436362",
+      "tier": "H2",
+      "outcome": "SUCCESS",
+      "steps": 575,
+      "refuels": 12,
+      "repairs": 7,
+      "actions_sha256": "c03f1d52b52797cbad0d189861913915f4e3f16c6e2819e1727cb003e55bb7d6"
+    },
+    {
+      "map": "dev-9160200-H2-06",
+      "geometry": "2d3cbec22d8588a4902eea8950d8818c73ab840dae7d923e42d7dce64846f2f5",
+      "tier": "H2",
+      "outcome": "SUCCESS",
+      "steps": 143,
+      "refuels": 2,
+      "repairs": 3,
+      "actions_sha256": "a1628654ebe504f90d298a72e4bae6a5cdca426e6cd76c5abb3b772b7cbe23f1"
+    },
+    {
+      "map": "dev-9160200-H2-07",
+      "geometry": "0c02c80fe2ae9f9f0235f7b4dae7633a5a6b02f2b174bec8f14a4cd79bb08117",
+      "tier": "H2",
+      "outcome": "SUCCESS",
+      "steps": 727,
+      "refuels": 11,
+      "repairs": 12,
+      "actions_sha256": "6650f2c192dce033d13a394253178457cd252df5108bb26134ea3c1af839e5a4"
+    },
+    {
+      "map": "dev-9160200-H2-08",
+      "geometry": "f79c2e3cfd6ba6e52b651dcf3a135cda08c6f97f56fe95afc74aa7902d8cd02c",
+      "tier": "H2",
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "18c359295f37096a1c1972b04f84610f63bdf9c2a8fc5755e57b119f8228c0d0"
+    },
+    {
+      "map": "dev-9160200-H2-09",
+      "geometry": "eb3323b212d84f8966c3e956655e3344fedf7c98e843567ff8c816da9cc9aaea",
+      "tier": "H2",
+      "outcome": "SUCCESS",
+      "steps": 819,
+      "refuels": 9,
+      "repairs": 10,
+      "actions_sha256": "6a130e6c3bcbe884675c841d8c1e162994107fe29a685d7af026c7ae17e27a92"
+    },
+    {
+      "map": "dev-9160200-H2-10",
+      "geometry": "33b59acce6fbd7f7a265f6502ad305462c723d0a2a394a4b952828ce7061ec07",
+      "tier": "H2",
+      "outcome": "BROKEN",
+      "steps": 42,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "e1ef2bfe4e1a202eb1199876f3fd7aac46ffdda2a816531a5ec8f7ebc517a052"
+    },
+    {
+      "map": "dev-9160200-H2-11",
+      "geometry": "08895f3dab33aa31e751e45b5088be2b2f5f8292a5714a86ac657add58e34133",
+      "tier": "H2",
+      "outcome": "BROKEN",
+      "steps": 21,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "b19e65d642eb85dabeaf7c854af219666b29fe57b5bed2e9a7e655ff66eabdb0"
+    },
+    {
+      "map": "dev-9160200-H2-12",
+      "geometry": "b33480c9375fb191c0a466574a86dffdd73c3196255eb5c9868f4a2c7afaede3",
+      "tier": "H2",
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "0309f81f2b0f39b51c3eed4c8a10e21374327ee1057209719fd8ee6e89a6206e"
+    },
+    {
+      "map": "dev-9160200-H2-13",
+      "geometry": "693bd838ea6929a48484fbc07aa0700bdd9ddad1706fcb95f37bad2449db89d9",
+      "tier": "H2",
+      "outcome": "EMPTY",
+      "steps": 34,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "d2dfeca3a890f8df7f9cd9f60c2ab5efc62f6ff74a075bb5a1a462957562b7bd"
+    },
+    {
+      "map": "dev-9160200-H2-14",
+      "geometry": "87561ddcabca64614b995c0211175b712ba22326f0a8ee169abfde1fb434f2a6",
+      "tier": "H2",
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "daea99253714941d54c9c0821d4c13b378b7b1f09ccfd683fc46892a1eb55646"
+    },
+    {
+      "map": "dev-9160200-H2-15",
+      "geometry": "a33a69cd0e666c7b36ea1ffd92d6a829baef0ff11d676a933cb93ce1b767623e",
+      "tier": "H2",
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "5be9c1cbfe3835b99743d1a1e7757ab6d91df22559b256bcdfbb88baca18ea66"
+    },
+    {
+      "map": "dev-9160200-H2-16",
+      "geometry": "32ffcb907fea25ae4f385607adf9136f7e308096ac2fbe45381d48a17de3b235",
+      "tier": "H2",
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "71ccbd4bcbfdeecfaa3678b10e6bbe9c853e0331b69c694349c765728e34a58c"
+    },
+    {
+      "map": "dev-9160200-H2-17",
+      "geometry": "474516607f038965fbae0d71fb1d8c258bc4c8c93e669f8fee4020b6ffcf13f4",
+      "tier": "H2",
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "c5e1c0a42d91567961a055935cd6fa0ff16d5dbbec7f2a64d07371cdef05c3c4"
+    },
+    {
+      "map": "dev-9160200-H2-18",
+      "geometry": "f2c1f63e82e417b8cc30ba2c7004477516792b42501d6b304f22ce9946756022",
+      "tier": "H2",
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "a42c13dfda5a45dc0cb93aacd4cf31f871a346288fe004e44fa1f0cfed200e47"
+    },
+    {
+      "map": "dev-9160200-H2-19",
+      "geometry": "313469fb364095b35a21fa8be7d54c5803920cf382e90631ba3b7e3cb482a7a5",
+      "tier": "H2",
+      "outcome": "SUCCESS",
+      "steps": 1123,
+      "refuels": 13,
+      "repairs": 12,
+      "actions_sha256": "f1812ceeea1b6facc721833790a0a11145c9aac601a9840500e1aaec02c4509b"
+    },
+    {
+      "map": "dev-9160200-H2-20",
+      "geometry": "be7323381bf88777bb403e8515b6f3312cf174524a91e1aa7e489ed2c0f7e150",
+      "tier": "H2",
+      "outcome": "EMPTY",
+      "steps": 14,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "ef2dfb3b0daf36718dc09f964351522d47f87cb3071261efda7debf64b0e5bd1"
+    },
+    {
+      "map": "dev-9160200-H2-21",
+      "geometry": "ed17517bb73ee3f53feac0f2520b8d04b0f84332fdeed5498496caa699ec0daa",
+      "tier": "H2",
+      "outcome": "SUCCESS",
+      "steps": 101,
+      "refuels": 3,
+      "repairs": 2,
+      "actions_sha256": "5373e4c069f93228e3d8ccc8fa275c8b38cff1d20e298e9fd18ccbf0aeb346fb"
+    },
+    {
+      "map": "dev-9160200-H2-22",
+      "geometry": "922babf1ead4591bcc7c3b6b065465ef238914226f8dce5b50fe447d50c4801a",
+      "tier": "H2",
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "ef722de855910e0f35bfb62149b36cc911e05a6254cae7e1f549096c90d35a84"
+    },
+    {
+      "map": "dev-9160200-H2-23",
+      "geometry": "badb5091bcc96a154c7ae7783f46728c326b199a7ebbe610aea9048e7026f5e1",
+      "tier": "H2",
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "150d77809f098623a23a5027865fb1cd21d5bcfdaec42eeaed12232687f86882"
+    },
+    {
+      "map": "dev-9160200-H2-24",
+      "geometry": "17fd9b5f0796f3901644ae93d1cd1c23d7dcd7f67a2fc6370361c40119ce5070",
+      "tier": "H2",
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "44d417dafaee5d9b542122acd3462dbadbf4d4c16acf635c0f84748a8268c2e0"
+    },
+    {
+      "map": "dev-9160200-H2-25",
+      "geometry": "d136f51cb3ffc05170b723c92dacc4a739b78b9773233664c8b598f4ab31c2ab",
+      "tier": "H2",
+      "outcome": "SUCCESS",
+      "steps": 1012,
+      "refuels": 12,
+      "repairs": 14,
+      "actions_sha256": "467c1cec227241057186fe84df07bf247a6a155f90565ff8920410ea67897003"
+    },
+    {
+      "map": "dev-9160200-H3-01",
+      "geometry": "339e3e46b72ee1b4acf3336f296ff524475209dcee7edd20073488e79eaf8597",
+      "tier": "H3",
+      "outcome": "SUCCESS",
+      "steps": 2892,
+      "refuels": 30,
+      "repairs": 34,
+      "actions_sha256": "db5c9c2e87e8fdb28675eb54ad24e4fdea896d71b26873eebd1ff0e4c8f21d86"
+    },
+    {
+      "map": "dev-9160200-H3-02",
+      "geometry": "b2f18deac0c7f0619242b4930f7be8cac00d060d5bf623c9bd88636854aac2b4",
+      "tier": "H3",
+      "outcome": "SUCCESS",
+      "steps": 1131,
+      "refuels": 12,
+      "repairs": 21,
+      "actions_sha256": "da85cb0a1cf90fd584442aa3a24eb319412d2ffa9344940b5d3244e2afb5eb4c"
+    },
+    {
+      "map": "dev-9160200-H3-03",
+      "geometry": "67ea289425407b7a07e8a8cf7bd896303753ad758c77ed0ebf1009811813036f",
+      "tier": "H3",
+      "outcome": "SUCCESS",
+      "steps": 1693,
+      "refuels": 24,
+      "repairs": 22,
+      "actions_sha256": "01e020807e32d2458389dac5636ea9ea31ed88671e3d2eff8653222bf5ec0ef3"
+    },
+    {
+      "map": "dev-9160200-H3-04",
+      "geometry": "6d2d936572e294c900ab9942d26d3d8a6cf9aa38419210034a64e4cd80d41b99",
+      "tier": "H3",
+      "outcome": "SUCCESS",
+      "steps": 1663,
+      "refuels": 18,
+      "repairs": 19,
+      "actions_sha256": "1bd1ac34cdfece6064c406d3141815253c85f2571579f7ec11487d84a7ba5f0f"
+    },
+    {
+      "map": "dev-9160200-H3-05",
+      "geometry": "1ba69854442f0bbd5e86f7f1627d2d2995d58933c276f7eddb788f30a066baca",
+      "tier": "H3",
+      "outcome": "SUCCESS",
+      "steps": 566,
+      "refuels": 10,
+      "repairs": 9,
+      "actions_sha256": "1ac6c9a5ca55522e2cff11d1747c1b4e45cd0bc87b4c5f70658461baea58042f"
+    },
+    {
+      "map": "dev-9160200-H3-06",
+      "geometry": "9f4feae605ea9badf382f28dfcb1d8f7ffeae1f02c36d655d959fe01f335a0d6",
+      "tier": "H3",
+      "outcome": "SUCCESS",
+      "steps": 80,
+      "refuels": 1,
+      "repairs": 2,
+      "actions_sha256": "738f184266ae8c44305ba91dc86e0b4921423fa4a3b5cccdc2d107dc97320c36"
+    },
+    {
+      "map": "dev-9160200-H3-07",
+      "geometry": "cabbaa0b7d4196dfacadbc9b277803c05c2909ce96277c6f94c3a662462f267a",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 2778,
+      "refuels": 34,
+      "repairs": 29,
+      "actions_sha256": "de0667c11e44c62f1be202e16ffa7e82eca5fa006901b094756e208ee80c8ebb"
+    },
+    {
+      "map": "dev-9160200-H3-08",
+      "geometry": "0955788de30bbd2d8b9da53d8b9a6bad4281a5fae7696fcc1ed22d44d070546a",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 49,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "943593883f662a3a971b4af8946b47c0e606552013991b0ee0ea556e9dcf8ff1"
+    },
+    {
+      "map": "dev-9160200-H3-09",
+      "geometry": "c8aad5b8e37b6cb26d0bf4df0d77bc0b8e8493890b94e102d6fadbf4a81daa31",
+      "tier": "H3",
+      "outcome": "SUCCESS",
+      "steps": 506,
+      "refuels": 7,
+      "repairs": 6,
+      "actions_sha256": "332b2d9d8be64e1181e66504f89c26e62fadeba42693b4a2e9f60205dd3decbd"
+    },
+    {
+      "map": "dev-9160200-H3-10",
+      "geometry": "4bbbe41009436530f66a58d9e55be72841b6d6853070ba77d96d0415f118e7b1",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 1571,
+      "refuels": 18,
+      "repairs": 17,
+      "actions_sha256": "eb2ee834a33dee59469c5c6c9e530343ba29235b213c22f78e49e467adf34527"
+    },
+    {
+      "map": "dev-9160200-H3-11",
+      "geometry": "64ad9dbdf8c43f7d98aac9498b4e4b502ce958ac83b64c9b62c9cfe18481fed8",
+      "tier": "H3",
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "c50d90fab23f61b2a2670676eedb33f034550f2871a825e680b58e3e2f04efcf"
+    },
+    {
+      "map": "dev-9160200-H3-12",
+      "geometry": "7fddb6d15eda25dd7ba15cd6836d06b14c32ad314cab8cdbd0b1ce71c44483d2",
+      "tier": "H3",
+      "outcome": "SUCCESS",
+      "steps": 1047,
+      "refuels": 15,
+      "repairs": 11,
+      "actions_sha256": "b06b365f45b90253630ceb79c26ab7d6f46664b3818959c861c88fb78f78263c"
+    },
+    {
+      "map": "dev-9160200-H3-13",
+      "geometry": "d17df7936e675d269989105a84562c38e861dc2a185f0ac3510a97093ace79f3",
+      "tier": "H3",
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "3a30a369271ceb3df5d4ec54cadf995673e61ff2c94baaab03927fab801bd655"
+    },
+    {
+      "map": "dev-9160200-H3-14",
+      "geometry": "7c4dabc83d34c237e10f45dbeda73b6089c7134dc8d2bf0fd801a1ae6d901510",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 1226,
+      "refuels": 16,
+      "repairs": 13,
+      "actions_sha256": "1f9d8c10067ac97448ba5b79a7d25b3082fa6c451cf9636fcce82347daf71bf5"
+    },
+    {
+      "map": "dev-9160200-H3-15",
+      "geometry": "602906a4f7c16e3b35d2fb71171fb06df009a28dba31cb201e0ea447ff1aa66d",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 1429,
+      "refuels": 18,
+      "repairs": 17,
+      "actions_sha256": "be7ed23cd2c5083cb318148490e67010f3c64e3ad32664eb7c71b15e9dde7051"
+    },
+    {
+      "map": "dev-9160200-H3-16",
+      "geometry": "7d7256aef5dc3736d394417eebfc0b9ae40ba49463136a21c808aeb2b3525aee",
+      "tier": "H3",
+      "outcome": "EMPTY",
+      "steps": 640,
+      "refuels": 8,
+      "repairs": 7,
+      "actions_sha256": "552ba4d5d947408811a65e31d5843f96e1bcbcb19f94a78f6deefe8d96db3f3a"
+    },
+    {
+      "map": "dev-9160200-H3-17",
+      "geometry": "1c0bca251267b6f9bcb61a5ad25c114c43a95d22488353f2e1cf302d3e995aa4",
+      "tier": "H3",
+      "outcome": "EMPTY",
+      "steps": 723,
+      "refuels": 8,
+      "repairs": 18,
+      "actions_sha256": "67f755309191216f8fcbe7b46d3495cb9ec33b47065be1149b64b9c1f26de749"
+    },
+    {
+      "map": "dev-9160200-H3-18",
+      "geometry": "6ccaa2bddae282292d929830b719250cde82019f78225dce6e19fa1b55f1197d",
+      "tier": "H3",
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "5c635436272967b1735a08e41ae15e283c96ad20e024a25975c75ac76a233c6c"
+    },
+    {
+      "map": "dev-9160200-H3-19",
+      "geometry": "5e40d0546bdce8b40b72317837840c4aabcad84e34d0e2a4c8ab7ed2b480ad23",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "507907d42fc7b3599f0946ff89a36bbfe7d98f95cfbc3df13558106b23154854"
+    },
+    {
+      "map": "dev-9160200-H3-20",
+      "geometry": "e279c744adfa87fcf4fe2583b80b750ceed163ad72c4902c79044d4325a451df",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "ba1edb15064634f81e763717a9e01040f2901e3a0db1e0d53ba0ca7e02afb9f3"
+    },
+    {
+      "map": "dev-9160200-H3-21",
+      "geometry": "736471ecf9864f7e2aaffbbe7c2f0516a084d4d0dbbba251987dafeb030cd0a9",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 27,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "1649f1118f37d9e832ddaf6ae580d9dacf72c3772868e49490c93370d77f6015"
+    },
+    {
+      "map": "dev-9160200-H3-22",
+      "geometry": "79d09e31fec4b22ed7ecd9872978fa981875c4840e41c95c9336b852c9aa0bf5",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "2ea35766590d342ccb31ad9ff6526a43efaa66ad811f037d9056143c04761d18"
+    },
+    {
+      "map": "dev-9160200-H3-23",
+      "geometry": "d0963c48f04d22b9c0b9a0b95ddc7600265578dd4f204c09a59a7f49b3799675",
+      "tier": "H3",
+      "outcome": "SUCCESS",
+      "steps": 1311,
+      "refuels": 15,
+      "repairs": 17,
+      "actions_sha256": "81b5cf979c21ded125812f63826fd05a4f6580b2ae61da2b95789ebd1e73bd56"
+    },
+    {
+      "map": "dev-9160200-H3-24",
+      "geometry": "7fc94b7fb73080288c45815ee156c920cf2adf6dd7370d662fc6f29ef1eb7bca",
+      "tier": "H3",
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "5c22bccd04ad603bd41f80faaab883a56962c7431eaa9ac1fe1069380ad0946d"
+    },
+    {
+      "map": "dev-9160200-H3-25",
+      "geometry": "9baed93a4e920648e1d8369aa5fea5524a300e39fcade68583491820cd3f2eb7",
+      "tier": "H3",
+      "outcome": "EMPTY",
+      "steps": 625,
+      "refuels": 7,
+      "repairs": 10,
+      "actions_sha256": "d69a8f0228f3b24347830e5fe862cb283766dd8ad0ca42d6e2d8cfb905f2e2fe"
+    },
+    {
+      "map": "dev-9160200-H4-01",
+      "geometry": "d582f529eec1fb109a11453d6e7bb0857ba87dfc809bb95097dd9fa66da89f8d",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 33,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "eea19566e704115f90aaaf682b35e36dc297053a7fb0ed394746fd2e79027e06"
+    },
+    {
+      "map": "dev-9160200-H4-02",
+      "geometry": "6b43ea17298a108192491e9802c283c7e6a414a7c4999b23dc9ad3c99a489c32",
+      "tier": "H4",
+      "outcome": "SUCCESS",
+      "steps": 3061,
+      "refuels": 33,
+      "repairs": 34,
+      "actions_sha256": "cf73cf31ce077beb5c87ebbff365c79f0b62c1d2cffe54c709ee1820d2250770"
+    },
+    {
+      "map": "dev-9160200-H4-03",
+      "geometry": "b0817e639bb365bc51832f9e384edc3712b81dcb777bdbc631cbe0ff85dab8d3",
+      "tier": "H4",
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "4d5bf25f197abf016cb7116abad5f23faa97d54fcfc622a21a9a3a5d23e7f302"
+    },
+    {
+      "map": "dev-9160200-H4-04",
+      "geometry": "3cead3bb30d7891007fccb300f78a561c1c48f9d15b625b7c52b9bfbcc6377d8",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 54,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "1c9319120f1ba29ec16ae0e506904f81c7832271207191828c5243ae4df69b65"
+    },
+    {
+      "map": "dev-9160200-H4-05",
+      "geometry": "43c2cf061031259f681d3e8c5b85fa82ebb9d44ebea4776506f4f44e71cba8a6",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 2731,
+      "refuels": 52,
+      "repairs": 27,
+      "actions_sha256": "fade895ff0f9a0112d3803840ee370ea0520f379aeb5c4cf8c4b030752be8319"
+    },
+    {
+      "map": "dev-9160200-H4-06",
+      "geometry": "1952c4578761886dc9d505be123fc71970c22f93ec0baea97dfad20c7a80c3d4",
+      "tier": "H4",
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "68609e2816dee8c78e8bfed8a7b0b97634cd0b4922ce0c793cfd7eb10c1fe018"
+    },
+    {
+      "map": "dev-9160200-H4-07",
+      "geometry": "c3a0f80b34ae8eb2a59dac0fe080a8284d674672586ec3b2592d976628817dd6",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 28,
+      "refuels": 2,
+      "repairs": 0,
+      "actions_sha256": "44bd7fe988f1920447d34d3f56d6d01ec7108f803b15114fbd232aca4e4351b2"
+    },
+    {
+      "map": "dev-9160200-H4-08",
+      "geometry": "a4d8a8e23980ce700b138e45a1665aaecfaa889c3bcad578ce3629c4f23aaae6",
+      "tier": "H4",
+      "outcome": "EMPTY",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "f8de621006be70330da103e9ff3bdad79772ef77f0e682ed1214e940591750fb"
+    },
+    {
+      "map": "dev-9160200-H4-09",
+      "geometry": "d124ab248f3fd56c583e4a373dca1afa5b4cf921ab716d37a61917989a3fdf4d",
+      "tier": "H4",
+      "outcome": "EMPTY",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "71bbce4a31aac74035aad436f318c7847c6185cbfeb9efdd9e1cb6b0dc0e5950"
+    },
+    {
+      "map": "dev-9160200-H4-10",
+      "geometry": "46ac4c607a39c75ced498ce4f73be5f48be9253983e3004a67773e370f3a2c1a",
+      "tier": "H4",
+      "outcome": "SUCCESS",
+      "steps": 1231,
+      "refuels": 16,
+      "repairs": 14,
+      "actions_sha256": "271a6ce58b5430734116db4405fc76e1ebb4acd6f5737e484bb1514b19f7dadd"
+    },
+    {
+      "map": "dev-9160200-H4-11",
+      "geometry": "a3c99ca4cfb39dda89dfe8e84a417e886fc6f5519da411f0b7de7d4f4f421d2e",
+      "tier": "H4",
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "934afc53f0867079575e2d47c1459bc88c787ae9fd0cc6948a4deb528713b9f2"
+    },
+    {
+      "map": "dev-9160200-H4-12",
+      "geometry": "c35600baafd231ed19ee78839b081c58bbb6339807cf4956b535b7965263502e",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 44,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "ab8ac96f9a8249a8f11b4662c8acce368e609fe0f9a10e4d39b8a68d1d7c9131"
+    },
+    {
+      "map": "dev-9160200-H4-13",
+      "geometry": "366f1a633d94dbd36204980756c774ed2808ddd3e24fecabe05b0b92bd5748fb",
+      "tier": "H4",
+      "outcome": "SUCCESS",
+      "steps": 170,
+      "refuels": 3,
+      "repairs": 3,
+      "actions_sha256": "2030297a1f713b4b98751c43c8a4e669d4116e6b50632d50b6ec206701fe9949"
+    },
+    {
+      "map": "dev-9160200-H4-14",
+      "geometry": "bba4a97ba9522c69cd55198cca5d385adf7b282fcffd55ab2869cf92aea3e7d9",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 1867,
+      "refuels": 25,
+      "repairs": 21,
+      "actions_sha256": "1bead598fb075cdcc4c7901c9284c464a3e3ea71f36f4db0e48e66389d8f40e4"
+    },
+    {
+      "map": "dev-9160200-H4-15",
+      "geometry": "c2c0f735d72de4953f11b3ea351703766b5ca1306b9e23f2943a201e47d7bd55",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 24,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "5fae6e0a41975d59a183b47472cd22c8721aa7dc8fb68030194b33a65884e0a0"
+    },
+    {
+      "map": "dev-9160200-H4-16",
+      "geometry": "0e4b5b1abb3e06d86f57d003f45eeb9d655d84374437f2de47431e8bd1155abc",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 46,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "b74da6e7ee609d0e0841dc2d698060c80d50208d9b7b29217daf3d8a81a94f68"
+    },
+    {
+      "map": "dev-9160200-H4-17",
+      "geometry": "fa7658964882e1f481f1a5715c2cd336a5f7d23f1ba3f7b4f73ed2e174ec0d5c",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 53,
+      "refuels": 1,
+      "repairs": 0,
+      "actions_sha256": "4be86fac710dcbd443a9615e99742b54ae97e2cbe50c685dcc342c3608d39996"
+    },
+    {
+      "map": "dev-9160200-H4-18",
+      "geometry": "f988d6e278c07e745c48c9ee97382655236808b0c7fc47485f78a808fdf56023",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 401,
+      "refuels": 5,
+      "repairs": 7,
+      "actions_sha256": "98fb005e8d2525452a4bb4a046514cf2462b44a609129117235dd1ba38c7e933"
+    },
+    {
+      "map": "dev-9160200-H4-19",
+      "geometry": "a9b3a7bcb7ce7e1b447b13a0aa9a184c83acea73ad36857e563942032716f444",
+      "tier": "H4",
+      "outcome": "EMPTY",
+      "steps": 53,
+      "refuels": 0,
+      "repairs": 1,
+      "actions_sha256": "ea8ec0363f5bc97e84f9ee1c7b28e5dc465e5070cafd868443beb5e04bf55075"
+    },
+    {
+      "map": "dev-9160200-H4-20",
+      "geometry": "2e5ed692400da7f97e44d71390ec7b96f5d325e8eff9d8d9447020d573aee5ba",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "b0b374b09a009518745684778df17e2fb89bba2e404351842714419dac2dd0b9"
+    },
+    {
+      "map": "dev-9160200-H4-21",
+      "geometry": "d52a40a241442e38c88103005550e71bdbdb3fd0361448d59efa1b3d886dcc27",
+      "tier": "H4",
+      "outcome": "EMPTY",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "6e3805557e7b539a5d502125cd57c655b0f9e9ee95fb336a1ee8f404651ff18e"
+    },
+    {
+      "map": "dev-9160200-H4-22",
+      "geometry": "41a8fe8ab58f5a30f0f328f181dcb0856017f84acfa8a023973c805796d39975",
+      "tier": "H4",
+      "outcome": "EMPTY",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "ffdf4f98f2a8b0291e125180d149a2d2109ebcd6af65a2af9de1258fc67cfb1d"
+    },
+    {
+      "map": "dev-9160200-H4-23",
+      "geometry": "1111444123c1b2bd66b24b1c6f2108ef8ccdfee7858e45114525baa549966726",
+      "tier": "H4",
+      "outcome": "SUCCESS",
+      "steps": 1075,
+      "refuels": 12,
+      "repairs": 13,
+      "actions_sha256": "05a01e9330229a735270e9bd4edb8a38a8d3b57917b886da87763e3d8c603c15"
+    },
+    {
+      "map": "dev-9160200-H4-24",
+      "geometry": "548cdcd2616af476e6d9c55016491618268cc2acf9bb5565a850df7254799e6b",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "5abc6188f00b6d0c08e6af3cf4c0f8447657cddd8ba6c01704d09d2fbed67a33"
+    },
+    {
+      "map": "dev-9160200-H4-25",
+      "geometry": "327564b99a3ec010b6297ac391e677d8cd81a1562eebb7608b335b8997a67084",
+      "tier": "H4",
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "actions_sha256": "a181eca7a3293e2111ce68eb948f3d68e163d48f901b8c18dc77cc78dac428ab"
+    }
+  ]
+}

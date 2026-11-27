@@ -1,0 +1,71 @@
+{
+  "rule": "max(dev SUCCESS, min(H1,H2,H3,H4), earliest)",
+  "candidates": [
+    {
+      "name": "pilot200/rl",
+      "sha256": "bc8ce4f269b6893692f1be4ae593e35086ac3d5bcfc20df32333dea6163eac46",
+      "wins": 20,
+      "min_tier": 2
+    },
+    {
+      "name": "recovery800/rl",
+      "sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+      "wins": 28,
+      "min_tier": 1
+    },
+    {
+      "name": "critical800/rl",
+      "sha256": "a12dbb1bf57ea26fa71d67a38f544a91e6397b00b7d27368dd92d8954f5eefc6",
+      "wins": 23,
+      "min_tier": 3
+    },
+    {
+      "name": "rich800/rl1",
+      "sha256": "140d59647631301d6d4daceaf235194aa9fe43c9a9db3726c167a603932ad07e",
+      "wins": 19,
+      "min_tier": 1
+    },
+    {
+      "name": "rich800/rl2",
+      "sha256": "adc192aece29df44bacac8adb4b0905117ba6596a91126dc1c8ce2b23657ac99",
+      "wins": 27,
+      "min_tier": 5
+    }
+  ],
+  "weights": "runs/recovery800/rl.pt",
+  "weights_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "adapter": "frozen_adapter.py",
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "physical_dev": {
+    "wins": 28,
+    "by_tier": {
+      "H1": 17,
+      "H2": 5,
+      "H3": 5,
+      "H4": 1
+    },
+    "outcomes": {
+      "EMPTY": 33,
+      "SUCCESS": 28,
+      "BROKEN": 38,
+      "LIMIT": 1
+    },
+    "fuel": 59,
+    "repair": 54,
+    "either": 70,
+    "both": 43
+  },
+  "repeated_identical_episodes": 100,
+  "confirmation_trigger": false,
+  "source_sha256": {
+    "adapter.py": "481a1eff8738f94b79708a7fb4a0a8aab5825d557f19719a105a5447b883da9e",
+    "frozen_adapter.py": "a4468a2b1a3341574e16d5622e8a163d617f855388ca184e23084b8f467a65fd",
+    "policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "rich_policy.py": "41bebfb12845274ee6300495df4b50772cbc43ae0f938449f454d615671cbe46",
+    "geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "dev.py": "f908f4c7329270a31dc7fb028bad730109efd70300a92d7a4e319d05cf8f8c8b",
+    "freeze.py": "d7266665b90510f408ea5df7e4e5af8b2a1648a32fcf5cb7784d3ac332747690"
+  }
+}

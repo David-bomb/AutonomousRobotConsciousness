@@ -1,0 +1,60 @@
+{
+  "map": "spatial-large-9163104-H1-25",
+  "tier": "H1",
+  "geometry": "be5e16813827209aab7beff6cd8c4ecd060e0b67a18fb103ec31900a04bc19f3",
+  "samples": 2,
+  "features": "64ec437518fa2d5a9fa6d666ca859589c03ba7e64cbc4cb10d09e6763598fce2",
+  "base": "eb11b8ec3f1c6c2f24996e23fe9384f91b3bba33cffa8202193109911cce6f4c",
+  "forks": [
+    {
+      "step": 0,
+      "slack": 8,
+      "parent": 3,
+      "responses": [
+        [
+          1,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          3,
+          "SUCCESS",
+          true,
+          true
+        ]
+      ]
+    },
+    {
+      "step": 5,
+      "slack": 8,
+      "parent": 2,
+      "responses": [
+        [
+          0,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          1,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          2,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          3,
+          "SUCCESS",
+          true,
+          false
+        ]
+      ]
+    }
+  ]
+}

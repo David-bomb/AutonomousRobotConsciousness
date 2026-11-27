@@ -1,0 +1,45 @@
+{
+  "map": "handover-train-9165411-H4-19",
+  "tier": "H4",
+  "family": "rooms",
+  "win": false,
+  "gate": 21,
+  "steps": 3590,
+  "outcome": "EMPTY",
+  "reason": "first-loss",
+  "step": 3547,
+  "fork": {
+    "chosen": 0,
+    "viable": [
+      2
+    ],
+    "known_goal": 0,
+    "safe_window": 0,
+    "risk_window": 1,
+    "fuel": 43,
+    "hp": 76,
+    "readings": [
+      42,
+      24
+    ],
+    "prior": [
+      41,
+      23
+    ],
+    "exit_chebyshev": 5,
+    "known_cells": 1108,
+    "alternatives": [
+      0
+    ],
+    "late_scores": [
+      24.042770847678185,
+      -1000000000000.0,
+      7.947070479393005,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0
+    ]
+  }
+}

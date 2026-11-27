@@ -1,0 +1,2701 @@
+{
+  "groups": {
+    "start": {
+      "n": 100,
+      "closer": {
+        "pilot": 79,
+        "descent": 79,
+        "plan": 78
+      },
+      "viable": {
+        "pilot": 98,
+        "descent": 98,
+        "plan": 96
+      }
+    },
+    "tight": {
+      "n": 86,
+      "closer": {
+        "pilot": 29,
+        "descent": 73,
+        "plan": 60
+      },
+      "viable": {
+        "pilot": 67,
+        "descent": 79,
+        "plan": 75
+      }
+    }
+  },
+  "fit": "first 600 E-0016 train; four aggregate morphology priors",
+  "test": "E-0016 sequence/train[1000:1100]",
+  "particles": 96,
+  "morphology": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.10725924718918038,
+    0.056460811471402965,
+    0.12142385776949653,
+    0.16971390862155972
+  ],
+  "hashes": {
+    "rl.pt": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+    "belief_worlds.cpp": "f3178ef5dd915ce17a113a729b2826b4b8f7bd686745fbe8a69d787088e18d5c",
+    "belief_worlds.dll": "640031b4e354ed44192357debff37b4f103144b33aa05875d587231161e07e01"
+  },
+  "records": [
+    {
+      "map": "sequence-train-9161110-H1-01",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-01",
+      "step": 73,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 2,
+      "plan": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-02",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-03",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-03",
+      "step": 5,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-04",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-05",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-05",
+      "step": 10,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-06",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-06",
+      "step": 116,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-07",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-07",
+      "step": 81,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-08",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-09",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-09",
+      "step": 6,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-10",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-10",
+      "step": 71,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-11",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-12",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-12",
+      "step": 25,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-13",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-14",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-14",
+      "step": 5,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-15",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-15",
+      "step": 68,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-16",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-17",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-17",
+      "step": 3,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-18",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-19",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-19",
+      "step": 8,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-20",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-21",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-21",
+      "step": 83,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-22",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 2,
+      "closer": [
+        3
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-22",
+      "step": 70,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-23",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-23",
+      "step": 5,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-24",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-24",
+      "step": 7,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-25",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-25",
+      "step": 160,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 2,
+      "plan": 1,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-01",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-01",
+      "step": 13,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-02",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-02",
+      "step": 168,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-03",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0,
+        1
+      ],
+      "viable": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-03",
+      "step": 164,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 1,
+      "plan": 0,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-04",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-04",
+      "step": 2,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-05",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-05",
+      "step": 3,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-06",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 5,
+      "descent": 5,
+      "plan": 5,
+      "closer": [
+        2,
+        5
+      ],
+      "viable": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-06",
+      "step": 4,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 7,
+      "plan": 7,
+      "closer": [
+        3,
+        7
+      ],
+      "viable": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-07",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-07",
+      "step": 1,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-08",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 2,
+      "plan": 3,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-08",
+      "step": 1,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-09",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 2,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-09",
+      "step": 65,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-10",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-10",
+      "step": 7,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-11",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-11",
+      "step": 2,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-12",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 7,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3,
+        6,
+        7
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-13",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-13",
+      "step": 2,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-14",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-14",
+      "step": 78,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 6,
+      "plan": 0,
+      "closer": [
+        3,
+        6
+      ],
+      "viable": [
+        0,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-15",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-15",
+      "step": 2,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-16",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-17",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-18",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-19",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-19",
+      "step": 2,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-20",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-21",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-21",
+      "step": 1,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-22",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-22",
+      "step": 27,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-23",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-23",
+      "step": 68,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-24",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-24",
+      "step": 19,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-25",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-25",
+      "step": 8,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-01",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-02",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-02",
+      "step": 1,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-03",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-04",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-05",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-05",
+      "step": 2,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-06",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-06",
+      "step": 58,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-07",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-07",
+      "step": 2,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-08",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 2,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-08",
+      "step": 61,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-09",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-10",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 7,
+      "descent": 7,
+      "plan": 7,
+      "closer": [
+        3,
+        7
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-10",
+      "step": 2,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-11",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-11",
+      "step": 4,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-12",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-12",
+      "step": 2,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-13",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 3,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-13",
+      "step": 31,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 5,
+      "plan": 5,
+      "closer": [
+        1,
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-14",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 2,
+      "plan": 3,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-14",
+      "step": 1,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-15",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-16",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-16",
+      "step": 1,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-17",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 6,
+      "descent": 6,
+      "plan": 6,
+      "closer": [
+        3,
+        6,
+        7
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-17",
+      "step": 10,
+      "start": false,
+      "tight": true,
+      "pilot": 6,
+      "descent": 6,
+      "plan": 6,
+      "closer": [
+        6
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-18",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-18",
+      "step": 17,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-19",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-19",
+      "step": 26,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        3,
+        6
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-20",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-21",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-21",
+      "step": 20,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-22",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-22",
+      "step": 99,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-23",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-23",
+      "step": 18,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-24",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-24",
+      "step": 104,
+      "start": false,
+      "tight": true,
+      "pilot": 4,
+      "descent": 4,
+      "plan": 4,
+      "closer": [
+        1,
+        4,
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-25",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-25",
+      "step": 21,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-01",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-02",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-02",
+      "step": 101,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 0,
+      "plan": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-03",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 7,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        4
+      ],
+      "viable": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-04",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-05",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-05",
+      "step": 130,
+      "start": false,
+      "tight": true,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-06",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-07",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 5,
+      "descent": 5,
+      "plan": 5,
+      "closer": [
+        2,
+        5,
+        6
+      ],
+      "viable": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-08",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-09",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-09",
+      "step": 11,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 2,
+      "plan": 0,
+      "closer": [
+        2
+      ],
+      "viable": []
+    },
+    {
+      "map": "sequence-train-9161110-H4-10",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 1,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-10",
+      "step": 47,
+      "start": false,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-11",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-12",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 4,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-13",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-14",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 3,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-15",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 1,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-16",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-17",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 0,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-18",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-19",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-20",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 3,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-21",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-22",
+      "step": 0,
+      "start": true,
+      "tight": true,
+      "pilot": 0,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-23",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 3,
+      "descent": 3,
+      "plan": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-23",
+      "step": 97,
+      "start": false,
+      "tight": true,
+      "pilot": 0,
+      "descent": 0,
+      "plan": 0,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-24",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 0,
+      "descent": 7,
+      "plan": 7,
+      "closer": [
+        0,
+        4,
+        7
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-24",
+      "step": 77,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 1,
+      "plan": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-25",
+      "step": 0,
+      "start": true,
+      "tight": false,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-25",
+      "step": 1,
+      "start": false,
+      "tight": true,
+      "pilot": 2,
+      "descent": 2,
+      "plan": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    }
+  ]
+}

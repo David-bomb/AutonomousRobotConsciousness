@@ -1,0 +1,82 @@
+{
+  "configs": [
+    [
+      0,
+      0,
+      -101
+    ],
+    [
+      2,
+      6,
+      -101
+    ],
+    [
+      2,
+      4,
+      -101
+    ],
+    [
+      3,
+      6,
+      -101
+    ],
+    [
+      1,
+      4,
+      -101
+    ]
+  ],
+  "protocol_sha256": "4476dfa9b30bade634f298353c4d58379a1af747aecc35d37690635d1f6ca1c7",
+  "episodes": [
+    {
+      "map": "return-train-9165201-H4-08",
+      "tier": "H4",
+      "policy": 0,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 2,
+      "repairs": 2,
+      "actions_sha256": "5592589e57daa00a6687d7942bc09c3be716792ec4122efdd8d2ae15ee39ab31"
+    },
+    {
+      "map": "return-train-9165201-H4-08",
+      "tier": "H4",
+      "policy": 1,
+      "outcome": "BROKEN",
+      "steps": 1006,
+      "refuels": 12,
+      "repairs": 15,
+      "actions_sha256": "d4f4fc3627d319961ab457a2a4db111b450290bd8882da6dffa71bb6a172231b"
+    },
+    {
+      "map": "return-train-9165201-H4-08",
+      "tier": "H4",
+      "policy": 2,
+      "outcome": "BROKEN",
+      "steps": 1006,
+      "refuels": 12,
+      "repairs": 15,
+      "actions_sha256": "d4f4fc3627d319961ab457a2a4db111b450290bd8882da6dffa71bb6a172231b"
+    },
+    {
+      "map": "return-train-9165201-H4-08",
+      "tier": "H4",
+      "policy": 3,
+      "outcome": "EMPTY",
+      "steps": 565,
+      "refuels": 7,
+      "repairs": 7,
+      "actions_sha256": "8bcfd1ece1a23d757f64d416d19ce68a877c49a96571d20b54e711379b1b254b"
+    },
+    {
+      "map": "return-train-9165201-H4-08",
+      "tier": "H4",
+      "policy": 4,
+      "outcome": "BROKEN",
+      "steps": 703,
+      "refuels": 9,
+      "repairs": 9,
+      "actions_sha256": "fe2b54f159acba6f7bd5adc159dfd0ef2b51660a7e9777f2c3e6d5a188a5cb93"
+    }
+  ]
+}

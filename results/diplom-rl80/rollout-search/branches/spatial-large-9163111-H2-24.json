@@ -1,0 +1,128 @@
+{
+  "map": "spatial-large-9163111-H2-24",
+  "tier": "H2",
+  "geometry": "cc19209a929e5a8ca87b0346b2dc4d731cb3be8882b87649270d05c83dc755be",
+  "samples": 4,
+  "features": "00fa472c85724684867b31f3c07190dd51a426dda34b1396d1b7490a2db88ca2",
+  "base": "eb11b8ec3f1c6c2f24996e23fe9384f91b3bba33cffa8202193109911cce6f4c",
+  "forks": [
+    {
+      "step": 2,
+      "slack": 5,
+      "parent": 6,
+      "responses": [
+        [
+          1,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          2,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          3,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          6,
+          "BROKEN",
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "step": 3,
+      "slack": 4,
+      "parent": 3,
+      "responses": [
+        [
+          0,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          1,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          3,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          4,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          7,
+          "BROKEN",
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "step": 15,
+      "slack": 2,
+      "parent": 3,
+      "responses": [
+        [
+          0,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          2,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          3,
+          "BROKEN",
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "step": 21,
+      "slack": 0,
+      "parent": 3,
+      "responses": [
+        [
+          1,
+          "BROKEN",
+          false,
+          false
+        ],
+        [
+          2,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          3,
+          "BROKEN",
+          false,
+          false
+        ]
+      ]
+    }
+  ]
+}

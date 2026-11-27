@@ -1,0 +1,2384 @@
+{
+  "config": {
+    "id": "double-v03-s1",
+    "family": "double",
+    "variant": 3,
+    "seed": 39139,
+    "geometry_count": 30000,
+    "architecture": [
+      8,
+      64,
+      1
+    ],
+    "lr": 0.0008,
+    "gamma": 0.97,
+    "lanes": 24,
+    "ticks": 256,
+    "horizon": 1,
+    "batch": 64,
+    "replay": 16384,
+    "sync": 64
+  },
+  "arm": "R0C1",
+  "initial": "ea52f3a89aa696645008d8c32f16182ec8933e63f0b0dc37ddbe9f3cbc6864d2",
+  "final": "9221718738aaf5c806ac39b7e063848504b09b78876dbdaba071ef5f043f058c",
+  "weights_sha256": "065a837cd0deb18dc1d698723d46cfc0fce3f73509beb4282447ef69be809892",
+  "train_seconds": 23.42896810000002,
+  "frozen_utc": "2026-11-27T09:13:19.301425+00:00",
+  "history": [
+    {
+      "stage": 1,
+      "steps": 6144,
+      "decisions": 6144,
+      "outcomes": {
+        "EMPTY": 75,
+        "BROKEN": 82,
+        "SUCCESS": 4
+      },
+      "maps": {
+        "train-04923-0": 1,
+        "train-20355-0": 1,
+        "train-10779-0": 1,
+        "train-09872-2": 1,
+        "train-07141-2": 1,
+        "train-15092-0": 1,
+        "train-08431-0": 1,
+        "train-21574-1": 1,
+        "train-16114-1": 1,
+        "train-08050-1": 1,
+        "train-17886-0": 1,
+        "train-10696-2": 1,
+        "train-10887-0": 1,
+        "train-11246-0": 1,
+        "train-15663-0": 1,
+        "train-28100-0": 1,
+        "train-05774-0": 1,
+        "train-06980-0": 1,
+        "train-10118-0": 1,
+        "train-10963-0": 1,
+        "train-03580-1": 1,
+        "train-29224-1": 1,
+        "train-11493-0": 1,
+        "train-22711-2": 1,
+        "train-27898-0": 1,
+        "train-21880-2": 1,
+        "train-07997-0": 1,
+        "train-11564-2": 1,
+        "train-05158-0": 1,
+        "train-06327-0": 1,
+        "train-08348-2": 1,
+        "train-07088-2": 1,
+        "train-20457-0": 1,
+        "train-00840-2": 1,
+        "train-17583-1": 1,
+        "train-25008-0": 1,
+        "train-26070-1": 1,
+        "train-23805-0": 1,
+        "train-27556-1": 1,
+        "train-24015-0": 1,
+        "train-12993-0": 1,
+        "train-21022-0": 1,
+        "train-23920-0": 1,
+        "train-10082-1": 1,
+        "train-13778-0": 1,
+        "train-28030-0": 1,
+        "train-01864-2": 1,
+        "train-27206-0": 1,
+        "train-17735-1": 1,
+        "train-09500-0": 1,
+        "train-28084-1": 1,
+        "train-05265-0": 1,
+        "train-22541-0": 1,
+        "train-15746-0": 1,
+        "train-08654-0": 1,
+        "train-09760-2": 1,
+        "train-26584-2": 1,
+        "train-20950-2": 1,
+        "train-02295-0": 1,
+        "train-18044-0": 1,
+        "train-05822-2": 1,
+        "train-03043-0": 1,
+        "train-06690-0": 1,
+        "train-13412-2": 1,
+        "train-22750-0": 1,
+        "train-17539-0": 1,
+        "train-11176-0": 1,
+        "train-05466-0": 1,
+        "train-09510-0": 1,
+        "train-12680-0": 1,
+        "train-15392-1": 1,
+        "train-18267-0": 1,
+        "train-04754-0": 1,
+        "train-07488-0": 1,
+        "train-20431-0": 1,
+        "train-27644-2": 1,
+        "train-01975-0": 1,
+        "train-19661-0": 1,
+        "train-27164-0": 1,
+        "train-27131-0": 1,
+        "train-00278-0": 1,
+        "train-06098-2": 1,
+        "train-08852-2": 1,
+        "train-08755-0": 1,
+        "train-20522-0": 1,
+        "train-27517-0": 1,
+        "train-16983-0": 1,
+        "train-19740-0": 1,
+        "train-17256-0": 1,
+        "train-12093-2": 1,
+        "train-26710-1": 1,
+        "train-28810-1": 1,
+        "train-25867-0": 1,
+        "train-01817-0": 1,
+        "train-25952-0": 1,
+        "train-07780-0": 1,
+        "train-29553-0": 1,
+        "train-11554-0": 1,
+        "train-03762-0": 1,
+        "train-22536-0": 1,
+        "train-15099-0": 1,
+        "train-04124-0": 1,
+        "train-24518-2": 1,
+        "train-12309-1": 1,
+        "train-29384-0": 1,
+        "train-22955-0": 1,
+        "train-10538-0": 1,
+        "train-05276-0": 1,
+        "train-25181-0": 1,
+        "train-26948-2": 1,
+        "train-08697-0": 1,
+        "train-20757-0": 1,
+        "train-06620-0": 1,
+        "train-02716-2": 1,
+        "train-05498-1": 1,
+        "train-08073-0": 1,
+        "train-13905-0": 1,
+        "train-14537-0": 1,
+        "train-28778-2": 1,
+        "train-10896-0": 1,
+        "train-06410-0": 1,
+        "train-13834-1": 1,
+        "train-01118-0": 1,
+        "train-13234-0": 1,
+        "train-22317-0": 1,
+        "train-06614-0": 1,
+        "train-03927-0": 1,
+        "train-26782-1": 1,
+        "train-05111-0": 1,
+        "train-29702-2": 1,
+        "train-14986-0": 1,
+        "train-14612-1": 1,
+        "train-07618-2": 1,
+        "train-14286-0": 1,
+        "train-05792-0": 1,
+        "train-04912-0": 1,
+        "train-13101-0": 1,
+        "train-01651-0": 1,
+        "train-01012-0": 1,
+        "train-08989-0": 1,
+        "train-09087-0": 1,
+        "train-21992-0": 1,
+        "train-18077-0": 1,
+        "train-26210-1": 1,
+        "train-01400-0": 1,
+        "train-14775-0": 1,
+        "train-08422-0": 1,
+        "train-29165-0": 1,
+        "train-24008-1": 1,
+        "train-09121-0": 1,
+        "train-10930-0": 1,
+        "train-01123-0": 1,
+        "train-01694-0": 1,
+        "train-09368-0": 1,
+        "train-23381-0": 1,
+        "train-17854-2": 1,
+        "train-16630-1": 1,
+        "train-17260-1": 1,
+        "train-19984-2": 1,
+        "train-27656-0": 1,
+        "train-09191-0": 1,
+        "train-02949-0": 1,
+        "train-23008-0": 1,
+        "train-01055-0": 1,
+        "train-27014-0": 1,
+        "train-26055-1": 1,
+        "train-16687-1": 1,
+        "train-14705-0": 1,
+        "train-28472-1": 1,
+        "train-04030-0": 1,
+        "train-03456-0": 1,
+        "train-24752-2": 1,
+        "train-03362-0": 1,
+        "train-18745-0": 1,
+        "train-09316-0": 1,
+        "train-23611-1": 1,
+        "train-04402-0": 1,
+        "train-08734-0": 1,
+        "train-17078-0": 1,
+        "train-05761-2": 1,
+        "train-21496-0": 1,
+        "train-21805-0": 1,
+        "train-13266-0": 1,
+        "train-14584-0": 1,
+        "train-02302-0": 1
+      },
+      "finished": {
+        "train-29224-1": {
+          "EMPTY": 1
+        },
+        "train-03580-1": {
+          "EMPTY": 1
+        },
+        "train-21574-1": {
+          "EMPTY": 1
+        },
+        "train-16114-1": {
+          "EMPTY": 1
+        },
+        "train-22711-2": {
+          "BROKEN": 1
+        },
+        "train-08050-1": {
+          "EMPTY": 1
+        },
+        "train-07141-2": {
+          "BROKEN": 1
+        },
+        "train-10696-2": {
+          "BROKEN": 1
+        },
+        "train-21880-2": {
+          "BROKEN": 1
+        },
+        "train-11564-2": {
+          "BROKEN": 1
+        },
+        "train-07088-2": {
+          "BROKEN": 1
+        },
+        "train-08348-2": {
+          "BROKEN": 1
+        },
+        "train-15092-0": {
+          "BROKEN": 1
+        },
+        "train-17583-1": {
+          "EMPTY": 1
+        },
+        "train-00840-2": {
+          "BROKEN": 1
+        },
+        "train-06980-0": {
+          "BROKEN": 1
+        },
+        "train-08431-0": {
+          "BROKEN": 1
+        },
+        "train-04923-0": {
+          "BROKEN": 1
+        },
+        "train-09872-2": {
+          "SUCCESS": 1
+        },
+        "train-27556-1": {
+          "EMPTY": 1
+        },
+        "train-15663-0": {
+          "EMPTY": 1
+        },
+        "train-10963-0": {
+          "BROKEN": 1
+        },
+        "train-10118-0": {
+          "EMPTY": 1
+        },
+        "train-01864-2": {
+          "BROKEN": 1
+        },
+        "train-10779-0": {
+          "EMPTY": 1
+        },
+        "train-10082-1": {
+          "EMPTY": 1
+        },
+        "train-05774-0": {
+          "EMPTY": 1
+        },
+        "train-27898-0": {
+          "EMPTY": 1
+        },
+        "train-11493-0": {
+          "BROKEN": 1
+        },
+        "train-17886-0": {
+          "BROKEN": 1
+        },
+        "train-26070-1": {
+          "BROKEN": 1
+        },
+        "train-05158-0": {
+          "EMPTY": 1
+        },
+        "train-12993-0": {
+          "BROKEN": 1
+        },
+        "train-26584-2": {
+          "BROKEN": 1
+        },
+        "train-09760-2": {
+          "BROKEN": 1
+        },
+        "train-13778-0": {
+          "BROKEN": 1
+        },
+        "train-28100-0": {
+          "EMPTY": 1
+        },
+        "train-20950-2": {
+          "BROKEN": 1
+        },
+        "train-20355-0": {
+          "BROKEN": 1
+        },
+        "train-05822-2": {
+          "BROKEN": 1
+        },
+        "train-13412-2": {
+          "BROKEN": 1
+        },
+        "train-08654-0": {
+          "BROKEN": 1
+        },
+        "train-24015-0": {
+          "EMPTY": 1
+        },
+        "train-09500-0": {
+          "EMPTY": 1
+        },
+        "train-21022-0": {
+          "EMPTY": 1
+        },
+        "train-22750-0": {
+          "SUCCESS": 1
+        },
+        "train-10887-0": {
+          "BROKEN": 1
+        },
+        "train-06327-0": {
+          "EMPTY": 1
+        },
+        "train-07997-0": {
+          "EMPTY": 1
+        },
+        "train-11246-0": {
+          "BROKEN": 1
+        },
+        "train-05265-0": {
+          "BROKEN": 1
+        },
+        "train-06690-0": {
+          "BROKEN": 1
+        },
+        "train-15746-0": {
+          "EMPTY": 1
+        },
+        "train-23805-0": {
+          "EMPTY": 1
+        },
+        "train-03043-0": {
+          "EMPTY": 1
+        },
+        "train-11176-0": {
+          "EMPTY": 1
+        },
+        "train-27644-2": {
+          "BROKEN": 1
+        },
+        "train-15392-1": {
+          "BROKEN": 1
+        },
+        "train-22541-0": {
+          "BROKEN": 1
+        },
+        "train-02295-0": {
+          "BROKEN": 1
+        },
+        "train-18044-0": {
+          "BROKEN": 1
+        },
+        "train-27206-0": {
+          "BROKEN": 1
+        },
+        "train-25008-0": {
+          "BROKEN": 1
+        },
+        "train-06098-2": {
+          "BROKEN": 1
+        },
+        "train-09510-0": {
+          "BROKEN": 1
+        },
+        "train-20457-0": {
+          "EMPTY": 1
+        },
+        "train-12093-2": {
+          "BROKEN": 1
+        },
+        "train-26710-1": {
+          "EMPTY": 1
+        },
+        "train-20431-0": {
+          "BROKEN": 1
+        },
+        "train-28810-1": {
+          "EMPTY": 1
+        },
+        "train-04754-0": {
+          "EMPTY": 1
+        },
+        "train-16983-0": {
+          "BROKEN": 1
+        },
+        "train-27517-0": {
+          "BROKEN": 1
+        },
+        "train-00278-0": {
+          "BROKEN": 1
+        },
+        "train-19740-0": {
+          "BROKEN": 1
+        },
+        "train-27164-0": {
+          "BROKEN": 1
+        },
+        "train-05466-0": {
+          "BROKEN": 1
+        },
+        "train-17539-0": {
+          "EMPTY": 1
+        },
+        "train-07780-0": {
+          "SUCCESS": 1
+        },
+        "train-20522-0": {
+          "BROKEN": 1
+        },
+        "train-12680-0": {
+          "BROKEN": 1
+        },
+        "train-29553-0": {
+          "EMPTY": 1
+        },
+        "train-25952-0": {
+          "BROKEN": 1
+        },
+        "train-12309-1": {
+          "EMPTY": 1
+        },
+        "train-19661-0": {
+          "BROKEN": 1
+        },
+        "train-17256-0": {
+          "BROKEN": 1
+        },
+        "train-24518-2": {
+          "SUCCESS": 1
+        },
+        "train-26948-2": {
+          "BROKEN": 1
+        },
+        "train-27131-0": {
+          "BROKEN": 1
+        },
+        "train-25867-0": {
+          "EMPTY": 1
+        },
+        "train-28030-0": {
+          "EMPTY": 1
+        },
+        "train-22955-0": {
+          "EMPTY": 1
+        },
+        "train-08755-0": {
+          "EMPTY": 1
+        },
+        "train-18267-0": {
+          "EMPTY": 1
+        },
+        "train-11554-0": {
+          "EMPTY": 1
+        },
+        "train-02716-2": {
+          "BROKEN": 1
+        },
+        "train-17735-1": {
+          "BROKEN": 1
+        },
+        "train-28084-1": {
+          "EMPTY": 1
+        },
+        "train-22536-0": {
+          "EMPTY": 1
+        },
+        "train-13834-1": {
+          "EMPTY": 1
+        },
+        "train-01975-0": {
+          "EMPTY": 1
+        },
+        "train-01817-0": {
+          "BROKEN": 1
+        },
+        "train-04124-0": {
+          "EMPTY": 1
+        },
+        "train-29384-0": {
+          "BROKEN": 1
+        },
+        "train-28778-2": {
+          "BROKEN": 1
+        },
+        "train-15099-0": {
+          "BROKEN": 1
+        },
+        "train-08073-0": {
+          "BROKEN": 1
+        },
+        "train-26782-1": {
+          "EMPTY": 1
+        },
+        "train-14612-1": {
+          "EMPTY": 1
+        },
+        "train-05498-1": {
+          "BROKEN": 1
+        },
+        "train-29702-2": {
+          "BROKEN": 1
+        },
+        "train-07618-2": {
+          "BROKEN": 1
+        },
+        "train-01118-0": {
+          "BROKEN": 1
+        },
+        "train-06620-0": {
+          "EMPTY": 1
+        },
+        "train-23920-0": {
+          "BROKEN": 1
+        },
+        "train-07488-0": {
+          "EMPTY": 1
+        },
+        "train-13234-0": {
+          "EMPTY": 1
+        },
+        "train-06614-0": {
+          "EMPTY": 1
+        },
+        "train-06410-0": {
+          "EMPTY": 1
+        },
+        "train-03762-0": {
+          "BROKEN": 1
+        },
+        "train-05276-0": {
+          "EMPTY": 1
+        },
+        "train-26210-1": {
+          "EMPTY": 1
+        },
+        "train-10896-0": {
+          "BROKEN": 1
+        },
+        "train-13905-0": {
+          "EMPTY": 1
+        },
+        "train-05111-0": {
+          "EMPTY": 1
+        },
+        "train-01651-0": {
+          "EMPTY": 1
+        },
+        "train-04912-0": {
+          "BROKEN": 1
+        },
+        "train-24008-1": {
+          "EMPTY": 1
+        },
+        "train-14286-0": {
+          "EMPTY": 1
+        },
+        "train-08697-0": {
+          "EMPTY": 1
+        },
+        "train-01012-0": {
+          "EMPTY": 1
+        },
+        "train-21992-0": {
+          "EMPTY": 1
+        },
+        "train-17854-2": {
+          "BROKEN": 1
+        },
+        "train-16630-1": {
+          "EMPTY": 1
+        },
+        "train-25181-0": {
+          "EMPTY": 1
+        },
+        "train-19984-2": {
+          "BROKEN": 1
+        },
+        "train-09121-0": {
+          "BROKEN": 1
+        },
+        "train-17260-1": {
+          "EMPTY": 1
+        },
+        "train-10930-0": {
+          "BROKEN": 1
+        },
+        "train-08852-2": {
+          "BROKEN": 1
+        },
+        "train-01400-0": {
+          "EMPTY": 1
+        },
+        "train-09368-0": {
+          "BROKEN": 1
+        },
+        "train-29165-0": {
+          "BROKEN": 1
+        },
+        "train-26055-1": {
+          "EMPTY": 1
+        },
+        "train-16687-1": {
+          "EMPTY": 1
+        },
+        "train-01694-0": {
+          "BROKEN": 1
+        },
+        "train-20757-0": {
+          "EMPTY": 1
+        },
+        "train-28472-1": {
+          "EMPTY": 1
+        },
+        "train-08422-0": {
+          "EMPTY": 1
+        },
+        "train-09087-0": {
+          "BROKEN": 1
+        },
+        "train-14537-0": {
+          "EMPTY": 1
+        },
+        "train-23008-0": {
+          "EMPTY": 1
+        },
+        "train-01123-0": {
+          "BROKEN": 1
+        },
+        "train-01055-0": {
+          "EMPTY": 1
+        },
+        "train-24752-2": {
+          "BROKEN": 1
+        },
+        "train-13101-0": {
+          "BROKEN": 1
+        },
+        "train-08989-0": {
+          "EMPTY": 1
+        },
+        "train-22317-0": {
+          "EMPTY": 1
+        },
+        "train-23611-1": {
+          "EMPTY": 1
+        },
+        "train-03927-0": {
+          "EMPTY": 1
+        },
+        "train-05761-2": {
+          "BROKEN": 1
+        }
+      },
+      "updates": 128,
+      "mean_loss": 0.4830750823020935
+    },
+    {
+      "stage": 2,
+      "steps": 6144,
+      "decisions": 6144,
+      "outcomes": {
+        "EMPTY": 145,
+        "BROKEN": 114
+      },
+      "maps": {
+        "train-02629-1": 1,
+        "train-20241-2": 1,
+        "train-22269-1": 1,
+        "train-29542-1": 1,
+        "train-10095-2": 1,
+        "train-11862-1": 1,
+        "train-06837-2": 1,
+        "train-08940-1": 1,
+        "train-29046-1": 1,
+        "train-07552-1": 1,
+        "train-20621-2": 1,
+        "train-12252-1": 1,
+        "train-06051-2": 1,
+        "train-23876-1": 1,
+        "train-29315-2": 1,
+        "train-20142-1": 1,
+        "train-19175-1": 1,
+        "train-20283-1": 1,
+        "train-02683-2": 1,
+        "train-11276-1": 1,
+        "train-04678-1": 1,
+        "train-18321-2": 1,
+        "train-18427-1": 1,
+        "train-18138-2": 1,
+        "train-27363-2": 1,
+        "train-05176-1": 1,
+        "train-29126-1": 1,
+        "train-26631-2": 1,
+        "train-20413-2": 1,
+        "train-26715-2": 1,
+        "train-19560-2": 1,
+        "train-10929-1": 1,
+        "train-01145-3": 1,
+        "train-07705-2": 1,
+        "train-26675-2": 1,
+        "train-29705-2": 1,
+        "train-23496-2": 1,
+        "train-20256-2": 1,
+        "train-27757-2": 1,
+        "train-19071-1": 1,
+        "train-20856-2": 1,
+        "train-23745-2": 1,
+        "train-18857-2": 1,
+        "train-06358-2": 1,
+        "train-10190-2": 1,
+        "train-21050-2": 1,
+        "train-21195-1": 1,
+        "train-11882-3": 1,
+        "train-09515-1": 1,
+        "train-11958-1": 1,
+        "train-27417-1": 1,
+        "train-10786-1": 1,
+        "train-04691-1": 1,
+        "train-14306-2": 1,
+        "train-04545-1": 1,
+        "train-16489-1": 1,
+        "train-21446-2": 1,
+        "train-10350-1": 1,
+        "train-21745-1": 1,
+        "train-02176-1": 1,
+        "train-24127-2": 1,
+        "train-15499-1": 1,
+        "train-03628-1": 1,
+        "train-10527-1": 1,
+        "train-04562-1": 1,
+        "train-00821-2": 1,
+        "train-13760-1": 1,
+        "train-27445-2": 1,
+        "train-12475-2": 1,
+        "train-14920-3": 1,
+        "train-26206-1": 1,
+        "train-13291-2": 1,
+        "train-28711-2": 1,
+        "train-21848-3": 1,
+        "train-09908-2": 1,
+        "train-25478-1": 1,
+        "train-10369-2": 1,
+        "train-02985-2": 1,
+        "train-29181-1": 1,
+        "train-17135-2": 1,
+        "train-15896-2": 1,
+        "train-22030-2": 1,
+        "train-00641-1": 1,
+        "train-13732-2": 1,
+        "train-17955-1": 1,
+        "train-29954-1": 1,
+        "train-12342-2": 1,
+        "train-08937-2": 1,
+        "train-20678-2": 1,
+        "train-21165-1": 1,
+        "train-05076-2": 1,
+        "train-11585-2": 1,
+        "train-26564-1": 1,
+        "train-15109-2": 1,
+        "train-10340-1": 1,
+        "train-21381-1": 1,
+        "train-04631-2": 1,
+        "train-17827-1": 1,
+        "train-14473-1": 1,
+        "train-06045-1": 1,
+        "train-11258-2": 1,
+        "train-23365-1": 1,
+        "train-22395-1": 1,
+        "train-02336-1": 1,
+        "train-09763-1": 1,
+        "train-14545-1": 1,
+        "train-01740-1": 1,
+        "train-10542-1": 1,
+        "train-19046-1": 1,
+        "train-16151-2": 1,
+        "train-09588-2": 1,
+        "train-09635-1": 1,
+        "train-07932-2": 1,
+        "train-29206-1": 1,
+        "train-24420-1": 1,
+        "train-25798-1": 1,
+        "train-28617-1": 1,
+        "train-18101-2": 1,
+        "train-00258-1": 1,
+        "train-15987-1": 1,
+        "train-23899-2": 1,
+        "train-07155-1": 1,
+        "train-09386-1": 1,
+        "train-07097-2": 1,
+        "train-12740-2": 1,
+        "train-08839-1": 1,
+        "train-23593-1": 1,
+        "train-06314-2": 1,
+        "train-09691-2": 1,
+        "train-21327-2": 1,
+        "train-00141-1": 1,
+        "train-22755-2": 1,
+        "train-05056-1": 1,
+        "train-07976-2": 1,
+        "train-09911-1": 1,
+        "train-06011-1": 1,
+        "train-14010-1": 1,
+        "train-21800-2": 1,
+        "train-23653-1": 1,
+        "train-04048-1": 1,
+        "train-22593-1": 1,
+        "train-17288-2": 1,
+        "train-10352-3": 1,
+        "train-28475-1": 1,
+        "train-21588-2": 1,
+        "train-23649-2": 1,
+        "train-14766-2": 1,
+        "train-11896-2": 1,
+        "train-20850-2": 1,
+        "train-28778-1": 1,
+        "train-14202-2": 1,
+        "train-01904-2": 1,
+        "train-06898-2": 1,
+        "train-26587-1": 1,
+        "train-25047-1": 1,
+        "train-22431-1": 1,
+        "train-16035-2": 1,
+        "train-14998-1": 1,
+        "train-27268-2": 1,
+        "train-05233-1": 1,
+        "train-05765-1": 1,
+        "train-08021-2": 1,
+        "train-17951-1": 1,
+        "train-25173-1": 1,
+        "train-04635-1": 1,
+        "train-22527-1": 1,
+        "train-16220-1": 1,
+        "train-27726-2": 1,
+        "train-25590-1": 1,
+        "train-27415-2": 1,
+        "train-27021-1": 1,
+        "train-11768-1": 1,
+        "train-19508-1": 1,
+        "train-19570-1": 1,
+        "train-05208-1": 1,
+        "train-10465-1": 1,
+        "train-12432-2": 1,
+        "train-04244-2": 1,
+        "train-23900-2": 1,
+        "train-14026-2": 1,
+        "train-18427-2": 1,
+        "train-24418-2": 1,
+        "train-06835-2": 1,
+        "train-11720-1": 1,
+        "train-24951-1": 1,
+        "train-07738-2": 1,
+        "train-08685-2": 1,
+        "train-27958-1": 1,
+        "train-14668-2": 1,
+        "train-18617-1": 1,
+        "train-14106-2": 1,
+        "train-08893-2": 1,
+        "train-00465-1": 1,
+        "train-07135-1": 1,
+        "train-18776-1": 1,
+        "train-07236-1": 1,
+        "train-12458-1": 1,
+        "train-02509-1": 1,
+        "train-10147-2": 1,
+        "train-09470-2": 1,
+        "train-24247-2": 1,
+        "train-16689-2": 1,
+        "train-14670-1": 1,
+        "train-15145-2": 1,
+        "train-17178-1": 1,
+        "train-26571-1": 1,
+        "train-08126-1": 1,
+        "train-07152-1": 1,
+        "train-22036-1": 1,
+        "train-29070-1": 1,
+        "train-05583-2": 1,
+        "train-09859-1": 1,
+        "train-15530-1": 1,
+        "train-10557-1": 1,
+        "train-17686-1": 1,
+        "train-17035-2": 1,
+        "train-13228-3": 1,
+        "train-05720-1": 1,
+        "train-14845-1": 1,
+        "train-13345-2": 1,
+        "train-09471-1": 1,
+        "train-20722-1": 1,
+        "train-27735-1": 1,
+        "train-14045-1": 1,
+        "train-18129-1": 1,
+        "train-16316-2": 1,
+        "train-05000-2": 1,
+        "train-14753-2": 1,
+        "train-04377-2": 1,
+        "train-14726-2": 1,
+        "train-04131-1": 1,
+        "train-29596-1": 1,
+        "train-15151-1": 1,
+        "train-08066-2": 1,
+        "train-21988-2": 1,
+        "train-18073-1": 1,
+        "train-04590-2": 1,
+        "train-26403-3": 1,
+        "train-09775-1": 1,
+        "train-15952-2": 1,
+        "train-21199-1": 1,
+        "train-22225-2": 1,
+        "train-25816-3": 1,
+        "train-06866-1": 1,
+        "train-10335-2": 1,
+        "train-17944-3": 1,
+        "train-14774-2": 1,
+        "train-29398-2": 1,
+        "train-14625-2": 1,
+        "train-06254-1": 1,
+        "train-10147-1": 1,
+        "train-08570-1": 1,
+        "train-23629-2": 1,
+        "train-20264-2": 1,
+        "train-25328-1": 1,
+        "train-26264-1": 1,
+        "train-17473-2": 1,
+        "train-01615-2": 1,
+        "train-02537-2": 1,
+        "train-10205-1": 1,
+        "train-00952-1": 1,
+        "train-01277-1": 1,
+        "train-04419-2": 1,
+        "train-29488-2": 1,
+        "train-07198-1": 1,
+        "train-12431-1": 1,
+        "train-11951-1": 1,
+        "train-10759-1": 1,
+        "train-16762-2": 1,
+        "train-15309-2": 1,
+        "train-04039-2": 1,
+        "train-24873-2": 1,
+        "train-19215-1": 1,
+        "train-10729-1": 1,
+        "train-17954-1": 1,
+        "train-19317-1": 1,
+        "train-11017-2": 1,
+        "train-25365-2": 1,
+        "train-10377-1": 1,
+        "train-11000-2": 1,
+        "train-01826-2": 1,
+        "train-03183-2": 1
+      },
+      "finished": {
+        "train-20283-1": {
+          "EMPTY": 1
+        },
+        "train-08940-1": {
+          "EMPTY": 1
+        },
+        "train-07552-1": {
+          "EMPTY": 1
+        },
+        "train-04678-1": {
+          "EMPTY": 1
+        },
+        "train-18427-1": {
+          "EMPTY": 1
+        },
+        "train-02629-1": {
+          "EMPTY": 1
+        },
+        "train-29542-1": {
+          "EMPTY": 1
+        },
+        "train-18321-2": {
+          "BROKEN": 1
+        },
+        "train-20142-1": {
+          "EMPTY": 1
+        },
+        "train-19175-1": {
+          "EMPTY": 1
+        },
+        "train-22269-1": {
+          "EMPTY": 1
+        },
+        "train-10095-2": {
+          "BROKEN": 1
+        },
+        "train-27363-2": {
+          "BROKEN": 1
+        },
+        "train-05176-1": {
+          "EMPTY": 1
+        },
+        "train-01145-3": {
+          "EMPTY": 1
+        },
+        "train-20621-2": {
+          "BROKEN": 1
+        },
+        "train-02683-2": {
+          "BROKEN": 1
+        },
+        "train-29315-2": {
+          "BROKEN": 1
+        },
+        "train-11276-1": {
+          "EMPTY": 1
+        },
+        "train-12252-1": {
+          "EMPTY": 1
+        },
+        "train-23876-1": {
+          "EMPTY": 1
+        },
+        "train-29126-1": {
+          "EMPTY": 1
+        },
+        "train-29046-1": {
+          "EMPTY": 1
+        },
+        "train-26675-2": {
+          "BROKEN": 1
+        },
+        "train-19560-2": {
+          "BROKEN": 1
+        },
+        "train-29705-2": {
+          "BROKEN": 1
+        },
+        "train-19071-1": {
+          "EMPTY": 1
+        },
+        "train-10929-1": {
+          "EMPTY": 1
+        },
+        "train-11882-3": {
+          "BROKEN": 1
+        },
+        "train-20256-2": {
+          "BROKEN": 1
+        },
+        "train-20856-2": {
+          "BROKEN": 1
+        },
+        "train-09515-1": {
+          "EMPTY": 1
+        },
+        "train-11862-1": {
+          "EMPTY": 1
+        },
+        "train-21195-1": {
+          "EMPTY": 1
+        },
+        "train-10190-2": {
+          "BROKEN": 1
+        },
+        "train-06051-2": {
+          "BROKEN": 1
+        },
+        "train-06358-2": {
+          "BROKEN": 1
+        },
+        "train-10786-1": {
+          "EMPTY": 1
+        },
+        "train-04691-1": {
+          "EMPTY": 1
+        },
+        "train-23745-2": {
+          "BROKEN": 1
+        },
+        "train-26631-2": {
+          "BROKEN": 1
+        },
+        "train-16489-1": {
+          "EMPTY": 1
+        },
+        "train-10350-1": {
+          "EMPTY": 1
+        },
+        "train-21050-2": {
+          "BROKEN": 1
+        },
+        "train-06837-2": {
+          "BROKEN": 1
+        },
+        "train-02176-1": {
+          "EMPTY": 1
+        },
+        "train-18857-2": {
+          "BROKEN": 1
+        },
+        "train-20241-2": {
+          "BROKEN": 1
+        },
+        "train-21745-1": {
+          "EMPTY": 1
+        },
+        "train-04562-1": {
+          "EMPTY": 1
+        },
+        "train-14920-3": {
+          "EMPTY": 1
+        },
+        "train-03628-1": {
+          "EMPTY": 1
+        },
+        "train-14306-2": {
+          "BROKEN": 1
+        },
+        "train-13760-1": {
+          "EMPTY": 1
+        },
+        "train-21848-3": {
+          "EMPTY": 1
+        },
+        "train-28711-2": {
+          "BROKEN": 1
+        },
+        "train-00821-2": {
+          "BROKEN": 1
+        },
+        "train-26206-1": {
+          "EMPTY": 1
+        },
+        "train-25478-1": {
+          "EMPTY": 1
+        },
+        "train-21446-2": {
+          "BROKEN": 1
+        },
+        "train-24127-2": {
+          "BROKEN": 1
+        },
+        "train-18138-2": {
+          "BROKEN": 1
+        },
+        "train-13291-2": {
+          "BROKEN": 1
+        },
+        "train-27417-1": {
+          "EMPTY": 1
+        },
+        "train-09908-2": {
+          "BROKEN": 1
+        },
+        "train-04545-1": {
+          "EMPTY": 1
+        },
+        "train-17135-2": {
+          "BROKEN": 1
+        },
+        "train-27757-2": {
+          "EMPTY": 1
+        },
+        "train-27445-2": {
+          "BROKEN": 1
+        },
+        "train-02985-2": {
+          "BROKEN": 1
+        },
+        "train-17955-1": {
+          "EMPTY": 1
+        },
+        "train-00641-1": {
+          "EMPTY": 1
+        },
+        "train-07705-2": {
+          "BROKEN": 1
+        },
+        "train-13732-2": {
+          "BROKEN": 1
+        },
+        "train-26564-1": {
+          "EMPTY": 1
+        },
+        "train-21165-1": {
+          "EMPTY": 1
+        },
+        "train-11585-2": {
+          "BROKEN": 1
+        },
+        "train-15499-1": {
+          "EMPTY": 1
+        },
+        "train-12475-2": {
+          "BROKEN": 1
+        },
+        "train-10527-1": {
+          "EMPTY": 1
+        },
+        "train-29181-1": {
+          "EMPTY": 1
+        },
+        "train-17827-1": {
+          "EMPTY": 1
+        },
+        "train-10340-1": {
+          "EMPTY": 1
+        },
+        "train-10369-2": {
+          "BROKEN": 1
+        },
+        "train-14473-1": {
+          "EMPTY": 1
+        },
+        "train-20678-2": {
+          "BROKEN": 1
+        },
+        "train-11258-2": {
+          "BROKEN": 1
+        },
+        "train-15896-2": {
+          "BROKEN": 1
+        },
+        "train-22395-1": {
+          "EMPTY": 1
+        },
+        "train-06045-1": {
+          "EMPTY": 1
+        },
+        "train-15109-2": {
+          "BROKEN": 1
+        },
+        "train-01740-1": {
+          "EMPTY": 1
+        },
+        "train-09635-1": {
+          "EMPTY": 1
+        },
+        "train-24420-1": {
+          "EMPTY": 1
+        },
+        "train-09763-1": {
+          "EMPTY": 1
+        },
+        "train-29206-1": {
+          "EMPTY": 1
+        },
+        "train-02336-1": {
+          "EMPTY": 1
+        },
+        "train-04631-2": {
+          "BROKEN": 1
+        },
+        "train-19046-1": {
+          "EMPTY": 1
+        },
+        "train-21381-1": {
+          "EMPTY": 1
+        },
+        "train-16151-2": {
+          "BROKEN": 1
+        },
+        "train-23365-1": {
+          "EMPTY": 1
+        },
+        "train-14545-1": {
+          "EMPTY": 1
+        },
+        "train-22030-2": {
+          "EMPTY": 1
+        },
+        "train-25798-1": {
+          "EMPTY": 1
+        },
+        "train-15987-1": {
+          "EMPTY": 1
+        },
+        "train-09386-1": {
+          "EMPTY": 1
+        },
+        "train-12342-2": {
+          "BROKEN": 1
+        },
+        "train-23593-1": {
+          "EMPTY": 1
+        },
+        "train-29954-1": {
+          "BROKEN": 1
+        },
+        "train-10542-1": {
+          "EMPTY": 1
+        },
+        "train-08937-2": {
+          "BROKEN": 1
+        },
+        "train-07155-1": {
+          "EMPTY": 1
+        },
+        "train-28617-1": {
+          "EMPTY": 1
+        },
+        "train-26715-2": {
+          "EMPTY": 1
+        },
+        "train-09691-2": {
+          "BROKEN": 1
+        },
+        "train-12740-2": {
+          "BROKEN": 1
+        },
+        "train-09588-2": {
+          "BROKEN": 1
+        },
+        "train-18101-2": {
+          "BROKEN": 1
+        },
+        "train-14010-1": {
+          "EMPTY": 1
+        },
+        "train-06011-1": {
+          "EMPTY": 1
+        },
+        "train-23899-2": {
+          "BROKEN": 1
+        },
+        "train-06314-2": {
+          "BROKEN": 1
+        },
+        "train-22755-2": {
+          "BROKEN": 1
+        },
+        "train-05056-1": {
+          "EMPTY": 1
+        },
+        "train-22593-1": {
+          "EMPTY": 1
+        },
+        "train-23496-2": {
+          "EMPTY": 1
+        },
+        "train-08839-1": {
+          "EMPTY": 1
+        },
+        "train-23653-1": {
+          "EMPTY": 1
+        },
+        "train-21800-2": {
+          "BROKEN": 1
+        },
+        "train-07932-2": {
+          "BROKEN": 1
+        },
+        "train-10352-3": {
+          "EMPTY": 1
+        },
+        "train-00141-1": {
+          "EMPTY": 1
+        },
+        "train-04048-1": {
+          "EMPTY": 1
+        },
+        "train-28778-1": {
+          "EMPTY": 1
+        },
+        "train-17288-2": {
+          "BROKEN": 1
+        },
+        "train-14998-1": {
+          "EMPTY": 1
+        },
+        "train-01904-2": {
+          "BROKEN": 1
+        },
+        "train-11958-1": {
+          "BROKEN": 1
+        },
+        "train-20850-2": {
+          "BROKEN": 1
+        },
+        "train-11896-2": {
+          "BROKEN": 1
+        },
+        "train-26587-1": {
+          "EMPTY": 1
+        },
+        "train-00258-1": {
+          "EMPTY": 1
+        },
+        "train-25173-1": {
+          "EMPTY": 1
+        },
+        "train-22431-1": {
+          "EMPTY": 1
+        },
+        "train-05765-1": {
+          "EMPTY": 1
+        },
+        "train-07976-2": {
+          "BROKEN": 1
+        },
+        "train-25047-1": {
+          "EMPTY": 1
+        },
+        "train-27268-2": {
+          "BROKEN": 1
+        },
+        "train-05233-1": {
+          "EMPTY": 1
+        },
+        "train-06898-2": {
+          "BROKEN": 1
+        },
+        "train-16220-1": {
+          "EMPTY": 1
+        },
+        "train-11768-1": {
+          "EMPTY": 1
+        },
+        "train-19570-1": {
+          "EMPTY": 1
+        },
+        "train-16035-2": {
+          "BROKEN": 1
+        },
+        "train-19508-1": {
+          "EMPTY": 1
+        },
+        "train-23649-2": {
+          "BROKEN": 1
+        },
+        "train-08021-2": {
+          "BROKEN": 1
+        },
+        "train-21327-2": {
+          "BROKEN": 1
+        },
+        "train-04635-1": {
+          "EMPTY": 1
+        },
+        "train-07097-2": {
+          "BROKEN": 1
+        },
+        "train-23900-2": {
+          "BROKEN": 1
+        },
+        "train-14026-2": {
+          "BROKEN": 1
+        },
+        "train-04244-2": {
+          "BROKEN": 1
+        },
+        "train-14202-2": {
+          "BROKEN": 1
+        },
+        "train-27415-2": {
+          "BROKEN": 1
+        },
+        "train-27021-1": {
+          "EMPTY": 1
+        },
+        "train-05208-1": {
+          "EMPTY": 1
+        },
+        "train-18427-2": {
+          "BROKEN": 1
+        },
+        "train-11720-1": {
+          "EMPTY": 1
+        },
+        "train-21588-2": {
+          "BROKEN": 1
+        },
+        "train-14668-2": {
+          "BROKEN": 1
+        },
+        "train-10465-1": {
+          "EMPTY": 1
+        },
+        "train-07738-2": {
+          "BROKEN": 1
+        },
+        "train-08685-2": {
+          "BROKEN": 1
+        },
+        "train-27958-1": {
+          "EMPTY": 1
+        },
+        "train-24418-2": {
+          "BROKEN": 1
+        },
+        "train-27726-2": {
+          "BROKEN": 1
+        },
+        "train-18776-1": {
+          "EMPTY": 1
+        },
+        "train-08893-2": {
+          "BROKEN": 1
+        },
+        "train-14106-2": {
+          "BROKEN": 1
+        },
+        "train-18617-1": {
+          "EMPTY": 1
+        },
+        "train-07135-1": {
+          "EMPTY": 1
+        },
+        "train-24247-2": {
+          "BROKEN": 1
+        },
+        "train-10147-2": {
+          "BROKEN": 1
+        },
+        "train-02509-1": {
+          "EMPTY": 1
+        },
+        "train-14670-1": {
+          "EMPTY": 1
+        },
+        "train-09470-2": {
+          "BROKEN": 1
+        },
+        "train-06835-2": {
+          "BROKEN": 1
+        },
+        "train-16689-2": {
+          "BROKEN": 1
+        },
+        "train-22036-1": {
+          "EMPTY": 1
+        },
+        "train-09859-1": {
+          "EMPTY": 1
+        },
+        "train-22527-1": {
+          "BROKEN": 1
+        },
+        "train-12432-2": {
+          "BROKEN": 1
+        },
+        "train-08126-1": {
+          "EMPTY": 1
+        },
+        "train-24951-1": {
+          "EMPTY": 1
+        },
+        "train-13228-3": {
+          "EMPTY": 1
+        },
+        "train-29070-1": {
+          "EMPTY": 1
+        },
+        "train-05583-2": {
+          "BROKEN": 1
+        },
+        "train-26571-1": {
+          "EMPTY": 1
+        },
+        "train-15530-1": {
+          "EMPTY": 1
+        },
+        "train-17686-1": {
+          "EMPTY": 1
+        },
+        "train-27735-1": {
+          "EMPTY": 1
+        },
+        "train-05720-1": {
+          "EMPTY": 1
+        },
+        "train-20722-1": {
+          "EMPTY": 1
+        },
+        "train-18129-1": {
+          "EMPTY": 1
+        },
+        "train-20413-2": {
+          "EMPTY": 1
+        },
+        "train-14045-1": {
+          "EMPTY": 1
+        },
+        "train-05076-2": {
+          "BROKEN": 1
+        },
+        "train-15145-2": {
+          "BROKEN": 1
+        },
+        "train-17178-1": {
+          "EMPTY": 1
+        },
+        "train-07236-1": {
+          "BROKEN": 1
+        },
+        "train-10557-1": {
+          "EMPTY": 1
+        },
+        "train-29596-1": {
+          "EMPTY": 1
+        },
+        "train-14845-1": {
+          "EMPTY": 1
+        },
+        "train-09911-1": {
+          "EMPTY": 1
+        },
+        "train-15151-1": {
+          "EMPTY": 1
+        },
+        "train-05000-2": {
+          "BROKEN": 1
+        },
+        "train-26403-3": {
+          "EMPTY": 1
+        },
+        "train-17035-2": {
+          "BROKEN": 1
+        },
+        "train-18073-1": {
+          "EMPTY": 1
+        },
+        "train-04131-1": {
+          "EMPTY": 1
+        },
+        "train-25816-3": {
+          "EMPTY": 1
+        },
+        "train-21988-2": {
+          "BROKEN": 1
+        },
+        "train-09471-1": {
+          "EMPTY": 1
+        },
+        "train-17944-3": {
+          "EMPTY": 1
+        },
+        "train-16316-2": {
+          "BROKEN": 1
+        },
+        "train-04590-2": {
+          "BROKEN": 1
+        },
+        "train-12458-1": {
+          "BROKEN": 1
+        },
+        "train-13345-2": {
+          "BROKEN": 1
+        },
+        "train-07152-1": {
+          "EMPTY": 1
+        },
+        "train-15952-2": {
+          "BROKEN": 1
+        },
+        "train-06254-1": {
+          "EMPTY": 1
+        },
+        "train-25328-1": {
+          "EMPTY": 1
+        },
+        "train-09775-1": {
+          "EMPTY": 1
+        },
+        "train-14774-2": {
+          "BROKEN": 1
+        },
+        "train-29398-2": {
+          "BROKEN": 1
+        },
+        "train-08570-1": {
+          "EMPTY": 1
+        },
+        "train-06866-1": {
+          "EMPTY": 1
+        },
+        "train-08066-2": {
+          "BROKEN": 1
+        },
+        "train-14726-2": {
+          "BROKEN": 1
+        },
+        "train-17951-1": {
+          "BROKEN": 1
+        },
+        "train-14625-2": {
+          "BROKEN": 1
+        },
+        "train-20264-2": {
+          "BROKEN": 1
+        },
+        "train-10205-1": {
+          "EMPTY": 1
+        },
+        "train-00952-1": {
+          "EMPTY": 1
+        },
+        "train-23629-2": {
+          "BROKEN": 1
+        },
+        "train-21199-1": {
+          "EMPTY": 1
+        },
+        "train-07198-1": {
+          "EMPTY": 1
+        },
+        "train-25590-1": {
+          "EMPTY": 1
+        },
+        "train-04377-2": {
+          "BROKEN": 1
+        },
+        "train-17473-2": {
+          "BROKEN": 1
+        },
+        "train-15309-2": {
+          "BROKEN": 1
+        },
+        "train-24873-2": {
+          "BROKEN": 1
+        },
+        "train-19215-1": {
+          "EMPTY": 1
+        },
+        "train-17954-1": {
+          "EMPTY": 1
+        },
+        "train-14753-2": {
+          "BROKEN": 1
+        },
+        "train-10729-1": {
+          "EMPTY": 1
+        },
+        "train-11951-1": {
+          "EMPTY": 1
+        }
+      },
+      "updates": 128,
+      "mean_loss": 0.44637882709503174
+    },
+    {
+      "stage": 3,
+      "steps": 6144,
+      "decisions": 6144,
+      "outcomes": {
+        "EMPTY": 114,
+        "BROKEN": 23,
+        "SUCCESS": 2
+      },
+      "maps": {
+        "train-28254-2": 1,
+        "train-13523-1": 1,
+        "train-00355-3": 1,
+        "train-09297-3": 1,
+        "train-14214-3": 1,
+        "train-18553-3": 1,
+        "train-01069-3": 1,
+        "train-22353-3": 1,
+        "train-06651-3": 1,
+        "train-25708-3": 1,
+        "train-18153-3": 1,
+        "train-20406-3": 1,
+        "train-16321-3": 1,
+        "train-13178-3": 1,
+        "train-06804-2": 1,
+        "train-27946-3": 1,
+        "train-08439-3": 1,
+        "train-24359-3": 1,
+        "train-16747-3": 1,
+        "train-02424-0": 1,
+        "train-21863-0": 1,
+        "train-22494-3": 1,
+        "train-15211-3": 1,
+        "train-21303-3": 1,
+        "train-12737-0": 1,
+        "train-24742-3": 1,
+        "train-26769-3": 1,
+        "train-19061-3": 1,
+        "train-25416-3": 1,
+        "train-22073-0": 1,
+        "train-07721-3": 1,
+        "train-25524-3": 1,
+        "train-12940-3": 1,
+        "train-16995-3": 1,
+        "train-19884-2": 1,
+        "train-13329-3": 1,
+        "train-03349-3": 1,
+        "train-04271-3": 1,
+        "train-00468-1": 1,
+        "train-26807-3": 1,
+        "train-08155-3": 1,
+        "train-06702-0": 1,
+        "train-16076-3": 1,
+        "train-21562-3": 1,
+        "train-17911-3": 1,
+        "train-13343-0": 1,
+        "train-08491-3": 1,
+        "train-02688-3": 1,
+        "train-08121-3": 1,
+        "train-10637-3": 1,
+        "train-13306-3": 1,
+        "train-05417-3": 1,
+        "train-05470-3": 1,
+        "train-12245-3": 1,
+        "train-21456-3": 1,
+        "train-10078-3": 1,
+        "train-24007-3": 1,
+        "train-10152-0": 1,
+        "train-09362-3": 1,
+        "train-02816-3": 1,
+        "train-16187-3": 1,
+        "train-24417-3": 1,
+        "train-14693-1": 1,
+        "train-27943-3": 1,
+        "train-01963-3": 1,
+        "train-20662-3": 1,
+        "train-07487-0": 1,
+        "train-08909-2": 1,
+        "train-13649-3": 1,
+        "train-21648-3": 1,
+        "train-08969-1": 1,
+        "train-05069-2": 1,
+        "train-25786-3": 1,
+        "train-13513-3": 1,
+        "train-18887-3": 1,
+        "train-27587-3": 1,
+        "train-10708-3": 1,
+        "train-07617-3": 1,
+        "train-10012-3": 1,
+        "train-06228-3": 1,
+        "train-00879-3": 1,
+        "train-07508-3": 1,
+        "train-21575-3": 1,
+        "train-05669-2": 1,
+        "train-29090-3": 1,
+        "train-15879-3": 1,
+        "train-25176-3": 1,
+        "train-02898-3": 1,
+        "train-11725-3": 1,
+        "train-03408-3": 1,
+        "train-09703-3": 1,
+        "train-04049-1": 1,
+        "train-01673-0": 1,
+        "train-10433-0": 1,
+        "train-28126-3": 1,
+        "train-20559-3": 1,
+        "train-25768-3": 1,
+        "train-27474-2": 1,
+        "train-15836-3": 1,
+        "train-20355-3": 1,
+        "train-06311-3": 1,
+        "train-27278-3": 1,
+        "train-11238-3": 1,
+        "train-04519-3": 1,
+        "train-04248-3": 1,
+        "train-23798-3": 1,
+        "train-10278-3": 1,
+        "train-14506-3": 1,
+        "train-17774-3": 1,
+        "train-11518-3": 1,
+        "train-05369-3": 1,
+        "train-27351-3": 1,
+        "train-28850-3": 1,
+        "train-00687-3": 1,
+        "train-10972-3": 1,
+        "train-10376-3": 1,
+        "train-16512-3": 1,
+        "train-25135-3": 1,
+        "train-01471-3": 1,
+        "train-26736-3": 1,
+        "train-26641-3": 1,
+        "train-29398-3": 1,
+        "train-03738-0": 1,
+        "train-24314-3": 1,
+        "train-15327-3": 1,
+        "train-07629-3": 1,
+        "train-09059-0": 1,
+        "train-12683-1": 1,
+        "train-09683-3": 1,
+        "train-19386-3": 1,
+        "train-02634-2": 1,
+        "train-02723-2": 1,
+        "train-18652-3": 1,
+        "train-25547-3": 1,
+        "train-16973-0": 1,
+        "train-05511-3": 1,
+        "train-07239-3": 1,
+        "train-16555-3": 1,
+        "train-17427-1": 1,
+        "train-04131-3": 1,
+        "train-21554-3": 1,
+        "train-15368-3": 1,
+        "train-10547-3": 1,
+        "train-08482-3": 1,
+        "train-05964-0": 1,
+        "train-01079-3": 1,
+        "train-25325-3": 1,
+        "train-25776-3": 1,
+        "train-18797-3": 1,
+        "train-29581-3": 1,
+        "train-07185-3": 1,
+        "train-03914-3": 1,
+        "train-25953-3": 1,
+        "train-21975-3": 1,
+        "train-10485-3": 1,
+        "train-16117-3": 1,
+        "train-04974-0": 1,
+        "train-28821-1": 1,
+        "train-22041-3": 1,
+        "train-11225-3": 1,
+        "train-01229-0": 1,
+        "train-00324-0": 1,
+        "train-03518-3": 1
+      },
+      "finished": {
+        "train-18153-3": {
+          "EMPTY": 1
+        },
+        "train-15211-3": {
+          "EMPTY": 1
+        },
+        "train-21303-3": {
+          "EMPTY": 1
+        },
+        "train-27946-3": {
+          "EMPTY": 1
+        },
+        "train-18553-3": {
+          "EMPTY": 1
+        },
+        "train-16321-3": {
+          "BROKEN": 1
+        },
+        "train-16747-3": {
+          "EMPTY": 1
+        },
+        "train-08439-3": {
+          "EMPTY": 1
+        },
+        "train-22353-3": {
+          "BROKEN": 1
+        },
+        "train-24742-3": {
+          "BROKEN": 1
+        },
+        "train-19061-3": {
+          "EMPTY": 1
+        },
+        "train-07721-3": {
+          "EMPTY": 1
+        },
+        "train-09297-3": {
+          "EMPTY": 1
+        },
+        "train-20406-3": {
+          "EMPTY": 1
+        },
+        "train-12940-3": {
+          "EMPTY": 1
+        },
+        "train-01069-3": {
+          "EMPTY": 1
+        },
+        "train-13329-3": {
+          "EMPTY": 1
+        },
+        "train-25416-3": {
+          "EMPTY": 1
+        },
+        "train-25708-3": {
+          "BROKEN": 1
+        },
+        "train-04271-3": {
+          "EMPTY": 1
+        },
+        "train-16995-3": {
+          "EMPTY": 1
+        },
+        "train-03349-3": {
+          "EMPTY": 1
+        },
+        "train-16076-3": {
+          "EMPTY": 1
+        },
+        "train-06651-3": {
+          "EMPTY": 1
+        },
+        "train-17911-3": {
+          "EMPTY": 1
+        },
+        "train-08491-3": {
+          "BROKEN": 1
+        },
+        "train-24359-3": {
+          "EMPTY": 1
+        },
+        "train-21562-3": {
+          "EMPTY": 1
+        },
+        "train-08155-3": {
+          "EMPTY": 1
+        },
+        "train-08121-3": {
+          "EMPTY": 1
+        },
+        "train-22494-3": {
+          "EMPTY": 1
+        },
+        "train-13306-3": {
+          "EMPTY": 1
+        },
+        "train-12245-3": {
+          "EMPTY": 1
+        },
+        "train-05470-3": {
+          "EMPTY": 1
+        },
+        "train-25524-3": {
+          "EMPTY": 1
+        },
+        "train-13523-1": {
+          "EMPTY": 1
+        },
+        "train-05417-3": {
+          "EMPTY": 1
+        },
+        "train-09362-3": {
+          "EMPTY": 1
+        },
+        "train-26807-3": {
+          "EMPTY": 1
+        },
+        "train-02816-3": {
+          "EMPTY": 1
+        },
+        "train-10078-3": {
+          "EMPTY": 1
+        },
+        "train-27943-3": {
+          "EMPTY": 1
+        },
+        "train-01963-3": {
+          "EMPTY": 1
+        },
+        "train-28254-2": {
+          "BROKEN": 1
+        },
+        "train-24417-3": {
+          "EMPTY": 1
+        },
+        "train-20662-3": {
+          "EMPTY": 1
+        },
+        "train-00468-1": {
+          "EMPTY": 1
+        },
+        "train-10637-3": {
+          "EMPTY": 1
+        },
+        "train-13178-3": {
+          "SUCCESS": 1
+        },
+        "train-25786-3": {
+          "BROKEN": 1
+        },
+        "train-19884-2": {
+          "BROKEN": 1
+        },
+        "train-16187-3": {
+          "EMPTY": 1
+        },
+        "train-14214-3": {
+          "EMPTY": 1
+        },
+        "train-13513-3": {
+          "BROKEN": 1
+        },
+        "train-06804-2": {
+          "BROKEN": 1
+        },
+        "train-21648-3": {
+          "EMPTY": 1
+        },
+        "train-02424-0": {
+          "EMPTY": 1
+        },
+        "train-21863-0": {
+          "EMPTY": 1
+        },
+        "train-10012-3": {
+          "EMPTY": 1
+        },
+        "train-12737-0": {
+          "EMPTY": 1
+        },
+        "train-18887-3": {
+          "EMPTY": 1
+        },
+        "train-00879-3": {
+          "EMPTY": 1
+        },
+        "train-14693-1": {
+          "EMPTY": 1
+        },
+        "train-22073-0": {
+          "EMPTY": 1
+        },
+        "train-02688-3": {
+          "EMPTY": 1
+        },
+        "train-13649-3": {
+          "EMPTY": 1
+        },
+        "train-21575-3": {
+          "BROKEN": 1
+        },
+        "train-00355-3": {
+          "BROKEN": 1
+        },
+        "train-29090-3": {
+          "EMPTY": 1
+        },
+        "train-06702-0": {
+          "EMPTY": 1
+        },
+        "train-13343-0": {
+          "EMPTY": 1
+        },
+        "train-10708-3": {
+          "EMPTY": 1
+        },
+        "train-11725-3": {
+          "BROKEN": 1
+        },
+        "train-07617-3": {
+          "EMPTY": 1
+        },
+        "train-27587-3": {
+          "EMPTY": 1
+        },
+        "train-09703-3": {
+          "EMPTY": 1
+        },
+        "train-28126-3": {
+          "EMPTY": 1
+        },
+        "train-25768-3": {
+          "EMPTY": 1
+        },
+        "train-03408-3": {
+          "EMPTY": 1
+        },
+        "train-27278-3": {
+          "EMPTY": 1
+        },
+        "train-08909-2": {
+          "BROKEN": 1
+        },
+        "train-15836-3": {
+          "EMPTY": 1
+        },
+        "train-10152-0": {
+          "EMPTY": 1
+        },
+        "train-06228-3": {
+          "EMPTY": 1
+        },
+        "train-06311-3": {
+          "EMPTY": 1
+        },
+        "train-23798-3": {
+          "BROKEN": 1
+        },
+        "train-20559-3": {
+          "EMPTY": 1
+        },
+        "train-04519-3": {
+          "EMPTY": 1
+        },
+        "train-14506-3": {
+          "EMPTY": 1
+        },
+        "train-20355-3": {
+          "EMPTY": 1
+        },
+        "train-08969-1": {
+          "EMPTY": 1
+        },
+        "train-11518-3": {
+          "EMPTY": 1
+        },
+        "train-05069-2": {
+          "BROKEN": 1
+        },
+        "train-11238-3": {
+          "EMPTY": 1
+        },
+        "train-10972-3": {
+          "EMPTY": 1
+        },
+        "train-07487-0": {
+          "EMPTY": 1
+        },
+        "train-10376-3": {
+          "EMPTY": 1
+        },
+        "train-25135-3": {
+          "EMPTY": 1
+        },
+        "train-26736-3": {
+          "EMPTY": 1
+        },
+        "train-00687-3": {
+          "EMPTY": 1
+        },
+        "train-27351-3": {
+          "BROKEN": 1
+        },
+        "train-29398-3": {
+          "EMPTY": 1
+        },
+        "train-02898-3": {
+          "BROKEN": 1
+        },
+        "train-04248-3": {
+          "EMPTY": 1
+        },
+        "train-07629-3": {
+          "EMPTY": 1
+        },
+        "train-24314-3": {
+          "BROKEN": 1
+        },
+        "train-15327-3": {
+          "EMPTY": 1
+        },
+        "train-16512-3": {
+          "EMPTY": 1
+        },
+        "train-05669-2": {
+          "BROKEN": 1
+        },
+        "train-04049-1": {
+          "EMPTY": 1
+        },
+        "train-10278-3": {
+          "EMPTY": 1
+        },
+        "train-18652-3": {
+          "EMPTY": 1
+        },
+        "train-19386-3": {
+          "EMPTY": 1
+        },
+        "train-15879-3": {
+          "EMPTY": 1
+        },
+        "train-07239-3": {
+          "EMPTY": 1
+        },
+        "train-25176-3": {
+          "EMPTY": 1
+        },
+        "train-27474-2": {
+          "BROKEN": 1
+        },
+        "train-25547-3": {
+          "EMPTY": 1
+        },
+        "train-12683-1": {
+          "EMPTY": 1
+        },
+        "train-15368-3": {
+          "EMPTY": 1
+        },
+        "train-01673-0": {
+          "EMPTY": 1
+        },
+        "train-10433-0": {
+          "EMPTY": 1
+        },
+        "train-21554-3": {
+          "EMPTY": 1
+        },
+        "train-08482-3": {
+          "EMPTY": 1
+        },
+        "train-05511-3": {
+          "EMPTY": 1
+        },
+        "train-25325-3": {
+          "EMPTY": 1
+        },
+        "train-05369-3": {
+          "BROKEN": 1
+        },
+        "train-29581-3": {
+          "EMPTY": 1
+        },
+        "train-25776-3": {
+          "EMPTY": 1
+        },
+        "train-24007-3": {
+          "SUCCESS": 1
+        },
+        "train-10547-3": {
+          "EMPTY": 1
+        },
+        "train-04131-3": {
+          "EMPTY": 1
+        },
+        "train-17427-1": {
+          "EMPTY": 1
+        },
+        "train-25953-3": {
+          "EMPTY": 1
+        },
+        "train-03914-3": {
+          "EMPTY": 1
+        },
+        "train-21975-3": {
+          "EMPTY": 1
+        },
+        "train-16117-3": {
+          "EMPTY": 1
+        },
+        "train-07185-3": {
+          "BROKEN": 1
+        },
+        "train-11225-3": {
+          "EMPTY": 1
+        }
+      },
+      "updates": 128,
+      "mean_loss": 0.46120041608810425
+    }
+  ]
+}

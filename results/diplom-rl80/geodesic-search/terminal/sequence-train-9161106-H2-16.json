@@ -1,0 +1,132 @@
+{
+  "weights": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      12.0,
+      8.0,
+      4.0,
+      2.0,
+      7.0,
+      2.0,
+      12.0,
+      8.0
+    ],
+    [
+      12.0,
+      8.0,
+      6.0,
+      4.0,
+      12.0,
+      6.0,
+      16.0,
+      10.0
+    ],
+    [
+      6.0,
+      5.0,
+      2.0,
+      1.0,
+      5.0,
+      2.0,
+      12.0,
+      6.0
+    ],
+    [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      4.0,
+      4.0,
+      8.0,
+      4.0
+    ],
+    [
+      8.0,
+      5.75,
+      3.5,
+      2.25,
+      7.0,
+      3.5,
+      12.0,
+      7.0
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "sequence-train-9161106-H2-16",
+      "tier": "H2",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "reward": 1,
+      "steps": 166,
+      "refuels": 3,
+      "repairs": 2,
+      "actions_sha256": "fe7bd62f17dca6b5d8255db45571a01db2091f86b7d65e137206f72eb0349443"
+    },
+    {
+      "map": "sequence-train-9161106-H2-16",
+      "tier": "H2",
+      "model": 1,
+      "outcome": "BROKEN",
+      "reward": 0,
+      "steps": 136,
+      "refuels": 2,
+      "repairs": 1,
+      "actions_sha256": "f9dfea66c476b68bf51ad1bca80bfc74dfc1f7afd2f2a154771dfceb7976188a"
+    },
+    {
+      "map": "sequence-train-9161106-H2-16",
+      "tier": "H2",
+      "model": 2,
+      "outcome": "EMPTY",
+      "reward": 0,
+      "steps": 121,
+      "refuels": 1,
+      "repairs": 1,
+      "actions_sha256": "310d00651a92186efbfdf394c25fe830f205a763803c37aa9f99fa80da3c166c"
+    },
+    {
+      "map": "sequence-train-9161106-H2-16",
+      "tier": "H2",
+      "model": 3,
+      "outcome": "BROKEN",
+      "reward": 0,
+      "steps": 136,
+      "refuels": 2,
+      "repairs": 1,
+      "actions_sha256": "f9dfea66c476b68bf51ad1bca80bfc74dfc1f7afd2f2a154771dfceb7976188a"
+    },
+    {
+      "map": "sequence-train-9161106-H2-16",
+      "tier": "H2",
+      "model": 4,
+      "outcome": "BROKEN",
+      "reward": 0,
+      "steps": 136,
+      "refuels": 2,
+      "repairs": 1,
+      "actions_sha256": "f9dfea66c476b68bf51ad1bca80bfc74dfc1f7afd2f2a154771dfceb7976188a"
+    },
+    {
+      "map": "sequence-train-9161106-H2-16",
+      "tier": "H2",
+      "model": 5,
+      "outcome": "EMPTY",
+      "reward": 0,
+      "steps": 121,
+      "refuels": 1,
+      "repairs": 1,
+      "actions_sha256": "05e08225b9a54f58dad09414f97b8184546be11d2c926be3a04ffff15f2f6b8a"
+    }
+  ]
+}

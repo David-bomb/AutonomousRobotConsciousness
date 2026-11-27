@@ -1,0 +1,31 @@
+{
+  "seed": 1601,
+  "maps": 200,
+  "rollin": 0,
+  "epochs": 10,
+  "groups": 4,
+  "init": null,
+  "init_sha256": null,
+  "sources": {
+    "pilot.py": "6cacc216ba8066c17b89a2ad170140d0bb0a88c306729573bf1e7e287c0cfa35",
+    "policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "teacher.py": "aab06c3640a274b2b9cffbac432241fefc8bdcc1439e2e66c09823281de85586",
+    "reward_test.py": "fe21e46f26cb3adf57ae90da713c92c062e4d5759b504ee73633ae3122c5c3ab"
+  },
+  "bank": {
+    "train": {
+      "count": 800,
+      "sha256": "524c9b98b433779eb5cf51cbb654fe59c8a15ed78338deae6dd442785e2db0f5"
+    },
+    "dev": {
+      "count": 100,
+      "sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6"
+    },
+    "confirmation": {
+      "count": 200,
+      "sha256": "bf0fc2ea01b1947d43e894d72a62b0d8f4d3a37dfcc694edbf362088caaaf789"
+    }
+  }
+}

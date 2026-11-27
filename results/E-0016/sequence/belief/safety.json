@@ -1,0 +1,75 @@
+{
+  "seed": 1616,
+  "train_maps": 320,
+  "held_maps": 80,
+  "training_states": 31630,
+  "default_fatal_training": 527,
+  "held_parts": [
+    "train-0080.npz",
+    "train-0140.npz",
+    "train-0150.npz",
+    "train-0170.npz",
+    "train-0190.npz",
+    "train-0220.npz",
+    "train-0230.npz",
+    "train-0390.npz"
+  ],
+  "source": "4133f32a785edde63b62abc5cba3d1ec555776e966e33521b3aa934063419d68",
+  "checkpoints": [
+    {
+      "step": 450,
+      "sha256": "415c2ff2ad226a8871e154da0436348f0f9f4fd3d76ae3bce2f28b4e29a568e4",
+      "held_geometry_result": {
+        "sensor": {
+          "fatal_n": 166,
+          "retained_after_default_fatal": 110,
+          "preserved_when_default_viable": 4088,
+          "viable_default_n": 4396,
+          "downhill_when_default_fatal": 113
+        },
+        "viability": {
+          "fatal_n": 166,
+          "retained_after_default_fatal": 108,
+          "preserved_when_default_viable": 4255,
+          "viable_default_n": 4396,
+          "downhill_when_default_fatal": 109
+        },
+        "combined": {
+          "fatal_n": 166,
+          "retained_after_default_fatal": 109,
+          "preserved_when_default_viable": 4142,
+          "viable_default_n": 4396,
+          "downhill_when_default_fatal": 114
+        }
+      }
+    },
+    {
+      "step": 1800,
+      "sha256": "ea320b15364aa1ce7606729ee25e535f17f3a524cd4660448443fc19609e67e3",
+      "held_geometry_result": {
+        "sensor": {
+          "fatal_n": 166,
+          "retained_after_default_fatal": 104,
+          "preserved_when_default_viable": 4091,
+          "viable_default_n": 4396,
+          "downhill_when_default_fatal": 108
+        },
+        "viability": {
+          "fatal_n": 166,
+          "retained_after_default_fatal": 98,
+          "preserved_when_default_viable": 4234,
+          "viable_default_n": 4396,
+          "downhill_when_default_fatal": 99
+        },
+        "combined": {
+          "fatal_n": 166,
+          "retained_after_default_fatal": 102,
+          "preserved_when_default_viable": 4123,
+          "viable_default_n": 4396,
+          "downhill_when_default_fatal": 106
+        }
+      }
+    }
+  ],
+  "selected": 450
+}

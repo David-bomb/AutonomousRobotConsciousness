@@ -1,0 +1,31 @@
+{
+  "selected": "early600",
+  "corrections": {
+    "interventions": 54,
+    "alternatives_independently_checked": 108,
+    "source": {
+      "cold": 27,
+      "exact": 27
+    },
+    "early1800_training_revisit": {
+      "first_n": 25,
+      "first_viable": 25,
+      "later_n": 29,
+      "later_viable": 29
+    }
+  },
+  "dev": {
+    "replayed_steps": {
+      "parent": 70447,
+      "honest": 58487,
+      "ablated": 26576
+    },
+    "physical_episodes": 300,
+    "uncached_each_mode": [
+      "dev-9160200-H1-01",
+      "dev-9160200-H1-11",
+      "dev-9160200-H3-22",
+      "dev-9160200-H4-25"
+    ]
+  }
+}

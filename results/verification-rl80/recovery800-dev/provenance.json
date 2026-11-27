@@ -1,0 +1,19 @@
+{
+  "checkpoint_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "reference_path": "results/E-0016/runs/recovery800/rl.physical.json",
+  "reference_sha256": "532ef5cf5176bdc60daae57d58f875dce9f42d779e8315fe66206100b2201a08",
+  "config_sha256": "d72462a311aa6b48b2b5da6ceb486268b7909f58a21f830ec6f1af915d831699",
+  "reference_sources": {
+    "adapter.py": "782f5b786d41f3d44a7eb68e901146e43026df9a8ec3d840b133238d63528159",
+    "policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "dev.py": "0b350b48e9eb60fe42920bc6297aba72696d74c5077c729a38fc998e1a3665f9"
+  },
+  "adapter_source": "Исходная запись создания adapter.py, совпадение с SHA-256 физического журнала.",
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "torch": "2.8.0+cu129",
+  "numpy": "2.2.6",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

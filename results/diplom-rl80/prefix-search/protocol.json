@@ -1,0 +1,19 @@
+{
+  "seed": 274102,
+  "base": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "bank": "5cff78cb3589d45c31b430a6a75b85871015402d36440a02e39f66870e22fae6",
+  "sources": {
+    "gradient_prefix.cpp": "6228dda83076c7ef8d9a1d3db5fe4c981f649d909d5c50ff8356a43d23afb0fa",
+    "gradient_prefix.dll": "7e3cd4365a8ab12ff23e02b992f4c22b12d8f1119a8bb5d150753a7100361c05",
+    "prefix_controller.py": "86b2abafdc6c95f29cf663b0930d55f84c16c8ff1f8ab255407f08d301dee404",
+    "prefix_search.py": "ebf46584226bbefa9c26227f2843d8f44418558c0319012f0188ee66a43f17f3"
+  },
+  "fit": "E-0016 train[0:600], indices not divisible by 5",
+  "selection": "120 remaining maps of train[0:600]",
+  "reward": "1 for physical SUCCESS, 0 for other outcomes; deterministic repeated view is a loss during fit only",
+  "rounds": 4,
+  "population": 12,
+  "maps_per_round": 32,
+  "ranking": "mean of top four terminal counts, earlier on ties",
+  "final_selection": "maximum train-select successes, retain earliest on ties; dev once after registration"
+}

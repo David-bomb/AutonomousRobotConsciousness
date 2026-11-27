@@ -1,0 +1,60 @@
+{
+  "bank": "0bb741c6a1fe660e9c1f63cfd3df2b27fe9c6d73005c37aaeadea4ae05d47ec1",
+  "groups": {
+    "fit": {
+      "span": [
+        7000,
+        7400
+      ],
+      "tiers": {
+        "H1": 100,
+        "H2": 100,
+        "H3": 100,
+        "H4": 100
+      },
+      "geometry": "951ae95c645e05f2798c3bbb78324b6562e4e3ee80e65022eb3371ab8b7634af"
+    },
+    "held": {
+      "span": [
+        7400,
+        7500
+      ],
+      "tiers": {
+        "H1": 25,
+        "H2": 25,
+        "H3": 25,
+        "H4": 25
+      },
+      "geometry": "21cd9a4caae6f49255fadb1085ab974b2d38d95afdcc065ce993a7311f1d7575"
+    },
+    "selection": {
+      "span": [
+        7500,
+        7600
+      ],
+      "tiers": {
+        "H1": 25,
+        "H2": 25,
+        "H3": 25,
+        "H4": 25
+      },
+      "geometry": "daec23b83a5570f93a7e83c648b6cea099fbef4dbeac74aa4dcce21b73a2dafd"
+    }
+  },
+  "pair_archive": "704729fb985c1c660fc96311e79524882a926b6157804e573f2a6a97d2142185",
+  "frozen": "ab657eb0df68a0567f89be483aecce62af3fc2d61a22c0d8ee9e9ce7da430e2e",
+  "dev": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "protocol": "eec2a1528ef1d46ff2c8446fc23b7f9067c153e948b77221616c65d45f553766",
+  "selection_order": [
+    "marginal1",
+    "direct1",
+    "missing",
+    "marginal0.5",
+    "direct0.5"
+  ],
+  "collection": {
+    "max_early_steps": 80,
+    "max_samples": 36,
+    "seed": 20377
+  }
+}

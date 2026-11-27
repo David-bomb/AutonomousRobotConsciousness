@@ -1,0 +1,189 @@
+{
+  "base": "8c7bbd40896816456293923bac7db656a6202e7a609c9c9558aa0dbca93f557b",
+  "prior": "103c097c715ff29a0cb8c76aee87f45c5de932139a888b7a82fd5a2b0be2307a",
+  "survival_training": {
+    "train_sha256": "6affb0aa46384b2f3485e630524bb0dc02abb5b5f9901adee4f786b0d1ada763",
+    "groups": {
+      "corridors": 400,
+      "branching": 400,
+      "rooms": 400,
+      "loops": 400
+    },
+    "families": [
+      "corridors",
+      "branching",
+      "rooms",
+      "loops"
+    ],
+    "shape": [
+      4,
+      648
+    ],
+    "sha256": "103c097c715ff29a0cb8c76aee87f45c5de932139a888b7a82fd5a2b0be2307a"
+  },
+  "screening_settings": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      12,
+      8,
+      0,
+      0
+    ],
+    [
+      1,
+      12,
+      4,
+      4,
+      0
+    ],
+    [
+      1,
+      12,
+      4,
+      10,
+      0
+    ],
+    [
+      1,
+      12,
+      4,
+      0,
+      5
+    ],
+    [
+      1,
+      12,
+      4,
+      0,
+      12
+    ],
+    [
+      1,
+      12,
+      4,
+      8,
+      5
+    ],
+    [
+      1,
+      12,
+      4,
+      16,
+      8
+    ],
+    [
+      1,
+      12,
+      8,
+      4,
+      0
+    ],
+    [
+      1,
+      12,
+      8,
+      10,
+      0
+    ],
+    [
+      1,
+      12,
+      8,
+      0,
+      5
+    ],
+    [
+      1,
+      12,
+      8,
+      0,
+      12
+    ],
+    [
+      1,
+      12,
+      8,
+      8,
+      5
+    ],
+    [
+      1,
+      12,
+      8,
+      16,
+      8
+    ],
+    [
+      1,
+      12,
+      16,
+      4,
+      0
+    ],
+    [
+      1,
+      12,
+      16,
+      10,
+      0
+    ],
+    [
+      1,
+      12,
+      16,
+      0,
+      5
+    ],
+    [
+      1,
+      12,
+      16,
+      0,
+      12
+    ],
+    [
+      1,
+      12,
+      16,
+      8,
+      5
+    ],
+    [
+      1,
+      12,
+      16,
+      16,
+      8
+    ]
+  ],
+  "screen": [
+    1400,
+    1500,
+    8
+  ],
+  "selection": [
+    1500,
+    1600,
+    15
+  ],
+  "rank": [
+    "total SUCCESS",
+    "worst tier",
+    "earliest"
+  ],
+  "sources": {
+    "population.py": "3aa2e0444350f32d6c125036fe89e18a79036e7fdc7df2b71031cce7cdfbd3b2",
+    "physical_model.py": "fefb10d228a3038f2ad05e6391a6f5c1a9e7fd08127a8bc695c047aff1212594",
+    "features.py": "9b4994e8f72d0d248c99126d567a54d6dd024070520e0d7134e10becd1cf4f94",
+    "walks.cpp": "bcaeb211c53d8b0e70ad0a5c343cd835dbd4ec6a3000e7a06d53fb2a55d5a0e4",
+    "walks.dll": "21d1d6b49aecd8f5d122999276d3efbba86875970ef242189cf93d609ea6713d",
+    "physical_adapter.py": "d18b3facf790ddf5386b9750410e5c939a0e3f1c7dcaad0ad27748b29acfba82"
+  }
+}

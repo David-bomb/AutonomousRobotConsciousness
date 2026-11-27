@@ -1,0 +1,511 @@
+{
+  "tag": "early600",
+  "sha256": "8227bfbc647d8ab06b4c07f30856ca74dfb5df1c209414e46b7b17b8d29d319e",
+  "ablate": false,
+  "bank": "e11e173ccbcf9dc69c5498db356af19847b879c0220f1d92662d7c2ef02a67f3",
+  "summary": {
+    "n": 48,
+    "reached": 34,
+    "reached_tiers": [
+      11,
+      11,
+      7,
+      5
+    ],
+    "early_success": 34,
+    "wins": 0,
+    "tiers": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "both": 31,
+    "same_step": 31,
+    "failed_before": 14,
+    "failed_after": null,
+    "limits": 0
+  },
+  "episodes": [
+    {
+      "map": "prev-two-early-hold-9176404-H1-01",
+      "geometry": "91bec258425d987726baa5b214ef23aa532d20704dc9507d8a3c93c659036c12",
+      "tier": "H1",
+      "handover": 14,
+      "both_at": 14,
+      "steps": 14,
+      "outcome": "RUNNING",
+      "actions": "30000132222221"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-02",
+      "geometry": "81c25d20c807e37eebc4d27c3eed5dbf684cc8bd667f81f9fe08f48e4a053e9b",
+      "tier": "H1",
+      "handover": 39,
+      "both_at": 39,
+      "steps": 39,
+      "outcome": "RUNNING",
+      "actions": "111001100000033333333000202333322112211"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-03",
+      "geometry": "746ede0ad3315d501e4e3ffcc2fe9af2900f69fa43a3d2ed9b216e71808a8393",
+      "tier": "H1",
+      "handover": 37,
+      "both_at": 37,
+      "steps": 37,
+      "outcome": "RUNNING",
+      "actions": "1110000000762330000331122333300041111"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-04",
+      "geometry": "52900d0a19c000f3b9e8d0ebc4a3bf6add206c82fa2f7f9114f887101b15efe7",
+      "tier": "H1",
+      "handover": 33,
+      "both_at": null,
+      "steps": 33,
+      "outcome": "RUNNING",
+      "actions": "111111111111111100000033333333222"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-05",
+      "geometry": "af138f02578b0149d64911f12bb8f58174786e4840261f3f38149f4f4996c9ac",
+      "tier": "H1",
+      "handover": 15,
+      "both_at": 15,
+      "steps": 15,
+      "outcome": "RUNNING",
+      "actions": "333333300111100"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-06",
+      "geometry": "018784fc48a72c14025d467353f071b314b7aa43060f6d9bb3a90a4b2f9c8fd1",
+      "tier": "H1",
+      "handover": 41,
+      "both_at": 41,
+      "steps": 41,
+      "outcome": "RUNNING",
+      "actions": "32212201122233201100033033330233003300332"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-07",
+      "geometry": "c0bf9a8e23a30565ef4159fd4ee2166d279fa7347a8657f7d45cb1e61f49f2df",
+      "tier": "H1",
+      "handover": 23,
+      "both_at": 23,
+      "steps": 23,
+      "outcome": "RUNNING",
+      "actions": "01122113300332233003300"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-08",
+      "geometry": "49563c2564180aba8ffcc6f66321101e58b6b580c25915f02ed1e3c5c4b057b0",
+      "tier": "H1",
+      "handover": null,
+      "both_at": null,
+      "steps": 26,
+      "outcome": "BROKEN",
+      "actions": "02211222033222220332222221"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-09",
+      "geometry": "70cbd757fc14a618922e954dae6d02dccdf20e91133b6fe6dc6e196186a785d1",
+      "tier": "H1",
+      "handover": 10,
+      "both_at": 10,
+      "steps": 10,
+      "outcome": "RUNNING",
+      "actions": "3330233003"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-10",
+      "geometry": "434a30c11dedc0c4e45560ac6c068b8e55413f3f715086a13b4b9b1667986789",
+      "tier": "H1",
+      "handover": 15,
+      "both_at": 15,
+      "steps": 15,
+      "outcome": "RUNNING",
+      "actions": "000770000022223"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-11",
+      "geometry": "94d2d5b53a09e2a1a86068b977b64ba69d7333446430336cf68b81b57eb26c3d",
+      "tier": "H1",
+      "handover": 25,
+      "both_at": 25,
+      "steps": 25,
+      "outcome": "RUNNING",
+      "actions": "2111122110011110011000033"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H1-12",
+      "geometry": "65d3f8f881c099bde91d9a45c057d3363343db85de4d91eef4bac1d4f0d0dc07",
+      "tier": "H1",
+      "handover": 24,
+      "both_at": 24,
+      "steps": 24,
+      "outcome": "RUNNING",
+      "actions": "000000033223300000222222"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-01",
+      "geometry": "db4509ae3b29f650ec3d16b31d51a62ee2c1c6c2ac57255cf060ea17f2b17b5d",
+      "tier": "H2",
+      "handover": 20,
+      "both_at": 20,
+      "steps": 20,
+      "outcome": "RUNNING",
+      "actions": "33333333333332222222"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-02",
+      "geometry": "0152aa5196888fb913e88b8b9b1f6d9c150e5962ff8eb4fce3a1229d123f9459",
+      "tier": "H2",
+      "handover": null,
+      "both_at": null,
+      "steps": 25,
+      "outcome": "EMPTY",
+      "actions": "0000222233000000000002110"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-03",
+      "geometry": "ad1952106e7ac01e2cbb21217bf5ab435f3604b8eadb5edd6ce5226180d37871",
+      "tier": "H2",
+      "handover": 10,
+      "both_at": 10,
+      "steps": 10,
+      "outcome": "RUNNING",
+      "actions": "0111111223"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-04",
+      "geometry": "7d9cb9dc2c33563ab3258ed6b13cc7255e89b0ada1e0ad211ded3dea336ca7bc",
+      "tier": "H2",
+      "handover": 20,
+      "both_at": 20,
+      "steps": 20,
+      "outcome": "RUNNING",
+      "actions": "22222211221122263332"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-05",
+      "geometry": "ce583000817e99ab4ab515a4edcabd27751d0a3ecc4082bd61e0c106b56a1379",
+      "tier": "H2",
+      "handover": 27,
+      "both_at": 27,
+      "steps": 27,
+      "outcome": "RUNNING",
+      "actions": "111122203333203322332233222"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-06",
+      "geometry": "075ee5edd39aa30043828b6433644e8a84dc6d9046225fe0e727d58db4f8ad55",
+      "tier": "H2",
+      "handover": 23,
+      "both_at": 23,
+      "steps": 23,
+      "outcome": "RUNNING",
+      "actions": "20011111111003100115552"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-07",
+      "geometry": "b73fb19f1ef90f13ef5988f64463ab972afab070698e6ddc03e826be3a78a1f4",
+      "tier": "H2",
+      "handover": 46,
+      "both_at": 46,
+      "steps": 46,
+      "outcome": "RUNNING",
+      "actions": "1322112222111333000033001111000033223333330033"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-08",
+      "geometry": "ac8984e0da30a29b6581dc5bf7f1ecfb03e233e3b5cdad4a9c1547fb1953ac8a",
+      "tier": "H2",
+      "handover": 32,
+      "both_at": 32,
+      "steps": 32,
+      "outcome": "RUNNING",
+      "actions": "22221122333322112211221100002211"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-09",
+      "geometry": "6c9fd0e56f399346d957dd91f5ad57f0074578d17d2dabc28f4d0d17b88e67dc",
+      "tier": "H2",
+      "handover": 15,
+      "both_at": 15,
+      "steps": 15,
+      "outcome": "RUNNING",
+      "actions": "111221100112222"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-10",
+      "geometry": "a0881168c1a33ac05d71d86c6751caab54a16b233239559247d02ca51403c608",
+      "tier": "H2",
+      "handover": 12,
+      "both_at": 12,
+      "steps": 12,
+      "outcome": "RUNNING",
+      "actions": "001122110011"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-11",
+      "geometry": "6a280d35d8a0a51d26217635bbf29226ce12ca1ee45967e362a2a98c3d0d5dae",
+      "tier": "H2",
+      "handover": 25,
+      "both_at": 25,
+      "steps": 25,
+      "outcome": "RUNNING",
+      "actions": "4401111104413300011000000"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H2-12",
+      "geometry": "af53e7d3d6f6d41c9184f93aa064bf2d11462cf31c47d1561ff7937941f54074",
+      "tier": "H2",
+      "handover": 15,
+      "both_at": 15,
+      "steps": 15,
+      "outcome": "RUNNING",
+      "actions": "223302521322521"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-01",
+      "geometry": "4ed1f63609484b4e86b2d031bbd6ea89eb85a72727ec70e8e58d80f0e3aad803",
+      "tier": "H3",
+      "handover": 31,
+      "both_at": null,
+      "steps": 31,
+      "outcome": "RUNNING",
+      "actions": "0033332233223333001133221111111"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-02",
+      "geometry": "8fad0b794642523843dcb0809b36e3edcd429e460a1acf9470689620e54b50b2",
+      "tier": "H3",
+      "handover": 43,
+      "both_at": 43,
+      "steps": 43,
+      "outcome": "RUNNING",
+      "actions": "0233000011001111333302330000110000021100112"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-03",
+      "geometry": "2b90c97bb862f701091054265397004df029d46354eab88588eb2c59e1d4ee58",
+      "tier": "H3",
+      "handover": 42,
+      "both_at": 42,
+      "steps": 42,
+      "outcome": "RUNNING",
+      "actions": "122221100112222223333111100000033223300000"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-04",
+      "geometry": "ff396a3c166bc551d592c296c52ccf0264f78ba70046e2d61774c1e31eb7e59f",
+      "tier": "H3",
+      "handover": 20,
+      "both_at": 20,
+      "steps": 20,
+      "outcome": "RUNNING",
+      "actions": "00003376441440011100"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-05",
+      "geometry": "8952571de242e9e5fc55d9e3b7cc08004bb7371bd464fbfc4d4c0dfc465f74f1",
+      "tier": "H3",
+      "handover": null,
+      "both_at": null,
+      "steps": 46,
+      "outcome": "BROKEN",
+      "actions": "2222111100331100312222111100310031000000023302"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-06",
+      "geometry": "0cd0011a35eb879d6a0e2a29e56a2050ac4ab0bb8feff1e7f603f408f5126a0c",
+      "tier": "H3",
+      "handover": null,
+      "both_at": null,
+      "steps": 27,
+      "outcome": "EMPTY",
+      "actions": "133021302221302221111000011"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-07",
+      "geometry": "50db704cd4e4e9bc68061f71730f5c787fa22d99d01550a176db8d70e361add3",
+      "tier": "H3",
+      "handover": null,
+      "both_at": null,
+      "steps": 28,
+      "outcome": "BROKEN",
+      "actions": "1122310222223102110000000033"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-08",
+      "geometry": "72a798cbcabd1bc2b07bdbcd7e52f754cde448e2fbdb89d625171eb51cf3c3bd",
+      "tier": "H3",
+      "handover": 29,
+      "both_at": 29,
+      "steps": 29,
+      "outcome": "RUNNING",
+      "actions": "13333077733333330033223322223"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-09",
+      "geometry": "6f88118d23888d36e1c721b99059176fff6f58c161ae50b1188d3c48b258d4f1",
+      "tier": "H3",
+      "handover": null,
+      "both_at": null,
+      "steps": 31,
+      "outcome": "BROKEN",
+      "actions": "3333300311003311223336751202221"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-10",
+      "geometry": "df8d22aca5e6b5b05e1c60336717afe4bf62ca7706834925fff4cd59b465bad7",
+      "tier": "H3",
+      "handover": 52,
+      "both_at": 52,
+      "steps": 52,
+      "outcome": "RUNNING",
+      "actions": "0003307314310110033333333223333000033001100047000111"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-11",
+      "geometry": "4540cf88873359edf36b0e59625bc1d349c9f9fd02c27cacfaeb24e5192f862d",
+      "tier": "H3",
+      "handover": 37,
+      "both_at": 37,
+      "steps": 37,
+      "outcome": "RUNNING",
+      "actions": "2000000332222000033203300003300333333"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H3-12",
+      "geometry": "8162ee52a4e00e7ac933d707be97d7ff385f5817b6196782cae42365ef6e9092",
+      "tier": "H3",
+      "handover": null,
+      "both_at": null,
+      "steps": 28,
+      "outcome": "EMPTY",
+      "actions": "3112220333320003300333322112"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-01",
+      "geometry": "953803020e1337e93f735cc249614a3bfd5e244cbffc8ce8fd54cba8aa8dd48b",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 17,
+      "outcome": "EMPTY",
+      "actions": "02255765763222221"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-02",
+      "geometry": "b902c23b9c7053d0a9afe34f692589fab87b2d4a939a58316416052af85b29ec",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 25,
+      "outcome": "BROKEN",
+      "actions": "3331000011221122222222330"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-03",
+      "geometry": "ce94f9c6b50d49b05b7bd7ca15e25021341176af783d8295157683d307d6ea04",
+      "tier": "H4",
+      "handover": 16,
+      "both_at": null,
+      "steps": 16,
+      "outcome": "RUNNING",
+      "actions": "1001111112211100"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-04",
+      "geometry": "ab1b67dded802e69f4913d8ca9bd510bff19e327f76132953e738f4c7656b5f1",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 18,
+      "outcome": "EMPTY",
+      "actions": "111021102111111223"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-05",
+      "geometry": "eb67efef089f6b0c93517421447664dddbbb2829adc603c8528406bbde64591b",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 27,
+      "outcome": "BROKEN",
+      "actions": "003100110033330033023333000"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-06",
+      "geometry": "3e669c5e32a9f76388361aa0a3a044e1b8408c14b8145393ff9a1ece75a7e352",
+      "tier": "H4",
+      "handover": 56,
+      "both_at": 56,
+      "steps": 56,
+      "outcome": "RUNNING",
+      "actions": "10000112222111100331122333300003322223322221122110000111"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-07",
+      "geometry": "645dd11f81503ee5dfca0e93199a92964a57f10d8bb123363fb085fc40f04042",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 14,
+      "outcome": "BROKEN",
+      "actions": "20333122333333"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-08",
+      "geometry": "247fe7fede434e37b3bf426c52a145b504bf78bbdfdffda5048d61737c743907",
+      "tier": "H4",
+      "handover": 9,
+      "both_at": 9,
+      "steps": 9,
+      "outcome": "RUNNING",
+      "actions": "111220000"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-09",
+      "geometry": "5bdb142388e57462dcd72ae358a1e37ca476848037602a94928ccbc36880b738",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 16,
+      "outcome": "EMPTY",
+      "actions": "3111100112211112"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-10",
+      "geometry": "24eaae7757e12c85d97e58ab40972643a310821bd7ffb34fccc8bb71bd001132",
+      "tier": "H4",
+      "handover": 30,
+      "both_at": 30,
+      "steps": 30,
+      "outcome": "RUNNING",
+      "actions": "333333333311111111111122112211"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-11",
+      "geometry": "ff6874da40010d6bf3c4e735201f262a3ae8bd4c73cba5a626bed85e698e7d15",
+      "tier": "H4",
+      "handover": 63,
+      "both_at": 63,
+      "steps": 63,
+      "outcome": "RUNNING",
+      "actions": "111003333003322330033332213001111221100112211112233332222111111"
+    },
+    {
+      "map": "prev-two-early-hold-9176404-H4-12",
+      "geometry": "2c574bd78d17fb5d4c3267164e08bd0765cd1f9cffd84e8d6bc334350ecedb13",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 42,
+      "outcome": "EMPTY",
+      "actions": "122557314112213021313131313131313221111110"
+    }
+  ]
+}

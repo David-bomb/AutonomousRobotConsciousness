@@ -1,0 +1,1914 @@
+{
+  "parent": "early1200",
+  "bank": "36831fd66efb1f1af0b6ab5a411213c106092fbd58f5912e336de66808821071",
+  "records": {
+    "prev-two-early-fit3-9176405-H1-01": {
+      "tier": "H1",
+      "examples": 16,
+      "sha256": "32fd2419b1ad99adbff1611bbdd243bcab9de023665bccb0f4d8f9323411d0d9",
+      "actions": "0330002221122252",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H1-02": {
+      "tier": "H1",
+      "examples": 12,
+      "sha256": "14f605caea432d2317a541b11bf7109b8d81d2b7911c8a8445d3bec3ff988e01",
+      "actions": "102665221111",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H1-03": {
+      "tier": "H1",
+      "examples": 40,
+      "sha256": "c844b2783a6dfd8507fb5618671fec759a834978f6ab35c195ac050b95e07435",
+      "actions": "22330033223333110000111111001041100330000",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H1-04": {
+      "tier": "H1",
+      "examples": 16,
+      "sha256": "cd73d4ba92b97e746cbc5125d13ee5ee1add18c8954db5e218b1fa06208188ef",
+      "actions": "1322111111111100",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H1-05": {
+      "tier": "H1",
+      "examples": 17,
+      "sha256": "9902b61a37c3ea925aaadd2338522bd4a552ff76ba794e280780fc8611166a19",
+      "actions": "00110011112211221",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H1-06": {
+      "tier": "H1",
+      "examples": 25,
+      "sha256": "94f44b7ec855db6a9486a245fefd0ff1fa3d2e7910bac8588931db2c38da6106",
+      "actions": "1000003115222000377333222",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H1-07": {
+      "tier": "H1",
+      "examples": 30,
+      "sha256": "bf4316a37444033fbc5aa35089514654dfef45a1572f4ddbf6def8699355a10f",
+      "actions": "330011003333333333333333221111",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H1-08": {
+      "tier": "H1",
+      "examples": 16,
+      "sha256": "f3eb4f959ee04d7b138f7ebba4b57244f0e6b1499e934360dc1ea0d050d4c3dd",
+      "actions": "0000001121111221",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H2-01": {
+      "tier": "H2",
+      "examples": 31,
+      "sha256": "827bb0bd7e8311342bb21556a6edbbca7a7b1f6be403b600a1ae702cec699904",
+      "actions": "3333333022200111111112222332222",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H2-02": {
+      "tier": "H2",
+      "examples": 35,
+      "sha256": "a791ccca66e1cafee6e92c41ad8e946b8cb17207111e781415375392e0a9115b",
+      "actions": "13345741011207756233633300110000000",
+      "edits": [
+        {
+          "step": 7,
+          "own": 6,
+          "chosen": 1,
+          "source": "cold",
+          "teacher": 1,
+          "viable": [
+            1
+          ],
+          "required_after": [
+            1000000000,
+            78,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 16,
+          "own": 4,
+          "chosen": 6,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            6
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            71,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 2
+    },
+    "prev-two-early-fit3-9176405-H2-03": {
+      "tier": "H2",
+      "examples": 39,
+      "sha256": "6b15375a9e7ab1f068268d903c06d1dc2af5a4d75eee7159297234cb9f3366e8",
+      "actions": "001300110011000000003322310011222222222",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H2-04": {
+      "tier": "H2",
+      "examples": 28,
+      "sha256": "ed77eb341ab00cb902adb3310f424fe0233f9c654515bfc7de1f05ae21b1392f",
+      "actions": "1100401306770000044552111111",
+      "edits": [
+        {
+          "step": 10,
+          "own": 5,
+          "chosen": 7,
+          "source": "cold",
+          "teacher": 7,
+          "viable": [
+            7
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            86
+          ]
+        },
+        {
+          "step": 11,
+          "own": 4,
+          "chosen": 7,
+          "source": "exact",
+          "teacher": 4,
+          "viable": [
+            7
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            85
+          ]
+        },
+        {
+          "step": 19,
+          "own": 4,
+          "chosen": 5,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            5
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            77,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 3
+    },
+    "prev-two-early-fit3-9176405-H2-05": {
+      "tier": "H2",
+      "examples": 37,
+      "sha256": "2ef9304fa3566b1c698c566ca5162449faf99f592f9f8966272d4bc04c92a4b7",
+      "actions": "1111000711100112222221300000037733333",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H2-06": {
+      "tier": "H2",
+      "examples": 13,
+      "sha256": "cdcbc83ef23799e6b019a9ee0a3db04da116cd73e5ab83be8b31a8eaa51d8a3a",
+      "actions": "2223302111151",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H2-07": {
+      "tier": "H2",
+      "examples": 30,
+      "sha256": "c8844acb2d67f647996c7b2b325052c9d912478e40651d0185890b217c181bc9",
+      "actions": "1111221122332233110011111122222",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H2-08": {
+      "tier": "H2",
+      "examples": 14,
+      "sha256": "9929f1875ca3246286954a8ba2d5a92718b8593594b27282ad3385d986d0f127",
+      "actions": "22233201100003",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-01": {
+      "tier": "H3",
+      "examples": 16,
+      "sha256": "789743a9ddaef98329e70160f5b6350903df0f80879569824dba7224b9b14175",
+      "actions": "0223300330000003",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-02": {
+      "tier": "H3",
+      "examples": 34,
+      "sha256": "0b5bf40b99879a509c796eb8b37e906a4cb112e2b6dc66fdc92a09fb5cf6b907",
+      "actions": "22000000021122222222130000001111110",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-03": {
+      "tier": "H3",
+      "examples": 60,
+      "sha256": "ff05e00de6a9d539c096b9024b45f1232ea770ec29f87e51fb2504ad24584d76",
+      "actions": "312222333300333300332222310000112211112211111300003300111111",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-04": {
+      "tier": "H3",
+      "examples": 33,
+      "sha256": "c866684dab4a68afc2ff3e2a10cd0ecc8cd9b200028f8a8f83f5eaf2c4c5c541",
+      "actions": "111111112222200000003333000011221",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-05": {
+      "tier": "H3",
+      "examples": 28,
+      "sha256": "1d277cd4ce18d858468f348b6a5aaaeb9ce76adc967db657ed2670e7a6c72c29",
+      "actions": "1332211222011001122221133332",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-06": {
+      "tier": "H3",
+      "examples": 36,
+      "sha256": "2915886e0ca0e63c64d8fef1b1a6d351945d4326e97c8d059a0b96da13bd27aa",
+      "actions": "110011111122003333332233221122111122",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-07": {
+      "tier": "H3",
+      "examples": 57,
+      "sha256": "2c60c8c880a4ec0caa68416149436d422875b33383b59651e36dc9823aa25cd5",
+      "actions": "222333322112211221100022233003300330002111100001100333300",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-08": {
+      "tier": "H3",
+      "examples": 19,
+      "sha256": "d4ac76ddaef94aa7d84d2820fd0564f33cf7910d856fb065d1df8134f55e9dee",
+      "actions": "2003333332233221111",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-09": {
+      "tier": "H3",
+      "examples": 24,
+      "sha256": "66ce55cdb542dce0e1378c20ea314c902ce64e99a5eb8e1b9e9f723b7e5d247d",
+      "actions": "302333333223300330000000",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-10": {
+      "tier": "H3",
+      "examples": 37,
+      "sha256": "4572d989d3cc3bf351ec87b9094c58b1388abbb444836987d5c1b66c8d09fd38",
+      "actions": "0222222111102330000000000003300001100",
+      "edits": [
+        {
+          "step": 15,
+          "own": 3,
+          "chosen": 0,
+          "source": "exact",
+          "teacher": 3,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            85,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 21,
+          "own": 1,
+          "chosen": 0,
+          "source": "cold",
+          "teacher": 0,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            79,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 27,
+          "own": 0,
+          "chosen": 3,
+          "source": "cold",
+          "teacher": 3,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            73,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 33,
+          "own": 0,
+          "chosen": 1,
+          "source": "cold",
+          "teacher": 1,
+          "viable": [
+            1
+          ],
+          "required_after": [
+            1000000000,
+            67,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 4
+    },
+    "prev-two-early-fit3-9176405-H3-11": {
+      "tier": "H3",
+      "examples": 25,
+      "sha256": "be7be8fb44463368c650a8907e2d011fc150680f9fa973f5338420ccf3ad7bae",
+      "actions": "0000003311222222222232266",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-12": {
+      "tier": "H3",
+      "examples": 13,
+      "sha256": "af2250537bae4884a28dd749fc39b4f03e187a1303ab7e142fe02e8cb4ec4563",
+      "actions": "0000111001001",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-13": {
+      "tier": "H3",
+      "examples": 29,
+      "sha256": "0b24f9339fcf4c82e31ed180dfe8bc6d2b238e4b3adb151f2c03015f89b3ef03",
+      "actions": "310033332233002233310033333333",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-14": {
+      "tier": "H3",
+      "examples": 44,
+      "sha256": "06d2343fde7142f89ef0f0c8867c8aebd1e2fdfaef20bec21a56fd770a51329e",
+      "actions": "66330763633222233201100001475475415411511111",
+      "edits": [
+        {
+          "step": 36,
+          "own": 7,
+          "chosen": 1,
+          "source": "cold",
+          "teacher": 1,
+          "viable": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "required_after": [
+            78,
+            77,
+            78,
+            1000000000,
+            78,
+            77,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H3-15": {
+      "tier": "H3",
+      "examples": 27,
+      "sha256": "9584223b591a817295bc5ad2978f718bb751875010ddfe88a137c5278aa762d5",
+      "actions": "1222222122221122112262520112",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-16": {
+      "tier": "H3",
+      "examples": 24,
+      "sha256": "4a8e82d81292ed1f885292729a196aa44469b9cb4401ee119c7a9e5bcab773f4",
+      "actions": "073574700000411120112222",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-17": {
+      "tier": "H3",
+      "examples": 42,
+      "sha256": "77cfe40b954240d7b085ac6fe286e44046f6b8501d041b890f92d313c57dfc3f",
+      "actions": "000033330022111331130011110033076330332233",
+      "edits": [
+        {
+          "step": 20,
+          "own": 3,
+          "chosen": 0,
+          "source": "exact",
+          "teacher": 3,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            59,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 32,
+          "own": 3,
+          "chosen": 6,
+          "source": "exact",
+          "teacher": 3,
+          "viable": [
+            6
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            47,
+            1000000000
+          ]
+        },
+        {
+          "step": 38,
+          "own": 3,
+          "chosen": 2,
+          "source": "cold",
+          "teacher": 2,
+          "viable": [
+            2
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            41,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 3
+    },
+    "prev-two-early-fit3-9176405-H3-18": {
+      "tier": "H3",
+      "examples": 53,
+      "sha256": "ca51c3b178abc6abaf1f0bda0255942d155056170f1cf6abe934d3cc67d95de2",
+      "actions": "133330330307001111113333000000147333000000001111110011",
+      "edits": [
+        {
+          "step": 3,
+          "own": 0,
+          "chosen": 3,
+          "source": "exact",
+          "teacher": 0,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            89,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 11,
+          "own": 0,
+          "chosen": 7,
+          "source": "cold",
+          "teacher": 7,
+          "viable": [
+            7
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            82
+          ]
+        },
+        {
+          "step": 24,
+          "own": 3,
+          "chosen": 0,
+          "source": "cold",
+          "teacher": 0,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            69,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 26,
+          "own": 3,
+          "chosen": 0,
+          "source": "cold",
+          "teacher": 0,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            67,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 28,
+          "own": 1,
+          "chosen": 0,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            65,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 32,
+          "own": 0,
+          "chosen": 7,
+          "source": "cold",
+          "teacher": 7,
+          "viable": [
+            7
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            61
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 6
+    },
+    "prev-two-early-fit3-9176405-H3-19": {
+      "tier": "H3",
+      "examples": 36,
+      "sha256": "c6058f8e68ce1ed0d06129a41816005b99d6a752b77e04001ce46787b25fa489",
+      "actions": "3300001111113333333302333302330000000",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-20": {
+      "tier": "H3",
+      "examples": 38,
+      "sha256": "0a49d2964dfe915cd90b2baa96bd3d85e81c5754fe1cfb7de23f9e3e82a62b05",
+      "actions": "003300000033001100111133332233203322223",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-21": {
+      "tier": "H3",
+      "examples": 43,
+      "sha256": "14d1625c9e392f92848fe5f9552f006c24b5f1aae1289afa87a3c07df875e78d",
+      "actions": "0213003300330762223336656337511004411100000",
+      "edits": [
+        {
+          "step": 3,
+          "own": 1,
+          "chosen": 3,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            89,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 4,
+          "own": 1,
+          "chosen": 0,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            88,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 5,
+          "own": 2,
+          "chosen": 0,
+          "source": "exact",
+          "teacher": 2,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            87,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 12,
+          "own": 2,
+          "chosen": 0,
+          "source": "cold",
+          "teacher": 0,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            80,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 13,
+          "own": 2,
+          "chosen": 7,
+          "source": "cold",
+          "teacher": 7,
+          "viable": [
+            3,
+            7
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            79,
+            1000000000,
+            1000000000,
+            1000000000,
+            79
+          ]
+        },
+        {
+          "step": 15,
+          "own": 6,
+          "chosen": 2,
+          "source": "exact",
+          "teacher": 6,
+          "viable": [
+            2
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            77,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 6
+    },
+    "prev-two-early-fit3-9176405-H3-22": {
+      "tier": "H3",
+      "examples": 23,
+      "sha256": "d892c6696afcbed63aa37130298a5df263185c8ad1c03d842be852e32c9ad9b8",
+      "actions": "22112211111333670033003",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-23": {
+      "tier": "H3",
+      "examples": 42,
+      "sha256": "e91b7786af513378fcc0aeb03b6da7dc943780d651d922036a351e8de0b0c9b1",
+      "actions": "133533333333333330000332011221100111111211",
+      "edits": [
+        {
+          "step": 11,
+          "own": 7,
+          "chosen": 3,
+          "source": "exact",
+          "teacher": 0,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            82,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 17,
+          "own": 3,
+          "chosen": 0,
+          "source": "cold",
+          "teacher": 0,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            76,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 2
+    },
+    "prev-two-early-fit3-9176405-H3-24": {
+      "tier": "H3",
+      "examples": 21,
+      "sha256": "0c60c51defe316912ca72d557788c9dceb6371d6568766fee535f9100cd5d538",
+      "actions": "101113332332622222251",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H3-25": {
+      "tier": "H3",
+      "examples": 43,
+      "sha256": "bf1b6962d55cfd27309c592b6447c488fce6f59748d074225167a21afb05fd59",
+      "actions": "00000011111102111111003300223111223333332233",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H4-01": {
+      "tier": "H4",
+      "examples": 47,
+      "sha256": "4bc18dc55727922f4bb35dfd60866a710bba651579417b859338cb86da7744aa",
+      "actions": "11110022333111222222222222330222330222333300333",
+      "edits": [
+        {
+          "step": 0,
+          "own": 0,
+          "chosen": 1,
+          "source": "cold",
+          "teacher": 1,
+          "viable": [
+            1
+          ],
+          "required_after": [
+            1000000000,
+            71,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 42,
+          "own": 3,
+          "chosen": 0,
+          "source": "cold",
+          "teacher": 0,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            39,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 2
+    },
+    "prev-two-early-fit3-9176405-H4-02": {
+      "tier": "H4",
+      "examples": 25,
+      "sha256": "e8df8d4d25b5a33fb6660f7dc7cb497ac32bd2dd65f02609f38d6a42fe8731d3",
+      "actions": "0000330011000033223333221",
+      "edits": [],
+      "windows": true,
+      "both": false,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H4-03": {
+      "tier": "H4",
+      "examples": 37,
+      "sha256": "5830c403de9d7ad2f81ba2465b0c9f461c34d57611dfc92310852e206b26fa22",
+      "actions": "0000000000001111220033332222222222221",
+      "edits": [
+        {
+          "step": 8,
+          "own": 1,
+          "chosen": 0,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            100,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-04": {
+      "tier": "H4",
+      "examples": 46,
+      "sha256": "62bf9ebe320b800176aa80a08ad4efb7a706908f96cab2879cb8851e7a856fa6",
+      "actions": "0010033333000000110030022122332033003370333333",
+      "edits": [
+        {
+          "step": 34,
+          "own": 3,
+          "chosen": 0,
+          "source": "exact",
+          "teacher": 3,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            50,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-05": {
+      "tier": "H4",
+      "examples": 55,
+      "sha256": "5b6806b0894f0119e2ff5dc5cdde976f4aaa803a8fef78e4385944e460459fd7",
+      "actions": "1100333333003322333302111300003333222222333333333322221",
+      "edits": [
+        {
+          "step": 0,
+          "own": 3,
+          "chosen": 1,
+          "source": "exact",
+          "teacher": 3,
+          "viable": [
+            1
+          ],
+          "required_after": [
+            1000000000,
+            110,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 40,
+          "own": 2,
+          "chosen": 3,
+          "source": "exact",
+          "teacher": 2,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            72,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 2
+    },
+    "prev-two-early-fit3-9176405-H4-06": {
+      "tier": "H4",
+      "examples": 31,
+      "sha256": "6de9297ed99eb78664fd4db29a96d5760eceea6178092c2b3218d23e085df397",
+      "actions": "3223300001111000033200033223322",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H4-07": {
+      "tier": "H4",
+      "examples": 38,
+      "sha256": "fff7cd2c32e5e9921fde50d098568e16054c314ff2baf5b0492fe9d503c6489f",
+      "actions": "22222221111222211221111111122223333333",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H4-08": {
+      "tier": "H4",
+      "examples": 23,
+      "sha256": "9386367b44e5a890c2e32b1238c8fa98d6a52ed17807ab1d036c66fc9b818a4d",
+      "actions": "10222111111300111000110",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H4-09": {
+      "tier": "H4",
+      "examples": 41,
+      "sha256": "a2bfc026d26053ba10d3c6926a31777a0b6aef0c67a5dc803daaef113a5556f9",
+      "actions": "33221122333311110033001111221111110011041",
+      "edits": [
+        {
+          "step": 0,
+          "own": 1,
+          "chosen": 3,
+          "source": "cold",
+          "teacher": 3,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            96,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-10": {
+      "tier": "H4",
+      "examples": 30,
+      "sha256": "a8493c85a39e9faf0948810a62d78690757aab288d9a919cf0f674fd772bda99",
+      "actions": "1102110000002222223223333300332",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H4-11": {
+      "tier": "H4",
+      "examples": 46,
+      "sha256": "2c6fdc653d07eca5491f7d960f6e78536ff43b1a4a601c3bc11e801ee5182391",
+      "actions": "3223333223322112222221122113300330000001111112",
+      "edits": [
+        {
+          "step": 3,
+          "own": 1,
+          "chosen": 3,
+          "source": "cold",
+          "teacher": 3,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            99,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 9,
+          "own": 1,
+          "chosen": 3,
+          "source": "cold",
+          "teacher": 3,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            93,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 15,
+          "own": 1,
+          "chosen": 2,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            2
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            87,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 19,
+          "own": 1,
+          "chosen": 2,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            2
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            83,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 4
+    },
+    "prev-two-early-fit3-9176405-H4-12": {
+      "tier": "H4",
+      "examples": 18,
+      "sha256": "b354613477d27a03376b42df1c42f6b8583b666216046586abe1c4702a512be2",
+      "actions": "233320037333223322",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H4-13": {
+      "tier": "H4",
+      "examples": 55,
+      "sha256": "f5f2852f4f371199a41e4b20ceab3145412ee808e9bcd162bbb6bfce6a18ea7f",
+      "actions": "11222222112233222220333300330211221322221111111111132211",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H4-14": {
+      "tier": "H4",
+      "examples": 44,
+      "sha256": "df3694f3eef0639e2e030d5614320ffe28c9bef6fb964ef588224f9ab9539a25",
+      "actions": "33332233330033333322332222000011001100000033",
+      "edits": [
+        {
+          "step": 0,
+          "own": 1,
+          "chosen": 3,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            106,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 10,
+          "own": 2,
+          "chosen": 0,
+          "source": "exact",
+          "teacher": 3,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            96,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 20,
+          "own": 2,
+          "chosen": 3,
+          "source": "exact",
+          "teacher": 2,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            86,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 34,
+          "own": 0,
+          "chosen": 1,
+          "source": "cold",
+          "teacher": 1,
+          "viable": [
+            1
+          ],
+          "required_after": [
+            1000000000,
+            72,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 4
+    },
+    "prev-two-early-fit3-9176405-H4-15": {
+      "tier": "H4",
+      "examples": 43,
+      "sha256": "5cfa00c844160de87d9115243f9267a09eb2b44e2519a852f133718ef76bddbf",
+      "actions": "3221111113333330011003300110033000000112211",
+      "edits": [
+        {
+          "step": 0,
+          "own": 1,
+          "chosen": 3,
+          "source": "cold",
+          "teacher": 3,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            101,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-16": {
+      "tier": "H4",
+      "examples": 27,
+      "sha256": "b1ca1a66fbd8c1b1b973527d4548ae8c7c0a4b261fdf4612305f4557ff5c5ba6",
+      "actions": "666626773555766221111221100",
+      "edits": [
+        {
+          "step": 14,
+          "own": 5,
+          "chosen": 6,
+          "source": "cold",
+          "teacher": 6,
+          "viable": [
+            2,
+            3,
+            6
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            69,
+            69,
+            1000000000,
+            1000000000,
+            68,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-17": {
+      "tier": "H4",
+      "examples": 40,
+      "sha256": "cc78d637c3fb2ed6ad87bae6df60f46204f7dd18ce0aee9160eca2c186f0fa61",
+      "actions": "3322255222562222227303323300000000033000",
+      "edits": [
+        {
+          "step": 0,
+          "own": 2,
+          "chosen": 3,
+          "source": "exact",
+          "teacher": 2,
+          "viable": [
+            3
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            70,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 23,
+          "own": 0,
+          "chosen": 2,
+          "source": "cold",
+          "teacher": 2,
+          "viable": [
+            2
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            49,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 2
+    },
+    "prev-two-early-fit3-9176405-H4-18": {
+      "tier": "H4",
+      "examples": 22,
+      "sha256": "508397a2c77bdd9f6122e111e53d61a189a09df7f14da683db9914f974aec10b",
+      "actions": "6756552233222233000033",
+      "edits": [
+        {
+          "step": 4,
+          "own": 2,
+          "chosen": 5,
+          "source": "cold",
+          "teacher": 5,
+          "viable": [
+            5
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            82,
+            1000000000,
+            1000000000
+          ]
+        },
+        {
+          "step": 5,
+          "own": 4,
+          "chosen": 5,
+          "source": "cold",
+          "teacher": 5,
+          "viable": [
+            5
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            81,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 2
+    },
+    "prev-two-early-fit3-9176405-H4-19": {
+      "tier": "H4",
+      "examples": 38,
+      "sha256": "97f90bf03a8772231a77c2b27df16ebfb74be36695a04b0e32128a735223efbd",
+      "actions": "00111111112011112231003333222233223300",
+      "edits": [
+        {
+          "step": 26,
+          "own": 3,
+          "chosen": 2,
+          "source": "exact",
+          "teacher": 3,
+          "viable": [
+            2
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            54,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-20": {
+      "tier": "H4",
+      "examples": 21,
+      "sha256": "b3402d751d1932defef6dd72c7d4307529645ea2ec39fceb8d215c252e23de8d",
+      "actions": "322330000110033001111",
+      "edits": [],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 0
+    },
+    "prev-two-early-fit3-9176405-H4-21": {
+      "tier": "H4",
+      "examples": 23,
+      "sha256": "774d5abb83845991da7c3d97f3a93c605d418cba06bf029862c1a86fce563f2b",
+      "actions": "333322221133000011112211",
+      "edits": [
+        {
+          "step": 20,
+          "own": 1,
+          "chosen": 2,
+          "source": "exact",
+          "teacher": 1,
+          "viable": [
+            2
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            77,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-22": {
+      "tier": "H4",
+      "examples": 64,
+      "sha256": "e14c22bd2af9894b7bd8b3cde6870f7ae9a0dcef4f20125e2c65d89b2f935cc7",
+      "actions": "3322332222222233330033021122332222223322222033200033333300003322",
+      "edits": [
+        {
+          "step": 56,
+          "own": 2,
+          "chosen": 0,
+          "source": "exact",
+          "teacher": 2,
+          "viable": [
+            0
+          ],
+          "required_after": [
+            31,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-23": {
+      "tier": "H4",
+      "examples": 26,
+      "sha256": "d165569a12c7c49a7a426b99b876bdb5f697770418f5664c1fdf526b58729c19",
+      "actions": "033223333001133221111001122",
+      "edits": [
+        {
+          "step": 3,
+          "own": 0,
+          "chosen": 2,
+          "source": "exact",
+          "teacher": 0,
+          "viable": [
+            2
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            97,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-24": {
+      "tier": "H4",
+      "examples": 28,
+      "sha256": "3bae680892b19c450377c295df85b09673f11f9560a67ff7de54cd2c17563603",
+      "actions": "6622623222077544400444511000",
+      "edits": [
+        {
+          "step": 22,
+          "own": 1,
+          "chosen": 5,
+          "source": "cold",
+          "teacher": 5,
+          "viable": [
+            5
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            80,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    },
+    "prev-two-early-fit3-9176405-H4-25": {
+      "tier": "H4",
+      "examples": 22,
+      "sha256": "0bf0a99842476f72349b94160769fbd65e98eeb1b216332febc0531d1a5596f1",
+      "actions": "4211223322111111111300",
+      "edits": [
+        {
+          "step": 1,
+          "own": 3,
+          "chosen": 2,
+          "source": "cold",
+          "teacher": 2,
+          "viable": [
+            2
+          ],
+          "required_after": [
+            1000000000,
+            1000000000,
+            88,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000,
+            1000000000
+          ]
+        }
+      ],
+      "windows": true,
+      "both": true,
+      "parent": "early1200",
+      "outcome": "RUNNING",
+      "teacher_calls": 1
+    }
+  },
+  "first": 25,
+  "subsequent": 29,
+  "total": 54,
+  "windows": 66
+}

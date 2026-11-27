@@ -1,0 +1,26 @@
+{
+  "seed": 1613,
+  "train_data": "6f66910a40261b29f91105c86e285d9debfd9c86f6a5876c46c4d9e7a4e83b99",
+  "init": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "reference_dev": 36,
+  "checkpoints": [
+    [
+      120,
+      2
+    ],
+    [
+      450,
+      2
+    ],
+    [
+      450,
+      5
+    ]
+  ],
+  "sources": {
+    "fit_returns.py": "728850728fb45f4962fa50f1f3fda81d6c94940452933254ec1dacd4b6383e23",
+    "value_model.py": "4e8bf0b300a11b5b2be03f94f50c7abfb5075095a279c01d57f20bbc2a91d3ab",
+    "returns_adapter.py": "4834f9829e299028ec192c1b4bc4ac43172bb7e6afddee5aa2c56a28d69010b3",
+    "branches.py": "3738f69705af157fdb39f244af0b80709fe66f888294e9d012764124a91a5061"
+  }
+}

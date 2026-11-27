@@ -1,0 +1,1903 @@
+{
+  "weights_sha256": "bc8ce4f269b6893692f1be4ae593e35086ac3d5bcfc20df32333dea6163eac46",
+  "summary": {
+    "outcomes": {
+      "SUCCESS": 19,
+      "EMPTY": 37,
+      "BROKEN": 42,
+      "LIMIT": 2
+    },
+    "localized": 81,
+    "before_first": 42,
+    "after_both": 19,
+    "median_loss_step": 13,
+    "repeated_edge_fraction_median": 0.038461538461538464
+  },
+  "episodes": [
+    {
+      "map": "train-9160100-H1-01",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 46,
+      "deviations_before_loss": 6,
+      "reversals": 3,
+      "unique_positions": 38
+    },
+    {
+      "map": "train-9160100-H1-02",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 174,
+        "refuels": 3,
+        "repairs": 3,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 20,
+        "health": 79,
+        "slack_f": 0,
+        "slack_r": 62
+      },
+      "steps": 193,
+      "deviations_before_loss": 85,
+      "reversals": 16,
+      "unique_positions": 100
+    },
+    {
+      "map": "train-9160100-H1-03",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 81,
+      "deviations_before_loss": 0,
+      "reversals": 1,
+      "unique_positions": 59
+    },
+    {
+      "map": "train-9160100-H1-04",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 109,
+        "refuels": 1,
+        "repairs": 1,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 10,
+        "health": 17,
+        "slack_f": -43,
+        "slack_r": -29
+      },
+      "steps": 118,
+      "deviations_before_loss": 28,
+      "reversals": 19,
+      "unique_positions": 80
+    },
+    {
+      "map": "train-9160100-H1-05",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 130,
+        "refuels": 2,
+        "repairs": 2,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 16,
+        "health": 21,
+        "slack_f": -5,
+        "slack_r": 15
+      },
+      "steps": 145,
+      "deviations_before_loss": 50,
+      "reversals": 5,
+      "unique_positions": 105
+    },
+    {
+      "map": "train-9160100-H1-06",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 144,
+      "deviations_before_loss": 50,
+      "reversals": 6,
+      "unique_positions": 88
+    },
+    {
+      "map": "train-9160100-H1-07",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 69,
+      "deviations_before_loss": 0,
+      "reversals": 1,
+      "unique_positions": 62
+    },
+    {
+      "map": "train-9160100-H1-08",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 18,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 24,
+        "health": 12,
+        "slack_f": 18,
+        "slack_r": 0
+      },
+      "steps": 29,
+      "deviations_before_loss": 4,
+      "reversals": 1,
+      "unique_positions": 26
+    },
+    {
+      "map": "train-9160100-H1-09",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 37,
+      "deviations_before_loss": 0,
+      "reversals": 0,
+      "unique_positions": 38
+    },
+    {
+      "map": "train-9160100-H1-10",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 59,
+      "deviations_before_loss": 10,
+      "reversals": 1,
+      "unique_positions": 45
+    },
+    {
+      "map": "train-9160100-H1-11",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 125,
+        "refuels": 3,
+        "repairs": 2,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "NORTH",
+        "fuel": 21,
+        "health": 58,
+        "slack_f": -2,
+        "slack_r": 32
+      },
+      "steps": 145,
+      "deviations_before_loss": 40,
+      "reversals": 11,
+      "unique_positions": 75
+    },
+    {
+      "map": "train-9160100-H1-12",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 20,
+        "refuels": 0,
+        "repairs": 1,
+        "viable": [
+          "EAST",
+          "SOUTH",
+          "SE"
+        ],
+        "selected": "NW",
+        "fuel": 7,
+        "health": 86,
+        "slack_f": 1,
+        "slack_r": 72
+      },
+      "steps": 26,
+      "deviations_before_loss": 4,
+      "reversals": 1,
+      "unique_positions": 26
+    },
+    {
+      "map": "train-9160100-H1-13",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 80,
+        "refuels": 1,
+        "repairs": 1,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "WEST",
+        "fuel": 29,
+        "health": 33,
+        "slack_f": -11,
+        "slack_r": -8
+      },
+      "steps": 108,
+      "deviations_before_loss": 39,
+      "reversals": 30,
+      "unique_positions": 70
+    },
+    {
+      "map": "train-9160100-H1-14",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 11,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 14,
+        "health": 20,
+        "slack_f": 1,
+        "slack_r": 9
+      },
+      "steps": 24,
+      "deviations_before_loss": 5,
+      "reversals": 0,
+      "unique_positions": 25
+    },
+    {
+      "map": "train-9160100-H1-15",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 7,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 12,
+        "health": 30,
+        "slack_f": 0,
+        "slack_r": 11
+      },
+      "steps": 18,
+      "deviations_before_loss": 7,
+      "reversals": 1,
+      "unique_positions": 15
+    },
+    {
+      "map": "train-9160100-H1-16",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 9,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 15,
+        "health": 26,
+        "slack_f": 1,
+        "slack_r": 14
+      },
+      "steps": 23,
+      "deviations_before_loss": 3,
+      "reversals": 0,
+      "unique_positions": 24
+    },
+    {
+      "map": "train-9160100-H1-17",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 65,
+        "refuels": 3,
+        "repairs": 1,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 59,
+        "health": 44,
+        "slack_f": 18,
+        "slack_r": 0
+      },
+      "steps": 108,
+      "deviations_before_loss": 41,
+      "reversals": 10,
+      "unique_positions": 87
+    },
+    {
+      "map": "train-9160100-H1-18",
+      "outcome": "LIMIT",
+      "first": {
+        "step": 4925,
+        "refuels": 246,
+        "repairs": 246,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "WEST",
+        "fuel": 87,
+        "health": 97,
+        "slack_f": 80,
+        "slack_r": 94
+      },
+      "steps": 4968,
+      "deviations_before_loss": 2454,
+      "reversals": 496,
+      "unique_positions": 15
+    },
+    {
+      "map": "train-9160100-H1-19",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 64,
+        "refuels": 2,
+        "repairs": 2,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 81,
+        "health": 48,
+        "slack_f": 62,
+        "slack_r": 0
+      },
+      "steps": 111,
+      "deviations_before_loss": 48,
+      "reversals": 33,
+      "unique_positions": 72
+    },
+    {
+      "map": "train-9160100-H1-20",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 6,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "SW",
+        "fuel": 20,
+        "health": 8,
+        "slack_f": 16,
+        "slack_r": 0
+      },
+      "steps": 13,
+      "deviations_before_loss": 3,
+      "reversals": 0,
+      "unique_positions": 11
+    },
+    {
+      "map": "train-9160100-H1-21",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 88,
+      "deviations_before_loss": 5,
+      "reversals": 4,
+      "unique_positions": 72
+    },
+    {
+      "map": "train-9160100-H1-22",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 112,
+        "refuels": 5,
+        "repairs": 1,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 78,
+        "health": 10,
+        "slack_f": 64,
+        "slack_r": 0
+      },
+      "steps": 121,
+      "deviations_before_loss": 46,
+      "reversals": 8,
+      "unique_positions": 66
+    },
+    {
+      "map": "train-9160100-H1-23",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 16,
+        "refuels": 0,
+        "repairs": 1,
+        "viable": [
+          "SOUTH",
+          "SE"
+        ],
+        "selected": "EAST",
+        "fuel": 11,
+        "health": 92,
+        "slack_f": 0,
+        "slack_r": 87
+      },
+      "steps": 26,
+      "deviations_before_loss": 8,
+      "reversals": 3,
+      "unique_positions": 12
+    },
+    {
+      "map": "train-9160100-H1-24",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 82,
+      "deviations_before_loss": 23,
+      "reversals": 2,
+      "unique_positions": 49
+    },
+    {
+      "map": "train-9160100-H1-25",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 75,
+      "deviations_before_loss": 10,
+      "reversals": 3,
+      "unique_positions": 54
+    },
+    {
+      "map": "train-9160100-H2-01",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 13,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "SOUTH",
+        "fuel": 93,
+        "health": 24,
+        "slack_f": 88,
+        "slack_r": 1
+      },
+      "steps": 36,
+      "deviations_before_loss": 4,
+      "reversals": 2,
+      "unique_positions": 33
+    },
+    {
+      "map": "train-9160100-H2-02",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 21,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 95,
+        "health": 21,
+        "slack_f": 90,
+        "slack_r": 1
+      },
+      "steps": 41,
+      "deviations_before_loss": 4,
+      "reversals": 3,
+      "unique_positions": 34
+    },
+    {
+      "map": "train-9160100-H2-03",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 4,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 15,
+        "health": 28,
+        "slack_f": 6,
+        "slack_r": 14
+      },
+      "steps": 31,
+      "deviations_before_loss": 4,
+      "reversals": 0,
+      "unique_positions": 32
+    },
+    {
+      "map": "train-9160100-H2-04",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 9,
+        "refuels": 0,
+        "repairs": 1,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 19,
+        "health": 97,
+        "slack_f": 1,
+        "slack_r": 94
+      },
+      "steps": 27,
+      "deviations_before_loss": 4,
+      "reversals": 1,
+      "unique_positions": 23
+    },
+    {
+      "map": "train-9160100-H2-05",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 75,
+        "refuels": 1,
+        "repairs": 1,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 45,
+        "health": 52,
+        "slack_f": 0,
+        "slack_r": 12
+      },
+      "steps": 119,
+      "deviations_before_loss": 36,
+      "reversals": 26,
+      "unique_positions": 79
+    },
+    {
+      "map": "train-9160100-H2-06",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 111,
+      "deviations_before_loss": 16,
+      "reversals": 4,
+      "unique_positions": 88
+    },
+    {
+      "map": "train-9160100-H2-07",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 13,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 94,
+        "health": 6,
+        "slack_f": 88,
+        "slack_r": 1
+      },
+      "steps": 18,
+      "deviations_before_loss": 7,
+      "reversals": 1,
+      "unique_positions": 18
+    },
+    {
+      "map": "train-9160100-H2-08",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 5,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "NORTH",
+          "NW"
+        ],
+        "selected": "NE",
+        "fuel": 51,
+        "health": 16,
+        "slack_f": 44,
+        "slack_r": 0
+      },
+      "steps": 20,
+      "deviations_before_loss": 3,
+      "reversals": 0,
+      "unique_positions": 19
+    },
+    {
+      "map": "train-9160100-H2-09",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 7,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 16,
+        "health": 24,
+        "slack_f": 0,
+        "slack_r": 4
+      },
+      "steps": 22,
+      "deviations_before_loss": 5,
+      "reversals": 1,
+      "unique_positions": 11
+    },
+    {
+      "map": "train-9160100-H2-10",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 95,
+      "deviations_before_loss": 4,
+      "reversals": 4,
+      "unique_positions": 71
+    },
+    {
+      "map": "train-9160100-H2-11",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 4,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 44,
+        "health": 26,
+        "slack_f": 39,
+        "slack_r": 0
+      },
+      "steps": 29,
+      "deviations_before_loss": 4,
+      "reversals": 1,
+      "unique_positions": 20
+    },
+    {
+      "map": "train-9160100-H2-12",
+      "outcome": "LIMIT",
+      "first": {
+        "step": 5780,
+        "refuels": 578,
+        "repairs": 575,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 92,
+        "health": 97,
+        "slack_f": 90,
+        "slack_r": 94
+      },
+      "steps": 5832,
+      "deviations_before_loss": 2887,
+      "reversals": 1161,
+      "unique_positions": 23
+    },
+    {
+      "map": "train-9160100-H2-13",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 13,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 95,
+        "health": 18,
+        "slack_f": 90,
+        "slack_r": 0
+      },
+      "steps": 30,
+      "deviations_before_loss": 5,
+      "reversals": 2,
+      "unique_positions": 18
+    },
+    {
+      "map": "train-9160100-H2-14",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 6,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "SE",
+        "fuel": 7,
+        "health": 18,
+        "slack_f": 0,
+        "slack_r": 13
+      },
+      "steps": 12,
+      "deviations_before_loss": 4,
+      "reversals": 0,
+      "unique_positions": 9
+    },
+    {
+      "map": "train-9160100-H2-15",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 99,
+        "refuels": 1,
+        "repairs": 1,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 34,
+        "health": 14,
+        "slack_f": 20,
+        "slack_r": -8
+      },
+      "steps": 112,
+      "deviations_before_loss": 28,
+      "reversals": 7,
+      "unique_positions": 81
+    },
+    {
+      "map": "train-9160100-H2-16",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 127,
+        "refuels": 3,
+        "repairs": 2,
+        "viable": [
+          "SOUTH",
+          "WEST",
+          "SW"
+        ],
+        "selected": "NORTH",
+        "fuel": 30,
+        "health": 21,
+        "slack_f": 7,
+        "slack_r": 1
+      },
+      "steps": 147,
+      "deviations_before_loss": 60,
+      "reversals": 12,
+      "unique_positions": 65
+    },
+    {
+      "map": "train-9160100-H2-17",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 123,
+        "refuels": 2,
+        "repairs": 3,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "EAST",
+        "fuel": 66,
+        "health": 46,
+        "slack_f": 32,
+        "slack_r": 0
+      },
+      "steps": 168,
+      "deviations_before_loss": 38,
+      "reversals": 49,
+      "unique_positions": 68
+    },
+    {
+      "map": "train-9160100-H2-18",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 3,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 10,
+        "health": 27,
+        "slack_f": 0,
+        "slack_r": 19
+      },
+      "steps": 12,
+      "deviations_before_loss": 3,
+      "reversals": 0,
+      "unique_positions": 13
+    },
+    {
+      "map": "train-9160100-H2-19",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 7,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 9,
+        "health": 29,
+        "slack_f": 0,
+        "slack_r": 19
+      },
+      "steps": 15,
+      "deviations_before_loss": 3,
+      "reversals": 2,
+      "unique_positions": 13
+    },
+    {
+      "map": "train-9160100-H2-20",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 87,
+        "refuels": 1,
+        "repairs": 2,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 36,
+        "health": 37,
+        "slack_f": -16,
+        "slack_r": -14
+      },
+      "steps": 122,
+      "deviations_before_loss": 16,
+      "reversals": 35,
+      "unique_positions": 62
+    },
+    {
+      "map": "train-9160100-H2-21",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 17,
+        "refuels": 0,
+        "repairs": 1,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 18,
+        "health": 88,
+        "slack_f": 0,
+        "slack_r": 77
+      },
+      "steps": 34,
+      "deviations_before_loss": 4,
+      "reversals": 2,
+      "unique_positions": 27
+    },
+    {
+      "map": "train-9160100-H2-22",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 54,
+      "deviations_before_loss": 0,
+      "reversals": 2,
+      "unique_positions": 47
+    },
+    {
+      "map": "train-9160100-H2-23",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 3,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 34,
+        "health": 18,
+        "slack_f": 4,
+        "slack_r": 1
+      },
+      "steps": 20,
+      "deviations_before_loss": 3,
+      "reversals": 1,
+      "unique_positions": 16
+    },
+    {
+      "map": "train-9160100-H2-24",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 72,
+      "deviations_before_loss": 3,
+      "reversals": 2,
+      "unique_positions": 66
+    },
+    {
+      "map": "train-9160100-H2-25",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 96,
+        "refuels": 2,
+        "repairs": 1,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 75,
+        "health": 25,
+        "slack_f": 52,
+        "slack_r": 1
+      },
+      "steps": 120,
+      "deviations_before_loss": 45,
+      "reversals": 2,
+      "unique_positions": 97
+    },
+    {
+      "map": "train-9160100-H3-01",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 17,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 9,
+        "health": 27,
+        "slack_f": 0,
+        "slack_r": 8
+      },
+      "steps": 25,
+      "deviations_before_loss": 2,
+      "reversals": 1,
+      "unique_positions": 24
+    },
+    {
+      "map": "train-9160100-H3-02",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 2,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 42,
+        "health": 18,
+        "slack_f": 37,
+        "slack_r": 1
+      },
+      "steps": 19,
+      "deviations_before_loss": 2,
+      "reversals": 1,
+      "unique_positions": 16
+    },
+    {
+      "map": "train-9160100-H3-03",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 2,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "WEST",
+        "fuel": 24,
+        "health": 37,
+        "slack_f": 1,
+        "slack_r": 11
+      },
+      "steps": 25,
+      "deviations_before_loss": 2,
+      "reversals": 0,
+      "unique_positions": 26
+    },
+    {
+      "map": "train-9160100-H3-04",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 26,
+        "refuels": 0,
+        "repairs": 1,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "SOUTH",
+        "fuel": 11,
+        "health": 88,
+        "slack_f": 1,
+        "slack_r": 76
+      },
+      "steps": 36,
+      "deviations_before_loss": 3,
+      "reversals": 1,
+      "unique_positions": 34
+    },
+    {
+      "map": "train-9160100-H3-05",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 5,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "EAST",
+        "fuel": 15,
+        "health": 21,
+        "slack_f": 0,
+        "slack_r": 2
+      },
+      "steps": 19,
+      "deviations_before_loss": 3,
+      "reversals": 0,
+      "unique_positions": 20
+    },
+    {
+      "map": "train-9160100-H3-06",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 94,
+      "deviations_before_loss": 0,
+      "reversals": 1,
+      "unique_positions": 78
+    },
+    {
+      "map": "train-9160100-H3-07",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 5,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 10,
+        "health": 41,
+        "slack_f": 0,
+        "slack_r": 37
+      },
+      "steps": 14,
+      "deviations_before_loss": 2,
+      "reversals": 1,
+      "unique_positions": 12
+    },
+    {
+      "map": "train-9160100-H3-08",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 2,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "NORTH",
+          "NE"
+        ],
+        "selected": "SOUTH",
+        "fuel": 46,
+        "health": 21,
+        "slack_f": 43,
+        "slack_r": 0
+      },
+      "steps": 22,
+      "deviations_before_loss": 2,
+      "reversals": 0,
+      "unique_positions": 23
+    },
+    {
+      "map": "train-9160100-H3-09",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 19,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "EAST",
+          "SOUTH",
+          "WEST",
+          "SE",
+          "SW"
+        ],
+        "selected": "NW",
+        "fuel": 98,
+        "health": 32,
+        "slack_f": 96,
+        "slack_r": 1
+      },
+      "steps": 50,
+      "deviations_before_loss": 3,
+      "reversals": 1,
+      "unique_positions": 48
+    },
+    {
+      "map": "train-9160100-H3-10",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 73,
+      "deviations_before_loss": 6,
+      "reversals": 2,
+      "unique_positions": 66
+    },
+    {
+      "map": "train-9160100-H3-11",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 93,
+        "refuels": 1,
+        "repairs": 1,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "WEST",
+        "fuel": 30,
+        "health": 42,
+        "slack_f": 0,
+        "slack_r": 4
+      },
+      "steps": 122,
+      "deviations_before_loss": 31,
+      "reversals": 22,
+      "unique_positions": 73
+    },
+    {
+      "map": "train-9160100-H3-12",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 6,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 40,
+        "health": 17,
+        "slack_f": 31,
+        "slack_r": 0
+      },
+      "steps": 22,
+      "deviations_before_loss": 6,
+      "reversals": 0,
+      "unique_positions": 23
+    },
+    {
+      "map": "train-9160100-H3-13",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 3,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 34,
+        "health": 24,
+        "slack_f": 13,
+        "slack_r": 0
+      },
+      "steps": 26,
+      "deviations_before_loss": 3,
+      "reversals": 2,
+      "unique_positions": 19
+    },
+    {
+      "map": "train-9160100-H3-14",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 36,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 90,
+        "health": 25,
+        "slack_f": 80,
+        "slack_r": 1
+      },
+      "steps": 60,
+      "deviations_before_loss": 6,
+      "reversals": 2,
+      "unique_positions": 46
+    },
+    {
+      "map": "train-9160100-H3-15",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 3,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 31,
+        "health": 13,
+        "slack_f": 29,
+        "slack_r": 0
+      },
+      "steps": 15,
+      "deviations_before_loss": 2,
+      "reversals": 1,
+      "unique_positions": 13
+    },
+    {
+      "map": "train-9160100-H3-16",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 2,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 35,
+        "health": 22,
+        "slack_f": 4,
+        "slack_r": 1
+      },
+      "steps": 23,
+      "deviations_before_loss": 2,
+      "reversals": 1,
+      "unique_positions": 22
+    },
+    {
+      "map": "train-9160100-H3-17",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 13,
+        "refuels": 0,
+        "repairs": 1,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 30,
+        "health": 98,
+        "slack_f": 1,
+        "slack_r": 96
+      },
+      "steps": 42,
+      "deviations_before_loss": 3,
+      "reversals": 1,
+      "unique_positions": 39
+    },
+    {
+      "map": "train-9160100-H3-18",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 34,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 80,
+        "health": 18,
+        "slack_f": 64,
+        "slack_r": 1
+      },
+      "steps": 51,
+      "deviations_before_loss": 7,
+      "reversals": 3,
+      "unique_positions": 43
+    },
+    {
+      "map": "train-9160100-H3-19",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 99,
+      "deviations_before_loss": 0,
+      "reversals": 1,
+      "unique_positions": 81
+    },
+    {
+      "map": "train-9160100-H3-20",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 11,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 98,
+        "health": 20,
+        "slack_f": 96,
+        "slack_r": 0
+      },
+      "steps": 30,
+      "deviations_before_loss": 3,
+      "reversals": 1,
+      "unique_positions": 23
+    },
+    {
+      "map": "train-9160100-H3-21",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 13,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 14,
+        "health": 31,
+        "slack_f": 0,
+        "slack_r": 22
+      },
+      "steps": 26,
+      "deviations_before_loss": 2,
+      "reversals": 1,
+      "unique_positions": 21
+    },
+    {
+      "map": "train-9160100-H3-22",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 9,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "WEST",
+          "SW"
+        ],
+        "selected": "NW",
+        "fuel": 23,
+        "health": 52,
+        "slack_f": 11,
+        "slack_r": 2
+      },
+      "steps": 31,
+      "deviations_before_loss": 4,
+      "reversals": 2,
+      "unique_positions": 27
+    },
+    {
+      "map": "train-9160100-H3-23",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 11,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 98,
+        "health": 35,
+        "slack_f": 96,
+        "slack_r": 1
+      },
+      "steps": 45,
+      "deviations_before_loss": 3,
+      "reversals": 2,
+      "unique_positions": 34
+    },
+    {
+      "map": "train-9160100-H3-24",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 69,
+        "refuels": 2,
+        "repairs": 1,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 56,
+        "health": 50,
+        "slack_f": 12,
+        "slack_r": 1
+      },
+      "steps": 118,
+      "deviations_before_loss": 51,
+      "reversals": 31,
+      "unique_positions": 88
+    },
+    {
+      "map": "train-9160100-H3-25",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 8,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "WEST",
+        "fuel": 52,
+        "health": 21,
+        "slack_f": 25,
+        "slack_r": 1
+      },
+      "steps": 28,
+      "deviations_before_loss": 7,
+      "reversals": 2,
+      "unique_positions": 17
+    },
+    {
+      "map": "train-9160100-H4-01",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 1,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 54,
+        "health": 26,
+        "slack_f": 14,
+        "slack_r": 0
+      },
+      "steps": 26,
+      "deviations_before_loss": 1,
+      "reversals": 1,
+      "unique_positions": 26
+    },
+    {
+      "map": "train-9160100-H4-02",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 42,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "SOUTH",
+        "fuel": 82,
+        "health": 16,
+        "slack_f": 64,
+        "slack_r": 1
+      },
+      "steps": 57,
+      "deviations_before_loss": 17,
+      "reversals": 2,
+      "unique_positions": 53
+    },
+    {
+      "map": "train-9160100-H4-03",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 18,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "EAST",
+        "fuel": 87,
+        "health": 16,
+        "slack_f": 75,
+        "slack_r": 0
+      },
+      "steps": 33,
+      "deviations_before_loss": 3,
+      "reversals": 1,
+      "unique_positions": 32
+    },
+    {
+      "map": "train-9160100-H4-04",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 15,
+        "refuels": 0,
+        "repairs": 1,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "WEST",
+        "fuel": 30,
+        "health": 99,
+        "slack_f": 1,
+        "slack_r": 98
+      },
+      "steps": 44,
+      "deviations_before_loss": 1,
+      "reversals": 2,
+      "unique_positions": 24
+    },
+    {
+      "map": "train-9160100-H4-05",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 1,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "EAST",
+        "fuel": 55,
+        "health": 27,
+        "slack_f": 14,
+        "slack_r": 1
+      },
+      "steps": 27,
+      "deviations_before_loss": 1,
+      "reversals": 2,
+      "unique_positions": 19
+    },
+    {
+      "map": "train-9160100-H4-06",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 67,
+        "refuels": 2,
+        "repairs": 1,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "WEST",
+        "fuel": 44,
+        "health": 40,
+        "slack_f": 12,
+        "slack_r": 8
+      },
+      "steps": 106,
+      "deviations_before_loss": 7,
+      "reversals": 18,
+      "unique_positions": 83
+    },
+    {
+      "map": "train-9160100-H4-07",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 1,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 23,
+        "health": 7,
+        "slack_f": 16,
+        "slack_r": 0
+      },
+      "steps": 7,
+      "deviations_before_loss": 1,
+      "reversals": 0,
+      "unique_positions": 8
+    },
+    {
+      "map": "train-9160100-H4-08",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 6,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "WEST",
+          "SW"
+        ],
+        "selected": "NW",
+        "fuel": 7,
+        "health": 26,
+        "slack_f": 0,
+        "slack_r": 17
+      },
+      "steps": 12,
+      "deviations_before_loss": 1,
+      "reversals": 0,
+      "unique_positions": 13
+    },
+    {
+      "map": "train-9160100-H4-09",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 23,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "NORTH",
+        "fuel": 4,
+        "health": 29,
+        "slack_f": 0,
+        "slack_r": 26
+      },
+      "steps": 26,
+      "deviations_before_loss": 1,
+      "reversals": 0,
+      "unique_positions": 27
+    },
+    {
+      "map": "train-9160100-H4-10",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 4,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 5,
+        "health": 27,
+        "slack_f": 0,
+        "slack_r": 11
+      },
+      "steps": 8,
+      "deviations_before_loss": 2,
+      "reversals": 0,
+      "unique_positions": 9
+    },
+    {
+      "map": "train-9160100-H4-11",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 81,
+      "deviations_before_loss": 0,
+      "reversals": 1,
+      "unique_positions": 78
+    },
+    {
+      "map": "train-9160100-H4-12",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 3,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SW"
+        ],
+        "selected": "EAST",
+        "fuel": 26,
+        "health": 54,
+        "slack_f": 0,
+        "slack_r": 33
+      },
+      "steps": 28,
+      "deviations_before_loss": 3,
+      "reversals": 1,
+      "unique_positions": 23
+    },
+    {
+      "map": "train-9160100-H4-13",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 8,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 53,
+        "health": 16,
+        "slack_f": 23,
+        "slack_r": 0
+      },
+      "steps": 23,
+      "deviations_before_loss": 2,
+      "reversals": 1,
+      "unique_positions": 22
+    },
+    {
+      "map": "train-9160100-H4-14",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 22,
+        "refuels": 0,
+        "repairs": 1,
+        "viable": [
+          "WEST"
+        ],
+        "selected": "SOUTH",
+        "fuel": 23,
+        "health": 99,
+        "slack_f": 0,
+        "slack_r": 98
+      },
+      "steps": 44,
+      "deviations_before_loss": 2,
+      "reversals": 2,
+      "unique_positions": 35
+    },
+    {
+      "map": "train-9160100-H4-15",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 6,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "WEST",
+        "fuel": 11,
+        "health": 50,
+        "slack_f": 1,
+        "slack_r": 27
+      },
+      "steps": 16,
+      "deviations_before_loss": 1,
+      "reversals": 0,
+      "unique_positions": 16
+    },
+    {
+      "map": "train-9160100-H4-16",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 82,
+      "deviations_before_loss": 0,
+      "reversals": 1,
+      "unique_positions": 82
+    },
+    {
+      "map": "train-9160100-H4-17",
+      "outcome": "SUCCESS",
+      "first": null,
+      "steps": 77,
+      "deviations_before_loss": 0,
+      "reversals": 1,
+      "unique_positions": 72
+    },
+    {
+      "map": "train-9160100-H4-18",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 19,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "SOUTH",
+        "fuel": 9,
+        "health": 29,
+        "slack_f": 1,
+        "slack_r": 13
+      },
+      "steps": 27,
+      "deviations_before_loss": 1,
+      "reversals": 1,
+      "unique_positions": 24
+    },
+    {
+      "map": "train-9160100-H4-19",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 1,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "WEST",
+        "fuel": 50,
+        "health": 26,
+        "slack_f": 5,
+        "slack_r": 0
+      },
+      "steps": 26,
+      "deviations_before_loss": 1,
+      "reversals": 0,
+      "unique_positions": 27
+    },
+    {
+      "map": "train-9160100-H4-20",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 20,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "NORTH"
+        ],
+        "selected": "WEST",
+        "fuel": 6,
+        "health": 24,
+        "slack_f": 0,
+        "slack_r": 11
+      },
+      "steps": 25,
+      "deviations_before_loss": 1,
+      "reversals": 1,
+      "unique_positions": 24
+    },
+    {
+      "map": "train-9160100-H4-21",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 12,
+        "refuels": 1,
+        "repairs": 0,
+        "viable": [
+          "SOUTH"
+        ],
+        "selected": "NORTH",
+        "fuel": 100,
+        "health": 16,
+        "slack_f": 100,
+        "slack_r": 1
+      },
+      "steps": 27,
+      "deviations_before_loss": 1,
+      "reversals": 1,
+      "unique_positions": 18
+    },
+    {
+      "map": "train-9160100-H4-22",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 1,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 68,
+        "health": 28,
+        "slack_f": 5,
+        "slack_r": 2
+      },
+      "steps": 28,
+      "deviations_before_loss": 1,
+      "reversals": 0,
+      "unique_positions": 29
+    },
+    {
+      "map": "train-9160100-H4-23",
+      "outcome": "EMPTY",
+      "first": {
+        "step": 1,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "WEST",
+        "fuel": 26,
+        "health": 49,
+        "slack_f": 0,
+        "slack_r": 39
+      },
+      "steps": 26,
+      "deviations_before_loss": 1,
+      "reversals": 2,
+      "unique_positions": 21
+    },
+    {
+      "map": "train-9160100-H4-24",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 1,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "NORTH",
+        "fuel": 52,
+        "health": 19,
+        "slack_f": 11,
+        "slack_r": 1
+      },
+      "steps": 19,
+      "deviations_before_loss": 1,
+      "reversals": 1,
+      "unique_positions": 16
+    },
+    {
+      "map": "train-9160100-H4-25",
+      "outcome": "BROKEN",
+      "first": {
+        "step": 15,
+        "refuels": 0,
+        "repairs": 0,
+        "viable": [
+          "EAST"
+        ],
+        "selected": "NORTH",
+        "fuel": 27,
+        "health": 14,
+        "slack_f": 9,
+        "slack_r": 1
+      },
+      "steps": 28,
+      "deviations_before_loss": 1,
+      "reversals": 1,
+      "unique_positions": 23
+    }
+  ]
+}

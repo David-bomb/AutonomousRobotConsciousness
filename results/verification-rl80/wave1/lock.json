@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "runtime": {
+    "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.8.0+cu129",
+    "numpy": "2.2.6"
+  },
+  "adapter": "results/verification-rl80/wave1/bridge.py",
+  "adapter_sha256": "30b8464a86cf20536d3cc683f2516caf4a64feaf8d40a70d7a71b33649568f9e",
+  "checkpoint": "results/verification-rl80/wave1/frozen/weights.pt",
+  "checkpoint_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "spec": "results/verification-rl80/stress-spec.json",
+  "spec_sha256": "58f493edd1adb2e0011a0fec3a5b095e47145881783e9cf6252c7a8d902c3168",
+  "dependencies": {
+    "results/verification-rl80/wave1/frozen/adapter.py": "481a1eff8738f94b79708a7fb4a0a8aab5825d557f19719a105a5447b883da9e",
+    "results/verification-rl80/wave1/frozen/critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "results/verification-rl80/wave1/frozen/frozen_adapter.py": "a4468a2b1a3341574e16d5622e8a163d617f855388ca184e23084b8f467a65fd",
+    "results/verification-rl80/wave1/frozen/geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "results/verification-rl80/wave1/frozen/geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "results/verification-rl80/wave1/frozen/policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "results/verification-rl80/wave1/frozen/rich_policy.py": "41bebfb12845274ee6300495df4b50772cbc43ae0f938449f454d615671cbe46",
+    "results/verification-rl80/wave1/run.py": "05e372078a450b88693ce14f2c9d30b951d8bf6c300c28246a9073a53d873255",
+    "results/verification-rl80/wave1/selection.json": "fc24ebe49c95d85667788d1f37da7f3a6e6483a73e094a21c11d6b8b0e6d78d6"
+  },
+  "tools_sha256_lf": {
+    "evaluate.py": "c77a5b08ea52aa07315d736a8d21083906fbc66878454c40d7f773f161bb6cb3",
+    "suite.py": "3e33b35488c7ebbf5bda63e0577bd60e3393564b6c1d6f8c411e2fbb02b9a188",
+    "policy_worker.py": "9e3750dd8232ece6a01e9a55babe7835717845c0ee97a7d27acb372d07fd4b0a",
+    "policy_api.py": "28b49a5567e7a8553c6f4e7c11293bf3f31f360ecf5a6d0cad41015effe701cb"
+  }
+}

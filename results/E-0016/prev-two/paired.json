@@ -1,0 +1,25 @@
+{
+  "selected": "route-rl",
+  "bootstrap_replicates": 10000,
+  "seed": 161528,
+  "versus_baseline": {
+    "gains": 33,
+    "losses": 4,
+    "difference_pp": 29,
+    "paired_stratified_95_pp": [
+      19.0,
+      39.0
+    ],
+    "descriptive_exact_p": 1.0843941709026694e-06
+  },
+  "versus_ablation": {
+    "gains": 27,
+    "losses": 5,
+    "difference_pp": 22,
+    "paired_stratified_95_pp": [
+      12.0,
+      32.0
+    ],
+    "descriptive_exact_p": 0.00011307420209050179
+  }
+}

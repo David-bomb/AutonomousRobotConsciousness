@@ -1,0 +1,45 @@
+{
+  "map": "handover-train-9165411-H3-08",
+  "tier": "H3",
+  "family": "loops",
+  "win": false,
+  "gate": 40,
+  "steps": 3203,
+  "outcome": "EMPTY",
+  "reason": "first-loss",
+  "step": 3176,
+  "fork": {
+    "chosen": 3,
+    "viable": [
+      1
+    ],
+    "known_goal": 0,
+    "safe_window": 0,
+    "risk_window": 8,
+    "fuel": 27,
+    "hp": 59,
+    "readings": [
+      46,
+      19
+    ],
+    "prior": [
+      45,
+      18
+    ],
+    "exit_chebyshev": 4,
+    "known_cells": 791,
+    "alternatives": [
+      3
+    ],
+    "late_scores": [
+      -1000000000000.0,
+      6.186106204986572,
+      -1000000000000.0,
+      24.37025462836027,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0
+    ]
+  }
+}

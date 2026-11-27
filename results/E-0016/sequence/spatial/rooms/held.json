@@ -1,0 +1,112 @@
+{
+  "seed": 1633,
+  "updates": [
+    800,
+    1200
+  ],
+  "weights": "920da4a61652d47b23dff597cf843a21b9ab63d9d9c3b6d0b1ddf9460fb82ffe",
+  "geometry_split": [
+    3000,
+    200
+  ],
+  "gate": "c7c78bd05d78a592d85f3f58cd3075dc44a61c48c6d7b463085b329f7e488a0e",
+  "bank": "aaebbb2fc5bdafb3e0e7c1227334fcda9ca9db1e654a9ffa59e1d3d60a1bc45c",
+  "code": "b2968ca50107a499d23079ae05c43fceefa81998628d03e13a9e743b34e08783",
+  "score": {
+    "states": 2394,
+    "confusion": [
+      [
+        558,
+        34,
+        8,
+        0
+      ],
+      [
+        230,
+        345,
+        25,
+        0
+      ],
+      [
+        175,
+        82,
+        339,
+        4
+      ],
+      [
+        113,
+        21,
+        20,
+        440
+      ]
+    ],
+    "room_brier": 0.056744035333395004,
+    "groups": {
+      "all": {
+        "critical": 1032,
+        "ablated": [
+          969,
+          969,
+          968
+        ],
+        "with_room": [
+          971,
+          972,
+          972
+        ]
+      },
+      "slack01": {
+        "critical": 1002,
+        "ablated": [
+          943,
+          944,
+          941
+        ],
+        "with_room": [
+          945,
+          947,
+          946
+        ]
+      },
+      "rooms": {
+        "critical": 273,
+        "ablated": [
+          253,
+          252,
+          250
+        ],
+        "with_room": [
+          253,
+          253,
+          252
+        ]
+      },
+      "rooms_H4": {
+        "critical": 123,
+        "ablated": [
+          113,
+          111,
+          110
+        ],
+        "with_room": [
+          113,
+          112,
+          112
+        ]
+      },
+      "loops_H4": {
+        "critical": 105,
+        "ablated": [
+          101,
+          102,
+          101
+        ],
+        "with_room": [
+          102,
+          102,
+          102
+        ]
+      }
+    }
+  }
+}

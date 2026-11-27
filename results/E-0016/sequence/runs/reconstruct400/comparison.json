@@ -1,0 +1,393 @@
+{
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "dev": {
+    "missing": {
+      "summary": {
+        "wins": 45,
+        "by_tier": {
+          "H1": 19,
+          "H2": 11,
+          "H3": 9,
+          "H4": 6
+        },
+        "outcomes": {
+          "EMPTY": 24,
+          "SUCCESS": 45,
+          "BROKEN": 31
+        },
+        "fuel": 65,
+        "repair": 58,
+        "either": 74,
+        "both": 49
+      },
+      "paired_to_missing": {
+        "gain": 0,
+        "loss": 0,
+        "changed_record": 0
+      },
+      "weights": "eb5f1162335fed9f90f6fed4f1dd5b456058ba72ee57720d451b9ac3b6e6e44f",
+      "report": "cd1eb070cff61ec04115f3fe54443a2a804531d9b4c6c2378b95b165082fb260"
+    },
+    "marginal": {
+      "summary": {
+        "wins": 50,
+        "by_tier": {
+          "H1": 19,
+          "H2": 12,
+          "H3": 12,
+          "H4": 7
+        },
+        "outcomes": {
+          "EMPTY": 24,
+          "SUCCESS": 50,
+          "BROKEN": 26
+        },
+        "fuel": 68,
+        "repair": 65,
+        "either": 79,
+        "both": 54
+      },
+      "paired_to_missing": {
+        "gain": 8,
+        "loss": 3,
+        "changed_record": 19
+      },
+      "weights": "cc0f76d005bd6e9a0a0c0fa05412f089e446ca25e895096c24937e8c0c6122e1",
+      "report": "96b59d4666dee7a4f9fe2e13d25cacb6f452408849d32c5d9e8953595adc184f"
+    },
+    "direct": {
+      "summary": {
+        "wins": 49,
+        "by_tier": {
+          "H1": 20,
+          "H2": 12,
+          "H3": 10,
+          "H4": 7
+        },
+        "outcomes": {
+          "EMPTY": 24,
+          "SUCCESS": 49,
+          "BROKEN": 27
+        },
+        "fuel": 68,
+        "repair": 62,
+        "either": 77,
+        "both": 53
+      },
+      "paired_to_missing": {
+        "gain": 7,
+        "loss": 3,
+        "changed_record": 19
+      },
+      "weights": "4f01ffd8fe827d02a5805b4557f4c8fcb2e0434f8b8c2ba8d77e4c1be9e89ba2",
+      "report": "2a0cbf4461ea0baf4dfa762d16299655ff4657d9371d38b965e457dfc0653fb8"
+    },
+    "marginal1": {
+      "summary": {
+        "wins": 49,
+        "by_tier": {
+          "H1": 19,
+          "H2": 12,
+          "H3": 11,
+          "H4": 7
+        },
+        "outcomes": {
+          "EMPTY": 24,
+          "SUCCESS": 49,
+          "BROKEN": 27
+        },
+        "fuel": 69,
+        "repair": 64,
+        "either": 79,
+        "both": 54
+      },
+      "paired_to_missing": {
+        "gain": 7,
+        "loss": 3,
+        "changed_record": 27
+      },
+      "weights": "1b941e7c87c10f136048d3c532df2f1c59301a63ddb3fcbbe183a5ebc3a3df6e",
+      "report": "f69e16dd4f78cc388f5a7db3f2b8b712639f45e406f4817c86b777217a1e9494"
+    },
+    "direct1": {
+      "summary": {
+        "wins": 45,
+        "by_tier": {
+          "H1": 18,
+          "H2": 9,
+          "H3": 11,
+          "H4": 7
+        },
+        "outcomes": {
+          "EMPTY": 27,
+          "SUCCESS": 45,
+          "BROKEN": 28
+        },
+        "fuel": 63,
+        "repair": 60,
+        "either": 74,
+        "both": 49
+      },
+      "paired_to_missing": {
+        "gain": 6,
+        "loss": 6,
+        "changed_record": 28
+      },
+      "weights": "239d1574b8042650631445271345e340a3201fd40cf5a460144ca059f5382192",
+      "report": "eeb11b97e5b56e487c0271f3945a6b53169f8fee510d659166883b7f9507a528"
+    }
+  },
+  "selected": "missing",
+  "selection": {
+    "marginal1": {
+      "summary": {
+        "wins": 41,
+        "by_tier": {
+          "H1": 19,
+          "H2": 12,
+          "H3": 7,
+          "H4": 3
+        },
+        "outcomes": {
+          "EMPTY": 38,
+          "SUCCESS": 41,
+          "BROKEN": 21
+        },
+        "fuel": 54,
+        "repair": 64,
+        "either": 75,
+        "both": 43
+      },
+      "paired_to_missing": {
+        "gain": 4,
+        "loss": 11,
+        "changed_record": 31
+      }
+    },
+    "direct1": {
+      "summary": {
+        "wins": 41,
+        "by_tier": {
+          "H1": 20,
+          "H2": 10,
+          "H3": 8,
+          "H4": 3
+        },
+        "outcomes": {
+          "SUCCESS": 41,
+          "EMPTY": 39,
+          "BROKEN": 20
+        },
+        "fuel": 56,
+        "repair": 66,
+        "either": 77,
+        "both": 45
+      },
+      "paired_to_missing": {
+        "gain": 7,
+        "loss": 14,
+        "changed_record": 41
+      }
+    },
+    "missing": {
+      "summary": {
+        "wins": 48,
+        "by_tier": {
+          "H1": 15,
+          "H2": 14,
+          "H3": 11,
+          "H4": 8
+        },
+        "outcomes": {
+          "EMPTY": 33,
+          "SUCCESS": 48,
+          "BROKEN": 19
+        },
+        "fuel": 62,
+        "repair": 69,
+        "either": 78,
+        "both": 53
+      },
+      "paired_to_missing": {
+        "gain": 0,
+        "loss": 0,
+        "changed_record": 0
+      }
+    },
+    "marginal0.5": {
+      "summary": {
+        "wins": 46,
+        "by_tier": {
+          "H1": 19,
+          "H2": 12,
+          "H3": 9,
+          "H4": 6
+        },
+        "outcomes": {
+          "EMPTY": 34,
+          "SUCCESS": 46,
+          "BROKEN": 20
+        },
+        "fuel": 61,
+        "repair": 67,
+        "either": 78,
+        "both": 50
+      },
+      "paired_to_missing": {
+        "gain": 6,
+        "loss": 8,
+        "changed_record": 24
+      }
+    },
+    "direct0.5": {
+      "summary": {
+        "wins": 45,
+        "by_tier": {
+          "H1": 19,
+          "H2": 11,
+          "H3": 11,
+          "H4": 4
+        },
+        "outcomes": {
+          "EMPTY": 36,
+          "SUCCESS": 45,
+          "BROKEN": 19
+        },
+        "fuel": 61,
+        "repair": 68,
+        "either": 79,
+        "both": 50
+      },
+      "paired_to_missing": {
+        "gain": 5,
+        "loss": 8,
+        "changed_record": 28
+      }
+    }
+  },
+  "dagger_selection": {
+    "previous": {
+      "summary": {
+        "wins": 48,
+        "by_tier": {
+          "H1": 16,
+          "H2": 16,
+          "H3": 7,
+          "H4": 9
+        },
+        "outcomes": {
+          "BROKEN": 32,
+          "EMPTY": 20,
+          "SUCCESS": 48
+        },
+        "fuel": 66,
+        "repair": 59,
+        "either": 74,
+        "both": 51
+      },
+      "paired_to_missing": {
+        "gain": 0,
+        "loss": 0,
+        "changed_record": 0
+      }
+    },
+    "marginal": {
+      "summary": {
+        "wins": 44,
+        "by_tier": {
+          "H1": 15,
+          "H2": 15,
+          "H3": 9,
+          "H4": 5
+        },
+        "outcomes": {
+          "BROKEN": 33,
+          "EMPTY": 23,
+          "SUCCESS": 44
+        },
+        "fuel": 60,
+        "repair": 52,
+        "either": 66,
+        "both": 46
+      },
+      "paired_to_missing": {
+        "gain": 6,
+        "loss": 10,
+        "changed_record": 25
+      }
+    },
+    "direct": {
+      "summary": {
+        "wins": 37,
+        "by_tier": {
+          "H1": 17,
+          "H2": 11,
+          "H3": 3,
+          "H4": 6
+        },
+        "outcomes": {
+          "BROKEN": 35,
+          "EMPTY": 28,
+          "SUCCESS": 37
+        },
+        "fuel": 53,
+        "repair": 47,
+        "either": 61,
+        "both": 39
+      },
+      "paired_to_missing": {
+        "gain": 3,
+        "loss": 14,
+        "changed_record": 39
+      }
+    },
+    "probability": {
+      "summary": {
+        "wins": 41,
+        "by_tier": {
+          "H1": 15,
+          "H2": 13,
+          "H3": 9,
+          "H4": 4
+        },
+        "outcomes": {
+          "BROKEN": 35,
+          "EMPTY": 24,
+          "SUCCESS": 41
+        },
+        "fuel": 56,
+        "repair": 50,
+        "either": 63,
+        "both": 43
+      },
+      "paired_to_missing": {
+        "gain": 5,
+        "loss": 12,
+        "changed_record": 31
+      }
+    }
+  },
+  "dagger": {
+    "weights": "eb5f1162335fed9f90f6fed4f1dd5b456058ba72ee57720d451b9ac3b6e6e44f",
+    "selected": "previous",
+    "exact_repeat": 100,
+    "summary": {
+      "wins": 45,
+      "by_tier": {
+        "H1": 19,
+        "H2": 11,
+        "H3": 9,
+        "H4": 6
+      },
+      "outcomes": {
+        "EMPTY": 24,
+        "SUCCESS": 45,
+        "BROKEN": 31
+      },
+      "fuel": 65,
+      "repair": 58,
+      "either": 74,
+      "both": 49
+    }
+  }
+}

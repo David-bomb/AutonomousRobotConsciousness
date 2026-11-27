@@ -1,0 +1,18 @@
+{
+  "candidate": "wave3-conservative/B",
+  "weights_sha256": "f9bd509a7d4778f4d0e33cd1ad3924f8eb8a0923086c8448b42ac7ebddee35bf",
+  "threshold": 0.9,
+  "lock_sha256": "dc2f9a56764395522d7181070c2a495e1afb69f6643f4191956b9722c03f5bd5",
+  "adapter_sha256": "85d37f27fd57e1b2c320e757f7febb37c5a9350f0c0043350041454a0bd34d1a",
+  "receipt_file_sha256": "3ad473b47c9796ed0266a74a0726cdbad0834390863d3a6e59967a8d010abb3b",
+  "deterministic_episodes_sha256": "7e6b7e2a32faebe23e31e26576267b091c6adf47345fa8e8fce5009ddb0342f1",
+  "successes": {
+    "I": 73,
+    "II": 71,
+    "III": 67
+  },
+  "passed": false,
+  "checked_episodes": 300,
+  "policy_calls_equal_physical_steps": true,
+  "violations": []
+}

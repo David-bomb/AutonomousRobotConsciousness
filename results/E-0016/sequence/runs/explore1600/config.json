@@ -1,0 +1,27 @@
+{
+  "seed": 1612,
+  "init": "results/E-0016/sequence/runs/mission600/rl.pt",
+  "sha256": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "updates": [
+    1200,
+    2000
+  ],
+  "regular": "train-1600",
+  "teacher": "clean-400",
+  "rl_groups": 8,
+  "lr": 0.0006,
+  "sources": {
+    "refine.py": "523f6c350f53ee2c1eaeddd41e46b43c85e53c388e5aa7cefc8bfbfe428ead07",
+    "guard_model.py": "7d93243e08a83cdffd23b1b2ee8a76d053743b9d85b82ec9070211cb298bcd4a",
+    "model.py": "909793dc8e1855d0a62923505d7284687fb1f2deed84ebf00005af3a2121876d",
+    "train.py": "682ff8cb5c51eb45d9c90392018edf25b75405bfe481c47f22eff3d3b876c2cb",
+    "adapter.py": "d6202c80848e73d1c54f42294fb07c24ca31942fdd06d41e025c5d749eea29bd",
+    "geometry.cpp": "11d17aa98f626590e8270ef582dc8abb68790b17910f146319fd565aeea1197e",
+    "sequence.dll": "02c34dd6d02d1a9f5a6b9d815534aa7af740dcd23220770d8e75f68481130eff",
+    "clean_routes.py": "f65a55ed71b08114fc857e74e1e5807e179d163e630821da8de5e9bc58fd8792",
+    "exploration_teacher.py": "49b3e8fa1f1ad43bdd9c1bba4c012e7bf5bf35ffa08325e99b918573d3853764",
+    "phase_index.py": "4165391b05b60463cfc3f8bf636a46162ca978d4362308df4a9c40c7ec3405cc",
+    "prepare-train-1600.json": "817abc2c760df26ac8d8a9a1086559e323cae1643bf03b8d0fad6c0dce5f2c99",
+    "prepare-clean-400.json": "e7492d0ad293edc9b48b8b4757c48042d2a6d1c26472e9a69f20954fe0d62adb"
+  }
+}

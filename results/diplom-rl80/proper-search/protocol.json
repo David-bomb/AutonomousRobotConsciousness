@@ -1,0 +1,158 @@
+{
+  "configs": [
+    [
+      0,
+      0,
+      -101
+    ],
+    [
+      1,
+      0,
+      -101
+    ],
+    [
+      2,
+      0,
+      -101
+    ],
+    [
+      1,
+      4,
+      -101
+    ],
+    [
+      2,
+      4,
+      -101
+    ],
+    [
+      3,
+      4,
+      -101
+    ],
+    [
+      2,
+      5,
+      -101
+    ],
+    [
+      2,
+      6,
+      -101
+    ],
+    [
+      3,
+      6,
+      -101
+    ],
+    [
+      2,
+      4,
+      2
+    ],
+    [
+      3,
+      6,
+      2
+    ]
+  ],
+  "fit": [
+    "return-train-9165200-H1-05",
+    "return-train-9165200-H2-05",
+    "return-train-9165200-H3-05",
+    "return-train-9165200-H4-05",
+    "return-train-9165200-H1-06",
+    "return-train-9165200-H2-06",
+    "return-train-9165200-H3-06",
+    "return-train-9165200-H4-06",
+    "return-train-9165200-H1-07",
+    "return-train-9165200-H2-07",
+    "return-train-9165200-H3-07",
+    "return-train-9165200-H4-07",
+    "return-train-9165200-H1-08",
+    "return-train-9165200-H2-08",
+    "return-train-9165200-H3-08",
+    "return-train-9165200-H4-08",
+    "return-train-9165200-H1-09",
+    "return-train-9165200-H2-09",
+    "return-train-9165200-H3-09",
+    "return-train-9165200-H4-09",
+    "return-train-9165200-H1-10",
+    "return-train-9165200-H2-10",
+    "return-train-9165200-H3-10",
+    "return-train-9165200-H4-10",
+    "return-train-9165200-H1-11",
+    "return-train-9165200-H2-11",
+    "return-train-9165200-H3-11",
+    "return-train-9165200-H4-11",
+    "return-train-9165200-H1-12",
+    "return-train-9165200-H2-12",
+    "return-train-9165200-H3-12",
+    "return-train-9165200-H4-12"
+  ],
+  "select": [
+    "return-train-9165201-H1-08",
+    "return-train-9165201-H2-08",
+    "return-train-9165201-H3-08",
+    "return-train-9165201-H4-08",
+    "return-train-9165201-H1-09",
+    "return-train-9165201-H2-09",
+    "return-train-9165201-H3-09",
+    "return-train-9165201-H4-09",
+    "return-train-9165201-H1-10",
+    "return-train-9165201-H2-10",
+    "return-train-9165201-H3-10",
+    "return-train-9165201-H4-10",
+    "return-train-9165201-H1-11",
+    "return-train-9165201-H2-11",
+    "return-train-9165201-H3-11",
+    "return-train-9165201-H4-11",
+    "return-train-9165201-H1-12",
+    "return-train-9165201-H2-12",
+    "return-train-9165201-H3-12",
+    "return-train-9165201-H4-12",
+    "return-train-9165201-H1-13",
+    "return-train-9165201-H2-13",
+    "return-train-9165201-H3-13",
+    "return-train-9165201-H4-13",
+    "return-train-9165201-H1-14",
+    "return-train-9165201-H2-14",
+    "return-train-9165201-H3-14",
+    "return-train-9165201-H4-14",
+    "return-train-9165201-H1-15",
+    "return-train-9165201-H2-15",
+    "return-train-9165201-H3-15",
+    "return-train-9165201-H4-15",
+    "return-train-9165201-H1-16",
+    "return-train-9165201-H2-16",
+    "return-train-9165201-H3-16",
+    "return-train-9165201-H4-16",
+    "return-train-9165201-H1-17",
+    "return-train-9165201-H2-17",
+    "return-train-9165201-H3-17",
+    "return-train-9165201-H4-17",
+    "return-train-9165201-H1-18",
+    "return-train-9165201-H2-18",
+    "return-train-9165201-H3-18",
+    "return-train-9165201-H4-18",
+    "return-train-9165201-H1-19",
+    "return-train-9165201-H2-19",
+    "return-train-9165201-H3-19",
+    "return-train-9165201-H4-19",
+    "return-train-9165201-H1-20",
+    "return-train-9165201-H2-20",
+    "return-train-9165201-H3-20",
+    "return-train-9165201-H4-20"
+  ],
+  "base_sha256": "369c0d5616a07a19f6fa992d53bdaa5a3004c5c54344c427f2345272b2f56432",
+  "corpus_sha256": "4794c16be174ad50f1465affa127499281b622bca78b66928f912f2abbc1c842",
+  "method": "Compare 11 discrete final action-score heads by terminal SUCCESS; four best nonzero heads against baseline on separate full train starts; earliest on ties. Freeze once before full dev/ablation.",
+  "observations": "Native observation plus two previous actual F/R readings, reset on start. Only equal-cost shortest-route moves receive the learned frontier bonus; neural logits decide ties and unsupported positions.",
+  "source_sha256": {
+    "renewable_features.cpp": "67fa0e532968391f034fc5002e4546cf48ed0be08c435d7326937d5042b8f481",
+    "proper_frontier.cpp": "8f281c4c272c384a117d7d28d519291f1f3640c997c492f3e00d6b5cffdb30c6",
+    "proper_frontier.dll": "c541c8d7203b1879662fa04b0c763d858f1420dd1721323f8c8ba6caf36bd8e4",
+    "proper_policy.py": "c98c104eb18504cf9d84f4a0281bc706fb67114b0a578b6d3978b40ef59fe067",
+    "proper_train.py": "bf5c56c792da9ed44c6fe636e0b281ee6b3385e9061127ffa85dae70aa5a5117"
+  }
+}

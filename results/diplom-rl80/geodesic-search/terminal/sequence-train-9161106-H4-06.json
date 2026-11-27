@@ -1,0 +1,132 @@
+{
+  "weights": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      12.0,
+      8.0,
+      4.0,
+      2.0,
+      7.0,
+      2.0,
+      12.0,
+      8.0
+    ],
+    [
+      12.0,
+      8.0,
+      6.0,
+      4.0,
+      12.0,
+      6.0,
+      16.0,
+      10.0
+    ],
+    [
+      6.0,
+      5.0,
+      2.0,
+      1.0,
+      5.0,
+      2.0,
+      12.0,
+      6.0
+    ],
+    [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      4.0,
+      4.0,
+      8.0,
+      4.0
+    ],
+    [
+      8.0,
+      5.75,
+      3.5,
+      2.25,
+      7.0,
+      3.5,
+      12.0,
+      7.0
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "sequence-train-9161106-H4-06",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "reward": 1,
+      "steps": 443,
+      "refuels": 7,
+      "repairs": 5,
+      "actions_sha256": "a2144d2f6f12df8a5089ab22c55498b007a6c07e5d0a24942d1e7247e24fd877"
+    },
+    {
+      "map": "sequence-train-9161106-H4-06",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "EMPTY",
+      "reward": 0,
+      "steps": 381,
+      "refuels": 6,
+      "repairs": 4,
+      "actions_sha256": "b4e04710ec84068378400f24349d6821d5870cc35e906b40fdb388b062e04bfb"
+    },
+    {
+      "map": "sequence-train-9161106-H4-06",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "exact_cycle",
+      "reward": 0,
+      "steps": 526,
+      "refuels": 8,
+      "repairs": 6,
+      "actions_sha256": "83a9a70d08b1d70417126e1bb7851e0b19cfdb4369e1198c632fb5c54af94058"
+    },
+    {
+      "map": "sequence-train-9161106-H4-06",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "EMPTY",
+      "reward": 0,
+      "steps": 765,
+      "refuels": 10,
+      "repairs": 8,
+      "actions_sha256": "b72420da6617ee43bd11d820560419c0ae7877562f389faf50a84091c8a75afa"
+    },
+    {
+      "map": "sequence-train-9161106-H4-06",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "EMPTY",
+      "reward": 0,
+      "steps": 381,
+      "refuels": 6,
+      "repairs": 4,
+      "actions_sha256": "b4e04710ec84068378400f24349d6821d5870cc35e906b40fdb388b062e04bfb"
+    },
+    {
+      "map": "sequence-train-9161106-H4-06",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "exact_cycle",
+      "reward": 0,
+      "steps": 576,
+      "refuels": 9,
+      "repairs": 7,
+      "actions_sha256": "d2a7997c21e14e538a06560c8be0f9b0a92ecdfb3b7f599725a1582b3e5b7fa2"
+    }
+  ]
+}

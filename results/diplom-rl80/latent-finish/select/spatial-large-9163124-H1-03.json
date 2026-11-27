@@ -1,0 +1,97 @@
+{
+  "options": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      6.0,
+      3.0,
+      2.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      2.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0
+    ],
+    [
+      8.0,
+      2.0,
+      8.0,
+      0.0,
+      1.0,
+      2.0,
+      1.0
+    ],
+    [
+      2.6666666666666665,
+      3.3333333333333335,
+      5.333333333333333,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      1.3333333333333333
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "spatial-large-9163124-H1-03",
+      "tier": "H1",
+      "head": 0,
+      "gate": true,
+      "steps": 1001,
+      "outcome": "SUCCESS",
+      "actions_sha256": "9c9bd47ac4e75c7307c7d07a58baee00b9fda7dea4028c375b2a2a7985b0ea63"
+    },
+    {
+      "map": "spatial-large-9163124-H1-03",
+      "tier": "H1",
+      "head": 1,
+      "gate": true,
+      "steps": 1123,
+      "outcome": "exact_cycle",
+      "actions_sha256": "9198185bbd6a15033c41632dcca5ef3554440543917670aa164cac981967be36"
+    },
+    {
+      "map": "spatial-large-9163124-H1-03",
+      "tier": "H1",
+      "head": 2,
+      "gate": true,
+      "steps": 1128,
+      "outcome": "exact_cycle",
+      "actions_sha256": "287844f953e9c000995aa924b2a0bbc5171d6946a455693366be59ed839ab450"
+    },
+    {
+      "map": "spatial-large-9163124-H1-03",
+      "tier": "H1",
+      "head": 3,
+      "gate": true,
+      "steps": 1123,
+      "outcome": "exact_cycle",
+      "actions_sha256": "b9d2d0134b8e2e153d7deeceaa36c06ba5581034d8fb064374b4f3ebf34a25d5"
+    },
+    {
+      "map": "spatial-large-9163124-H1-03",
+      "tier": "H1",
+      "head": 4,
+      "gate": true,
+      "steps": 1123,
+      "outcome": "exact_cycle",
+      "actions_sha256": "7811b9f2833910c227d80c9f4d76989a8a8c40a68141eab29e561c42806c5fc0"
+    }
+  ],
+  "protocol_sha256": "c891eb89ae2abe1fbacfe4df8847a15ad5bf7f2ff1bebbe8ece15f62dc95c978"
+}

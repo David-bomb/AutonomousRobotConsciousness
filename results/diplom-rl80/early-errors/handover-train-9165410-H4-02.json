@@ -1,0 +1,63 @@
+{
+  "map": "handover-train-9165410-H4-02",
+  "tier": "H4",
+  "gate": true,
+  "steps": 31,
+  "outcome": "RUNNING",
+  "actions_sha256": "488ffeb2ddfc169f8c6b0bdcc19d6c0187f1ae2795eaa5b9f71638733337fbb4",
+  "reason": "matched-viable",
+  "fork": {
+    "step": 0,
+    "stock": [
+      31,
+      11
+    ],
+    "readings": [
+      11,
+      10
+    ],
+    "previous": [
+      null,
+      null
+    ],
+    "urgent": "R",
+    "known_windows": [
+      1,
+      1
+    ],
+    "legal": [
+      0,
+      2
+    ],
+    "viable": [
+      2
+    ],
+    "down": [
+      2
+    ],
+    "chosen": 2,
+    "teacher": 0,
+    "votes": 0,
+    "possible": [
+      0,
+      2
+    ],
+    "certain": [],
+    "numeric_votes": [
+      0.0015501724188428155,
+      0.0,
+      0.0002820765528931321,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "shield": 2,
+    "late": 0,
+    "statuses": {
+      "NORTH": "witness",
+      "SOUTH": "witness"
+    }
+  }
+}

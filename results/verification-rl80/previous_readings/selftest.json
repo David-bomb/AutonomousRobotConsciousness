@@ -1,0 +1,74 @@
+{
+  "pairs": [
+    {
+      "previous": [
+        3,
+        3
+      ],
+      "current": [
+        3,
+        3
+      ],
+      "move": "EAST",
+      "outcome": "SUCCESS"
+    },
+    {
+      "previous": [
+        4,
+        3
+      ],
+      "current": [
+        3,
+        3
+      ],
+      "move": "NORTH",
+      "outcome": "EMPTY"
+    },
+    {
+      "previous": [
+        3,
+        4
+      ],
+      "current": [
+        3,
+        3
+      ],
+      "move": "SOUTH",
+      "outcome": "EMPTY"
+    },
+    {
+      "previous": [
+        4,
+        4
+      ],
+      "current": [
+        3,
+        3
+      ],
+      "move": "WEST",
+      "outcome": "EMPTY"
+    }
+  ],
+  "identical_complete_observation": true,
+  "cycle": {
+    "steps": 144,
+    "decisions": 144,
+    "outcome": "LIMIT",
+    "distinct_observations": 4,
+    "most_visits": 71
+  },
+  "collision": {
+    "steps": 4,
+    "inputs_after_collision": [
+      0,
+      null,
+      0,
+      null
+    ],
+    "outcome": "SUCCESS"
+  },
+  "explicit_reset": true,
+  "worker_processes": 6,
+  "explicit_reset_steps": 3,
+  "total_physical_steps": 159
+}

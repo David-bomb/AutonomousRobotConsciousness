@@ -1,0 +1,52 @@
+{
+  "split": "sequence/train",
+  "id": "sequence-train-9161107-H2-03",
+  "geometry": "95c2d0d7aa661fb1e5cf4233a242f7dcceb09b6b98f6f75d3f3ddd1493efcf48",
+  "scenario_sha256": "c16e1835967763c00b9025e104f985465e92c1be9b32c9e4f56d25e2f6a58372",
+  "outcome": "BROKEN",
+  "steps": 38,
+  "refuels": 1,
+  "repairs": 0,
+  "actions_sha256": "6d272ae77433b38c13ca3bfb5ead60869ed490256d1f4e43d833d88259e5d11e",
+  "mode": "full",
+  "index": 727,
+  "tier": "H2",
+  "family": "branching",
+  "initial": [
+    28,
+    38
+  ],
+  "limit": 5800,
+  "actions": "13322223331132222201122221133001133003",
+  "first_loss": {
+    "step": 14,
+    "action": "SOUTH",
+    "before": [
+      [
+        23,
+        15
+      ],
+      15,
+      25,
+      0,
+      0
+    ],
+    "after": [
+      [
+        23,
+        16
+      ],
+      14,
+      24,
+      0,
+      0
+    ],
+    "phase": "start",
+    "remaining_after": 5786,
+    "alternatives": [
+      "WEST"
+    ]
+  },
+  "elapsed_seconds": 6.3097372000002,
+  "diagnosis_seconds": 0.011011699999471602
+}

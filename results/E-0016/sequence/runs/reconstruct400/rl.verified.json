@@ -1,0 +1,68 @@
+{
+  "weights_sha256": "eb5f1162335fed9f90f6fed4f1dd5b456058ba72ee57720d451b9ac3b6e6e44f",
+  "adapter": "sequence/spatial/reconstruct/adapter.py",
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "full_episodes": 100,
+  "reordered_training_snapshots": 72,
+  "isolated": {
+    "split": "validation-1",
+    "id": "dev-9160200-H1-01",
+    "geometry": "448ba1667e531b89c4a704259098985ca88648f6888b09a25ee1f64d41f609eb",
+    "scenario_sha256": "f25a95a094bdf1728697a0443a9c853b05ca87fcfeaf5ca6de36ff683f31ba65",
+    "outcome": "EMPTY",
+    "steps": 29,
+    "refuels": 0,
+    "repairs": 1,
+    "actions_sha256": "a98e74bbee5f1433a82b357c4903220af636acf2ba3af2a00c106833323b8016"
+  },
+  "worker_sha256": "9e3750dd8232ece6a01e9a55babe7835717845c0ee97a7d27acb372d07fd4b0a",
+  "summary": {
+    "wins": 45,
+    "by_tier": {
+      "H1": 19,
+      "H2": 11,
+      "H3": 9,
+      "H4": 6
+    },
+    "outcomes": {
+      "EMPTY": 24,
+      "SUCCESS": 45,
+      "BROKEN": 31
+    },
+    "fuel": 65,
+    "repair": 58,
+    "either": 74,
+    "both": 49
+  },
+  "sources": {
+    "policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "rich_policy.py": "41bebfb12845274ee6300495df4b50772cbc43ae0f938449f454d615671cbe46",
+    "critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "dev.py": "f908f4c7329270a31dc7fb028bad730109efd70300a92d7a4e319d05cf8f8c8b",
+    "sequence/model.py": "909793dc8e1855d0a62923505d7284687fb1f2deed84ebf00005af3a2121876d",
+    "sequence/geometry.cpp": "11d17aa98f626590e8270ef582dc8abb68790b17910f146319fd565aeea1197e",
+    "sequence/sequence.dll": "02c34dd6d02d1a9f5a6b9d815534aa7af740dcd23220770d8e75f68481130eff",
+    "sequence/spatial/reconstruct/adapter.py": "5260c71b6d6fc08a6fef1bf29771d7040a1733902334375248ad4b01a0c2ca7d",
+    "sequence/belief/joint_model.py": "cb0d08cbf37b9b98e555b1e04569b8afd44624b2c840119fd5e9bb57809a6446",
+    "sequence/belief/safety_net.py": "4db390c0d9dca54937f30005459128a236ecb018de3af1028c931c721e56a36f",
+    "sequence/belief/features.py": "9b4994e8f72d0d248c99126d567a54d6dd024070520e0d7134e10becd1cf4f94",
+    "sequence/belief/walks.cpp": "bcaeb211c53d8b0e70ad0a5c343cd835dbd4ec6a3000e7a06d53fb2a55d5a0e4",
+    "sequence/belief/walks.dll": "21d1d6b49aecd8f5d122999276d3efbba86875970ef242189cf93d609ea6713d",
+    "sequence/belief/itineraries.py": "cbb06793c7d39d41a5c8ed91e85f77e1f2b05206aa8faf8be3c99375aa34d0a4",
+    "sequence/belief/itineraries.cpp": "d9b19658ff7e2d5ce33d94757781b965e80578eff1d8ba5bdd65f2933c011d98",
+    "sequence/belief/itineraries.dll": "7711a2b36d3691307c8f739d1de7c10471377e7a9a79122dd2cecef472f1050c",
+    "sequence/alt_model.py": "babd5088de57c2c2b9d42c45e6b7cb4a6e548aa48183207b53f82cd32f020757",
+    "sequence/alternatives.cpp": "be1f60856fbf655e213c6662060edbc08113a5da04ab3f359a4afcaf90108d16",
+    "sequence/alternatives.dll": "1b17565bf1637c3bfcb8eee42d3dc4b8550dd6b6d3ff5174ee3c35679b07c3b2",
+    "sequence/spatial/reconstruct/model.py": "0d38971e558fa87e86b69bdbbefdb562283896ffcf484875d70b93a82913c128",
+    "sequence/spatial/reconstruct/features.py": "283cfb1fc5ec6603463d27e6bb8bab9cf37fd8b8f82011924c84249d0bdd6be6",
+    "sequence/spatial/local_model.py": "9b1dac60f6f2f1a64fa99fc39330d2ca7527decd1c9c0dc4daaf4b2ed89182b8",
+    "sequence/spatial/model.py": "21e6e1e4f7c3ef75ad2353373d5fc7e40338319e2dac9fa0a8417efedcf1715c",
+    "sequence/spatial/region.cpp": "2c3ed1883fc726492e9497c5582a20a573ee102ed6494efce858072b94610d61",
+    "sequence/spatial/region.dll": "683e43b28f68d4d21a3df79dc216c62d575a7dbddb6bb8e83aa64f3f009f1211",
+    "prev-two/adapter.py": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772",
+    "prev-two/early_policy.py": "080699067ee419965439a62d4063fc5b348746677b3d1a6a158a69e10a02f4d6"
+  }
+}

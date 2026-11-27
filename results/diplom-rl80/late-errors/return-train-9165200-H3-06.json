@@ -1,0 +1,45 @@
+{
+  "map": "return-train-9165200-H3-06",
+  "tier": "H3",
+  "family": "loops",
+  "win": false,
+  "gate": 35,
+  "steps": 1553,
+  "outcome": "BROKEN",
+  "reason": "first-loss",
+  "step": 1522,
+  "fork": {
+    "chosen": 3,
+    "viable": [
+      1
+    ],
+    "known_goal": 0,
+    "safe_window": 0,
+    "risk_window": 8,
+    "fuel": 54,
+    "hp": 31,
+    "readings": [
+      38,
+      33
+    ],
+    "prior": [
+      37,
+      34
+    ],
+    "exit_chebyshev": 7,
+    "known_cells": 605,
+    "alternatives": [
+      3
+    ],
+    "late_scores": [
+      -1000000000000.0,
+      0.1395700853317976,
+      -1000000000000.0,
+      17.00391173362732,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0
+    ]
+  }
+}

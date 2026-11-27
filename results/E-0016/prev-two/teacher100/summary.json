@@ -1,0 +1,143 @@
+{
+  "plan": "9e6f671afa95dd5cc58532a48699d3464d3058a3f519568c019bca279ef2307c",
+  "bank": "da9f168ef715811273125a951986ab23719e078088e0c96cec816bcfbafa6f3e",
+  "demonstrations": "ee092fdf10895d64ef96a8f153ae0dac02a5ccf40da06be21602757f0ac240a4",
+  "receipt": "ae98ae980d6ec859f72c6f401442e10b80abd5bb024f099710766ebfd6870a85",
+  "summaries": {
+    "wave1": {
+      "n": 100,
+      "wins": 70,
+      "tiers": [
+        24,
+        22,
+        17,
+        7
+      ],
+      "reached": 77,
+      "reached_tiers": [
+        24,
+        24,
+        19,
+        10
+      ],
+      "early_success": 77,
+      "edits": null,
+      "both": 77,
+      "failed_before": 23,
+      "failed_after": 7
+    },
+    "teacher": {
+      "n": 100,
+      "wins": 73,
+      "tiers": [
+        23,
+        23,
+        17,
+        10
+      ],
+      "reached": 80,
+      "reached_tiers": [
+        23,
+        25,
+        19,
+        13
+      ],
+      "early_success": 80,
+      "edits": null,
+      "both": 80,
+      "failed_before": 20,
+      "failed_after": 7
+    },
+    "conservative": {
+      "n": 100,
+      "wins": 72,
+      "tiers": [
+        24,
+        22,
+        16,
+        10
+      ],
+      "reached": 78,
+      "reached_tiers": [
+        24,
+        24,
+        18,
+        12
+      ],
+      "early_success": 78,
+      "edits": null,
+      "both": 78,
+      "failed_before": 22,
+      "failed_after": 6
+    },
+    "geodesic": {
+      "n": 100,
+      "wins": 74,
+      "tiers": [
+        24,
+        22,
+        20,
+        8
+      ],
+      "reached": 81,
+      "reached_tiers": [
+        24,
+        24,
+        22,
+        11
+      ],
+      "early_success": 81,
+      "edits": null,
+      "both": 81,
+      "failed_before": 19,
+      "failed_after": 7
+    }
+  },
+  "pairs": {
+    "conservative": {
+      "versus_wave1": {
+        "gains": 3,
+        "losses": 1,
+        "difference_pp": 2,
+        "paired_stratified_95_pp": [
+          -2.0,
+          6.0
+        ],
+        "descriptive_exact_p": 0.625
+      },
+      "versus_teacher": {
+        "gains": 4,
+        "losses": 5,
+        "difference_pp": -1,
+        "paired_stratified_95_pp": [
+          -7.0,
+          5.0
+        ],
+        "descriptive_exact_p": 1
+      }
+    },
+    "geodesic": {
+      "versus_wave1": {
+        "gains": 6,
+        "losses": 2,
+        "difference_pp": 4,
+        "paired_stratified_95_pp": [
+          -1.0,
+          9.0
+        ],
+        "descriptive_exact_p": 0.2890625
+      },
+      "versus_teacher": {
+        "gains": 6,
+        "losses": 5,
+        "difference_pp": 1,
+        "paired_stratified_95_pp": [
+          -5.0,
+          7.0
+        ],
+        "descriptive_exact_p": 1
+      }
+    }
+  },
+  "training_overlap": 0
+}

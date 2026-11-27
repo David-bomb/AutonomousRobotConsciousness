@@ -1,0 +1,14 @@
+{
+  "study": "diplom-rl80",
+  "decision_utc": "2026-11-27T14:23Z",
+  "candidate": "Diplom/results/E-0016/prev-two/conservative/frozen.pt",
+  "sha256": "f9bd509a7d4778f4d0e33cd1ad3924f8eb8a0923086c8448b42ac7ebddee35bf",
+  "adapter": "frozen B via results.E-0016.prev-two.cautious_policy.load, threshold 0.9",
+  "selection_sha256": "632a75895e3cf630c9b650a9066618c3f420426e1fe86000a46970480cecf8c9",
+  "selection": "B won the prospectively registered four-way 800-episode comparison with 70/100 and 68/100, lower bank 68 and 25 H4 finishes in sum. The other lower-bank counts were 66,65,66.",
+  "primary": "One ordinary physical attempt per original I/II/III map, one fixed policy for all 300 episodes. Pass if each individual hundred has at least 80 SUCCESS.",
+  "inference": "Standard Observation, previous two actual service readings initially empty, and frozen inference. No map, teacher, RNG seed, level identity, or privileged resources enter the model.",
+  "blinding": "Return only the three historical aggregate counts, weight/source hashes, and protocol checks. Keep control trajectories with the independent assessor.",
+  "confirmation": "Keep the 200 separate confirmation maps sealed until threshold is reached.",
+  "verifier_thread": "01a21c3d-e220-7dc2-9682-891e18fc90a0"
+}

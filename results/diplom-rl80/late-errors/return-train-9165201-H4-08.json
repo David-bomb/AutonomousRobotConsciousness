@@ -1,0 +1,45 @@
+{
+  "map": "return-train-9165201-H4-08",
+  "tier": "H4",
+  "family": "rooms",
+  "win": false,
+  "gate": 17,
+  "steps": 763,
+  "outcome": "EMPTY",
+  "reason": "first-loss",
+  "step": 739,
+  "fork": {
+    "chosen": 3,
+    "viable": [
+      1
+    ],
+    "known_goal": 0,
+    "safe_window": 0,
+    "risk_window": 8,
+    "fuel": 24,
+    "hp": 32,
+    "readings": [
+      46,
+      53
+    ],
+    "prior": [
+      45,
+      52
+    ],
+    "exit_chebyshev": 5,
+    "known_cells": 378,
+    "alternatives": [
+      3
+    ],
+    "late_scores": [
+      -1000000000000.0,
+      6.415323734283447,
+      -1000000000000.0,
+      12.162379760760814,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0,
+      -1000000000000.0
+    ]
+  }
+}

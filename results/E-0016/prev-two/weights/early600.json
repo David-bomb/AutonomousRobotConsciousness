@@ -1,0 +1,58 @@
+{
+  "tag": "early600",
+  "sha256": "437468e0c2cf92733588aed84c3f1736a57e0a60b9b5277b96a084bec43a0cdd",
+  "base_sha256": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "utc": "2026-11-27T11:30:49.233020+00:00",
+  "adapter_sha256": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772",
+  "registration": "235a857c002708cce053838262827891d6b9733c8cf40e91852fd3e0bdd3354d",
+  "training": {
+    "parent": "wave1",
+    "steps": 600,
+    "total": 1900,
+    "pools": [
+      1449,
+      71,
+      63,
+      134,
+      1434
+    ],
+    "samples": {
+      "fit1": "ac97a6a610b69a0e7942f4d0bb9a6c10992ffaa0a48b497001413fcf88dac45a"
+    },
+    "objective": "all legal real sensor signs, viability, cold train teacher",
+    "logs": [
+      [
+        0.37177,
+        0.19677,
+        0.46918
+      ],
+      [
+        0.31754,
+        0.1623,
+        0.31666
+      ],
+      [
+        0.41313,
+        0.15843,
+        0.26655
+      ],
+      [
+        0.33301,
+        0.1354,
+        0.31076
+      ],
+      [
+        0.31669,
+        0.14955,
+        0.30067
+      ],
+      [
+        0.38331,
+        0.12592,
+        0.28277
+      ]
+    ]
+  },
+  "route_adapter_sha256": null,
+  "patch_adapter_sha256": null
+}

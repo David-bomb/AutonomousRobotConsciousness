@@ -1,0 +1,5087 @@
+{
+  "seeds": [
+    39139,
+    71809,
+    92221,
+    130031,
+    175003
+  ],
+  "per_seed": {
+    "39139": {
+      "R0C0": {
+        "n": 240,
+        "finishes": 12,
+        "visited_fuel": 96,
+        "visited_repair": 66,
+        "visited_both": 57,
+        "outcomes": {
+          "SUCCESS": 12,
+          "EMPTY": 132,
+          "BROKEN": 80,
+          "LIMIT": 16
+        },
+        "mean_return_R0": -0.873443368827931,
+        "mean_return_R1": -4.415148391368176
+      },
+      "R1C0": {
+        "n": 240,
+        "finishes": 0,
+        "visited_fuel": 39,
+        "visited_repair": 27,
+        "visited_both": 20,
+        "outcomes": {
+          "EMPTY": 144,
+          "BROKEN": 88,
+          "LIMIT": 8
+        },
+        "mean_return_R0": -3.969924173630851,
+        "mean_return_R1": -5.358685718909586
+      },
+      "R0C1": {
+        "n": 240,
+        "finishes": 0,
+        "visited_fuel": 80,
+        "visited_repair": 49,
+        "visited_both": 41,
+        "outcomes": {
+          "EMPTY": 135,
+          "BROKEN": 91,
+          "LIMIT": 14
+        },
+        "mean_return_R0": -2.319574009389185,
+        "mean_return_R1": -5.07963914472029
+      },
+      "R1C1": {
+        "n": 240,
+        "finishes": 1,
+        "visited_fuel": 42,
+        "visited_repair": 21,
+        "visited_both": 14,
+        "outcomes": {
+          "EMPTY": 139,
+          "BROKEN": 95,
+          "LIMIT": 5,
+          "SUCCESS": 1
+        },
+        "mean_return_R0": -4.393022592909208,
+        "mean_return_R1": -5.370783340782121
+      }
+    },
+    "71809": {
+      "R0C0": {
+        "n": 240,
+        "finishes": 6,
+        "visited_fuel": 79,
+        "visited_repair": 57,
+        "visited_both": 46,
+        "outcomes": {
+          "LIMIT": 14,
+          "EMPTY": 141,
+          "BROKEN": 79,
+          "SUCCESS": 6
+        },
+        "mean_return_R0": -1.5815754181695418,
+        "mean_return_R1": -4.833170263851141
+      },
+      "R1C0": {
+        "n": 240,
+        "finishes": 1,
+        "visited_fuel": 28,
+        "visited_repair": 8,
+        "visited_both": 6,
+        "outcomes": {
+          "BROKEN": 96,
+          "EMPTY": 142,
+          "LIMIT": 1,
+          "SUCCESS": 1
+        },
+        "mean_return_R0": -4.9798603981376655,
+        "mean_return_R1": -5.47779810096839
+      },
+      "R0C1": {
+        "n": 240,
+        "finishes": 4,
+        "visited_fuel": 83,
+        "visited_repair": 52,
+        "visited_both": 43,
+        "outcomes": {
+          "LIMIT": 12,
+          "EMPTY": 134,
+          "BROKEN": 90,
+          "SUCCESS": 4
+        },
+        "mean_return_R0": -1.8043856038303356,
+        "mean_return_R1": -4.862470264684527
+      },
+      "R1C1": {
+        "n": 240,
+        "finishes": 2,
+        "visited_fuel": 39,
+        "visited_repair": 28,
+        "visited_both": 25,
+        "outcomes": {
+          "EMPTY": 148,
+          "BROKEN": 88,
+          "LIMIT": 2,
+          "SUCCESS": 2
+        },
+        "mean_return_R0": -4.463181367872056,
+        "mean_return_R1": -5.228527968656129
+      }
+    },
+    "92221": {
+      "R0C0": {
+        "n": 240,
+        "finishes": 18,
+        "visited_fuel": 89,
+        "visited_repair": 71,
+        "visited_both": 60,
+        "outcomes": {
+          "SUCCESS": 18,
+          "EMPTY": 126,
+          "BROKEN": 76,
+          "LIMIT": 20
+        },
+        "mean_return_R0": -0.7509036334266536,
+        "mean_return_R1": -4.390159019358836
+      },
+      "R1C0": {
+        "n": 240,
+        "finishes": 1,
+        "visited_fuel": 41,
+        "visited_repair": 16,
+        "visited_both": 12,
+        "outcomes": {
+          "BROKEN": 94,
+          "EMPTY": 137,
+          "LIMIT": 8,
+          "SUCCESS": 1
+        },
+        "mean_return_R0": -4.340867924229696,
+        "mean_return_R1": -5.397676723417452
+      },
+      "R0C1": {
+        "n": 240,
+        "finishes": 10,
+        "visited_fuel": 93,
+        "visited_repair": 64,
+        "visited_both": 55,
+        "outcomes": {
+          "EMPTY": 121,
+          "SUCCESS": 10,
+          "BROKEN": 87,
+          "LIMIT": 22
+        },
+        "mean_return_R0": -1.3053907390726223,
+        "mean_return_R1": -4.609599674223157
+      },
+      "R1C1": {
+        "n": 240,
+        "finishes": 5,
+        "visited_fuel": 52,
+        "visited_repair": 25,
+        "visited_both": 19,
+        "outcomes": {
+          "EMPTY": 132,
+          "BROKEN": 95,
+          "LIMIT": 8,
+          "SUCCESS": 5
+        },
+        "mean_return_R0": -3.379479246327737,
+        "mean_return_R1": -5.105440813882634
+      }
+    },
+    "130031": {
+      "R0C0": {
+        "n": 240,
+        "finishes": 6,
+        "visited_fuel": 90,
+        "visited_repair": 51,
+        "visited_both": 44,
+        "outcomes": {
+          "BROKEN": 98,
+          "EMPTY": 128,
+          "SUCCESS": 6,
+          "LIMIT": 8
+        },
+        "mean_return_R0": -1.603916493461673,
+        "mean_return_R1": -4.8513814308379155
+      },
+      "R1C0": {
+        "n": 240,
+        "finishes": 0,
+        "visited_fuel": 34,
+        "visited_repair": 18,
+        "visited_both": 14,
+        "outcomes": {
+          "EMPTY": 145,
+          "BROKEN": 93,
+          "LIMIT": 2
+        },
+        "mean_return_R0": -4.416528472812931,
+        "mean_return_R1": -5.395454597047704
+      },
+      "R0C1": {
+        "n": 240,
+        "finishes": 3,
+        "visited_fuel": 89,
+        "visited_repair": 56,
+        "visited_both": 48,
+        "outcomes": {
+          "SUCCESS": 3,
+          "BROKEN": 95,
+          "EMPTY": 129,
+          "LIMIT": 13
+        },
+        "mean_return_R0": -1.6159408714916093,
+        "mean_return_R1": -4.920033720463305
+      },
+      "R1C1": {
+        "n": 240,
+        "finishes": 0,
+        "visited_fuel": 30,
+        "visited_repair": 18,
+        "visited_both": 13,
+        "outcomes": {
+          "BROKEN": 88,
+          "EMPTY": 145,
+          "LIMIT": 7
+        },
+        "mean_return_R0": -4.698393871942477,
+        "mean_return_R1": -5.387993903763369
+      }
+    },
+    "175003": {
+      "R0C0": {
+        "n": 240,
+        "finishes": 17,
+        "visited_fuel": 93,
+        "visited_repair": 73,
+        "visited_both": 63,
+        "outcomes": {
+          "SUCCESS": 17,
+          "LIMIT": 17,
+          "BROKEN": 80,
+          "EMPTY": 126
+        },
+        "mean_return_R0": -0.3652913596472782,
+        "mean_return_R1": -4.393636211851552
+      },
+      "R1C0": {
+        "n": 240,
+        "finishes": 9,
+        "visited_fuel": 64,
+        "visited_repair": 35,
+        "visited_both": 30,
+        "outcomes": {
+          "SUCCESS": 9,
+          "LIMIT": 8,
+          "EMPTY": 133,
+          "BROKEN": 90
+        },
+        "mean_return_R0": -2.434414090471785,
+        "mean_return_R1": -5.055968351400111
+      },
+      "R0C1": {
+        "n": 240,
+        "finishes": 8,
+        "visited_fuel": 93,
+        "visited_repair": 62,
+        "visited_both": 54,
+        "outcomes": {
+          "SUCCESS": 8,
+          "EMPTY": 124,
+          "BROKEN": 92,
+          "LIMIT": 16
+        },
+        "mean_return_R0": -1.4263433926279232,
+        "mean_return_R1": -4.652867398030096
+      },
+      "R1C1": {
+        "n": 240,
+        "finishes": 6,
+        "visited_fuel": 49,
+        "visited_repair": 27,
+        "visited_both": 19,
+        "outcomes": {
+          "BROKEN": 93,
+          "EMPTY": 139,
+          "SUCCESS": 6,
+          "LIMIT": 2
+        },
+        "mean_return_R0": -3.615848927869601,
+        "mean_return_R1": -5.167691241953941
+      }
+    }
+  },
+  "pooled": {
+    "R0C0": {
+      "all": {
+        "n": 1200,
+        "finishes": 59,
+        "visited_fuel": 447,
+        "visited_repair": 318,
+        "visited_both": 270,
+        "outcomes": {
+          "SUCCESS": 59,
+          "EMPTY": 653,
+          "BROKEN": 413,
+          "LIMIT": 75
+        },
+        "mean_return_R0": -1.0350260547066155,
+        "mean_return_R1": -4.576699063453525
+      },
+      "by_stage": {
+        "1": {
+          "n": 480,
+          "finishes": 48,
+          "visited_fuel": 263,
+          "visited_repair": 189,
+          "visited_both": 176,
+          "outcomes": {
+            "SUCCESS": 48,
+            "EMPTY": 226,
+            "BROKEN": 143,
+            "LIMIT": 63
+          },
+          "mean_return_R0": -1.7053160423256588,
+          "mean_return_R1": -4.471762610357255
+        },
+        "2": {
+          "n": 240,
+          "finishes": 6,
+          "visited_fuel": 80,
+          "visited_repair": 52,
+          "visited_both": 44,
+          "outcomes": {
+            "BROKEN": 92,
+            "EMPTY": 134,
+            "LIMIT": 8,
+            "SUCCESS": 6
+          },
+          "mean_return_R0": -1.5225040361556335,
+          "mean_return_R1": -4.8780582094815506
+        },
+        "3": {
+          "n": 480,
+          "finishes": 5,
+          "visited_fuel": 104,
+          "visited_repair": 77,
+          "visited_both": 50,
+          "outcomes": {
+            "BROKEN": 178,
+            "EMPTY": 293,
+            "LIMIT": 4,
+            "SUCCESS": 5
+          },
+          "mean_return_R0": -0.12099707636306349,
+          "mean_return_R1": -4.530955943535782
+        }
+      },
+      "by_deficit": {
+        "0": {
+          "n": 265,
+          "finishes": 26,
+          "visited_fuel": 115,
+          "visited_repair": 96,
+          "visited_both": 87,
+          "outcomes": {
+            "SUCCESS": 26,
+            "LIMIT": 19,
+            "BROKEN": 80,
+            "EMPTY": 140
+          },
+          "mean_return_R0": 0.3203484644301118,
+          "mean_return_R1": -3.826050759940285
+        },
+        "F": {
+          "n": 260,
+          "finishes": 9,
+          "visited_fuel": 108,
+          "visited_repair": 70,
+          "visited_both": 59,
+          "outcomes": {
+            "EMPTY": 177,
+            "LIMIT": 19,
+            "BROKEN": 55,
+            "SUCCESS": 9
+          },
+          "mean_return_R0": -1.619016503130376,
+          "mean_return_R1": -5.05366514181023
+        },
+        "FR": {
+          "n": 415,
+          "finishes": 9,
+          "visited_fuel": 101,
+          "visited_repair": 64,
+          "visited_both": 53,
+          "outcomes": {
+            "EMPTY": 289,
+            "BROKEN": 100,
+            "LIMIT": 17,
+            "SUCCESS": 9
+          },
+          "mean_return_R0": -1.7915962586973337,
+          "mean_return_R1": -4.674609956417296
+        },
+        "R": {
+          "n": 260,
+          "finishes": 15,
+          "visited_fuel": 123,
+          "visited_repair": 88,
+          "visited_both": 71,
+          "outcomes": {
+            "BROKEN": 178,
+            "EMPTY": 47,
+            "LIMIT": 20,
+            "SUCCESS": 15
+          },
+          "mean_return_R0": -0.6248725790331806,
+          "mean_return_R1": -4.708535984523911
+        }
+      },
+      "by_stage_and_deficit": {
+        "1/0": {
+          "n": 120,
+          "finishes": 23,
+          "visited_fuel": 76,
+          "visited_repair": 64,
+          "visited_both": 63,
+          "outcomes": {
+            "SUCCESS": 23,
+            "LIMIT": 17,
+            "BROKEN": 19,
+            "EMPTY": 61
+          },
+          "mean_return_R0": -0.17724856094944622,
+          "mean_return_R1": -3.3320879928001577
+        },
+        "1/F": {
+          "n": 120,
+          "finishes": 5,
+          "visited_fuel": 48,
+          "visited_repair": 32,
+          "visited_both": 30,
+          "outcomes": {
+            "EMPTY": 82,
+            "LIMIT": 13,
+            "BROKEN": 20,
+            "SUCCESS": 5
+          },
+          "mean_return_R0": -3.440634181722721,
+          "mean_return_R1": -5.327506078850833
+        },
+        "1/FR": {
+          "n": 120,
+          "finishes": 6,
+          "visited_fuel": 61,
+          "visited_repair": 39,
+          "visited_both": 35,
+          "outcomes": {
+            "EMPTY": 66,
+            "BROKEN": 32,
+            "LIMIT": 16,
+            "SUCCESS": 6
+          },
+          "mean_return_R0": -2.1808153034107307,
+          "mean_return_R1": -4.851819853658584
+        },
+        "1/R": {
+          "n": 120,
+          "finishes": 14,
+          "visited_fuel": 78,
+          "visited_repair": 54,
+          "visited_both": 48,
+          "outcomes": {
+            "BROKEN": 72,
+            "EMPTY": 17,
+            "LIMIT": 17,
+            "SUCCESS": 14
+          },
+          "mean_return_R0": -1.0225661232197372,
+          "mean_return_R1": -4.375636516119447
+        },
+        "2/0": {
+          "n": 60,
+          "finishes": 2,
+          "visited_fuel": 23,
+          "visited_repair": 14,
+          "visited_both": 13,
+          "outcomes": {
+            "BROKEN": 28,
+            "EMPTY": 28,
+            "LIMIT": 2,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -0.5757037410807423,
+          "mean_return_R1": -4.345443871135822
+        },
+        "2/F": {
+          "n": 60,
+          "finishes": 2,
+          "visited_fuel": 24,
+          "visited_repair": 15,
+          "visited_both": 14,
+          "outcomes": {
+            "EMPTY": 45,
+            "BROKEN": 10,
+            "SUCCESS": 2,
+            "LIMIT": 3
+          },
+          "mean_return_R0": -0.8015713834040927,
+          "mean_return_R1": -4.9618686295440915
+        },
+        "2/FR": {
+          "n": 60,
+          "finishes": 1,
+          "visited_fuel": 14,
+          "visited_repair": 9,
+          "visited_both": 7,
+          "outcomes": {
+            "EMPTY": 50,
+            "BROKEN": 8,
+            "SUCCESS": 1,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -2.6535252686152044,
+          "mean_return_R1": -5.162477635532507
+        },
+        "2/R": {
+          "n": 60,
+          "finishes": 1,
+          "visited_fuel": 19,
+          "visited_repair": 14,
+          "visited_both": 10,
+          "outcomes": {
+            "BROKEN": 46,
+            "EMPTY": 11,
+            "LIMIT": 2,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -2.0592157515224936,
+          "mean_return_R1": -5.042442701713779
+        },
+        "3/0": {
+          "n": 85,
+          "finishes": 1,
+          "visited_fuel": 16,
+          "visited_repair": 18,
+          "visited_both": 11,
+          "outcomes": {
+            "BROKEN": 33,
+            "EMPTY": 51,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": 1.6553458217971495,
+          "mean_return_R1": -4.156779529176554
+        },
+        "3/F": {
+          "n": 80,
+          "finishes": 2,
+          "visited_fuel": 36,
+          "visited_repair": 23,
+          "visited_both": 15,
+          "outcomes": {
+            "BROKEN": 25,
+            "EMPTY": 50,
+            "LIMIT": 3,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": 0.5003261749634287,
+          "mean_return_R1": -4.711751120448927
+        },
+        "3/FR": {
+          "n": 235,
+          "finishes": 2,
+          "visited_fuel": 26,
+          "visited_repair": 16,
+          "visited_both": 11,
+          "outcomes": {
+            "EMPTY": 173,
+            "BROKEN": 60,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -1.37277912694976,
+          "mean_return_R1": -4.459557835498711
+        },
+        "3/R": {
+          "n": 80,
+          "finishes": 0,
+          "visited_fuel": 26,
+          "visited_repair": 20,
+          "visited_both": 13,
+          "outcomes": {
+            "EMPTY": 19,
+            "BROKEN": 60,
+            "LIMIT": 1
+          },
+          "mean_return_R0": 1.0474251166136392,
+          "mean_return_R1": -4.957455149238205
+        }
+      }
+    },
+    "R1C0": {
+      "all": {
+        "n": 1200,
+        "finishes": 11,
+        "visited_fuel": 206,
+        "visited_repair": 104,
+        "visited_both": 82,
+        "outcomes": {
+          "EMPTY": 701,
+          "BROKEN": 461,
+          "LIMIT": 27,
+          "SUCCESS": 11
+        },
+        "mean_return_R0": -4.028319011856585,
+        "mean_return_R1": -5.337116698348648
+      },
+      "by_stage": {
+        "1": {
+          "n": 480,
+          "finishes": 9,
+          "visited_fuel": 133,
+          "visited_repair": 63,
+          "visited_both": 55,
+          "outcomes": {
+            "EMPTY": 257,
+            "BROKEN": 191,
+            "LIMIT": 23,
+            "SUCCESS": 9
+          },
+          "mean_return_R0": -5.1171146744919564,
+          "mean_return_R1": -5.819711774906093
+        },
+        "2": {
+          "n": 240,
+          "finishes": 1,
+          "visited_fuel": 20,
+          "visited_repair": 16,
+          "visited_both": 13,
+          "outcomes": {
+            "BROKEN": 81,
+            "EMPTY": 155,
+            "LIMIT": 3,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -4.2909923939704475,
+          "mean_return_R1": -5.447817389109825
+        },
+        "3": {
+          "n": 480,
+          "finishes": 1,
+          "visited_fuel": 53,
+          "visited_repair": 25,
+          "visited_both": 14,
+          "outcomes": {
+            "BROKEN": 189,
+            "EMPTY": 289,
+            "LIMIT": 1,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -2.8081866581642827,
+          "mean_return_R1": -4.799171276410617
+        }
+      },
+      "by_deficit": {
+        "0": {
+          "n": 265,
+          "finishes": 3,
+          "visited_fuel": 53,
+          "visited_repair": 25,
+          "visited_both": 23,
+          "outcomes": {
+            "EMPTY": 135,
+            "BROKEN": 117,
+            "LIMIT": 10,
+            "SUCCESS": 3
+          },
+          "mean_return_R0": -3.0010775561780996,
+          "mean_return_R1": -4.936281712168911
+        },
+        "F": {
+          "n": 260,
+          "finishes": 3,
+          "visited_fuel": 48,
+          "visited_repair": 27,
+          "visited_both": 23,
+          "outcomes": {
+            "EMPTY": 224,
+            "LIMIT": 6,
+            "BROKEN": 27,
+            "SUCCESS": 3
+          },
+          "mean_return_R0": -4.735408305024035,
+          "mean_return_R1": -5.836315056258493
+        },
+        "FR": {
+          "n": 415,
+          "finishes": 1,
+          "visited_fuel": 46,
+          "visited_repair": 22,
+          "visited_both": 17,
+          "outcomes": {
+            "EMPTY": 326,
+            "BROKEN": 80,
+            "LIMIT": 8,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -4.238669708978406,
+          "mean_return_R1": -5.088112092527452
+        },
+        "R": {
+          "n": 260,
+          "finishes": 4,
+          "visited_fuel": 59,
+          "visited_repair": 30,
+          "visited_both": 19,
+          "outcomes": {
+            "BROKEN": 237,
+            "LIMIT": 3,
+            "EMPTY": 16,
+            "SUCCESS": 4
+          },
+          "mean_return_R0": -4.032473743493919,
+          "mean_return_R1": -5.643911351028907
+        }
+      },
+      "by_stage_and_deficit": {
+        "1/0": {
+          "n": 120,
+          "finishes": 3,
+          "visited_fuel": 34,
+          "visited_repair": 18,
+          "visited_both": 16,
+          "outcomes": {
+            "EMPTY": 62,
+            "BROKEN": 47,
+            "LIMIT": 8,
+            "SUCCESS": 3
+          },
+          "mean_return_R0": -3.9036927766635596,
+          "mean_return_R1": -5.383800368717176
+        },
+        "1/F": {
+          "n": 120,
+          "finishes": 1,
+          "visited_fuel": 26,
+          "visited_repair": 12,
+          "visited_both": 12,
+          "outcomes": {
+            "EMPTY": 99,
+            "LIMIT": 5,
+            "BROKEN": 15,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -5.405832581477982,
+          "mean_return_R1": -6.107860122691736
+        },
+        "1/FR": {
+          "n": 120,
+          "finishes": 1,
+          "visited_fuel": 31,
+          "visited_repair": 16,
+          "visited_both": 14,
+          "outcomes": {
+            "EMPTY": 90,
+            "BROKEN": 22,
+            "LIMIT": 7,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -5.720251843358329,
+          "mean_return_R1": -5.8055846252450625
+        },
+        "1/R": {
+          "n": 120,
+          "finishes": 4,
+          "visited_fuel": 42,
+          "visited_repair": 17,
+          "visited_both": 13,
+          "outcomes": {
+            "BROKEN": 107,
+            "LIMIT": 3,
+            "EMPTY": 6,
+            "SUCCESS": 4
+          },
+          "mean_return_R0": -5.438681496467955,
+          "mean_return_R1": -5.981601982970395
+        },
+        "2/0": {
+          "n": 60,
+          "finishes": 0,
+          "visited_fuel": 6,
+          "visited_repair": 3,
+          "visited_both": 3,
+          "outcomes": {
+            "BROKEN": 22,
+            "EMPTY": 36,
+            "LIMIT": 2
+          },
+          "mean_return_R0": -3.313465587655492,
+          "mean_return_R1": -4.827819954255383
+        },
+        "2/F": {
+          "n": 60,
+          "finishes": 1,
+          "visited_fuel": 9,
+          "visited_repair": 7,
+          "visited_both": 7,
+          "outcomes": {
+            "EMPTY": 55,
+            "BROKEN": 3,
+            "LIMIT": 1,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -4.391967462160574,
+          "mean_return_R1": -5.76496206138019
+        },
+        "2/FR": {
+          "n": 60,
+          "finishes": 0,
+          "visited_fuel": 1,
+          "visited_repair": 0,
+          "visited_both": 0,
+          "outcomes": {
+            "EMPTY": 59,
+            "BROKEN": 1
+          },
+          "mean_return_R0": -5.36768506356832,
+          "mean_return_R1": -5.70245864699144
+        },
+        "2/R": {
+          "n": 60,
+          "finishes": 0,
+          "visited_fuel": 4,
+          "visited_repair": 6,
+          "visited_both": 3,
+          "outcomes": {
+            "BROKEN": 55,
+            "EMPTY": 5
+          },
+          "mean_return_R0": -4.090851462497405,
+          "mean_return_R1": -5.4960288938122845
+        },
+        "3/0": {
+          "n": 85,
+          "finishes": 0,
+          "visited_fuel": 13,
+          "visited_repair": 4,
+          "visited_both": 4,
+          "outcomes": {
+            "BROKEN": 48,
+            "EMPTY": 37
+          },
+          "mean_return_R0": -1.5062880462145853,
+          "mean_return_R1": -4.3810519085103214
+        },
+        "3/F": {
+          "n": 80,
+          "finishes": 1,
+          "visited_fuel": 13,
+          "visited_repair": 8,
+          "visited_both": 4,
+          "outcomes": {
+            "EMPTY": 70,
+            "BROKEN": 9,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -3.987352522490707,
+          "mean_return_R1": -5.4825122027673565
+        },
+        "3/FR": {
+          "n": 235,
+          "finishes": 0,
+          "visited_fuel": 14,
+          "visited_repair": 6,
+          "visited_both": 3,
+          "outcomes": {
+            "EMPTY": 177,
+            "BROKEN": 57,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -3.1938578902508064,
+          "mean_return_R1": -4.564888700212761
+        },
+        "3/R": {
+          "n": 80,
+          "finishes": 0,
+          "visited_fuel": 13,
+          "visited_repair": 7,
+          "visited_both": 3,
+          "outcomes": {
+            "BROKEN": 75,
+            "EMPTY": 5
+          },
+          "mean_return_R0": -1.8793788247802525,
+          "mean_return_R1": -5.248287246029144
+        }
+      }
+    },
+    "R0C1": {
+      "all": {
+        "n": 1200,
+        "finishes": 25,
+        "visited_fuel": 438,
+        "visited_repair": 283,
+        "visited_both": 241,
+        "outcomes": {
+          "EMPTY": 643,
+          "BROKEN": 455,
+          "LIMIT": 77,
+          "SUCCESS": 25
+        },
+        "mean_return_R0": -1.6943269232823348,
+        "mean_return_R1": -4.8249220404242745
+      },
+      "by_stage": {
+        "1": {
+          "n": 480,
+          "finishes": 17,
+          "visited_fuel": 266,
+          "visited_repair": 180,
+          "visited_both": 158,
+          "outcomes": {
+            "EMPTY": 234,
+            "BROKEN": 167,
+            "LIMIT": 62,
+            "SUCCESS": 17
+          },
+          "mean_return_R0": -2.5210322155997305,
+          "mean_return_R1": -4.983728097046929
+        },
+        "2": {
+          "n": 240,
+          "finishes": 3,
+          "visited_fuel": 73,
+          "visited_repair": 53,
+          "visited_both": 46,
+          "outcomes": {
+            "BROKEN": 90,
+            "EMPTY": 140,
+            "LIMIT": 7,
+            "SUCCESS": 3
+          },
+          "mean_return_R0": -1.74104186593178,
+          "mean_return_R1": -5.010634557206637
+        },
+        "3": {
+          "n": 480,
+          "finishes": 5,
+          "visited_fuel": 99,
+          "visited_repair": 50,
+          "visited_both": 37,
+          "outcomes": {
+            "BROKEN": 198,
+            "EMPTY": 269,
+            "LIMIT": 8,
+            "SUCCESS": 5
+          },
+          "mean_return_R0": -0.8442641596402171,
+          "mean_return_R1": -4.573259725410441
+        }
+      },
+      "by_deficit": {
+        "0": {
+          "n": 265,
+          "finishes": 11,
+          "visited_fuel": 117,
+          "visited_repair": 92,
+          "visited_both": 86,
+          "outcomes": {
+            "EMPTY": 133,
+            "LIMIT": 24,
+            "BROKEN": 97,
+            "SUCCESS": 11
+          },
+          "mean_return_R0": -0.5616159325620893,
+          "mean_return_R1": -4.277357005939594
+        },
+        "F": {
+          "n": 260,
+          "finishes": 4,
+          "visited_fuel": 103,
+          "visited_repair": 64,
+          "visited_both": 53,
+          "outcomes": {
+            "BROKEN": 57,
+            "EMPTY": 181,
+            "LIMIT": 18,
+            "SUCCESS": 4
+          },
+          "mean_return_R0": -2.238252205749232,
+          "mean_return_R1": -5.257363769437998
+        },
+        "FR": {
+          "n": 415,
+          "finishes": 3,
+          "visited_fuel": 100,
+          "visited_repair": 55,
+          "visited_both": 47,
+          "outcomes": {
+            "EMPTY": 286,
+            "BROKEN": 110,
+            "LIMIT": 16,
+            "SUCCESS": 3
+          },
+          "mean_return_R0": -2.3123102495121524,
+          "mean_return_R1": -4.774238999081268
+        },
+        "R": {
+          "n": 260,
+          "finishes": 7,
+          "visited_fuel": 118,
+          "visited_repair": 72,
+          "visited_both": 55,
+          "outcomes": {
+            "LIMIT": 19,
+            "BROKEN": 191,
+            "EMPTY": 43,
+            "SUCCESS": 7
+          },
+          "mean_return_R0": -1.31849907218271,
+          "mean_return_R1": -5.031473374086662
+        }
+      },
+      "by_stage_and_deficit": {
+        "1/0": {
+          "n": 120,
+          "finishes": 5,
+          "visited_fuel": 74,
+          "visited_repair": 62,
+          "visited_both": 57,
+          "outcomes": {
+            "EMPTY": 65,
+            "LIMIT": 20,
+            "BROKEN": 30,
+            "SUCCESS": 5
+          },
+          "mean_return_R0": -1.754156453613941,
+          "mean_return_R1": -4.591088004128701
+        },
+        "1/F": {
+          "n": 120,
+          "finishes": 3,
+          "visited_fuel": 55,
+          "visited_repair": 35,
+          "visited_both": 32,
+          "outcomes": {
+            "BROKEN": 28,
+            "EMPTY": 77,
+            "LIMIT": 12,
+            "SUCCESS": 3
+          },
+          "mean_return_R0": -3.4530295479848596,
+          "mean_return_R1": -5.34146952004119
+        },
+        "1/FR": {
+          "n": 120,
+          "finishes": 2,
+          "visited_fuel": 59,
+          "visited_repair": 34,
+          "visited_both": 31,
+          "outcomes": {
+            "EMPTY": 69,
+            "BROKEN": 36,
+            "LIMIT": 13,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -3.163621881921052,
+          "mean_return_R1": -5.16084213672562
+        },
+        "1/R": {
+          "n": 120,
+          "finishes": 7,
+          "visited_fuel": 78,
+          "visited_repair": 49,
+          "visited_both": 38,
+          "outcomes": {
+            "LIMIT": 17,
+            "BROKEN": 73,
+            "EMPTY": 23,
+            "SUCCESS": 7
+          },
+          "mean_return_R0": -1.7133209788790684,
+          "mean_return_R1": -4.8415127272922005
+        },
+        "2/0": {
+          "n": 60,
+          "finishes": 2,
+          "visited_fuel": 26,
+          "visited_repair": 18,
+          "visited_both": 18,
+          "outcomes": {
+            "BROKEN": 27,
+            "EMPTY": 27,
+            "LIMIT": 4,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -0.4724274408563997,
+          "mean_return_R1": -4.195668274604468
+        },
+        "2/F": {
+          "n": 60,
+          "finishes": 0,
+          "visited_fuel": 17,
+          "visited_repair": 11,
+          "visited_both": 10,
+          "outcomes": {
+            "EMPTY": 50,
+            "BROKEN": 9,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -2.0470414433195985,
+          "mean_return_R1": -5.560631965661646
+        },
+        "2/FR": {
+          "n": 60,
+          "finishes": 1,
+          "visited_fuel": 17,
+          "visited_repair": 11,
+          "visited_both": 10,
+          "outcomes": {
+            "EMPTY": 50,
+            "BROKEN": 7,
+            "LIMIT": 2,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -2.0477865091840664,
+          "mean_return_R1": -5.057249765356397
+        },
+        "2/R": {
+          "n": 60,
+          "finishes": 0,
+          "visited_fuel": 13,
+          "visited_repair": 13,
+          "visited_both": 8,
+          "outcomes": {
+            "BROKEN": 47,
+            "EMPTY": 13
+          },
+          "mean_return_R0": -2.3969120703670543,
+          "mean_return_R1": -5.228988223204033
+        },
+        "3/0": {
+          "n": 85,
+          "finishes": 4,
+          "visited_fuel": 17,
+          "visited_repair": 12,
+          "visited_both": 11,
+          "outcomes": {
+            "BROKEN": 40,
+            "EMPTY": 41,
+            "SUCCESS": 4
+          },
+          "mean_return_R0": 1.0590141030129792,
+          "mean_return_R1": -3.8921052894385886
+        },
+        "3/F": {
+          "n": 80,
+          "finishes": 1,
+          "visited_fuel": 31,
+          "visited_repair": 18,
+          "visited_both": 11,
+          "outcomes": {
+            "BROKEN": 20,
+            "EMPTY": 54,
+            "LIMIT": 5,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -0.5594942642180175,
+          "mean_return_R1": -4.903753996365474
+        },
+        "3/FR": {
+          "n": 235,
+          "finishes": 0,
+          "visited_fuel": 24,
+          "visited_repair": 10,
+          "visited_both": 6,
+          "outcomes": {
+            "EMPTY": 167,
+            "BROKEN": 67,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -1.9451359028339277,
+          "mean_return_R1": -4.504566562937311
+        },
+        "3/R": {
+          "n": 80,
+          "finishes": 0,
+          "visited_fuel": 27,
+          "visited_repair": 10,
+          "visited_both": 9,
+          "outcomes": {
+            "BROKEN": 71,
+            "EMPTY": 7,
+            "LIMIT": 2
+          },
+          "mean_return_R0": 0.08254353650008661,
+          "mean_return_R1": -5.168278207440327
+        }
+      }
+    },
+    "R1C1": {
+      "all": {
+        "n": 1200,
+        "finishes": 14,
+        "visited_fuel": 212,
+        "visited_repair": 119,
+        "visited_both": 90,
+        "outcomes": {
+          "EMPTY": 703,
+          "BROKEN": 459,
+          "LIMIT": 24,
+          "SUCCESS": 14
+        },
+        "mean_return_R0": -4.109985201384216,
+        "mean_return_R1": -5.252087453807638
+      },
+      "by_stage": {
+        "1": {
+          "n": 480,
+          "finishes": 10,
+          "visited_fuel": 133,
+          "visited_repair": 78,
+          "visited_both": 66,
+          "outcomes": {
+            "EMPTY": 264,
+            "BROKEN": 185,
+            "LIMIT": 21,
+            "SUCCESS": 10
+          },
+          "mean_return_R0": -4.9361582180734835,
+          "mean_return_R1": -5.661637073781173
+        },
+        "2": {
+          "n": 240,
+          "finishes": 1,
+          "visited_fuel": 30,
+          "visited_repair": 23,
+          "visited_both": 15,
+          "outcomes": {
+            "BROKEN": 83,
+            "EMPTY": 154,
+            "LIMIT": 2,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -4.103051232378096,
+          "mean_return_R1": -5.380281743337102
+        },
+        "3": {
+          "n": 480,
+          "finishes": 3,
+          "visited_fuel": 49,
+          "visited_repair": 18,
+          "visited_both": 9,
+          "outcomes": {
+            "BROKEN": 191,
+            "EMPTY": 285,
+            "SUCCESS": 3,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -3.287279169198008,
+          "mean_return_R1": -4.778440689069373
+        }
+      },
+      "by_deficit": {
+        "0": {
+          "n": 265,
+          "finishes": 7,
+          "visited_fuel": 48,
+          "visited_repair": 31,
+          "visited_both": 24,
+          "outcomes": {
+            "EMPTY": 141,
+            "BROKEN": 110,
+            "SUCCESS": 7,
+            "LIMIT": 7
+          },
+          "mean_return_R0": -3.0365337684019633,
+          "mean_return_R1": -4.806147278143776
+        },
+        "F": {
+          "n": 260,
+          "finishes": 2,
+          "visited_fuel": 57,
+          "visited_repair": 29,
+          "visited_both": 26,
+          "outcomes": {
+            "BROKEN": 35,
+            "EMPTY": 217,
+            "LIMIT": 6,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -4.695849452720122,
+          "mean_return_R1": -5.766558254292604
+        },
+        "FR": {
+          "n": 415,
+          "finishes": 1,
+          "visited_fuel": 45,
+          "visited_repair": 21,
+          "visited_both": 15,
+          "outcomes": {
+            "EMPTY": 323,
+            "BROKEN": 86,
+            "LIMIT": 5,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -4.532815721249779,
+          "mean_return_R1": -5.083179633850138
+        },
+        "R": {
+          "n": 260,
+          "finishes": 4,
+          "visited_fuel": 62,
+          "visited_repair": 38,
+          "visited_both": 25,
+          "outcomes": {
+            "BROKEN": 228,
+            "EMPTY": 22,
+            "LIMIT": 6,
+            "SUCCESS": 4
+          },
+          "mean_return_R0": -3.9433131192640336,
+          "mean_return_R1": -5.461735468066083
+        }
+      },
+      "by_stage_and_deficit": {
+        "1/0": {
+          "n": 120,
+          "finishes": 7,
+          "visited_fuel": 32,
+          "visited_repair": 23,
+          "visited_both": 18,
+          "outcomes": {
+            "EMPTY": 63,
+            "BROKEN": 44,
+            "SUCCESS": 7,
+            "LIMIT": 6
+          },
+          "mean_return_R0": -3.7468372364394233,
+          "mean_return_R1": -5.099406634281261
+        },
+        "1/F": {
+          "n": 120,
+          "finishes": 0,
+          "visited_fuel": 30,
+          "visited_repair": 15,
+          "visited_both": 15,
+          "outcomes": {
+            "BROKEN": 18,
+            "EMPTY": 98,
+            "LIMIT": 4
+          },
+          "mean_return_R0": -5.178622989752497,
+          "mean_return_R1": -6.029178332373556
+        },
+        "1/FR": {
+          "n": 120,
+          "finishes": 1,
+          "visited_fuel": 27,
+          "visited_repair": 15,
+          "visited_both": 12,
+          "outcomes": {
+            "EMPTY": 91,
+            "BROKEN": 23,
+            "LIMIT": 5,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -6.058430055925089,
+          "mean_return_R1": -5.790096692376701
+        },
+        "1/R": {
+          "n": 120,
+          "finishes": 2,
+          "visited_fuel": 44,
+          "visited_repair": 25,
+          "visited_both": 21,
+          "outcomes": {
+            "BROKEN": 100,
+            "EMPTY": 12,
+            "LIMIT": 6,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -4.760742590176924,
+          "mean_return_R1": -5.727866636093169
+        },
+        "2/0": {
+          "n": 60,
+          "finishes": 0,
+          "visited_fuel": 5,
+          "visited_repair": 4,
+          "visited_both": 2,
+          "outcomes": {
+            "BROKEN": 21,
+            "EMPTY": 39
+          },
+          "mean_return_R0": -3.450693647920232,
+          "mean_return_R1": -4.813820085557002
+        },
+        "2/F": {
+          "n": 60,
+          "finishes": 1,
+          "visited_fuel": 12,
+          "visited_repair": 9,
+          "visited_both": 9,
+          "outcomes": {
+            "EMPTY": 53,
+            "BROKEN": 4,
+            "LIMIT": 2,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -4.241576377072118,
+          "mean_return_R1": -5.636363798038746
+        },
+        "2/FR": {
+          "n": 60,
+          "finishes": 0,
+          "visited_fuel": 6,
+          "visited_repair": 3,
+          "visited_both": 2,
+          "outcomes": {
+            "EMPTY": 56,
+            "BROKEN": 4
+          },
+          "mean_return_R0": -4.122366284617885,
+          "mean_return_R1": -5.578991163601562
+        },
+        "2/R": {
+          "n": 60,
+          "finishes": 0,
+          "visited_fuel": 7,
+          "visited_repair": 7,
+          "visited_both": 2,
+          "outcomes": {
+            "BROKEN": 54,
+            "EMPTY": 6
+          },
+          "mean_return_R0": -4.5975686199021535,
+          "mean_return_R1": -5.491951926151094
+        },
+        "3/0": {
+          "n": 85,
+          "finishes": 0,
+          "visited_fuel": 11,
+          "visited_repair": 4,
+          "visited_both": 4,
+          "outcomes": {
+            "BROKEN": 45,
+            "EMPTY": 39,
+            "LIMIT": 1
+          },
+          "mean_return_R0": -1.7414042515126522,
+          "mean_return_R1": -4.3867179701285774
+        },
+        "3/F": {
+          "n": 80,
+          "finishes": 1,
+          "visited_fuel": 15,
+          "visited_repair": 5,
+          "visited_both": 2,
+          "outcomes": {
+            "EMPTY": 66,
+            "BROKEN": 13,
+            "SUCCESS": 1
+          },
+          "mean_return_R0": -4.312393953907562,
+          "mean_return_R1": -5.470273979361567
+        },
+        "3/FR": {
+          "n": 235,
+          "finishes": 0,
+          "visited_fuel": 12,
+          "visited_repair": 3,
+          "visited_both": 1,
+          "outcomes": {
+            "EMPTY": 176,
+            "BROKEN": 59
+          },
+          "mean_return_R0": -3.8585742150237214,
+          "mean_return_R1": -4.5956105325383385
+        },
+        "3/R": {
+          "n": 80,
+          "finishes": 2,
+          "visited_fuel": 11,
+          "visited_repair": 6,
+          "visited_both": 2,
+          "outcomes": {
+            "EMPTY": 4,
+            "BROKEN": 74,
+            "SUCCESS": 2
+          },
+          "mean_return_R0": -2.2264772874161087,
+          "mean_return_R1": -5.039876372461694
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "R_at_C0": {
+      "finish": {
+        "mean": -0.039999999999999994,
+        "map_ci95": [
+          -0.05833333333333334,
+          -0.02333333333333333
+        ],
+        "by_seed": [
+          -0.05,
+          -0.020833333333333332,
+          -0.07083333333333333,
+          -0.025,
+          -0.03333333333333333
+        ],
+        "seed_sd": 0.020539595906443726,
+        "seed_t95": [
+          -0.06550327677286773,
+          -0.01449672322713226
+        ]
+      },
+      "fuel_visit": {
+        "mean": -0.20083333333333334,
+        "map_ci95": [
+          -0.24916666666666668,
+          -0.15247916666666847
+        ],
+        "by_seed": [
+          -0.2375,
+          -0.2125,
+          -0.2,
+          -0.23333333333333334,
+          -0.12083333333333333
+        ],
+        "seed_sd": 0.04726917600297259,
+        "seed_t95": [
+          -0.25952576739680044,
+          -0.1421408992698662
+        ]
+      },
+      "repair_visit": {
+        "mean": -0.17833333333333334,
+        "map_ci95": [
+          -0.22000000000000003,
+          -0.13831250000000178
+        ],
+        "by_seed": [
+          -0.1625,
+          -0.20416666666666666,
+          -0.22916666666666666,
+          -0.1375,
+          -0.15833333333333333
+        ],
+        "seed_sd": 0.037314355295396846,
+        "seed_t95": [
+          -0.22466522491651092,
+          -0.13200144175015577
+        ]
+      },
+      "both": {
+        "mean": -0.15666666666666665,
+        "map_ci95": [
+          -0.19583333333333336,
+          -0.11833333333333333
+        ],
+        "by_seed": [
+          -0.15416666666666667,
+          -0.16666666666666666,
+          -0.2,
+          -0.125,
+          -0.1375
+        ],
+        "seed_sd": 0.028957583923156758,
+        "seed_t95": [
+          -0.19262225609645306,
+          -0.12071107723688025
+        ]
+      },
+      "return_R0": {
+        "mean": -2.9932929571499702,
+        "map_ci95": [
+          -3.5598996931652698,
+          -2.47078992629231
+        ],
+        "by_seed": [
+          -3.096480804802918,
+          -3.398284979968124,
+          -3.589964290803043,
+          -2.8126119793512583,
+          -2.0691227308245073
+        ],
+        "seed_sd": 0.5952770728445873,
+        "seed_t95": [
+          -3.732427067404558,
+          -2.2541588468953826
+        ]
+      },
+      "return_R1": {
+        "mean": -0.7604176348951242,
+        "map_ci95": [
+          -0.9695660445488101,
+          -0.5591688094965537
+        ],
+        "by_seed": [
+          -0.9435373275414091,
+          -0.6446278371172495,
+          -1.0075177040586163,
+          -0.5440731662097869,
+          -0.6623321395485586
+        ],
+        "seed_sd": 0.2027462926991734,
+        "seed_t95": [
+          -1.0121604072910364,
+          -0.5086748624992119
+        ]
+      }
+    },
+    "R_at_C1": {
+      "finish": {
+        "mean": -0.009166666666666667,
+        "map_ci95": [
+          -0.019166666666666665,
+          0.0
+        ],
+        "by_seed": [
+          0.004166666666666667,
+          -0.008333333333333333,
+          -0.020833333333333332,
+          -0.0125,
+          -0.008333333333333333
+        ],
+        "seed_sd": 0.009033118078616165,
+        "seed_t95": [
+          -0.020382764175608886,
+          0.0020494308422755528
+        ]
+      },
+      "fuel_visit": {
+        "mean": -0.18833333333333332,
+        "map_ci95": [
+          -0.23249999999999998,
+          -0.14583333333333331
+        ],
+        "by_seed": [
+          -0.15833333333333333,
+          -0.18333333333333332,
+          -0.17083333333333334,
+          -0.24583333333333332,
+          -0.18333333333333332
+        ],
+        "seed_sd": 0.033773140215265736,
+        "seed_t95": [
+          -0.2302682256419291,
+          -0.14639844102473756
+        ]
+      },
+      "repair_visit": {
+        "mean": -0.13666666666666666,
+        "map_ci95": [
+          -0.17583333333333334,
+          -0.09916666666666664
+        ],
+        "by_seed": [
+          -0.11666666666666667,
+          -0.1,
+          -0.1625,
+          -0.15833333333333333,
+          -0.14583333333333334
+        ],
+        "seed_sd": 0.0272271820878409,
+        "seed_t95": [
+          -0.1704736784352687,
+          -0.10285965489806462
+        ]
+      },
+      "both": {
+        "mean": -0.12583333333333335,
+        "map_ci95": [
+          -0.1625,
+          -0.09083333333333332
+        ],
+        "by_seed": [
+          -0.1125,
+          -0.075,
+          -0.15,
+          -0.14583333333333334,
+          -0.14583333333333334
+        ],
+        "seed_sd": 0.032194072953469766,
+        "seed_t95": [
+          -0.16580755467235453,
+          -0.08585911199431218
+        ]
+      },
+      "return_R0": {
+        "mean": -2.415658278101881,
+        "map_ci95": [
+          -2.860786723205638,
+          -1.9825565371254896
+        ],
+        "by_seed": [
+          -2.0734485835200243,
+          -2.65879576404172,
+          -2.074088507255115,
+          -3.0824530004508675,
+          -2.189505535241678
+        ],
+        "seed_sd": 0.44403082250754855,
+        "seed_t95": [
+          -2.966995364463033,
+          -1.8643211917407296
+        ]
+      },
+      "return_R1": {
+        "mean": -0.42716541338336356,
+        "map_ci95": [
+          -0.5638780593118506,
+          -0.2989687638383912
+        ],
+        "by_seed": [
+          -0.2911441960618301,
+          -0.36605770397160164,
+          -0.4958411396594772,
+          -0.4679601833000645,
+          -0.5148238439238443
+        ],
+        "seed_sd": 0.09526344103079719,
+        "seed_t95": [
+          -0.5454505984478851,
+          -0.308880228318842
+        ]
+      }
+    },
+    "C_at_R0": {
+      "finish": {
+        "mean": -0.028333333333333332,
+        "map_ci95": [
+          -0.0475,
+          -0.010833333333333335
+        ],
+        "by_seed": [
+          -0.05,
+          -0.008333333333333333,
+          -0.03333333333333333,
+          -0.0125,
+          -0.0375
+        ],
+        "seed_sd": 0.017529736639968856,
+        "seed_t95": [
+          -0.05009937621562547,
+          -0.006567290451041194
+        ]
+      },
+      "fuel_visit": {
+        "mean": -0.0075000000000000015,
+        "map_ci95": [
+          -0.034166666666666665,
+          0.019999999999999997
+        ],
+        "by_seed": [
+          -0.06666666666666667,
+          0.016666666666666666,
+          0.016666666666666666,
+          -0.004166666666666667,
+          0.0
+        ],
+        "seed_sd": 0.03440970470343763,
+        "seed_t95": [
+          -0.050225291516037496,
+          0.035225291516037496
+        ]
+      },
+      "repair_visit": {
+        "mean": -0.029166666666666664,
+        "map_ci95": [
+          -0.054166666666666655,
+          -0.0041666666666666675
+        ],
+        "by_seed": [
+          -0.07083333333333333,
+          -0.020833333333333332,
+          -0.029166666666666667,
+          0.020833333333333332,
+          -0.04583333333333333
+        ],
+        "seed_sd": 0.033850160019316504,
+        "seed_t95": [
+          -0.07119719169309416,
+          0.012863858359760828
+        ]
+      },
+      "both": {
+        "mean": -0.024166666666666663,
+        "map_ci95": [
+          -0.044166666666666674,
+          -0.004166666666666667
+        ],
+        "by_seed": [
+          -0.06666666666666667,
+          -0.0125,
+          -0.020833333333333332,
+          0.016666666666666666,
+          -0.0375
+        ],
+        "seed_sd": 0.030816436811834328,
+        "seed_t95": [
+          -0.06243032680611663,
+          0.014096993472783308
+        ]
+      },
+      "return_R0": {
+        "mean": -0.6593008685757192,
+        "map_ci95": [
+          -0.9854879137620438,
+          -0.3399325166355953
+        ],
+        "by_seed": [
+          -1.4461306405612535,
+          -0.22281018566079341,
+          -0.5544871056459687,
+          -0.012024378029935952,
+          -1.0610520329806448
+        ],
+        "seed_sd": 0.5918154240487102,
+        "seed_t95": [
+          -1.3941367741463475,
+          0.07553503699490893
+        ]
+      },
+      "return_R1": {
+        "mean": -0.24822297697075033,
+        "map_ci95": [
+          -0.3716922691827643,
+          -0.12926210059944326
+        ],
+        "by_seed": [
+          -0.6644907533521138,
+          -0.02930000083338681,
+          -0.21944065486431935,
+          -0.06865228962538841,
+          -0.25923118617854335
+        ],
+        "seed_sd": 0.25219108113879246,
+        "seed_t95": [
+          -0.5613595630665654,
+          0.0649136091250648
+        ]
+      }
+    },
+    "C_at_R1": {
+      "finish": {
+        "mean": 0.0025,
+        "map_ci95": [
+          -0.005833333333333334,
+          0.010833333333333335
+        ],
+        "by_seed": [
+          0.004166666666666667,
+          0.004166666666666667,
+          0.016666666666666666,
+          0.0,
+          -0.0125
+        ],
+        "seed_sd": 0.010458250331675944,
+        "seed_t95": [
+          -0.0104856329201195,
+          0.0154856329201195
+        ]
+      },
+      "fuel_visit": {
+        "mean": 0.004999999999999999,
+        "map_ci95": [
+          -0.016666666666666666,
+          0.027499999999999993
+        ],
+        "by_seed": [
+          0.0125,
+          0.04583333333333333,
+          0.04583333333333333,
+          -0.016666666666666666,
+          -0.0625
+        ],
+        "seed_sd": 0.045871196481742954,
+        "seed_t95": [
+          -0.05195661322185382,
+          0.061956613221853814
+        ]
+      },
+      "repair_visit": {
+        "mean": 0.012499999999999999,
+        "map_ci95": [
+          -0.005833333333333333,
+          0.030833333333333338
+        ],
+        "by_seed": [
+          -0.025,
+          0.08333333333333333,
+          0.0375,
+          0.0,
+          -0.03333333333333333
+        ],
+        "seed_sd": 0.04823265376162594,
+        "seed_t95": [
+          -0.04738874970937183,
+          0.07238874970937183
+        ]
+      },
+      "both": {
+        "mean": 0.006666666666666666,
+        "map_ci95": [
+          -0.009166666666666665,
+          0.02166666666666667
+        ],
+        "by_seed": [
+          -0.025,
+          0.07916666666666666,
+          0.029166666666666667,
+          -0.004166666666666667,
+          -0.04583333333333333
+        ],
+        "seed_sd": 0.049088921583410466,
+        "seed_t95": [
+          -0.05428527996975962,
+          0.06761861330309295
+        ]
+      },
+      "return_R0": {
+        "mean": -0.08166618952763036,
+        "map_ci95": [
+          -0.3534252659267442,
+          0.18736267183978186
+        ],
+        "by_seed": [
+          -0.4230984192783583,
+          0.5166790302656097,
+          0.9613886779019584,
+          -0.2818653991295457,
+          -1.1814348373978159
+        ],
+        "seed_sd": 0.838469920210913,
+        "seed_t95": [
+          -1.1227641029561362,
+          0.9594317239008755
+        ]
+      },
+      "return_R1": {
+        "mean": 0.08502924454101023,
+        "map_ci95": [
+          0.0075191361806243966,
+          0.16578337625152126
+        ],
+        "by_seed": [
+          -0.01209762187253454,
+          0.24927013231226092,
+          0.2922359095348195,
+          0.007460693284334174,
+          -0.11172289055382895
+        ],
+        "seed_sd": 0.17611898124669673,
+        "seed_t95": [
+          -0.13365135385775823,
+          0.30370984293977865
+        ]
+      }
+    },
+    "interaction": {
+      "finish": {
+        "mean": 0.030833333333333334,
+        "map_ci95": [
+          0.014166666666666664,
+          0.04916666666666667
+        ],
+        "by_seed": [
+          0.05416666666666667,
+          0.0125,
+          0.05,
+          0.0125,
+          0.025
+        ],
+        "seed_sd": 0.020112530643578617,
+        "seed_t95": [
+          0.005860328122210854,
+          0.05580633854445581
+        ]
+      },
+      "fuel_visit": {
+        "mean": 0.0125,
+        "map_ci95": [
+          -0.025000000000000005,
+          0.05166666666666666
+        ],
+        "by_seed": [
+          0.07916666666666666,
+          0.029166666666666667,
+          0.029166666666666667,
+          -0.0125,
+          -0.0625
+        ],
+        "seed_sd": 0.053033008588991064,
+        "seed_t95": [
+          -0.05334917747669013,
+          0.07834917747669012
+        ]
+      },
+      "repair_visit": {
+        "mean": 0.04166666666666667,
+        "map_ci95": [
+          0.009999999999999998,
+          0.07333333333333332
+        ],
+        "by_seed": [
+          0.04583333333333333,
+          0.10416666666666667,
+          0.06666666666666667,
+          -0.020833333333333332,
+          0.0125
+        ],
+        "seed_sd": 0.04823265376162594,
+        "seed_t95": [
+          -0.01822208304270516,
+          0.1015554163760385
+        ]
+      },
+      "both": {
+        "mean": 0.030833333333333334,
+        "map_ci95": [
+          0.005,
+          0.05666666666666667
+        ],
+        "by_seed": [
+          0.041666666666666664,
+          0.09166666666666666,
+          0.05,
+          -0.020833333333333332,
+          -0.008333333333333333
+        ],
+        "seed_sd": 0.04579543888011362,
+        "seed_t95": [
+          -0.026029214401993777,
+          0.08769588106866044
+        ]
+      },
+      "return_R0": {
+        "mean": 0.577634679048089,
+        "map_ci95": [
+          0.1106730274285436,
+          1.030655345768777
+        ],
+        "by_seed": [
+          1.0230322212828953,
+          0.739489215926403,
+          1.5158757835479273,
+          -0.2698410210996096,
+          -0.1203828044171711
+        ],
+        "seed_sd": 0.7599861349843796,
+        "seed_t95": [
+          -0.3660127438288162,
+          1.521282101924994
+        ]
+      },
+      "return_R1": {
+        "mean": 0.3332522215117605,
+        "map_ci95": [
+          0.19559757047603604,
+          0.4751933863272003
+        ],
+        "by_seed": [
+          0.6523931314795789,
+          0.27857013314564777,
+          0.5116765643991389,
+          0.07611298290972261,
+          0.14750829562471435
+        ],
+        "seed_sd": 0.24356605437269352,
+        "seed_t95": [
+          0.03082502063419129,
+          0.6356794223893296
+        ]
+      }
+    }
+  },
+  "training": {
+    "39139": {
+      "R0C0": [
+        {
+          "stage": 1,
+          "started": 849,
+          "completed": 825,
+          "wins": 48,
+          "by_need": {
+            "0": {
+              "started": 224,
+              "completed": 210,
+              "wins": 27
+            },
+            "R": {
+              "started": 218,
+              "completed": 215,
+              "wins": 10
+            },
+            "FR": {
+              "started": 180,
+              "completed": 178,
+              "wins": 2
+            },
+            "F": {
+              "started": 227,
+              "completed": 222,
+              "wins": 9
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 849,
+              "completed": 825,
+              "wins": 48
+            }
+          },
+          "direct_sum": 16981,
+          "unique_scenarios": 849,
+          "outcomes": {
+            "EMPTY": 408,
+            "BROKEN": 369,
+            "SUCCESS": 48
+          }
+        },
+        {
+          "stage": 2,
+          "started": 554,
+          "completed": 530,
+          "wins": 12,
+          "by_need": {
+            "R": {
+              "started": 129,
+              "completed": 124,
+              "wins": 2
+            },
+            "0": {
+              "started": 128,
+              "completed": 122,
+              "wins": 7
+            },
+            "FR": {
+              "started": 166,
+              "completed": 160,
+              "wins": 2
+            },
+            "F": {
+              "started": 131,
+              "completed": 124,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 554,
+              "completed": 530,
+              "wins": 12
+            }
+          },
+          "direct_sum": 23654,
+          "unique_scenarios": 554,
+          "outcomes": {
+            "EMPTY": 312,
+            "BROKEN": 206,
+            "SUCCESS": 12
+          }
+        },
+        {
+          "stage": 3,
+          "started": 510,
+          "completed": 486,
+          "wins": 1,
+          "by_need": {
+            "F": {
+              "started": 100,
+              "completed": 98,
+              "wins": 1
+            },
+            "FR": {
+              "started": 237,
+              "completed": 222,
+              "wins": 0
+            },
+            "0": {
+              "started": 95,
+              "completed": 88,
+              "wins": 0
+            },
+            "R": {
+              "started": 78,
+              "completed": 78,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 510,
+              "completed": 486,
+              "wins": 1
+            }
+          },
+          "direct_sum": 43160,
+          "unique_scenarios": 510,
+          "outcomes": {
+            "EMPTY": 303,
+            "BROKEN": 182,
+            "SUCCESS": 1
+          }
+        }
+      ],
+      "R1C0": [
+        {
+          "stage": 1,
+          "started": 902,
+          "completed": 879,
+          "wins": 27,
+          "by_need": {
+            "0": {
+              "started": 234,
+              "completed": 230,
+              "wins": 17
+            },
+            "R": {
+              "started": 236,
+              "completed": 226,
+              "wins": 4
+            },
+            "FR": {
+              "started": 194,
+              "completed": 190,
+              "wins": 1
+            },
+            "F": {
+              "started": 238,
+              "completed": 233,
+              "wins": 5
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 902,
+              "completed": 879,
+              "wins": 27
+            }
+          },
+          "direct_sum": 18133,
+          "unique_scenarios": 902,
+          "outcomes": {
+            "EMPTY": 458,
+            "BROKEN": 394,
+            "SUCCESS": 27
+          }
+        },
+        {
+          "stage": 2,
+          "started": 798,
+          "completed": 775,
+          "wins": 6,
+          "by_need": {
+            "F": {
+              "started": 189,
+              "completed": 187,
+              "wins": 1
+            },
+            "R": {
+              "started": 192,
+              "completed": 187,
+              "wins": 0
+            },
+            "FR": {
+              "started": 237,
+              "completed": 232,
+              "wins": 1
+            },
+            "0": {
+              "started": 180,
+              "completed": 169,
+              "wins": 4
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 797,
+              "completed": 774,
+              "wins": 6
+            },
+            "1": {
+              "started": 1,
+              "completed": 1,
+              "wins": 0
+            }
+          },
+          "direct_sum": 32640,
+          "unique_scenarios": 798,
+          "outcomes": {
+            "EMPTY": 454,
+            "BROKEN": 315,
+            "SUCCESS": 6
+          }
+        },
+        {
+          "stage": 3,
+          "started": 552,
+          "completed": 528,
+          "wins": 2,
+          "by_need": {
+            "F": {
+              "started": 88,
+              "completed": 87,
+              "wins": 0
+            },
+            "FR": {
+              "started": 246,
+              "completed": 235,
+              "wins": 0
+            },
+            "0": {
+              "started": 112,
+              "completed": 103,
+              "wins": 2
+            },
+            "R": {
+              "started": 106,
+              "completed": 103,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 552,
+              "completed": 528,
+              "wins": 2
+            }
+          },
+          "direct_sum": 45380,
+          "unique_scenarios": 552,
+          "outcomes": {
+            "EMPTY": 335,
+            "BROKEN": 191,
+            "SUCCESS": 2
+          }
+        }
+      ],
+      "R0C1": [
+        {
+          "stage": 1,
+          "started": 565,
+          "completed": 541,
+          "wins": 38,
+          "by_need": {
+            "0": {
+              "started": 377,
+              "completed": 360,
+              "wins": 26
+            },
+            "R": {
+              "started": 102,
+              "completed": 101,
+              "wins": 7
+            },
+            "F": {
+              "started": 86,
+              "completed": 80,
+              "wins": 5
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 339,
+              "completed": 323,
+              "wins": 38
+            },
+            "2": {
+              "started": 95,
+              "completed": 91,
+              "wins": 0
+            },
+            "3": {
+              "started": 131,
+              "completed": 127,
+              "wins": 0
+            }
+          },
+          "direct_sum": 13774,
+          "unique_scenarios": 565,
+          "outcomes": {
+            "EMPTY": 206,
+            "BROKEN": 297,
+            "SUCCESS": 38
+          }
+        },
+        {
+          "stage": 2,
+          "started": 778,
+          "completed": 754,
+          "wins": 4,
+          "by_need": {
+            "R": {
+              "started": 389,
+              "completed": 373,
+              "wins": 0
+            },
+            "F": {
+              "started": 347,
+              "completed": 340,
+              "wins": 2
+            },
+            "FR": {
+              "started": 42,
+              "completed": 41,
+              "wins": 2
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 296,
+              "completed": 287,
+              "wins": 4
+            },
+            "3": {
+              "started": 294,
+              "completed": 284,
+              "wins": 0
+            },
+            "2": {
+              "started": 188,
+              "completed": 183,
+              "wins": 0
+            }
+          },
+          "direct_sum": 27637,
+          "unique_scenarios": 778,
+          "outcomes": {
+            "EMPTY": 341,
+            "BROKEN": 409,
+            "SUCCESS": 4
+          }
+        },
+        {
+          "stage": 3,
+          "started": 540,
+          "completed": 516,
+          "wins": 2,
+          "by_need": {
+            "FR": {
+              "started": 540,
+              "completed": 516,
+              "wins": 2
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 122,
+              "completed": 116,
+              "wins": 2
+            },
+            "2": {
+              "started": 93,
+              "completed": 92,
+              "wins": 0
+            },
+            "3": {
+              "started": 325,
+              "completed": 308,
+              "wins": 0
+            }
+          },
+          "direct_sum": 52382,
+          "unique_scenarios": 540,
+          "outcomes": {
+            "EMPTY": 368,
+            "BROKEN": 146,
+            "SUCCESS": 2
+          }
+        }
+      ],
+      "R1C1": [
+        {
+          "stage": 1,
+          "started": 587,
+          "completed": 564,
+          "wins": 25,
+          "by_need": {
+            "0": {
+              "started": 395,
+              "completed": 373,
+              "wins": 14
+            },
+            "R": {
+              "started": 102,
+              "completed": 102,
+              "wins": 3
+            },
+            "F": {
+              "started": 90,
+              "completed": 89,
+              "wins": 8
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 354,
+              "completed": 341,
+              "wins": 23
+            },
+            "2": {
+              "started": 97,
+              "completed": 92,
+              "wins": 1
+            },
+            "3": {
+              "started": 136,
+              "completed": 131,
+              "wins": 1
+            }
+          },
+          "direct_sum": 14323,
+          "unique_scenarios": 587,
+          "outcomes": {
+            "EMPTY": 226,
+            "BROKEN": 313,
+            "SUCCESS": 25
+          }
+        },
+        {
+          "stage": 2,
+          "started": 1061,
+          "completed": 1038,
+          "wins": 5,
+          "by_need": {
+            "F": {
+              "started": 513,
+              "completed": 500,
+              "wins": 3
+            },
+            "R": {
+              "started": 493,
+              "completed": 483,
+              "wins": 1
+            },
+            "FR": {
+              "started": 55,
+              "completed": 55,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 419,
+              "completed": 409,
+              "wins": 0
+            },
+            "2": {
+              "started": 256,
+              "completed": 252,
+              "wins": 1
+            },
+            "1": {
+              "started": 386,
+              "completed": 377,
+              "wins": 4
+            }
+          },
+          "direct_sum": 39143,
+          "unique_scenarios": 1061,
+          "outcomes": {
+            "EMPTY": 526,
+            "BROKEN": 507,
+            "SUCCESS": 5
+          }
+        },
+        {
+          "stage": 3,
+          "started": 568,
+          "completed": 545,
+          "wins": 4,
+          "by_need": {
+            "FR": {
+              "started": 568,
+              "completed": 545,
+              "wins": 4
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 105,
+              "completed": 102,
+              "wins": 0
+            },
+            "3": {
+              "started": 342,
+              "completed": 324,
+              "wins": 0
+            },
+            "1": {
+              "started": 121,
+              "completed": 119,
+              "wins": 4
+            }
+          },
+          "direct_sum": 56840,
+          "unique_scenarios": 568,
+          "outcomes": {
+            "EMPTY": 404,
+            "BROKEN": 137,
+            "SUCCESS": 4
+          }
+        }
+      ]
+    },
+    "71809": {
+      "R0C0": [
+        {
+          "stage": 1,
+          "started": 867,
+          "completed": 844,
+          "wins": 42,
+          "by_need": {
+            "R": {
+              "started": 238,
+              "completed": 234,
+              "wins": 11
+            },
+            "F": {
+              "started": 191,
+              "completed": 186,
+              "wins": 8
+            },
+            "0": {
+              "started": 214,
+              "completed": 203,
+              "wins": 19
+            },
+            "FR": {
+              "started": 224,
+              "completed": 221,
+              "wins": 4
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 867,
+              "completed": 844,
+              "wins": 42
+            }
+          },
+          "direct_sum": 16888,
+          "unique_scenarios": 867,
+          "outcomes": {
+            "EMPTY": 417,
+            "BROKEN": 385,
+            "SUCCESS": 42
+          }
+        },
+        {
+          "stage": 2,
+          "started": 714,
+          "completed": 690,
+          "wins": 12,
+          "by_need": {
+            "F": {
+              "started": 165,
+              "completed": 161,
+              "wins": 2
+            },
+            "FR": {
+              "started": 200,
+              "completed": 194,
+              "wins": 1
+            },
+            "R": {
+              "started": 176,
+              "completed": 170,
+              "wins": 3
+            },
+            "0": {
+              "started": 173,
+              "completed": 165,
+              "wins": 6
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 714,
+              "completed": 690,
+              "wins": 12
+            }
+          },
+          "direct_sum": 29701,
+          "unique_scenarios": 714,
+          "outcomes": {
+            "EMPTY": 379,
+            "BROKEN": 299,
+            "SUCCESS": 12
+          }
+        },
+        {
+          "stage": 3,
+          "started": 484,
+          "completed": 460,
+          "wins": 4,
+          "by_need": {
+            "0": {
+              "started": 75,
+              "completed": 70,
+              "wins": 4
+            },
+            "R": {
+              "started": 81,
+              "completed": 78,
+              "wins": 0
+            },
+            "FR": {
+              "started": 253,
+              "completed": 239,
+              "wins": 0
+            },
+            "F": {
+              "started": 75,
+              "completed": 73,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 484,
+              "completed": 460,
+              "wins": 4
+            }
+          },
+          "direct_sum": 45132,
+          "unique_scenarios": 484,
+          "outcomes": {
+            "BROKEN": 183,
+            "EMPTY": 273,
+            "SUCCESS": 4
+          }
+        }
+      ],
+      "R1C0": [
+        {
+          "stage": 1,
+          "started": 914,
+          "completed": 891,
+          "wins": 45,
+          "by_need": {
+            "R": {
+              "started": 251,
+              "completed": 247,
+              "wins": 6
+            },
+            "F": {
+              "started": 203,
+              "completed": 197,
+              "wins": 7
+            },
+            "0": {
+              "started": 230,
+              "completed": 218,
+              "wins": 26
+            },
+            "FR": {
+              "started": 230,
+              "completed": 229,
+              "wins": 6
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 914,
+              "completed": 891,
+              "wins": 45
+            }
+          },
+          "direct_sum": 17741,
+          "unique_scenarios": 914,
+          "outcomes": {
+            "EMPTY": 432,
+            "BROKEN": 414,
+            "SUCCESS": 45
+          }
+        },
+        {
+          "stage": 2,
+          "started": 776,
+          "completed": 753,
+          "wins": 5,
+          "by_need": {
+            "0": {
+              "started": 184,
+              "completed": 171,
+              "wins": 3
+            },
+            "R": {
+              "started": 201,
+              "completed": 195,
+              "wins": 0
+            },
+            "F": {
+              "started": 173,
+              "completed": 170,
+              "wins": 1
+            },
+            "FR": {
+              "started": 218,
+              "completed": 217,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 776,
+              "completed": 753,
+              "wins": 5
+            }
+          },
+          "direct_sum": 31935,
+          "unique_scenarios": 776,
+          "outcomes": {
+            "EMPTY": 419,
+            "BROKEN": 329,
+            "SUCCESS": 5
+          }
+        },
+        {
+          "stage": 3,
+          "started": 533,
+          "completed": 509,
+          "wins": 0,
+          "by_need": {
+            "FR": {
+              "started": 283,
+              "completed": 266,
+              "wins": 0
+            },
+            "0": {
+              "started": 75,
+              "completed": 72,
+              "wins": 0
+            },
+            "R": {
+              "started": 88,
+              "completed": 87,
+              "wins": 0
+            },
+            "F": {
+              "started": 87,
+              "completed": 84,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 533,
+              "completed": 509,
+              "wins": 0
+            }
+          },
+          "direct_sum": 49624,
+          "unique_scenarios": 533,
+          "outcomes": {
+            "EMPTY": 331,
+            "BROKEN": 178
+          }
+        }
+      ],
+      "R0C1": [
+        {
+          "stage": 1,
+          "started": 511,
+          "completed": 487,
+          "wins": 32,
+          "by_need": {
+            "0": {
+              "started": 341,
+              "completed": 319,
+              "wins": 19
+            },
+            "F": {
+              "started": 86,
+              "completed": 84,
+              "wins": 6
+            },
+            "R": {
+              "started": 84,
+              "completed": 84,
+              "wins": 7
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 97,
+              "completed": 90,
+              "wins": 1
+            },
+            "1": {
+              "started": 304,
+              "completed": 294,
+              "wins": 30
+            },
+            "3": {
+              "started": 110,
+              "completed": 103,
+              "wins": 1
+            }
+          },
+          "direct_sum": 12536,
+          "unique_scenarios": 511,
+          "outcomes": {
+            "EMPTY": 190,
+            "BROKEN": 264,
+            "SUCCESS": 32,
+            "LIMIT": 1
+          }
+        },
+        {
+          "stage": 2,
+          "started": 844,
+          "completed": 820,
+          "wins": 11,
+          "by_need": {
+            "F": {
+              "started": 399,
+              "completed": 385,
+              "wins": 2
+            },
+            "R": {
+              "started": 391,
+              "completed": 381,
+              "wins": 2
+            },
+            "FR": {
+              "started": 54,
+              "completed": 54,
+              "wins": 7
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 204,
+              "completed": 201,
+              "wins": 0
+            },
+            "3": {
+              "started": 339,
+              "completed": 334,
+              "wins": 0
+            },
+            "1": {
+              "started": 301,
+              "completed": 285,
+              "wins": 11
+            }
+          },
+          "direct_sum": 30928,
+          "unique_scenarios": 844,
+          "outcomes": {
+            "BROKEN": 405,
+            "EMPTY": 404,
+            "SUCCESS": 11
+          }
+        },
+        {
+          "stage": 3,
+          "started": 520,
+          "completed": 496,
+          "wins": 10,
+          "by_need": {
+            "FR": {
+              "started": 520,
+              "completed": 496,
+              "wins": 10
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 124,
+              "completed": 120,
+              "wins": 7
+            },
+            "2": {
+              "started": 91,
+              "completed": 90,
+              "wins": 3
+            },
+            "3": {
+              "started": 305,
+              "completed": 286,
+              "wins": 0
+            }
+          },
+          "direct_sum": 52324,
+          "unique_scenarios": 520,
+          "outcomes": {
+            "EMPTY": 344,
+            "BROKEN": 142,
+            "SUCCESS": 10
+          }
+        }
+      ],
+      "R1C1": [
+        {
+          "stage": 1,
+          "started": 549,
+          "completed": 526,
+          "wins": 21,
+          "by_need": {
+            "0": {
+              "started": 364,
+              "completed": 346,
+              "wins": 13
+            },
+            "F": {
+              "started": 93,
+              "completed": 90,
+              "wins": 5
+            },
+            "R": {
+              "started": 92,
+              "completed": 90,
+              "wins": 3
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 102,
+              "completed": 98,
+              "wins": 0
+            },
+            "1": {
+              "started": 331,
+              "completed": 317,
+              "wins": 21
+            },
+            "3": {
+              "started": 116,
+              "completed": 111,
+              "wins": 0
+            }
+          },
+          "direct_sum": 13343,
+          "unique_scenarios": 549,
+          "outcomes": {
+            "EMPTY": 219,
+            "BROKEN": 286,
+            "SUCCESS": 21
+          }
+        },
+        {
+          "stage": 2,
+          "started": 1068,
+          "completed": 1048,
+          "wins": 8,
+          "by_need": {
+            "R": {
+              "started": 479,
+              "completed": 466,
+              "wins": 3
+            },
+            "F": {
+              "started": 508,
+              "completed": 503,
+              "wins": 2
+            },
+            "FR": {
+              "started": 81,
+              "completed": 79,
+              "wins": 3
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 258,
+              "completed": 252,
+              "wins": 0
+            },
+            "3": {
+              "started": 407,
+              "completed": 401,
+              "wins": 0
+            },
+            "1": {
+              "started": 403,
+              "completed": 395,
+              "wins": 8
+            }
+          },
+          "direct_sum": 38639,
+          "unique_scenarios": 1068,
+          "outcomes": {
+            "EMPTY": 534,
+            "BROKEN": 506,
+            "SUCCESS": 8
+          }
+        },
+        {
+          "stage": 3,
+          "started": 593,
+          "completed": 570,
+          "wins": 1,
+          "by_need": {
+            "FR": {
+              "started": 593,
+              "completed": 570,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 358,
+              "completed": 338,
+              "wins": 0
+            },
+            "2": {
+              "started": 87,
+              "completed": 86,
+              "wins": 0
+            },
+            "1": {
+              "started": 148,
+              "completed": 146,
+              "wins": 1
+            }
+          },
+          "direct_sum": 59004,
+          "unique_scenarios": 593,
+          "outcomes": {
+            "EMPTY": 438,
+            "BROKEN": 131,
+            "SUCCESS": 1
+          }
+        }
+      ]
+    },
+    "92221": {
+      "R0C0": [
+        {
+          "stage": 1,
+          "started": 919,
+          "completed": 895,
+          "wins": 52,
+          "by_need": {
+            "R": {
+              "started": 219,
+              "completed": 215,
+              "wins": 9
+            },
+            "FR": {
+              "started": 221,
+              "completed": 220,
+              "wins": 8
+            },
+            "0": {
+              "started": 218,
+              "completed": 201,
+              "wins": 25
+            },
+            "F": {
+              "started": 261,
+              "completed": 259,
+              "wins": 10
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 919,
+              "completed": 895,
+              "wins": 52
+            }
+          },
+          "direct_sum": 18016,
+          "unique_scenarios": 919,
+          "outcomes": {
+            "EMPTY": 459,
+            "BROKEN": 384,
+            "SUCCESS": 52
+          }
+        },
+        {
+          "stage": 2,
+          "started": 611,
+          "completed": 588,
+          "wins": 11,
+          "by_need": {
+            "F": {
+              "started": 153,
+              "completed": 150,
+              "wins": 4
+            },
+            "FR": {
+              "started": 170,
+              "completed": 165,
+              "wins": 2
+            },
+            "0": {
+              "started": 137,
+              "completed": 129,
+              "wins": 5
+            },
+            "R": {
+              "started": 151,
+              "completed": 144,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 610,
+              "completed": 588,
+              "wins": 11
+            },
+            "1": {
+              "started": 1,
+              "completed": 0,
+              "wins": 0
+            }
+          },
+          "direct_sum": 26031,
+          "unique_scenarios": 611,
+          "outcomes": {
+            "EMPTY": 345,
+            "BROKEN": 232,
+            "SUCCESS": 11
+          }
+        },
+        {
+          "stage": 3,
+          "started": 517,
+          "completed": 494,
+          "wins": 3,
+          "by_need": {
+            "0": {
+              "started": 84,
+              "completed": 79,
+              "wins": 1
+            },
+            "FR": {
+              "started": 259,
+              "completed": 244,
+              "wins": 0
+            },
+            "R": {
+              "started": 89,
+              "completed": 86,
+              "wins": 2
+            },
+            "F": {
+              "started": 85,
+              "completed": 85,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 517,
+              "completed": 494,
+              "wins": 3
+            }
+          },
+          "direct_sum": 45449,
+          "unique_scenarios": 517,
+          "outcomes": {
+            "EMPTY": 303,
+            "BROKEN": 188,
+            "SUCCESS": 3
+          }
+        }
+      ],
+      "R1C0": [
+        {
+          "stage": 1,
+          "started": 890,
+          "completed": 867,
+          "wins": 43,
+          "by_need": {
+            "R": {
+              "started": 211,
+              "completed": 209,
+              "wins": 6
+            },
+            "FR": {
+              "started": 217,
+              "completed": 215,
+              "wins": 5
+            },
+            "0": {
+              "started": 210,
+              "completed": 196,
+              "wins": 19
+            },
+            "F": {
+              "started": 252,
+              "completed": 247,
+              "wins": 13
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 890,
+              "completed": 867,
+              "wins": 43
+            }
+          },
+          "direct_sum": 17409,
+          "unique_scenarios": 890,
+          "outcomes": {
+            "EMPTY": 448,
+            "BROKEN": 376,
+            "SUCCESS": 43
+          }
+        },
+        {
+          "stage": 2,
+          "started": 766,
+          "completed": 742,
+          "wins": 5,
+          "by_need": {
+            "FR": {
+              "started": 221,
+              "completed": 211,
+              "wins": 0
+            },
+            "0": {
+              "started": 193,
+              "completed": 185,
+              "wins": 3
+            },
+            "R": {
+              "started": 163,
+              "completed": 160,
+              "wins": 1
+            },
+            "F": {
+              "started": 189,
+              "completed": 186,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 766,
+              "completed": 742,
+              "wins": 5
+            }
+          },
+          "direct_sum": 32143,
+          "unique_scenarios": 766,
+          "outcomes": {
+            "EMPTY": 451,
+            "BROKEN": 286,
+            "SUCCESS": 5
+          }
+        },
+        {
+          "stage": 3,
+          "started": 519,
+          "completed": 495,
+          "wins": 1,
+          "by_need": {
+            "F": {
+              "started": 74,
+              "completed": 74,
+              "wins": 0
+            },
+            "FR": {
+              "started": 267,
+              "completed": 251,
+              "wins": 0
+            },
+            "R": {
+              "started": 85,
+              "completed": 83,
+              "wins": 0
+            },
+            "0": {
+              "started": 93,
+              "completed": 87,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 519,
+              "completed": 495,
+              "wins": 1
+            }
+          },
+          "direct_sum": 49891,
+          "unique_scenarios": 519,
+          "outcomes": {
+            "EMPTY": 295,
+            "BROKEN": 199,
+            "SUCCESS": 1
+          }
+        }
+      ],
+      "R0C1": [
+        {
+          "stage": 1,
+          "started": 533,
+          "completed": 511,
+          "wins": 29,
+          "by_need": {
+            "0": {
+              "started": 345,
+              "completed": 331,
+              "wins": 18
+            },
+            "F": {
+              "started": 107,
+              "completed": 101,
+              "wins": 7
+            },
+            "R": {
+              "started": 81,
+              "completed": 79,
+              "wins": 4
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 129,
+              "completed": 127,
+              "wins": 1
+            },
+            "1": {
+              "started": 308,
+              "completed": 292,
+              "wins": 24
+            },
+            "2": {
+              "started": 96,
+              "completed": 92,
+              "wins": 4
+            }
+          },
+          "direct_sum": 12651,
+          "unique_scenarios": 533,
+          "outcomes": {
+            "EMPTY": 204,
+            "BROKEN": 278,
+            "SUCCESS": 29
+          }
+        },
+        {
+          "stage": 2,
+          "started": 782,
+          "completed": 758,
+          "wins": 13,
+          "by_need": {
+            "R": {
+              "started": 329,
+              "completed": 318,
+              "wins": 2
+            },
+            "F": {
+              "started": 400,
+              "completed": 387,
+              "wins": 5
+            },
+            "FR": {
+              "started": 53,
+              "completed": 53,
+              "wins": 6
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 288,
+              "completed": 277,
+              "wins": 0
+            },
+            "2": {
+              "started": 206,
+              "completed": 202,
+              "wins": 1
+            },
+            "1": {
+              "started": 288,
+              "completed": 279,
+              "wins": 12
+            }
+          },
+          "direct_sum": 28029,
+          "unique_scenarios": 782,
+          "outcomes": {
+            "EMPTY": 392,
+            "BROKEN": 353,
+            "SUCCESS": 13
+          }
+        },
+        {
+          "stage": 3,
+          "started": 509,
+          "completed": 487,
+          "wins": 5,
+          "by_need": {
+            "FR": {
+              "started": 509,
+              "completed": 487,
+              "wins": 5
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 144,
+              "completed": 137,
+              "wins": 5
+            },
+            "3": {
+              "started": 273,
+              "completed": 258,
+              "wins": 0
+            },
+            "2": {
+              "started": 92,
+              "completed": 92,
+              "wins": 0
+            }
+          },
+          "direct_sum": 46644,
+          "unique_scenarios": 509,
+          "outcomes": {
+            "EMPTY": 366,
+            "BROKEN": 116,
+            "SUCCESS": 5
+          }
+        }
+      ],
+      "R1C1": [
+        {
+          "stage": 1,
+          "started": 609,
+          "completed": 585,
+          "wins": 31,
+          "by_need": {
+            "0": {
+              "started": 397,
+              "completed": 377,
+              "wins": 18
+            },
+            "F": {
+              "started": 119,
+              "completed": 118,
+              "wins": 10
+            },
+            "R": {
+              "started": 93,
+              "completed": 90,
+              "wins": 3
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 142,
+              "completed": 135,
+              "wins": 1
+            },
+            "1": {
+              "started": 357,
+              "completed": 346,
+              "wins": 30
+            },
+            "2": {
+              "started": 110,
+              "completed": 104,
+              "wins": 0
+            }
+          },
+          "direct_sum": 14634,
+          "unique_scenarios": 609,
+          "outcomes": {
+            "EMPTY": 237,
+            "BROKEN": 317,
+            "SUCCESS": 31
+          }
+        },
+        {
+          "stage": 2,
+          "started": 940,
+          "completed": 918,
+          "wins": 9,
+          "by_need": {
+            "R": {
+              "started": 405,
+              "completed": 391,
+              "wins": 2
+            },
+            "F": {
+              "started": 470,
+              "completed": 463,
+              "wins": 4
+            },
+            "FR": {
+              "started": 65,
+              "completed": 64,
+              "wins": 3
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 356,
+              "completed": 350,
+              "wins": 0
+            },
+            "2": {
+              "started": 249,
+              "completed": 239,
+              "wins": 0
+            },
+            "1": {
+              "started": 335,
+              "completed": 329,
+              "wins": 9
+            }
+          },
+          "direct_sum": 34186,
+          "unique_scenarios": 940,
+          "outcomes": {
+            "EMPTY": 476,
+            "BROKEN": 433,
+            "SUCCESS": 9
+          }
+        },
+        {
+          "stage": 3,
+          "started": 566,
+          "completed": 544,
+          "wins": 7,
+          "by_need": {
+            "FR": {
+              "started": 566,
+              "completed": 544,
+              "wins": 7
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 345,
+              "completed": 330,
+              "wins": 0
+            },
+            "1": {
+              "started": 130,
+              "completed": 126,
+              "wins": 7
+            },
+            "2": {
+              "started": 91,
+              "completed": 88,
+              "wins": 0
+            }
+          },
+          "direct_sum": 54562,
+          "unique_scenarios": 566,
+          "outcomes": {
+            "EMPTY": 426,
+            "BROKEN": 111,
+            "SUCCESS": 7
+          }
+        }
+      ]
+    },
+    "130031": {
+      "R0C0": [
+        {
+          "stage": 1,
+          "started": 803,
+          "completed": 779,
+          "wins": 36,
+          "by_need": {
+            "0": {
+              "started": 192,
+              "completed": 178,
+              "wins": 20
+            },
+            "FR": {
+              "started": 214,
+              "completed": 211,
+              "wins": 3
+            },
+            "R": {
+              "started": 194,
+              "completed": 191,
+              "wins": 1
+            },
+            "F": {
+              "started": 203,
+              "completed": 199,
+              "wins": 12
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 803,
+              "completed": 779,
+              "wins": 36
+            }
+          },
+          "direct_sum": 16295,
+          "unique_scenarios": 803,
+          "outcomes": {
+            "EMPTY": 394,
+            "BROKEN": 349,
+            "SUCCESS": 36
+          }
+        },
+        {
+          "stage": 2,
+          "started": 626,
+          "completed": 602,
+          "wins": 14,
+          "by_need": {
+            "R": {
+              "started": 131,
+              "completed": 128,
+              "wins": 2
+            },
+            "F": {
+              "started": 166,
+              "completed": 159,
+              "wins": 1
+            },
+            "FR": {
+              "started": 178,
+              "completed": 173,
+              "wins": 2
+            },
+            "0": {
+              "started": 151,
+              "completed": 142,
+              "wins": 9
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 626,
+              "completed": 602,
+              "wins": 14
+            }
+          },
+          "direct_sum": 26697,
+          "unique_scenarios": 626,
+          "outcomes": {
+            "EMPTY": 343,
+            "BROKEN": 245,
+            "SUCCESS": 14
+          }
+        },
+        {
+          "stage": 3,
+          "started": 483,
+          "completed": 459,
+          "wins": 1,
+          "by_need": {
+            "0": {
+              "started": 102,
+              "completed": 93,
+              "wins": 1
+            },
+            "F": {
+              "started": 77,
+              "completed": 76,
+              "wins": 0
+            },
+            "FR": {
+              "started": 231,
+              "completed": 220,
+              "wins": 0
+            },
+            "R": {
+              "started": 73,
+              "completed": 70,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 482,
+              "completed": 458,
+              "wins": 1
+            },
+            "2": {
+              "started": 1,
+              "completed": 1,
+              "wins": 0
+            }
+          },
+          "direct_sum": 44845,
+          "unique_scenarios": 483,
+          "outcomes": {
+            "EMPTY": 281,
+            "BROKEN": 177,
+            "SUCCESS": 1
+          }
+        }
+      ],
+      "R1C0": [
+        {
+          "stage": 1,
+          "started": 916,
+          "completed": 893,
+          "wins": 29,
+          "by_need": {
+            "0": {
+              "started": 216,
+              "completed": 206,
+              "wins": 14
+            },
+            "FR": {
+              "started": 240,
+              "completed": 239,
+              "wins": 3
+            },
+            "R": {
+              "started": 222,
+              "completed": 217,
+              "wins": 7
+            },
+            "F": {
+              "started": 238,
+              "completed": 231,
+              "wins": 5
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 916,
+              "completed": 893,
+              "wins": 29
+            }
+          },
+          "direct_sum": 18557,
+          "unique_scenarios": 916,
+          "outcomes": {
+            "EMPTY": 471,
+            "BROKEN": 393,
+            "SUCCESS": 29
+          }
+        },
+        {
+          "stage": 2,
+          "started": 790,
+          "completed": 767,
+          "wins": 5,
+          "by_need": {
+            "R": {
+              "started": 211,
+              "completed": 207,
+              "wins": 0
+            },
+            "FR": {
+              "started": 207,
+              "completed": 202,
+              "wins": 2
+            },
+            "F": {
+              "started": 197,
+              "completed": 195,
+              "wins": 2
+            },
+            "0": {
+              "started": 175,
+              "completed": 163,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 789,
+              "completed": 766,
+              "wins": 5
+            },
+            "1": {
+              "started": 1,
+              "completed": 1,
+              "wins": 0
+            }
+          },
+          "direct_sum": 32038,
+          "unique_scenarios": 790,
+          "outcomes": {
+            "EMPTY": 426,
+            "BROKEN": 336,
+            "SUCCESS": 5
+          }
+        },
+        {
+          "stage": 3,
+          "started": 544,
+          "completed": 520,
+          "wins": 1,
+          "by_need": {
+            "R": {
+              "started": 106,
+              "completed": 102,
+              "wins": 0
+            },
+            "0": {
+              "started": 79,
+              "completed": 75,
+              "wins": 1
+            },
+            "FR": {
+              "started": 261,
+              "completed": 248,
+              "wins": 0
+            },
+            "F": {
+              "started": 98,
+              "completed": 95,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 544,
+              "completed": 520,
+              "wins": 1
+            }
+          },
+          "direct_sum": 48123,
+          "unique_scenarios": 544,
+          "outcomes": {
+            "BROKEN": 203,
+            "EMPTY": 316,
+            "SUCCESS": 1
+          }
+        }
+      ],
+      "R0C1": [
+        {
+          "stage": 1,
+          "started": 520,
+          "completed": 496,
+          "wins": 27,
+          "by_need": {
+            "0": {
+              "started": 341,
+              "completed": 323,
+              "wins": 19
+            },
+            "F": {
+              "started": 88,
+              "completed": 83,
+              "wins": 7
+            },
+            "R": {
+              "started": 91,
+              "completed": 90,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 100,
+              "completed": 96,
+              "wins": 2
+            },
+            "1": {
+              "started": 308,
+              "completed": 293,
+              "wins": 25
+            },
+            "3": {
+              "started": 112,
+              "completed": 107,
+              "wins": 0
+            }
+          },
+          "direct_sum": 12537,
+          "unique_scenarios": 520,
+          "outcomes": {
+            "EMPTY": 214,
+            "BROKEN": 255,
+            "SUCCESS": 27
+          }
+        },
+        {
+          "stage": 2,
+          "started": 801,
+          "completed": 777,
+          "wins": 10,
+          "by_need": {
+            "F": {
+              "started": 358,
+              "completed": 350,
+              "wins": 2
+            },
+            "R": {
+              "started": 385,
+              "completed": 373,
+              "wins": 1
+            },
+            "FR": {
+              "started": 58,
+              "completed": 54,
+              "wins": 7
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 276,
+              "completed": 265,
+              "wins": 10
+            },
+            "3": {
+              "started": 342,
+              "completed": 335,
+              "wins": 0
+            },
+            "2": {
+              "started": 183,
+              "completed": 177,
+              "wins": 0
+            }
+          },
+          "direct_sum": 28877,
+          "unique_scenarios": 801,
+          "outcomes": {
+            "EMPTY": 372,
+            "BROKEN": 395,
+            "SUCCESS": 10
+          }
+        },
+        {
+          "stage": 3,
+          "started": 553,
+          "completed": 529,
+          "wins": 11,
+          "by_need": {
+            "FR": {
+              "started": 552,
+              "completed": 528,
+              "wins": 11
+            },
+            "R": {
+              "started": 1,
+              "completed": 1,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 315,
+              "completed": 296,
+              "wins": 0
+            },
+            "2": {
+              "started": 96,
+              "completed": 96,
+              "wins": 1
+            },
+            "1": {
+              "started": 142,
+              "completed": 137,
+              "wins": 10
+            }
+          },
+          "direct_sum": 52081,
+          "unique_scenarios": 553,
+          "outcomes": {
+            "EMPTY": 374,
+            "BROKEN": 144,
+            "SUCCESS": 11
+          }
+        }
+      ],
+      "R1C1": [
+        {
+          "stage": 1,
+          "started": 615,
+          "completed": 591,
+          "wins": 28,
+          "by_need": {
+            "0": {
+              "started": 402,
+              "completed": 384,
+              "wins": 18
+            },
+            "F": {
+              "started": 105,
+              "completed": 102,
+              "wins": 7
+            },
+            "R": {
+              "started": 108,
+              "completed": 105,
+              "wins": 3
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 122,
+              "completed": 114,
+              "wins": 0
+            },
+            "1": {
+              "started": 362,
+              "completed": 351,
+              "wins": 28
+            },
+            "3": {
+              "started": 131,
+              "completed": 126,
+              "wins": 0
+            }
+          },
+          "direct_sum": 14850,
+          "unique_scenarios": 615,
+          "outcomes": {
+            "EMPTY": 253,
+            "BROKEN": 310,
+            "SUCCESS": 28
+          }
+        },
+        {
+          "stage": 2,
+          "started": 1029,
+          "completed": 1005,
+          "wins": 13,
+          "by_need": {
+            "F": {
+              "started": 486,
+              "completed": 472,
+              "wins": 5
+            },
+            "R": {
+              "started": 474,
+              "completed": 465,
+              "wins": 4
+            },
+            "FR": {
+              "started": 69,
+              "completed": 68,
+              "wins": 4
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 255,
+              "completed": 248,
+              "wins": 0
+            },
+            "3": {
+              "started": 405,
+              "completed": 397,
+              "wins": 1
+            },
+            "1": {
+              "started": 369,
+              "completed": 360,
+              "wins": 12
+            }
+          },
+          "direct_sum": 38228,
+          "unique_scenarios": 1029,
+          "outcomes": {
+            "BROKEN": 491,
+            "EMPTY": 501,
+            "SUCCESS": 13
+          }
+        },
+        {
+          "stage": 3,
+          "started": 571,
+          "completed": 547,
+          "wins": 2,
+          "by_need": {
+            "FR": {
+              "started": 571,
+              "completed": 547,
+              "wins": 2
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 351,
+              "completed": 331,
+              "wins": 0
+            },
+            "2": {
+              "started": 88,
+              "completed": 86,
+              "wins": 0
+            },
+            "1": {
+              "started": 132,
+              "completed": 130,
+              "wins": 2
+            }
+          },
+          "direct_sum": 57164,
+          "unique_scenarios": 571,
+          "outcomes": {
+            "EMPTY": 422,
+            "BROKEN": 123,
+            "SUCCESS": 2
+          }
+        }
+      ]
+    },
+    "175003": {
+      "R0C0": [
+        {
+          "stage": 1,
+          "started": 769,
+          "completed": 746,
+          "wins": 34,
+          "by_need": {
+            "0": {
+              "started": 204,
+              "completed": 193,
+              "wins": 21
+            },
+            "R": {
+              "started": 179,
+              "completed": 171,
+              "wins": 5
+            },
+            "FR": {
+              "started": 181,
+              "completed": 180,
+              "wins": 3
+            },
+            "F": {
+              "started": 205,
+              "completed": 202,
+              "wins": 5
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 769,
+              "completed": 746,
+              "wins": 34
+            }
+          },
+          "direct_sum": 14717,
+          "unique_scenarios": 769,
+          "outcomes": {
+            "EMPTY": 383,
+            "BROKEN": 329,
+            "SUCCESS": 34
+          }
+        },
+        {
+          "stage": 2,
+          "started": 628,
+          "completed": 606,
+          "wins": 8,
+          "by_need": {
+            "R": {
+              "started": 141,
+              "completed": 137,
+              "wins": 2
+            },
+            "0": {
+              "started": 158,
+              "completed": 148,
+              "wins": 5
+            },
+            "FR": {
+              "started": 167,
+              "completed": 165,
+              "wins": 0
+            },
+            "F": {
+              "started": 162,
+              "completed": 156,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 628,
+              "completed": 606,
+              "wins": 8
+            }
+          },
+          "direct_sum": 26652,
+          "unique_scenarios": 628,
+          "outcomes": {
+            "BROKEN": 246,
+            "EMPTY": 352,
+            "SUCCESS": 8
+          }
+        },
+        {
+          "stage": 3,
+          "started": 515,
+          "completed": 491,
+          "wins": 5,
+          "by_need": {
+            "FR": {
+              "started": 243,
+              "completed": 230,
+              "wins": 0
+            },
+            "0": {
+              "started": 68,
+              "completed": 63,
+              "wins": 3
+            },
+            "F": {
+              "started": 108,
+              "completed": 106,
+              "wins": 2
+            },
+            "R": {
+              "started": 96,
+              "completed": 92,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 514,
+              "completed": 490,
+              "wins": 4
+            },
+            "1": {
+              "started": 1,
+              "completed": 1,
+              "wins": 1
+            }
+          },
+          "direct_sum": 47679,
+          "unique_scenarios": 515,
+          "outcomes": {
+            "EMPTY": 320,
+            "BROKEN": 166,
+            "SUCCESS": 5
+          }
+        }
+      ],
+      "R1C0": [
+        {
+          "stage": 1,
+          "started": 856,
+          "completed": 832,
+          "wins": 38,
+          "by_need": {
+            "0": {
+              "started": 225,
+              "completed": 216,
+              "wins": 23
+            },
+            "R": {
+              "started": 199,
+              "completed": 195,
+              "wins": 6
+            },
+            "FR": {
+              "started": 208,
+              "completed": 203,
+              "wins": 3
+            },
+            "F": {
+              "started": 224,
+              "completed": 218,
+              "wins": 6
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 856,
+              "completed": 832,
+              "wins": 38
+            }
+          },
+          "direct_sum": 16354,
+          "unique_scenarios": 856,
+          "outcomes": {
+            "EMPTY": 426,
+            "BROKEN": 368,
+            "SUCCESS": 38
+          }
+        },
+        {
+          "stage": 2,
+          "started": 808,
+          "completed": 785,
+          "wins": 11,
+          "by_need": {
+            "F": {
+              "started": 193,
+              "completed": 189,
+              "wins": 1
+            },
+            "FR": {
+              "started": 248,
+              "completed": 245,
+              "wins": 1
+            },
+            "0": {
+              "started": 180,
+              "completed": 171,
+              "wins": 8
+            },
+            "R": {
+              "started": 187,
+              "completed": 180,
+              "wins": 1
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 808,
+              "completed": 785,
+              "wins": 11
+            }
+          },
+          "direct_sum": 32852,
+          "unique_scenarios": 808,
+          "outcomes": {
+            "EMPTY": 454,
+            "BROKEN": 320,
+            "SUCCESS": 11
+          }
+        },
+        {
+          "stage": 3,
+          "started": 537,
+          "completed": 513,
+          "wins": 1,
+          "by_need": {
+            "FR": {
+              "started": 270,
+              "completed": 259,
+              "wins": 0
+            },
+            "F": {
+              "started": 79,
+              "completed": 77,
+              "wins": 1
+            },
+            "R": {
+              "started": 93,
+              "completed": 87,
+              "wins": 0
+            },
+            "0": {
+              "started": 95,
+              "completed": 90,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 537,
+              "completed": 513,
+              "wins": 1
+            }
+          },
+          "direct_sum": 49772,
+          "unique_scenarios": 537,
+          "outcomes": {
+            "EMPTY": 318,
+            "BROKEN": 194,
+            "SUCCESS": 1
+          }
+        }
+      ],
+      "R0C1": [
+        {
+          "stage": 1,
+          "started": 530,
+          "completed": 506,
+          "wins": 42,
+          "by_need": {
+            "0": {
+              "started": 344,
+              "completed": 322,
+              "wins": 29
+            },
+            "R": {
+              "started": 87,
+              "completed": 87,
+              "wins": 3
+            },
+            "F": {
+              "started": 99,
+              "completed": 97,
+              "wins": 10
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 334,
+              "completed": 321,
+              "wins": 42
+            },
+            "2": {
+              "started": 109,
+              "completed": 101,
+              "wins": 0
+            },
+            "3": {
+              "started": 87,
+              "completed": 84,
+              "wins": 0
+            }
+          },
+          "direct_sum": 12553,
+          "unique_scenarios": 530,
+          "outcomes": {
+            "EMPTY": 204,
+            "BROKEN": 260,
+            "SUCCESS": 42
+          }
+        },
+        {
+          "stage": 2,
+          "started": 896,
+          "completed": 873,
+          "wins": 17,
+          "by_need": {
+            "R": {
+              "started": 455,
+              "completed": 446,
+              "wins": 5
+            },
+            "F": {
+              "started": 389,
+              "completed": 376,
+              "wins": 6
+            },
+            "FR": {
+              "started": 51,
+              "completed": 50,
+              "wins": 6
+            },
+            "0": {
+              "started": 1,
+              "completed": 1,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 344,
+              "completed": 331,
+              "wins": 15
+            },
+            "2": {
+              "started": 210,
+              "completed": 207,
+              "wins": 1
+            },
+            "3": {
+              "started": 342,
+              "completed": 335,
+              "wins": 1
+            }
+          },
+          "direct_sum": 33170,
+          "unique_scenarios": 896,
+          "outcomes": {
+            "EMPTY": 374,
+            "BROKEN": 482,
+            "SUCCESS": 17
+          }
+        },
+        {
+          "stage": 3,
+          "started": 517,
+          "completed": 495,
+          "wins": 7,
+          "by_need": {
+            "FR": {
+              "started": 517,
+              "completed": 495,
+              "wins": 7
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 123,
+              "completed": 122,
+              "wins": 6
+            },
+            "3": {
+              "started": 307,
+              "completed": 288,
+              "wins": 0
+            },
+            "2": {
+              "started": 87,
+              "completed": 85,
+              "wins": 1
+            }
+          },
+          "direct_sum": 52314,
+          "unique_scenarios": 517,
+          "outcomes": {
+            "EMPTY": 335,
+            "BROKEN": 153,
+            "SUCCESS": 7
+          }
+        }
+      ],
+      "R1C1": [
+        {
+          "stage": 1,
+          "started": 593,
+          "completed": 569,
+          "wins": 26,
+          "by_need": {
+            "0": {
+              "started": 386,
+              "completed": 364,
+              "wins": 18
+            },
+            "R": {
+              "started": 95,
+              "completed": 94,
+              "wins": 0
+            },
+            "F": {
+              "started": 112,
+              "completed": 111,
+              "wins": 8
+            }
+          },
+          "by_size": {
+            "1": {
+              "started": 370,
+              "completed": 359,
+              "wins": 25
+            },
+            "2": {
+              "started": 120,
+              "completed": 116,
+              "wins": 1
+            },
+            "3": {
+              "started": 103,
+              "completed": 94,
+              "wins": 0
+            }
+          },
+          "direct_sum": 14134,
+          "unique_scenarios": 593,
+          "outcomes": {
+            "EMPTY": 258,
+            "BROKEN": 285,
+            "SUCCESS": 26
+          }
+        },
+        {
+          "stage": 2,
+          "started": 1011,
+          "completed": 988,
+          "wins": 10,
+          "by_need": {
+            "R": {
+              "started": 479,
+              "completed": 467,
+              "wins": 2
+            },
+            "F": {
+              "started": 465,
+              "completed": 456,
+              "wins": 2
+            },
+            "FR": {
+              "started": 66,
+              "completed": 64,
+              "wins": 6
+            },
+            "0": {
+              "started": 1,
+              "completed": 1,
+              "wins": 0
+            }
+          },
+          "by_size": {
+            "3": {
+              "started": 416,
+              "completed": 405,
+              "wins": 0
+            },
+            "2": {
+              "started": 248,
+              "completed": 245,
+              "wins": 0
+            },
+            "1": {
+              "started": 347,
+              "completed": 338,
+              "wins": 10
+            }
+          },
+          "direct_sum": 37795,
+          "unique_scenarios": 1011,
+          "outcomes": {
+            "EMPTY": 481,
+            "BROKEN": 497,
+            "SUCCESS": 10
+          }
+        },
+        {
+          "stage": 3,
+          "started": 581,
+          "completed": 560,
+          "wins": 3,
+          "by_need": {
+            "FR": {
+              "started": 581,
+              "completed": 560,
+              "wins": 3
+            }
+          },
+          "by_size": {
+            "2": {
+              "started": 80,
+              "completed": 79,
+              "wins": 0
+            },
+            "1": {
+              "started": 135,
+              "completed": 133,
+              "wins": 3
+            },
+            "3": {
+              "started": 366,
+              "completed": 348,
+              "wins": 0
+            }
+          },
+          "direct_sum": 59285,
+          "unique_scenarios": 581,
+          "outcomes": {
+            "EMPTY": 446,
+            "BROKEN": 111,
+            "SUCCESS": 3
+          }
+        }
+      ]
+    }
+  },
+  "bootstrap": {
+    "seed": 160016,
+    "resamples": 20000,
+    "geometries": 60,
+    "scenarios_per_geometry": 4
+  },
+  "changes": {
+    "R_at_C0": {
+      "39139": {
+        "gained": [],
+        "lost": [
+          "validation_id-00000-0",
+          "validation_id-00004-0",
+          "validation_id-00008-0",
+          "validation_id-00010-1",
+          "validation_id-00031-2",
+          "validation_id-00032-0",
+          "validation_id-00032-2",
+          "validation_id-00034-0",
+          "validation_id-00037-2",
+          "validation_id-00044-0",
+          "validation_id-00046-1",
+          "validation_id-00058-0"
+        ]
+      },
+      "71809": {
+        "gained": [
+          "validation_id-00058-1"
+        ],
+        "lost": [
+          "validation_id-00001-2",
+          "validation_id-00005-0",
+          "validation_id-00007-0",
+          "validation_id-00033-0",
+          "validation_id-00038-3",
+          "validation_id-00044-3"
+        ]
+      },
+      "92221": {
+        "gained": [
+          "validation_id-00004-3"
+        ],
+        "lost": [
+          "validation_id-00000-0",
+          "validation_id-00001-0",
+          "validation_id-00002-2",
+          "validation_id-00003-3",
+          "validation_id-00005-0",
+          "validation_id-00030-1",
+          "validation_id-00030-2",
+          "validation_id-00030-3",
+          "validation_id-00031-0",
+          "validation_id-00031-1",
+          "validation_id-00031-2",
+          "validation_id-00033-0",
+          "validation_id-00034-0",
+          "validation_id-00037-2",
+          "validation_id-00039-2",
+          "validation_id-00044-0",
+          "validation_id-00044-2",
+          "validation_id-00050-1"
+        ]
+      },
+      "130031": {
+        "gained": [],
+        "lost": [
+          "validation_id-00005-0",
+          "validation_id-00008-0",
+          "validation_id-00033-0",
+          "validation_id-00033-2",
+          "validation_id-00044-1",
+          "validation_id-00049-3"
+        ]
+      },
+      "175003": {
+        "gained": [
+          "validation_id-00000-2",
+          "validation_id-00014-1",
+          "validation_id-00032-1",
+          "validation_id-00032-2"
+        ],
+        "lost": [
+          "validation_id-00001-0",
+          "validation_id-00002-0",
+          "validation_id-00002-2",
+          "validation_id-00008-1",
+          "validation_id-00030-3",
+          "validation_id-00031-1",
+          "validation_id-00035-0",
+          "validation_id-00035-3",
+          "validation_id-00037-2",
+          "validation_id-00037-3",
+          "validation_id-00050-1",
+          "validation_id-00056-3"
+        ]
+      }
+    },
+    "R_at_C1": {
+      "39139": {
+        "gained": [
+          "validation_id-00009-0"
+        ],
+        "lost": []
+      },
+      "71809": {
+        "gained": [
+          "validation_id-00002-2",
+          "validation_id-00004-3"
+        ],
+        "lost": [
+          "validation_id-00003-3",
+          "validation_id-00020-0",
+          "validation_id-00035-2",
+          "validation_id-00058-0"
+        ]
+      },
+      "92221": {
+        "gained": [
+          "validation_id-00004-0",
+          "validation_id-00007-0",
+          "validation_id-00033-0",
+          "validation_id-00035-2",
+          "validation_id-00058-2"
+        ],
+        "lost": [
+          "validation_id-00000-1",
+          "validation_id-00007-2",
+          "validation_id-00030-1",
+          "validation_id-00032-0",
+          "validation_id-00034-3",
+          "validation_id-00037-2",
+          "validation_id-00038-1",
+          "validation_id-00044-0",
+          "validation_id-00044-3",
+          "validation_id-00058-0"
+        ]
+      },
+      "130031": {
+        "gained": [],
+        "lost": [
+          "validation_id-00000-0",
+          "validation_id-00032-2",
+          "validation_id-00058-1"
+        ]
+      },
+      "175003": {
+        "gained": [
+          "validation_id-00007-0",
+          "validation_id-00008-0",
+          "validation_id-00044-1",
+          "validation_id-00058-1",
+          "validation_id-00058-2"
+        ],
+        "lost": [
+          "validation_id-00000-0",
+          "validation_id-00001-2",
+          "validation_id-00005-0",
+          "validation_id-00007-2",
+          "validation_id-00031-2",
+          "validation_id-00044-0",
+          "validation_id-00058-0"
+        ]
+      }
+    },
+    "C_at_R0": {
+      "39139": {
+        "gained": [],
+        "lost": [
+          "validation_id-00000-0",
+          "validation_id-00004-0",
+          "validation_id-00008-0",
+          "validation_id-00010-1",
+          "validation_id-00031-2",
+          "validation_id-00032-0",
+          "validation_id-00032-2",
+          "validation_id-00034-0",
+          "validation_id-00037-2",
+          "validation_id-00044-0",
+          "validation_id-00046-1",
+          "validation_id-00058-0"
+        ]
+      },
+      "71809": {
+        "gained": [
+          "validation_id-00003-3",
+          "validation_id-00020-0",
+          "validation_id-00035-2",
+          "validation_id-00058-0"
+        ],
+        "lost": [
+          "validation_id-00001-2",
+          "validation_id-00005-0",
+          "validation_id-00007-0",
+          "validation_id-00033-0",
+          "validation_id-00038-3",
+          "validation_id-00044-3"
+        ]
+      },
+      "92221": {
+        "gained": [
+          "validation_id-00000-1",
+          "validation_id-00007-2",
+          "validation_id-00032-0",
+          "validation_id-00034-3",
+          "validation_id-00038-1",
+          "validation_id-00044-3",
+          "validation_id-00058-0"
+        ],
+        "lost": [
+          "validation_id-00000-0",
+          "validation_id-00001-0",
+          "validation_id-00002-2",
+          "validation_id-00003-3",
+          "validation_id-00005-0",
+          "validation_id-00030-2",
+          "validation_id-00030-3",
+          "validation_id-00031-0",
+          "validation_id-00031-1",
+          "validation_id-00031-2",
+          "validation_id-00033-0",
+          "validation_id-00034-0",
+          "validation_id-00039-2",
+          "validation_id-00044-2",
+          "validation_id-00050-1"
+        ]
+      },
+      "130031": {
+        "gained": [
+          "validation_id-00000-0",
+          "validation_id-00032-2",
+          "validation_id-00058-1"
+        ],
+        "lost": [
+          "validation_id-00005-0",
+          "validation_id-00008-0",
+          "validation_id-00033-0",
+          "validation_id-00033-2",
+          "validation_id-00044-1",
+          "validation_id-00049-3"
+        ]
+      },
+      "175003": {
+        "gained": [
+          "validation_id-00001-2",
+          "validation_id-00005-0",
+          "validation_id-00007-2",
+          "validation_id-00032-0",
+          "validation_id-00044-0",
+          "validation_id-00058-0"
+        ],
+        "lost": [
+          "validation_id-00001-0",
+          "validation_id-00002-0",
+          "validation_id-00002-2",
+          "validation_id-00008-1",
+          "validation_id-00030-2",
+          "validation_id-00030-3",
+          "validation_id-00031-0",
+          "validation_id-00031-1",
+          "validation_id-00035-0",
+          "validation_id-00035-3",
+          "validation_id-00037-0",
+          "validation_id-00037-2",
+          "validation_id-00037-3",
+          "validation_id-00050-1",
+          "validation_id-00056-3"
+        ]
+      }
+    },
+    "C_at_R1": {
+      "39139": {
+        "gained": [
+          "validation_id-00009-0"
+        ],
+        "lost": []
+      },
+      "71809": {
+        "gained": [
+          "validation_id-00002-2",
+          "validation_id-00004-3"
+        ],
+        "lost": [
+          "validation_id-00058-1"
+        ]
+      },
+      "92221": {
+        "gained": [
+          "validation_id-00004-0",
+          "validation_id-00007-0",
+          "validation_id-00033-0",
+          "validation_id-00035-2",
+          "validation_id-00058-2"
+        ],
+        "lost": [
+          "validation_id-00004-3"
+        ]
+      },
+      "130031": {
+        "gained": [],
+        "lost": []
+      },
+      "175003": {
+        "gained": [
+          "validation_id-00007-0",
+          "validation_id-00008-0",
+          "validation_id-00032-0",
+          "validation_id-00044-1",
+          "validation_id-00058-1",
+          "validation_id-00058-2"
+        ],
+        "lost": [
+          "validation_id-00000-0",
+          "validation_id-00000-2",
+          "validation_id-00014-1",
+          "validation_id-00030-2",
+          "validation_id-00031-0",
+          "validation_id-00031-2",
+          "validation_id-00032-1",
+          "validation_id-00032-2",
+          "validation_id-00037-0"
+        ]
+      }
+    }
+  }
+}

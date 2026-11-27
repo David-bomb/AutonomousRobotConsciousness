@@ -1,0 +1,351 @@
+{
+  "tag": "early600",
+  "sha256": "8227bfbc647d8ab06b4c07f30856ca74dfb5df1c209414e46b7b17b8d29d319e",
+  "ablate": false,
+  "bank": "b1e1b5068fff122d76f6813d68648127f185b6d9cf31ca5654d9dff05615d7fa",
+  "summary": {
+    "n": 32,
+    "reached": 22,
+    "reached_tiers": [
+      8,
+      7,
+      5,
+      2
+    ],
+    "early_success": 22,
+    "wins": 0,
+    "tiers": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "both": 22,
+    "same_step": 22,
+    "failed_before": 10,
+    "failed_after": null,
+    "limits": 0
+  },
+  "episodes": [
+    {
+      "map": "prev-two-early-select-9176403-H1-01",
+      "geometry": "3683864f24f348823cc59e2e716e43fd67e0d7cd1979e93023897d3365a65868",
+      "tier": "H1",
+      "handover": 33,
+      "both_at": 33,
+      "steps": 33,
+      "outcome": "RUNNING",
+      "actions": "001122110011222211200000000000333"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H1-02",
+      "geometry": "0cd8956c735faeb3993bf47b8ae85c63b7f09b31c8b24583a62d212a6581b237",
+      "tier": "H1",
+      "handover": 11,
+      "both_at": 11,
+      "steps": 11,
+      "outcome": "RUNNING",
+      "actions": "00000033333"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H1-03",
+      "geometry": "d58226c44757d6a46fe3455a9c0aeea4ddcb3a6f5c41e5fe3114746cadefb045",
+      "tier": "H1",
+      "handover": 24,
+      "both_at": 24,
+      "steps": 24,
+      "outcome": "RUNNING",
+      "actions": "111122322111113333322111"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H1-04",
+      "geometry": "821e1c2a5486902ad113c9e2bd4ebe7455fc6f6786f064d84af0307ace14514d",
+      "tier": "H1",
+      "handover": 26,
+      "both_at": 26,
+      "steps": 26,
+      "outcome": "RUNNING",
+      "actions": "33333220033332220001111222"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H1-05",
+      "geometry": "cc7862ce1abcef495adfb8d3bcb01d5158be6e6959de5ad4dfa2eaea8e8224b0",
+      "tier": "H1",
+      "handover": 20,
+      "both_at": 20,
+      "steps": 20,
+      "outcome": "RUNNING",
+      "actions": "11111112554113662222"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H1-06",
+      "geometry": "f862777206bb38effd70f8b80d8d1f738bae17eb7a0ca4219174258184d51123",
+      "tier": "H1",
+      "handover": 14,
+      "both_at": 14,
+      "steps": 14,
+      "outcome": "RUNNING",
+      "actions": "23300330033222"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H1-07",
+      "geometry": "44e59e29d066c8089b30e60377b0ddf806294fe237a4cb2b89000a5e7b5a11e1",
+      "tier": "H1",
+      "handover": 24,
+      "both_at": 24,
+      "steps": 24,
+      "outcome": "RUNNING",
+      "actions": "233222211223322311122221"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H1-08",
+      "geometry": "e0a0947b2289fdccd15d3c2748885c48ff81e6e1dfb091595077c4b1dcf4f192",
+      "tier": "H1",
+      "handover": 31,
+      "both_at": 31,
+      "steps": 31,
+      "outcome": "RUNNING",
+      "actions": "1111133333331131322133322111111"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H2-01",
+      "geometry": "cfb15a8f0119ac3a6f624cb30c75cae90d16e07753f1d2013b04bedb58943d79",
+      "tier": "H2",
+      "handover": 35,
+      "both_at": 35,
+      "steps": 35,
+      "outcome": "RUNNING",
+      "actions": "30000112200332200333333333322111111"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H2-02",
+      "geometry": "88586efee1f85ea26d43d665112eeaf71baf403a0099569594dbec8dac7c5655",
+      "tier": "H2",
+      "handover": 48,
+      "both_at": 48,
+      "steps": 48,
+      "outcome": "RUNNING",
+      "actions": "200333300332033332233332200111100111111221111222"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H2-03",
+      "geometry": "e5cd5d24f406c1ec27d5ae25b31d2f9ab128d8f422a7a37d55de338715bb5848",
+      "tier": "H2",
+      "handover": 29,
+      "both_at": 29,
+      "steps": 29,
+      "outcome": "RUNNING",
+      "actions": "30011000000333322333111222233"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H2-04",
+      "geometry": "ec2e17a690ef9218b7e16271a4f6dd5711154ad648cbec251c8a55df1f4db434",
+      "tier": "H2",
+      "handover": 25,
+      "both_at": 25,
+      "steps": 25,
+      "outcome": "RUNNING",
+      "actions": "1023300001322221122111100"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H2-05",
+      "geometry": "b7a241e49d7b9f07f1a485f102e223e7d08b9916274a40d73cc263309539a98f",
+      "tier": "H2",
+      "handover": 35,
+      "both_at": 35,
+      "steps": 35,
+      "outcome": "RUNNING",
+      "actions": "22223322277670333311112231054552112"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H2-06",
+      "geometry": "7ac55dbd7ea2414e6bb438ea4447e44e1189df83260ca778b3c84cca44d364f6",
+      "tier": "H2",
+      "handover": 19,
+      "both_at": 19,
+      "steps": 19,
+      "outcome": "RUNNING",
+      "actions": "2220332222226700332"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H2-07",
+      "geometry": "eacb12689fa83d19434519930aa28d6525dab2ffd9ada17b4a0591a6456f934a",
+      "tier": "H2",
+      "handover": 37,
+      "both_at": 37,
+      "steps": 37,
+      "outcome": "RUNNING",
+      "actions": "3300000033333300111333220000003322332"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H2-08",
+      "geometry": "39ae24e8ceb0c47595af8ebf350c520ee7df346785ae4bc8cf3af63563ff83bb",
+      "tier": "H2",
+      "handover": null,
+      "both_at": null,
+      "steps": 48,
+      "outcome": "EMPTY",
+      "actions": "200112222222031200000001111000011022222112211112"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H3-01",
+      "geometry": "ecd5788cf2698d10738e6508a02b034a881aab8688a6e4de073f120019ac6eaa",
+      "tier": "H3",
+      "handover": null,
+      "both_at": null,
+      "steps": 26,
+      "outcome": "BROKEN",
+      "actions": "30213021302130222223333000"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H3-02",
+      "geometry": "fbbd07d8333e1c5c4e1123df1ee37220d30b3f15aa8399500e024901f4da0b3b",
+      "tier": "H3",
+      "handover": null,
+      "both_at": null,
+      "steps": 44,
+      "outcome": "EMPTY",
+      "actions": "33332222222231000000001111000000746232333303"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H3-03",
+      "geometry": "5115655695b93dc5beb1f24d6b4326e63cca7aa02a280c4d9692d5d79b2f4631",
+      "tier": "H3",
+      "handover": 31,
+      "both_at": 31,
+      "steps": 31,
+      "outcome": "RUNNING",
+      "actions": "1332222111122111122545400315441"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H3-04",
+      "geometry": "851ce2459a885a427259b27b2c4dd2656dc6a250c5154c0cac78ed61e3c6f7a4",
+      "tier": "H3",
+      "handover": 43,
+      "both_at": 43,
+      "steps": 43,
+      "outcome": "RUNNING",
+      "actions": "2332222221322111113333300111111001100111111"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H3-05",
+      "geometry": "5e6ece4d5d3eb07a02928f0133e911772dff680760f2a7eb0014ee7839c51a01",
+      "tier": "H3",
+      "handover": 21,
+      "both_at": 21,
+      "steps": 21,
+      "outcome": "RUNNING",
+      "actions": "100002233000333315222"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H3-06",
+      "geometry": "78a2f31c9a7d4f4aa12113dce4fbe51cca6ba5ce45665fb153a44c5638902ac7",
+      "tier": "H3",
+      "handover": 12,
+      "both_at": 12,
+      "steps": 12,
+      "outcome": "RUNNING",
+      "actions": "033676733330"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H3-07",
+      "geometry": "06f9f58f8d6baae4062d595893a3edb74964b441ce9e977c680a301aead51e5b",
+      "tier": "H3",
+      "handover": null,
+      "both_at": null,
+      "steps": 36,
+      "outcome": "EMPTY",
+      "actions": "000003102110022332222222233332213332"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H3-08",
+      "geometry": "c1d87272476e1e0426af7618ccc2a63c7079d19f8d42ea75c0ff2376d66b6b7d",
+      "tier": "H3",
+      "handover": 16,
+      "both_at": 16,
+      "steps": 16,
+      "outcome": "RUNNING",
+      "actions": "2222222211512223"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H4-01",
+      "geometry": "8965cc267c46cddc8b139455e39bc1b2bc9792365e8117f56e8f92c782e1165f",
+      "tier": "H4",
+      "handover": 62,
+      "both_at": 62,
+      "steps": 62,
+      "outcome": "RUNNING",
+      "actions": "00000112211000011222200003322223300332222222222222222112222330"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H4-02",
+      "geometry": "a9e670c39fe6ee6b09de796edb0a66112d9fc2c9cd9e360c46f0a9fff5dfab6b",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 18,
+      "outcome": "EMPTY",
+      "actions": "577330011007676223"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H4-03",
+      "geometry": "b7a1df2491fbc2162e8ceeab17b999b10e68f8f884e9911ce7ea5774acf9f3b4",
+      "tier": "H4",
+      "handover": 25,
+      "both_at": 25,
+      "steps": 25,
+      "outcome": "RUNNING",
+      "actions": "2211112222112222222222223"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H4-04",
+      "geometry": "f112e5944a93df593d9ca651ae381215cea368cd525a80624a837bc94abae36c",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 28,
+      "outcome": "BROKEN",
+      "actions": "2003120003347647564632223331"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H4-05",
+      "geometry": "52c1c53c46c9aada44bf6dbabcb87fd930c1495a16399944e2bfedfe4edc3315",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 12,
+      "outcome": "BROKEN",
+      "actions": "022221111222"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H4-06",
+      "geometry": "409627cb2d8dbe2274ae78255cce17e56598ffe125c61d15cefd1c452289fa0b",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 44,
+      "outcome": "BROKEN",
+      "actions": "11003300003100331122112011112020000011001300"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H4-07",
+      "geometry": "6feb8d13b51036f9a24df5f6da81537f635cd3cd2904083e01668450643af078",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 28,
+      "outcome": "EMPTY",
+      "actions": "2222362207247541000033000033"
+    },
+    {
+      "map": "prev-two-early-select-9176403-H4-08",
+      "geometry": "6c8514bcd53f469f2591f13e3dab47c5434b9fd03c9db4640be4ae7163c172c1",
+      "tier": "H4",
+      "handover": null,
+      "both_at": null,
+      "steps": 24,
+      "outcome": "EMPTY",
+      "actions": "222220333333333322221111"
+    }
+  ]
+}

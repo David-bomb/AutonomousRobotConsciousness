@@ -1,0 +1,289 @@
+{
+  "weights_sha256": "bec9166f3c4ffd63740ab1c17a5e3f69a4639a756833187adee4a42b688d7200",
+  "groups": {
+    "H1": {
+      "corridors": {
+        "wins": 6,
+        "by_tier": {
+          "H1": 6,
+          "H2": 0,
+          "H3": 0,
+          "H4": 0
+        },
+        "outcomes": {
+          "SUCCESS": 6,
+          "BROKEN": 1
+        },
+        "fuel": 7,
+        "repair": 7,
+        "either": 7,
+        "both": 7
+      },
+      "branching": {
+        "wins": 6,
+        "by_tier": {
+          "H1": 6,
+          "H2": 0,
+          "H3": 0,
+          "H4": 0
+        },
+        "outcomes": {
+          "SUCCESS": 6
+        },
+        "fuel": 6,
+        "repair": 6,
+        "either": 6,
+        "both": 6
+      },
+      "loops": {
+        "wins": 5,
+        "by_tier": {
+          "H1": 5,
+          "H2": 0,
+          "H3": 0,
+          "H4": 0
+        },
+        "outcomes": {
+          "SUCCESS": 5,
+          "EMPTY": 1
+        },
+        "fuel": 5,
+        "repair": 5,
+        "either": 5,
+        "both": 5
+      },
+      "rooms": {
+        "wins": 6,
+        "by_tier": {
+          "H1": 6,
+          "H2": 0,
+          "H3": 0,
+          "H4": 0
+        },
+        "outcomes": {
+          "SUCCESS": 6
+        },
+        "fuel": 6,
+        "repair": 6,
+        "either": 6,
+        "both": 6
+      }
+    },
+    "H2": {
+      "corridors": {
+        "wins": 3,
+        "by_tier": {
+          "H1": 0,
+          "H2": 3,
+          "H3": 0,
+          "H4": 0
+        },
+        "outcomes": {
+          "SUCCESS": 3,
+          "BROKEN": 1,
+          "EMPTY": 2
+        },
+        "fuel": 5,
+        "repair": 4,
+        "either": 5,
+        "both": 4
+      },
+      "branching": {
+        "wins": 7,
+        "by_tier": {
+          "H1": 0,
+          "H2": 7,
+          "H3": 0,
+          "H4": 0
+        },
+        "outcomes": {
+          "SUCCESS": 7
+        },
+        "fuel": 7,
+        "repair": 7,
+        "either": 7,
+        "both": 7
+      },
+      "loops": {
+        "wins": 3,
+        "by_tier": {
+          "H1": 0,
+          "H2": 3,
+          "H3": 0,
+          "H4": 0
+        },
+        "outcomes": {
+          "SUCCESS": 3,
+          "BROKEN": 1,
+          "EMPTY": 2
+        },
+        "fuel": 4,
+        "repair": 3,
+        "either": 4,
+        "both": 3
+      },
+      "rooms": {
+        "wins": 4,
+        "by_tier": {
+          "H1": 0,
+          "H2": 4,
+          "H3": 0,
+          "H4": 0
+        },
+        "outcomes": {
+          "BROKEN": 2,
+          "SUCCESS": 4
+        },
+        "fuel": 5,
+        "repair": 4,
+        "either": 5,
+        "both": 4
+      }
+    },
+    "H3": {
+      "corridors": {
+        "wins": 2,
+        "by_tier": {
+          "H1": 0,
+          "H2": 0,
+          "H3": 2,
+          "H4": 0
+        },
+        "outcomes": {
+          "BROKEN": 1,
+          "SUCCESS": 2,
+          "EMPTY": 3
+        },
+        "fuel": 5,
+        "repair": 5,
+        "either": 6,
+        "both": 4
+      },
+      "branching": {
+        "wins": 3,
+        "by_tier": {
+          "H1": 0,
+          "H2": 0,
+          "H3": 3,
+          "H4": 0
+        },
+        "outcomes": {
+          "SUCCESS": 3,
+          "BROKEN": 2,
+          "EMPTY": 1
+        },
+        "fuel": 5,
+        "repair": 5,
+        "either": 6,
+        "both": 4
+      },
+      "loops": {
+        "wins": 2,
+        "by_tier": {
+          "H1": 0,
+          "H2": 0,
+          "H3": 2,
+          "H4": 0
+        },
+        "outcomes": {
+          "BROKEN": 3,
+          "SUCCESS": 2,
+          "EMPTY": 2
+        },
+        "fuel": 4,
+        "repair": 3,
+        "either": 5,
+        "both": 2
+      },
+      "rooms": {
+        "wins": 5,
+        "by_tier": {
+          "H1": 0,
+          "H2": 0,
+          "H3": 5,
+          "H4": 0
+        },
+        "outcomes": {
+          "EMPTY": 1,
+          "SUCCESS": 5
+        },
+        "fuel": 6,
+        "repair": 6,
+        "either": 6,
+        "both": 6
+      }
+    },
+    "H4": {
+      "corridors": {
+        "wins": 2,
+        "by_tier": {
+          "H1": 0,
+          "H2": 0,
+          "H3": 0,
+          "H4": 2
+        },
+        "outcomes": {
+          "EMPTY": 2,
+          "BROKEN": 2,
+          "SUCCESS": 2
+        },
+        "fuel": 3,
+        "repair": 2,
+        "either": 3,
+        "both": 2
+      },
+      "branching": {
+        "wins": 1,
+        "by_tier": {
+          "H1": 0,
+          "H2": 0,
+          "H3": 0,
+          "H4": 1
+        },
+        "outcomes": {
+          "BROKEN": 3,
+          "EMPTY": 2,
+          "SUCCESS": 1
+        },
+        "fuel": 3,
+        "repair": 1,
+        "either": 3,
+        "both": 1
+      },
+      "loops": {
+        "wins": 4,
+        "by_tier": {
+          "H1": 0,
+          "H2": 0,
+          "H3": 0,
+          "H4": 4
+        },
+        "outcomes": {
+          "BROKEN": 2,
+          "SUCCESS": 4
+        },
+        "fuel": 6,
+        "repair": 4,
+        "either": 6,
+        "both": 4
+      },
+      "rooms": {
+        "wins": 0,
+        "by_tier": {
+          "H1": 0,
+          "H2": 0,
+          "H3": 0,
+          "H4": 0
+        },
+        "outcomes": {
+          "EMPTY": 5,
+          "BROKEN": 2
+        },
+        "fuel": 1,
+        "repair": 0,
+        "either": 1,
+        "both": 0
+      }
+    }
+  }
+}

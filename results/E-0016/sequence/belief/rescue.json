@@ -1,0 +1,1116 @@
+{
+  "source": "64354b0aa4101aeb1b2a74a633947d063511717fdba245b3f3f7ebb5af013b37",
+  "cycles": "51f0555e25af1f49bfa38eb60b1200a794ed388427c01bbcab689207affa633a",
+  "n": 32,
+  "summary": {
+    "one": {
+      "LIMIT": 2,
+      "BROKEN": 18,
+      "SUCCESS": 3,
+      "EMPTY": 9
+    },
+    "joint": {
+      "LIMIT": 2,
+      "BROKEN": 16,
+      "SUCCESS": 4,
+      "EMPTY": 10
+    },
+    "optimistic": {
+      "SUCCESS": 25,
+      "EMPTY": 3,
+      "BROKEN": 4
+    }
+  },
+  "records": [
+    {
+      "map": "sequence-train-9161110-H1-03",
+      "prefix": 414,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "LIMIT",
+          "steps": 3528,
+          "roles": {
+            "network": 1353,
+            "true_sensor": 1761
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "LIMIT",
+          "steps": 3528,
+          "roles": {
+            "network": 1353,
+            "true_sensor": 1761
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 460,
+          "roles": {
+            "future-0": 44,
+            "known": 2
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-09",
+      "prefix": 428,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 528,
+          "roles": {
+            "one": 52,
+            "network": 2,
+            "true_sensor": 46
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 528,
+          "roles": {
+            "future-1": 52,
+            "network": 2,
+            "true_sensor": 46
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "EMPTY",
+          "steps": 534,
+          "roles": {
+            "future-1": 59,
+            "future-0": 12,
+            "one": 21,
+            "true_sensor": 14
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H1-22",
+      "prefix": 507,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "SUCCESS",
+          "steps": 560,
+          "roles": {
+            "one": 52,
+            "known": 1
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "SUCCESS",
+          "steps": 560,
+          "roles": {
+            "future-1": 52,
+            "known": 1
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 560,
+          "roles": {
+            "future-1": 52,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-01",
+      "prefix": 961,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "EMPTY",
+          "steps": 1061,
+          "roles": {
+            "one": 51,
+            "true_sensor": 49
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 1061,
+          "roles": {
+            "future-1": 51,
+            "true_sensor": 49
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "EMPTY",
+          "steps": 1061,
+          "roles": {
+            "future-1": 51,
+            "future-0": 31,
+            "true_sensor": 18
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-02",
+      "prefix": 1509,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 1595,
+          "roles": {
+            "one": 46,
+            "network": 3,
+            "true_sensor": 37
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 1609,
+          "roles": {
+            "future-1": 57,
+            "true_sensor": 43
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 1569,
+          "roles": {
+            "future-1": 57,
+            "future-0": 2,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-04",
+      "prefix": 1345,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "SUCCESS",
+          "steps": 1401,
+          "roles": {
+            "one": 55,
+            "known": 1
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "SUCCESS",
+          "steps": 1401,
+          "roles": {
+            "future-1": 55,
+            "known": 1
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 1401,
+          "roles": {
+            "future-1": 55,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-13",
+      "prefix": 395,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 495,
+          "roles": {
+            "one": 59,
+            "true_sensor": 41
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 495,
+          "roles": {
+            "future-1": 59,
+            "true_sensor": 41
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 468,
+          "roles": {
+            "future-1": 59,
+            "future-0": 13,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-14",
+      "prefix": 2100,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "EMPTY",
+          "steps": 2200,
+          "roles": {
+            "one": 59,
+            "true_sensor": 41
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 2200,
+          "roles": {
+            "future-1": 59,
+            "true_sensor": 41
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 2164,
+          "roles": {
+            "future-1": 59,
+            "future-0": 3,
+            "known": 2
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H2-16",
+      "prefix": 278,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 382,
+          "roles": {
+            "one": 74,
+            "true_sensor": 30
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 382,
+          "roles": {
+            "future-1": 74,
+            "true_sensor": 30
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 365,
+          "roles": {
+            "future-1": 74,
+            "future-0": 12,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-05",
+      "prefix": 372,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "LIMIT",
+          "steps": 6696,
+          "roles": {
+            "true_sensor": 3164,
+            "network": 3160
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "LIMIT",
+          "steps": 6696,
+          "roles": {
+            "true_sensor": 3164,
+            "network": 3160
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 391,
+          "roles": {
+            "future-0": 18,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-06",
+      "prefix": 659,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 751,
+          "roles": {
+            "one": 45,
+            "true_sensor": 47
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 751,
+          "roles": {
+            "future-1": 45,
+            "true_sensor": 47
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 728,
+          "roles": {
+            "future-1": 45,
+            "future-0": 23,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-08",
+      "prefix": 304,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "EMPTY",
+          "steps": 404,
+          "roles": {
+            "one": 52,
+            "true_sensor": 48
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 404,
+          "roles": {
+            "future-1": 52,
+            "true_sensor": 48
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 373,
+          "roles": {
+            "future-1": 52,
+            "future-0": 15,
+            "known": 2
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-09",
+      "prefix": 430,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 530,
+          "roles": {
+            "one": 59,
+            "true_sensor": 41
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 530,
+          "roles": {
+            "future-1": 59,
+            "true_sensor": 41
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 528,
+          "roles": {
+            "future-1": 59,
+            "future-0": 37,
+            "known": 2
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-11",
+      "prefix": 3546,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "EMPTY",
+          "steps": 3623,
+          "roles": {
+            "one": 42,
+            "true_sensor": 35
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 3646,
+          "roles": {
+            "future-1": 63,
+            "true_sensor": 37
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "BROKEN",
+          "steps": 3646,
+          "roles": {
+            "future-1": 63,
+            "future-0": 2,
+            "true_sensor": 35
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-12",
+      "prefix": 2997,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "EMPTY",
+          "steps": 3066,
+          "roles": {
+            "one": 34,
+            "true_sensor": 35
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 3066,
+          "roles": {
+            "future-1": 34,
+            "true_sensor": 35
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 3049,
+          "roles": {
+            "future-1": 34,
+            "future-0": 17,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-16",
+      "prefix": 813,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 896,
+          "roles": {
+            "one": 41,
+            "true_sensor": 42
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 896,
+          "roles": {
+            "future-1": 38,
+            "one": 5,
+            "true_sensor": 40
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "BROKEN",
+          "steps": 896,
+          "roles": {
+            "future-1": 38,
+            "one": 5,
+            "true_sensor": 40
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-19",
+      "prefix": 1429,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 1503,
+          "roles": {
+            "one": 43,
+            "true_sensor": 31
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 1503,
+          "roles": {
+            "future-1": 44,
+            "true_sensor": 30
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 1488,
+          "roles": {
+            "future-1": 44,
+            "future-0": 13,
+            "known": 2
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H3-25",
+      "prefix": 470,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "EMPTY",
+          "steps": 519,
+          "roles": {
+            "one": 20,
+            "true_sensor": 29
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 519,
+          "roles": {
+            "future-1": 20,
+            "true_sensor": 29
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 497,
+          "roles": {
+            "future-1": 20,
+            "future-0": 5,
+            "known": 2
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-02",
+      "prefix": 4496,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 4585,
+          "roles": {
+            "one": 51,
+            "true_sensor": 38
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 4813,
+          "roles": {
+            "future-1": 135,
+            "both": 97,
+            "one": 45,
+            "true_sensor": 40
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 4782,
+          "roles": {
+            "future-1": 135,
+            "both": 97,
+            "future-0": 53,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-04",
+      "prefix": 2787,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 2868,
+          "roles": {
+            "one": 40,
+            "true_sensor": 41
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 2868,
+          "roles": {
+            "future-1": 40,
+            "true_sensor": 41
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "BROKEN",
+          "steps": 2868,
+          "roles": {
+            "future-1": 40,
+            "future-0": 34,
+            "true_sensor": 7
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-05",
+      "prefix": 2108,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "EMPTY",
+          "steps": 2200,
+          "roles": {
+            "one": 45,
+            "true_sensor": 47
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 2200,
+          "roles": {
+            "future-1": 45,
+            "true_sensor": 47
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 2180,
+          "roles": {
+            "future-1": 45,
+            "future-0": 26,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-07",
+      "prefix": 1038,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 1113,
+          "roles": {
+            "one": 37,
+            "true_sensor": 38
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "SUCCESS",
+          "steps": 1096,
+          "roles": {
+            "future-1": 57,
+            "known": 1
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 1096,
+          "roles": {
+            "future-1": 57,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-11",
+      "prefix": 3094,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 3183,
+          "roles": {
+            "one": 44,
+            "true_sensor": 45
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 3183,
+          "roles": {
+            "future-1": 72,
+            "true_sensor": 17
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 3177,
+          "roles": {
+            "future-1": 72,
+            "future-0": 10,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-12",
+      "prefix": 4094,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "EMPTY",
+          "steps": 4171,
+          "roles": {
+            "one": 46,
+            "true_sensor": 31
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 4171,
+          "roles": {
+            "future-1": 46,
+            "true_sensor": 31
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 4143,
+          "roles": {
+            "future-1": 46,
+            "future-0": 1,
+            "known": 2
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-14",
+      "prefix": 4762,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "EMPTY",
+          "steps": 4831,
+          "roles": {
+            "one": 43,
+            "true_sensor": 26
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 4831,
+          "roles": {
+            "future-1": 43,
+            "true_sensor": 26
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "EMPTY",
+          "steps": 4831,
+          "roles": {
+            "future-1": 43,
+            "future-0": 15,
+            "true_sensor": 11
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-15",
+      "prefix": 741,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 826,
+          "roles": {
+            "one": 42,
+            "true_sensor": 43
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 826,
+          "roles": {
+            "future-1": 42,
+            "true_sensor": 43
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 791,
+          "roles": {
+            "future-1": 42,
+            "future-0": 7,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-16",
+      "prefix": 289,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 383,
+          "roles": {
+            "one": 46,
+            "true_sensor": 48
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 383,
+          "roles": {
+            "future-1": 46,
+            "true_sensor": 48
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 368,
+          "roles": {
+            "future-1": 46,
+            "future-0": 32,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-17",
+      "prefix": 198,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 242,
+          "roles": {
+            "one": 21,
+            "true_sensor": 23
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 242,
+          "roles": {
+            "future-1": 21,
+            "true_sensor": 23
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "BROKEN",
+          "steps": 242,
+          "roles": {
+            "future-1": 21,
+            "future-0": 15,
+            "true_sensor": 8
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-18",
+      "prefix": 5294,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "SUCCESS",
+          "steps": 5330,
+          "roles": {
+            "one": 35,
+            "known": 1
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "SUCCESS",
+          "steps": 5326,
+          "roles": {
+            "future-1": 31,
+            "known": 1
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 5326,
+          "roles": {
+            "future-1": 31,
+            "known": 1
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-20",
+      "prefix": 1211,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 1276,
+          "roles": {
+            "one": 32,
+            "true_sensor": 33
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "EMPTY",
+          "steps": 1311,
+          "roles": {
+            "future-1": 71,
+            "true_sensor": 29
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 1306,
+          "roles": {
+            "future-1": 71,
+            "future-0": 22,
+            "known": 2
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-21",
+      "prefix": 658,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 718,
+          "roles": {
+            "one": 29,
+            "true_sensor": 31
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 718,
+          "roles": {
+            "future-1": 29,
+            "true_sensor": 31
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 717,
+          "roles": {
+            "future-1": 29,
+            "future-0": 28,
+            "known": 2
+          }
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161110-H4-25",
+      "prefix": 270,
+      "trials": [
+        {
+          "mode": "one",
+          "outcome": "BROKEN",
+          "steps": 370,
+          "roles": {
+            "one": 53,
+            "true_sensor": 47
+          }
+        },
+        {
+          "mode": "joint",
+          "outcome": "BROKEN",
+          "steps": 370,
+          "roles": {
+            "future-1": 53,
+            "true_sensor": 47
+          }
+        },
+        {
+          "mode": "optimistic",
+          "outcome": "SUCCESS",
+          "steps": 352,
+          "roles": {
+            "future-1": 53,
+            "future-0": 28,
+            "known": 1
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "options": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      12.0,
+      0.0,
+      3.0,
+      0.0,
+      3.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      12.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      0.0,
+      0.0,
+      2.0,
+      1.0
+    ],
+    [
+      12.0,
+      3.0,
+      0.0,
+      3.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      12.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      0.0
+    ],
+    [
+      12.0,
+      0.75,
+      0.75,
+      0.75,
+      1.25,
+      0.0,
+      0.0,
+      1.0,
+      0.25
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "handover-train-9165411-H3-08",
+      "tier": "H3",
+      "model": 0,
+      "gate": true,
+      "prefix": 40,
+      "outcome": "EMPTY",
+      "steps": 3203,
+      "refuels": 33,
+      "repairs": 37,
+      "actions_sha256": "ac9d24d38045e5d381beb76d26a7f4eecb31860073fa5c4b524af90846165f74"
+    },
+    {
+      "map": "handover-train-9165411-H3-08",
+      "tier": "H3",
+      "model": 1,
+      "gate": true,
+      "prefix": 40,
+      "outcome": "SUCCESS",
+      "steps": 2388,
+      "refuels": 24,
+      "repairs": 28,
+      "actions_sha256": "adb37b570838c853e83324e3ac651b2bd816aaec02193fe3b479423d3fdf7e9f"
+    },
+    {
+      "map": "handover-train-9165411-H3-08",
+      "tier": "H3",
+      "model": 2,
+      "gate": true,
+      "prefix": 40,
+      "outcome": "SUCCESS",
+      "steps": 2565,
+      "refuels": 27,
+      "repairs": 30,
+      "actions_sha256": "0beaee926bd9eeae63bab40c4576bf885560c0963f8d45f0ecbb3695b6273972"
+    },
+    {
+      "map": "handover-train-9165411-H3-08",
+      "tier": "H3",
+      "model": 3,
+      "gate": true,
+      "prefix": 40,
+      "outcome": "SUCCESS",
+      "steps": 2927,
+      "refuels": 30,
+      "repairs": 35,
+      "actions_sha256": "ec7422c4978f8e18b4c06b85051a943aeff73bd6fb8fdf40c6fad45f3690af19"
+    },
+    {
+      "map": "handover-train-9165411-H3-08",
+      "tier": "H3",
+      "model": 4,
+      "gate": true,
+      "prefix": 40,
+      "outcome": "EMPTY",
+      "steps": 3203,
+      "refuels": 33,
+      "repairs": 37,
+      "actions_sha256": "59a924606d3b636545b8a8563bbe59f7149790b8a3ce079d3d38cb8c1ddc0bb5"
+    },
+    {
+      "map": "handover-train-9165411-H3-08",
+      "tier": "H3",
+      "model": 5,
+      "gate": true,
+      "prefix": 40,
+      "outcome": "exact_cycle",
+      "steps": 2750,
+      "refuels": 30,
+      "repairs": 32,
+      "actions_sha256": "33f64793558a2e71c631ab8e078133c52eef8c7e167622cbf053cdeba6563064"
+    }
+  ]
+}

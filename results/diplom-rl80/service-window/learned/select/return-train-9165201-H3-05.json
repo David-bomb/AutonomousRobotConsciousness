@@ -1,0 +1,126 @@
+{
+  "configs": [
+    [
+      9,
+      9,
+      -101
+    ],
+    [
+      8,
+      9,
+      -101
+    ],
+    [
+      7,
+      9,
+      -101
+    ],
+    [
+      8,
+      8,
+      -101
+    ],
+    [
+      0,
+      0,
+      -101
+    ],
+    [
+      10,
+      10,
+      -101
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "return-train-9165201-H3-05",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "steps": 2576,
+      "refuels": 28,
+      "repairs": 28,
+      "late_steps": 2539,
+      "first_late": 37,
+      "first_both": 37,
+      "before_both": 0,
+      "after_both_early": 0,
+      "actions_sha256": "961a0e3b06f63333ed8306233f23c3c6fcb521a7960f294c1b89aaa3ed7886c1"
+    },
+    {
+      "map": "return-train-9165201-H3-05",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "steps": 2576,
+      "refuels": 28,
+      "repairs": 28,
+      "late_steps": 2542,
+      "first_late": 34,
+      "first_both": 37,
+      "before_both": 3,
+      "after_both_early": 0,
+      "actions_sha256": "961a0e3b06f63333ed8306233f23c3c6fcb521a7960f294c1b89aaa3ed7886c1"
+    },
+    {
+      "map": "return-train-9165201-H3-05",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "SUCCESS",
+      "steps": 2576,
+      "refuels": 28,
+      "repairs": 28,
+      "late_steps": 2545,
+      "first_late": 31,
+      "first_both": 37,
+      "before_both": 6,
+      "after_both_early": 0,
+      "actions_sha256": "961a0e3b06f63333ed8306233f23c3c6fcb521a7960f294c1b89aaa3ed7886c1"
+    },
+    {
+      "map": "return-train-9165201-H3-05",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "steps": 2576,
+      "refuels": 28,
+      "repairs": 28,
+      "late_steps": 2542,
+      "first_late": 34,
+      "first_both": 37,
+      "before_both": 3,
+      "after_both_early": 0,
+      "actions_sha256": "961a0e3b06f63333ed8306233f23c3c6fcb521a7960f294c1b89aaa3ed7886c1"
+    },
+    {
+      "map": "return-train-9165201-H3-05",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "EMPTY",
+      "steps": 2364,
+      "refuels": 25,
+      "repairs": 26,
+      "late_steps": 2364,
+      "first_late": 0,
+      "first_both": 19,
+      "before_both": 19,
+      "after_both_early": 0,
+      "actions_sha256": "8b16c4d3afc4beae6114b8a5eaf1a02333cb1c836a2dead26fb04eb3b2bc21ee"
+    },
+    {
+      "map": "return-train-9165201-H3-05",
+      "tier": "H3",
+      "model": 5,
+      "outcome": "exact_cycle",
+      "steps": 1585,
+      "refuels": 16,
+      "repairs": 18,
+      "late_steps": 0,
+      "first_late": null,
+      "first_both": 37,
+      "before_both": 0,
+      "after_both_early": 1548,
+      "actions_sha256": "317380fb8689f5a214efdf1178e0fba8423095851aca1d44673f57444f9f01ea"
+    }
+  ]
+}

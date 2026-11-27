@@ -1,0 +1,115 @@
+{
+  "options": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      3.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      6.0,
+      2.0,
+      0.0,
+      0.0,
+      2.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      4.0,
+      0.0,
+      3.0,
+      0.0,
+      3.0,
+      4.0,
+      0.0
+    ],
+    [
+      3.25,
+      0.75,
+      1.0,
+      0.0,
+      1.25,
+      1.25,
+      0.0
+    ]
+  ],
+  "protocol": "f545d6fbdcaff46a8770dd48298ad3358dccb861a50dcd208bf31c8ef7a062b0",
+  "episodes": [
+    {
+      "map": "handover-train-9165411-H4-13",
+      "tier": "H4",
+      "model": 0,
+      "outcome": "EMPTY",
+      "gate": false,
+      "early_steps": 20,
+      "prefix_sha256": "de28a81d7e04e9f9e1eee5a33806dd1c161cd93d0ffef87adbe0fbd5f16dd3f6"
+    },
+    {
+      "map": "handover-train-9165411-H4-13",
+      "tier": "H4",
+      "model": 1,
+      "outcome": "EMPTY",
+      "gate": false,
+      "early_steps": 20,
+      "prefix_sha256": "3f4450e2b4f2a7964b2bfe1aa52083df457bb6bb504123c66ff1de8ee6515ae5"
+    },
+    {
+      "map": "handover-train-9165411-H4-13",
+      "tier": "H4",
+      "model": 2,
+      "outcome": "EMPTY",
+      "gate": false,
+      "early_steps": 20,
+      "prefix_sha256": "3f4450e2b4f2a7964b2bfe1aa52083df457bb6bb504123c66ff1de8ee6515ae5"
+    },
+    {
+      "map": "handover-train-9165411-H4-13",
+      "tier": "H4",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "gate": true,
+      "early_steps": 27,
+      "prefix_sha256": "3fa096169a07a03aa98fa1e97b677ef9e2b0ff009416de0ffdb18435cd268955"
+    },
+    {
+      "map": "handover-train-9165411-H4-13",
+      "tier": "H4",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "gate": true,
+      "early_steps": 27,
+      "prefix_sha256": "3fa096169a07a03aa98fa1e97b677ef9e2b0ff009416de0ffdb18435cd268955"
+    },
+    {
+      "map": "handover-train-9165411-H4-13",
+      "tier": "H4",
+      "model": 5,
+      "outcome": "EMPTY",
+      "gate": false,
+      "early_steps": 20,
+      "prefix_sha256": "3f4450e2b4f2a7964b2bfe1aa52083df457bb6bb504123c66ff1de8ee6515ae5"
+    }
+  ]
+}

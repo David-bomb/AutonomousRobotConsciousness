@@ -1,0 +1,46 @@
+{
+  "episodes": 100,
+  "successes": {
+    "validation-1": 28
+  },
+  "passed": null,
+  "kind": "validation",
+  "controller_sha256": "ad6cc4e805015fad090220bd1c08cdb9cc4718d873976274898dc27446ce050b",
+  "checkpoint_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "lock_sha256": "c39f348a742f579bc28d23bf5b126739c29bef6f29b9e8a29a577f20a0d5fc38",
+  "spec_sha256": "99a185a1425b1a236400ae2466bbbefc3410e1f468f85e368614ce6d2c5099ab",
+  "episodes_sha256": "8eda409269e7fb8eee5377aaf33c869d144c9afb0e86389e87d5879a4263ed01",
+  "reference_sha256": "532ef5cf5176bdc60daae57d58f875dce9f42d779e8315fe66206100b2201a08",
+  "reference": {
+    "outcomes": {
+      "EMPTY": 33,
+      "SUCCESS": 28,
+      "BROKEN": 38,
+      "LIMIT": 1
+    },
+    "steps": 11107,
+    "refuels": 910,
+    "repairs": 896,
+    "both_services": 43
+  },
+  "independent": {
+    "outcomes": {
+      "EMPTY": 33,
+      "SUCCESS": 28,
+      "BROKEN": 38,
+      "LIMIT": 1
+    },
+    "steps": 11107,
+    "refuels": 910,
+    "repairs": 896,
+    "both_services": 43
+  },
+  "matched_in_all_fields": 100,
+  "matched_per_field": {
+    "outcome": 100,
+    "steps": 100,
+    "refuels": 100,
+    "repairs": 100
+  },
+  "differences": []
+}

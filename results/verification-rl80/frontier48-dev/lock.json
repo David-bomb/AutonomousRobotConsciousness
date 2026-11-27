@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "runtime": {
+    "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.8.0+cu129",
+    "numpy": "2.2.6"
+  },
+  "adapter": "results/verification-rl80/frontier48-dev/bridge.py",
+  "adapter_sha256": "7f782769c57c9f321b75ec141b12d9db3376d3520d198b42e8d8e12b025b542a",
+  "checkpoint": "results/verification-rl80/frontier48-dev/frozen/model.pt",
+  "checkpoint_sha256": "c921c6cfe26fee80b0ba5bd05946de47012a5d1da35d308092d2116350b2493b",
+  "spec": "results/verification-rl80/dev-spec.json",
+  "spec_sha256": "99a185a1425b1a236400ae2466bbbefc3410e1f468f85e368614ce6d2c5099ab",
+  "dependencies": {
+    "results/verification-rl80/frontier48-dev/check_dev.py": "f59d2ee75880ebcb22cfaabe3d70bafeb08afa78a979fcb6804e7511a7aac2e8",
+    "results/verification-rl80/frontier48-dev/decision.json": "ab3fba782ac8e8d81c41fa545137eef97c7170d30585439ce9a342fc6d644fb1",
+    "results/verification-rl80/frontier48-dev/frozen/critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "results/verification-rl80/frontier48-dev/frozen/frontier_adapter.py": "b81c4350e5a1cc4569ba6704e5993be7407da459e1b8747e7ca7f33ffcee56d0",
+    "results/verification-rl80/frontier48-dev/frozen/geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "results/verification-rl80/frontier48-dev/frozen/geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "results/verification-rl80/frontier48-dev/frozen/policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "results/verification-rl80/frontier48-dev/frozen/rich_policy.py": "41bebfb12845274ee6300495df4b50772cbc43ae0f938449f454d615671cbe46",
+    "results/verification-rl80/frontier48-dev/frozen/sequence/geometry.cpp": "11d17aa98f626590e8270ef582dc8abb68790b17910f146319fd565aeea1197e",
+    "results/verification-rl80/frontier48-dev/frozen/sequence/model.py": "909793dc8e1855d0a62923505d7284687fb1f2deed84ebf00005af3a2121876d",
+    "results/verification-rl80/frontier48-dev/frozen/sequence/sequence.dll": "02c34dd6d02d1a9f5a6b9d815534aa7af740dcd23220770d8e75f68481130eff",
+    "results/verification-rl80/frontier48-dev/origin.json": "f89d7dcb1d38dd8dbf080ba5782e6d95883d3ac8873b6fcbd689824304860d00",
+    "results/verification-rl80/frontier48-dev/packed-dev.json": "777f1e73705a548a77f3278acf5a0cdf053610b28fe4c1f37074b5b0b74b1410",
+    "results/verification-rl80/frontier48-dev/selection-protocol.json": "1a820ceed707bd74d1cd3d365aeaf42c1a6d01a9e16b92fa321a5cad0671c7f7"
+  },
+  "tools_sha256_lf": {
+    "evaluate.py": "c77a5b08ea52aa07315d736a8d21083906fbc66878454c40d7f773f161bb6cb3",
+    "suite.py": "3e33b35488c7ebbf5bda63e0577bd60e3393564b6c1d6f8c411e2fbb02b9a188",
+    "policy_worker.py": "9e3750dd8232ece6a01e9a55babe7835717845c0ee97a7d27acb372d07fd4b0a",
+    "policy_api.py": "28b49a5567e7a8553c6f4e7c11293bf3f31f360ecf5a6d0cad41015effe701cb"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "protocol": "750648bffa0e05a495e8297000bc5a25f3f02222a89891a5263814caea6ad964",
+  "population": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      12.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      12.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      12.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      4.0,
+      4.0,
+      4.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "spatial-large-9163152-H3-09",
+      "tier": "H3",
+      "model": 0,
+      "outcome": "SUCCESS",
+      "gate": true,
+      "steps": 2651,
+      "actions_sha256": "f14dfaf87736c55f23ac94cb99e416c3f593b565661ce1c69216c64fb88971ca"
+    },
+    {
+      "map": "spatial-large-9163152-H3-09",
+      "tier": "H3",
+      "model": 1,
+      "outcome": "SUCCESS",
+      "gate": true,
+      "steps": 2651,
+      "actions_sha256": "0a2f9fd8c5ab632810806dafb8b8f4ae5ea706488ac4a85ddef994932a6ea814"
+    },
+    {
+      "map": "spatial-large-9163152-H3-09",
+      "tier": "H3",
+      "model": 2,
+      "outcome": "BROKEN",
+      "gate": true,
+      "steps": 2685,
+      "actions_sha256": "19ae12c1da76c78fdce778d6c550dbd1fafe58e3d0928b6d29f090ff01866de5"
+    },
+    {
+      "map": "spatial-large-9163152-H3-09",
+      "tier": "H3",
+      "model": 3,
+      "outcome": "SUCCESS",
+      "gate": true,
+      "steps": 2651,
+      "actions_sha256": "f14dfaf87736c55f23ac94cb99e416c3f593b565661ce1c69216c64fb88971ca"
+    },
+    {
+      "map": "spatial-large-9163152-H3-09",
+      "tier": "H3",
+      "model": 4,
+      "outcome": "SUCCESS",
+      "gate": true,
+      "steps": 2651,
+      "actions_sha256": "9a0f9355a47ce76b1cf43d802bd574993cc07f10f35e643f0e7c87fae3931b23"
+    }
+  ]
+}

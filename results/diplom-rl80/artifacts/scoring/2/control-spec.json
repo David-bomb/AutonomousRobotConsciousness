@@ -1,0 +1,52 @@
+{
+  "kind": "historical",
+  "contract": {
+    "version": 1,
+    "threshold": 80,
+    "sets": {
+      "I": {
+        "path": "results/ARC-dot/source/ARC-stress-100/maps.jsonl",
+        "sha256_lf": "ea09b467f486a64ffcabe20086c632da27c9c431e55d017be2732174971ef899",
+        "geometries": "097576ed91358216215a61b61fe90f4a5e98b6200161f95a65f1b2f6d836d54b",
+        "stocks": "2bb57dbc8d1c4b039f6e636b7d7a63135c47488dcd5935072affcae18ee65d4a",
+        "scenarios": "c236e3bbac02f42fed5d1a5ef70cdf97ac69012a47446fd05f69f26057bc2c4a",
+        "count": 100
+      },
+      "II": {
+        "path": "results/E-0007/fresh.jsonl",
+        "sha256_lf": "ed26050bcb1cd455e9fad8a19bd522e82426615ededac10dbf244e91d8c79e64",
+        "geometries": "389e16ef653fddb0351b55176fe15347fcb4534127a94821fa26517102f438ab",
+        "stocks": "4fecd7adf272ceaefa7388fdf58b9759c3bdb15a3348bee53c3035e40cc4cab9",
+        "scenarios": "f4d12bb0bf5da5a06151f4776f7e5416aae50d126c37ce5654cb06cb0efb3f48",
+        "count": 100
+      },
+      "III": {
+        "path": "results/E-0009/fresh.jsonl",
+        "sha256_lf": "daf93cb623f52361a60c89dac63ba29ee99bc6ec6a7231d4effd1ee48d73f9e3",
+        "geometries": "a8cd978981006f8772fcecd66c904b7d48cb395406d3deee6daad3400ae44b5b",
+        "stocks": "d47564246a7edba4792ae13bfb840bae7a4d3609cc06c84b4d22a1a43fbce5fd",
+        "scenarios": "f19dfc8033bef4f9599de83379c0980bb1167567f6c213876aa50801081310c1",
+        "count": 100
+      }
+    },
+    "environment_sha256_lf": {
+      "maze/environment.py": "703046fe3788f308f5ec4e66be5610f869e6dd68d0506b365aaefc9b719d306b",
+      "maze/memory.py": "026f40914da9f29b687b181884c11dcd1ba521a8b8aa06b4292e90f1bdb67b57",
+      "maze/interface.py": "71009a026fe9825b31c66f416bd0ae7e8fa21f780d08e42ac5b1ab3d7aab662f",
+      "maze/grid.py": "e0e0e0a3bc7912a2d08f68210d980cafe78aa810bd7a68bc9d57461d9661d867",
+      "maze/levels.py": "6b100178a475715d90399ca3aa9cf32530981d94af2ceaa0b6467bb6a247a842",
+      "maze/datasets.py": "f31150fe9a2d328ff14f2ce83e73cbdc164f7c8f939e9bf67341339a856ae2f7"
+    },
+    "actions": [
+      "NORTH",
+      "EAST",
+      "SOUTH",
+      "WEST",
+      "NE",
+      "SE",
+      "SW",
+      "NW"
+    ],
+    "limit": "8*height*width"
+  }
+}

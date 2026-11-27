@@ -1,0 +1,62 @@
+{
+  "kind": "transfer",
+  "inputs": [
+    "results/E-0016/data/confirmation.jsonl"
+  ],
+  "contract": {
+    "version": 1,
+    "threshold": 80,
+    "sets": {
+      "transfer-1": {
+        "path": "results/E-0016/data/confirmation.jsonl",
+        "sha256_lf": "bf0fc2ea01b1947d43e894d72a62b0d8f4d3a37dfcc694edbf362088caaaf789",
+        "geometries": "06758a5fcdacc9c9c0bc9824e2c4e772799c9a9b9be9adec436b5ec6ccedd097",
+        "stocks": "38dfcacf757baa8dc24ca020dfd12941e197f53640087bccaf8400e89bc0e4af",
+        "scenarios": "6875bae2c5ef20abae2723c1ff6b8c9236bfd2561a9d517fbe0fc5c7bfdaef01",
+        "count": 100
+      },
+      "transfer-2": {
+        "path": "results/E-0016/data/confirmation.jsonl",
+        "sha256_lf": "bf0fc2ea01b1947d43e894d72a62b0d8f4d3a37dfcc694edbf362088caaaf789",
+        "geometries": "dc550c239cc88f0f870b857c870dd34df7d3df7c49012af8645d5067994f0f06",
+        "stocks": "b5be42f702acd1cdf617a2bef7b2b4a8b5fca294512cba16369b7273dd9a19b6",
+        "scenarios": "0bec746d58d304b70263c17f36033d719e735ddca65b79402c6d92308f8da847",
+        "count": 100
+      }
+    },
+    "environment_sha256_lf": {
+      "maze/environment.py": "703046fe3788f308f5ec4e66be5610f869e6dd68d0506b365aaefc9b719d306b",
+      "maze/memory.py": "026f40914da9f29b687b181884c11dcd1ba521a8b8aa06b4292e90f1bdb67b57",
+      "maze/interface.py": "71009a026fe9825b31c66f416bd0ae7e8fa21f780d08e42ac5b1ab3d7aab662f",
+      "maze/grid.py": "e0e0e0a3bc7912a2d08f68210d980cafe78aa810bd7a68bc9d57461d9661d867",
+      "maze/levels.py": "6b100178a475715d90399ca3aa9cf32530981d94af2ceaa0b6467bb6a247a842",
+      "maze/datasets.py": "f31150fe9a2d328ff14f2ce83e73cbdc164f7c8f939e9bf67341339a856ae2f7"
+    },
+    "actions": [
+      "NORTH",
+      "EAST",
+      "SOUTH",
+      "WEST",
+      "NE",
+      "SE",
+      "SW",
+      "NW"
+    ],
+    "limit": "8*height*width"
+  },
+  "exclusion": {
+    "historical_count": 79186,
+    "historical_sha256": "39af135936384df8eb93808d1868e3f20a2afd23375db57172b4939d5cfd31bb",
+    "additional": {
+      "results/E-0016/data/train.jsonl": {
+        "count": 800,
+        "sha256_lf": "524c9b98b433779eb5cf51cbb654fe59c8a15ed78338deae6dd442785e2db0f5"
+      },
+      "results/E-0016/data/dev.jsonl": {
+        "count": 100,
+        "sha256_lf": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6"
+      }
+    },
+    "common": 0
+  }
+}

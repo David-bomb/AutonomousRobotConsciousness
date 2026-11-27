@@ -1,0 +1,60 @@
+{
+  "weights": "sequence/runs/joint400/rl.pt",
+  "weights_sha256": "ebf419fe5ed73a9204b8cc976bedbc1ca53aeffe615605fb443f20fb4f852f56",
+  "adapter": "sequence/belief/joint_adapter.py",
+  "source_sha256": {
+    "policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "rich_policy.py": "41bebfb12845274ee6300495df4b50772cbc43ae0f938449f454d615671cbe46",
+    "geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "dev.py": "f908f4c7329270a31dc7fb028bad730109efd70300a92d7a4e319d05cf8f8c8b",
+    "sequence/model.py": "909793dc8e1855d0a62923505d7284687fb1f2deed84ebf00005af3a2121876d",
+    "sequence/geometry.cpp": "11d17aa98f626590e8270ef582dc8abb68790b17910f146319fd565aeea1197e",
+    "sequence/sequence.dll": "02c34dd6d02d1a9f5a6b9d815534aa7af740dcd23220770d8e75f68481130eff",
+    "sequence/belief/joint_adapter.py": "5bd22375229f8f2641f17d6cc4e9d835a7e989a2f7a223158d1e0394062a3ffb",
+    "sequence/belief/joint_model.py": "cb0d08cbf37b9b98e555b1e04569b8afd44624b2c840119fd5e9bb57809a6446",
+    "sequence/belief/safety_net.py": "4db390c0d9dca54937f30005459128a236ecb018de3af1028c931c721e56a36f",
+    "sequence/belief/features.py": "9b4994e8f72d0d248c99126d567a54d6dd024070520e0d7134e10becd1cf4f94",
+    "sequence/belief/walks.cpp": "bcaeb211c53d8b0e70ad0a5c343cd835dbd4ec6a3000e7a06d53fb2a55d5a0e4",
+    "sequence/belief/walks.dll": "21d1d6b49aecd8f5d122999276d3efbba86875970ef242189cf93d609ea6713d",
+    "sequence/belief/itineraries.py": "cbb06793c7d39d41a5c8ed91e85f77e1f2b05206aa8faf8be3c99375aa34d0a4",
+    "sequence/belief/itineraries.cpp": "d9b19658ff7e2d5ce33d94757781b965e80578eff1d8ba5bdd65f2933c011d98",
+    "sequence/belief/itineraries.dll": "7711a2b36d3691307c8f739d1de7c10471377e7a9a79122dd2cecef472f1050c",
+    "sequence/alt_model.py": "babd5088de57c2c2b9d42c45e6b7cb4a6e548aa48183207b53f82cd32f020757",
+    "sequence/alternatives.cpp": "be1f60856fbf655e213c6662060edbc08113a5da04ab3f359a4afcaf90108d16",
+    "sequence/alternatives.dll": "1b17565bf1637c3bfcb8eee42d3dc4b8550dd6b6d3ff5174ee3c35679b07c3b2"
+  },
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "summary": {
+    "wins": 59,
+    "by_tier": {
+      "H1": 24,
+      "H2": 18,
+      "H3": 12,
+      "H4": 5
+    },
+    "outcomes": {
+      "SUCCESS": 59,
+      "BROKEN": 18,
+      "EMPTY": 23
+    },
+    "fuel": 76,
+    "repair": 73,
+    "either": 85,
+    "both": 64
+  },
+  "exact_repeats": 100,
+  "isolated": {
+    "split": "validation-1",
+    "id": "dev-9160200-H1-01",
+    "geometry": "448ba1667e531b89c4a704259098985ca88648f6888b09a25ee1f64d41f609eb",
+    "scenario_sha256": "f25a95a094bdf1728697a0443a9c853b05ca87fcfeaf5ca6de36ff683f31ba65",
+    "outcome": "SUCCESS",
+    "steps": 336,
+    "refuels": 6,
+    "repairs": 7,
+    "actions_sha256": "10559c366664b9ef128210878d6a398b92948cdf2584d99bc1aca5fc02c1e3cd"
+  },
+  "worker_sha256": "9e3750dd8232ece6a01e9a55babe7835717845c0ee97a7d27acb372d07fd4b0a"
+}

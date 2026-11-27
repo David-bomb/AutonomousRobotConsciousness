@@ -1,0 +1,23 @@
+{
+  "tag": "route-rl",
+  "sha256": "636b13f2abd1c64d762d30c76454c9c4f6d2c7fb09b9056e32d84b759bca4d55",
+  "base_sha256": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "utc": "2026-11-27T11:10:29.626932+00:00",
+  "adapter_sha256": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772",
+  "registration": "235a857c002708cce053838262827891d6b9733c8cf40e91852fd3e0bdd3354d",
+  "training": {
+    "parent": "wave1-pg",
+    "method": "terminal SUCCESS from real post-service prefixes and full starts",
+    "train_file": "terminal/route-search.json",
+    "chosen": 4,
+    "held_summary": {
+      "maps": 27,
+      "physically_solvable": 27,
+      "super600_wins": 12,
+      "teacher_wins": 17,
+      "parent_wins": 18,
+      "trained_wins": 20
+    }
+  },
+  "route_adapter_sha256": "bcabaeecfe7b401df8ee686076bb83e0c23a8286307ea701dc2df7c7dd4aca2b"
+}

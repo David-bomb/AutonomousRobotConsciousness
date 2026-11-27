@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "runtime": {
+    "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.8.0+cu129",
+    "numpy": "2.2.6"
+  },
+  "adapter": "results/verification-rl80/mission600-dev/bridge.py",
+  "adapter_sha256": "85aca28c4fc7900737ea0e04bd99b88bb0e211b1b7459d148bf500d567953b78",
+  "checkpoint": "results/verification-rl80/mission600-dev/frozen/weights.pt",
+  "checkpoint_sha256": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "spec": "results/verification-rl80/dev-spec.json",
+  "spec_sha256": "99a185a1425b1a236400ae2466bbbefc3410e1f468f85e368614ce6d2c5099ab",
+  "dependencies": {
+    "results/verification-rl80/mission600-dev/check_dev.py": "14e67148a0ada442dada8568b5140adf45ff196795d8cf6b4ddedd2bf5845784",
+    "results/verification-rl80/mission600-dev/config.json": "e9e2e75b6064a7fb70f98225b9173af102d618d7266c983bd11dc42e7054f27b",
+    "results/verification-rl80/mission600-dev/frozen/critical_policy.py": "c9dad199b61b29cc83cf1149cecd8e1eb81d51136b01d6c96e6cc30e6fa32dc5",
+    "results/verification-rl80/mission600-dev/frozen/geometry.cpp": "9fc9d25f67a16d9c94a1347c7ea0dbe93dfab5e0ad16a44ba28bb3af197533a5",
+    "results/verification-rl80/mission600-dev/frozen/geometry.dll": "eea172cff574f53ca95a42d99634862a5e4dd71f61d23f0b24a302d19b302133",
+    "results/verification-rl80/mission600-dev/frozen/policy.py": "ba5510803d53fe2f394336d192f1ae5b0e7c34a6e65a74e192583a693bdac101",
+    "results/verification-rl80/mission600-dev/frozen/rich_policy.py": "41bebfb12845274ee6300495df4b50772cbc43ae0f938449f454d615671cbe46",
+    "results/verification-rl80/mission600-dev/frozen/sequence/adapter.py": "51f01a4ab56fadcacc6deaa312273633c2b59d04d653fd42bc2c2c59b509f540",
+    "results/verification-rl80/mission600-dev/frozen/sequence/geometry.cpp": "11d17aa98f626590e8270ef582dc8abb68790b17910f146319fd565aeea1197e",
+    "results/verification-rl80/mission600-dev/frozen/sequence/model.py": "909793dc8e1855d0a62923505d7284687fb1f2deed84ebf00005af3a2121876d",
+    "results/verification-rl80/mission600-dev/frozen/sequence/sequence.dll": "02c34dd6d02d1a9f5a6b9d815534aa7af740dcd23220770d8e75f68481130eff",
+    "results/verification-rl80/mission600-dev/rl.physical.json": "f689949a40c43ba26b3de27f3efca52073214b7c0a299a74cdbab221f6bc1da8"
+  },
+  "tools_sha256_lf": {
+    "evaluate.py": "c77a5b08ea52aa07315d736a8d21083906fbc66878454c40d7f773f161bb6cb3",
+    "suite.py": "3e33b35488c7ebbf5bda63e0577bd60e3393564b6c1d6f8c411e2fbb02b9a188",
+    "policy_worker.py": "9e3750dd8232ece6a01e9a55babe7835717845c0ee97a7d27acb372d07fd4b0a",
+    "policy_api.py": "28b49a5567e7a8553c6f4e7c11293bf3f31f360ecf5a6d0cad41015effe701cb"
+  }
+}

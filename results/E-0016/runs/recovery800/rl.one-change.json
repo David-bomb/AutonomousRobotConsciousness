@@ -1,0 +1,1862 @@
+{
+  "weights_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "train_range": [
+    700,
+    800
+  ],
+  "train_sha256": "524c9b98b433779eb5cf51cbb654fe59c8a15ed78338deae6dd442785e2db0f5",
+  "summary": {
+    "n": 100,
+    "baseline_outcomes": {
+      "BROKEN": 33,
+      "SUCCESS": 30,
+      "EMPTY": 37
+    },
+    "losses": 70,
+    "recovered_by_one": 18,
+    "alternate_episodes": 80,
+    "alternate_wins": 18
+  },
+  "episodes": [
+    {
+      "map": "train-9160107-H1-01",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 144,
+        "refuels": 4,
+        "repairs": 2
+      },
+      "step": 104,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "BROKEN",
+          "steps": 144,
+          "refuels": 5,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-02",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 126,
+        "refuels": 4,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H1-03",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 18,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 9,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-04",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 65,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H1-05",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 42,
+        "refuels": 0,
+        "repairs": 3
+      },
+      "step": 22,
+      "selected": "EAST",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "EMPTY",
+          "steps": 42,
+          "refuels": 0,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-06",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 49,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H1-07",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 16,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 7,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "SUCCESS",
+          "steps": 103,
+          "refuels": 2,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-08",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 117,
+        "refuels": 3,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H1-09",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 28,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 7,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-10",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 14,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 4,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 114,
+          "refuels": 2,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-11",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 38,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H1-12",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 102,
+        "refuels": 1,
+        "repairs": 1
+      },
+      "step": 95,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "BROKEN",
+          "steps": 102,
+          "refuels": 1,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-13",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 17,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 5,
+      "selected": "EAST",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "SUCCESS",
+          "steps": 91,
+          "refuels": 1,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-14",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 68,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H1-15",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 27,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 4,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "SUCCESS",
+          "steps": 122,
+          "refuels": 2,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-16",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 14,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 3,
+      "selected": "EAST",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "EMPTY",
+          "steps": 31,
+          "refuels": 0,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-17",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 17,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 3,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "SUCCESS",
+          "steps": 134,
+          "refuels": 2,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-18",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 37,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H1-19",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 121,
+        "refuels": 1,
+        "repairs": 2
+      },
+      "step": 72,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 121,
+          "refuels": 1,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-20",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 31,
+        "refuels": 2,
+        "repairs": 0
+      },
+      "step": 19,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "SUCCESS",
+          "steps": 161,
+          "refuels": 3,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-21",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 112,
+        "refuels": 2,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H1-22",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 72,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H1-23",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 118,
+        "refuels": 2,
+        "repairs": 4
+      }
+    },
+    {
+      "map": "train-9160107-H1-24",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 212,
+        "refuels": 5,
+        "repairs": 3
+      },
+      "step": 188,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "BROKEN",
+          "steps": 212,
+          "refuels": 5,
+          "repairs": 3
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H1-25",
+      "tier": "H1",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 32,
+        "refuels": 0,
+        "repairs": 1
+      },
+      "step": 13,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "SUCCESS",
+          "steps": 71,
+          "refuels": 2,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-01",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 20,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 3,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "EMPTY",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-02",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 59,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H2-03",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 40,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 16,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "BROKEN",
+          "steps": 40,
+          "refuels": 3,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-04",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 164,
+        "refuels": 2,
+        "repairs": 3
+      },
+      "step": 130,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "EMPTY",
+          "steps": 164,
+          "refuels": 2,
+          "repairs": 3
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-05",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 16,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 8,
+      "selected": "EAST",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "EMPTY",
+          "steps": 30,
+          "refuels": 0,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-06",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 27,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 2,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "SUCCESS",
+          "steps": 133,
+          "refuels": 2,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-07",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 88,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H2-08",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 22,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 3,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "EMPTY",
+          "steps": 22,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-09",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 72,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H2-10",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 13,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 3,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "SUCCESS",
+          "steps": 65,
+          "refuels": 2,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-11",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 108,
+        "refuels": 1,
+        "repairs": 2
+      },
+      "step": 66,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 221,
+          "refuels": 3,
+          "repairs": 3
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-12",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 220,
+        "refuels": 3,
+        "repairs": 3
+      }
+    },
+    {
+      "map": "train-9160107-H2-13",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 98,
+        "refuels": 2,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H2-14",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 295,
+        "refuels": 4,
+        "repairs": 7
+      }
+    },
+    {
+      "map": "train-9160107-H2-15",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 95,
+        "refuels": 2,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H2-16",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 103,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H2-17",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 74,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H2-18",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 47,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 12,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 47,
+          "refuels": 1,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-19",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 23,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 19,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "SUCCESS",
+          "steps": 80,
+          "refuels": 1,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-20",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 177,
+        "refuels": 3,
+        "repairs": 3
+      },
+      "step": 152,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "EMPTY",
+          "steps": 177,
+          "refuels": 3,
+          "repairs": 3
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-21",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 110,
+        "refuels": 1,
+        "repairs": 1
+      },
+      "step": 61,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "EMPTY",
+          "steps": 110,
+          "refuels": 1,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-22",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 51,
+        "refuels": 0,
+        "repairs": 1
+      },
+      "step": 17,
+      "selected": "EAST",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "EMPTY",
+          "steps": 51,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "move": "SE",
+          "outcome": "EMPTY",
+          "steps": 51,
+          "refuels": 0,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H2-23",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 54,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H2-24",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 87,
+        "refuels": 2,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H2-25",
+      "tier": "H2",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 119,
+        "refuels": 2,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H3-01",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 9,
+        "refuels": 0,
+        "repairs": 2
+      },
+      "step": 3,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "SUCCESS",
+          "steps": 65,
+          "refuels": 2,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-02",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 79,
+        "refuels": 1,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H3-03",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 59,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H3-04",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 152,
+        "refuels": 2,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H3-05",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 21,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 13,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 121,
+          "refuels": 2,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-06",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 91,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H3-07",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 102,
+        "refuels": 1,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H3-08",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 13,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 2,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "BROKEN",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-09",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 108,
+        "refuels": 1,
+        "repairs": 2
+      },
+      "step": 73,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "EMPTY",
+          "steps": 108,
+          "refuels": 1,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-10",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 24,
+        "refuels": 0,
+        "repairs": 2
+      },
+      "step": 2,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "SUCCESS",
+          "steps": 202,
+          "refuels": 3,
+          "repairs": 3
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-11",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 275,
+        "refuels": 4,
+        "repairs": 3
+      },
+      "step": 244,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "BROKEN",
+          "steps": 275,
+          "refuels": 4,
+          "repairs": 3
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-12",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 182,
+        "refuels": 3,
+        "repairs": 5
+      },
+      "step": 157,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "BROKEN",
+          "steps": 182,
+          "refuels": 3,
+          "repairs": 5
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-13",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 50,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 36,
+      "selected": "EAST",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "SUCCESS",
+          "steps": 76,
+          "refuels": 1,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-14",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 26,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 2,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-15",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 46,
+        "refuels": 0,
+        "repairs": 2
+      },
+      "step": 29,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "EMPTY",
+          "steps": 46,
+          "refuels": 0,
+          "repairs": 2
+        },
+        {
+          "move": "WEST",
+          "outcome": "EMPTY",
+          "steps": 46,
+          "refuels": 0,
+          "repairs": 2
+        },
+        {
+          "move": "SW",
+          "outcome": "BROKEN",
+          "steps": 110,
+          "refuels": 3,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-16",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 38,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 25,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "SUCCESS",
+          "steps": 88,
+          "refuels": 2,
+          "repairs": 5
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-17",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 44,
+        "refuels": 0,
+        "repairs": 1
+      },
+      "step": 36,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "BROKEN",
+          "steps": 114,
+          "refuels": 2,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-18",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 9,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 2,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 44,
+          "refuels": 2,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-19",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 44,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 15,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "BROKEN",
+          "steps": 44,
+          "refuels": 2,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-20",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 47,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 22,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "BROKEN",
+          "steps": 47,
+          "refuels": 1,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-21",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 54,
+        "refuels": 0,
+        "repairs": 2
+      },
+      "step": 16,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "EMPTY",
+          "steps": 54,
+          "refuels": 0,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-22",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 24,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 20,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "BROKEN",
+          "steps": 51,
+          "refuels": 1,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-23",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 101,
+        "refuels": 2,
+        "repairs": 1
+      },
+      "step": 78,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 101,
+          "refuels": 2,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-24",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 24,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 9,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "move": "EAST",
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "move": "NE",
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H3-25",
+      "tier": "H3",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 27,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 3,
+      "selected": "EAST",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "BROKEN",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-01",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 65,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 25,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 65,
+          "refuels": 2,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-02",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 13,
+        "refuels": 0,
+        "repairs": 1
+      },
+      "step": 3,
+      "selected": "SE",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "EMPTY",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-03",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 39,
+        "refuels": 0,
+        "repairs": 1
+      },
+      "step": 20,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "SUCCESS",
+          "steps": 73,
+          "refuels": 1,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-04",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 123,
+        "refuels": 2,
+        "repairs": 1
+      },
+      "step": 102,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "SUCCESS",
+          "steps": 122,
+          "refuels": 2,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-05",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 88,
+        "refuels": 1,
+        "repairs": 1
+      }
+    },
+    {
+      "map": "train-9160107-H4-06",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 9,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 1,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "BROKEN",
+          "steps": 31,
+          "refuels": 1,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-07",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 26,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 1,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "EAST",
+          "outcome": "SUCCESS",
+          "steps": 102,
+          "refuels": 1,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-08",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 106,
+        "refuels": 1,
+        "repairs": 2
+      },
+      "step": 83,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "EMPTY",
+          "steps": 106,
+          "refuels": 1,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-09",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 33,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 25,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "SUCCESS",
+          "steps": 121,
+          "refuels": 2,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-10",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 26,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 15,
+      "selected": "EAST",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "BROKEN",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0
+        },
+        {
+          "move": "SE",
+          "outcome": "EMPTY",
+          "steps": 161,
+          "refuels": 1,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-11",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 172,
+        "refuels": 2,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H4-12",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 27,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 18,
+      "selected": "EAST",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "BROKEN",
+          "steps": 54,
+          "refuels": 1,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-13",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 31,
+        "refuels": 1,
+        "repairs": 0
+      },
+      "step": 21,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 31,
+          "refuels": 1,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-14",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 57,
+        "refuels": 0,
+        "repairs": 1
+      },
+      "step": 32,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 120,
+          "refuels": 2,
+          "repairs": 1
+        },
+        {
+          "move": "EAST",
+          "outcome": "EMPTY",
+          "steps": 57,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "move": "SOUTH",
+          "outcome": "EMPTY",
+          "steps": 57,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "move": "NE",
+          "outcome": "EMPTY",
+          "steps": 57,
+          "refuels": 0,
+          "repairs": 1
+        },
+        {
+          "move": "SE",
+          "outcome": "EMPTY",
+          "steps": 57,
+          "refuels": 0,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-15",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 132,
+        "refuels": 3,
+        "repairs": 2
+      },
+      "step": 97,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "BROKEN",
+          "steps": 132,
+          "refuels": 3,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-16",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 114,
+        "refuels": 1,
+        "repairs": 1
+      },
+      "step": 93,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "EMPTY",
+          "steps": 114,
+          "refuels": 1,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-17",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 16,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 2,
+      "selected": "SE",
+      "alternatives": [
+        {
+          "move": "SW",
+          "outcome": "BROKEN",
+          "steps": 120,
+          "refuels": 3,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-18",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 28,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 9,
+      "selected": "WEST",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-19",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 118,
+        "refuels": 1,
+        "repairs": 1
+      },
+      "step": 81,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "EMPTY",
+          "steps": 118,
+          "refuels": 1,
+          "repairs": 2
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-20",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 29,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 13,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "EMPTY",
+          "steps": 316,
+          "refuels": 4,
+          "repairs": 4
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-21",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 35,
+        "refuels": 0,
+        "repairs": 1
+      },
+      "step": 21,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "SUCCESS",
+          "steps": 92,
+          "refuels": 1,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-22",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 55,
+        "refuels": 0,
+        "repairs": 1
+      },
+      "step": 32,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "NORTH",
+          "outcome": "EMPTY",
+          "steps": 55,
+          "refuels": 0,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-23",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "SUCCESS",
+        "steps": 78,
+        "refuels": 1,
+        "repairs": 2
+      }
+    },
+    {
+      "map": "train-9160107-H4-24",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "BROKEN",
+        "steps": 28,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 25,
+      "selected": "SOUTH",
+      "alternatives": [
+        {
+          "move": "WEST",
+          "outcome": "BROKEN",
+          "steps": 128,
+          "refuels": 1,
+          "repairs": 1
+        }
+      ]
+    },
+    {
+      "map": "train-9160107-H4-25",
+      "tier": "H4",
+      "baseline": {
+        "outcome": "EMPTY",
+        "steps": 22,
+        "refuels": 0,
+        "repairs": 0
+      },
+      "step": 12,
+      "selected": "NORTH",
+      "alternatives": [
+        {
+          "move": "SOUTH",
+          "outcome": "EMPTY",
+          "steps": 22,
+          "refuels": 0,
+          "repairs": 0
+        }
+      ]
+    }
+  ]
+}

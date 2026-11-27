@@ -1,0 +1,1329 @@
+{
+  "reference": "e683f367290fd8dd1199994323d980cbe36dd89e6770c548e729af708d75ae51",
+  "states": 69,
+  "trials_per_direction": 64,
+  "summary": {
+    "prior_down": 44,
+    "prior_viable": 37,
+    "consistent_down": 46,
+    "consistent_viable": 39,
+    "cnn_down": 40,
+    "cnn_viable": 35,
+    "together_down": 47,
+    "together_viable": 40,
+    "covered": 69
+  },
+  "records": [
+    {
+      "map": "sequence-train-9161109-H1-01",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-02",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.0,
+        0.0,
+        0.984375,
+        0.703125,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-03",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 6,
+        "together": 2
+      },
+      "acceptance": [
+        0.3125,
+        0.0,
+        0.453125,
+        0.03125,
+        0.0,
+        0.0,
+        0.078125,
+        0.09375
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-05",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-06",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 2,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        0.578125,
+        0.0,
+        0.53125,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-10",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        0.96875,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-13",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        0.328125,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-14",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 0,
+        "together": 0
+      },
+      "acceptance": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-16",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-20",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-24",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.046875,
+        0.0,
+        0.71875,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-25",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.453125,
+        0.0,
+        0.453125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-01",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        0.5625,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-03",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-04",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.46875,
+        0.0,
+        0.8125,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-05",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.0,
+        0.765625,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-07",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 2,
+        "together": 0
+      },
+      "acceptance": [
+        0.703125,
+        0.0,
+        0.078125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-08",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        0.828125,
+        0.0,
+        0.328125,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-09",
+      "choices": {
+        "prior": 1,
+        "consistent": 3,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        0.03125,
+        0.0,
+        0.125,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-10",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.515625,
+        0.0,
+        0.875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-11",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.9375,
+        0.0,
+        0.796875,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-14",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 0,
+        "together": 0
+      },
+      "acceptance": [
+        0.984375,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-15",
+      "choices": {
+        "prior": 0,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.34375,
+        0.0,
+        0.421875,
+        0.484375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-17",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 0,
+        "together": 0
+      },
+      "acceptance": [
+        0.328125,
+        0.0,
+        0.296875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-18",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-19",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-22",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 0,
+        "together": 0
+      },
+      "acceptance": [
+        0.90625,
+        0.0,
+        0.375,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-23",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.046875,
+        0.0,
+        0.015625,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-25",
+      "choices": {
+        "prior": 5,
+        "consistent": 5,
+        "cnn": 5,
+        "together": 5
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-01",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 0,
+        "together": 0
+      },
+      "acceptance": [
+        0.3125,
+        0.0,
+        0.6875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-03",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 7,
+        "together": 0
+      },
+      "acceptance": [
+        0.78125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-04",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 3,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-05",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 3,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        0.484375,
+        0.0,
+        0.21875,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-06",
+      "choices": {
+        "prior": 3,
+        "consistent": 1,
+        "cnn": 3,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        0.046875,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-07",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-08",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 1,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.0,
+        0.0,
+        0.9375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-09",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 0,
+        "together": 0
+      },
+      "acceptance": [
+        1.0,
+        0.0,
+        0.515625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-11",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.203125,
+        0.0,
+        0.609375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-13",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-15",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-16",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.65625,
+        0.0,
+        0.5625,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-17",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.40625,
+        0.578125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-18",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 2,
+        "together": 0
+      },
+      "acceptance": [
+        1.0,
+        0.0,
+        0.96875,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-19",
+      "choices": {
+        "prior": 3,
+        "consistent": 5,
+        "cnn": 5,
+        "together": 5
+      },
+      "acceptance": [
+        0.125,
+        0.15625,
+        0.0625,
+        0.03125,
+        0.171875,
+        0.234375,
+        0.078125,
+        0.03125
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-21",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.578125,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-24",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 3,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        0.265625,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-01",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.921875,
+        0.4375,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-02",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-03",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.046875,
+        0.0,
+        0.046875,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-04",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.0625,
+        0.0,
+        0.984375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-06",
+      "choices": {
+        "prior": 4,
+        "consistent": 4,
+        "cnn": 4,
+        "together": 4
+      },
+      "acceptance": [
+        0.96875,
+        0.671875,
+        0.0,
+        0.765625,
+        0.671875,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-07",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        0.75,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-08",
+      "choices": {
+        "prior": 7,
+        "consistent": 0,
+        "cnn": 7,
+        "together": 0
+      },
+      "acceptance": [
+        0.28125,
+        0.5,
+        0.171875,
+        0.0625,
+        0.0,
+        0.0,
+        0.046875,
+        0.0625
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-09",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-10",
+      "choices": {
+        "prior": 0,
+        "consistent": 4,
+        "cnn": 4,
+        "together": 4
+      },
+      "acceptance": [
+        0.0,
+        0.0625,
+        1.0,
+        0.0,
+        0.046875,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-11",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.953125,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-12",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.734375,
+        0.0,
+        0.84375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-13",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.140625,
+        0.0,
+        0.515625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-14",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-15",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-16",
+      "choices": {
+        "prior": 0,
+        "consistent": 0,
+        "cnn": 2,
+        "together": 0
+      },
+      "acceptance": [
+        0.203125,
+        0.0,
+        0.28125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-17",
+      "choices": {
+        "prior": 3,
+        "consistent": 1,
+        "cnn": 0,
+        "together": 1
+      },
+      "acceptance": [
+        0.234375,
+        0.484375,
+        0.0,
+        0.140625,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-18",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 1,
+        "together": 1
+      },
+      "acceptance": [
+        0.4375,
+        0.828125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-19",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-20",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.328125,
+        0.0,
+        0.640625,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-21",
+      "choices": {
+        "prior": 2,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.15625,
+        0.0,
+        0.390625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-22",
+      "choices": {
+        "prior": 3,
+        "consistent": 3,
+        "cnn": 3,
+        "together": 3
+      },
+      "acceptance": [
+        0.0,
+        0.703125,
+        0.875,
+        0.59375,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-24",
+      "choices": {
+        "prior": 0,
+        "consistent": 2,
+        "cnn": 2,
+        "together": 2
+      },
+      "acceptance": [
+        0.0,
+        0.0,
+        0.984375,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-25",
+      "choices": {
+        "prior": 1,
+        "consistent": 1,
+        "cnn": 2,
+        "together": 1
+      },
+      "acceptance": [
+        0.0,
+        1.0,
+        0.109375,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

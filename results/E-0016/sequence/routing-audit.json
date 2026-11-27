@@ -1,0 +1,1861 @@
+{
+  "weights_sha256": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "train_range": [
+    900,
+    1000
+  ],
+  "train_sha256": "6affb0aa46384b2f3485e630524bb0dc02abb5b5f9901adee4f786b0d1ada763",
+  "summary": {
+    "safe_frontier_available": 41911,
+    "used_direction_with_safe_frontier": 41885,
+    "first_loss": 69,
+    "first_loss_tight": 60,
+    "first_loss_with_confirmed": 0,
+    "first_loss_with_safe_frontier": 9,
+    "maps_ever_confirmed": 31,
+    "wins": 31,
+    "lost_after_confirmed": 0,
+    "confirmed": 36,
+    "confirmed_shortest": 36
+  },
+  "episodes": [
+    {
+      "map": "sequence-train-9161109-H1-01",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 83,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 63,
+        "used_direction_with_safe_frontier": 62,
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-02",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 4,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-03",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 4,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-04",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 58,
+        "used_direction_with_safe_frontier": 58,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-05",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 15,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-06",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 150,
+        "slack": -18,
+        "known": false,
+        "safe": false,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 103,
+        "used_direction_with_safe_frontier": 102,
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-07",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 47,
+        "used_direction_with_safe_frontier": 47,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-08",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 94,
+        "used_direction_with_safe_frontier": 94,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-09",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 44,
+        "used_direction_with_safe_frontier": 44,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-10",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 9,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-11",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 91,
+        "used_direction_with_safe_frontier": 90,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-12",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 46,
+        "used_direction_with_safe_frontier": 46,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-13",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 10,
+        "slack": 9,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 0,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-14",
+      "outcome": "LIMIT",
+      "first_irreversible": {
+        "step": 4509,
+        "slack": 72,
+        "known": false,
+        "safe": true,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 4521,
+        "used_direction_with_safe_frontier": 4521,
+        "first_loss": 1,
+        "first_loss_tight": 0,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 1,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-15",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 54,
+        "used_direction_with_safe_frontier": 53,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-16",
+      "outcome": "LIMIT",
+      "first_irreversible": {
+        "step": 4516,
+        "slack": 86,
+        "known": false,
+        "safe": true,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 4530,
+        "used_direction_with_safe_frontier": 4530,
+        "first_loss": 1,
+        "first_loss_tight": 0,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 1,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-17",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 54,
+        "used_direction_with_safe_frontier": 54,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-18",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 49,
+        "used_direction_with_safe_frontier": 49,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-19",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 112,
+        "used_direction_with_safe_frontier": 112,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-20",
+      "outcome": "LIMIT",
+      "first_irreversible": {
+        "step": 3176,
+        "slack": 84,
+        "known": false,
+        "safe": true,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 3174,
+        "used_direction_with_safe_frontier": 3174,
+        "first_loss": 1,
+        "first_loss_tight": 0,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 1,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-21",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 61,
+        "used_direction_with_safe_frontier": 60,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-22",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 122,
+        "used_direction_with_safe_frontier": 122,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-23",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 210,
+        "used_direction_with_safe_frontier": 210,
+        "confirmed": 2,
+        "confirmed_shortest": 2,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-24",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 3,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H1-25",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 24,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-01",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 20,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-02",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 393,
+        "used_direction_with_safe_frontier": 392,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-03",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 26,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-04",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 9,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-05",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 208,
+        "slack": -2,
+        "known": false,
+        "safe": false,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 183,
+        "used_direction_with_safe_frontier": 182,
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-06",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 42,
+        "used_direction_with_safe_frontier": 42,
+        "confirmed": 2,
+        "confirmed_shortest": 2,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-07",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 2,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-08",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 3,
+        "slack": 10,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 0,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-09",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 7,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-10",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 26,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-11",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 7,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-12",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 53,
+        "used_direction_with_safe_frontier": 52,
+        "confirmed": 2,
+        "confirmed_shortest": 2,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-13",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 58,
+        "used_direction_with_safe_frontier": 58,
+        "confirmed": 2,
+        "confirmed_shortest": 2,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-14",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 16,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-15",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 3,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-16",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 33,
+        "used_direction_with_safe_frontier": 32,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-17",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 23,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-18",
+      "outcome": "LIMIT",
+      "first_irreversible": {
+        "step": 5343,
+        "slack": 40,
+        "known": false,
+        "safe": true,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 5375,
+        "used_direction_with_safe_frontier": 5375,
+        "first_loss": 1,
+        "first_loss_tight": 0,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 1,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-19",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 34,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-20",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 221,
+        "used_direction_with_safe_frontier": 220,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-21",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 147,
+        "used_direction_with_safe_frontier": 145,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-22",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 13,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-23",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 8,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-24",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 53,
+        "used_direction_with_safe_frontier": 52,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H2-25",
+      "outcome": "LIMIT",
+      "first_irreversible": {
+        "step": 5757,
+        "slack": 79,
+        "known": false,
+        "safe": true,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 5784,
+        "used_direction_with_safe_frontier": 5784,
+        "first_loss": 1,
+        "first_loss_tight": 0,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 1,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-01",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 7,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-02",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 20,
+        "used_direction_with_safe_frontier": 19,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-03",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 30,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-04",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 6,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-05",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 2,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-06",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 2,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-07",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 57,
+        "slack": 0,
+        "known": false,
+        "safe": true,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 54,
+        "used_direction_with_safe_frontier": 53,
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 1,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-08",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 2,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-09",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 9,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-10",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 22,
+        "used_direction_with_safe_frontier": 21,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-11",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 2,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-12",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 60,
+        "used_direction_with_safe_frontier": 59,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-13",
+      "outcome": "LIMIT",
+      "first_irreversible": {
+        "step": 6628,
+        "slack": 47,
+        "known": false,
+        "safe": true,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 6653,
+        "used_direction_with_safe_frontier": 6652,
+        "first_loss": 1,
+        "first_loss_tight": 0,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 1,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-14",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 255,
+        "used_direction_with_safe_frontier": 253,
+        "confirmed": 2,
+        "confirmed_shortest": 2,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-15",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 26,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-16",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 8,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-17",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 2,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-18",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 36,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-19",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 3,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-20",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 53,
+        "used_direction_with_safe_frontier": 52,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-21",
+      "outcome": "LIMIT",
+      "first_irreversible": {
+        "step": 8067,
+        "slack": 52,
+        "known": false,
+        "safe": true,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 8073,
+        "used_direction_with_safe_frontier": 8073,
+        "first_loss": 1,
+        "first_loss_tight": 0,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 1,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-22",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 104,
+        "used_direction_with_safe_frontier": 103,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-23",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 60,
+        "used_direction_with_safe_frontier": 59,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-24",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 14,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H3-25",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 257,
+        "used_direction_with_safe_frontier": 256,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-01",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 33,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-02",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 28,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-03",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 9,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-04",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 1,
+        "slack": 2,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-05",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 38,
+        "used_direction_with_safe_frontier": 38,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-06",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 12,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-07",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 15,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-08",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 2,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-09",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 1,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-10",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 3,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-11",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 15,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-12",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 15,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-13",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 1,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-14",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 3,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-15",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 376,
+        "slack": 0,
+        "known": false,
+        "safe": true,
+        "stage": 2
+      },
+      "counts": {
+        "safe_frontier_available": 354,
+        "used_direction_with_safe_frontier": 353,
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 1,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-16",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 1,
+        "slack": 1,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-17",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 2,
+        "slack": 2,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-18",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 2,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-19",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 11,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-20",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 31,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-21",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 3,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-22",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 13,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-23",
+      "outcome": "SUCCESS",
+      "first_irreversible": null,
+      "counts": {
+        "safe_frontier_available": 133,
+        "used_direction_with_safe_frontier": 132,
+        "confirmed": 1,
+        "confirmed_shortest": 1,
+        "maps_ever_confirmed": 1,
+        "wins": 1,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-24",
+      "outcome": "BROKEN",
+      "first_irreversible": {
+        "step": 20,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 1
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    },
+    {
+      "map": "sequence-train-9161109-H4-25",
+      "outcome": "EMPTY",
+      "first_irreversible": {
+        "step": 10,
+        "slack": 0,
+        "known": false,
+        "safe": false,
+        "stage": 0
+      },
+      "counts": {
+        "first_loss": 1,
+        "first_loss_tight": 1,
+        "first_loss_with_confirmed": 0,
+        "first_loss_with_safe_frontier": 0,
+        "maps_ever_confirmed": 0,
+        "wins": 0,
+        "lost_after_confirmed": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "summary": "Независимый контроль первой замороженной модели, 300 карт, и предварительное независимое подтверждение dev.",
+  "records": [
+    {
+      "id": "x-dev-replay",
+      "kind": "experiment",
+      "text": "Независимый новый процесс на карту повторил все 100 dev-исходов, число физических ходов, заправок и ремонтов recovery800. Результат 28/100 и 11107 физических шагов.",
+      "refs": [
+        "x-pilot200-recovery800",
+        "s-independent-score"
+      ],
+      "files": [
+        "dev-receipt.json"
+      ],
+      "details": {
+        "state": "executed",
+        "method": "Обычный интерфейс Observation, исходная версия адаптера восстановлена по хешу, фиксированные веса, отдельный процесс на карту.",
+        "reproduce": "C:/Users/David/University/Diplom/results/verification-rl80/recovery800-dev/compare.py",
+        "author_chat": "01a21c3d-e220-7dc2-9682-891e18fc90a0"
+      }
+    },
+    {
+      "id": "x-wave-one",
+      "kind": "experiment",
+      "text": "По пяти post-RL кандидатам первая заморозка выбрала recovery800/rl. Независимая оценка дала I 28/100, II 25/100, III 20/100. Всего 25 299 физических шагов. Целевые 80/100 ни на одной сотне не достигнуты.",
+      "refs": [
+        "x-dev-replay",
+        "d-locked-assay"
+      ],
+      "files": [
+        "historical-receipt.json",
+        "selection.json",
+        "episodes.jsonl"
+      ],
+      "details": {
+        "state": "executed",
+        "scope": "Три исторических набора, одна заморозка, 300 уникальных геометрий и идентификаторов.",
+        "method": "Сначала перепроверены веса и источник кода. Регистрация 09:50:51 UTC. Отдельные процессы для политик, каждый физический env.step, контроль первичного покартового журнала по SHA-256.",
+        "reproduce": "C:/Users/David/University/Diplom/results/verification-rl80/wave1/run.py; locked files в каталоге wave1/frozen.",
+        "author_chat": "01a21c3d-e220-7dc2-9682-891e18fc90a0"
+      }
+    }
+  ],
+  "next": [
+    "Сохранять результаты контроля изолированно от выбора следующих весов по train и dev."
+  ]
+}

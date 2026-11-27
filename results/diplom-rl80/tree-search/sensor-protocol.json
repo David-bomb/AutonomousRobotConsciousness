@@ -1,0 +1,11 @@
+{
+  "train_corpus": "6affb0aa46384b2f3485e630524bb0dc02abb5b5f9901adee4f786b0d1ada763",
+  "parent": "369c0d5616a07a19f6fa992d53bdaa5a3004c5c54344c427f2345272b2f56432",
+  "files": {
+    "tree_policy.py": "dfde2d1faae17da5c6af6fa3b23e30e42367405066b3cd00da73352318f4520e",
+    "tree_probe.py": "cf6a7ee45c5857bb8571a87faa7c1fa5f11c0b342977d15eaa724524aaff643a",
+    "tree_paths.cpp": "c221f0e612491e26d670cd9d2279c19c16b59e9353470f8b4bc3e54ce6a9fda5",
+    "tree_paths.dll": "8b0d1bd08ba83b1f1ae90c5b21ddafeb3f8780393308b7a9f12e4d35338776eb"
+  },
+  "scope": "Fit first 200 demo and 100 own training trajectories from the prior geodesic registration, validate on 100 separate own training maps. Restrict measurement to supported tree hypotheses. All true decreasing moves must have positive support on known tree-family training maps with requested radius <=55. World family is used only for performance checks."
+}

@@ -1,0 +1,11 @@
+{
+  "bank": "fc9a5970dba93046ff3f1a706938c6598579f41c9357ff200042fb2f797f7531",
+  "sha": {
+    "sensor_lookahead.cpp": "a1e34c9d5bfb595326a2e614e0d04183348c2915a263edf00edcb0b39a4a2e7c",
+    "sensor_lookahead.dll": "34f83fd337a6ac38a3ffb215c4e41b897827f5ace54cef04ac7e3be1cb950544",
+    "lookahead_policy.py": "7a68c82361705d3765c95cf6b8a52b24d402fba16a0013642b7383281e9ea81b",
+    "lookahead_probe.py": "78f14e36f6360d819e170ca17d9ea4d588d4f78d7a98d3e4d7d97b883e32039c"
+  },
+  "samples": 256,
+  "rule": "On the recorded first irreversible baseline action and matched viable controls, estimate one-step and two-step future values in simulated terrain. All worlds with the same future legal-move mask and same two distance changes must use the same next action. Verify adaptive value dominates the common blind next action; on fully known trees both values must agree. True input worlds/fork labels are only used in offline checks."
+}

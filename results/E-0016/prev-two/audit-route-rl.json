@@ -1,0 +1,167 @@
+{
+  "tag": "route-rl",
+  "sha256": "636b13f2abd1c64d762d30c76454c9c4f6d2c7fb09b9056e32d84b759bca4d55",
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "physical_replays": 300,
+  "uncached_maps": [
+    "dev-9160200-H1-01",
+    "dev-9160200-H1-02",
+    "dev-9160200-H4-21",
+    "dev-9160200-H4-25"
+  ],
+  "bounds": {
+    "executed_labels": 1500,
+    "states_with_tighter_bounds": 140,
+    "known_reverse_edges": 332
+  },
+  "recovery": {
+    "baseline": {
+      "unique_within_map": {
+        "tight": 2314,
+        "tight_down": 1358,
+        "after_probe": 885,
+        "after_probe_down": 90,
+        "after_probe_reverse": 70
+      },
+      "first_failed_probe_by_map": {
+        "maps": 78,
+        "down": 13,
+        "reverse": 11
+      },
+      "unique_nonnegative_slack_after_probe": {
+        "exposures": 71,
+        "down": 12,
+        "reverse": 11
+      }
+    },
+    "honest": {
+      "unique_within_map": {
+        "tight": 30661,
+        "tight_down": 29180,
+        "after_probe": 1227,
+        "after_probe_down": 733,
+        "after_probe_reverse": 582
+      },
+      "first_failed_probe_by_map": {
+        "maps": 92,
+        "down": 79,
+        "reverse": 67
+      },
+      "unique_nonnegative_slack_after_probe": {
+        "exposures": 730,
+        "down": 634,
+        "reverse": 490
+      }
+    },
+    "ablated": {
+      "unique_within_map": {
+        "tight": 13351,
+        "tight_down": 12072,
+        "after_probe": 1120,
+        "after_probe_down": 345,
+        "after_probe_reverse": 288
+      },
+      "first_failed_probe_by_map": {
+        "maps": 96,
+        "down": 49,
+        "reverse": 41
+      },
+      "unique_nonnegative_slack_after_probe": {
+        "exposures": 359,
+        "down": 275,
+        "reverse": 230
+      }
+    }
+  },
+  "versus_baseline": {
+    "gains": [
+      "dev-9160200-H1-01",
+      "dev-9160200-H1-02",
+      "dev-9160200-H1-08",
+      "dev-9160200-H1-10",
+      "dev-9160200-H1-11",
+      "dev-9160200-H1-13",
+      "dev-9160200-H1-16",
+      "dev-9160200-H1-24",
+      "dev-9160200-H2-01",
+      "dev-9160200-H2-03",
+      "dev-9160200-H2-04",
+      "dev-9160200-H2-05",
+      "dev-9160200-H2-08",
+      "dev-9160200-H2-09",
+      "dev-9160200-H2-16",
+      "dev-9160200-H2-17",
+      "dev-9160200-H2-20",
+      "dev-9160200-H2-22",
+      "dev-9160200-H2-23",
+      "dev-9160200-H2-24",
+      "dev-9160200-H2-25",
+      "dev-9160200-H3-02",
+      "dev-9160200-H3-03",
+      "dev-9160200-H3-05",
+      "dev-9160200-H3-06",
+      "dev-9160200-H3-11",
+      "dev-9160200-H3-13",
+      "dev-9160200-H3-17",
+      "dev-9160200-H3-21",
+      "dev-9160200-H4-10",
+      "dev-9160200-H4-16",
+      "dev-9160200-H4-17",
+      "dev-9160200-H4-23"
+    ],
+    "losses": [
+      "dev-9160200-H2-11",
+      "dev-9160200-H3-09",
+      "dev-9160200-H3-12",
+      "dev-9160200-H4-14"
+    ],
+    "both_each": {
+      "maps": 51,
+      "old": 35,
+      "new": 42
+    }
+  },
+  "versus_ablation": {
+    "gains": [
+      "dev-9160200-H1-01",
+      "dev-9160200-H1-06",
+      "dev-9160200-H1-08",
+      "dev-9160200-H1-13",
+      "dev-9160200-H1-19",
+      "dev-9160200-H2-01",
+      "dev-9160200-H2-04",
+      "dev-9160200-H2-05",
+      "dev-9160200-H2-08",
+      "dev-9160200-H2-13",
+      "dev-9160200-H2-15",
+      "dev-9160200-H2-16",
+      "dev-9160200-H2-17",
+      "dev-9160200-H2-22",
+      "dev-9160200-H2-23",
+      "dev-9160200-H2-24",
+      "dev-9160200-H3-03",
+      "dev-9160200-H3-06",
+      "dev-9160200-H3-08",
+      "dev-9160200-H3-11",
+      "dev-9160200-H3-13",
+      "dev-9160200-H3-17",
+      "dev-9160200-H3-19",
+      "dev-9160200-H3-21",
+      "dev-9160200-H3-25",
+      "dev-9160200-H4-16",
+      "dev-9160200-H4-17"
+    ],
+    "losses": [
+      "dev-9160200-H3-09",
+      "dev-9160200-H3-12",
+      "dev-9160200-H3-15",
+      "dev-9160200-H4-02",
+      "dev-9160200-H4-18"
+    ],
+    "both_each": {
+      "maps": 49,
+      "old": 43,
+      "new": 40
+    }
+  }
+}

@@ -1,0 +1,1616 @@
+{
+  "source_sha256": "1c612814d81e66cfb8cf3f70fe3a328c274534b81b8959a9b707c8a0459e8fd5",
+  "weights_sha256": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "summary": {
+    "network_sensor_down": 19,
+    "network_sensor_viable": 11,
+    "walk_1_down": 30,
+    "walk_1_viable": 22,
+    "walk_sqrt_down": 23,
+    "walk_sqrt_viable": 17,
+    "walk_squared_down": 44,
+    "walk_squared_viable": 37,
+    "states": 69,
+    "covered": 69,
+    "has_downhill": 69
+  },
+  "rows": [
+    {
+      "map": "sequence-train-9161109-H1-01",
+      "step": 83,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 3,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.2320544272661209,
+        0.23609593510627747,
+        0.16140806674957275,
+        0.37044158577919006
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-02",
+      "step": 4,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 2
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.27243340015411377,
+        0.27585411071777344,
+        0.20689788460731506,
+        0.24481455981731415
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-03",
+      "step": 4,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 6,
+        "walk_1": 2,
+        "walk_sqrt": 2,
+        "walk_squared": 2
+      },
+      "viable": [
+        3,
+        6,
+        7
+      ],
+      "downhill": [
+        3,
+        6,
+        7
+      ],
+      "mixture": [
+        0.011532574892044067,
+        0.011543701402842999,
+        0.6764143109321594,
+        0.3005094826221466
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-05",
+      "step": 15,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 2,
+        "walk_sqrt": 2,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.2654430568218231,
+        0.26922371983528137,
+        0.207463800907135,
+        0.2578694820404053
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-06",
+      "step": 150,
+      "slack": -18,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 1
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.07384247332811356,
+        0.07040146738290787,
+        0.1891317516565323,
+        0.6666243076324463
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-10",
+      "step": 9,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 1
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.282151460647583,
+        0.2788170278072357,
+        0.18809151649475098,
+        0.2509400248527527
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-13",
+      "step": 10,
+      "slack": 9,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 1,
+        "walk_sqrt": 3,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.2562367618083954,
+        0.25069940090179443,
+        0.2224554717540741,
+        0.2706083655357361
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-14",
+      "step": 4509,
+      "slack": 72,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 0
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.295307993888855,
+        0.29722297191619873,
+        0.16836708784103394,
+        0.23910194635391235
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-16",
+      "step": 4516,
+      "slack": 86,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.16983671486377716,
+        0.17260046303272247,
+        0.14287616312503815,
+        0.514686644077301
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-20",
+      "step": 3176,
+      "slack": 84,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 2,
+        "walk_sqrt": 2,
+        "walk_squared": 2
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.32650768756866455,
+        0.3274809420108795,
+        0.11149919033050537,
+        0.23451216518878937
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-24",
+      "step": 3,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.040847048163414,
+        0.04090351238846779,
+        0.5747624635696411,
+        0.3434869945049286
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H1-25",
+      "step": 24,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 2
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.2948496341705322,
+        0.2970154583454132,
+        0.16917726397514343,
+        0.23895765841007233
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-01",
+      "step": 20,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.32915738224983215,
+        0.325316846370697,
+        0.12212836742401123,
+        0.2233973890542984
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-03",
+      "step": 26,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.1514059603214264,
+        0.15024331212043762,
+        0.3271670937538147,
+        0.3711836636066437
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-04",
+      "step": 9,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.2639777958393097,
+        0.26500844955444336,
+        0.20732659101486206,
+        0.2636871635913849
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-05",
+      "step": 208,
+      "slack": -2,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 2,
+        "walk_sqrt": 2,
+        "walk_squared": 3
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.4412497580051422,
+        0.4214170575141907,
+        0.009400804527103901,
+        0.1279323399066925
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-07",
+      "step": 2,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 0
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.25503018498420715,
+        0.2572908401489258,
+        0.23162199556827545,
+        0.2560569643974304
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-08",
+      "step": 3,
+      "slack": 10,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.25307345390319824,
+        0.25063860416412354,
+        0.23793034255504608,
+        0.2583576440811157
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-09",
+      "step": 7,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.28890928626060486,
+        0.2924131453037262,
+        0.17777687311172485,
+        0.24090071022510529
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-10",
+      "step": 26,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 2
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.0057606385089457035,
+        0.00566702987998724,
+        0.6637179851531982,
+        0.3248543441295624
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-11",
+      "step": 7,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.2460460215806961,
+        0.24794471263885498,
+        0.24437151849269867,
+        0.26163777709007263
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-14",
+      "step": 16,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 0
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.27385279536247253,
+        0.2711825966835022,
+        0.18991538882255554,
+        0.26504918932914734
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-15",
+      "step": 3,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 2,
+        "walk_sqrt": 2,
+        "walk_squared": 0
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.26259541511535645,
+        0.2625603675842285,
+        0.21566450595855713,
+        0.2591797113418579
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-17",
+      "step": 23,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 2,
+        "walk_sqrt": 2,
+        "walk_squared": 0
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.005179988220334053,
+        0.005081556271761656,
+        0.6954420804977417,
+        0.2942964434623718
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-18",
+      "step": 5343,
+      "slack": 40,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        2.688978497644712e-07,
+        2.698864420835889e-07,
+        0.9195706844329834,
+        0.08042877167463303
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-19",
+      "step": 34,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.3045440912246704,
+        0.318779855966568,
+        0.1464567482471466,
+        0.23021937906742096
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-22",
+      "step": 13,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 0
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.2630057632923126,
+        0.2676507234573364,
+        0.2138473391532898,
+        0.25549617409706116
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-23",
+      "step": 8,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.003883367171511054,
+        0.0038573527708649635,
+        0.7429224848747253,
+        0.24933679401874542
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H2-25",
+      "step": 5757,
+      "slack": 79,
+      "chosen": {
+        "network_sensor": 5,
+        "walk_1": 5,
+        "walk_sqrt": 5,
+        "walk_squared": 5
+      },
+      "viable": [
+        3,
+        6
+      ],
+      "downhill": [
+        1,
+        5
+      ],
+      "mixture": [
+        0.00017753279826138169,
+        0.00018064591859001666,
+        0.8203527927398682,
+        0.17928895354270935
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-01",
+      "step": 7,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 0
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.24335624277591705,
+        0.2447238266468048,
+        0.24749979376792908,
+        0.26442015171051025
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-03",
+      "step": 30,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 0
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.15293897688388824,
+        0.15470747649669647,
+        0.3316481113433838,
+        0.3607054650783539
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-04",
+      "step": 6,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 1,
+        "walk_sqrt": 3,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.2609962224960327,
+        0.25859612226486206,
+        0.22277534008026123,
+        0.257632315158844
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-05",
+      "step": 2,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.2629464864730835,
+        0.25885364413261414,
+        0.2197028547525406,
+        0.258497029542923
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-06",
+      "step": 2,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.14041778445243835,
+        0.1382514089345932,
+        0.37903738021850586,
+        0.3422934114933014
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-07",
+      "step": 57,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 2
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.42543649673461914,
+        0.4185556173324585,
+        0.02585887722671032,
+        0.1301489919424057
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-08",
+      "step": 2,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 3
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.24830015003681183,
+        0.24667027592658997,
+        0.24372753500938416,
+        0.26130202412605286
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-09",
+      "step": 9,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 0,
+        "walk_sqrt": 2,
+        "walk_squared": 0
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.28505370020866394,
+        0.292256236076355,
+        0.1830499917268753,
+        0.2396400421857834
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-11",
+      "step": 2,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.2547896206378937,
+        0.254646360874176,
+        0.23048558831214905,
+        0.26007840037345886
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-13",
+      "step": 6628,
+      "slack": 47,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 1
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.015560466796159744,
+        0.015261654742062092,
+        0.22897538542747498,
+        0.7402024865150452
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-15",
+      "step": 26,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 3
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.22623732686042786,
+        0.2283128798007965,
+        0.2030879259109497,
+        0.3423618674278259
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-16",
+      "step": 8,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.270710825920105,
+        0.2695356607437134,
+        0.19972972571849823,
+        0.26002374291419983
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-17",
+      "step": 2,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 1
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.26765063405036926,
+        0.2678811848163605,
+        0.21728259325027466,
+        0.2471856027841568
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-18",
+      "step": 36,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 2,
+        "walk_sqrt": 2,
+        "walk_squared": 0
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.33322566747665405,
+        0.35003238916397095,
+        0.10035742819309235,
+        0.21638455986976624
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-19",
+      "step": 3,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 6,
+        "walk_1": 6,
+        "walk_sqrt": 6,
+        "walk_squared": 3
+      },
+      "viable": [
+        5
+      ],
+      "downhill": [
+        2,
+        5,
+        6
+      ],
+      "mixture": [
+        0.012447245419025421,
+        0.012519050389528275,
+        0.6815879344940186,
+        0.29344576597213745
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-21",
+      "step": 8067,
+      "slack": 52,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 1,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.3631921112537384,
+        0.3642726242542267,
+        0.08292273432016373,
+        0.1896124631166458
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H3-24",
+      "step": 14,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.3114232122898102,
+        0.3017624616622925,
+        0.13728533685207367,
+        0.24952900409698486
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-01",
+      "step": 33,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 0,
+        "walk_squared": 1
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.3409867286682129,
+        0.33315038681030273,
+        0.09352017939090729,
+        0.2323426753282547
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-02",
+      "step": 28,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.33512648940086365,
+        0.3318157494068146,
+        0.09844393283128738,
+        0.23461388051509857
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-03",
+      "step": 9,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.29682841897010803,
+        0.2861767113208771,
+        0.1713601052761078,
+        0.24563473463058472
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-04",
+      "step": 1,
+      "slack": 2,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.2490454465150833,
+        0.24953077733516693,
+        0.24387802183628082,
+        0.25754570960998535
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-06",
+      "step": 12,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 4,
+        "walk_sqrt": 4,
+        "walk_squared": 4
+      },
+      "viable": [
+        1,
+        4
+      ],
+      "downhill": [
+        1,
+        4
+      ],
+      "mixture": [
+        0.02272109128534794,
+        0.021967291831970215,
+        0.5705154538154602,
+        0.3847961723804474
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-07",
+      "step": 15,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 1
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.2774551212787628,
+        0.27398186922073364,
+        0.19230003654956818,
+        0.25626304745674133
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-08",
+      "step": 2,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 7,
+        "walk_1": 7,
+        "walk_sqrt": 7,
+        "walk_squared": 7
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.04028042033314705,
+        0.0405970960855484,
+        0.5790106058120728,
+        0.3401118516921997
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-09",
+      "step": 1,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 1
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.12603579461574554,
+        0.12491170316934586,
+        0.4110860824584961,
+        0.3379664123058319
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-10",
+      "step": 3,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 4,
+        "walk_1": 4,
+        "walk_sqrt": 4,
+        "walk_squared": 0
+      },
+      "viable": [
+        4
+      ],
+      "downhill": [
+        4
+      ],
+      "mixture": [
+        0.015650976449251175,
+        0.01560515258461237,
+        0.6610472798347473,
+        0.3076966106891632
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-11",
+      "step": 15,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 2,
+        "walk_sqrt": 2,
+        "walk_squared": 2
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.2906791865825653,
+        0.2859952747821808,
+        0.1616186946630478,
+        0.2617068290710449
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-12",
+      "step": 15,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 3,
+        "walk_sqrt": 1,
+        "walk_squared": 3
+      },
+      "viable": [
+        3
+      ],
+      "downhill": [
+        3
+      ],
+      "mixture": [
+        0.15793238580226898,
+        0.1535484939813614,
+        0.3189692199230194,
+        0.3695499002933502
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-13",
+      "step": 1,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 2
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.24117740988731384,
+        0.2424972802400589,
+        0.25707393884658813,
+        0.2592514157295227
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-14",
+      "step": 3,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.2739786207675934,
+        0.27153584361076355,
+        0.20291738212108612,
+        0.25156816840171814
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-15",
+      "step": 376,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 2,
+        "walk_sqrt": 1,
+        "walk_squared": 2
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.43742287158966064,
+        0.44252586364746094,
+        0.01530900876969099,
+        0.10474227368831635
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-16",
+      "step": 1,
+      "slack": 1,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 2,
+        "walk_sqrt": 2,
+        "walk_squared": 0
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.2455001175403595,
+        0.24694958329200745,
+        0.24878676235675812,
+        0.25876355171203613
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-17",
+      "step": 2,
+      "slack": 2,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 3
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.25673162937164307,
+        0.2549377679824829,
+        0.2273404896259308,
+        0.26099008321762085
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-18",
+      "step": 2,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 1,
+        "walk_1": 1,
+        "walk_sqrt": 1,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.11670852452516556,
+        0.11734721064567566,
+        0.42848432064056396,
+        0.3374599516391754
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-19",
+      "step": 11,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.27918434143066406,
+        0.2780130207538605,
+        0.17922136187553406,
+        0.2635813057422638
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-20",
+      "step": 31,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.0007189246825873852,
+        0.0007338932482525706,
+        0.7618968486785889,
+        0.23665030300617218
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-21",
+      "step": 3,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 2
+      },
+      "viable": [
+        0
+      ],
+      "downhill": [
+        0
+      ],
+      "mixture": [
+        0.2449464499950409,
+        0.24694190919399261,
+        0.2459159642457962,
+        0.2621956765651703
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-22",
+      "step": 13,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 3,
+        "walk_1": 3,
+        "walk_sqrt": 3,
+        "walk_squared": 3
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.29862648248672485,
+        0.29345187544822693,
+        0.160623699426651,
+        0.24729792773723602
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-24",
+      "step": 20,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 0,
+        "walk_1": 0,
+        "walk_sqrt": 0,
+        "walk_squared": 0
+      },
+      "viable": [
+        2
+      ],
+      "downhill": [
+        2
+      ],
+      "mixture": [
+        0.3344199061393738,
+        0.33163267374038696,
+        0.11593665182590485,
+        0.21801084280014038
+      ]
+    },
+    {
+      "map": "sequence-train-9161109-H4-25",
+      "step": 10,
+      "slack": 0,
+      "chosen": {
+        "network_sensor": 2,
+        "walk_1": 1,
+        "walk_sqrt": 2,
+        "walk_squared": 1
+      },
+      "viable": [
+        1
+      ],
+      "downhill": [
+        1
+      ],
+      "mixture": [
+        0.28136131167411804,
+        0.28657621145248413,
+        0.18006841838359833,
+        0.25199413299560547
+      ]
+    }
+  ]
+}

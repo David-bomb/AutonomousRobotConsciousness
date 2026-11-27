@@ -1,0 +1,2934 @@
+{
+  "source": "6affb0aa46384b2f3485e630524bb0dc02abb5b5f9901adee4f786b0d1ada763",
+  "range": [
+    800,
+    900
+  ],
+  "summary": {
+    "ordinary": {
+      "outcomes": {
+        "SUCCESS": 43,
+        "BROKEN": 28,
+        "EMPTY": 29
+      },
+      "both": 47
+    },
+    "true_downhill": {
+      "outcomes": {
+        "SUCCESS": 78,
+        "EMPTY": 11,
+        "BROKEN": 11
+      },
+      "both": 97
+    },
+    "prevent_loss": {
+      "outcomes": {
+        "SUCCESS": 96,
+        "LIMIT": 4
+      },
+      "both": 100
+    }
+  },
+  "records": [
+    {
+      "map": "sequence-train-9161108-H1-01",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 652,
+          "refuels": 11,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 652,
+          "refuels": 11,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 652,
+          "refuels": 11,
+          "repairs": 7,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-02",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 488,
+          "refuels": 7,
+          "repairs": 6,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 488,
+          "refuels": 7,
+          "repairs": 6,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 488,
+          "refuels": 7,
+          "repairs": 6,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-03",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 361,
+          "refuels": 5,
+          "repairs": 6,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 361,
+          "refuels": 5,
+          "repairs": 6,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 361,
+          "refuels": 5,
+          "repairs": 6,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-04",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 426,
+          "refuels": 8,
+          "repairs": 5,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 426,
+          "refuels": 8,
+          "repairs": 5,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 426,
+          "refuels": 8,
+          "repairs": 5,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-05",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 648,
+          "refuels": 7,
+          "repairs": 14,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 648,
+          "refuels": 7,
+          "repairs": 14,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 648,
+          "refuels": 7,
+          "repairs": 14,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-06",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 52,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 52,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 52,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-07",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 91,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 91,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 91,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-08",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 146,
+          "refuels": 2,
+          "repairs": 3,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 146,
+          "refuels": 2,
+          "repairs": 3,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 146,
+          "refuels": 2,
+          "repairs": 3,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-09",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 186,
+          "refuels": 3,
+          "repairs": 2,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 186,
+          "refuels": 3,
+          "repairs": 2,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 186,
+          "refuels": 3,
+          "repairs": 2,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-10",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 37,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 37,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 37,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-11",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 869,
+          "refuels": 17,
+          "repairs": 10,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 869,
+          "refuels": 17,
+          "repairs": 10,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 869,
+          "refuels": 17,
+          "repairs": 10,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-12",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 462,
+          "refuels": 7,
+          "repairs": 6,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 462,
+          "refuels": 7,
+          "repairs": 6,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 462,
+          "refuels": 7,
+          "repairs": 6,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-13",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 363,
+          "refuels": 7,
+          "repairs": 4,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 363,
+          "refuels": 7,
+          "repairs": 4,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 363,
+          "refuels": 7,
+          "repairs": 4,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-14",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 167,
+          "refuels": 2,
+          "repairs": 4,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 167,
+          "refuels": 2,
+          "repairs": 4,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 167,
+          "refuels": 2,
+          "repairs": 4,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-15",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 46,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 60,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 46,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-16",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 165,
+          "refuels": 4,
+          "repairs": 3,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 165,
+          "refuels": 4,
+          "repairs": 3,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 165,
+          "refuels": 4,
+          "repairs": 3,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-17",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 351,
+          "refuels": 6,
+          "repairs": 5,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 351,
+          "refuels": 6,
+          "repairs": 5,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 351,
+          "refuels": 6,
+          "repairs": 5,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-18",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 470,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 471,
+          "refuels": 7,
+          "repairs": 7,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 470,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-19",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 69,
+          "refuels": 2,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 69,
+          "refuels": 2,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 69,
+          "refuels": 2,
+          "repairs": 1,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-20",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 41,
+          "refuels": 1,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 844,
+          "refuels": 17,
+          "repairs": 9,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 848,
+          "refuels": 17,
+          "repairs": 9,
+          "changed_steps": 6
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-21",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 460,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 460,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 460,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-22",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 149,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 160,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 2
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-23",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 573,
+          "refuels": 8,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 573,
+          "refuels": 8,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 573,
+          "refuels": 8,
+          "repairs": 7,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-24",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 13,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 619,
+          "refuels": 8,
+          "repairs": 7,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 529,
+          "refuels": 7,
+          "repairs": 6,
+          "changed_steps": 2
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H1-25",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 141,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 141,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 141,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-01",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 300,
+          "refuels": 8,
+          "repairs": 4,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 300,
+          "refuels": 8,
+          "repairs": 4,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 300,
+          "refuels": 8,
+          "repairs": 4,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-02",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 33,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 253,
+          "refuels": 5,
+          "repairs": 3,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 257,
+          "refuels": 5,
+          "repairs": 3,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-03",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 518,
+          "refuels": 5,
+          "repairs": 8,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 518,
+          "refuels": 5,
+          "repairs": 8,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-04",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 29,
+          "refuels": 1,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 152,
+          "refuels": 2,
+          "repairs": 4,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 156,
+          "refuels": 2,
+          "repairs": 4,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-05",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 31,
+          "refuels": 0,
+          "repairs": 3,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 307,
+          "refuels": 4,
+          "repairs": 6,
+          "changed_steps": 6
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 310,
+          "refuels": 4,
+          "repairs": 6,
+          "changed_steps": 11
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-06",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 267,
+          "refuels": 4,
+          "repairs": 5,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 267,
+          "refuels": 4,
+          "repairs": 5,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 267,
+          "refuels": 4,
+          "repairs": 5,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-07",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 1215,
+          "refuels": 23,
+          "repairs": 13,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 1215,
+          "refuels": 23,
+          "repairs": 13,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1215,
+          "refuels": 23,
+          "repairs": 13,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-08",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 718,
+          "refuels": 9,
+          "repairs": 14,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 718,
+          "refuels": 9,
+          "repairs": 14,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 718,
+          "refuels": 9,
+          "repairs": 14,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-09",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 644,
+          "refuels": 8,
+          "repairs": 9,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 644,
+          "refuels": 8,
+          "repairs": 9,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 644,
+          "refuels": 8,
+          "repairs": 9,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-10",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 41,
+          "refuels": 1,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 304,
+          "refuels": 4,
+          "repairs": 4,
+          "changed_steps": 8
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 308,
+          "refuels": 4,
+          "repairs": 4,
+          "changed_steps": 10
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-11",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 1225,
+          "refuels": 16,
+          "repairs": 15,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 1225,
+          "refuels": 16,
+          "repairs": 15,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1225,
+          "refuels": 16,
+          "repairs": 15,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-12",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 2108,
+          "refuels": 24,
+          "repairs": 22,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "LIMIT",
+          "steps": 6728,
+          "refuels": 71,
+          "repairs": 69,
+          "changed_steps": 293
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-13",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 32,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 202,
+          "refuels": 3,
+          "repairs": 2,
+          "changed_steps": 2
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 201,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 4
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-14",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 25,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 65,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 8
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 68,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-15",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 885,
+          "refuels": 13,
+          "repairs": 10,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 885,
+          "refuels": 13,
+          "repairs": 10,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 885,
+          "refuels": 13,
+          "repairs": 10,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-16",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 405,
+          "refuels": 5,
+          "repairs": 8,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 405,
+          "refuels": 5,
+          "repairs": 8,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 405,
+          "refuels": 5,
+          "repairs": 8,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-17",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 392,
+          "refuels": 7,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 392,
+          "refuels": 7,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 392,
+          "refuels": 7,
+          "repairs": 7,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-18",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 1689,
+          "refuels": 19,
+          "repairs": 20,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 1689,
+          "refuels": 19,
+          "repairs": 20,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1689,
+          "refuels": 19,
+          "repairs": 20,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-19",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 1583,
+          "refuels": 20,
+          "repairs": 16,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 1583,
+          "refuels": 20,
+          "repairs": 16,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1583,
+          "refuels": 20,
+          "repairs": 16,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-20",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 675,
+          "refuels": 10,
+          "repairs": 11,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 675,
+          "refuels": 10,
+          "repairs": 11,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 675,
+          "refuels": 10,
+          "repairs": 11,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-21",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 466,
+          "refuels": 6,
+          "repairs": 8,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 466,
+          "refuels": 6,
+          "repairs": 8,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 466,
+          "refuels": 6,
+          "repairs": 8,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-22",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 445,
+          "refuels": 7,
+          "repairs": 9,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 445,
+          "refuels": 7,
+          "repairs": 9,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 445,
+          "refuels": 7,
+          "repairs": 9,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-23",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 3032,
+          "refuels": 33,
+          "repairs": 80,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 3032,
+          "refuels": 33,
+          "repairs": 80,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "LIMIT",
+          "steps": 6728,
+          "refuels": 70,
+          "repairs": 229,
+          "changed_steps": 521
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-24",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 2515,
+          "refuels": 33,
+          "repairs": 27,
+          "changed_steps": 5
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "LIMIT",
+          "steps": 5336,
+          "refuels": 60,
+          "repairs": 56,
+          "changed_steps": 64
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H2-25",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 85,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 4
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 89,
+          "refuels": 2,
+          "repairs": 2,
+          "changed_steps": 4
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-01",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 238,
+          "refuels": 3,
+          "repairs": 4,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 240,
+          "refuels": 3,
+          "repairs": 4,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-02",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 51,
+          "refuels": 0,
+          "repairs": 2,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 3263,
+          "refuels": 37,
+          "repairs": 37,
+          "changed_steps": 4
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 3265,
+          "refuels": 37,
+          "repairs": 38,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-03",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 25,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 2788,
+          "refuels": 32,
+          "repairs": 34,
+          "changed_steps": 2
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 2784,
+          "refuels": 31,
+          "repairs": 34,
+          "changed_steps": 2
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-04",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 49,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 2583,
+          "refuels": 29,
+          "repairs": 27,
+          "changed_steps": 4
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 2454,
+          "refuels": 26,
+          "repairs": 26,
+          "changed_steps": 4
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-05",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 12,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 1799,
+          "refuels": 21,
+          "repairs": 36,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1798,
+          "refuels": 22,
+          "repairs": 35,
+          "changed_steps": 2
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-06",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 1,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 579,
+          "refuels": 7,
+          "repairs": 8,
+          "changed_steps": 2
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 583,
+          "refuels": 7,
+          "repairs": 8,
+          "changed_steps": 2
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-07",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 25,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 1829,
+          "refuels": 21,
+          "repairs": 35,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1831,
+          "refuels": 21,
+          "repairs": 35,
+          "changed_steps": 9
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-08",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 2641,
+          "refuels": 29,
+          "repairs": 41,
+          "changed_steps": 4
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 2656,
+          "refuels": 30,
+          "repairs": 43,
+          "changed_steps": 6
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-09",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 3491,
+          "refuels": 39,
+          "repairs": 39,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 3493,
+          "refuels": 39,
+          "repairs": 39,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-10",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 1128,
+          "refuels": 14,
+          "repairs": 12,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1678,
+          "refuels": 19,
+          "repairs": 19,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-11",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 43,
+          "refuels": 1,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 979,
+          "refuels": 11,
+          "repairs": 11,
+          "changed_steps": 6
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 979,
+          "refuels": 11,
+          "repairs": 11,
+          "changed_steps": 6
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-12",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 1471,
+          "refuels": 17,
+          "repairs": 15,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 1469,
+          "refuels": 17,
+          "repairs": 15,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1645,
+          "refuels": 19,
+          "repairs": 17,
+          "changed_steps": 7
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-13",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 2832,
+          "refuels": 30,
+          "repairs": 31,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 3134,
+          "refuels": 34,
+          "repairs": 34,
+          "changed_steps": 2
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 2832,
+          "refuels": 30,
+          "repairs": 31,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-14",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 3,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 1672,
+          "refuels": 36,
+          "repairs": 21,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1674,
+          "refuels": 36,
+          "repairs": 21,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-15",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 715,
+          "refuels": 10,
+          "repairs": 8,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 717,
+          "refuels": 10,
+          "repairs": 8,
+          "changed_steps": 2
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-16",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 4,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 60,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 61,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 2
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-17",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 643,
+          "refuels": 13,
+          "repairs": 8,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 643,
+          "refuels": 13,
+          "repairs": 8,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 643,
+          "refuels": 13,
+          "repairs": 8,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-18",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 2395,
+          "refuels": 26,
+          "repairs": 41,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 2395,
+          "refuels": 26,
+          "repairs": 41,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 2395,
+          "refuels": 26,
+          "repairs": 41,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-19",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 230,
+          "refuels": 3,
+          "repairs": 5,
+          "changed_steps": 4
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-20",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 672,
+          "refuels": 8,
+          "repairs": 8,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 672,
+          "refuels": 8,
+          "repairs": 8,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 671,
+          "refuels": 8,
+          "repairs": 8,
+          "changed_steps": 11
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-21",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 1,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 483,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 485,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-22",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 52,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 685,
+          "refuels": 8,
+          "repairs": 8,
+          "changed_steps": 2
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 785,
+          "refuels": 10,
+          "repairs": 9,
+          "changed_steps": 6
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-23",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 324,
+          "refuels": 5,
+          "repairs": 4,
+          "changed_steps": 2
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 323,
+          "refuels": 5,
+          "repairs": 4,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-24",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 29,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 962,
+          "refuels": 18,
+          "repairs": 11,
+          "changed_steps": 2
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 966,
+          "refuels": 18,
+          "repairs": 11,
+          "changed_steps": 2
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H3-25",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 984,
+          "refuels": 12,
+          "repairs": 12,
+          "changed_steps": 7
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-01",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 3344,
+          "refuels": 36,
+          "repairs": 38,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 3344,
+          "refuels": 36,
+          "repairs": 38,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-02",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 29,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 65,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 9
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 67,
+          "refuels": 1,
+          "repairs": 1,
+          "changed_steps": 6
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-03",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 1369,
+          "refuels": 19,
+          "repairs": 19,
+          "changed_steps": 2
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1373,
+          "refuels": 19,
+          "repairs": 20,
+          "changed_steps": 2
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-04",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 623,
+          "refuels": 7,
+          "repairs": 8,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 623,
+          "refuels": 7,
+          "repairs": 8,
+          "changed_steps": 3
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-05",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 22,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 2968,
+          "refuels": 31,
+          "repairs": 33,
+          "changed_steps": 2
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "LIMIT",
+          "steps": 9768,
+          "refuels": 100,
+          "repairs": 102,
+          "changed_steps": 68
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-06",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 534,
+          "refuels": 9,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 534,
+          "refuels": 9,
+          "repairs": 7,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 534,
+          "refuels": 9,
+          "repairs": 7,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-07",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 23,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 777,
+          "refuels": 10,
+          "repairs": 10,
+          "changed_steps": 4
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 783,
+          "refuels": 10,
+          "repairs": 11,
+          "changed_steps": 6
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-08",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 51,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 3281,
+          "refuels": 38,
+          "repairs": 35,
+          "changed_steps": 4
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 3073,
+          "refuels": 35,
+          "repairs": 33,
+          "changed_steps": 5
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-09",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 495,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 495,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 495,
+          "refuels": 6,
+          "repairs": 7,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-10",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 1801,
+          "refuels": 23,
+          "repairs": 19,
+          "changed_steps": 5
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1869,
+          "refuels": 22,
+          "repairs": 20,
+          "changed_steps": 8
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-11",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 8,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 2406,
+          "refuels": 27,
+          "repairs": 26,
+          "changed_steps": 5
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 2598,
+          "refuels": 30,
+          "repairs": 28,
+          "changed_steps": 8
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-12",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 17,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 212,
+          "refuels": 5,
+          "repairs": 3,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 212,
+          "refuels": 5,
+          "repairs": 3,
+          "changed_steps": 1
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-13",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 46,
+          "refuels": 3,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 2844,
+          "refuels": 34,
+          "repairs": 35,
+          "changed_steps": 7
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 2887,
+          "refuels": 35,
+          "repairs": 36,
+          "changed_steps": 14
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-14",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 29,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 353,
+          "refuels": 4,
+          "repairs": 4,
+          "changed_steps": 4
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 357,
+          "refuels": 4,
+          "repairs": 5,
+          "changed_steps": 6
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-15",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 899,
+          "refuels": 10,
+          "repairs": 11,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 899,
+          "refuels": 10,
+          "repairs": 11,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 899,
+          "refuels": 10,
+          "repairs": 11,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-16",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 4
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 3130,
+          "refuels": 34,
+          "repairs": 36,
+          "changed_steps": 6
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-17",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 380,
+          "refuels": 5,
+          "repairs": 4,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 431,
+          "refuels": 6,
+          "repairs": 5,
+          "changed_steps": 4
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-18",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 23,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 626,
+          "refuels": 8,
+          "repairs": 9,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 701,
+          "refuels": 9,
+          "repairs": 10,
+          "changed_steps": 9
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-19",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 2379,
+          "refuels": 24,
+          "repairs": 34,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 2379,
+          "refuels": 24,
+          "repairs": 34,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 2534,
+          "refuels": 26,
+          "repairs": 37,
+          "changed_steps": 4
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-20",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "BROKEN",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 3310,
+          "refuels": 37,
+          "repairs": 66,
+          "changed_steps": 4
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 3316,
+          "refuels": 38,
+          "repairs": 67,
+          "changed_steps": 18
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-21",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "BROKEN",
+          "steps": 1309,
+          "refuels": 15,
+          "repairs": 14,
+          "changed_steps": 1
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1308,
+          "refuels": 15,
+          "repairs": 14,
+          "changed_steps": 4
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-22",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 34,
+          "refuels": 0,
+          "repairs": 1,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 4120,
+          "refuels": 46,
+          "repairs": 54,
+          "changed_steps": 3
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 4201,
+          "refuels": 47,
+          "repairs": 55,
+          "changed_steps": 28
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-23",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "SUCCESS",
+          "steps": 3076,
+          "refuels": 56,
+          "repairs": 35,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 3076,
+          "refuels": 56,
+          "repairs": 35,
+          "changed_steps": 0
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 3076,
+          "refuels": 56,
+          "repairs": 35,
+          "changed_steps": 0
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-24",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 25,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "SUCCESS",
+          "steps": 1996,
+          "refuels": 20,
+          "repairs": 37,
+          "changed_steps": 5
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 1998,
+          "refuels": 20,
+          "repairs": 37,
+          "changed_steps": 5
+        }
+      ]
+    },
+    {
+      "map": "sequence-train-9161108-H4-25",
+      "trials": [
+        {
+          "mode": "ordinary",
+          "outcome": "EMPTY",
+          "steps": 23,
+          "refuels": 0,
+          "repairs": 0,
+          "changed_steps": 0
+        },
+        {
+          "mode": "true_downhill",
+          "outcome": "EMPTY",
+          "steps": 1348,
+          "refuels": 14,
+          "repairs": 25,
+          "changed_steps": 6
+        },
+        {
+          "mode": "prevent_loss",
+          "outcome": "SUCCESS",
+          "steps": 2344,
+          "refuels": 28,
+          "repairs": 35,
+          "changed_steps": 32
+        }
+      ]
+    }
+  ]
+}

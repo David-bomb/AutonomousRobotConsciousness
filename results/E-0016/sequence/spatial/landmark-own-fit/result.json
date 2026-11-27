@@ -1,0 +1,29 @@
+{
+  "selected": 1800,
+  "stages": [
+    {
+      "step": 700,
+      "sha256": "44a2ff26fdf0aac13750c4943224c2859b47816a9125298df165a66aa4342620",
+      "score": {
+        "states": 11966,
+        "critical": 5768,
+        "critical_viable": 5351,
+        "critical_downhill": 5287,
+        "uncertain_pairs": 339256,
+        "mean_length_error": 16.303846073152883
+      }
+    },
+    {
+      "step": 1800,
+      "sha256": "c55dcd53c20a4772b73da94cd92c62ab31e45c60ab77b0c1fa638424c623c71a",
+      "score": {
+        "states": 11966,
+        "critical": 5768,
+        "critical_viable": 5366,
+        "critical_downhill": 5355,
+        "uncertain_pairs": 339256,
+        "mean_length_error": 18.35271964204852
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "options": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      6.0,
+      3.0,
+      2.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      2.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0
+    ],
+    [
+      8.0,
+      2.0,
+      8.0,
+      0.0,
+      1.0,
+      2.0,
+      1.0
+    ],
+    [
+      2.6666666666666665,
+      3.3333333333333335,
+      5.333333333333333,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      1.3333333333333333
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "spatial-large-9163124-H3-10",
+      "tier": "H3",
+      "head": 0,
+      "gate": true,
+      "steps": 3603,
+      "outcome": "SUCCESS",
+      "actions_sha256": "52dabd81a9dfeae611a6e80f64fe466893ba49bf32300285f191a89fe90132b6"
+    },
+    {
+      "map": "spatial-large-9163124-H3-10",
+      "tier": "H3",
+      "head": 1,
+      "gate": true,
+      "steps": 3592,
+      "outcome": "exact_cycle",
+      "actions_sha256": "2e5f78f8e8c6ee7a08b0e27a48a0777cd981336eec51004b05572a58985ce388"
+    },
+    {
+      "map": "spatial-large-9163124-H3-10",
+      "tier": "H3",
+      "head": 2,
+      "gate": true,
+      "steps": 3522,
+      "outcome": "BROKEN",
+      "actions_sha256": "a96ea38716d6204a9db69a6e574b19ecde9e609faed107f39b113917ffd57f86"
+    },
+    {
+      "map": "spatial-large-9163124-H3-10",
+      "tier": "H3",
+      "head": 3,
+      "gate": true,
+      "steps": 3592,
+      "outcome": "EMPTY",
+      "actions_sha256": "4093fd9a7f1259d6b2f74cd2d160c07d15c893552094ae9fa4ded73c97ab86c3"
+    },
+    {
+      "map": "spatial-large-9163124-H3-10",
+      "tier": "H3",
+      "head": 4,
+      "gate": true,
+      "steps": 3592,
+      "outcome": "EMPTY",
+      "actions_sha256": "a385e36bf8ef37c53d801d16635496a8fed957474425771a92dc194c7ac8f2a4"
+    }
+  ],
+  "protocol_sha256": "c891eb89ae2abe1fbacfe4df8847a15ad5bf7f2ff1bebbe8ece15f62dc95c978"
+}

@@ -1,0 +1,68 @@
+{
+  "tag": "post-teacher",
+  "sha256": "8d08301221a59a6ca1433c06c35438f8afea963dfaa4a9bd6d82aafa245391be",
+  "base_sha256": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "utc": "2026-11-27T13:58:49.907316+00:00",
+  "adapter_sha256": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772",
+  "registration": "235a857c002708cce053838262827891d6b9733c8cf40e91852fd3e0bdd3354d",
+  "training": {
+    "parent": "route-rl",
+    "steps": 900,
+    "seed": 161447,
+    "successful_examples": [
+      4021,
+      4729
+    ],
+    "total_examples": 9674,
+    "trace": [
+      [
+        0.67051,
+        0.308,
+        0.0088
+      ],
+      [
+        0.20647,
+        0.27547,
+        0.02176
+      ],
+      [
+        0.02558,
+        0.26308,
+        0.00026
+      ],
+      [
+        0.27823,
+        0.21854,
+        0.00304
+      ],
+      [
+        0.01467,
+        0.1463,
+        0.00025
+      ],
+      [
+        0.04295,
+        0.22004,
+        0.01843
+      ],
+      [
+        0.05153,
+        0.19468,
+        0.00026
+      ],
+      [
+        0.2719,
+        0.20689,
+        0.0
+      ],
+      [
+        0.02891,
+        0.14571,
+        0.0
+      ]
+    ],
+    "samples_sha256": "d0d591276da8e6a08182fe9433771d41ac674678014c1d3c70194473a806e792"
+  },
+  "route_adapter_sha256": "bcabaeecfe7b401df8ee686076bb83e0c23a8286307ea701dc2df7c7dd4aca2b",
+  "patch_adapter_sha256": "366b9ba58901feb8cd0aae99f3591d4d0dde7c300b78cdde8b2a7fef29e13efd"
+}

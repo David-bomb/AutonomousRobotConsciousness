@@ -1,0 +1,126 @@
+{
+  "configs": [
+    [
+      9,
+      9,
+      -101
+    ],
+    [
+      8,
+      9,
+      -101
+    ],
+    [
+      7,
+      9,
+      -101
+    ],
+    [
+      8,
+      8,
+      -101
+    ],
+    [
+      0,
+      0,
+      -101
+    ],
+    [
+      10,
+      10,
+      -101
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "return-train-9165201-H1-12",
+      "tier": "H1",
+      "model": 0,
+      "outcome": "BROKEN",
+      "steps": 1376,
+      "refuels": 17,
+      "repairs": 17,
+      "late_steps": 1354,
+      "first_late": 22,
+      "first_both": 22,
+      "before_both": 0,
+      "after_both_early": 0,
+      "actions_sha256": "f1f90c983aad0c30acefd9a57b0290e8b79cc131c22d7ab1855bb736858efb8d"
+    },
+    {
+      "map": "return-train-9165201-H1-12",
+      "tier": "H1",
+      "model": 1,
+      "outcome": "BROKEN",
+      "steps": 1376,
+      "refuels": 17,
+      "repairs": 17,
+      "late_steps": 1354,
+      "first_late": 22,
+      "first_both": 22,
+      "before_both": 0,
+      "after_both_early": 0,
+      "actions_sha256": "f1f90c983aad0c30acefd9a57b0290e8b79cc131c22d7ab1855bb736858efb8d"
+    },
+    {
+      "map": "return-train-9165201-H1-12",
+      "tier": "H1",
+      "model": 2,
+      "outcome": "BROKEN",
+      "steps": 1376,
+      "refuels": 17,
+      "repairs": 17,
+      "late_steps": 1355,
+      "first_late": 21,
+      "first_both": 22,
+      "before_both": 1,
+      "after_both_early": 0,
+      "actions_sha256": "f1f90c983aad0c30acefd9a57b0290e8b79cc131c22d7ab1855bb736858efb8d"
+    },
+    {
+      "map": "return-train-9165201-H1-12",
+      "tier": "H1",
+      "model": 3,
+      "outcome": "BROKEN",
+      "steps": 1376,
+      "refuels": 17,
+      "repairs": 17,
+      "late_steps": 1354,
+      "first_late": 22,
+      "first_both": 22,
+      "before_both": 0,
+      "after_both_early": 0,
+      "actions_sha256": "f1f90c983aad0c30acefd9a57b0290e8b79cc131c22d7ab1855bb736858efb8d"
+    },
+    {
+      "map": "return-train-9165201-H1-12",
+      "tier": "H1",
+      "model": 4,
+      "outcome": "BROKEN",
+      "steps": 1376,
+      "refuels": 17,
+      "repairs": 17,
+      "late_steps": 1376,
+      "first_late": 0,
+      "first_both": 22,
+      "before_both": 22,
+      "after_both_early": 0,
+      "actions_sha256": "f1f90c983aad0c30acefd9a57b0290e8b79cc131c22d7ab1855bb736858efb8d"
+    },
+    {
+      "map": "return-train-9165201-H1-12",
+      "tier": "H1",
+      "model": 5,
+      "outcome": "exact_cycle",
+      "steps": 726,
+      "refuels": 10,
+      "repairs": 11,
+      "late_steps": 0,
+      "first_late": null,
+      "first_both": 22,
+      "before_both": 0,
+      "after_both_early": 704,
+      "actions_sha256": "3b3663e902427a69da804440412a9a30c71e186f00d12fb5d6e65809d6fa602c"
+    }
+  ]
+}

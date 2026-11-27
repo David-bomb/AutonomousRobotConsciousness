@@ -1,0 +1,48 @@
+{
+  "name": "previous",
+  "weights_sha256": "eb5f1162335fed9f90f6fed4f1dd5b456058ba72ee57720d451b9ac3b6e6e44f",
+  "dev_sha256": "4ce3fcd9106332497bf6a6e6ad26040aae303fc297a77dc7606828c5edabe8a6",
+  "selection": "56713e55893570c6e491bfd4387ed1b281c2745b50623acf085b6ec3700a5062",
+  "ranks": {
+    "previous": {
+      "weights": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "wins": 48,
+      "minimum": 7
+    },
+    "marginal": {
+      "weights": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "wins": 44,
+      "minimum": 5
+    },
+    "direct": {
+      "weights": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "wins": 37,
+      "minimum": 3
+    },
+    "probability": {
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "wins": 41,
+      "minimum": 4
+    }
+  }
+}

@@ -1,0 +1,1293 @@
+{
+  "scope": "E-0016 original train[700:800], first irreversible states of recovery800; independent of historical evaluation",
+  "model_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "total": 70,
+  "summary": {
+    "known": 68,
+    "certified_back": 50,
+    "certified_back_and_viable": 50,
+    "excluded_bad": 1
+  },
+  "episodes": [
+    {
+      "map": "train-9160107-H1-01",
+      "step": 104,
+      "before": [
+        8,
+        46
+      ],
+      "current": 47,
+      "service": "R",
+      "prior_available": true,
+      "previous": 46,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-03",
+      "step": 9,
+      "before": [
+        6,
+        8
+      ],
+      "current": 9,
+      "service": "R",
+      "prior_available": true,
+      "previous": 8,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-05",
+      "step": 22,
+      "before": [
+        19,
+        5
+      ],
+      "current": 20,
+      "service": "F",
+      "prior_available": true,
+      "previous": 19,
+      "reverse": "WEST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-07",
+      "step": 7,
+      "before": [
+        9,
+        9
+      ],
+      "current": 10,
+      "service": "R",
+      "prior_available": true,
+      "previous": 9,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-09",
+      "step": 7,
+      "before": [
+        20,
+        15
+      ],
+      "current": 21,
+      "service": "F",
+      "prior_available": true,
+      "previous": 20,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-10",
+      "step": 4,
+      "before": [
+        25,
+        10
+      ],
+      "current": 11,
+      "service": "R",
+      "prior_available": true,
+      "previous": 10,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-12",
+      "step": 95,
+      "before": [
+        7,
+        8
+      ],
+      "current": 7,
+      "service": "R",
+      "prior_available": true,
+      "previous": 8,
+      "reverse": "WEST",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "NORTH",
+        "NW",
+        "WEST"
+      ],
+      "would_exclude_error": true
+    },
+    {
+      "map": "train-9160107-H1-13",
+      "step": 5,
+      "before": [
+        12,
+        15
+      ],
+      "current": 13,
+      "service": "F",
+      "prior_available": true,
+      "previous": 12,
+      "reverse": "WEST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-15",
+      "step": 4,
+      "before": [
+        17,
+        22
+      ],
+      "current": 23,
+      "service": "R",
+      "prior_available": true,
+      "previous": 22,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-16",
+      "step": 3,
+      "before": [
+        13,
+        10
+      ],
+      "current": 11,
+      "service": "R",
+      "prior_available": true,
+      "previous": 10,
+      "reverse": "WEST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-17",
+      "step": 3,
+      "before": [
+        13,
+        21
+      ],
+      "current": 14,
+      "service": "F",
+      "prior_available": true,
+      "previous": 13,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-19",
+      "step": 72,
+      "before": [
+        29,
+        49
+      ],
+      "current": 50,
+      "service": "R",
+      "prior_available": true,
+      "previous": 49,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-20",
+      "step": 19,
+      "before": [
+        5,
+        12
+      ],
+      "current": 13,
+      "service": "R",
+      "prior_available": true,
+      "previous": 12,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-24",
+      "step": 188,
+      "before": [
+        36,
+        42
+      ],
+      "current": 43,
+      "service": "R",
+      "prior_available": true,
+      "previous": 42,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H1-25",
+      "step": 13,
+      "before": [
+        18,
+        2
+      ],
+      "current": 19,
+      "service": "F",
+      "prior_available": true,
+      "previous": 18,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-01",
+      "step": 3,
+      "before": [
+        16,
+        16
+      ],
+      "current": 17,
+      "service": "F",
+      "prior_available": true,
+      "previous": 16,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-03",
+      "step": 16,
+      "before": [
+        9,
+        24
+      ],
+      "current": 25,
+      "service": "R",
+      "prior_available": true,
+      "previous": 24,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-04",
+      "step": 130,
+      "before": [
+        33,
+        28
+      ],
+      "current": 34,
+      "service": "F",
+      "prior_available": true,
+      "previous": 33,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-05",
+      "step": 8,
+      "before": [
+        9,
+        8
+      ],
+      "current": 9,
+      "service": "R",
+      "prior_available": true,
+      "previous": 8,
+      "reverse": "WEST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-06",
+      "step": 2,
+      "before": [
+        17,
+        24
+      ],
+      "current": 25,
+      "service": "R",
+      "prior_available": true,
+      "previous": 24,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-08",
+      "step": 3,
+      "before": [
+        18,
+        28
+      ],
+      "current": 19,
+      "service": "F",
+      "prior_available": true,
+      "previous": 18,
+      "reverse": "WEST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-10",
+      "step": 3,
+      "before": [
+        9,
+        10
+      ],
+      "current": 10,
+      "service": "F",
+      "prior_available": true,
+      "previous": 9,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-11",
+      "step": 66,
+      "before": [
+        42,
+        35
+      ],
+      "current": 43,
+      "service": "F",
+      "prior_available": true,
+      "previous": 42,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-18",
+      "step": 12,
+      "before": [
+        2,
+        35
+      ],
+      "current": 36,
+      "service": "R",
+      "prior_available": true,
+      "previous": 35,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-19",
+      "step": 19,
+      "before": [
+        5,
+        8
+      ],
+      "current": 4,
+      "service": "F",
+      "prior_available": true,
+      "previous": 5,
+      "reverse": "WEST",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "WEST"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-20",
+      "step": 152,
+      "before": [
+        24,
+        31
+      ],
+      "current": 32,
+      "service": "R",
+      "prior_available": true,
+      "previous": 31,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-21",
+      "step": 61,
+      "before": [
+        42,
+        34
+      ],
+      "current": 41,
+      "service": "F",
+      "prior_available": true,
+      "previous": 42,
+      "reverse": "SOUTH",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": true,
+      "excluded": [
+        "SOUTH"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H2-22",
+      "step": 17,
+      "before": [
+        35,
+        4
+      ],
+      "current": 35,
+      "service": "F",
+      "prior_available": true,
+      "previous": 35,
+      "reverse": "WEST",
+      "certified_decrease": false,
+      "certified_increase": false,
+      "reverse_viable": false,
+      "excluded": [
+        "WEST"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-01",
+      "step": 3,
+      "before": [
+        5,
+        1
+      ],
+      "current": 6,
+      "service": "F",
+      "prior_available": true,
+      "previous": 5,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-05",
+      "step": 13,
+      "before": [
+        5,
+        8
+      ],
+      "current": 9,
+      "service": "R",
+      "prior_available": true,
+      "previous": 8,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-08",
+      "step": 2,
+      "before": [
+        36,
+        11
+      ],
+      "current": 12,
+      "service": "R",
+      "prior_available": true,
+      "previous": 11,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-09",
+      "step": 73,
+      "before": [
+        35,
+        24
+      ],
+      "current": 36,
+      "service": "F",
+      "prior_available": true,
+      "previous": 35,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-10",
+      "step": 2,
+      "before": [
+        20,
+        4
+      ],
+      "current": 21,
+      "service": "F",
+      "prior_available": true,
+      "previous": 20,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-11",
+      "step": 244,
+      "before": [
+        26,
+        31
+      ],
+      "current": 32,
+      "service": "R",
+      "prior_available": true,
+      "previous": 31,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-12",
+      "step": 157,
+      "before": [
+        7,
+        37
+      ],
+      "current": 38,
+      "service": "R",
+      "prior_available": true,
+      "previous": 37,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-13",
+      "step": 36,
+      "before": [
+        15,
+        15
+      ],
+      "current": 14,
+      "service": "R",
+      "prior_available": true,
+      "previous": 15,
+      "reverse": "WEST",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "WEST"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-14",
+      "step": 2,
+      "before": [
+        20,
+        24
+      ],
+      "current": 25,
+      "service": "R",
+      "prior_available": true,
+      "previous": 24,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-15",
+      "step": 29,
+      "before": [
+        16,
+        9
+      ],
+      "current": 17,
+      "service": "F",
+      "prior_available": true,
+      "previous": 16,
+      "reverse": "SW",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-16",
+      "step": 25,
+      "before": [
+        2,
+        12
+      ],
+      "current": 13,
+      "service": "R",
+      "prior_available": true,
+      "previous": 12,
+      "reverse": "WEST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-17",
+      "step": 36,
+      "before": [
+        8,
+        16
+      ],
+      "current": 9,
+      "service": "F",
+      "prior_available": true,
+      "previous": 8,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-18",
+      "step": 2,
+      "before": [
+        6,
+        27
+      ],
+      "current": 7,
+      "service": "F",
+      "prior_available": true,
+      "previous": 6,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-19",
+      "step": 15,
+      "before": [
+        2,
+        29
+      ],
+      "current": 30,
+      "service": "R",
+      "prior_available": true,
+      "previous": 29,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-20",
+      "step": 22,
+      "before": [
+        2,
+        24
+      ],
+      "current": 25,
+      "service": "R",
+      "prior_available": true,
+      "previous": 24,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-21",
+      "step": 16,
+      "before": [
+        37,
+        1
+      ],
+      "current": 38,
+      "service": "F",
+      "prior_available": true,
+      "previous": 37,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-22",
+      "step": 20,
+      "before": [
+        4,
+        25
+      ],
+      "current": 5,
+      "service": "F",
+      "prior_available": true,
+      "previous": 4,
+      "reverse": "EAST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-23",
+      "step": 78,
+      "before": [
+        35,
+        25
+      ],
+      "current": 24,
+      "service": "R",
+      "prior_available": true,
+      "previous": 25,
+      "reverse": "SOUTH",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "SOUTH"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-24",
+      "step": 9,
+      "before": [
+        12,
+        14
+      ],
+      "current": 14,
+      "service": "R",
+      "prior_available": true,
+      "previous": 14,
+      "reverse": "NORTH",
+      "certified_decrease": false,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [
+        "NORTH"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H3-25",
+      "step": 3,
+      "before": [
+        8,
+        24
+      ],
+      "current": 25,
+      "service": "R",
+      "prior_available": true,
+      "previous": 24,
+      "reverse": "WEST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-01",
+      "step": 25,
+      "before": [
+        0,
+        39
+      ],
+      "current": 40,
+      "service": "R",
+      "prior_available": true,
+      "previous": 39,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-02",
+      "step": 3,
+      "before": [
+        11,
+        3
+      ],
+      "current": 11,
+      "service": "F",
+      "prior_available": true,
+      "previous": 11,
+      "reverse": "NW",
+      "certified_decrease": false,
+      "certified_increase": false,
+      "reverse_viable": false,
+      "excluded": [
+        "NW"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-03",
+      "step": 20,
+      "before": [
+        18,
+        0
+      ],
+      "current": 19,
+      "service": "F",
+      "prior_available": true,
+      "previous": 18,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-04",
+      "step": 102,
+      "before": [
+        56,
+        38
+      ],
+      "current": 55,
+      "service": "F",
+      "prior_available": true,
+      "previous": 56,
+      "reverse": "EAST",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": true,
+      "excluded": [
+        "EAST"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-06",
+      "step": 1,
+      "before": null,
+      "current": 9,
+      "service": "F",
+      "prior_available": false
+    },
+    {
+      "map": "train-9160107-H4-07",
+      "step": 1,
+      "before": null,
+      "current": 25,
+      "service": "R",
+      "prior_available": false
+    },
+    {
+      "map": "train-9160107-H4-08",
+      "step": 83,
+      "before": [
+        45,
+        57
+      ],
+      "current": 46,
+      "service": "F",
+      "prior_available": true,
+      "previous": 45,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-09",
+      "step": 25,
+      "before": [
+        16,
+        9
+      ],
+      "current": 8,
+      "service": "R",
+      "prior_available": true,
+      "previous": 9,
+      "reverse": "SOUTH",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "SOUTH"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-10",
+      "step": 15,
+      "before": [
+        23,
+        12
+      ],
+      "current": 12,
+      "service": "R",
+      "prior_available": true,
+      "previous": 12,
+      "reverse": "WEST",
+      "certified_decrease": false,
+      "certified_increase": false,
+      "reverse_viable": false,
+      "excluded": [
+        "WEST"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-12",
+      "step": 18,
+      "before": [
+        9,
+        18
+      ],
+      "current": 10,
+      "service": "F",
+      "prior_available": true,
+      "previous": 9,
+      "reverse": "WEST",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-13",
+      "step": 21,
+      "before": [
+        14,
+        10
+      ],
+      "current": 11,
+      "service": "R",
+      "prior_available": true,
+      "previous": 10,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-14",
+      "step": 32,
+      "before": [
+        25,
+        10
+      ],
+      "current": 25,
+      "service": "F",
+      "prior_available": true,
+      "previous": 25,
+      "reverse": "NORTH",
+      "certified_decrease": false,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [
+        "NORTH"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-15",
+      "step": 97,
+      "before": [
+        33,
+        35
+      ],
+      "current": 36,
+      "service": "R",
+      "prior_available": true,
+      "previous": 35,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-16",
+      "step": 93,
+      "before": [
+        21,
+        31
+      ],
+      "current": 20,
+      "service": "F",
+      "prior_available": true,
+      "previous": 21,
+      "reverse": "EAST",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "EAST"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-17",
+      "step": 2,
+      "before": [
+        16,
+        16
+      ],
+      "current": 15,
+      "service": "F",
+      "prior_available": true,
+      "previous": 16,
+      "reverse": "NW",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "NORTH",
+        "NW",
+        "WEST"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-18",
+      "step": 9,
+      "before": [
+        15,
+        33
+      ],
+      "current": 32,
+      "service": "R",
+      "prior_available": true,
+      "previous": 33,
+      "reverse": "SOUTH",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "SOUTH"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-19",
+      "step": 81,
+      "before": [
+        39,
+        17
+      ],
+      "current": 38,
+      "service": "F",
+      "prior_available": true,
+      "previous": 39,
+      "reverse": "EAST",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "EAST"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-20",
+      "step": 13,
+      "before": [
+        15,
+        21
+      ],
+      "current": 16,
+      "service": "F",
+      "prior_available": true,
+      "previous": 15,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-21",
+      "step": 21,
+      "before": [
+        14,
+        2
+      ],
+      "current": 15,
+      "service": "F",
+      "prior_available": true,
+      "previous": 14,
+      "reverse": "SOUTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-22",
+      "step": 32,
+      "before": [
+        22,
+        9
+      ],
+      "current": 23,
+      "service": "F",
+      "prior_available": true,
+      "previous": 22,
+      "reverse": "NORTH",
+      "certified_decrease": true,
+      "certified_increase": false,
+      "reverse_viable": true,
+      "excluded": [],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-24",
+      "step": 25,
+      "before": [
+        23,
+        5
+      ],
+      "current": 22,
+      "service": "F",
+      "prior_available": true,
+      "previous": 23,
+      "reverse": "EAST",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "EAST"
+      ],
+      "would_exclude_error": false
+    },
+    {
+      "map": "train-9160107-H4-25",
+      "step": 12,
+      "before": [
+        12,
+        11
+      ],
+      "current": 11,
+      "service": "F",
+      "prior_available": true,
+      "previous": 12,
+      "reverse": "WEST",
+      "certified_decrease": false,
+      "certified_increase": true,
+      "reverse_viable": false,
+      "excluded": [
+        "WEST"
+      ],
+      "would_exclude_error": false
+    }
+  ]
+}

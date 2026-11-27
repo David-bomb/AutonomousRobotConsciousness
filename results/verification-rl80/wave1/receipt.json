@@ -1,0 +1,63 @@
+{
+  "episodes": 300,
+  "successes": {
+    "I": 28,
+    "II": 25,
+    "III": 20
+  },
+  "passed": false,
+  "kind": "historical",
+  "controller_sha256": "daf38c9455da480c1171dcd12e97715468d97a1430197224abac09411be47a05",
+  "checkpoint_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "lock_sha256": "6d05dbc9dfe404c5c5960bec2c22a5ab603653a8000db3f6590edfb2c5801053",
+  "spec_sha256": "58f493edd1adb2e0011a0fec3a5b095e47145881783e9cf6252c7a8d902c3168",
+  "episodes_sha256": "43064562031f1a98fb97db424b12dfc9849f42e65a4a5511814a7a634965d2cb",
+  "candidate": "recovery800/rl",
+  "selection_sha256": "fc24ebe49c95d85667788d1f37da7f3a6e6483a73e094a21c11d6b8b0e6d78d6",
+  "registered_utc": "2026-11-27T09:50:51+00:00",
+  "by_split": {
+    "I": {
+      "maps": 100,
+      "success": 28,
+      "outcomes": {
+        "SUCCESS": 28,
+        "BROKEN": 38,
+        "EMPTY": 34
+      },
+      "steps": 6298,
+      "refuels": 97,
+      "repairs": 92,
+      "episodes_sha256": "ff0abbc12a886e68bf3a44cf62ba1ba3095db82b4261f52d88ca30a6e58b62e4"
+    },
+    "II": {
+      "maps": 100,
+      "success": 25,
+      "outcomes": {
+        "SUCCESS": 25,
+        "BROKEN": 48,
+        "EMPTY": 27
+      },
+      "steps": 5810,
+      "refuels": 97,
+      "repairs": 82,
+      "episodes_sha256": "3ff79d039fba9ee7780f469b4bf7937c9d0658debc042379fffa3e501f748948"
+    },
+    "III": {
+      "maps": 100,
+      "success": 20,
+      "outcomes": {
+        "BROKEN": 37,
+        "EMPTY": 42,
+        "SUCCESS": 20,
+        "LIMIT": 1
+      },
+      "steps": 13191,
+      "refuels": 415,
+      "repairs": 413,
+      "episodes_sha256": "7de293e9ec42809aad48688f92d3e45ec64ac62357c1fcab4fd21803dab69d4b"
+    }
+  },
+  "steps": 25299,
+  "unique_ids": 300,
+  "unique_geometries": 300
+}

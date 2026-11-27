@@ -1,0 +1,35 @@
+{
+  "checkpoints": [
+    {
+      "step": 1400,
+      "sha256": "3416f0272c39c0f4faaabde27522c2d0717732acd554d12e605394c55e1272d4",
+      "score": {
+        "observations": 11966,
+        "downhill": [
+          10338,
+          10496,
+          7054
+        ],
+        "critical": 5768,
+        "critical_viable": 5316,
+        "critical_urgent_downhill": 5267
+      }
+    },
+    {
+      "step": 3500,
+      "sha256": "89779c6e67a648a9135f9f3af8817fcdec55d7b8680fa1662186fe70ec0f825f",
+      "score": {
+        "observations": 11966,
+        "downhill": [
+          10574,
+          10716,
+          7604
+        ],
+        "critical": 5768,
+        "critical_viable": 5332,
+        "critical_urgent_downhill": 5353
+      }
+    }
+  ],
+  "selected": 3500
+}

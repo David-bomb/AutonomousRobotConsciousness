@@ -1,0 +1,30 @@
+{
+  "versus_parent": {
+    "gains": 2,
+    "losses": 0,
+    "difference_pp": 2,
+    "paired_stratified_95_pp": [
+      0.0,
+      5.0
+    ],
+    "descriptive_exact_p": 0.5
+  },
+  "versus_ablation": {
+    "gains": 32,
+    "losses": 1,
+    "difference_pp": 31,
+    "paired_stratified_95_pp": [
+      22.0,
+      40.0
+    ],
+    "descriptive_exact_p": 7.916241884231567e-09
+  },
+  "select_early": {
+    "gains": 3,
+    "losses": 2
+  },
+  "hold_early": {
+    "gains": 2,
+    "losses": 0
+  }
+}

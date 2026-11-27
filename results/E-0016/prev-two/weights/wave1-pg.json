@@ -1,0 +1,799 @@
+{
+  "tag": "wave1-pg",
+  "sha256": "2478f7c10d14523e5559941bcf86b9e0f64ed69d8f9feb1dd8107c5ef90287df",
+  "base_sha256": "b04e0e0a29c345fd29db17a443de2882072c831d36ff18c792e5098f3a0bc133",
+  "utc": "2026-11-27T10:17:10.106867+00:00",
+  "adapter_sha256": "f48a45134776d68c73f1e46daf9e909fdeeeddb15b2cb91e24da945866e48772",
+  "registration": "235a857c002708cce053838262827891d6b9733c8cf40e91852fd3e0bdd3354d",
+  "training": {
+    "parent": "super1500",
+    "method": "paired terminal policy gradient",
+    "groups": [
+      {
+        "pairs": [
+          {
+            "map": "sequence-train-9161110-H2-16",
+            "greedy": {
+              "win": 0,
+              "steps": 4600,
+              "outcome": "LIMIT",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 191,
+              "outcome": "BROKEN",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161110-H2-03",
+            "greedy": {
+              "win": 0,
+              "steps": 137,
+              "outcome": "BROKEN",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 148,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H2-22",
+            "greedy": {
+              "win": 0,
+              "steps": 149,
+              "outcome": "BROKEN",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 149,
+              "outcome": "BROKEN",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161110-H3-23",
+            "greedy": {
+              "win": 0,
+              "steps": 151,
+              "outcome": "EMPTY",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 60,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H3-07",
+            "greedy": {
+              "win": 0,
+              "steps": 204,
+              "outcome": "EMPTY",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 193,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H4-10",
+            "greedy": {
+              "win": 0,
+              "steps": 14,
+              "outcome": "EMPTY",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 14,
+              "outcome": "EMPTY",
+              "both": 0
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H2-25",
+            "greedy": {
+              "win": 1,
+              "steps": 84,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 83,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H4-05",
+            "greedy": {
+              "win": 0,
+              "steps": 19,
+              "outcome": "BROKEN",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 19,
+              "outcome": "BROKEN",
+              "both": 0
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H3-25",
+            "greedy": {
+              "win": 1,
+              "steps": 163,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 114,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H3-23",
+            "greedy": {
+              "win": 1,
+              "steps": 73,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 73,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H3-19",
+            "greedy": {
+              "win": 0,
+              "steps": 132,
+              "outcome": "BROKEN",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 522,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H4-08",
+            "greedy": {
+              "win": 0,
+              "steps": 27,
+              "outcome": "BROKEN",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 127,
+              "outcome": "BROKEN",
+              "both": 1
+            }
+          }
+        ],
+        "updates": 4,
+        "weights": [
+          1.0644599199295044,
+          1.1266841888427734,
+          0.07591231912374496,
+          0.1565456986427307,
+          0.16679848730564117,
+          0.5757230520248413,
+          0.05225297436118126,
+          0.12227211892604828,
+          0.008160287514328957
+        ]
+      },
+      {
+        "pairs": [
+          {
+            "map": "sequence-train-9161108-H4-08",
+            "greedy": {
+              "win": 0,
+              "steps": 137,
+              "outcome": "EMPTY",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 183,
+              "outcome": "BROKEN",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H1-22",
+            "greedy": {
+              "win": 1,
+              "steps": 131,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 228,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H3-15",
+            "greedy": {
+              "win": 0,
+              "steps": 107,
+              "outcome": "EMPTY",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 127,
+              "outcome": "BROKEN",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161110-H2-02",
+            "greedy": {
+              "win": 0,
+              "steps": 4968,
+              "outcome": "LIMIT",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 104,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H2-16",
+            "greedy": {
+              "win": 1,
+              "steps": 66,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 68,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161110-H4-13",
+            "greedy": {
+              "win": 0,
+              "steps": 9176,
+              "outcome": "LIMIT",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 129,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161110-H2-23",
+            "greedy": {
+              "win": 0,
+              "steps": 25,
+              "outcome": "EMPTY",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 25,
+              "outcome": "EMPTY",
+              "both": 0
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H1-12",
+            "greedy": {
+              "win": 1,
+              "steps": 165,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 233,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H1-25",
+            "greedy": {
+              "win": 0,
+              "steps": 52,
+              "outcome": "BROKEN",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 52,
+              "outcome": "BROKEN",
+              "both": 0
+            }
+          },
+          {
+            "map": "sequence-train-9161110-H4-22",
+            "greedy": {
+              "win": 0,
+              "steps": 114,
+              "outcome": "BROKEN",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 171,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H1-24",
+            "greedy": {
+              "win": 1,
+              "steps": 40,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 43,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H1-09",
+            "greedy": {
+              "win": 1,
+              "steps": 173,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 88,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          }
+        ],
+        "updates": 0,
+        "weights": [
+          1.0644599199295044,
+          1.1266841888427734,
+          0.07591231912374496,
+          0.1565456986427307,
+          0.16679848730564117,
+          0.5757230520248413,
+          0.05225297436118126,
+          0.12227211892604828,
+          0.008160287514328957
+        ]
+      },
+      {
+        "pairs": [
+          {
+            "map": "sequence-train-9161109-H4-09",
+            "greedy": {
+              "win": 0,
+              "steps": 9,
+              "outcome": "EMPTY",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 9,
+              "outcome": "EMPTY",
+              "both": 0
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H4-03",
+            "greedy": {
+              "win": 0,
+              "steps": 27,
+              "outcome": "BROKEN",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 27,
+              "outcome": "BROKEN",
+              "both": 0
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H1-12",
+            "greedy": {
+              "win": 1,
+              "steps": 88,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 60,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H1-18",
+            "greedy": {
+              "win": 1,
+              "steps": 52,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 55,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H4-04",
+            "greedy": {
+              "win": 0,
+              "steps": 18,
+              "outcome": "EMPTY",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 18,
+              "outcome": "EMPTY",
+              "both": 0
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H1-23",
+            "greedy": {
+              "win": 1,
+              "steps": 142,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 274,
+              "outcome": "BROKEN",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H1-25",
+            "greedy": {
+              "win": 0,
+              "steps": 144,
+              "outcome": "BROKEN",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 416,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161110-H3-09",
+            "greedy": {
+              "win": 0,
+              "steps": 7192,
+              "outcome": "LIMIT",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 338,
+              "outcome": "BROKEN",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H2-17",
+            "greedy": {
+              "win": 0,
+              "steps": 4600,
+              "outcome": "LIMIT",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 3081,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161110-H1-15",
+            "greedy": {
+              "win": 1,
+              "steps": 123,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 51,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H1-08",
+            "greedy": {
+              "win": 1,
+              "steps": 70,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 166,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H1-08",
+            "greedy": {
+              "win": 1,
+              "steps": 48,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 48,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          }
+        ],
+        "updates": 4,
+        "weights": [
+          1.1849355697631836,
+          1.1598416566848755,
+          0.0001598810777068138,
+          0.04844122752547264,
+          0.13625863194465637,
+          0.7816814184188843,
+          0.10309165716171265,
+          0.19632862508296967,
+          -0.10271534323692322
+        ]
+      },
+      {
+        "pairs": [
+          {
+            "map": "sequence-train-9161111-H1-21",
+            "greedy": {
+              "win": 1,
+              "steps": 66,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 64,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H3-08",
+            "greedy": {
+              "win": 0,
+              "steps": 47,
+              "outcome": "EMPTY",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 24,
+              "outcome": "BROKEN",
+              "both": 0
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H2-05",
+            "greedy": {
+              "win": 0,
+              "steps": 725,
+              "outcome": "EMPTY",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 129,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161109-H2-18",
+            "greedy": {
+              "win": 0,
+              "steps": 5400,
+              "outcome": "LIMIT",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 756,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H2-20",
+            "greedy": {
+              "win": 1,
+              "steps": 1283,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 675,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H2-02",
+            "greedy": {
+              "win": 1,
+              "steps": 870,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 313,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161111-H2-08",
+            "greedy": {
+              "win": 0,
+              "steps": 38,
+              "outcome": "EMPTY",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 396,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H4-13",
+            "greedy": {
+              "win": 0,
+              "steps": 46,
+              "outcome": "BROKEN",
+              "both": 0
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 46,
+              "outcome": "BROKEN",
+              "both": 0
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H4-22",
+            "greedy": {
+              "win": 0,
+              "steps": 434,
+              "outcome": "EMPTY",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 2560,
+              "outcome": "EMPTY",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H2-02",
+            "greedy": {
+              "win": 1,
+              "steps": 69,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 69,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161110-H2-15",
+            "greedy": {
+              "win": 1,
+              "steps": 165,
+              "outcome": "SUCCESS",
+              "both": 1
+            },
+            "sampled": {
+              "win": 1,
+              "steps": 453,
+              "outcome": "SUCCESS",
+              "both": 1
+            }
+          },
+          {
+            "map": "sequence-train-9161108-H3-04",
+            "greedy": {
+              "win": 0,
+              "steps": 149,
+              "outcome": "EMPTY",
+              "both": 1
+            },
+            "sampled": {
+              "win": 0,
+              "steps": 6728,
+              "outcome": "LIMIT",
+              "both": 1
+            }
+          }
+        ],
+        "updates": 4,
+        "weights": [
+          1.173683524131775,
+          1.213670253753662,
+          0.08172008395195007,
+          0.01588437333703041,
+          0.2718779146671295,
+          0.9079094529151917,
+          0.2223196029663086,
+          0.35564935207366943,
+          -0.029250210151076317
+        ]
+      }
+    ],
+    "seed": 161198
+  }
+}

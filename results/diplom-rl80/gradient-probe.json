@@ -1,0 +1,6480 @@
+{
+  "groups": {
+    "start": {
+      "n": 200,
+      "covered": 200,
+      "closer": {
+        "pilot": 143,
+        "prefix": 158,
+        "gained": 28,
+        "lost": 13
+      },
+      "viable": {
+        "pilot": 193,
+        "prefix": 195,
+        "gained": 3,
+        "lost": 1
+      }
+    },
+    "near": {
+      "n": 185,
+      "covered": 178,
+      "closer": {
+        "pilot": 62,
+        "prefix": 100,
+        "gained": 44,
+        "lost": 6
+      },
+      "viable": {
+        "pilot": 131,
+        "prefix": 147,
+        "gained": 17,
+        "lost": 1
+      }
+    }
+  },
+  "n_prefix_bins": 409450,
+  "bank_sha256": "5cff78cb3589d45c31b430a6a75b85871015402d36440a02e39f66870e22fae6",
+  "train_sha256": "524c9b98b433779eb5cf51cbb654fe59c8a15ed78338deae6dd442785e2db0f5",
+  "weights_sha256": "bc8ce4f269b6893692f1be4ae593e35086ac3d5bcfc20df32333dea6163eac46",
+  "fit": "first 600 of E-0016 train",
+  "measured": "last 200 of E-0016 train",
+  "records": [
+    {
+      "geometry": "04ca6e1b0a8a60a78d237ebcc8354512215887c9a24339b4e457ccc7fc0958e9",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 12,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "c60505de2e46a89346e3d9242f1b1cb34fffbdadef885117def14e4347d75111",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 19,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "c60505de2e46a89346e3d9242f1b1cb34fffbdadef885117def14e4347d75111",
+      "tier": "H1",
+      "step": 8,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 15,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "ed0947ee0783d7c1cb1919debc5722e471faef19ab37d02c7943a31d0426ab91",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 8,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "114b6526ecc8afa90b3ab301ad52ba09f879a0b2a91a5be7190d4671b6289453",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 17,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "114b6526ecc8afa90b3ab301ad52ba09f879a0b2a91a5be7190d4671b6289453",
+      "tier": "H1",
+      "step": 11,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 12,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "8d31b5b6b17d00032ac1928042e57bd29e3672e3b8f7fb648548a6026190a0bb",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 11,
+      "distance": 4,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "geometry": "8d31b5b6b17d00032ac1928042e57bd29e3672e3b8f7fb648548a6026190a0bb",
+      "tier": "H1",
+      "step": 19,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 9,
+      "covered": true,
+      "chosen": 6,
+      "pilot": 1,
+      "closer": [
+        6
+      ],
+      "viable": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "geometry": "6807cd6da8ab61ff0868edda2976c8d399bbed96fe80e29192ad04cd3f2adde0",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 21,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "6807cd6da8ab61ff0868edda2976c8d399bbed96fe80e29192ad04cd3f2adde0",
+      "tier": "H1",
+      "step": 15,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 12,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "c7ea98fbd162602f89b555aad395d04d35b36b6976bdb4aa6c0a75fa8036e4c3",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 9,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "1e78ab8a61a727795cc0d39de9226f11fab4118d21dc0cd97cee3acccfbe04fe",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 6,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        3
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "1e78ab8a61a727795cc0d39de9226f11fab4118d21dc0cd97cee3acccfbe04fe",
+      "tier": "H1",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 9,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "bfcb0240d5a42d7bf983bad57a827fa0f7c7d0af5a3a4747d0e35460388af110",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 13,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "bfcb0240d5a42d7bf983bad57a827fa0f7c7d0af5a3a4747d0e35460388af110",
+      "tier": "H1",
+      "step": 10,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 7,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "3672927c852bf84f6a193b5430f7b49e691a915327f5d31a6366f632f3c203d2",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 6,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 5,
+      "closer": [
+        1,
+        5
+      ],
+      "viable": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "geometry": "451fd68074fc6b4db31d578e2e001a2fad3c83472bb000cbbefea9786e0cb11e",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 19,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "451fd68074fc6b4db31d578e2e001a2fad3c83472bb000cbbefea9786e0cb11e",
+      "tier": "H1",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 21,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "39bf13eca75d62219b6c5c26148ba26da3b1e3395e1e3743ac4ac01606525ff9",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 12,
+      "distance": 15,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "39bf13eca75d62219b6c5c26148ba26da3b1e3395e1e3743ac4ac01606525ff9",
+      "tier": "H1",
+      "step": 5,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 20,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "9589ccbb63d1cf88bd695d7176242ccf0d07b2383ade6ae1318ef6e5a6183b0e",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 4,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 3,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "9589ccbb63d1cf88bd695d7176242ccf0d07b2383ade6ae1318ef6e5a6183b0e",
+      "tier": "H1",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 6,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "02b19471210e4a06fac8fbcb0f206e90b460af6d3a47eb82f48751fe3f3b1ad2",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 11,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "b1735ff7180dda09d58b75e9afc6978d5db3f73ac2a20c43ab9e3aeeb9a8f175",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 14,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 2,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "b1735ff7180dda09d58b75e9afc6978d5db3f73ac2a20c43ab9e3aeeb9a8f175",
+      "tier": "H1",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 17,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "9c5163dbfd85703d03e61c1694ed6c3f91f6f7f2094654e41319a878a5c1de37",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 15,
+      "covered": true,
+      "chosen": 6,
+      "pilot": 6,
+      "closer": [
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "geometry": "9c5163dbfd85703d03e61c1694ed6c3f91f6f7f2094654e41319a878a5c1de37",
+      "tier": "H1",
+      "step": 4,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 17,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "6abaf1abed938984592248052f9add2b97c36ae1ee96ae09283c1c752d639b81",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 4,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "d8bcee2e5bff80a76f3901713968ca1633b24794ae6e8f27a44e23a79ef5d667",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 4,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "a25274dfef80c5fa5d20f4b9eed96a2fa4677f7e15f8dd3c43ff17788fe1926f",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 10,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "a25274dfef80c5fa5d20f4b9eed96a2fa4677f7e15f8dd3c43ff17788fe1926f",
+      "tier": "H1",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 13,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "bd7a6b813465b71926fefb13f15aace09fbbbff863e8fb499821949533a3ae0a",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 15,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "bd7a6b813465b71926fefb13f15aace09fbbbff863e8fb499821949533a3ae0a",
+      "tier": "H1",
+      "step": 23,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 9,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2,
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "geometry": "a1d81662542cd1a01b3e47f0fd2c0139bb76a4078b535f76e24c47a0078bae76",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 24,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "a1d81662542cd1a01b3e47f0fd2c0139bb76a4078b535f76e24c47a0078bae76",
+      "tier": "H1",
+      "step": 4,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 26,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "5a6b2548439193b4f5b82a083b8329550621f985830ce83ed413ae0a01041f10",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 9,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "5a6b2548439193b4f5b82a083b8329550621f985830ce83ed413ae0a01041f10",
+      "tier": "H1",
+      "step": 8,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 7,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "e49c0808612928f03da5aebcbcc1d3e0ae32771abf78801eb5dc0d1ca4ad3865",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 19,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "e49c0808612928f03da5aebcbcc1d3e0ae32771abf78801eb5dc0d1ca4ad3865",
+      "tier": "H1",
+      "step": 24,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 11,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "fb15062d354ec4fefbc87d9d46f00e626934d73b6de509a0f4a758e2b6c42547",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 10,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "fb15062d354ec4fefbc87d9d46f00e626934d73b6de509a0f4a758e2b6c42547",
+      "tier": "H1",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 13,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 0,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "552b544e38d360cd2e170a6ecfc23a880cf5d65a523b58de366f3fcd1b0b2b20",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 13,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "552b544e38d360cd2e170a6ecfc23a880cf5d65a523b58de366f3fcd1b0b2b20",
+      "tier": "H1",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 16,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "577b4dfa28cfa3e3dcee894caa1b9f2c3721fb1f7955775a558e06cf3018298b",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 4,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "577b4dfa28cfa3e3dcee894caa1b9f2c3721fb1f7955775a558e06cf3018298b",
+      "tier": "H2",
+      "step": 6,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 40,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "ecd3d7e88521773944ba40f4f400496aaa879238e709fea51e22e45339483d44",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 9,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "1144a384220fdd398306858dd0c171a9561a0d3b65a9e381b271cd43e7983de8",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 8,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "1144a384220fdd398306858dd0c171a9561a0d3b65a9e381b271cd43e7983de8",
+      "tier": "H2",
+      "step": 91,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 16,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "b0c1bba1d88e0245a265d25ba5cd0e672b4dd3060912f46934ca9802c78eeff7",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 15,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "b0c1bba1d88e0245a265d25ba5cd0e672b4dd3060912f46934ca9802c78eeff7",
+      "tier": "H2",
+      "step": 155,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 32,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "94c0e63296611633e0570d73c057662998ea1d69f8249b9d46a44bc49b3f7e97",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 10,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "94c0e63296611633e0570d73c057662998ea1d69f8249b9d46a44bc49b3f7e97",
+      "tier": "H2",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 12,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "861edcb2f21a676c81469fc9863dd6b146358e0219d00ce108550fcdea045455",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 14,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "861edcb2f21a676c81469fc9863dd6b146358e0219d00ce108550fcdea045455",
+      "tier": "H2",
+      "step": 8,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 8,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "c676a36d3da76fb14785a6e5f64a871a3ab3b5825d4c25a6c82be96024cdc815",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 9,
+      "covered": true,
+      "chosen": 5,
+      "pilot": 5,
+      "closer": [
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "geometry": "c676a36d3da76fb14785a6e5f64a871a3ab3b5825d4c25a6c82be96024cdc815",
+      "tier": "H2",
+      "step": 24,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 11,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "d4bb4a835a12955f060e5206c757b173a650416fe6f8599587c7f3863bb83d44",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 5,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "d4bb4a835a12955f060e5206c757b173a650416fe6f8599587c7f3863bb83d44",
+      "tier": "H2",
+      "step": 13,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 31,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "c03d5f2e54e20d15ec669169ed1dfdbc0e738fe2be4c122a97eb6ef76fa58fb7",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 21,
+      "distance": 4,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "c03d5f2e54e20d15ec669169ed1dfdbc0e738fe2be4c122a97eb6ef76fa58fb7",
+      "tier": "H2",
+      "step": 91,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 43,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "a83cce5268e424221ea0990c028994841f30da5858580658f2cf4c81b17b9085",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 6,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "a83cce5268e424221ea0990c028994841f30da5858580658f2cf4c81b17b9085",
+      "tier": "H2",
+      "step": 13,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 6,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "61f646dd6f0037348f5936830b72aca59cc3c9eba33a407440c55435741e9c1a",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 14,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "61f646dd6f0037348f5936830b72aca59cc3c9eba33a407440c55435741e9c1a",
+      "tier": "H2",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 16,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "9c016191b5463fcd813197127ec0bba7a11125add4bce5a3bb5f6c942b5f00ed",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 7,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "57d28186547ee6f72d930ebaa75139b9418351d525ac6f1273aa9dd2baa3d2bc",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 5,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "57d28186547ee6f72d930ebaa75139b9418351d525ac6f1273aa9dd2baa3d2bc",
+      "tier": "H2",
+      "step": 32,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 19,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "b8dfe72442870435e6ceb07ee16ebace110c3bf695fe3be3a22f3f394b46062c",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 10,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 5,
+      "closer": [
+        1,
+        4,
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "geometry": "b8dfe72442870435e6ceb07ee16ebace110c3bf695fe3be3a22f3f394b46062c",
+      "tier": "H2",
+      "step": 90,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 19,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "geometry": "8ccca3633be842b91be8d152e3efc1ad064f084939ecb308cc18c89482a395be",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 19,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "8ccca3633be842b91be8d152e3efc1ad064f084939ecb308cc18c89482a395be",
+      "tier": "H2",
+      "step": 79,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 25,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        2,
+        6
+      ],
+      "viable": [
+        1,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "geometry": "543d1d595d208d156ba297bda3599c2db77310876f54b1d81a9efb62d81b2d65",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 15,
+      "distance": 15,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 5,
+      "closer": [
+        3,
+        7
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "geometry": "543d1d595d208d156ba297bda3599c2db77310876f54b1d81a9efb62d81b2d65",
+      "tier": "H2",
+      "step": 11,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 17,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3,
+        7
+      ],
+      "viable": [
+        0,
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "geometry": "05210b9d9e8fb9bdfd422b8d08f5d6c260a20e84635c5e73facc89354f3bab9a",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 15,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "05210b9d9e8fb9bdfd422b8d08f5d6c260a20e84635c5e73facc89354f3bab9a",
+      "tier": "H2",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 14,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "43aafa4a886cda6eb8cbfbcb4c48c1ee813fa2d9204d58aba1c03fe36d0395cc",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 18,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "43aafa4a886cda6eb8cbfbcb4c48c1ee813fa2d9204d58aba1c03fe36d0395cc",
+      "tier": "H2",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 19,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "daf6f59106e99d55584090a13bba577cb38e65f9e4c658bdcaa76f6b2061e820",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 20,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "daf6f59106e99d55584090a13bba577cb38e65f9e4c658bdcaa76f6b2061e820",
+      "tier": "H2",
+      "step": 4,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 20,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "30b26f8cacbea44a8cacbb338bfe95701e70add5aa9f7bbc03b8e6c9abea5a11",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 27,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "30b26f8cacbea44a8cacbb338bfe95701e70add5aa9f7bbc03b8e6c9abea5a11",
+      "tier": "H2",
+      "step": 78,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 47,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "c0f6250c882874a24269b1c256f844dc74b1d060e8f2283ca8b57cbbdc406c16",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 4,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "c0f6250c882874a24269b1c256f844dc74b1d060e8f2283ca8b57cbbdc406c16",
+      "tier": "H2",
+      "step": 76,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 26,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 5,
+      "closer": [
+        3,
+        6
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "geometry": "ba428627cfa19361b38254d9b0f0a9eb4132849f9433cbfef02510f637c97c6b",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 11,
+      "distance": 14,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "ba428627cfa19361b38254d9b0f0a9eb4132849f9433cbfef02510f637c97c6b",
+      "tier": "H2",
+      "step": 81,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 36,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "9f7386b7aace1e8b31031dd2890e807fbafbc84ed0765bfeaec47fe6caa5e821",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 11,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "9f7386b7aace1e8b31031dd2890e807fbafbc84ed0765bfeaec47fe6caa5e821",
+      "tier": "H2",
+      "step": 24,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 11,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "f539204d7001b13752c05f049c8b1b9d79f70c88a7f58b9c4a2ac1a721192cfa",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 8,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "f539204d7001b13752c05f049c8b1b9d79f70c88a7f58b9c4a2ac1a721192cfa",
+      "tier": "H2",
+      "step": 11,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 19,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "0a1458e95f53533b15bb27b4e32fd6a2082ed56d24f15187453b1db6016f80e3",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 6,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "0a1458e95f53533b15bb27b4e32fd6a2082ed56d24f15187453b1db6016f80e3",
+      "tier": "H2",
+      "step": 11,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 6,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "geometry": "99497b473c3d6ecfb07621267ec8cc14efeea89ff1ae53144067062911bdddbc",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 16,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "99497b473c3d6ecfb07621267ec8cc14efeea89ff1ae53144067062911bdddbc",
+      "tier": "H3",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 18,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "14e02ca0545a9cf160dd47bf3e110bacf1850545b78475111cd663920db6629a",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 17,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "14e02ca0545a9cf160dd47bf3e110bacf1850545b78475111cd663920db6629a",
+      "tier": "H3",
+      "step": 5,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 14,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "dc13ad43d35ed15b3a35c266ef6eb61c55b2c717cf4c6d5a2f2d00eab751849d",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 26,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 1,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "dc13ad43d35ed15b3a35c266ef6eb61c55b2c717cf4c6d5a2f2d00eab751849d",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 27,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "606f488f25e2de66f9535a7416e6bcf51abedd5581c1f64b28b0fb39e953280f",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 19,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "df9397c11464273103beb0deaa4100c930155bf23bb022d11098b285dd9f562e",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 24,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "df9397c11464273103beb0deaa4100c930155bf23bb022d11098b285dd9f562e",
+      "tier": "H3",
+      "step": 107,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 15,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "d0ac3aa0d6de787666ccabda32516a98b85fc440752882d914d3d927c1a58cb7",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 14,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "d0ac3aa0d6de787666ccabda32516a98b85fc440752882d914d3d927c1a58cb7",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 15,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "3baba4ffc32d85ef1d7ff9df8fc8fdb6880e4b5aff097f3f4473f5441fb937fb",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 23,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "3baba4ffc32d85ef1d7ff9df8fc8fdb6880e4b5aff097f3f4473f5441fb937fb",
+      "tier": "H3",
+      "step": 5,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 22,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "f8a59734a8a69ad2b85ede1f2880b8971c12b1f7d068840b4f5d82ab31d29fc8",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 9,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "f8a59734a8a69ad2b85ede1f2880b8971c12b1f7d068840b4f5d82ab31d29fc8",
+      "tier": "H3",
+      "step": 11,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 24,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "84829b8348c4ed0ce57e584346fa77eb765b144942dd487a1192987e92d83c13",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 4,
+      "covered": true,
+      "chosen": 4,
+      "pilot": 4,
+      "closer": [
+        4
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "geometry": "84829b8348c4ed0ce57e584346fa77eb765b144942dd487a1192987e92d83c13",
+      "tier": "H3",
+      "step": 10,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 9,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        4
+      ],
+      "viable": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "geometry": "ceee552c5855ecc1b75519935d9d870bbe3113ac5dd4423001e02100b5f5a89e",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 13,
+      "covered": true,
+      "chosen": 5,
+      "pilot": 5,
+      "closer": [
+        2,
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "geometry": "2adf0e5521ab8a68d12a63baa6a6cecedf70eb6d901cdd2deb2fc75cc030d87a",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 24,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "9c19661df039b692cecc072e57d6ba295012c87dbff51b87fa9c8adc1b8880a0",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 11,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "9c19661df039b692cecc072e57d6ba295012c87dbff51b87fa9c8adc1b8880a0",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 12,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "f3dbcdc757514fc136fb7239e7ca0dd44907c8a968095f40d92191819ce6d3d8",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 25,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "f3dbcdc757514fc136fb7239e7ca0dd44907c8a968095f40d92191819ce6d3d8",
+      "tier": "H3",
+      "step": 7,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 20,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "6081648b40387b5a16d61023e66c8f8e2dadbd872e4841473fd5c378be1433dc",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 22,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "6081648b40387b5a16d61023e66c8f8e2dadbd872e4841473fd5c378be1433dc",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 23,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "11e203cc3c3c1a1c54bcae2f0a0e6cb36b757734d210e2190afba146041e51bd",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 15,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "11e203cc3c3c1a1c54bcae2f0a0e6cb36b757734d210e2190afba146041e51bd",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 16,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "184f635f420ed9ad09651d0ad5a99e0426bc47936af6796d1aeca3addacef4cc",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 27,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "184f635f420ed9ad09651d0ad5a99e0426bc47936af6796d1aeca3addacef4cc",
+      "tier": "H3",
+      "step": 31,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 32,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "ca3ba42ae337e1ee04eee159e8c6d997d0bd15e11d8c714d700ee5c60a6fe255",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 27,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "ca3ba42ae337e1ee04eee159e8c6d997d0bd15e11d8c714d700ee5c60a6fe255",
+      "tier": "H3",
+      "step": 78,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 47,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "8e1bf63aae7d598ec7a51210eed420098a5abbe9903363100384b2f32581b3cc",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 8,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 5,
+      "closer": [
+        1,
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "geometry": "8e1bf63aae7d598ec7a51210eed420098a5abbe9903363100384b2f32581b3cc",
+      "tier": "H3",
+      "step": 11,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 26,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "367e515e67c9684cf35c230d353d861c286da418c7b4280cfbf6d9e92cbc02a3",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 16,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "367e515e67c9684cf35c230d353d861c286da418c7b4280cfbf6d9e92cbc02a3",
+      "tier": "H3",
+      "step": 22,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 16,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "a2223dfd448b13c799f88a32cfd6099668fb114b259c10abbef9f0e471209f59",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 22,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "a2223dfd448b13c799f88a32cfd6099668fb114b259c10abbef9f0e471209f59",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 23,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "eedbc3b0d1025949c237f7fa84c32e0cd385643c9d26a10307a7af0c118a7459",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 23,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "eedbc3b0d1025949c237f7fa84c32e0cd385643c9d26a10307a7af0c118a7459",
+      "tier": "H3",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 23,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "00c3ff88c41ebd4e4cff2fbd3607acc22a56590cb65ee998733a1705186abd0e",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 19,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "00c3ff88c41ebd4e4cff2fbd3607acc22a56590cb65ee998733a1705186abd0e",
+      "tier": "H3",
+      "step": 10,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 11,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "fa7b4d01e32338e67ad1ff361e79f2e1c67c3e7778fe54b0e7745d7b55d966fe",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 25,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "fa7b4d01e32338e67ad1ff361e79f2e1c67c3e7778fe54b0e7745d7b55d966fe",
+      "tier": "H3",
+      "step": 6,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 21,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "aeb1f17308eeead797f9fcc7d20c13d5e838391597a3400ce253ea4a04678a38",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 21,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "aeb1f17308eeead797f9fcc7d20c13d5e838391597a3400ce253ea4a04678a38",
+      "tier": "H3",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 20,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "2433d174266f518bb82e93397cb49720c0915c253a787a7d195d5b1604aa4154",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 17,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "2433d174266f518bb82e93397cb49720c0915c253a787a7d195d5b1604aa4154",
+      "tier": "H3",
+      "step": 126,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 49,
+      "covered": false,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "99d430fdea63669aa6a4c484f2b03052f71577c5287e6f893f789f085d89b967",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 11,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "0b0ea9138695301c6228d26e5d3a8c0b2429e7940ce87900a21c3e6714d5fe03",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 26,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "52fcab82032b838e59c3253617fa249595e796199cfe53fe1c99d6b745e7f798",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 12,
+      "distance": 16,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "52fcab82032b838e59c3253617fa249595e796199cfe53fe1c99d6b745e7f798",
+      "tier": "H4",
+      "step": 10,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 16,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": []
+    },
+    {
+      "geometry": "a5476d1fdf0c754eb8d081e5acba07fdd69cf6732a4a644a21c33a5573e6e6a6",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 26,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "ba46499a23725806db9db542f9c99deb055a74338d298d06dbbd38fd9b0cca01",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 25,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "f53be6dae96f987e68393198026bcdb89573e084636064f92070bc03f6fed90f",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 8,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "84a2227a742da40db380f49f887e972538ff4e1fad8c830a15b08dc566cc1c46",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 16,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1,
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "857d8001e632c8a55a3a6eebded3aa851c784f302a554134b5b8085f6827e4d6",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 14,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "36ceea72a290e2c4e06346da4c3723ca6a42c6e12acb25378570f6d16e39b000",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 20,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "5258a7017cafa86000af9bbb5471272c973ca4cbdd1ae7e81029148e4e9df9d2",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 15,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "e921cd25d2b4c2aac73914dc8a7c7e4d605058ab04e31561e0123a4c136186f5",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 26,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "6bcc5b0d1a296721011dc8f6bdc10d38a0e3122fb528e7e6c75c6fc70641d504",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 27,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "94065afd12056837470c23e830a6824682957828d8179d842101fa5f3c5bf981",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 17,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "87afbb05622c3084ce0f6627865a02efa39f60db6bc2d6cee12dba2c5e6f6b35",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 9,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 0,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "a24112d5c07e6097468933ace95b987fff179ac625d8648f90369f544f050561",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 7,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "886fc2e9dccc8795e4de8487bc6f29bd853ce6ce7980f2f1231736ad64f1f2bf",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 26,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "886fc2e9dccc8795e4de8487bc6f29bd853ce6ce7980f2f1231736ad64f1f2bf",
+      "tier": "H4",
+      "step": 13,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 15,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": []
+    },
+    {
+      "geometry": "32c3054c0a72905717f7bdd92c7903c13f9686c0e7690d56e9cfa815db747055",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 27,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 6,
+      "closer": [
+        3
+      ],
+      "viable": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "geometry": "1859123f007db074138926ab8e4f90857fc599809780d6de5b17a927be2c9b2e",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 1,
+      "distance": 12,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "1859123f007db074138926ab8e4f90857fc599809780d6de5b17a927be2c9b2e",
+      "tier": "H4",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 11,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "5d39da53ec3af6c5284cc0d8550e747cd733f7516230b74f08a042226e60ab14",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 2,
+      "distance": 6,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "5d39da53ec3af6c5284cc0d8550e747cd733f7516230b74f08a042226e60ab14",
+      "tier": "H4",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 5,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "476a5a7c070840d7de7ae7dd66d5790f0002559ff00860fc0d7b244bbd941b8f",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 27,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "cbe92e175b07e493bc0c9f44fddfda19acb4f18e15089d35be30c618860cea19",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 24,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "83bdaa7374ea9b9bf3c976adc6d63b6d036c794fccf8ab5a3dd91ef68a4c0038",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 24,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "fb5c5f33f35c861734e75f7ee810ffecc141530934dd4ed9b4aae0ed06542c9f",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 9,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "57f46eb23a7fa4b2946b9d9d138432bdb79c2452438e8752da2b279c2b3be8f5",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 5,
+      "covered": true,
+      "chosen": 4,
+      "pilot": 4,
+      "closer": [
+        1,
+        4
+      ],
+      "viable": [
+        1,
+        4
+      ]
+    },
+    {
+      "geometry": "e3d2fbe0c35f76784b7e363c29fe38460d085fb65ce47fee3b1869b389269989",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 5,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "c138200545e6807450671399358bbe6d368e954c4a071937a48f2da6beac1223",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 10,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "c138200545e6807450671399358bbe6d368e954c4a071937a48f2da6beac1223",
+      "tier": "H1",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 13,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 1,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "97a6eb8e30781a2b11e5937496c01d2db355502327bdbf205db6fe0c2d421cc0",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 15,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "e178da83809fd21d30233cef749433bcd1d1d0ece21590b1368f3fea7c08090b",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 13,
+      "covered": true,
+      "chosen": 6,
+      "pilot": 5,
+      "closer": [
+        2,
+        5,
+        6
+      ],
+      "viable": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "geometry": "e178da83809fd21d30233cef749433bcd1d1d0ece21590b1368f3fea7c08090b",
+      "tier": "H1",
+      "step": 8,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 9,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "e6bd8321438d1fe73be5c3c8992ba5de0015f41126f2352e3a84efd3d4ddc146",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 7,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "c0d12b4b148f3794d4b3d45f4e541f92395fea813385501d3fc73dad854947fc",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 15,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "c0d12b4b148f3794d4b3d45f4e541f92395fea813385501d3fc73dad854947fc",
+      "tier": "H1",
+      "step": 21,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 20,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "6f5de2bd9b6e8dec5703fb73ce68662e85a954e5a398e02a750bec27d10e0dbc",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 19,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "6f5de2bd9b6e8dec5703fb73ce68662e85a954e5a398e02a750bec27d10e0dbc",
+      "tier": "H1",
+      "step": 20,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 3,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 0,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "7f082aa9ade5c7d99ffc5a740cffe3a2c7ea76185f7a793336c072373acb8894",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 10,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "7f082aa9ade5c7d99ffc5a740cffe3a2c7ea76185f7a793336c072373acb8894",
+      "tier": "H1",
+      "step": 6,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 8,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "9d3b6c2c93c432b5ed3d87bc06ea508cf327071198a99832741352de1f7fa1a8",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 19,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "9d3b6c2c93c432b5ed3d87bc06ea508cf327071198a99832741352de1f7fa1a8",
+      "tier": "H1",
+      "step": 22,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 10,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "15bf48fbc23186b14ddf443b3611ff6f376cca80dc2c4d721f9773e79e028a7c",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 23,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "15bf48fbc23186b14ddf443b3611ff6f376cca80dc2c4d721f9773e79e028a7c",
+      "tier": "H1",
+      "step": 6,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 21,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 0,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "d8b7f2707b3834e1cf77b1bdc56fef78688455674faad607daae0a40cb6e30a2",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 8,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "d8b7f2707b3834e1cf77b1bdc56fef78688455674faad607daae0a40cb6e30a2",
+      "tier": "H1",
+      "step": 59,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 47,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        3
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "dac96cc23ad2d04cc17abdf2805bef3bbbd14257f088f2c2fd3ab988e303e370",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 13,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "2379e4825a126fc7a0b57588de0e49c06cd3d42d497cf92f58f7dbe798e3d838",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 15,
+      "distance": 4,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 6,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "geometry": "2379e4825a126fc7a0b57588de0e49c06cd3d42d497cf92f58f7dbe798e3d838",
+      "tier": "H1",
+      "step": 99,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 27,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1,
+        4
+      ],
+      "viable": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "geometry": "79685ecd58fe00ae87a9e6cefdf5ff1fe8c0bf1612f7b88bc30853b07e7ec0f0",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 9,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        3
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "79685ecd58fe00ae87a9e6cefdf5ff1fe8c0bf1612f7b88bc30853b07e7ec0f0",
+      "tier": "H1",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 12,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "a950363222012c1ee54cdf67acc1f81bc4ed91c388cd3c79c2a5ef8408ece5fd",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 13,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "a950363222012c1ee54cdf67acc1f81bc4ed91c388cd3c79c2a5ef8408ece5fd",
+      "tier": "H1",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 15,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "eb6868998d3d2042257c89d8081d5f9c25d348e463860bbe9c12f616383bf95c",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 7,
+      "distance": 20,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "eb6868998d3d2042257c89d8081d5f9c25d348e463860bbe9c12f616383bf95c",
+      "tier": "H1",
+      "step": 95,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 49,
+      "covered": false,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "42e5c7a59cc3c8cae2910c3e9bcf484513ecf8c83924d2112aa5f2f1b7fca23e",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 9,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "42e5c7a59cc3c8cae2910c3e9bcf484513ecf8c83924d2112aa5f2f1b7fca23e",
+      "tier": "H1",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 11,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "2949f154d8b431a6abf3963e8a7cfd6b40ed8ffa7d6b8b7d765d13d36baf4576",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 12,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "2949f154d8b431a6abf3963e8a7cfd6b40ed8ffa7d6b8b7d765d13d36baf4576",
+      "tier": "H1",
+      "step": 69,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 49,
+      "covered": false,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "4de6e72c50d9ebd045fad0b4c00799e8675917f042cc1be3200fedddc6ebb430",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 6,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "4de6e72c50d9ebd045fad0b4c00799e8675917f042cc1be3200fedddc6ebb430",
+      "tier": "H1",
+      "step": 13,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 6,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "22a2913c4c56828014bf46c746899fd5302a2136074b7ff3f094f39d871cc7e5",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 24,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "22a2913c4c56828014bf46c746899fd5302a2136074b7ff3f094f39d871cc7e5",
+      "tier": "H1",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 27,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "58723a68aeddae196aa1ec0e8348dc3b91300ce637cfdeae4588d6aba8aa2170",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 12,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "58723a68aeddae196aa1ec0e8348dc3b91300ce637cfdeae4588d6aba8aa2170",
+      "tier": "H1",
+      "step": 17,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 12,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "6fbfa17d99ff0db20a8824a082c44cc4ae878a919e98d63e3276e7aa98308aef",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 16,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "6fbfa17d99ff0db20a8824a082c44cc4ae878a919e98d63e3276e7aa98308aef",
+      "tier": "H1",
+      "step": 165,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 22,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "5b6bd8b3abe6a3dfb95fc4a5297ee702f888c515b9704d771788b9ce669d2552",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 13,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "4294dfe2dfdfb3405a0b98fd4a5113ea0774cfa8d307e1477aae096b19068936",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 12,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "4294dfe2dfdfb3405a0b98fd4a5113ea0774cfa8d307e1477aae096b19068936",
+      "tier": "H1",
+      "step": 95,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 21,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 0,
+      "closer": [
+        0,
+        2,
+        3
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "4f1c088bd525e13465375b10431521cd37184232ae32ea5dfade50fade187a8f",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 6,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "4f1c088bd525e13465375b10431521cd37184232ae32ea5dfade50fade187a8f",
+      "tier": "H1",
+      "step": 5,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 5,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "140990c65cda209f10515d6fb537c7cda1ca55e98572d0481105bc18117e8be2",
+      "tier": "H1",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 8,
+      "distance": 9,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "140990c65cda209f10515d6fb537c7cda1ca55e98572d0481105bc18117e8be2",
+      "tier": "H1",
+      "step": 95,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 33,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "bdfcfd5dd93b04c480c180072f1d3ca12aa0182208d1b2867a2153325ba99cc1",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 15,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "bdfcfd5dd93b04c480c180072f1d3ca12aa0182208d1b2867a2153325ba99cc1",
+      "tier": "H2",
+      "step": 11,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 8,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "8f54246cc99ef298634ed735b0072a4c1061c4ec6c02a100b9c00cde5a170285",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 16,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "8f54246cc99ef298634ed735b0072a4c1061c4ec6c02a100b9c00cde5a170285",
+      "tier": "H2",
+      "step": 76,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 29,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "8a10cfb3ec13e9ea697f247fd3901bc02d4adb0a8368b230778c3d75d616815d",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 11,
+      "distance": 4,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 5,
+      "closer": [
+        2,
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "geometry": "8a10cfb3ec13e9ea697f247fd3901bc02d4adb0a8368b230778c3d75d616815d",
+      "tier": "H2",
+      "step": 19,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 20,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "44c05229478cfcce6756135d05c0cd7f3846eca3c15ec0aa6daccc4953fde4af",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 8,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "44c05229478cfcce6756135d05c0cd7f3846eca3c15ec0aa6daccc4953fde4af",
+      "tier": "H2",
+      "step": 97,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 9,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "a5150eaeaf6af50cebab77021a8aab394fe2bca68f2e3b8d1ae26ae16fabb599",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 10,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        0,
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "a5150eaeaf6af50cebab77021a8aab394fe2bca68f2e3b8d1ae26ae16fabb599",
+      "tier": "H2",
+      "step": 6,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 8,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "a85b32b41a05efed201ca8a4a92a4f5789d7f00b52f23ecba6223adcca8d9e40",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 24,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "a85b32b41a05efed201ca8a4a92a4f5789d7f00b52f23ecba6223adcca8d9e40",
+      "tier": "H2",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 25,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "c9ba6e4aaf826196879accc0ade38a0a005d5269c2c8685ae90c033fd2e2d27c",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 9,
+      "distance": 15,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "c9ba6e4aaf826196879accc0ade38a0a005d5269c2c8685ae90c033fd2e2d27c",
+      "tier": "H2",
+      "step": 10,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 13,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "1b17a0436c2d1949f489a96a71e4b9196710034aaf3c71527f5455e831b72d47",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 17,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "1b17a0436c2d1949f489a96a71e4b9196710034aaf3c71527f5455e831b72d47",
+      "tier": "H2",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 19,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "947fd6346c6289b149e1d7dd5d750dfcc16e68faf5ec05ebfeb40fb53cba0c0b",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 11,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "947fd6346c6289b149e1d7dd5d750dfcc16e68faf5ec05ebfeb40fb53cba0c0b",
+      "tier": "H2",
+      "step": 17,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 15,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "9977c253476091e1f803bdba2d728659d234cf0315388e958f669b7237df0120",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 8,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "9977c253476091e1f803bdba2d728659d234cf0315388e958f669b7237df0120",
+      "tier": "H2",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 10,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "fd5b731e131e694cf8db2ea2c8b5ca259c86285ebadb74e4e7bf4a76e4b77fd9",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 8,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "fd5b731e131e694cf8db2ea2c8b5ca259c86285ebadb74e4e7bf4a76e4b77fd9",
+      "tier": "H2",
+      "step": 62,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 44,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "8968ae37745ea3653a1d321b933e42c2e3e50bc35bc8ba20c356a25a0602271e",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 13,
+      "distance": 11,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "geometry": "8968ae37745ea3653a1d321b933e42c2e3e50bc35bc8ba20c356a25a0602271e",
+      "tier": "H2",
+      "step": 38,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 9,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "05b7a02d0c45701b08b642d6652256fed1b9b6e3aef9c1175641de54f5c3944f",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 10,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "05b7a02d0c45701b08b642d6652256fed1b9b6e3aef9c1175641de54f5c3944f",
+      "tier": "H2",
+      "step": 85,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 49,
+      "covered": false,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "9643cdc3247d97b18015c596975de34dd8c836f0ce7b0f0dc3039b0422845ce1",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 13,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "9643cdc3247d97b18015c596975de34dd8c836f0ce7b0f0dc3039b0422845ce1",
+      "tier": "H2",
+      "step": 12,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 5,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "7b45c26d51cc70119a56a87f117c40a349b6596c3b60fdeb01660b995ff02aba",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 20,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "7b45c26d51cc70119a56a87f117c40a349b6596c3b60fdeb01660b995ff02aba",
+      "tier": "H2",
+      "step": 69,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 49,
+      "covered": false,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "6f8dd4e9dd2ac99640fcca35563bba41a709b1ac8bad02908d8eacd0ca11fb6f",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 21,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "6f8dd4e9dd2ac99640fcca35563bba41a709b1ac8bad02908d8eacd0ca11fb6f",
+      "tier": "H2",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 23,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "b3b297b8a075d76deff6c90d2f318e1c97af45b904681a3e24993d872cfe2a2c",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 17,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "b3b297b8a075d76deff6c90d2f318e1c97af45b904681a3e24993d872cfe2a2c",
+      "tier": "H2",
+      "step": 160,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 27,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "d44b15b57ac4cb6b56bf2f3a2a940be3fb94722fc1888446c81a0cb795c63a2b",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 6,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "d44b15b57ac4cb6b56bf2f3a2a940be3fb94722fc1888446c81a0cb795c63a2b",
+      "tier": "H2",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 6,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "bd6657f09015320df9fb57c7f7683218ba73f6821f1c3e94198deca41f8cc9ee",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 18,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 1,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "bd6657f09015320df9fb57c7f7683218ba73f6821f1c3e94198deca41f8cc9ee",
+      "tier": "H2",
+      "step": 3,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 19,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "ae5ae2e376d9c22de342209d58c1e0ba7ed121235b5c77aa2d252fe5790745f2",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 7,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "ae5ae2e376d9c22de342209d58c1e0ba7ed121235b5c77aa2d252fe5790745f2",
+      "tier": "H2",
+      "step": 90,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 15,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "78506ad2a92b327037c7f6f036bd1e470dfbf2081c092e0b17552988a4505b1f",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 25,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "78506ad2a92b327037c7f6f036bd1e470dfbf2081c092e0b17552988a4505b1f",
+      "tier": "H2",
+      "step": 76,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 47,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "63e967b65895e2a1c712330f33aadf58709282248281022ea54adee465f4c44e",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 6,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0,
+        2,
+        7
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "geometry": "63e967b65895e2a1c712330f33aadf58709282248281022ea54adee465f4c44e",
+      "tier": "H2",
+      "step": 14,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 36,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 4,
+      "closer": [
+        1,
+        4,
+        5
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "geometry": "5e2f7fee3b9c7f0c297e43312bc06d6ba4b76e881d3e3a5646a49c2a9f7dd54d",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 12,
+      "distance": 8,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "46ae3c7d0683c6b1801d24499bb5116d6a66ea2c9a6d64bfeedc9c6cc07b4a21",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 15,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "46ae3c7d0683c6b1801d24499bb5116d6a66ea2c9a6d64bfeedc9c6cc07b4a21",
+      "tier": "H2",
+      "step": 77,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 38,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 0,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "25312d364af6162d87e2f13281c23be0b54bd5eeb1a5311fcb3c86134d53c370",
+      "tier": "H2",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 6,
+      "distance": 19,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "25312d364af6162d87e2f13281c23be0b54bd5eeb1a5311fcb3c86134d53c370",
+      "tier": "H2",
+      "step": 6,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 18,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 4,
+      "closer": [
+        1,
+        4
+      ],
+      "viable": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "geometry": "bb3fd62c2d2a6cc6f3d77cb1cd2c0680dddeea89e1cea82ee2202d08b1e9999d",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 6,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "bb3fd62c2d2a6cc6f3d77cb1cd2c0680dddeea89e1cea82ee2202d08b1e9999d",
+      "tier": "H3",
+      "step": 2,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 6,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "eff7f12d6ef3dc47c75682b765a5728c59aacab2f99588ac8e61983fe6ccc271",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 5,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "eff7f12d6ef3dc47c75682b765a5728c59aacab2f99588ac8e61983fe6ccc271",
+      "tier": "H3",
+      "step": 158,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 32,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        1
+      ],
+      "viable": []
+    },
+    {
+      "geometry": "f144ea45636899b482f4a9041e24a9b4e72ae5d4560d7c719124461d5368aed9",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 9,
+      "distance": 4,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 6,
+      "closer": [
+        3,
+        6
+      ],
+      "viable": [
+        1,
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "geometry": "f144ea45636899b482f4a9041e24a9b4e72ae5d4560d7c719124461d5368aed9",
+      "tier": "H3",
+      "step": 133,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 49,
+      "covered": false,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "44664d96e23059a5e72801f01a89ea5dc56a1e6f06decf7ffa5df05f8a22bf1a",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 16,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "44664d96e23059a5e72801f01a89ea5dc56a1e6f06decf7ffa5df05f8a22bf1a",
+      "tier": "H3",
+      "step": 111,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 49,
+      "covered": false,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "cbeb87ffeb69280277c15a54ff6c7a660ff981e54c19924d6146cdd435e93edb",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 17,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "cbeb87ffeb69280277c15a54ff6c7a660ff981e54c19924d6146cdd435e93edb",
+      "tier": "H3",
+      "step": 6,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 13,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "398c557aa0b2d11bc038072da23dd98ae40120461d97f43239de81ecdf3dbabc",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 20,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "ee69522389c55c1ecafb80634d3096f5fbebb2095d0381f8d55c48d13c1f9ab2",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 7,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "ee69522389c55c1ecafb80634d3096f5fbebb2095d0381f8d55c48d13c1f9ab2",
+      "tier": "H3",
+      "step": 11,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 38,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "e338f0c269610325d5b92035c8ca45666ee948e631b678c9eb9d8d02fb3208e4",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 11,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "740119a774e8f4f16cebe6d53e8311428d1cae83293a861ca4e6e2db91cb5921",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 8,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 1,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "740119a774e8f4f16cebe6d53e8311428d1cae83293a861ca4e6e2db91cb5921",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 9,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "6f21b9c8f3fb3755f2b9ec6936bb866cbf2d70f618cc115c81a9a48b1304ba96",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 20,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "6f21b9c8f3fb3755f2b9ec6936bb866cbf2d70f618cc115c81a9a48b1304ba96",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 21,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "edce1e0346457519e1de50a206272438f07ffba097bbd8541dc8f4a0dee6d123",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 10,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "edce1e0346457519e1de50a206272438f07ffba097bbd8541dc8f4a0dee6d123",
+      "tier": "H3",
+      "step": 29,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 20,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "db37a2959cdc42a2b9e89d8558b87dfe36c400f0e6dc5a1881f37272465fcb75",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 11,
+      "distance": 10,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "db37a2959cdc42a2b9e89d8558b87dfe36c400f0e6dc5a1881f37272465fcb75",
+      "tier": "H3",
+      "step": 149,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 31,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 1,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "250e4fabe991a96a0db87aa5f2059fc426ce2e77fcb70ad16c9fa064e331bbf0",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 15,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "25c68cf9029aa719d03eabbb1811a81bd350f385c2587946a43d8a42dbf5ddf2",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 24,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "1e439c3039d118fd5f9baab35463cc759cbc0c9cdaff85b25cba101de1702dd5",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 10,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "a6a8f4466e9f8b3858bbe8a74b91b4827e9ceef65f1c7e79f74742904ad05411",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 21,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "22b64cf5c88dd70e770bc41ead1d6e778ce08b44eeca931217029f1eb0d92090",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 14,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "22b64cf5c88dd70e770bc41ead1d6e778ce08b44eeca931217029f1eb0d92090",
+      "tier": "H3",
+      "step": 34,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 8,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "929e38c591f526b75269bd26a61a98fbe9f6728790e48fd4810e43152036c5a5",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 6,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "929e38c591f526b75269bd26a61a98fbe9f6728790e48fd4810e43152036c5a5",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 7,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "53e2c8a4451ffa34eb4e38966a254d552ec91fafdff96f128a091d23cac9471b",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 11,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "53e2c8a4451ffa34eb4e38966a254d552ec91fafdff96f128a091d23cac9471b",
+      "tier": "H3",
+      "step": 31,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 11,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "c29cdc213ff33d08622f748a9f61ae463a1b58a421e0b377f36c5d580e0afa91",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 17,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "c29cdc213ff33d08622f748a9f61ae463a1b58a421e0b377f36c5d580e0afa91",
+      "tier": "H3",
+      "step": 14,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 4,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0,
+        7
+      ],
+      "viable": [
+        0,
+        3,
+        7
+      ]
+    },
+    {
+      "geometry": "29dd4bb9ab71404db4c8e28c60f8f28cbf0aeafc008b32eb665cf88d211ebb75",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 13,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "29dd4bb9ab71404db4c8e28c60f8f28cbf0aeafc008b32eb665cf88d211ebb75",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 14,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "e61f778d76ae9c09e762bc52a5fb1b4e022f7842140e17fff29d2f5649d9bde9",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 2,
+      "distance": 22,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "e61f778d76ae9c09e762bc52a5fb1b4e022f7842140e17fff29d2f5649d9bde9",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 21,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "962c955ea3e87755057911ed131cd6cf4759d70c40768953df1e2036e880f81d",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 3,
+      "distance": 19,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "962c955ea3e87755057911ed131cd6cf4759d70c40768953df1e2036e880f81d",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 20,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 3,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "b2ae9e547fca8219da27f5d5ccb326e22953b1f07ba80d57ef5d78901b28bf5e",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 20,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "b2ae9e547fca8219da27f5d5ccb326e22953b1f07ba80d57ef5d78901b28bf5e",
+      "tier": "H3",
+      "step": 8,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 14,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 6,
+      "closer": [
+        4
+      ],
+      "viable": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "geometry": "3d0b6f2853ebf786f59a332f60b606e59f2692f3368db08554a73b38d1fffa11",
+      "tier": "H3",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 4,
+      "distance": 23,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "3d0b6f2853ebf786f59a332f60b606e59f2692f3368db08554a73b38d1fffa11",
+      "tier": "H3",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 24,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "f964ec1d7214c67df278e45a6911d05771cd31c6f2e36d377801e77ac90ebdb8",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 23,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "1f3d6a99c4c90e8090a442f479883ec891c370c7d2168bf0a2bd9a0f7b9a878c",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 12,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 4,
+      "closer": [
+        1,
+        4
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "geometry": "c3ffa4a77465c5b7931ed172256d919d709adcaa20d86ba0db2d08ece4b96e2d",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 18,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "f792f62f236f674417cc99928a4ab992992d6a1fc7beb44aaf0b58b19daa022f",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 15,
+      "distance": 11,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "geometry": "f792f62f236f674417cc99928a4ab992992d6a1fc7beb44aaf0b58b19daa022f",
+      "tier": "H4",
+      "step": 22,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 24,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 0,
+      "closer": [
+        2
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "d9eb2925fb1e092b97abebcbdd0873b1dd861b09e2bbec48bf80296a82295d99",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 27,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "444f2dc7bead905cabeb24b35b8a3db7ccf673a0dca1c7b6c3c21ae12d5f5408",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 9,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 0,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "ab65763b8d5fd6f6eeceeb7c948ff583246f65d0c13a403f2efe6e013b5d1fb7",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 25,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "d3e0f19032230112977acc45c419a0fd483483146483db687dabfa185cd89a60",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 0,
+      "distance": 6,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "d3e0f19032230112977acc45c419a0fd483483146483db687dabfa185cd89a60",
+      "tier": "H4",
+      "step": 1,
+      "start": false,
+      "near": true,
+      "slack": 0,
+      "distance": 5,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "f00eecd261bfc59e9513a9fbd3afe2b9f394ce0c137fc912c2159629a03df6b6",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 7,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "43d3cf2416261b74ebbf793b04a2f6bf9b32fa9d9ce2705a18dde78024b78770",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 24,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        0,
+        1
+      ]
+    },
+    {
+      "geometry": "fa9845683fe5442142fc9711f3ba943cc1f80b1db125ba910cc2a2851c24c308",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 24,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "610f125043ae3616c3997c3afe384bc08ce5fb82be86554b5cca004d140a1ce4",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 16,
+      "distance": 11,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        0,
+        3
+      ]
+    },
+    {
+      "geometry": "610f125043ae3616c3997c3afe384bc08ce5fb82be86554b5cca004d140a1ce4",
+      "tier": "H4",
+      "step": 38,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 14,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "5e0dfd3c42c7e3bcfe595b35faf21031ffe55650d06d66c73420ebf05d25c97f",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 5,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 4,
+      "closer": [
+        0,
+        4
+      ],
+      "viable": [
+        0,
+        4
+      ]
+    },
+    {
+      "geometry": "939a1bf3f9ec6c963801664e4c9f555b12c9153716f274d39819aee067505c37",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 20,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        1
+      ],
+      "viable": [
+        1
+      ]
+    },
+    {
+      "geometry": "6cd0a1bd164ea408da17f142fd2f02f5bae74abbb679381c0b90c685ce59bfa2",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 18,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "037f8bc312666197ba8e64f26e1dcc24fe98c1c8c1bff75b4e32b4daf52eee7c",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 9,
+      "distance": 20,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        0,
+        3
+      ],
+      "viable": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "037f8bc312666197ba8e64f26e1dcc24fe98c1c8c1bff75b4e32b4daf52eee7c",
+      "tier": "H4",
+      "step": 4,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 24,
+      "covered": true,
+      "chosen": 1,
+      "pilot": 1,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "0daf4036df1a6c9b5f0126a8229e37ee7c338da6a56b94bd2a6c1aaf188b7420",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 16,
+      "covered": true,
+      "chosen": 6,
+      "pilot": 6,
+      "closer": [
+        2,
+        5,
+        6
+      ],
+      "viable": [
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "geometry": "9fb15dddb52b6a3078f0032b51d0130ca2007a9c0a8df7cfed65e71cae755e4f",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 5,
+      "distance": 40,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        2
+      ]
+    },
+    {
+      "geometry": "9fb15dddb52b6a3078f0032b51d0130ca2007a9c0a8df7cfed65e71cae755e4f",
+      "tier": "H4",
+      "step": 10,
+      "start": false,
+      "near": true,
+      "slack": 1,
+      "distance": 34,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": []
+    },
+    {
+      "geometry": "4bc8267c968a0ae7cd778fb07ff938756954502127ee5dd899167332daedc545",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 18,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "69df6b2b6aa61e5db42f4ee042d7a6ccf9561f40d6b960930b2502e5ce6771c8",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": false,
+      "slack": 12,
+      "distance": 17,
+      "covered": true,
+      "chosen": 2,
+      "pilot": 2,
+      "closer": [
+        2
+      ],
+      "viable": [
+        1,
+        2
+      ]
+    },
+    {
+      "geometry": "69df6b2b6aa61e5db42f4ee042d7a6ccf9561f40d6b960930b2502e5ce6771c8",
+      "tier": "H4",
+      "step": 87,
+      "start": false,
+      "near": true,
+      "slack": 2,
+      "distance": 29,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 1,
+      "closer": [
+        3
+      ],
+      "viable": [
+        1,
+        3
+      ]
+    },
+    {
+      "geometry": "1ff505589a4d83c1921b3c35bac2f88837c4085d5647c49ed657bf12f80ad7fe",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 17,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        3
+      ],
+      "viable": [
+        3
+      ]
+    },
+    {
+      "geometry": "364e578d7b0723705f092ff2d41a67c0ed863314ad14825201afbbc48d9f14df",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 21,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0,
+        2
+      ]
+    },
+    {
+      "geometry": "47553a9a2b22923ff2d4fbdab0c8a6793ca5cf4f8072929e012b720672ebaea2",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 1,
+      "distance": 31,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    },
+    {
+      "geometry": "632a55ee2574f783ee4546cccd7012055c20f63597ea4583949a3aad89e948aa",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 2,
+      "distance": 26,
+      "covered": true,
+      "chosen": 3,
+      "pilot": 3,
+      "closer": [
+        2,
+        3
+      ],
+      "viable": [
+        2,
+        3
+      ]
+    },
+    {
+      "geometry": "9f9d68e9fad1871047bd41bf5e8d927a0e0d4b30d606f21f3d159ad21d92a6ff",
+      "tier": "H4",
+      "step": 0,
+      "start": true,
+      "near": true,
+      "slack": 0,
+      "distance": 22,
+      "covered": true,
+      "chosen": 0,
+      "pilot": 0,
+      "closer": [
+        0
+      ],
+      "viable": [
+        0
+      ]
+    }
+  ]
+}

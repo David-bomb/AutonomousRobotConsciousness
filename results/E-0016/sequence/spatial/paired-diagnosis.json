@@ -1,0 +1,5061 @@
+{
+  "train_sha256": "ae7c73524df0dafa49c2512296a35c70b81a411fdb2863f333ad0913fe2be2ab",
+  "source": "38d7ade59d177947b384c0131f0f2ef4b429b08ee45127107afc8f84f3f2ffdc",
+  "summary": {
+    "original": {
+      "outcomes": {
+        "SUCCESS": 46,
+        "EMPTY": 35,
+        "BROKEN": 19
+      },
+      "both": 54,
+      "changed_actions": [
+        0,
+        0,
+        0
+      ]
+    },
+    "first_change": {
+      "outcomes": {
+        "SUCCESS": 50,
+        "EMPTY": 34,
+        "BROKEN": 16
+      },
+      "both": 57,
+      "changed_actions": [
+        57,
+        31,
+        10
+      ]
+    },
+    "all_changes": {
+      "outcomes": {
+        "EMPTY": 42,
+        "SUCCESS": 35,
+        "BROKEN": 22,
+        "LIMIT": 1
+      },
+      "both": 48,
+      "changed_actions": [
+        304,
+        361,
+        6150
+      ]
+    },
+    "slack01": {
+      "outcomes": {
+        "SUCCESS": 42,
+        "EMPTY": 38,
+        "BROKEN": 20
+      },
+      "both": 51,
+      "changed_actions": [
+        33,
+        18,
+        296
+      ]
+    }
+  },
+  "records": [
+    {
+      "map": "local-screen-9164100-H1-01",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 168,
+          "refuels": 2,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 168,
+          "refuels": 2,
+          "repairs": 2,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            4,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 168,
+          "refuels": 2,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-02",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 248,
+          "refuels": 4,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 248,
+          "refuels": 4,
+          "repairs": 4,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 282,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            14
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 317,
+          "refuels": 5,
+          "repairs": 6,
+          "changes": [
+            0,
+            0,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-03",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 387,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 387,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 297,
+          "refuels": 4,
+          "repairs": 4,
+          "changes": [
+            1,
+            1,
+            5
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 387,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-04",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 511,
+          "refuels": 6,
+          "repairs": 6,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 511,
+          "refuels": 6,
+          "repairs": 6,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 196,
+          "refuels": 2,
+          "repairs": 3,
+          "changes": [
+            0,
+            2,
+            9
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 206,
+          "refuels": 2,
+          "repairs": 3,
+          "changes": [
+            0,
+            0,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-05",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 55,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 61,
+          "refuels": 1,
+          "repairs": 3,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 57,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            0,
+            2,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 55,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-06",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 287,
+          "refuels": 8,
+          "repairs": 7,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 291,
+          "refuels": 8,
+          "repairs": 8,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 389,
+          "refuels": 10,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            3
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 287,
+          "refuels": 8,
+          "repairs": 7,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-07",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 22,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 22,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 22,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            2,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 22,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-08",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 17,
+          "refuels": 0,
+          "repairs": 8,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 317,
+          "refuels": 5,
+          "repairs": 8,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 317,
+          "refuels": 5,
+          "repairs": 8,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 17,
+          "refuels": 0,
+          "repairs": 4,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-09",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 219,
+          "refuels": 3,
+          "repairs": 4,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 221,
+          "refuels": 3,
+          "repairs": 4,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 34,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            17,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 126,
+          "refuels": 2,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-10",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 592,
+          "refuels": 11,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 23,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 23,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            5,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 592,
+          "refuels": 11,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-11",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 748,
+          "refuels": 21,
+          "repairs": 15,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 750,
+          "refuels": 21,
+          "repairs": 15,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 846,
+          "refuels": 21,
+          "repairs": 18,
+          "changes": [
+            2,
+            0,
+            3
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 748,
+          "refuels": 21,
+          "repairs": 15,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-12",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            4,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 14,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-13",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 449,
+          "refuels": 8,
+          "repairs": 6,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 449,
+          "refuels": 7,
+          "repairs": 6,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 349,
+          "refuels": 6,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            6
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 449,
+          "refuels": 8,
+          "repairs": 6,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-14",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 280,
+          "refuels": 4,
+          "repairs": 4,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 278,
+          "refuels": 4,
+          "repairs": 4,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 280,
+          "refuels": 4,
+          "repairs": 4,
+          "changes": [
+            0,
+            1,
+            2
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 280,
+          "refuels": 4,
+          "repairs": 4,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-15",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 324,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 324,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 250,
+          "refuels": 5,
+          "repairs": 4,
+          "changes": [
+            2,
+            0,
+            1
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 324,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-16",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 30,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 30,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 30,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 30,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-17",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 994,
+          "refuels": 11,
+          "repairs": 21,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 996,
+          "refuels": 11,
+          "repairs": 22,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 898,
+          "refuels": 10,
+          "repairs": 20,
+          "changes": [
+            0,
+            2,
+            16
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 994,
+          "refuels": 11,
+          "repairs": 21,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-18",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 30,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 30,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 30,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            8,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 30,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-19",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 444,
+          "refuels": 8,
+          "repairs": 6,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 446,
+          "refuels": 8,
+          "repairs": 7,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 510,
+          "refuels": 10,
+          "repairs": 9,
+          "changes": [
+            0,
+            2,
+            35
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 451,
+          "refuels": 10,
+          "repairs": 6,
+          "changes": [
+            0,
+            0,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-20",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 59,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 367,
+          "refuels": 7,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 287,
+          "refuels": 6,
+          "repairs": 4,
+          "changes": [
+            0,
+            0,
+            8
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 59,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-21",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 74,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 76,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 76,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 74,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-22",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 146,
+          "refuels": 2,
+          "repairs": 3,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 146,
+          "refuels": 2,
+          "repairs": 3,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 152,
+          "refuels": 3,
+          "repairs": 3,
+          "changes": [
+            0,
+            0,
+            5
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 146,
+          "refuels": 2,
+          "repairs": 3,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-23",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 410,
+          "refuels": 6,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 412,
+          "refuels": 6,
+          "repairs": 9,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 786,
+          "refuels": 11,
+          "repairs": 13,
+          "changes": [
+            0,
+            2,
+            21
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 410,
+          "refuels": 6,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-24",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 412,
+          "refuels": 6,
+          "repairs": 5,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 577,
+          "refuels": 9,
+          "repairs": 9,
+          "changes": [
+            6,
+            0,
+            29
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H1-25",
+      "tier": "H1",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 361,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 419,
+          "refuels": 7,
+          "repairs": 5,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 319,
+          "refuels": 5,
+          "repairs": 4,
+          "changes": [
+            4,
+            3,
+            10
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 361,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-01",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 3,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 2,
+          "changes": [
+            4,
+            3,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-02",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 23,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 172,
+          "refuels": 4,
+          "repairs": 2,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 168,
+          "refuels": 4,
+          "repairs": 2,
+          "changes": [
+            3,
+            0,
+            1
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 23,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            2,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-03",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 633,
+          "refuels": 8,
+          "repairs": 8,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 631,
+          "refuels": 8,
+          "repairs": 8,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 541,
+          "refuels": 7,
+          "repairs": 7,
+          "changes": [
+            1,
+            4,
+            42
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 639,
+          "refuels": 8,
+          "repairs": 8,
+          "changes": [
+            0,
+            0,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-04",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 943,
+          "refuels": 22,
+          "repairs": 12,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 943,
+          "refuels": 22,
+          "repairs": 12,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 44,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            2,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 943,
+          "refuels": 22,
+          "repairs": 12,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-05",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 703,
+          "refuels": 11,
+          "repairs": 8,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 699,
+          "refuels": 12,
+          "repairs": 8,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 817,
+          "refuels": 14,
+          "repairs": 9,
+          "changes": [
+            0,
+            1,
+            12
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 711,
+          "refuels": 11,
+          "repairs": 8,
+          "changes": [
+            0,
+            0,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-06",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 364,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 35,
+          "refuels": 0,
+          "repairs": 3,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 35,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            20,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 364,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-07",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 46,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 558,
+          "refuels": 8,
+          "repairs": 7,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 46,
+          "refuels": 0,
+          "repairs": 2,
+          "changes": [
+            0,
+            19,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 46,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-08",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 152,
+          "refuels": 3,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 168,
+          "refuels": 3,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 168,
+          "refuels": 3,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            2
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 152,
+          "refuels": 3,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-09",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 990,
+          "refuels": 12,
+          "repairs": 12,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 672,
+          "refuels": 9,
+          "repairs": 8,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 702,
+          "refuels": 9,
+          "repairs": 9,
+          "changes": [
+            2,
+            0,
+            18
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 990,
+          "refuels": 12,
+          "repairs": 12,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-10",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 17,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 369,
+          "refuels": 6,
+          "repairs": 6,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 279,
+          "refuels": 4,
+          "repairs": 4,
+          "changes": [
+            3,
+            0,
+            10
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 17,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-11",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 571,
+          "refuels": 8,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 567,
+          "refuels": 8,
+          "repairs": 9,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 32,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            1,
+            11,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 681,
+          "refuels": 10,
+          "repairs": 10,
+          "changes": [
+            0,
+            0,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-12",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 917,
+          "refuels": 12,
+          "repairs": 15,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 917,
+          "refuels": 12,
+          "repairs": 15,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 560,
+          "refuels": 7,
+          "repairs": 9,
+          "changes": [
+            1,
+            2,
+            24
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 917,
+          "refuels": 12,
+          "repairs": 15,
+          "changes": [
+            0,
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-13",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 721,
+          "refuels": 10,
+          "repairs": 10,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 291,
+          "refuels": 4,
+          "repairs": 4,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 179,
+          "refuels": 2,
+          "repairs": 3,
+          "changes": [
+            1,
+            3,
+            6
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 755,
+          "refuels": 10,
+          "repairs": 9,
+          "changes": [
+            0,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-14",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 57,
+          "refuels": 2,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 59,
+          "refuels": 2,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 59,
+          "refuels": 2,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 57,
+          "refuels": 2,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-15",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 49,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 1688,
+          "refuels": 33,
+          "repairs": 19,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 132,
+          "refuels": 3,
+          "repairs": 2,
+          "changes": [
+            2,
+            0,
+            1
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 49,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-16",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 55,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 624,
+          "refuels": 8,
+          "repairs": 7,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 55,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            38,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 55,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-17",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 843,
+          "refuels": 14,
+          "repairs": 13,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 903,
+          "refuels": 16,
+          "repairs": 14,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 951,
+          "refuels": 16,
+          "repairs": 18,
+          "changes": [
+            0,
+            2,
+            26
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 843,
+          "refuels": 14,
+          "repairs": 13,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-18",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 68,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 66,
+          "refuels": 2,
+          "repairs": 2,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 70,
+          "refuels": 2,
+          "repairs": 2,
+          "changes": [
+            0,
+            6,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 68,
+          "refuels": 1,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-19",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 64,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 64,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 63,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            2,
+            1
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 64,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-20",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 779,
+          "refuels": 9,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 779,
+          "refuels": 9,
+          "repairs": 9,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 21,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            2,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 21,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-21",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 148,
+          "refuels": 2,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 147,
+          "refuels": 2,
+          "repairs": 2,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 243,
+          "refuels": 3,
+          "repairs": 4,
+          "changes": [
+            0,
+            3,
+            22
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 148,
+          "refuels": 2,
+          "repairs": 2,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-22",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 631,
+          "refuels": 9,
+          "repairs": 7,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 631,
+          "refuels": 9,
+          "repairs": 7,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 40,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            20,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 731,
+          "refuels": 9,
+          "repairs": 8,
+          "changes": [
+            0,
+            2,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-23",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 62,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 60,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 586,
+          "refuels": 12,
+          "repairs": 11,
+          "changes": [
+            1,
+            0,
+            14
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 62,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-24",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 647,
+          "refuels": 7,
+          "repairs": 7,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 647,
+          "refuels": 7,
+          "repairs": 7,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 698,
+          "refuels": 8,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            24
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 647,
+          "refuels": 7,
+          "repairs": 7,
+          "changes": [
+            0,
+            0,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H2-25",
+      "tier": "H2",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            5,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-01",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 772,
+          "refuels": 10,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 48,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 48,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            2,
+            24,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 772,
+          "refuels": 10,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-02",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 19,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 19,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 78,
+          "refuels": 2,
+          "repairs": 1,
+          "changes": [
+            6,
+            6,
+            4
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 105,
+          "refuels": 1,
+          "repairs": 1,
+          "changes": [
+            3,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-03",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 1501,
+          "refuels": 15,
+          "repairs": 23,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 1369,
+          "refuels": 14,
+          "repairs": 23,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 36,
+          "refuels": 0,
+          "repairs": 2,
+          "changes": [
+            0,
+            13,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 726,
+          "refuels": 7,
+          "repairs": 11,
+          "changes": [
+            0,
+            0,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-04",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 453,
+          "refuels": 8,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 453,
+          "refuels": 8,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 661,
+          "refuels": 13,
+          "repairs": 7,
+          "changes": [
+            0,
+            0,
+            18
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 453,
+          "refuels": 8,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-05",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 56,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 56,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 56,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            9,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 56,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-06",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            4,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-07",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            17,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-08",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 46,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 46,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 46,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            1,
+            25,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 46,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-09",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            12,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-10",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 31,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 31,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 31,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            4,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 31,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-11",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 19,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 19,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 1374,
+          "refuels": 21,
+          "repairs": 19,
+          "changes": [
+            3,
+            0,
+            63
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 19,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-12",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            8,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 24,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-13",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            14,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-14",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 1223,
+          "refuels": 18,
+          "repairs": 18,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 1223,
+          "refuels": 18,
+          "repairs": 18,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 34,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            13,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 757,
+          "refuels": 10,
+          "repairs": 11,
+          "changes": [
+            0,
+            0,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-15",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 46,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 46,
+          "refuels": 0,
+          "repairs": 3,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 46,
+          "refuels": 0,
+          "repairs": 3,
+          "changes": [
+            0,
+            23,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 46,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-16",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 52,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 52,
+          "refuels": 0,
+          "repairs": 2,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 52,
+          "refuels": 0,
+          "repairs": 2,
+          "changes": [
+            0,
+            11,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 52,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-17",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 1661,
+          "refuels": 18,
+          "repairs": 37,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 1659,
+          "refuels": 18,
+          "repairs": 37,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 34,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            2,
+            8,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 22,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-18",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            18,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-19",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 750,
+          "refuels": 13,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 750,
+          "refuels": 13,
+          "repairs": 9,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 754,
+          "refuels": 13,
+          "repairs": 9,
+          "changes": [
+            0,
+            2,
+            9
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 750,
+          "refuels": 13,
+          "repairs": 9,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-20",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 18,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-21",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 55,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 55,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 21,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            10,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 55,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-22",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 970,
+          "refuels": 11,
+          "repairs": 11,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 870,
+          "refuels": 10,
+          "repairs": 10,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "SUCCESS",
+          "steps": 2038,
+          "refuels": 22,
+          "repairs": 21,
+          "changes": [
+            0,
+            1,
+            65
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 37,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-23",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 412,
+          "refuels": 6,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 408,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 408,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            1,
+            1,
+            6
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 412,
+          "refuels": 6,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-24",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 25,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 25,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 25,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            6,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 25,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H3-25",
+      "tier": "H3",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 29,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 473,
+          "refuels": 6,
+          "repairs": 7,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 29,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            6,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 473,
+          "refuels": 6,
+          "repairs": 7,
+          "changes": [
+            0,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-01",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 29,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 29,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 29,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            24,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 29,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-02",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 445,
+          "refuels": 8,
+          "repairs": 7,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 445,
+          "refuels": 9,
+          "repairs": 7,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 369,
+          "refuels": 5,
+          "repairs": 7,
+          "changes": [
+            0,
+            2,
+            2
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 445,
+          "refuels": 8,
+          "repairs": 7,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-03",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 2794,
+          "refuels": 30,
+          "repairs": 30,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 2794,
+          "refuels": 30,
+          "repairs": 30,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 3658,
+          "refuels": 38,
+          "repairs": 41,
+          "changes": [
+            0,
+            2,
+            535
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 2526,
+          "refuels": 26,
+          "repairs": 26,
+          "changes": [
+            0,
+            0,
+            117
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-04",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            2,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-05",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 607,
+          "refuels": 6,
+          "repairs": 10,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 543,
+          "refuels": 6,
+          "repairs": 10,
+          "changes": [
+            0,
+            0,
+            1
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 539,
+          "refuels": 6,
+          "repairs": 10,
+          "changes": [
+            0,
+            0,
+            5
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 607,
+          "refuels": 6,
+          "repairs": 10,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-06",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 423,
+          "refuels": 8,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 22,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 22,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            4,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 22,
+          "refuels": 1,
+          "repairs": 0,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-07",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 49,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            4,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            2,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-08",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "SUCCESS",
+          "steps": 2279,
+          "refuels": 28,
+          "repairs": 28,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 2279,
+          "refuels": 28,
+          "repairs": 28,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 493,
+          "refuels": 6,
+          "repairs": 6,
+          "changes": [
+            1,
+            1,
+            96
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 2264,
+          "refuels": 28,
+          "repairs": 26,
+          "changes": [
+            1,
+            0,
+            83
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-09",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 4613,
+          "refuels": 49,
+          "repairs": 50,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 17,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 17,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            4,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 17,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-10",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 440,
+          "refuels": 5,
+          "repairs": 5,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 45,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 45,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            10,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 45,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-11",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 319,
+          "refuels": 4,
+          "repairs": 3,
+          "changes": [
+            2,
+            0,
+            2
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 319,
+          "refuels": 4,
+          "repairs": 3,
+          "changes": [
+            2,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-12",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            13,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 20,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-13",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            3,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-14",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "SUCCESS",
+          "steps": 385,
+          "refuels": 7,
+          "repairs": 6,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 386,
+          "refuels": 7,
+          "repairs": 7,
+          "changes": [
+            1,
+            0,
+            14
+          ]
+        },
+        "slack01": {
+          "outcome": "SUCCESS",
+          "steps": 385,
+          "refuels": 7,
+          "repairs": 6,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-15",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            15,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            2,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-16",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            10,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 27,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            4,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-17",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 26,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-18",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 2,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            13,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-19",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            3,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 11,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-20",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 2969,
+          "refuels": 52,
+          "repairs": 32,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 2967,
+          "refuels": 52,
+          "repairs": 32,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "LIMIT",
+          "steps": 10360,
+          "refuels": 120,
+          "repairs": 4297,
+          "changes": [
+            1,
+            1,
+            4960
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 17,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-21",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 47,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 47,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            1,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 47,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            19,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 47,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-22",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            8,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 16,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-23",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 34,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 34,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 34,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            1,
+            25,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 34,
+          "refuels": 0,
+          "repairs": 1,
+          "changes": [
+            0,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-24",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            4,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "BROKEN",
+          "steps": 15,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            2,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "map": "local-screen-9164100-H4-25",
+      "tier": "H4",
+      "modes": {
+        "original": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            0,
+            0,
+            0
+          ]
+        },
+        "first_change": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        },
+        "all_changes": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            7,
+            0,
+            0
+          ]
+        },
+        "slack01": {
+          "outcome": "EMPTY",
+          "steps": 28,
+          "refuels": 0,
+          "repairs": 0,
+          "changes": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ]
+}

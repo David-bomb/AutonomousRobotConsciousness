@@ -1,0 +1,868 @@
+{
+  "reference_sha256": "020574084dcfaa3efffca38d0c057419e0e90307548f06bfb62acad5be47946f",
+  "sensor_sha256": "405521a1a3bad60218fcf13427c17d4c6a21c3d4ddcfca707828eb71c9fd97c3",
+  "summary": {
+    "cases": 70,
+    "predicted_decreases": 26,
+    "predicted_viable": 24,
+    "policy_decreases": 2,
+    "any_downhill_viable": 68,
+    "uniform_downhill_expected": 30.959523809523798
+  },
+  "episodes": [
+    {
+      "map": "train-9160107-H1-01",
+      "step": 104,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-03",
+      "step": 9,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-05",
+      "step": 22,
+      "resource": "fuel",
+      "predicted": "EAST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-07",
+      "step": 7,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-09",
+      "step": 7,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-10",
+      "step": 4,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-12",
+      "step": 95,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-13",
+      "step": 5,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-15",
+      "step": 4,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-16",
+      "step": 3,
+      "resource": "health",
+      "predicted": "EAST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-17",
+      "step": 3,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-19",
+      "step": 72,
+      "resource": "health",
+      "predicted": "NORTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-20",
+      "step": 19,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-24",
+      "step": 188,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H1-25",
+      "step": 13,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-01",
+      "step": 3,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-03",
+      "step": 16,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-04",
+      "step": 130,
+      "resource": "fuel",
+      "predicted": "SOUTH",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-05",
+      "step": 8,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-06",
+      "step": 2,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-08",
+      "step": 3,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-10",
+      "step": 3,
+      "resource": "fuel",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-11",
+      "step": 66,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-18",
+      "step": 12,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-19",
+      "step": 19,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-20",
+      "step": 152,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-21",
+      "step": 61,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H2-22",
+      "step": 17,
+      "resource": "fuel",
+      "predicted": "EAST",
+      "downhill": [
+        "SOUTH",
+        "SE"
+      ],
+      "viable": [
+        "SE",
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-01",
+      "step": 3,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-05",
+      "step": 13,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-08",
+      "step": 2,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-09",
+      "step": 73,
+      "resource": "fuel",
+      "predicted": "SOUTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-10",
+      "step": 2,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-11",
+      "step": 244,
+      "resource": "health",
+      "predicted": "EAST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-12",
+      "step": 157,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-13",
+      "step": 36,
+      "resource": "health",
+      "predicted": "EAST",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-14",
+      "step": 2,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-15",
+      "step": 29,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "WEST",
+        "SW"
+      ],
+      "viable": [
+        "SOUTH",
+        "SW",
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-16",
+      "step": 25,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-17",
+      "step": 36,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-18",
+      "step": 2,
+      "resource": "fuel",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-19",
+      "step": 15,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-20",
+      "step": 22,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-21",
+      "step": 16,
+      "resource": "fuel",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-22",
+      "step": 20,
+      "resource": "fuel",
+      "predicted": "EAST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-23",
+      "step": 78,
+      "resource": "health",
+      "predicted": "NORTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-24",
+      "step": 9,
+      "resource": "health",
+      "predicted": "SW",
+      "downhill": [
+        "NE"
+      ],
+      "viable": [
+        "EAST",
+        "NE",
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H3-25",
+      "step": 3,
+      "resource": "health",
+      "predicted": "EAST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-01",
+      "step": 25,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-02",
+      "step": 3,
+      "resource": "fuel",
+      "predicted": "NW",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-03",
+      "step": 20,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-04",
+      "step": 102,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-06",
+      "step": 1,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-07",
+      "step": 1,
+      "resource": "health",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST"
+      ],
+      "viable": [
+        "EAST"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-08",
+      "step": 83,
+      "resource": "fuel",
+      "predicted": "SOUTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-09",
+      "step": 25,
+      "resource": "health",
+      "predicted": "NORTH",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-10",
+      "step": 15,
+      "resource": "health",
+      "predicted": "SE",
+      "downhill": [
+        "SOUTH",
+        "SE"
+      ],
+      "viable": [
+        "SE",
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-12",
+      "step": 18,
+      "resource": "fuel",
+      "predicted": "EAST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-13",
+      "step": 21,
+      "resource": "health",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-14",
+      "step": 32,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "EAST",
+        "SE"
+      ],
+      "viable": [
+        "EAST",
+        "NE",
+        "NORTH",
+        "SE",
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-15",
+      "step": 97,
+      "resource": "health",
+      "predicted": "NORTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-16",
+      "step": 93,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-17",
+      "step": 2,
+      "resource": "fuel",
+      "predicted": "SW",
+      "downhill": [
+        "SW"
+      ],
+      "viable": [
+        "SW"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-18",
+      "step": 9,
+      "resource": "health",
+      "predicted": "NORTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-19",
+      "step": 81,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-20",
+      "step": 13,
+      "resource": "fuel",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-21",
+      "step": 21,
+      "resource": "fuel",
+      "predicted": "NORTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-22",
+      "step": 32,
+      "resource": "fuel",
+      "predicted": "SOUTH",
+      "downhill": [
+        "NORTH"
+      ],
+      "viable": [
+        "NORTH"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-24",
+      "step": 25,
+      "resource": "fuel",
+      "predicted": "WEST",
+      "downhill": [
+        "WEST"
+      ],
+      "viable": [
+        "WEST"
+      ]
+    },
+    {
+      "map": "train-9160107-H4-25",
+      "step": 12,
+      "resource": "fuel",
+      "predicted": "SOUTH",
+      "downhill": [
+        "SOUTH"
+      ],
+      "viable": [
+        "SOUTH"
+      ]
+    }
+  ]
+}

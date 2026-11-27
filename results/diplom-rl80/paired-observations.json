@@ -1,0 +1,114 @@
+{
+  "scope": "constructive example in project physics; deliberately constructed, outside benchmark",
+  "observation": {
+    "memory": [
+      "?????????????",
+      "?????????????",
+      "??????R??????",
+      "??????F??????",
+      "??????R??????",
+      "??????F??????",
+      "?????????????",
+      "?????????????",
+      "?????###?????",
+      "?????...?????",
+      "?????###?????",
+      "?????????????"
+    ],
+    "window": [
+      "###",
+      "...",
+      "###"
+    ],
+    "position": [
+      6,
+      9
+    ],
+    "dx": 0,
+    "dy": -8,
+    "fuel_distance": 12,
+    "repair_distance": 13,
+    "fuel": 12,
+    "health": 13,
+    "last_move": null,
+    "moved": null
+  },
+  "left": {
+    "grid": [
+      "#############",
+      "######B######",
+      "######R######",
+      "######F######",
+      "######R######",
+      "##....F######",
+      "##.##########",
+      "##.##########",
+      "##.##########",
+      "##....A....##",
+      "#############",
+      "#############"
+    ],
+    "viable_first": [
+      "WEST"
+    ],
+    "witness": [
+      "WEST",
+      "WEST",
+      "WEST",
+      "WEST",
+      "NORTH",
+      "NORTH",
+      "NORTH",
+      "NORTH",
+      "EAST",
+      "EAST",
+      "EAST",
+      "EAST",
+      "NORTH",
+      "NORTH",
+      "NORTH",
+      "NORTH"
+    ],
+    "physical_status": "SUCCESS",
+    "steps": 16
+  },
+  "right": {
+    "grid": [
+      "#############",
+      "######B######",
+      "######R######",
+      "######F######",
+      "######R######",
+      "######F....##",
+      "##########.##",
+      "##########.##",
+      "##########.##",
+      "##....A....##",
+      "#############",
+      "#############"
+    ],
+    "viable_first": [
+      "EAST"
+    ],
+    "witness": [
+      "EAST",
+      "EAST",
+      "EAST",
+      "EAST",
+      "NORTH",
+      "NORTH",
+      "NORTH",
+      "NORTH",
+      "WEST",
+      "WEST",
+      "WEST",
+      "WEST",
+      "NORTH",
+      "NORTH",
+      "NORTH",
+      "NORTH"
+    ],
+    "physical_status": "SUCCESS",
+    "steps": 16
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "history": [
+    {
+      "step": 1100,
+      "sha256": "14743e87a1b6fe302f5f803a1fa94a181e943a5f1e6379bcefb41947ec9159dd",
+      "probe": {
+        "labels_per_target": 23309,
+        "correct": [
+          17750,
+          17867,
+          15446
+        ],
+        "downhill": [
+          7456,
+          7555,
+          6526
+        ],
+        "eligible": [
+          9489,
+          9490,
+          9533
+        ]
+      }
+    },
+    {
+      "step": 2200,
+      "sha256": "56b0c88b2ce2543c37cd59b21414b8c401b1c292e6f0601194a9537012c74fe3",
+      "probe": {
+        "labels_per_target": 23309,
+        "correct": [
+          18184,
+          18412,
+          15616
+        ],
+        "downhill": [
+          7639,
+          7729,
+          6591
+        ],
+        "eligible": [
+          9489,
+          9490,
+          9533
+        ]
+      }
+    }
+  ],
+  "selected": 2200
+}

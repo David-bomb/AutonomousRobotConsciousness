@@ -1,0 +1,140 @@
+{
+  "map": "spatial-large-9163107-H1-09",
+  "tier": "H1",
+  "geometry": "21a62c60ad15843077429f4ed79f139fce17763f6afa188b7c4f943dbb9a6faf",
+  "samples": 4,
+  "features": "5fb88a2886dd69e5a778b7764850de05e89ac45b97460b1ee6110e49ab0851e0",
+  "base": "eb11b8ec3f1c6c2f24996e23fe9384f91b3bba33cffa8202193109911cce6f4c",
+  "forks": [
+    {
+      "step": 0,
+      "slack": 5,
+      "parent": 1,
+      "responses": [
+        [
+          1,
+          "EMPTY",
+          false,
+          true
+        ],
+        [
+          3,
+          "EMPTY",
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "step": 10,
+      "slack": 5,
+      "parent": 0,
+      "responses": [
+        [
+          0,
+          "EMPTY",
+          false,
+          true
+        ],
+        [
+          1,
+          "SUCCESS",
+          true,
+          false
+        ],
+        [
+          2,
+          "EMPTY",
+          false,
+          false
+        ],
+        [
+          4,
+          "SUCCESS",
+          true,
+          true
+        ]
+      ]
+    },
+    {
+      "step": 16,
+      "slack": 0,
+      "parent": 6,
+      "responses": [
+        [
+          1,
+          "EMPTY",
+          false,
+          false
+        ],
+        [
+          2,
+          "EMPTY",
+          false,
+          false
+        ],
+        [
+          3,
+          "SUCCESS",
+          true,
+          true
+        ],
+        [
+          5,
+          "EMPTY",
+          false,
+          false
+        ],
+        [
+          6,
+          "EMPTY",
+          false,
+          false
+        ]
+      ]
+    },
+    {
+      "step": 17,
+      "slack": -1,
+      "parent": 3,
+      "responses": [
+        [
+          0,
+          "EMPTY",
+          false,
+          true
+        ],
+        [
+          1,
+          "EMPTY",
+          false,
+          false
+        ],
+        [
+          2,
+          "EMPTY",
+          false,
+          false
+        ],
+        [
+          3,
+          "EMPTY",
+          false,
+          false
+        ],
+        [
+          4,
+          "EMPTY",
+          false,
+          false
+        ],
+        [
+          5,
+          "EMPTY",
+          false,
+          false
+        ]
+      ]
+    }
+  ]
+}

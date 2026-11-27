@@ -1,0 +1,13 @@
+{
+  "bank_sha256": "4794c16be174ad50f1465affa127499281b622bca78b66928f912f2abbc1c842",
+  "parents": [
+    "eb11b8ec3f1c6c2f24996e23fe9384f91b3bba33cffa8202193109911cce6f4c",
+    "dcd86d846e6d4e3ccc7025762d8e8ffcb5fc842fd2548dc0904ba2d3a76a118b"
+  ],
+  "source_sha256": {
+    "layout_router.py": "5e5986bf72d8f089f63c963c223a77c7aa89f36d4af90c7ea221993023fd277d",
+    "layout_train.py": "dd2ecdd27586e1f0ad32e77d015d73a6b2adac1ecba7e345545d7fb94902b0ad"
+  },
+  "fitting": "Six fixed features available on every observation: minimum and maximum dimensions, distances from B to stations and distances between F-R. Fit at most one axis split on overlapping parent train fits, >=10 cases per leaf. Best two distinct training partitions join both constants on distinct selection maps. Accept split only if strictly above both constants on selection. Stable order breaks ties.",
+  "test": "Frozen deployment reload, full dev and identical-map ablation. Verify exact parent outcome, action digest and duration on each map."
+}

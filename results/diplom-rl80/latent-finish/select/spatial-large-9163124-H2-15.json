@@ -1,0 +1,97 @@
+{
+  "options": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      6.0,
+      3.0,
+      2.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      2.0,
+      5.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0
+    ],
+    [
+      8.0,
+      2.0,
+      8.0,
+      0.0,
+      1.0,
+      2.0,
+      1.0
+    ],
+    [
+      2.6666666666666665,
+      3.3333333333333335,
+      5.333333333333333,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      1.3333333333333333
+    ]
+  ],
+  "episodes": [
+    {
+      "map": "spatial-large-9163124-H2-15",
+      "tier": "H2",
+      "head": 0,
+      "gate": true,
+      "steps": 516,
+      "outcome": "SUCCESS",
+      "actions_sha256": "c1a649d1ec73b3559cd0b0c7837e3ba3ed22604d9a663a577191e79d2851e28b"
+    },
+    {
+      "map": "spatial-large-9163124-H2-15",
+      "tier": "H2",
+      "head": 1,
+      "gate": true,
+      "steps": 540,
+      "outcome": "exact_cycle",
+      "actions_sha256": "e5db424f0428bf1e2be7beefb9cc73f8e650a0e56619538ca61a2c7f81f04f02"
+    },
+    {
+      "map": "spatial-large-9163124-H2-15",
+      "tier": "H2",
+      "head": 2,
+      "gate": true,
+      "steps": 522,
+      "outcome": "SUCCESS",
+      "actions_sha256": "9faaf95516e775b4e1aadbb18cfb37b93c724d4983d9664a3d0f889295221af4"
+    },
+    {
+      "map": "spatial-large-9163124-H2-15",
+      "tier": "H2",
+      "head": 3,
+      "gate": true,
+      "steps": 531,
+      "outcome": "BROKEN",
+      "actions_sha256": "e9b832daebbe27f94593b893cbfc15952459f65009ecd12fb2f943cd5115846d"
+    },
+    {
+      "map": "spatial-large-9163124-H2-15",
+      "tier": "H2",
+      "head": 4,
+      "gate": true,
+      "steps": 540,
+      "outcome": "exact_cycle",
+      "actions_sha256": "36228b7f9a9a471a99b8e0a04d6d13fbbb9eaa3bbe621c6973aea443b3e6db35"
+    }
+  ],
+  "protocol_sha256": "c891eb89ae2abe1fbacfe4df8847a15ad5bf7f2ff1bebbe8ece15f62dc95c978"
+}

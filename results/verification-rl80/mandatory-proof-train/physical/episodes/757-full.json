@@ -1,0 +1,52 @@
+{
+  "split": "sequence/train",
+  "id": "sequence-train-9161107-H3-08",
+  "geometry": "da3e06322c20bba4201917c232dee14790e00cd58897dbeebba97c1fb4b13742",
+  "scenario_sha256": "640cbe2421ec5b47ba2115e271049da1b9ec47994dc591689f7cff6e59715f4b",
+  "outcome": "EMPTY",
+  "steps": 28,
+  "refuels": 0,
+  "repairs": 0,
+  "actions_sha256": "7d63247dd2a976d5b33b0d67c4648a44706e74ee424dd0bf5be1e03696821165",
+  "mode": "full",
+  "index": 757,
+  "tier": "H3",
+  "family": "corridors",
+  "initial": [
+    28,
+    51
+  ],
+  "limit": 7656,
+  "actions": "0001300001111113300111111111",
+  "first_loss": {
+    "step": 14,
+    "action": "EAST",
+    "before": [
+      [
+        5,
+        3
+      ],
+      15,
+      38,
+      0,
+      0
+    ],
+    "after": [
+      [
+        6,
+        3
+      ],
+      14,
+      37,
+      0,
+      0
+    ],
+    "phase": "start",
+    "remaining_after": 7642,
+    "alternatives": [
+      "NORTH"
+    ]
+  },
+  "elapsed_seconds": 10.283252500000344,
+  "diagnosis_seconds": 0.007620200000019395
+}

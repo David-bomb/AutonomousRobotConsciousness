@@ -1,0 +1,14 @@
+{
+  "study": "diplom-rl80",
+  "decision_utc": "2026-11-27T11:10:03Z",
+  "candidate": "service-window/fixed/model.pt",
+  "sha256": "eb11b8ec3f1c6c2f24996e23fe9384f91b3bba33cffa8202193109911cce6f4c",
+  "adapter": "service_window_policy.py",
+  "thresholds": [9, 9, -101],
+  "primary": "Raw physical SUCCESS on each original 100-map suite I, II and III. One attempt per map, same frozen weights, pass iff every count is at least 80.",
+  "when_chosen": "Before opening the three suites for this candidate. At the decision, 70 of the 100 developer-validation episodes had finished. No score or trace from the three target suites for this candidate was available.",
+  "inference": "Only current official Observation plus previous two actual observed service distances, missing before the first step. Complete service windows are recomputed from ordinary cell memory. No phase labels or hidden map.",
+  "independence": "Verifier makes a frozen local deployment in Diplom, verifies component hashes and resets, runs the complete independent scorer, then reports only three aggregate counts to the director. Control trajectories are not returned to training.",
+  "confirmation": "Keep the separate 200 new maps for final validation of a threshold-reaching model.",
+  "verifier_thread": "01a21c3d-e220-7dc2-9682-891e18fc90a0"
+}

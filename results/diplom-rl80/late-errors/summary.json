@@ -1,0 +1,1984 @@
+{
+  "summary": {
+    "maps": 54,
+    "late_failures": 27,
+    "reasons": {
+      "first-loss": 27
+    },
+    "known_goal": 0,
+    "safe_window": 0,
+    "risk_window": 27,
+    "by_family": {
+      "corridors": 15,
+      "loops": 8,
+      "branching": 2,
+      "rooms": 2
+    }
+  },
+  "episodes": [
+    {
+      "map": "handover-train-9165411-H1-03",
+      "tier": "H1",
+      "family": "corridors",
+      "win": false,
+      "gate": 23,
+      "steps": 393,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 348,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          0
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 45,
+        "hp": 56,
+        "readings": [
+          45,
+          44
+        ],
+        "prior": [
+          44,
+          43
+        ],
+        "exit_chebyshev": 10,
+        "known_cells": 286,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          7.965918779373169,
+          -1000000000000.0,
+          11.763538755480685,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165200-H1-05",
+      "tier": "H1",
+      "family": "corridors",
+      "win": false,
+      "gate": 27,
+      "steps": 709,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 659,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 50,
+        "hp": 62,
+        "readings": [
+          50,
+          11
+        ],
+        "prior": [
+          49,
+          12
+        ],
+        "exit_chebyshev": 11,
+        "known_cells": 312,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          7.992333650588989,
+          -1000000000000.0,
+          23.36473498097712,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165200-H1-12",
+      "tier": "H1",
+      "family": "corridors",
+      "win": false,
+      "gate": 21,
+      "steps": 567,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 536,
+      "fork": {
+        "chosen": 0,
+        "viable": [
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 1,
+        "fuel": 41,
+        "hp": 31,
+        "readings": [
+          40,
+          29
+        ],
+        "prior": [
+          39,
+          28
+        ],
+        "exit_chebyshev": 7,
+        "known_cells": 363,
+        "alternatives": [
+          0
+        ],
+        "late_scores": [
+          11.615631968772504,
+          -1000000000000.0,
+          8.701578378677368,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H1-12",
+      "tier": "H1",
+      "family": "loops",
+      "win": false,
+      "gate": 22,
+      "steps": 1376,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 1326,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          0
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 98,
+        "hp": 50,
+        "readings": [
+          2,
+          50
+        ],
+        "prior": [
+          1,
+          49
+        ],
+        "exit_chebyshev": 5,
+        "known_cells": 445,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          9.462425351142883,
+          -1000000000000.0,
+          23.752716743387282,
+          23.927527375519276,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H1-01",
+      "tier": "H1",
+      "family": "loops",
+      "win": true,
+      "gate": 12,
+      "steps": 136,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H1-02",
+      "tier": "H1",
+      "family": "rooms",
+      "win": true,
+      "gate": 23,
+      "steps": 482,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H1-03",
+      "tier": "H1",
+      "family": "branching",
+      "win": true,
+      "gate": 18,
+      "steps": 369,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H1-04",
+      "tier": "H1",
+      "family": "corridors",
+      "win": true,
+      "gate": 18,
+      "steps": 295,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 283,
+      "fork": {
+        "chosen": 0,
+        "viable": [
+          0,
+          2,
+          3
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 1,
+        "fuel": 35,
+        "hp": 51,
+        "readings": [
+          35,
+          49
+        ],
+        "prior": [
+          34,
+          48
+        ],
+        "exit_chebyshev": 8,
+        "known_cells": 234,
+        "alternatives": [
+          0
+        ],
+        "late_scores": [
+          11.789393214741722,
+          -1000000000000.0,
+          7.5868980884552,
+          5.0067068743519485,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H2-01",
+      "tier": "H2",
+      "family": "corridors",
+      "win": false,
+      "gate": 35,
+      "steps": 414,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 364,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 69,
+        "hp": 50,
+        "readings": [
+          31,
+          50
+        ],
+        "prior": [
+          30,
+          49
+        ],
+        "exit_chebyshev": 14,
+        "known_cells": 265,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          -1000000000000.0,
+          7.974250197410753,
+          22.075362770818174,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H2-02",
+      "tier": "H2",
+      "family": "corridors",
+      "win": false,
+      "gate": 42,
+      "steps": 414,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 370,
+      "fork": {
+        "chosen": 1,
+        "viable": [
+          3
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 2,
+        "fuel": 44,
+        "hp": 68,
+        "readings": [
+          49,
+          32
+        ],
+        "prior": [
+          48,
+          31
+        ],
+        "exit_chebyshev": 6,
+        "known_cells": 200,
+        "alternatives": [
+          1
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          23.0496437093243,
+          -1000000000000.0,
+          7.955511093139648,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H2-07",
+      "tier": "H2",
+      "family": "corridors",
+      "win": false,
+      "gate": 42,
+      "steps": 760,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 711,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          0
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 66,
+        "hp": 49,
+        "readings": [
+          32,
+          49
+        ],
+        "prior": [
+          33,
+          50
+        ],
+        "exit_chebyshev": 8,
+        "known_cells": 279,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          7.544182181358337,
+          -1000000000000.0,
+          20.618461084668525,
+          2.6831957272261207,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H2-11",
+      "tier": "H2",
+      "family": "corridors",
+      "win": false,
+      "gate": 53,
+      "steps": 553,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 508,
+      "fork": {
+        "chosen": 1,
+        "viable": [
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 2,
+        "fuel": 45,
+        "hp": 63,
+        "readings": [
+          45,
+          27
+        ],
+        "prior": [
+          46,
+          28
+        ],
+        "exit_chebyshev": 6,
+        "known_cells": 337,
+        "alternatives": [
+          1
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          23.98813912848306,
+          8.467922329902649,
+          1.2548646422219463,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H2-01",
+      "tier": "H2",
+      "family": "branching",
+      "win": true,
+      "gate": 33,
+      "steps": 172,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H2-04",
+      "tier": "H2",
+      "family": "rooms",
+      "win": true,
+      "gate": 28,
+      "steps": 1012,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H2-05",
+      "tier": "H2",
+      "family": "branching",
+      "win": true,
+      "gate": 9,
+      "steps": 165,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H2-08",
+      "tier": "H2",
+      "family": "branching",
+      "win": true,
+      "gate": 34,
+      "steps": 934,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H3-11",
+      "tier": "H3",
+      "family": "corridors",
+      "win": false,
+      "gate": 54,
+      "steps": 592,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 542,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 82,
+        "hp": 50,
+        "readings": [
+          18,
+          50
+        ],
+        "prior": [
+          17,
+          49
+        ],
+        "exit_chebyshev": 6,
+        "known_cells": 263,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          7.962442398071289,
+          -1000000000000.0,
+          23.570028638932854,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165411-H3-08",
+      "tier": "H3",
+      "family": "loops",
+      "win": false,
+      "gate": 40,
+      "steps": 3203,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 3176,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 27,
+        "hp": 59,
+        "readings": [
+          46,
+          19
+        ],
+        "prior": [
+          45,
+          18
+        ],
+        "exit_chebyshev": 4,
+        "known_cells": 791,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          6.186106204986572,
+          -1000000000000.0,
+          24.37025462836027,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165411-H3-09",
+      "tier": "H3",
+      "family": "corridors",
+      "win": false,
+      "gate": 13,
+      "steps": 677,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 627,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 50,
+        "hp": 54,
+        "readings": [
+          50,
+          46
+        ],
+        "prior": [
+          49,
+          45
+        ],
+        "exit_chebyshev": 4,
+        "known_cells": 401,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          7.992848873138428,
+          -1000000000000.0,
+          23.446204733721093,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165411-H3-12",
+      "tier": "H3",
+      "family": "corridors",
+      "win": false,
+      "gate": 35,
+      "steps": 1003,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 954,
+      "fork": {
+        "chosen": 1,
+        "viable": [
+          0
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 2,
+        "fuel": 49,
+        "hp": 61,
+        "readings": [
+          49,
+          39
+        ],
+        "prior": [
+          48,
+          38
+        ],
+        "exit_chebyshev": 16,
+        "known_cells": 379,
+        "alternatives": [
+          1
+        ],
+        "late_scores": [
+          7.994978666305542,
+          22.310889256419614,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165200-H3-03",
+      "tier": "H3",
+      "family": "loops",
+      "win": false,
+      "gate": 31,
+      "steps": 2291,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 2256,
+      "fork": {
+        "chosen": 0,
+        "viable": [
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 5,
+        "fuel": 52,
+        "hp": 35,
+        "readings": [
+          48,
+          35
+        ],
+        "prior": [
+          47,
+          34
+        ],
+        "exit_chebyshev": 9,
+        "known_cells": 910,
+        "alternatives": [
+          0,
+          2
+        ],
+        "late_scores": [
+          11.702088228426874,
+          -1000000000000.0,
+          7.951446056365967,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165200-H3-06",
+      "tier": "H3",
+      "family": "loops",
+      "win": false,
+      "gate": 35,
+      "steps": 1553,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 1522,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 54,
+        "hp": 31,
+        "readings": [
+          38,
+          33
+        ],
+        "prior": [
+          37,
+          34
+        ],
+        "exit_chebyshev": 7,
+        "known_cells": 605,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          0.1395700853317976,
+          -1000000000000.0,
+          17.00391173362732,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165200-H3-12",
+      "tier": "H3",
+      "family": "loops",
+      "win": false,
+      "gate": 18,
+      "steps": 1901,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 1894,
+      "fork": {
+        "chosen": 0,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 2,
+        "fuel": 61,
+        "hp": 7,
+        "readings": [
+          31,
+          47
+        ],
+        "prior": [
+          30,
+          46
+        ],
+        "exit_chebyshev": 4,
+        "known_cells": 767,
+        "alternatives": [
+          1
+        ],
+        "late_scores": [
+          10.988980328664184,
+          10.507001053541899,
+          4.6985085010528564,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H3-03",
+      "tier": "H3",
+      "family": "branching",
+      "win": false,
+      "gate": 32,
+      "steps": 2731,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 2704,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          0
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 45,
+        "hp": 27,
+        "readings": [
+          31,
+          41
+        ],
+        "prior": [
+          30,
+          40
+        ],
+        "exit_chebyshev": 7,
+        "known_cells": 670,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          7.192217230796814,
+          -1000000000000.0,
+          10.938793961944683,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H3-06",
+      "tier": "H3",
+      "family": "loops",
+      "win": false,
+      "gate": 22,
+      "steps": 1923,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 1873,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 59,
+        "hp": 50,
+        "readings": [
+          41,
+          50
+        ],
+        "prior": [
+          40,
+          49
+        ],
+        "exit_chebyshev": 21,
+        "known_cells": 588,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          7.990178465843201,
+          -1000000000000.0,
+          23.803453750908375,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H3-13",
+      "tier": "H3",
+      "family": "corridors",
+      "win": false,
+      "gate": 8,
+      "steps": 619,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 562,
+      "fork": {
+        "chosen": 1,
+        "viable": [
+          3
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 2,
+        "fuel": 50,
+        "hp": 57,
+        "readings": [
+          36,
+          43
+        ],
+        "prior": [
+          37,
+          42
+        ],
+        "exit_chebyshev": 14,
+        "known_cells": 261,
+        "alternatives": [
+          1
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          20.0,
+          -1000000000000.0,
+          -2.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H3-01",
+      "tier": "H3",
+      "family": "branching",
+      "win": true,
+      "gate": 39,
+      "steps": 1325,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H3-02",
+      "tier": "H3",
+      "family": "branching",
+      "win": true,
+      "gate": 22,
+      "steps": 1599,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 1475,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          1,
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 2,
+        "fuel": 35,
+        "hp": 75,
+        "readings": [
+          17,
+          19
+        ],
+        "prior": [
+          18,
+          18
+        ],
+        "exit_chebyshev": 16,
+        "known_cells": 541,
+        "alternatives": [
+          1
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          -2.0,
+          20.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H3-03",
+      "tier": "H3",
+      "family": "corridors",
+      "win": true,
+      "gate": 13,
+      "steps": 288,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H3-04",
+      "tier": "H3",
+      "family": "corridors",
+      "win": true,
+      "gate": 30,
+      "steps": 204,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 179,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          1,
+          3
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 35,
+        "hp": 51,
+        "readings": [
+          41,
+          49
+        ],
+        "prior": [
+          40,
+          48
+        ],
+        "exit_chebyshev": 10,
+        "known_cells": 161,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          7.8757864236831665,
+          -1000000000000.0,
+          11.79256808455466,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H3-05",
+      "tier": "H3",
+      "family": "branching",
+      "win": true,
+      "gate": 58,
+      "steps": 2455,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 2412,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 55,
+        "hp": 18,
+        "readings": [
+          45,
+          18
+        ],
+        "prior": [
+          44,
+          17
+        ],
+        "exit_chebyshev": 22,
+        "known_cells": 633,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          -0.9606280923908344,
+          -1000000000000.0,
+          29.986509323120117,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H3-06",
+      "tier": "H3",
+      "family": "loops",
+      "win": true,
+      "gate": 28,
+      "steps": 2199,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H3-07",
+      "tier": "H3",
+      "family": "corridors",
+      "win": true,
+      "gate": 15,
+      "steps": 466,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 363,
+      "fork": {
+        "chosen": 0,
+        "viable": [
+          0,
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 1,
+        "fuel": 35,
+        "hp": 40,
+        "readings": [
+          23,
+          18
+        ],
+        "prior": [
+          24,
+          19
+        ],
+        "exit_chebyshev": 20,
+        "known_cells": 330,
+        "alternatives": [
+          0
+        ],
+        "late_scores": [
+          20.0,
+          -1000000000000.0,
+          -2.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H3-08",
+      "tier": "H3",
+      "family": "loops",
+      "win": true,
+      "gate": 42,
+      "steps": 1477,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 1351,
+      "fork": {
+        "chosen": 0,
+        "viable": [
+          0,
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 1,
+        "fuel": 22,
+        "hp": 51,
+        "readings": [
+          22,
+          28
+        ],
+        "prior": [
+          21,
+          29
+        ],
+        "exit_chebyshev": 10,
+        "known_cells": 505,
+        "alternatives": [
+          0
+        ],
+        "late_scores": [
+          16.240124464035034,
+          -1000000000000.0,
+          2.1535018729045987,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H3-09",
+      "tier": "H3",
+      "family": "branching",
+      "win": true,
+      "gate": 38,
+      "steps": 946,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H3-10",
+      "tier": "H3",
+      "family": "rooms",
+      "win": true,
+      "gate": 43,
+      "steps": 418,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165410-H4-09",
+      "tier": "H4",
+      "family": "loops",
+      "win": false,
+      "gate": 25,
+      "steps": 1570,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 1544,
+      "fork": {
+        "chosen": 0,
+        "viable": [
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 1,
+        "fuel": 26,
+        "hp": 42,
+        "readings": [
+          70,
+          54
+        ],
+        "prior": [
+          69,
+          53
+        ],
+        "exit_chebyshev": 10,
+        "known_cells": 777,
+        "alternatives": [
+          0
+        ],
+        "late_scores": [
+          11.071299290342722,
+          4.865694533727947,
+          6.804567456245422,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H4-12",
+      "tier": "H4",
+      "family": "branching",
+      "win": false,
+      "gate": 19,
+      "steps": 1801,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 1773,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 98,
+        "hp": 28,
+        "readings": [
+          2,
+          27
+        ],
+        "prior": [
+          1,
+          26
+        ],
+        "exit_chebyshev": 20,
+        "known_cells": 654,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          9.05379182100296,
+          8.42285931110382,
+          -1000000000000.0,
+          22.869342371821404,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165411-H4-19",
+      "tier": "H4",
+      "family": "rooms",
+      "win": false,
+      "gate": 21,
+      "steps": 3590,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 3547,
+      "fork": {
+        "chosen": 0,
+        "viable": [
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 1,
+        "fuel": 43,
+        "hp": 76,
+        "readings": [
+          42,
+          24
+        ],
+        "prior": [
+          41,
+          23
+        ],
+        "exit_chebyshev": 5,
+        "known_cells": 1108,
+        "alternatives": [
+          0
+        ],
+        "late_scores": [
+          24.042770847678185,
+          -1000000000000.0,
+          7.947070479393005,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165200-H4-01",
+      "tier": "H4",
+      "family": "corridors",
+      "win": false,
+      "gate": 28,
+      "steps": 482,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 445,
+      "fork": {
+        "chosen": 1,
+        "viable": [
+          3
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 37,
+        "hp": 59,
+        "readings": [
+          37,
+          41
+        ],
+        "prior": [
+          36,
+          40
+        ],
+        "exit_chebyshev": 18,
+        "known_cells": 234,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          11.280702847948987,
+          -1000000000000.0,
+          7.799606800079346,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165200-H4-03",
+      "tier": "H4",
+      "family": "corridors",
+      "win": false,
+      "gate": 47,
+      "steps": 379,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 334,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          0
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 45,
+        "hp": 96,
+        "readings": [
+          45,
+          4
+        ],
+        "prior": [
+          44,
+          3
+        ],
+        "exit_chebyshev": 17,
+        "known_cells": 195,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          10.06526281684637,
+          -1000000000000.0,
+          21.044764670194127,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H4-08",
+      "tier": "H4",
+      "family": "rooms",
+      "win": false,
+      "gate": 17,
+      "steps": 763,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 739,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 24,
+        "hp": 32,
+        "readings": [
+          46,
+          53
+        ],
+        "prior": [
+          45,
+          52
+        ],
+        "exit_chebyshev": 5,
+        "known_cells": 378,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          6.415323734283447,
+          -1000000000000.0,
+          12.162379760760814,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H4-11",
+      "tier": "H4",
+      "family": "loops",
+      "win": false,
+      "gate": 50,
+      "steps": 2329,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 2295,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          0
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 34,
+        "hp": 66,
+        "readings": [
+          42,
+          22
+        ],
+        "prior": [
+          43,
+          23
+        ],
+        "exit_chebyshev": 2,
+        "known_cells": 635,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          3.4069990552961826,
+          -1000000000000.0,
+          27.794113397598267,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H4-15",
+      "tier": "H4",
+      "family": "corridors",
+      "win": false,
+      "gate": 37,
+      "steps": 693,
+      "outcome": "EMPTY",
+      "reason": "first-loss",
+      "step": 669,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 24,
+        "hp": 52,
+        "readings": [
+          72,
+          44
+        ],
+        "prior": [
+          71,
+          43
+        ],
+        "exit_chebyshev": 6,
+        "known_cells": 274,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          7.378220200538635,
+          11.347240081793476,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "return-train-9165201-H4-16",
+      "tier": "H4",
+      "family": "corridors",
+      "win": false,
+      "gate": 21,
+      "steps": 915,
+      "outcome": "BROKEN",
+      "reason": "first-loss",
+      "step": 865,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          3
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 57,
+        "hp": 50,
+        "readings": [
+          43,
+          50
+        ],
+        "prior": [
+          42,
+          49
+        ],
+        "exit_chebyshev": 17,
+        "known_cells": 337,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          -1000000000000.0,
+          22.886733149856013,
+          7.995276689529419,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H4-02",
+      "tier": "H4",
+      "family": "corridors",
+      "win": true,
+      "gate": 31,
+      "steps": 911,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 475,
+      "fork": {
+        "chosen": 1,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 1,
+        "fuel": 54,
+        "hp": 35,
+        "readings": [
+          16,
+          25
+        ],
+        "prior": [
+          17,
+          24
+        ],
+        "exit_chebyshev": 12,
+        "known_cells": 304,
+        "alternatives": [
+          0
+        ],
+        "late_scores": [
+          -2.0,
+          8.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H4-04",
+      "tier": "H4",
+      "family": "loops",
+      "win": true,
+      "gate": 29,
+      "steps": 2891,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 2866,
+      "fork": {
+        "chosen": 3,
+        "viable": [
+          0,
+          3
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 72,
+        "hp": 35,
+        "readings": [
+          18,
+          32
+        ],
+        "prior": [
+          17,
+          31
+        ],
+        "exit_chebyshev": 4,
+        "known_cells": 702,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          10.408830607930819,
+          -1000000000000.0,
+          -1000000000000.0,
+          26.39635181427002,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H4-06",
+      "tier": "H4",
+      "family": "rooms",
+      "win": true,
+      "gate": 6,
+      "steps": 2312,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 2252,
+      "fork": {
+        "chosen": 0,
+        "viable": [
+          0
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 1,
+        "fuel": 51,
+        "hp": 9,
+        "readings": [
+          20,
+          8
+        ],
+        "prior": [
+          19,
+          7
+        ],
+        "exit_chebyshev": 33,
+        "known_cells": 542,
+        "alternatives": [
+          0
+        ],
+        "late_scores": [
+          29.99800205230713,
+          -1000000000000.0,
+          -1.219986870957655,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H4-14",
+      "tier": "H4",
+      "family": "corridors",
+      "win": true,
+      "gate": 37,
+      "steps": 757,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 307,
+      "fork": {
+        "chosen": 1,
+        "viable": [
+          1,
+          3
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 2,
+        "fuel": 64,
+        "hp": 35,
+        "readings": [
+          26,
+          15
+        ],
+        "prior": [
+          27,
+          16
+        ],
+        "exit_chebyshev": 15,
+        "known_cells": 234,
+        "alternatives": [
+          1
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          20.0,
+          -1000000000000.0,
+          -2.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165410-H4-15",
+      "tier": "H4",
+      "family": "loops",
+      "win": true,
+      "gate": 53,
+      "steps": 222,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165411-H4-04",
+      "tier": "H4",
+      "family": "branching",
+      "win": true,
+      "gate": 39,
+      "steps": 1280,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": null
+    },
+    {
+      "map": "handover-train-9165411-H4-10",
+      "tier": "H4",
+      "family": "corridors",
+      "win": true,
+      "gate": 37,
+      "steps": 840,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 725,
+      "fork": {
+        "chosen": 1,
+        "viable": [
+          1
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 8,
+        "fuel": 64,
+        "hp": 35,
+        "readings": [
+          36,
+          35
+        ],
+        "prior": [
+          35,
+          34
+        ],
+        "exit_chebyshev": 16,
+        "known_cells": 344,
+        "alternatives": [
+          3
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          19.984118938446045,
+          -1000000000000.0,
+          8.97652217520772,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165411-H4-15",
+      "tier": "H4",
+      "family": "corridors",
+      "win": true,
+      "gate": 19,
+      "steps": 475,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 444,
+      "fork": {
+        "chosen": 1,
+        "viable": [
+          1,
+          3
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 2,
+        "fuel": 45,
+        "hp": 35,
+        "readings": [
+          55,
+          65
+        ],
+        "prior": [
+          54,
+          64
+        ],
+        "exit_chebyshev": 7,
+        "known_cells": 288,
+        "alternatives": [
+          1
+        ],
+        "late_scores": [
+          -1000000000000.0,
+          11.804020107723773,
+          -1000000000000.0,
+          7.212739227674319,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    },
+    {
+      "map": "handover-train-9165411-H4-18",
+      "tier": "H4",
+      "family": "corridors",
+      "win": true,
+      "gate": 16,
+      "steps": 589,
+      "outcome": "SUCCESS",
+      "reason": "matched",
+      "step": 469,
+      "fork": {
+        "chosen": 2,
+        "viable": [
+          2
+        ],
+        "known_goal": 0,
+        "safe_window": 0,
+        "risk_window": 4,
+        "fuel": 43,
+        "hp": 35,
+        "readings": [
+          27,
+          35
+        ],
+        "prior": [
+          28,
+          36
+        ],
+        "exit_chebyshev": 16,
+        "known_cells": 285,
+        "alternatives": [
+          2
+        ],
+        "late_scores": [
+          -1.1904684760665987,
+          -1000000000000.0,
+          29.998977065086365,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0,
+          -1000000000000.0
+        ]
+      }
+    }
+  ]
+}
