@@ -1,0 +1,150 @@
+{
+  "config": {
+    "id": "ppo-v01-s1",
+    "family": "ppo",
+    "variant": 1,
+    "seed": 39139,
+    "geometry_count": 300,
+    "architecture": [
+      8,
+      64,
+      1
+    ],
+    "lr": 0.0008,
+    "gamma": 0.97,
+    "lanes": 8,
+    "ticks": 32,
+    "horizon": 1,
+    "rollout": 16,
+    "epochs": 2,
+    "batch": 16,
+    "clip": 0.2,
+    "entropy": 0.02,
+    "lambda": 0.95
+  },
+  "training": [
+    {
+      "stage": 1,
+      "steps": 256,
+      "decisions": 256,
+      "outcomes": {
+        "EMPTY": 8,
+        "BROKEN": 3
+      },
+      "maps": {
+        "train-00095-2": 1,
+        "train-00214-1": 1,
+        "train-00094-0": 1,
+        "train-00181-2": 1,
+        "train-00278-1": 1,
+        "train-00153-3": 1,
+        "train-00271-0": 1,
+        "train-00041-0": 1,
+        "train-00011-0": 1,
+        "train-00091-0": 1,
+        "train-00066-3": 1,
+        "train-00210-3": 1,
+        "train-00099-1": 1,
+        "train-00279-3": 1,
+        "train-00215-3": 1,
+        "train-00279-2": 1,
+        "train-00272-0": 1,
+        "train-00271-2": 1,
+        "train-00243-3": 1
+      },
+      "updates": 32,
+      "mean_loss": 6.161083221435547
+    },
+    {
+      "stage": 2,
+      "steps": 256,
+      "decisions": 256,
+      "outcomes": {
+        "BROKEN": 3,
+        "EMPTY": 6
+      },
+      "maps": {
+        "train-00287-0": 1,
+        "train-00193-3": 1,
+        "train-00195-3": 1,
+        "train-00257-1": 1,
+        "train-00106-1": 1,
+        "train-00227-0": 1,
+        "train-00106-3": 1,
+        "train-00226-3": 1,
+        "train-00134-3": 1,
+        "train-00073-2": 1,
+        "train-00166-1": 1,
+        "train-00287-2": 1,
+        "train-00196-2": 1,
+        "train-00104-2": 1,
+        "train-00285-2": 1,
+        "train-00013-3": 1,
+        "train-00104-1": 1
+      },
+      "updates": 32,
+      "mean_loss": 4.997775554656982
+    },
+    {
+      "stage": 3,
+      "steps": 256,
+      "decisions": 256,
+      "outcomes": {
+        "BROKEN": 2,
+        "EMPTY": 2
+      },
+      "maps": {
+        "train-00148-2": 1,
+        "train-00024-2": 1,
+        "train-00147-0": 1,
+        "train-00111-2": 1,
+        "train-00057-3": 1,
+        "train-00149-1": 1,
+        "train-00204-2": 1,
+        "train-00086-0": 1,
+        "train-00113-0": 1,
+        "train-00142-3": 1,
+        "train-00174-1": 1,
+        "train-00025-2": 1
+      },
+      "updates": 32,
+      "mean_loss": 1.1462645530700684
+    }
+  ],
+  "train_steps": 768,
+  "updates": 96,
+  "train_scenarios": 48,
+  "train_geometries": 43,
+  "train_seconds": 2.523,
+  "seconds": 7.236,
+  "peak_gpu_mib": 25.63,
+  "parameter_delta": 0.07116720825433731,
+  "initial": {
+    "scenarios": 2,
+    "wins": 0,
+    "outcomes": {
+      "EMPTY": 2
+    },
+    "by_stage": {
+      "1": 0.0,
+      "3": 0.0
+    },
+    "worst": 0.0,
+    "mean_success_steps": null
+  },
+  "screen": {
+    "scenarios": 2,
+    "wins": 0,
+    "outcomes": {
+      "BROKEN": 1,
+      "EMPTY": 1
+    },
+    "by_stage": {
+      "1": 0.0,
+      "3": 0.0
+    },
+    "worst": 0.0,
+    "mean_success_steps": null
+  },
+  "weights_sha256": "20e41326e8ea3d5fa01a6fcfe545539ce63c953ac2e479871f4013bc6aa29f29"
+}

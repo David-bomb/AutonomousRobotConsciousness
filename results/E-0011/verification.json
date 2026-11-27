@@ -1,0 +1,65 @@
+[
+  {
+    "id": "double/v01-s3",
+    "checked": 36,
+    "steps": 1154,
+    "decisions": {
+      "NORTH": 249,
+      "SOUTH": 252,
+      "WEST": 337,
+      "EAST": 310,
+      "SW": 4,
+      "NE": 2
+    }
+  },
+  {
+    "id": "dueling/v02-s4",
+    "checked": 36,
+    "steps": 862,
+    "decisions": {
+      "NORTH": 203,
+      "SOUTH": 251,
+      "EAST": 177,
+      "WEST": 201,
+      "SW": 15,
+      "NE": 15
+    }
+  },
+  {
+    "id": "rainbow/v04-s4",
+    "checked": 36,
+    "steps": 1390,
+    "decisions": {
+      "NORTH": 385,
+      "EAST": 196,
+      "SOUTH": 392,
+      "WEST": 325,
+      "SE": 38,
+      "NE": 51,
+      "NW": 3
+    }
+  },
+  {
+    "id": "ppo/v10-s3",
+    "checked": 36,
+    "steps": 1355,
+    "decisions": {
+      "SOUTH": 267,
+      "NORTH": 209,
+      "EAST": 477,
+      "WEST": 379,
+      "SW": 23
+    }
+  },
+  {
+    "id": "hrl_astar/v02-s1",
+    "checked": 36,
+    "steps": 932,
+    "decisions": {
+      "finish": 267,
+      "frontier": 356,
+      "repair": 11,
+      "fuel": 11
+    }
+  }
+]

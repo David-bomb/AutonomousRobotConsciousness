@@ -1,0 +1,39 @@
+{
+  "id": "rainbow-v03-s4",
+  "split": "validation_id",
+  "weights_sha256": "8e399b48caa236c08be64621f129a5eba1b747fd5c683fa6dfffe509cc43a562",
+  "scenarios": 12000,
+  "wins": 627,
+  "outcomes": {
+    "SUCCESS": 627,
+    "BROKEN": 4252,
+    "EMPTY": 6268,
+    "LIMIT": 853
+  },
+  "by_stage": {
+    "1": 0.11479166666666667,
+    "2": 0.023333333333333334,
+    "3": 0.004166666666666667
+  },
+  "worst": 0.004166666666666667,
+  "mean_success_steps": 37.43700159489633,
+  "groups": {
+    "standard": {
+      "scenarios": 12000,
+      "wins": 627,
+      "outcomes": {
+        "SUCCESS": 627,
+        "BROKEN": 4252,
+        "EMPTY": 6268,
+        "LIMIT": 853
+      },
+      "by_stage": {
+        "1": 0.11479166666666667,
+        "2": 0.023333333333333334,
+        "3": 0.004166666666666667
+      },
+      "worst": 0.004166666666666667,
+      "mean_success_steps": 37.43700159489633
+    }
+  }
+}

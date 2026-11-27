@@ -1,0 +1,536 @@
+{
+  "all_runs": {
+    "count": 50,
+    "train_stages": [
+      {
+        "total": 46674,
+        "outcomes": {
+          "EMPTY": 24867,
+          "BROKEN": 20924,
+          "SUCCESS": 880,
+          "LIMIT": 3
+        },
+        "median_wins": 16.0,
+        "zero_wins": 0
+      },
+      {
+        "total": 37414,
+        "outcomes": {
+          "EMPTY": 21359,
+          "BROKEN": 15785,
+          "SUCCESS": 270
+        },
+        "median_wins": 5.0,
+        "zero_wins": 1
+      },
+      {
+        "total": 25279,
+        "outcomes": {
+          "EMPTY": 15801,
+          "BROKEN": 9402,
+          "SUCCESS": 76
+        },
+        "median_wins": 1.0,
+        "zero_wins": 16
+      }
+    ],
+    "before": 60,
+    "after": 342,
+    "improved": 46,
+    "unchanged": 2,
+    "decreased": 2,
+    "hundreds": {
+      "total": 4,
+      "empty": 7508,
+      "broken": 7408,
+      "limit": 80,
+      "serviced": 2367,
+      "both_services": 268
+    }
+  },
+  "variants": {
+    "1": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4713,
+          "outcomes": {
+            "EMPTY": 2610,
+            "BROKEN": 2035,
+            "SUCCESS": 68
+          },
+          "median_wins": 12,
+          "zero_wins": 0
+        },
+        {
+          "total": 3761,
+          "outcomes": {
+            "EMPTY": 2207,
+            "BROKEN": 1530,
+            "SUCCESS": 24
+          },
+          "median_wins": 5,
+          "zero_wins": 0
+        },
+        {
+          "total": 2481,
+          "outcomes": {
+            "EMPTY": 1513,
+            "BROKEN": 953,
+            "SUCCESS": 15
+          },
+          "median_wins": 2,
+          "zero_wins": 1
+        }
+      ],
+      "before": 6,
+      "after": 37,
+      "improved": 4,
+      "unchanged": 0,
+      "decreased": 1,
+      "hundreds": {
+        "total": 3,
+        "empty": 741,
+        "broken": 752,
+        "limit": 4,
+        "serviced": 267,
+        "both_services": 29
+      }
+    },
+    "2": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4588,
+          "outcomes": {
+            "EMPTY": 2438,
+            "BROKEN": 2061,
+            "SUCCESS": 89
+          },
+          "median_wins": 17,
+          "zero_wins": 0
+        },
+        {
+          "total": 3724,
+          "outcomes": {
+            "EMPTY": 2117,
+            "BROKEN": 1580,
+            "SUCCESS": 27
+          },
+          "median_wins": 6,
+          "zero_wins": 0
+        },
+        {
+          "total": 2537,
+          "outcomes": {
+            "EMPTY": 1598,
+            "BROKEN": 932,
+            "SUCCESS": 7
+          },
+          "median_wins": 1,
+          "zero_wins": 0
+        }
+      ],
+      "before": 6,
+      "after": 42,
+      "improved": 5,
+      "unchanged": 0,
+      "decreased": 0,
+      "hundreds": {
+        "total": 0,
+        "empty": 753,
+        "broken": 736,
+        "limit": 11,
+        "serviced": 222,
+        "both_services": 24
+      }
+    },
+    "3": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4543,
+          "outcomes": {
+            "EMPTY": 2464,
+            "BROKEN": 1995,
+            "SUCCESS": 83,
+            "LIMIT": 1
+          },
+          "median_wins": 16,
+          "zero_wins": 0
+        },
+        {
+          "total": 3755,
+          "outcomes": {
+            "EMPTY": 2135,
+            "BROKEN": 1590,
+            "SUCCESS": 30
+          },
+          "median_wins": 6,
+          "zero_wins": 0
+        },
+        {
+          "total": 2503,
+          "outcomes": {
+            "BROKEN": 970,
+            "EMPTY": 1527,
+            "SUCCESS": 6
+          },
+          "median_wins": 1,
+          "zero_wins": 2
+        }
+      ],
+      "before": 6,
+      "after": 40,
+      "improved": 4,
+      "unchanged": 0,
+      "decreased": 1,
+      "hundreds": {
+        "total": 0,
+        "empty": 728,
+        "broken": 758,
+        "limit": 14,
+        "serviced": 238,
+        "both_services": 35
+      }
+    },
+    "4": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4640,
+          "outcomes": {
+            "BROKEN": 2030,
+            "EMPTY": 2515,
+            "SUCCESS": 95
+          },
+          "median_wins": 19,
+          "zero_wins": 0
+        },
+        {
+          "total": 3674,
+          "outcomes": {
+            "EMPTY": 2137,
+            "BROKEN": 1510,
+            "SUCCESS": 27
+          },
+          "median_wins": 5,
+          "zero_wins": 0
+        },
+        {
+          "total": 2484,
+          "outcomes": {
+            "BROKEN": 948,
+            "EMPTY": 1524,
+            "SUCCESS": 12
+          },
+          "median_wins": 1,
+          "zero_wins": 1
+        }
+      ],
+      "before": 6,
+      "after": 37,
+      "improved": 5,
+      "unchanged": 0,
+      "decreased": 0,
+      "hundreds": {
+        "total": 0,
+        "empty": 751,
+        "broken": 748,
+        "limit": 1,
+        "serviced": 194,
+        "both_services": 15
+      }
+    },
+    "5": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4619,
+          "outcomes": {
+            "EMPTY": 2444,
+            "BROKEN": 2067,
+            "SUCCESS": 108
+          },
+          "median_wins": 21,
+          "zero_wins": 0
+        },
+        {
+          "total": 3837,
+          "outcomes": {
+            "EMPTY": 2176,
+            "BROKEN": 1637,
+            "SUCCESS": 24
+          },
+          "median_wins": 5,
+          "zero_wins": 0
+        },
+        {
+          "total": 2579,
+          "outcomes": {
+            "EMPTY": 1631,
+            "BROKEN": 943,
+            "SUCCESS": 5
+          },
+          "median_wins": 1,
+          "zero_wins": 2
+        }
+      ],
+      "before": 7,
+      "after": 30,
+      "improved": 5,
+      "unchanged": 0,
+      "decreased": 0,
+      "hundreds": {
+        "total": 0,
+        "empty": 756,
+        "broken": 739,
+        "limit": 5,
+        "serviced": 190,
+        "both_services": 22
+      }
+    },
+    "6": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4753,
+          "outcomes": {
+            "EMPTY": 2496,
+            "BROKEN": 2178,
+            "SUCCESS": 79
+          },
+          "median_wins": 16,
+          "zero_wins": 0
+        },
+        {
+          "total": 3668,
+          "outcomes": {
+            "EMPTY": 2089,
+            "BROKEN": 1559,
+            "SUCCESS": 20
+          },
+          "median_wins": 4,
+          "zero_wins": 0
+        },
+        {
+          "total": 2551,
+          "outcomes": {
+            "EMPTY": 1611,
+            "BROKEN": 936,
+            "SUCCESS": 4
+          },
+          "median_wins": 0,
+          "zero_wins": 3
+        }
+      ],
+      "before": 5,
+      "after": 33,
+      "improved": 5,
+      "unchanged": 0,
+      "decreased": 0,
+      "hundreds": {
+        "total": 0,
+        "empty": 750,
+        "broken": 737,
+        "limit": 13,
+        "serviced": 231,
+        "both_services": 34
+      }
+    },
+    "7": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4870,
+          "outcomes": {
+            "EMPTY": 2627,
+            "BROKEN": 2145,
+            "SUCCESS": 98
+          },
+          "median_wins": 21,
+          "zero_wins": 0
+        },
+        {
+          "total": 3788,
+          "outcomes": {
+            "EMPTY": 2175,
+            "BROKEN": 1596,
+            "SUCCESS": 17
+          },
+          "median_wins": 3,
+          "zero_wins": 1
+        },
+        {
+          "total": 2671,
+          "outcomes": {
+            "EMPTY": 1705,
+            "BROKEN": 965,
+            "SUCCESS": 1
+          },
+          "median_wins": 0,
+          "zero_wins": 4
+        }
+      ],
+      "before": 6,
+      "after": 18,
+      "improved": 5,
+      "unchanged": 0,
+      "decreased": 0,
+      "hundreds": {
+        "total": 0,
+        "empty": 757,
+        "broken": 743,
+        "limit": 0,
+        "serviced": 240,
+        "both_services": 18
+      }
+    },
+    "8": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4655,
+          "outcomes": {
+            "EMPTY": 2415,
+            "BROKEN": 2149,
+            "SUCCESS": 90,
+            "LIMIT": 1
+          },
+          "median_wins": 18,
+          "zero_wins": 0
+        },
+        {
+          "total": 3812,
+          "outcomes": {
+            "EMPTY": 2140,
+            "BROKEN": 1651,
+            "SUCCESS": 21
+          },
+          "median_wins": 4,
+          "zero_wins": 0
+        },
+        {
+          "total": 2538,
+          "outcomes": {
+            "EMPTY": 1580,
+            "BROKEN": 955,
+            "SUCCESS": 3
+          },
+          "median_wins": 1,
+          "zero_wins": 2
+        }
+      ],
+      "before": 6,
+      "after": 19,
+      "improved": 3,
+      "unchanged": 2,
+      "decreased": 0,
+      "hundreds": {
+        "total": 0,
+        "empty": 771,
+        "broken": 725,
+        "limit": 4,
+        "serviced": 249,
+        "both_services": 20
+      }
+    },
+    "9": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4758,
+          "outcomes": {
+            "EMPTY": 2515,
+            "BROKEN": 2164,
+            "SUCCESS": 78,
+            "LIMIT": 1
+          },
+          "median_wins": 13,
+          "zero_wins": 0
+        },
+        {
+          "total": 3704,
+          "outcomes": {
+            "EMPTY": 2111,
+            "BROKEN": 1559,
+            "SUCCESS": 34
+          },
+          "median_wins": 7,
+          "zero_wins": 0
+        },
+        {
+          "total": 2547,
+          "outcomes": {
+            "EMPTY": 1612,
+            "BROKEN": 925,
+            "SUCCESS": 10
+          },
+          "median_wins": 2,
+          "zero_wins": 1
+        }
+      ],
+      "before": 6,
+      "after": 41,
+      "improved": 5,
+      "unchanged": 0,
+      "decreased": 0,
+      "hundreds": {
+        "total": 0,
+        "empty": 757,
+        "broken": 736,
+        "limit": 7,
+        "serviced": 241,
+        "both_services": 30
+      }
+    },
+    "10": {
+      "count": 5,
+      "train_stages": [
+        {
+          "total": 4535,
+          "outcomes": {
+            "EMPTY": 2343,
+            "BROKEN": 2100,
+            "SUCCESS": 92
+          },
+          "median_wins": 20,
+          "zero_wins": 0
+        },
+        {
+          "total": 3691,
+          "outcomes": {
+            "EMPTY": 2072,
+            "BROKEN": 1573,
+            "SUCCESS": 46
+          },
+          "median_wins": 7,
+          "zero_wins": 0
+        },
+        {
+          "total": 2388,
+          "outcomes": {
+            "EMPTY": 1500,
+            "BROKEN": 875,
+            "SUCCESS": 13
+          },
+          "median_wins": 3,
+          "zero_wins": 0
+        }
+      ],
+      "before": 6,
+      "after": 45,
+      "improved": 5,
+      "unchanged": 0,
+      "decreased": 0,
+      "hundreds": {
+        "total": 1,
+        "empty": 744,
+        "broken": 734,
+        "limit": 21,
+        "serviced": 295,
+        "both_services": 41
+      }
+    }
+  }
+}

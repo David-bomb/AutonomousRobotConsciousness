@@ -1,0 +1,39 @@
+{
+  "id": "dueling-v09-s3",
+  "split": "validation_id",
+  "weights_sha256": "5cec53fadedccb2156f6e1c42ea5872cbd14d0469a6863b5dde277f85889f270",
+  "scenarios": 12000,
+  "wins": 497,
+  "outcomes": {
+    "SUCCESS": 497,
+    "BROKEN": 4350,
+    "EMPTY": 6460,
+    "LIMIT": 693
+  },
+  "by_stage": {
+    "1": 0.0925,
+    "2": 0.0175,
+    "3": 0.0022916666666666667
+  },
+  "worst": 0.0022916666666666667,
+  "mean_success_steps": 28.344064386317907,
+  "groups": {
+    "standard": {
+      "scenarios": 12000,
+      "wins": 497,
+      "outcomes": {
+        "SUCCESS": 497,
+        "BROKEN": 4350,
+        "EMPTY": 6460,
+        "LIMIT": 693
+      },
+      "by_stage": {
+        "1": 0.0925,
+        "2": 0.0175,
+        "3": 0.0022916666666666667
+      },
+      "worst": 0.0022916666666666667,
+      "mean_success_steps": 28.344064386317907
+    }
+  }
+}

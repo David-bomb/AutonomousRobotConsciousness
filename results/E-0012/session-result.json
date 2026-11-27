@@ -1,0 +1,49 @@
+{
+  "start_utc": "2026-11-26T20:05:55+00:00",
+  "verified_utc": "2026-11-26T22:55:10+00:00",
+  "deadline_utc": "2026-11-27T05:05:55+00:00",
+  "verification_seconds": 10155,
+  "geometries": 76500,
+  "main_scenarios": 306000,
+  "diagnostic_scenarios": 2000,
+  "primary_trainings": 200,
+  "max_parallel_trainings": 2,
+  "seconds_two_trainings": 5629,
+  "resource_fallbacks": 0,
+  "training_failures": 0,
+  "primary_steps": 14745600,
+  "diagnostic_continuations": 4,
+  "diagnostic_results": {
+    "double": {
+      "before": 353,
+      "after": 618
+    },
+    "dueling": {
+      "before": 299,
+      "after": 653
+    },
+    "rainbow": {
+      "before": 518,
+      "after": 660
+    },
+    "ppo": {
+      "before": 376,
+      "after": 685
+    }
+  },
+  "physical_replay_steps": 19965304,
+  "model_repeats": 48,
+  "unchanged_existing_modules": [
+    "neural_rl/experiment.py",
+    "neural_rl/networks.py",
+    "neural_rl/perception.py",
+    "neural_rl/rollout.py",
+    "neural_rl/training.py",
+    "maze/environment.py",
+    "maze/memory.py",
+    "maze/grid.py",
+    "maze/levels.py",
+    "maze/interface.py",
+    "maze/datasets.py"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "double": {
+    "original": {
+      "n": 300,
+      "outcomes": {
+        "BROKEN": 152,
+        "EMPTY": 147,
+        "LIMIT": 1
+      },
+      "median_loss_step": 7.0,
+      "loss_at_step1": 17,
+      "loss_within5": 121,
+      "loss_within10": 207,
+      "loss_before_service": 249,
+      "visits_either": 66,
+      "visits_both": 10,
+      "median_steps": 21.0,
+      "median_unique_positions": 11.0,
+      "median_fraction_immediate_returns": 0.13333333333333333,
+      "positive_reward_on_loss": 45,
+      "local_reward_comparison": {
+        "safer_higher": 268,
+        "tie": 4,
+        "unsafe_higher": 28
+      },
+      "median_witness_return": 14.784853468207567,
+      "median_policy_return": -3.4939996765617396,
+      "failed_return_gt_witness": 2
+    },
+    "control_wins": {
+      "fuel100": 0,
+      "health100": 0,
+      "both100": 0,
+      "last5": 58
+    }
+  },
+  "dueling": {
+    "original": {
+      "n": 300,
+      "outcomes": {
+        "BROKEN": 150,
+        "EMPTY": 150
+      },
+      "median_loss_step": 6.0,
+      "loss_at_step1": 21,
+      "loss_within5": 130,
+      "loss_within10": 222,
+      "loss_before_service": 258,
+      "visits_either": 60,
+      "visits_both": 4,
+      "median_steps": 20.0,
+      "median_unique_positions": 10.0,
+      "median_fraction_immediate_returns": 0.1875,
+      "positive_reward_on_loss": 47,
+      "local_reward_comparison": {
+        "safer_higher": 266,
+        "unsafe_higher": 31,
+        "tie": 3
+      },
+      "median_witness_return": 14.784853468207567,
+      "median_policy_return": -3.744481461079086,
+      "failed_return_gt_witness": 1
+    },
+    "control_wins": {
+      "fuel100": 0,
+      "health100": 0,
+      "both100": 0,
+      "last5": 67
+    }
+  },
+  "rainbow": {
+    "original": {
+      "n": 300,
+      "outcomes": {
+        "BROKEN": 143,
+        "EMPTY": 153,
+        "LIMIT": 4
+      },
+      "median_loss_step": 6.0,
+      "loss_at_step1": 26,
+      "loss_within5": 130,
+      "loss_within10": 229,
+      "loss_before_service": 274,
+      "visits_either": 42,
+      "visits_both": 8,
+      "median_steps": 20.0,
+      "median_unique_positions": 9.0,
+      "median_fraction_immediate_returns": 0.35294117647058826,
+      "positive_reward_on_loss": 46,
+      "local_reward_comparison": {
+        "safer_higher": 259,
+        "unsafe_higher": 35,
+        "tie": 6
+      },
+      "median_witness_return": 14.784853468207567,
+      "median_policy_return": -4.449366268715525,
+      "failed_return_gt_witness": 4
+    },
+    "control_wins": {
+      "fuel100": 5,
+      "health100": 2,
+      "both100": 6,
+      "last5": 145
+    }
+  },
+  "ppo": {
+    "original": {
+      "n": 300,
+      "outcomes": {
+        "BROKEN": 150,
+        "EMPTY": 149,
+        "LIMIT": 1
+      },
+      "median_loss_step": 6.0,
+      "loss_at_step1": 19,
+      "loss_within5": 144,
+      "loss_within10": 223,
+      "loss_before_service": 249,
+      "visits_either": 66,
+      "visits_both": 8,
+      "median_steps": 20.0,
+      "median_unique_positions": 10.0,
+      "median_fraction_immediate_returns": 0.1846590909090909,
+      "positive_reward_on_loss": 32,
+      "local_reward_comparison": {
+        "safer_higher": 275,
+        "unsafe_higher": 23,
+        "tie": 2
+      },
+      "median_witness_return": 14.784853468207567,
+      "median_policy_return": -4.094657740324682,
+      "failed_return_gt_witness": 1
+    },
+    "control_wins": {
+      "fuel100": 0,
+      "health100": 0,
+      "both100": 1,
+      "last5": 111
+    }
+  },
+  "pooled": {
+    "n": 1200,
+    "outcomes": {
+      "BROKEN": 595,
+      "EMPTY": 599,
+      "LIMIT": 6
+    },
+    "median_loss_step": 6.0,
+    "loss_at_step1": 83,
+    "loss_within5": 525,
+    "loss_within10": 881,
+    "loss_before_service": 1030,
+    "visits_either": 234,
+    "visits_both": 30,
+    "median_steps": 20.0,
+    "median_unique_positions": 10.0,
+    "median_fraction_immediate_returns": 0.2,
+    "positive_reward_on_loss": 170,
+    "local_reward_comparison": {
+      "safer_higher": 1068,
+      "tie": 15,
+      "unsafe_higher": 117
+    },
+    "median_witness_return": 14.784853468207567,
+    "median_policy_return": -4.018434661492907,
+    "failed_return_gt_witness": 8
+  }
+}

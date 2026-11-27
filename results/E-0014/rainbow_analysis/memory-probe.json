@@ -1,0 +1,97 @@
+{
+  "rainbow-v03-s4": {
+    "validation": {
+      "maps": 240,
+      "forward_decisions": 10475,
+      "eligible": 9683,
+      "changed": 92,
+      "unexpected": 0,
+      "wins": 16,
+      "wins_local_only": 14,
+      "gained": [],
+      "lost": [
+        "validation_id-00013-2",
+        "validation_id-00039-0"
+      ],
+      "changed_outcome": 3
+    },
+    "hundreds": {
+      "maps": 300,
+      "forward_decisions": 6600,
+      "eligible": 5873,
+      "changed": 29,
+      "unexpected": 0,
+      "wins": 0,
+      "wins_local_only": 0,
+      "gained": [],
+      "lost": [],
+      "changed_outcome": 1
+    }
+  },
+  "rainbow-v01-s4": {
+    "validation": {
+      "maps": 240,
+      "forward_decisions": 9579,
+      "eligible": 8788,
+      "changed": 101,
+      "unexpected": 0,
+      "wins": 15,
+      "wins_local_only": 14,
+      "gained": [],
+      "lost": [
+        "validation_id-00002-1"
+      ],
+      "changed_outcome": 7
+    },
+    "hundreds": {
+      "maps": 300,
+      "forward_decisions": 7091,
+      "eligible": 6390,
+      "changed": 46,
+      "unexpected": 0,
+      "wins": 3,
+      "wins_local_only": 3,
+      "gained": [],
+      "lost": [],
+      "changed_outcome": 0
+    }
+  },
+  "rainbow-v03-s4-diag": {
+    "validation": {
+      "maps": 240,
+      "forward_decisions": 10431,
+      "eligible": 9206,
+      "changed": 822,
+      "unexpected": 0,
+      "wins": 20,
+      "wins_local_only": 20,
+      "gained": [
+        "validation_id-00001-0",
+        "validation_id-00005-2",
+        "validation_id-00042-1",
+        "validation_id-00047-0"
+      ],
+      "lost": [
+        "validation_id-00005-1",
+        "validation_id-00009-2",
+        "validation_id-00014-1",
+        "validation_id-00031-0"
+      ],
+      "changed_outcome": 18
+    },
+    "hundreds": {
+      "maps": 300,
+      "forward_decisions": 6389,
+      "eligible": 5532,
+      "changed": 251,
+      "unexpected": 0,
+      "wins": 1,
+      "wins_local_only": 0,
+      "gained": [],
+      "lost": [
+        "check-H1-07"
+      ],
+      "changed_outcome": 6
+    }
+  }
+}

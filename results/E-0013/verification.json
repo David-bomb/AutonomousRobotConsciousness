@@ -1,0 +1,144 @@
+{
+  "models": 204,
+  "episodes": 61200,
+  "verified_maps": 300,
+  "independent_model_replays": {
+    "double-v03-s2": [
+      "H2-14",
+      "H4-08",
+      "fresh-H4-06",
+      "fresh-H3-16",
+      "fresh-H4-12",
+      "check-H4-20",
+      "check-H3-07"
+    ],
+    "double-v03-s2-diag": [
+      "H2-14",
+      "H4-08",
+      "fresh-H2-16",
+      "fresh-H4-17",
+      "check-H3-03",
+      "check-H3-07"
+    ],
+    "double-v07-s1": [
+      "H2-14",
+      "H4-08",
+      "fresh-H4-06",
+      "fresh-H4-17",
+      "fresh-H4-12",
+      "check-H4-20",
+      "check-H3-07",
+      "check-H1-06",
+      "check-H1-18"
+    ],
+    "dueling-v01-s1": [
+      "H1-01",
+      "H2-14",
+      "H4-08",
+      "fresh-H4-06",
+      "fresh-H4-17",
+      "fresh-H1-25",
+      "check-H4-20",
+      "check-H3-07",
+      "check-H2-04"
+    ],
+    "dueling-v09-s3": [
+      "H2-14",
+      "H4-08",
+      "fresh-H4-06",
+      "fresh-H4-17",
+      "check-H4-20",
+      "check-H3-07"
+    ],
+    "dueling-v09-s3-diag": [
+      "H2-14",
+      "H4-08",
+      "fresh-H4-06",
+      "fresh-H4-17",
+      "check-H3-07",
+      "check-H4-20"
+    ],
+    "ppo-v01-s1": [
+      "H2-25",
+      "H4-08",
+      "fresh-H4-06",
+      "fresh-H4-17",
+      "check-H4-20",
+      "check-H3-07"
+    ],
+    "ppo-v09-s4": [
+      "H2-14",
+      "H4-08",
+      "fresh-H4-06",
+      "fresh-H4-17",
+      "fresh-H1-24",
+      "check-H3-15",
+      "check-H3-03"
+    ],
+    "ppo-v09-s4-diag": [
+      "H2-25",
+      "H4-08",
+      "H2-07",
+      "H2-14",
+      "fresh-H4-06",
+      "fresh-H4-17",
+      "fresh-H1-08",
+      "fresh-H1-17",
+      "check-H4-20",
+      "check-H1-04",
+      "check-H3-07"
+    ],
+    "rainbow-v01-s4": [
+      "H2-14",
+      "H4-08",
+      "H1-07",
+      "H3-10",
+      "fresh-H4-06",
+      "fresh-H3-16",
+      "fresh-H2-18",
+      "check-H4-20",
+      "check-H1-04",
+      "check-H3-15"
+    ],
+    "rainbow-v03-s4": [
+      "H2-25",
+      "H4-08",
+      "H2-14",
+      "fresh-H4-06",
+      "fresh-H4-17",
+      "fresh-H1-22",
+      "check-H4-20",
+      "check-H3-07",
+      "check-H3-23"
+    ],
+    "rainbow-v03-s4-diag": [
+      "H2-14",
+      "H4-08",
+      "fresh-H4-06",
+      "fresh-H4-17",
+      "check-H4-20",
+      "check-H3-07",
+      "check-H1-07",
+      "check-H3-24"
+    ],
+    "rainbow-v10-s3": [
+      "fresh-H1-24"
+    ]
+  },
+  "required_both": {
+    "I": 100,
+    "II": 100,
+    "III": 100
+  },
+  "reserve": [
+    57,
+    53,
+    49
+  ],
+  "winning_episodes": 8,
+  "zero_models": 199,
+  "best": [
+    "rainbow-v01-s4"
+  ],
+  "max_success": 3
+}

@@ -1,0 +1,39 @@
+{
+  "id": "double-v06-s3",
+  "split": "validation_id",
+  "weights_sha256": "103f85f4892338db11a652ef81660883adab99822864fbbc1b2c459c7e6ed113",
+  "scenarios": 12000,
+  "wins": 511,
+  "outcomes": {
+    "SUCCESS": 511,
+    "EMPTY": 6222,
+    "BROKEN": 4674,
+    "LIMIT": 593
+  },
+  "by_stage": {
+    "1": 0.09229166666666666,
+    "2": 0.02125,
+    "3": 0.0035416666666666665
+  },
+  "worst": 0.0035416666666666665,
+  "mean_success_steps": 23.123287671232877,
+  "groups": {
+    "standard": {
+      "scenarios": 12000,
+      "wins": 511,
+      "outcomes": {
+        "SUCCESS": 511,
+        "EMPTY": 6222,
+        "BROKEN": 4674,
+        "LIMIT": 593
+      },
+      "by_stage": {
+        "1": 0.09229166666666666,
+        "2": 0.02125,
+        "3": 0.0035416666666666665
+      },
+      "worst": 0.0035416666666666665,
+      "mean_success_steps": 23.123287671232877
+    }
+  }
+}

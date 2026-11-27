@@ -1,0 +1,45 @@
+{
+  "architecture": "E1 specific example: 12 map channels; 63 local features; 24 scalar features; four convolution layers 12-w-w-2w-2w; adaptive pool4x4; local/scalar branches one Linear each; fusion two Linear; heads h->4 and h->1; biases, no normalization or recurrence",
+  "rows": [
+    {
+      "target": 50000,
+      "w": 8,
+      "local_and_scalar_width": 16,
+      "fusion_width": 112,
+      "actual_trainable_parameters": 51957,
+      "actor_only_parameters": 51844
+    },
+    {
+      "target": 250000,
+      "w": 16,
+      "local_and_scalar_width": 32,
+      "fusion_width": 272,
+      "actual_trainable_parameters": 253365,
+      "actor_only_parameters": 253092
+    },
+    {
+      "target": 1000000,
+      "w": 32,
+      "local_and_scalar_width": 64,
+      "fusion_width": 544,
+      "actual_trainable_parameters": 1000293,
+      "actor_only_parameters": 999748
+    },
+    {
+      "target": 4000000,
+      "w": 64,
+      "local_and_scalar_width": 128,
+      "fusion_width": 1088,
+      "actual_trainable_parameters": 3974853,
+      "actor_only_parameters": 3973764
+    },
+    {
+      "target": 16000000,
+      "w": 128,
+      "local_and_scalar_width": 256,
+      "fusion_width": 2176,
+      "actual_trainable_parameters": 15846789,
+      "actor_only_parameters": 15844612
+    }
+  ]
+}

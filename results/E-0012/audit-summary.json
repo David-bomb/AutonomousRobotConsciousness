@@ -1,0 +1,52 @@
+{
+  "all_splits": true,
+  "geometries": {
+    "shift_development": 1500,
+    "test_id": 6000,
+    "test_ood": 6000,
+    "train": 60000,
+    "validation_id": 3000
+  },
+  "totals": {
+    "shift_development": {
+      "scenarios": 6000,
+      "steps": 583451,
+      "required_fuel_lower_bound": 4571,
+      "required_health_lower_bound": 4536,
+      "refuels": 10954,
+      "repairs": 10319
+    },
+    "test_id": {
+      "scenarios": 24000,
+      "steps": 1393066,
+      "required_fuel_lower_bound": 13703,
+      "required_health_lower_bound": 13715,
+      "refuels": 34194,
+      "repairs": 32033
+    },
+    "test_ood": {
+      "scenarios": 24000,
+      "steps": 3401821,
+      "required_fuel_lower_bound": 16804,
+      "required_health_lower_bound": 16834,
+      "refuels": 57942,
+      "repairs": 54497
+    },
+    "train": {
+      "scenarios": 240000,
+      "steps": 13897751,
+      "required_fuel_lower_bound": 136650,
+      "required_health_lower_bound": 136797,
+      "refuels": 341746,
+      "repairs": 320300
+    },
+    "validation_id": {
+      "scenarios": 12000,
+      "steps": 689215,
+      "required_fuel_lower_bound": 6825,
+      "required_health_lower_bound": 6835,
+      "refuels": 17035,
+      "repairs": 15915
+    }
+  }
+}

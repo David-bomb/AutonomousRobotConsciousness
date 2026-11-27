@@ -1,0 +1,118 @@
+{
+  "stress_direct_range": [
+    28,
+    84
+  ],
+  "train": {
+    "count": 240000,
+    "direct_median": 29.0,
+    "groups": {
+      "neither": {
+        "n": 51613,
+        "median_direct": 25
+      },
+      "fuel": {
+        "n": 51590,
+        "median_direct": 25.0
+      },
+      "health": {
+        "n": 51737,
+        "median_direct": 25
+      },
+      "both": {
+        "n": 85060,
+        "median_direct": 51.0
+      },
+      "both_stress_length": {
+        "n": 21802,
+        "median_direct": 43.0
+      }
+    },
+    "both_by_lower_initial_stock": {
+      "fuel_lower": 59911,
+      "health_lower": 13573,
+      "equal": 11576
+    }
+  },
+  "test_id": {
+    "count": 24000,
+    "direct_median": 29.0,
+    "groups": {
+      "neither": {
+        "n": 5146,
+        "median_direct": 25.0
+      },
+      "fuel": {
+        "n": 5139,
+        "median_direct": 25
+      },
+      "health": {
+        "n": 5151,
+        "median_direct": 25
+      },
+      "both": {
+        "n": 8564,
+        "median_direct": 51.0
+      },
+      "both_stress_length": {
+        "n": 2161,
+        "median_direct": 42
+      }
+    },
+    "both_by_lower_initial_stock": {
+      "fuel_lower": 5999,
+      "health_lower": 1383,
+      "equal": 1182
+    }
+  },
+  "stress": {
+    "count": 300,
+    "direct_median": 52.0,
+    "groups": {
+      "both": {
+        "n": 300,
+        "median_direct": 52.0
+      },
+      "both_stress_length": {
+        "n": 300,
+        "median_direct": 52.0
+      }
+    },
+    "both_by_lower_initial_stock": {
+      "health_lower": 151,
+      "fuel_lower": 149
+    }
+  },
+  "stress_optimum_median": 73.0,
+  "stress_first_witness_margin_median": 4.0,
+  "test_wins": {
+    "double": {
+      "neither": 526,
+      "fuel": 298,
+      "health": 261,
+      "both": 214,
+      "both_stress_length": 3
+    },
+    "dueling": {
+      "neither": 411,
+      "fuel": 238,
+      "health": 193,
+      "both": 208,
+      "both_stress_length": 1
+    },
+    "rainbow": {
+      "neither": 570,
+      "fuel": 247,
+      "health": 257,
+      "both": 126,
+      "both_stress_length": 14
+    },
+    "ppo": {
+      "neither": 289,
+      "fuel": 161,
+      "health": 127,
+      "both": 103,
+      "both_stress_length": 8
+    }
+  }
+}

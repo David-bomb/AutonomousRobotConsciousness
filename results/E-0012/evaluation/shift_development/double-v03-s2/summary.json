@@ -1,0 +1,103 @@
+{
+  "id": "double-v03-s2",
+  "split": "shift_development",
+  "weights_sha256": "7481a5230380232602e0b8c76c90deb91143b7829f1b99da29ebf0ab2a79e4d5",
+  "scenarios": 6000,
+  "wins": 148,
+  "outcomes": {
+    "EMPTY": 3709,
+    "BROKEN": 1879,
+    "SUCCESS": 148,
+    "LIMIT": 264
+  },
+  "by_stage": {
+    "1": 0.1025,
+    "2": 0.015277777777777777,
+    "3": 0.003431372549019608
+  },
+  "worst": 0.003431372549019608,
+  "mean_success_steps": 25.16891891891892,
+  "groups": {
+    "size": {
+      "scenarios": 1200,
+      "wins": 1,
+      "outcomes": {
+        "EMPTY": 769,
+        "BROKEN": 425,
+        "SUCCESS": 1,
+        "LIMIT": 5
+      },
+      "by_stage": {
+        "3": 0.0008333333333333334
+      },
+      "worst": 0.0008333333333333334,
+      "mean_success_steps": 16
+    },
+    "parameters": {
+      "scenarios": 1200,
+      "wins": 28,
+      "outcomes": {
+        "BROKEN": 435,
+        "EMPTY": 653,
+        "LIMIT": 84,
+        "SUCCESS": 28
+      },
+      "by_stage": {
+        "1": 0.05416666666666667,
+        "2": 0.029166666666666667,
+        "3": 0.011111111111111112
+      },
+      "worst": 0.011111111111111112,
+      "mean_success_steps": 33.285714285714285
+    },
+    "services": {
+      "scenarios": 1200,
+      "wins": 72,
+      "outcomes": {
+        "EMPTY": 621,
+        "SUCCESS": 72,
+        "BROKEN": 422,
+        "LIMIT": 85
+      },
+      "by_stage": {
+        "1": 0.14166666666666666,
+        "2": 0.008333333333333333,
+        "3": 0.004166666666666667
+      },
+      "worst": 0.004166666666666667,
+      "mean_success_steps": 22.63888888888889
+    },
+    "resources": {
+      "scenarios": 1200,
+      "wins": 44,
+      "outcomes": {
+        "LIMIT": 88,
+        "BROKEN": 299,
+        "SUCCESS": 44,
+        "EMPTY": 769
+      },
+      "by_stage": {
+        "1": 0.0875,
+        "2": 0.008333333333333333,
+        "3": 0.0
+      },
+      "worst": 0.0,
+      "mean_success_steps": 24.40909090909091
+    },
+    "combined": {
+      "scenarios": 1200,
+      "wins": 3,
+      "outcomes": {
+        "EMPTY": 897,
+        "BROKEN": 298,
+        "SUCCESS": 3,
+        "LIMIT": 2
+      },
+      "by_stage": {
+        "3": 0.0025
+      },
+      "worst": 0.0025,
+      "mean_success_steps": 24.333333333333332
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "version": "1.0",
+  "language": "ru",
+  "status": "planned_not_trained",
+  "created": "2026-11-26",
+  "scope": "Learning-based policies only. No A*, BFS, heuristic resource switches or route shields execute agent actions.",
+  "axis_order": [
+    "features",
+    "encoder",
+    "size",
+    "algorithm",
+    "reward",
+    "memory",
+    "exploration"
+  ],
+  "features": [
+    {
+      "id": "F0",
+      "name": "Только текущие наблюдения",
+      "definition": "Обзор 3×3 one hot, dx и dy выхода, разрешённая тройка dx dy dS сервиса, топливо и флаги отсутствующих измерений. Без внешней карты и производных признаков."
+    },
+    {
+      "id": "F1",
+      "name": "Наблюдения и ресурсные признаки",
+      "definition": "F0 плюс запас F−c·dS, его отношение к ёмкости, F/c, Manhattan до выхода и сервиса, dS−Manhattan сервиса. Смысл топливного запаса допустим только для объекта, который действительно заправляет."
+    },
+    {
+      "id": "F2",
+      "name": "Карта увиденных типов",
+      "definition": "F1 плюс накопленная карта: известность, стены, проходы, наблюдённые типы сервисов, робот и цель. Координаты из датчика сохраняются отдельными метками; неизвестные проходы не дорисовываются."
+    },
+    {
+      "id": "F3",
+      "name": "Карта и посещения",
+      "definition": "F2 плюс log(1+число посещений), возраст последнего посещения, текущая маска видимости и предыдущий шаг. Счётчики и карта сбрасываются между эпизодами."
+    },
+    {
+      "id": "F4",
+      "name": "История телеметрии",
+      "definition": "F3 плюс измеренное dS в посещённых клетках, маска наличия измерений и память координат ранее сообщённых сервисов. Отдельно хранятся расстояние до множества сервисов и идентичность выбранного ближайшего объекта."
+    },
+    {
+      "id": "F5",
+      "name": "Полные наблюдаемые признаки",
+      "definition": "F4 плюс локальные степени проходимости, признаки тупика и развилки, соседство неизвестных клеток, изменения топлива и dS, флаг смены ближайшего сервиса. Это вычисления по наблюдениям, без поиска маршрута и без скрытой карты."
+    }
+  ],
+  "encoders": [
+    {
+      "id": "E0",
+      "name": "LocalMLP",
+      "definition": "Flatten 3×3 и числовых входов; 2–4 Linear с ReLU или SiLU. Только F0/F1. Нужен для оценки роли явной карты и для небольших эволюционных политик."
+    },
+    {
+      "id": "E1",
+      "name": "CNN",
+      "definition": "Четыре свёртки 3×3 без раннего уменьшения карты; пространственный pooling 4×4. Локальный обзор и числа проходят отдельные MLP; затем слияние и две полносвязные ступени."
+    },
+    {
+      "id": "E2",
+      "name": "ResCNN двух масштабов",
+      "definition": "Точное окно карты 15×15 или 21×21 плюс глобальная накопленная карта; 2–4 residual блока. Глобальное сжатие является признаковым представлением, не новой геометрией для движения."
+    },
+    {
+      "id": "E3",
+      "name": "U Net",
+      "definition": "Encoder decoder с 2–3 масштабами и skip connections. Читать признаки в позиции агента и соседних клеток, объединять с глобальным контекстом и числовой ветвью."
+    },
+    {
+      "id": "E4",
+      "name": "GNN",
+      "definition": "Узлы увиденных проходимых клеток; рёбра только между известными соседями. 4/8/16 message passing итераций, признаки агента, цели и сервисов. Недоступные целевые метки передаются отдельными токенами без выдуманных рёбер."
+    },
+    {
+      "id": "E5",
+      "name": "Transformer карты",
+      "definition": "Токены клеток или малых patch, 2–6 блоков, относительные координаты, токены робота, цели и сервиса. Сохранять клеточное разрешение локально; для больших карт проверить window или sparse attention."
+    }
+  ],
+  "sizes": [
+    {
+      "id": "P0",
+      "target_trainable_parameters": 50000,
+      "tolerance": 0.15
+    },
+    {
+      "id": "P1",
+      "target_trainable_parameters": 250000,
+      "tolerance": 0.15
+    },
+    {
+      "id": "P2",
+      "target_trainable_parameters": 1000000,
+      "tolerance": 0.15
+    },
+    {
+      "id": "P3",
+      "target_trainable_parameters": 4000000,
+      "tolerance": 0.15
+    },
+    {
+      "id": "P4",
+      "target_trainable_parameters": 16000000,
+      "tolerance": 0.15
+    }
+  ],
+  "algorithms": [
+    {
+      "id": "L0",
+      "name": "Double DQN",
+      "definition": "Обычная Q голова; online сеть выбирает следующее действие, target сеть оценивает его. Базовый replay равномерный, n=1."
+    },
+    {
+      "id": "L1",
+      "name": "Dueling Double DQN",
+      "definition": "Общий encoder, отдельные V и A головы, Q=V+A−mean(A). Основная value based опорная модель."
+    },
+    {
+      "id": "L2",
+      "name": "QR DQN",
+      "definition": "Распределение возврата, 32/64/128 квантилей. В основном сравнении действие выбирается по среднему; выбор по нижнему хвосту является отдельным экспериментом."
+    },
+    {
+      "id": "L3",
+      "name": "Rainbow",
+      "definition": "Double Q, dueling, n step, prioritized replay, NoisyNet и C51. Начать n=3, 51 атом; поддержка C51 задаётся из диапазона награды и проверяется на насыщение."
+    },
+    {
+      "id": "L4",
+      "name": "PPO",
+      "definition": "Categorical actor и value critic, общий encoder. Прямое обучение физических действий; при рекуррентности сохранять последовательности."
+    },
+    {
+      "id": "L5",
+      "name": "PPO с ограничением риска",
+      "definition": "PPO reward critic плюс cost critic и обучаемый множитель Лагранжа. Cost эпизода равен индикатору истощения топлива; проверить допустимые уровни 1, 5 и 10 процентов."
+    }
+  ],
+  "rewards": [
+    {
+      "id": "R0",
+      "name": "Только успех",
+      "definition": "+1 при выходе; 0 при остальных исходах и шагах."
+    },
+    {
+      "id": "R1",
+      "name": "Успех и длина",
+      "definition": "R0 минус 0.1/T_ref за каждый физический шаг, включая терминальный. T_ref — фиксированный публичный масштаб задачи."
+    },
+    {
+      "id": "R2",
+      "name": "Явный штраф за отказ",
+      "definition": "R1 минус 1 при истощении топлива. Таймаут остаётся отдельным исходом. Проверить штрафы 0.25, 1, 4."
+    },
+    {
+      "id": "R3",
+      "name": "Потенциал цели",
+      "definition": "R1 плюс gamma*Phi_G(next)−Phi_G(now), Phi_G=−0.1*min(Manhattan_goal/D0,1). D0 фиксируется по train."
+    },
+    {
+      "id": "R4",
+      "name": "Потенциал ресурса",
+      "definition": "R1 плюс gamma*Phi_F(next)−Phi_F(now), Phi_F=0.1*tanh((F−c*dS)/Fmax). Только если dS относится к источнику топлива."
+    },
+    {
+      "id": "R5",
+      "name": "Оба потенциала",
+      "definition": "R1 плюс potential based shaping для Phi_G+Phi_F. На всех настоящих терминальных состояниях потенциал равен нулю."
+    },
+    {
+      "id": "R6",
+      "name": "Прямой штраф за риск",
+      "definition": "R1 минус 0.1/T_ref, когда (F−c*dS)/Fmax<0.1. Это меняет предпочтения задачи; проверить, не мешает ли дойти до близкого выхода."
+    },
+    {
+      "id": "R7",
+      "name": "Бонус за заправку",
+      "definition": "R1 плюс 0.02 за событие пополнения топлива. Негативный контроль на циклы между сервисами; не считать хорошим результатом рост собственной суммы reward."
+    }
+  ],
+  "memory": [
+    {
+      "id": "M0",
+      "name": "Без рекуррентности"
+    },
+    {
+      "id": "M1",
+      "name": "GRU"
+    },
+    {
+      "id": "M2",
+      "name": "LSTM"
+    }
+  ],
+  "exploration": [
+    {
+      "id": "X0",
+      "name": "Базовое исследование",
+      "definition": "epsilon greedy у DDQN/QR; NoisyNet у Rainbow; entropy у PPO. Нельзя незаметно добавлять epsilon greedy в обычный PPO."
+    },
+    {
+      "id": "X1",
+      "name": "Эпизодический бонус",
+      "definition": "Бонус за впервые увиденную или редко посещённую клетку, только по доступной памяти. Сумма бонуса не более 0.1 на эпизод; отдельно проверить затухание к нулю."
+    },
+    {
+      "id": "X2",
+      "name": "RND",
+      "definition": "Новизна только разрешённых наблюдений, отдельный intrinsic value при необходимости. Predictor обучается только на train, нормализаторы фиксируются на оценке; бонус ограничен по эпизоду."
+    }
+  ],
+  "compatibility": [
+    "E0 is specifically LocalMLP and accepts F0/F1",
+    "E1-E5 require F2-F5",
+    "R4/R5/R6 need dS to a fuel source or must be marked inactive rather than reinterpreting a workshop",
+    "M1/M2 with Q-learning require sequence replay and burn-in",
+    "M1/M2 with PPO require sequence-aware rollout/minibatches",
+    "exact_parameter_count_must_be_checked_after_build"
+  ],
+  "raw_cartesian_count": 77760,
+  "structural_candidate_count": 47520,
+  "coverage": {
+    "screening_configs": 96,
+    "valid_factor_pairs": 563,
+    "covered_pairs": 563,
+    "ratio": 1.0
+  },
+  "training_defaults": {
+    "physical_action_budget_unit": "primitive_steps",
+    "default_gamma": 0.999,
+    "gamma_sweep": [
+      0.99,
+      0.995,
+      0.999,
+      0.9995,
+      1.0
+    ],
+    "learning_rates": [
+      0.0001,
+      0.0003
+    ],
+    "q_batch_sizes": [
+      128,
+      256
+    ],
+    "q_replay_capacity": [
+      200000,
+      1000000
+    ],
+    "q_warmup_steps": 20000,
+    "q_optimizer_updates_per_transition": [
+      0.25,
+      1.0
+    ],
+    "q_target_update_unit": "optimizer_updates",
+    "q_target_update_interval": [
+      2000,
+      10000
+    ],
+    "ppo_environments": 32,
+    "ppo_rollout_steps": 256,
+    "ppo_epochs": 4,
+    "ppo_minibatch_size": 256,
+    "ppo_clip": 0.2,
+    "ppo_gae_lambda": 0.98,
+    "ppo_entropy": 0.01,
+    "recurrent_hidden_sizes": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "recurrent_size_rule": "Use 32/64 for P0 where needed; fit total trainable budget. 128/256 only when the full model fits.",
+    "recurrent_loss_sequence_lengths": [
+      32,
+      64,
+      128
+    ],
+    "q_burn_in_steps": [
+      16,
+      32
+    ],
+    "cost_gamma": 1.0,
+    "cost_definition": "Undiscounted episode indicator of fuel exhaustion",
+    "potential_shaping": {
+      "applies_to": [
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "terminal_potential": 0,
+      "discount": "same_as_return_gamma",
+      "external_truncation": "do_not_zero_potential; bootstrap when appropriate"
+    }
+  },
+  "budget_stages": [
+    {
+      "stage": "screen",
+      "configurations": 96,
+      "seeds": 3,
+      "steps_per_run": 1000000
+    },
+    {
+      "stage": "confirm",
+      "configurations": 16,
+      "seeds": 5,
+      "steps_per_run": 5000000
+    },
+    {
+      "stage": "final",
+      "configurations": 4,
+      "seeds": 10,
+      "steps_per_run": 20000000
+    }
+  ],
+  "not_in_grid": [
+    "hyperparameter_sweeps",
+    "curriculum",
+    "corpus_size",
+    "learned_hierarchy",
+    "genetic_algorithms",
+    "privileged_training",
+    "supplemental_experiments"
+  ],
+  "notes": "This is an enumerated research design, not a trainer config for an existing library. Build/runtime compatibility and sensor semantics still require verification."
+}

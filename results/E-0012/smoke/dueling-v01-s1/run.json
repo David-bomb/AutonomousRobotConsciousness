@@ -1,0 +1,137 @@
+{
+  "config": {
+    "id": "dueling-v01-s1",
+    "family": "dueling",
+    "variant": 1,
+    "seed": 39139,
+    "geometry_count": 300,
+    "architecture": [
+      8,
+      64,
+      1
+    ],
+    "lr": 0.0008,
+    "gamma": 0.97,
+    "lanes": 8,
+    "ticks": 32,
+    "horizon": 1,
+    "batch": 16,
+    "replay": 16384,
+    "sync": 64
+  },
+  "training": [
+    {
+      "stage": 1,
+      "steps": 256,
+      "decisions": 256,
+      "outcomes": {
+        "EMPTY": 7,
+        "BROKEN": 1
+      },
+      "maps": {
+        "train-00095-2": 1,
+        "train-00214-1": 1,
+        "train-00094-0": 1,
+        "train-00181-2": 1,
+        "train-00278-1": 1,
+        "train-00153-3": 1,
+        "train-00271-0": 1,
+        "train-00041-0": 1,
+        "train-00011-0": 1,
+        "train-00091-0": 1,
+        "train-00066-3": 1,
+        "train-00210-3": 1,
+        "train-00099-1": 1,
+        "train-00279-3": 1,
+        "train-00215-3": 1,
+        "train-00279-2": 1
+      },
+      "updates": 16,
+      "mean_loss": 0.3490407466888428
+    },
+    {
+      "stage": 2,
+      "steps": 256,
+      "decisions": 256,
+      "outcomes": {
+        "EMPTY": 2,
+        "BROKEN": 1
+      },
+      "maps": {
+        "train-00047-0": 1,
+        "train-00254-1": 1,
+        "train-00102-0": 1,
+        "train-00193-0": 1,
+        "train-00102-3": 1,
+        "train-00045-2": 1,
+        "train-00137-3": 1,
+        "train-00102-2": 1,
+        "train-00043-3": 1,
+        "train-00253-1": 1,
+        "train-00137-2": 1
+      },
+      "updates": 16,
+      "mean_loss": 0.3444366753101349
+    },
+    {
+      "stage": 3,
+      "steps": 256,
+      "decisions": 256,
+      "outcomes": {
+        "EMPTY": 4
+      },
+      "maps": {
+        "train-00204-2": 1,
+        "train-00179-1": 1,
+        "train-00292-3": 1,
+        "train-00018-1": 1,
+        "train-00054-3": 1,
+        "train-00204-3": 1,
+        "train-00088-1": 1,
+        "train-00236-3": 1,
+        "train-00175-1": 1,
+        "train-00054-0": 1,
+        "train-00296-1": 1,
+        "train-00263-0": 1
+      },
+      "updates": 16,
+      "mean_loss": 0.43871796131134033
+    }
+  ],
+  "train_steps": 768,
+  "updates": 48,
+  "train_scenarios": 39,
+  "train_geometries": 33,
+  "train_seconds": 2.494,
+  "seconds": 7.405,
+  "peak_gpu_mib": 24.13,
+  "parameter_delta": 0.030498486012220383,
+  "initial": {
+    "scenarios": 2,
+    "wins": 0,
+    "outcomes": {
+      "EMPTY": 2
+    },
+    "by_stage": {
+      "1": 0.0,
+      "3": 0.0
+    },
+    "worst": 0.0,
+    "mean_success_steps": null
+  },
+  "screen": {
+    "scenarios": 2,
+    "wins": 0,
+    "outcomes": {
+      "BROKEN": 1,
+      "EMPTY": 1
+    },
+    "by_stage": {
+      "1": 0.0,
+      "3": 0.0
+    },
+    "worst": 0.0,
+    "mean_success_steps": null
+  },
+  "weights_sha256": "c1df751cedf2aed8eb4f2782c7ec520e874ac23c7f3024a63da82aa876095ac6"
+}

@@ -1,0 +1,680 @@
+{
+  "totals": {
+    "cnn": {
+      "both": 1,
+      "correct": 126,
+      "changed": 1,
+      "fork_finishes": 48,
+      "validation": 57,
+      "visited_both": 41,
+      "stress": 0,
+      "steps": 368640,
+      "updates": 7680,
+      "I": 0,
+      "II": 0,
+      "III": 0
+    },
+    "query": {
+      "both": 1,
+      "correct": 126,
+      "changed": 1,
+      "fork_finishes": 33,
+      "validation": 49,
+      "visited_both": 41,
+      "stress": 0,
+      "steps": 368640,
+      "updates": 7680,
+      "I": 0,
+      "II": 0,
+      "III": 0
+    }
+  },
+  "seeds": {
+    "double-v03-s1": {
+      "cnn": {
+        "forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "validation": 10,
+        "fork_finishes": 3,
+        "median_margin_shift": 0.0,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 12616,
+        "archive_max_abs_difference": 0.0,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 10,
+        "outcomes": {
+          "BROKEN": 149,
+          "EMPTY": 150,
+          "LIMIT": 1
+        }
+      },
+      "query": {
+        "forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "validation": 10,
+        "fork_finishes": 2,
+        "median_margin_shift": 0.00033295154571533203,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 19876,
+        "archive_max_abs_difference": null,
+        "uniform_forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "decisions_changed_by_uniform_read": 14,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 6,
+        "outcomes": {
+          "BROKEN": 152,
+          "EMPTY": 147,
+          "LIMIT": 1
+        }
+      },
+      "paired": {
+        "stress": {
+          "gained": [],
+          "lost": []
+        },
+        "validation": {
+          "gained": [
+            "validation_id-00000-1",
+            "validation_id-00005-0",
+            "validation_id-00032-2",
+            "validation_id-00032-3",
+            "validation_id-00046-1"
+          ],
+          "lost": [
+            "validation_id-00004-0",
+            "validation_id-00007-3",
+            "validation_id-00034-0",
+            "validation_id-00034-3",
+            "validation_id-00038-3"
+          ]
+        },
+        "fork_episodes": {
+          "gained": [
+            "diag-control-04-38",
+            "diag-control-04-48"
+          ],
+          "lost": [
+            "diag-control-04-22",
+            "diag-control-04-35",
+            "diag-control-04-46"
+          ]
+        },
+        "forks": {
+          "gained": [],
+          "lost": []
+        }
+      }
+    },
+    "double-v03-s2": {
+      "cnn": {
+        "forks": {
+          "both": 1,
+          "changed": 1,
+          "correct": 26,
+          "total": 25
+        },
+        "validation": 16,
+        "fork_finishes": 10,
+        "median_margin_shift": 0.00026875734329223633,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 12616,
+        "archive_max_abs_difference": 0.0,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 10,
+        "outcomes": {
+          "BROKEN": 152,
+          "EMPTY": 147,
+          "LIMIT": 1
+        }
+      },
+      "query": {
+        "forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "validation": 6,
+        "fork_finishes": 17,
+        "median_margin_shift": -0.00017881393432617188,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 19876,
+        "archive_max_abs_difference": null,
+        "uniform_forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "decisions_changed_by_uniform_read": 16,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 14,
+        "outcomes": {
+          "BROKEN": 147,
+          "EMPTY": 150,
+          "LIMIT": 3
+        }
+      },
+      "paired": {
+        "stress": {
+          "gained": [],
+          "lost": []
+        },
+        "validation": {
+          "gained": [
+            "validation_id-00000-0",
+            "validation_id-00007-2",
+            "validation_id-00031-2",
+            "validation_id-00035-0"
+          ],
+          "lost": [
+            "validation_id-00003-3",
+            "validation_id-00005-0",
+            "validation_id-00008-0",
+            "validation_id-00031-0",
+            "validation_id-00034-0",
+            "validation_id-00035-2",
+            "validation_id-00037-0",
+            "validation_id-00037-2",
+            "validation_id-00038-1",
+            "validation_id-00038-3",
+            "validation_id-00040-2",
+            "validation_id-00044-0",
+            "validation_id-00050-1",
+            "validation_id-00058-0"
+          ]
+        },
+        "fork_episodes": {
+          "gained": [
+            "diag-control-04-07",
+            "diag-control-04-13",
+            "diag-control-04-15",
+            "diag-control-04-19",
+            "diag-control-04-20",
+            "diag-control-04-24",
+            "diag-control-04-31",
+            "diag-control-04-33",
+            "diag-control-04-36",
+            "diag-control-04-40",
+            "diag-control-04-44",
+            "diag-control-04-47"
+          ],
+          "lost": [
+            "diag-control-04-05",
+            "diag-control-04-08",
+            "diag-control-04-21",
+            "diag-control-04-39",
+            "diag-control-04-46"
+          ]
+        },
+        "forks": {
+          "gained": [],
+          "lost": [
+            "2"
+          ]
+        }
+      }
+    },
+    "double-v03-s3": {
+      "cnn": {
+        "forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "validation": 14,
+        "fork_finishes": 22,
+        "median_margin_shift": 0.00014978647232055664,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 12616,
+        "archive_max_abs_difference": 0.0,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 9,
+        "outcomes": {
+          "BROKEN": 154,
+          "EMPTY": 144,
+          "LIMIT": 2
+        }
+      },
+      "query": {
+        "forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "validation": 19,
+        "fork_finishes": 5,
+        "median_margin_shift": -0.0010282397270202637,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 19876,
+        "archive_max_abs_difference": null,
+        "uniform_forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "decisions_changed_by_uniform_read": 0,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 8,
+        "outcomes": {
+          "BROKEN": 150,
+          "EMPTY": 148,
+          "LIMIT": 2
+        }
+      },
+      "paired": {
+        "stress": {
+          "gained": [],
+          "lost": []
+        },
+        "validation": {
+          "gained": [
+            "validation_id-00001-0",
+            "validation_id-00004-0",
+            "validation_id-00020-0",
+            "validation_id-00026-2",
+            "validation_id-00030-1",
+            "validation_id-00030-3",
+            "validation_id-00033-0",
+            "validation_id-00034-0",
+            "validation_id-00035-1",
+            "validation_id-00035-2",
+            "validation_id-00038-3",
+            "validation_id-00044-0",
+            "validation_id-00044-3"
+          ],
+          "lost": [
+            "validation_id-00002-2",
+            "validation_id-00003-3",
+            "validation_id-00010-2",
+            "validation_id-00035-0",
+            "validation_id-00038-0",
+            "validation_id-00039-3",
+            "validation_id-00044-2",
+            "validation_id-00050-1"
+          ]
+        },
+        "fork_episodes": {
+          "gained": [
+            "diag-control-04-05",
+            "diag-control-04-08",
+            "diag-control-04-39",
+            "diag-control-04-49"
+          ],
+          "lost": [
+            "diag-control-04-01",
+            "diag-control-04-04",
+            "diag-control-04-07",
+            "diag-control-04-11",
+            "diag-control-04-12",
+            "diag-control-04-15",
+            "diag-control-04-20",
+            "diag-control-04-21",
+            "diag-control-04-23",
+            "diag-control-04-24",
+            "diag-control-04-25",
+            "diag-control-04-26",
+            "diag-control-04-29",
+            "diag-control-04-32",
+            "diag-control-04-34",
+            "diag-control-04-38",
+            "diag-control-04-40",
+            "diag-control-04-42",
+            "diag-control-04-44",
+            "diag-control-04-45",
+            "diag-control-04-48"
+          ]
+        },
+        "forks": {
+          "gained": [],
+          "lost": []
+        }
+      }
+    },
+    "double-v03-s4": {
+      "cnn": {
+        "forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "validation": 9,
+        "fork_finishes": 12,
+        "median_margin_shift": 3.403425216674805e-05,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 12616,
+        "archive_max_abs_difference": 0.0,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 6,
+        "outcomes": {
+          "EMPTY": 147,
+          "BROKEN": 153
+        }
+      },
+      "query": {
+        "forks": {
+          "both": 1,
+          "changed": 1,
+          "correct": 26,
+          "total": 25
+        },
+        "validation": 5,
+        "fork_finishes": 5,
+        "median_margin_shift": 0.0036458969116210938,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 19876,
+        "archive_max_abs_difference": null,
+        "uniform_forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "decisions_changed_by_uniform_read": 17,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 4,
+        "outcomes": {
+          "EMPTY": 152,
+          "BROKEN": 148
+        }
+      },
+      "paired": {
+        "stress": {
+          "gained": [],
+          "lost": []
+        },
+        "validation": {
+          "gained": [
+            "validation_id-00005-0",
+            "validation_id-00037-2",
+            "validation_id-00040-0"
+          ],
+          "lost": [
+            "validation_id-00002-0",
+            "validation_id-00002-2",
+            "validation_id-00010-2",
+            "validation_id-00030-1",
+            "validation_id-00033-0",
+            "validation_id-00034-3",
+            "validation_id-00039-0"
+          ]
+        },
+        "fork_episodes": {
+          "gained": [
+            "diag-control-04-04",
+            "diag-control-04-21",
+            "diag-control-04-23",
+            "diag-control-04-38",
+            "diag-control-04-42"
+          ],
+          "lost": [
+            "diag-control-04-03",
+            "diag-control-04-14",
+            "diag-control-04-16",
+            "diag-control-04-19",
+            "diag-control-04-22",
+            "diag-control-04-31",
+            "diag-control-04-34",
+            "diag-control-04-35",
+            "diag-control-04-36",
+            "diag-control-04-45",
+            "diag-control-04-47",
+            "diag-control-04-48"
+          ]
+        },
+        "forks": {
+          "gained": [
+            "22"
+          ],
+          "lost": []
+        }
+      }
+    },
+    "double-v03-s5": {
+      "cnn": {
+        "forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "validation": 8,
+        "fork_finishes": 1,
+        "median_margin_shift": -0.0032081007957458496,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 12616,
+        "archive_max_abs_difference": 0.0,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 6,
+        "outcomes": {
+          "BROKEN": 148,
+          "EMPTY": 151,
+          "LIMIT": 1
+        }
+      },
+      "query": {
+        "forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "validation": 9,
+        "fork_finishes": 4,
+        "median_margin_shift": 0.00046575069427490234,
+        "indistinguishable": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "params": 19876,
+        "archive_max_abs_difference": null,
+        "uniform_forks": {
+          "both": 0,
+          "changed": 0,
+          "correct": 25,
+          "total": 25
+        },
+        "decisions_changed_by_uniform_read": 2,
+        "stress_wins": {
+          "I": 0,
+          "II": 0,
+          "III": 0
+        },
+        "visited_both": 9,
+        "outcomes": {
+          "BROKEN": 149,
+          "EMPTY": 151
+        }
+      },
+      "paired": {
+        "stress": {
+          "gained": [],
+          "lost": []
+        },
+        "validation": {
+          "gained": [
+            "validation_id-00003-0",
+            "validation_id-00008-0",
+            "validation_id-00020-0",
+            "validation_id-00031-0",
+            "validation_id-00044-0"
+          ],
+          "lost": [
+            "validation_id-00001-0",
+            "validation_id-00005-2",
+            "validation_id-00038-1",
+            "validation_id-00044-3"
+          ]
+        },
+        "fork_episodes": {
+          "gained": [
+            "diag-control-04-00",
+            "diag-control-04-10",
+            "diag-control-04-46"
+          ],
+          "lost": []
+        },
+        "forks": {
+          "gained": [],
+          "lost": []
+        }
+      }
+    }
+  },
+  "evidence": {
+    "runs/double-v03-s1/cnn": {
+      "weights": "34e9d3316bea98fc54a7a640ae0582465d6ba533ec34172c3f3f5dace859b22c",
+      "training": "0e52d33df9334bc2f994397ff295377ac0d2af3940b3e45f6733135bf92fab74",
+      "evaluation": "6539900ea2e79a68d647ae49b22b07ec9e8dd0b9d5553e27c1640b2428127ba6"
+    },
+    "runs/double-v03-s1/query": {
+      "weights": "ce6269fed166caba01ffb126596cf52a77964db4859888b9f8872ba9831957fa",
+      "training": "f5f62cfa0141b057213cdd3732fecffdf10ccac058b4b91811d9ac5afd9253bd",
+      "evaluation": "63a6e5a5d9ad044f619931869908ebac8131e31c096d841bce75f54c63ded0da"
+    },
+    "runs/double-v03-s2/cnn": {
+      "weights": "760d03d5a346d0e63c9d9a2a53ed6c711466ef660270c43447e2e53e7f1958a0",
+      "training": "793686545e5fbd603ce424a967c9ddc0f85c6a0d85a8cc6a045715e016da50c4",
+      "evaluation": "99999ae6e12bb219235420a04b6540b3b1b31698bbd70948652efda52a023fc1"
+    },
+    "runs/double-v03-s2/query": {
+      "weights": "d18a800bcb0390081c3df9e1b1b7e544940994b655351757b959772e5d843be5",
+      "training": "fb6e18a201829a22b393f3a831d0664c0a615f795d71a064401b8d50f141de68",
+      "evaluation": "6dcdfc75f4661f7a2df1accd579bafdf7df054b0394fe5215a364a7f3811b6a4"
+    },
+    "runs/double-v03-s3/cnn": {
+      "weights": "19f594bc97f95991ecedf34126aa6d847a84adff84bc207cd07500591ad859e7",
+      "training": "fbf233be785b1675c5190dcab7c59ff7991b0ad420116f1c2e62a3f749da739a",
+      "evaluation": "0e84362093c718be619093b953b70276e8f45e7657c3692f569e10c4d52e91aa"
+    },
+    "runs/double-v03-s3/query": {
+      "weights": "70bdb9abd064bbe4ec62c84232c1757ad25e65a768b4032453725a5613e12843",
+      "training": "13e5fe7f0d3559520171db5a460a6b57d5cde47f592b0eb8b4e99c76e3b88205",
+      "evaluation": "38c90e5deced66f7ff158e8e42aaa805e65845773adf0734a88941d70039376d"
+    },
+    "runs/double-v03-s4/cnn": {
+      "weights": "34d7aa981461cc64ef685b400c74b1e8f1a2ea8208611751dae25624c874319f",
+      "training": "c1544f3701ac0e316c0025152d5e39b348d12b2fbbb5d0d801ef3c4857dcc76e",
+      "evaluation": "25190c31a4656260b348be08aac6bf3f881f7ca40bc5fc44590a83c9272997de"
+    },
+    "runs/double-v03-s4/query": {
+      "weights": "36f1579158e0cf243a377e05e847e2e8a5e7a2aeff3308a122baa0214a61e8fb",
+      "training": "bf59367435cca86ebdc17404b96678bc064f1a163972c5d08a7c38ec8c841634",
+      "evaluation": "d9d851c4a2c153b02965a506b4cdddd620271c6723b00f2f644d1dce481bfa1a"
+    },
+    "runs/double-v03-s5/cnn": {
+      "weights": "678d499a8d5f9b7ce5d813cd97bf234b3009d823fbe0a08a3a51f719b1bf5dd4",
+      "training": "398ae4268e716531ff0c56c0d7b270679c91eda65caf358779fd7f12af38f2de",
+      "evaluation": "6e56fc9de11c9358cfbdbc07b66584feb70431ab4e85950ae7bc7e6542734464"
+    },
+    "runs/double-v03-s5/query": {
+      "weights": "f7f8e8f33acb4ea8fe2b7a59a0dd309f467820d487e6c3ce3c3a4acefe43ed2c",
+      "training": "3a080ee05ed82f36b5d002a71e771789508aede97e7aa60957eeaad5f4d9f250",
+      "evaluation": "fd9e5253eebe213afdba29b9c4218b7ed3fc5dc87dc466b400a3c14ee8509ba2"
+    }
+  },
+  "evaluation_code": {
+    "evaluate_models.py": "b410ebc0ab32480265d8b28fe3cdc5b747ab660f7dc46501051eb423b2a85c0c",
+    "summarize.py": "7ff89a651074eadb62342d76baa8fd84715830247e3de88e1420ed07ced3a5cf"
+  }
+}

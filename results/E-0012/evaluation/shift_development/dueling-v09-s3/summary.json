@@ -1,0 +1,102 @@
+{
+  "id": "dueling-v09-s3",
+  "split": "shift_development",
+  "weights_sha256": "5cec53fadedccb2156f6e1c42ea5872cbd14d0469a6863b5dde277f85889f270",
+  "scenarios": 6000,
+  "wins": 113,
+  "outcomes": {
+    "EMPTY": 3756,
+    "BROKEN": 1928,
+    "LIMIT": 203,
+    "SUCCESS": 113
+  },
+  "by_stage": {
+    "1": 0.07583333333333334,
+    "2": 0.018055555555555554,
+    "3": 0.0022058823529411764
+  },
+  "worst": 0.0022058823529411764,
+  "mean_success_steps": 30.106194690265486,
+  "groups": {
+    "size": {
+      "scenarios": 1200,
+      "wins": 0,
+      "outcomes": {
+        "EMPTY": 763,
+        "BROKEN": 432,
+        "LIMIT": 5
+      },
+      "by_stage": {
+        "3": 0.0
+      },
+      "worst": 0.0,
+      "mean_success_steps": null
+    },
+    "parameters": {
+      "scenarios": 1200,
+      "wins": 27,
+      "outcomes": {
+        "BROKEN": 454,
+        "LIMIT": 53,
+        "EMPTY": 666,
+        "SUCCESS": 27
+      },
+      "by_stage": {
+        "1": 0.058333333333333334,
+        "2": 0.025,
+        "3": 0.009722222222222222
+      },
+      "worst": 0.009722222222222222,
+      "mean_success_steps": 27.48148148148148
+    },
+    "services": {
+      "scenarios": 1200,
+      "wins": 53,
+      "outcomes": {
+        "EMPTY": 636,
+        "SUCCESS": 53,
+        "BROKEN": 435,
+        "LIMIT": 76
+      },
+      "by_stage": {
+        "1": 0.09791666666666667,
+        "2": 0.025,
+        "3": 0.0
+      },
+      "worst": 0.0,
+      "mean_success_steps": 30.88679245283019
+    },
+    "resources": {
+      "scenarios": 1200,
+      "wins": 32,
+      "outcomes": {
+        "LIMIT": 65,
+        "BROKEN": 313,
+        "EMPTY": 790,
+        "SUCCESS": 32
+      },
+      "by_stage": {
+        "1": 0.0625,
+        "2": 0.004166666666666667,
+        "3": 0.0020833333333333333
+      },
+      "worst": 0.0020833333333333333,
+      "mean_success_steps": 31.6875
+    },
+    "combined": {
+      "scenarios": 1200,
+      "wins": 1,
+      "outcomes": {
+        "EMPTY": 901,
+        "BROKEN": 294,
+        "SUCCESS": 1,
+        "LIMIT": 4
+      },
+      "by_stage": {
+        "3": 0.0008333333333333334
+      },
+      "worst": 0.0008333333333333334,
+      "mean_success_steps": 9
+    }
+  }
+}

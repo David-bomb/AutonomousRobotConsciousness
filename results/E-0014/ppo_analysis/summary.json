@@ -1,0 +1,770 @@
+{
+  "model": "ppo-v09-s4",
+  "weights_sha256": "083a85fef418d87b0c94a603c9106e950fb033c85b05ab642fcfc80b67aa37b2",
+  "gae_max_error": 8.881784197001252e-16,
+  "training": {
+    "stages": [
+      {
+        "outcomes": {
+          "EMPTY": 24343,
+          "BROKEN": 21011,
+          "SUCCESS": 1482
+        },
+        "finished": 46836,
+        "runs_zero": 0
+      },
+      {
+        "outcomes": {
+          "EMPTY": 23311,
+          "BROKEN": 16690,
+          "SUCCESS": 159
+        },
+        "finished": 40160,
+        "runs_zero": 1
+      },
+      {
+        "outcomes": {
+          "BROKEN": 9703,
+          "EMPTY": 17196,
+          "SUCCESS": 23
+        },
+        "finished": 26922,
+        "runs_zero": 29
+      }
+    ],
+    "by_run": [
+      {
+        "id": "ppo-v01-s1",
+        "wins": [
+          24,
+          6,
+          1
+        ],
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "ppo-v01-s2",
+        "wins": [
+          27,
+          3,
+          0
+        ],
+        "before": 2,
+        "after": 1
+      },
+      {
+        "id": "ppo-v01-s3",
+        "wins": [
+          26,
+          3,
+          0
+        ],
+        "before": 0,
+        "after": 3
+      },
+      {
+        "id": "ppo-v01-s4",
+        "wins": [
+          19,
+          3,
+          0
+        ],
+        "before": 0,
+        "after": 3
+      },
+      {
+        "id": "ppo-v01-s5",
+        "wins": [
+          32,
+          3,
+          0
+        ],
+        "before": 2,
+        "after": 5
+      },
+      {
+        "id": "ppo-v02-s1",
+        "wins": [
+          31,
+          2,
+          0
+        ],
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "ppo-v02-s2",
+        "wins": [
+          26,
+          4,
+          1
+        ],
+        "before": 2,
+        "after": 4
+      },
+      {
+        "id": "ppo-v02-s3",
+        "wins": [
+          40,
+          1,
+          0
+        ],
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "ppo-v02-s4",
+        "wins": [
+          29,
+          5,
+          0
+        ],
+        "before": 0,
+        "after": 7
+      },
+      {
+        "id": "ppo-v02-s5",
+        "wins": [
+          23,
+          1,
+          0
+        ],
+        "before": 2,
+        "after": 4
+      },
+      {
+        "id": "ppo-v03-s1",
+        "wins": [
+          26,
+          2,
+          0
+        ],
+        "before": 0,
+        "after": 8
+      },
+      {
+        "id": "ppo-v03-s2",
+        "wins": [
+          33,
+          2,
+          1
+        ],
+        "before": 2,
+        "after": 2
+      },
+      {
+        "id": "ppo-v03-s3",
+        "wins": [
+          35,
+          2,
+          0
+        ],
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "ppo-v03-s4",
+        "wins": [
+          32,
+          6,
+          1
+        ],
+        "before": 0,
+        "after": 3
+      },
+      {
+        "id": "ppo-v03-s5",
+        "wins": [
+          35,
+          6,
+          1
+        ],
+        "before": 2,
+        "after": 8
+      },
+      {
+        "id": "ppo-v04-s1",
+        "wins": [
+          32,
+          1,
+          1
+        ],
+        "before": 0,
+        "after": 5
+      },
+      {
+        "id": "ppo-v04-s2",
+        "wins": [
+          33,
+          4,
+          3
+        ],
+        "before": 2,
+        "after": 2
+      },
+      {
+        "id": "ppo-v04-s3",
+        "wins": [
+          31,
+          7,
+          1
+        ],
+        "before": 0,
+        "after": 3
+      },
+      {
+        "id": "ppo-v04-s4",
+        "wins": [
+          24,
+          3,
+          0
+        ],
+        "before": 0,
+        "after": 2
+      },
+      {
+        "id": "ppo-v04-s5",
+        "wins": [
+          31,
+          3,
+          0
+        ],
+        "before": 2,
+        "after": 3
+      },
+      {
+        "id": "ppo-v05-s1",
+        "wins": [
+          35,
+          1,
+          1
+        ],
+        "before": 1,
+        "after": 4
+      },
+      {
+        "id": "ppo-v05-s2",
+        "wins": [
+          25,
+          2,
+          1
+        ],
+        "before": 2,
+        "after": 2
+      },
+      {
+        "id": "ppo-v05-s3",
+        "wins": [
+          32,
+          5,
+          0
+        ],
+        "before": 1,
+        "after": 3
+      },
+      {
+        "id": "ppo-v05-s4",
+        "wins": [
+          28,
+          5,
+          1
+        ],
+        "before": 1,
+        "after": 5
+      },
+      {
+        "id": "ppo-v05-s5",
+        "wins": [
+          21,
+          2,
+          0
+        ],
+        "before": 0,
+        "after": 5
+      },
+      {
+        "id": "ppo-v06-s1",
+        "wins": [
+          29,
+          2,
+          0
+        ],
+        "before": 0,
+        "after": 2
+      },
+      {
+        "id": "ppo-v06-s2",
+        "wins": [
+          34,
+          3,
+          1
+        ],
+        "before": 4,
+        "after": 1
+      },
+      {
+        "id": "ppo-v06-s3",
+        "wins": [
+          33,
+          1,
+          0
+        ],
+        "before": 3,
+        "after": 0
+      },
+      {
+        "id": "ppo-v06-s4",
+        "wins": [
+          36,
+          6,
+          1
+        ],
+        "before": 2,
+        "after": 1
+      },
+      {
+        "id": "ppo-v06-s5",
+        "wins": [
+          29,
+          6,
+          0
+        ],
+        "before": 3,
+        "after": 3
+      },
+      {
+        "id": "ppo-v07-s1",
+        "wins": [
+          22,
+          2,
+          0
+        ],
+        "before": 0,
+        "after": 3
+      },
+      {
+        "id": "ppo-v07-s2",
+        "wins": [
+          25,
+          2,
+          1
+        ],
+        "before": 2,
+        "after": 3
+      },
+      {
+        "id": "ppo-v07-s3",
+        "wins": [
+          37,
+          2,
+          0
+        ],
+        "before": 0,
+        "after": 3
+      },
+      {
+        "id": "ppo-v07-s4",
+        "wins": [
+          32,
+          4,
+          1
+        ],
+        "before": 0,
+        "after": 6
+      },
+      {
+        "id": "ppo-v07-s5",
+        "wins": [
+          29,
+          4,
+          1
+        ],
+        "before": 2,
+        "after": 0
+      },
+      {
+        "id": "ppo-v08-s1",
+        "wins": [
+          35,
+          5,
+          1
+        ],
+        "before": 0,
+        "after": 0
+      },
+      {
+        "id": "ppo-v08-s2",
+        "wins": [
+          26,
+          1,
+          0
+        ],
+        "before": 2,
+        "after": 3
+      },
+      {
+        "id": "ppo-v08-s3",
+        "wins": [
+          26,
+          4,
+          0
+        ],
+        "before": 0,
+        "after": 0
+      },
+      {
+        "id": "ppo-v08-s4",
+        "wins": [
+          29,
+          3,
+          0
+        ],
+        "before": 0,
+        "after": 2
+      },
+      {
+        "id": "ppo-v08-s5",
+        "wins": [
+          30,
+          3,
+          1
+        ],
+        "before": 2,
+        "after": 0
+      },
+      {
+        "id": "ppo-v09-s1",
+        "wins": [
+          27,
+          2,
+          1
+        ],
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "ppo-v09-s2",
+        "wins": [
+          35,
+          2,
+          1
+        ],
+        "before": 2,
+        "after": 3
+      },
+      {
+        "id": "ppo-v09-s3",
+        "wins": [
+          27,
+          0,
+          0
+        ],
+        "before": 0,
+        "after": 0
+      },
+      {
+        "id": "ppo-v09-s4",
+        "wins": [
+          25,
+          5,
+          0
+        ],
+        "before": 0,
+        "after": 13
+      },
+      {
+        "id": "ppo-v09-s5",
+        "wins": [
+          40,
+          3,
+          0
+        ],
+        "before": 2,
+        "after": 14
+      },
+      {
+        "id": "ppo-v10-s1",
+        "wins": [
+          31,
+          4,
+          1
+        ],
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "ppo-v10-s2",
+        "wins": [
+          25,
+          1,
+          0
+        ],
+        "before": 2,
+        "after": 6
+      },
+      {
+        "id": "ppo-v10-s3",
+        "wins": [
+          34,
+          1,
+          0
+        ],
+        "before": 0,
+        "after": 1
+      },
+      {
+        "id": "ppo-v10-s4",
+        "wins": [
+          29,
+          10,
+          0
+        ],
+        "before": 0,
+        "after": 2
+      },
+      {
+        "id": "ppo-v10-s5",
+        "wins": [
+          27,
+          1,
+          0
+        ],
+        "before": 2,
+        "after": 6
+      }
+    ],
+    "updates_each": 1536,
+    "steps_each": 73728,
+    "before_mean": 0.98,
+    "after_mean": 3.2,
+    "gained": 37,
+    "unchanged": 7,
+    "lost": 6
+  },
+  "suites": {
+    "stress": {
+      "greedy": {
+        "episodes": 300,
+        "wins": 0,
+        "unique_wins": 0,
+        "outcomes": {
+          "BROKEN": 150,
+          "EMPTY": 149,
+          "LIMIT": 1
+        },
+        "any_service": 66,
+        "both_services": 8
+      },
+      "categorical": {
+        "episodes": 900,
+        "wins": 0,
+        "unique_wins": 0,
+        "outcomes": {
+          "BROKEN": 447,
+          "EMPTY": 453
+        },
+        "any_service": 107,
+        "both_services": 5,
+        "by_repeat": [
+          {
+            "episodes": 300,
+            "wins": 0,
+            "unique_wins": 0,
+            "outcomes": {
+              "BROKEN": 146,
+              "EMPTY": 154
+            },
+            "any_service": 35,
+            "both_services": 2
+          },
+          {
+            "episodes": 300,
+            "wins": 0,
+            "unique_wins": 0,
+            "outcomes": {
+              "EMPTY": 153,
+              "BROKEN": 147
+            },
+            "any_service": 36,
+            "both_services": 0
+          },
+          {
+            "episodes": 300,
+            "wins": 0,
+            "unique_wins": 0,
+            "outcomes": {
+              "BROKEN": 154,
+              "EMPTY": 146
+            },
+            "any_service": 36,
+            "both_services": 3
+          }
+        ]
+      },
+      "uniform": {
+        "episodes": 900,
+        "wins": 0,
+        "unique_wins": 0,
+        "outcomes": {
+          "BROKEN": 445,
+          "EMPTY": 455
+        },
+        "any_service": 62,
+        "both_services": 1,
+        "by_repeat": [
+          {
+            "episodes": 300,
+            "wins": 0,
+            "unique_wins": 0,
+            "outcomes": {
+              "BROKEN": 149,
+              "EMPTY": 151
+            },
+            "any_service": 16,
+            "both_services": 0
+          },
+          {
+            "episodes": 300,
+            "wins": 0,
+            "unique_wins": 0,
+            "outcomes": {
+              "BROKEN": 146,
+              "EMPTY": 154
+            },
+            "any_service": 22,
+            "both_services": 0
+          },
+          {
+            "episodes": 300,
+            "wins": 0,
+            "unique_wins": 0,
+            "outcomes": {
+              "BROKEN": 150,
+              "EMPTY": 150
+            },
+            "any_service": 24,
+            "both_services": 1
+          }
+        ]
+      }
+    },
+    "test_id_first100": {
+      "greedy": {
+        "episodes": 400,
+        "wins": 18,
+        "unique_wins": 18,
+        "outcomes": {
+          "EMPTY": 212,
+          "SUCCESS": 18,
+          "BROKEN": 149,
+          "LIMIT": 21
+        },
+        "any_service": 122,
+        "both_services": 61
+      },
+      "categorical": {
+        "episodes": 1200,
+        "wins": 36,
+        "unique_wins": 30,
+        "outcomes": {
+          "EMPTY": 642,
+          "BROKEN": 521,
+          "SUCCESS": 36,
+          "LIMIT": 1
+        },
+        "any_service": 303,
+        "both_services": 84,
+        "by_repeat": [
+          {
+            "episodes": 400,
+            "wins": 15,
+            "unique_wins": 15,
+            "outcomes": {
+              "EMPTY": 212,
+              "BROKEN": 173,
+              "SUCCESS": 15
+            },
+            "any_service": 103,
+            "both_services": 27
+          },
+          {
+            "episodes": 400,
+            "wins": 9,
+            "unique_wins": 9,
+            "outcomes": {
+              "EMPTY": 217,
+              "BROKEN": 173,
+              "SUCCESS": 9,
+              "LIMIT": 1
+            },
+            "any_service": 103,
+            "both_services": 30
+          },
+          {
+            "episodes": 400,
+            "wins": 12,
+            "unique_wins": 12,
+            "outcomes": {
+              "EMPTY": 213,
+              "BROKEN": 175,
+              "SUCCESS": 12
+            },
+            "any_service": 97,
+            "both_services": 27
+          }
+        ]
+      },
+      "uniform": {
+        "episodes": 1200,
+        "wins": 29,
+        "unique_wins": 22,
+        "outcomes": {
+          "EMPTY": 668,
+          "BROKEN": 503,
+          "SUCCESS": 29
+        },
+        "any_service": 221,
+        "both_services": 60,
+        "by_repeat": [
+          {
+            "episodes": 400,
+            "wins": 6,
+            "unique_wins": 6,
+            "outcomes": {
+              "EMPTY": 226,
+              "BROKEN": 168,
+              "SUCCESS": 6
+            },
+            "any_service": 72,
+            "both_services": 22
+          },
+          {
+            "episodes": 400,
+            "wins": 12,
+            "unique_wins": 12,
+            "outcomes": {
+              "EMPTY": 221,
+              "BROKEN": 167,
+              "SUCCESS": 12
+            },
+            "any_service": 77,
+            "both_services": 23
+          },
+          {
+            "episodes": 400,
+            "wins": 11,
+            "unique_wins": 11,
+            "outcomes": {
+              "EMPTY": 221,
+              "BROKEN": 168,
+              "SUCCESS": 11
+            },
+            "any_service": 72,
+            "both_services": 15
+          }
+        ]
+      }
+    }
+  }
+}

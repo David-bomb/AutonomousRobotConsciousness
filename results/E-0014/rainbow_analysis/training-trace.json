@@ -1,0 +1,79 @@
+{
+  "id": "rainbow-v03-s4",
+  "archived_sha256": "8e399b48caa236c08be64621f129a5eba1b747fd5c683fa6dfffe509cc43a562",
+  "before_rows_equal": true,
+  "max_absolute_weight_difference": 0.34537073969841003,
+  "matching_after_rows": 132,
+  "archive_after_wins": 16,
+  "repeat_after_wins": 5,
+  "hardware": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "train_steps": 73728,
+  "stage_outcomes": [
+    {
+      "EMPTY": 457,
+      "BROKEN": 367,
+      "SUCCESS": 18
+    },
+    {
+      "EMPTY": 407,
+      "BROKEN": 308,
+      "SUCCESS": 8
+    },
+    {
+      "BROKEN": 225,
+      "EMPTY": 296,
+      "SUCCESS": 1
+    }
+  ],
+  "stage_outcomes_archived": [
+    {
+      "EMPTY": 428,
+      "BROKEN": 354,
+      "SUCCESS": 16
+    },
+    {
+      "EMPTY": 423,
+      "BROKEN": 306,
+      "SUCCESS": 11
+    },
+    {
+      "BROKEN": 208,
+      "EMPTY": 292,
+      "SUCCESS": 2
+    }
+  ],
+  "terminal_groups": {
+    "neither": {
+      "BROKEN": 247,
+      "EMPTY": 198,
+      "SUCCESS": 12
+    },
+    "one": {
+      "EMPTY": 469,
+      "BROKEN": 502,
+      "SUCCESS": 10
+    },
+    "both": {
+      "EMPTY": 493,
+      "BROKEN": 151,
+      "SUCCESS": 5
+    }
+  },
+  "sampled_nstep_endings": {
+    "ongoing": 81214,
+    "loss": 16796,
+    "win": 294
+  },
+  "expected_nstep_endings_uniform": {
+    "ongoing": 89285.05160078203,
+    "loss": 8890.180581109025,
+    "win": 128.76781810895534
+  },
+  "instrumentation": {
+    "collection_choices": 73728,
+    "noise_changed_argmax": 6832,
+    "target_distributions": 98304,
+    "sum_mass_outside_support": 471.25146336923353,
+    "max_projection_mass_error": 4.76837158203125e-07
+  }
+}

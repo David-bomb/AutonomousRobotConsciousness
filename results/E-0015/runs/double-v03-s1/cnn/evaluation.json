@@ -1,0 +1,7039 @@
+{
+  "sha256": "34e9d3316bea98fc54a7a640ae0582465d6ba533ec34172c3f3f5dace859b22c",
+  "forks": [
+    {
+      "pair": 0,
+      "maps": [
+        "diag-control-04-00",
+        "diag-control-04-01"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          -1.214764952659607,
+          null,
+          -1.5812596082687378,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.211446762084961,
+          null,
+          -1.5815601348876953,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.0036187171936035156
+    },
+    {
+      "pair": 1,
+      "maps": [
+        "diag-control-04-02",
+        "diag-control-04-03"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          -1.3452874422073364,
+          null,
+          -0.9870033860206604,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -1.3288977146148682,
+          null,
+          -0.9737469553947449,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0031332969665527344
+    },
+    {
+      "pair": 2,
+      "maps": [
+        "diag-control-04-04",
+        "diag-control-04-05"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          -1.2857162952423096,
+          null,
+          -1.152165174484253,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -1.3131544589996338,
+          null,
+          -1.1771701574325562,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.002433180809020996
+    },
+    {
+      "pair": 3,
+      "maps": [
+        "diag-control-04-06",
+        "diag-control-04-07"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          -1.190757155418396,
+          null,
+          -1.7084972858428955,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.190757155418396,
+          null,
+          -1.7084972858428955,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 4,
+      "maps": [
+        "diag-control-04-08",
+        "diag-control-04-09"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        2
+      ],
+      "q_values": [
+        [
+          -1.321435809135437,
+          null,
+          -1.3825335502624512,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -1.3229485750198364,
+          null,
+          -1.382217288017273,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0018290281295776367
+    },
+    {
+      "pair": 5,
+      "maps": [
+        "diag-control-04-10",
+        "diag-control-04-11"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          -1.2737873792648315,
+          null,
+          -1.497918725013733,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.2737873792648315,
+          null,
+          -1.4979183673858643,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 3.5762786865234375e-07
+    },
+    {
+      "pair": 6,
+      "maps": [
+        "diag-control-04-12",
+        "diag-control-04-13"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          -1.029813528060913,
+          null,
+          -1.5741297006607056,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.029296875,
+          null,
+          -1.5741575956344604,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.0005445480346679688
+    },
+    {
+      "pair": 7,
+      "maps": [
+        "diag-control-04-14",
+        "diag-control-04-15"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          -0.9785165786743164,
+          null,
+          -1.2430881261825562,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -0.9787894487380981,
+          null,
+          -1.2421289682388306,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0012320280075073242
+    },
+    {
+      "pair": 8,
+      "maps": [
+        "diag-control-04-16",
+        "diag-control-04-17"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        2
+      ],
+      "q_values": [
+        [
+          -0.6502028703689575,
+          null,
+          -0.917966365814209,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -0.6143398880958557,
+          null,
+          -0.8926786184310913,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.01057523488998413
+    },
+    {
+      "pair": 9,
+      "maps": [
+        "diag-control-04-18",
+        "diag-control-04-19"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          -1.056256890296936,
+          null,
+          -0.7579150199890137,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -1.0575255155563354,
+          null,
+          -0.7585572004318237,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.0006264448165893555
+    },
+    {
+      "pair": 10,
+      "maps": [
+        "diag-control-04-20",
+        "diag-control-04-21"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          -1.3246840238571167,
+          null,
+          -1.4701117277145386,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.3246840238571167,
+          null,
+          -1.4701117277145386,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 11,
+      "maps": [
+        "diag-control-04-22",
+        "diag-control-04-23"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          -0.7642335295677185,
+          null,
+          -0.19322842359542847,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -0.7938404083251953,
+          null,
+          -0.18446725606918335,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.038368046283721924
+    },
+    {
+      "pair": 12,
+      "maps": [
+        "diag-control-04-24",
+        "diag-control-04-25"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          -1.3784235715866089,
+          null,
+          -1.6221400499343872,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.3785912990570068,
+          null,
+          -1.6203705072402954,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.001937270164489746
+    },
+    {
+      "pair": 13,
+      "maps": [
+        "diag-control-04-26",
+        "diag-control-04-27"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          -0.8190343379974365,
+          null,
+          -1.1804096698760986,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -0.812288761138916,
+          null,
+          -1.177444338798523,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.0037802457809448242
+    },
+    {
+      "pair": 14,
+      "maps": [
+        "diag-control-04-28",
+        "diag-control-04-29"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          -0.9994616508483887,
+          null,
+          -1.2186983823776245,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.0016484260559082,
+          null,
+          -1.216141939163208,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.004743218421936035
+    },
+    {
+      "pair": 15,
+      "maps": [
+        "diag-control-04-30",
+        "diag-control-04-31"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          -1.3710373640060425,
+          null,
+          -0.9318132996559143,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -1.3742114305496216,
+          null,
+          -0.9364216923713684,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.001434326171875
+    },
+    {
+      "pair": 16,
+      "maps": [
+        "diag-control-04-32",
+        "diag-control-04-33"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          -0.6666198372840881,
+          null,
+          -1.358432412147522,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -0.6663405299186707,
+          null,
+          -1.3585554361343384,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.0004023313522338867
+    },
+    {
+      "pair": 17,
+      "maps": [
+        "diag-control-04-34",
+        "diag-control-04-35"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          -0.700347900390625,
+          null,
+          -0.6787949800491333,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -0.7053917646408081,
+          null,
+          -0.6647889614105225,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.019049882888793945
+    },
+    {
+      "pair": 18,
+      "maps": [
+        "diag-control-04-36",
+        "diag-control-04-37"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        2
+      ],
+      "q_values": [
+        [
+          -0.9781060218811035,
+          null,
+          -1.2614457607269287,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -0.9766107797622681,
+          null,
+          -1.2616866827011108,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.0017361640930175781
+    },
+    {
+      "pair": 19,
+      "maps": [
+        "diag-control-04-38",
+        "diag-control-04-39"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          -1.0689277648925781,
+          null,
+          -0.9422572255134583,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -1.0455889701843262,
+          null,
+          -0.9264673590660095,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.007548928260803223
+    },
+    {
+      "pair": 20,
+      "maps": [
+        "diag-control-04-40",
+        "diag-control-04-41"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          -1.4377317428588867,
+          null,
+          -1.7476142644882202,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.4377317428588867,
+          null,
+          -1.7476142644882202,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 21,
+      "maps": [
+        "diag-control-04-42",
+        "diag-control-04-43"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          -1.4594404697418213,
+          null,
+          -1.3260446786880493,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -1.4611527919769287,
+          null,
+          -1.3273431062698364,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.0004138946533203125
+    },
+    {
+      "pair": 22,
+      "maps": [
+        "diag-control-04-44",
+        "diag-control-04-45"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          -1.0720933675765991,
+          null,
+          -1.1337820291519165,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.061930537223816,
+          null,
+          -1.1514861583709717,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.02786695957183838
+    },
+    {
+      "pair": 23,
+      "maps": [
+        "diag-control-04-46",
+        "diag-control-04-47"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          -1.1351491212844849,
+          null,
+          -0.6174049973487854,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          -1.1590943336486816,
+          null,
+          -0.6528071761131287,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.011456966400146484
+    },
+    {
+      "pair": 24,
+      "maps": [
+        "diag-control-04-48",
+        "diag-control-04-49"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          -1.134519338607788,
+          null,
+          -0.5912607908248901,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          -1.121579885482788,
+          null,
+          -0.5759561657905579,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": -0.0023651719093322754
+    }
+  ],
+  "indistinguishable": [
+    {
+      "pair": 0,
+      "maps": [
+        "diag-control-11-00",
+        "diag-control-11-01"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          0.31107160449028015,
+          null,
+          0.14559873938560486,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.31107160449028015,
+          null,
+          0.14559873938560486,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 1,
+      "maps": [
+        "diag-control-11-02",
+        "diag-control-11-03"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          0.23906788229942322,
+          null,
+          0.1703159213066101,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.23906788229942322,
+          null,
+          0.1703159213066101,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 2,
+      "maps": [
+        "diag-control-11-04",
+        "diag-control-11-05"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          0.15603959560394287,
+          null,
+          0.17686748504638672,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.15603959560394287,
+          null,
+          0.17686748504638672,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 3,
+      "maps": [
+        "diag-control-11-06",
+        "diag-control-11-07"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        0,
+        2
+      ],
+      "q_values": [
+        [
+          0.2418140172958374,
+          null,
+          0.3562535047531128,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.2418140172958374,
+          null,
+          0.3562535047531128,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 4,
+      "maps": [
+        "diag-control-11-08",
+        "diag-control-11-09"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        0,
+        2
+      ],
+      "q_values": [
+        [
+          0.11007016897201538,
+          null,
+          0.24839620292186737,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.11007016897201538,
+          null,
+          0.24839620292186737,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 5,
+      "maps": [
+        "diag-control-11-10",
+        "diag-control-11-11"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          0.10081988573074341,
+          null,
+          -0.10980243980884552,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.10081988573074341,
+          null,
+          -0.10980243980884552,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 6,
+      "maps": [
+        "diag-control-11-12",
+        "diag-control-11-13"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          0.12725691497325897,
+          null,
+          0.1632528007030487,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.12725691497325897,
+          null,
+          0.1632528007030487,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 7,
+      "maps": [
+        "diag-control-11-14",
+        "diag-control-11-15"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          0.20387864112854004,
+          null,
+          0.29752078652381897,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.20387864112854004,
+          null,
+          0.29752078652381897,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 8,
+      "maps": [
+        "diag-control-11-16",
+        "diag-control-11-17"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          0.26495951414108276,
+          null,
+          0.26846128702163696,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.26495951414108276,
+          null,
+          0.26846128702163696,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 9,
+      "maps": [
+        "diag-control-11-18",
+        "diag-control-11-19"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          0.1383480727672577,
+          null,
+          -0.016359904780983925,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.1383480727672577,
+          null,
+          -0.016359904780983925,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 10,
+      "maps": [
+        "diag-control-11-20",
+        "diag-control-11-21"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          0.26001647114753723,
+          null,
+          0.3091959059238434,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.26001647114753723,
+          null,
+          0.3091959059238434,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 11,
+      "maps": [
+        "diag-control-11-22",
+        "diag-control-11-23"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          0.3745878040790558,
+          null,
+          0.32962125539779663,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.3745878040790558,
+          null,
+          0.32962125539779663,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 12,
+      "maps": [
+        "diag-control-11-24",
+        "diag-control-11-25"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        2
+      ],
+      "q_values": [
+        [
+          0.0508258230984211,
+          null,
+          -0.09573299437761307,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.0508258230984211,
+          null,
+          -0.09573299437761307,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 13,
+      "maps": [
+        "diag-control-11-26",
+        "diag-control-11-27"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          0.4511062800884247,
+          null,
+          0.4353298842906952,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.4511062800884247,
+          null,
+          0.4353298842906952,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 14,
+      "maps": [
+        "diag-control-11-28",
+        "diag-control-11-29"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          0.2284785509109497,
+          null,
+          0.23881423473358154,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.2284785509109497,
+          null,
+          0.23881423473358154,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 15,
+      "maps": [
+        "diag-control-11-30",
+        "diag-control-11-31"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          0.18334627151489258,
+          null,
+          -0.032586470246315,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.18334627151489258,
+          null,
+          -0.032586470246315,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 16,
+      "maps": [
+        "diag-control-11-32",
+        "diag-control-11-33"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          0.18112662434577942,
+          null,
+          0.20378798246383667,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.18112662434577942,
+          null,
+          0.20378798246383667,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 17,
+      "maps": [
+        "diag-control-11-34",
+        "diag-control-11-35"
+      ],
+      "choices": [
+        1,
+        1
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          0.3957066535949707,
+          null,
+          0.36669114232063293,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.3957066535949707,
+          null,
+          0.36669114232063293,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 18,
+      "maps": [
+        "diag-control-11-36",
+        "diag-control-11-37"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          0.06456080079078674,
+          null,
+          -0.08873845636844635,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.06456080079078674,
+          null,
+          -0.08873845636844635,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 19,
+      "maps": [
+        "diag-control-11-38",
+        "diag-control-11-39"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          0.14593340456485748,
+          null,
+          0.24450373649597168,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.14593340456485748,
+          null,
+          0.24450373649597168,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 20,
+      "maps": [
+        "diag-control-11-40",
+        "diag-control-11-41"
+      ],
+      "choices": [
+        0,
+        0
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          0.19623050093650818,
+          null,
+          -0.005961170420050621,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.19623050093650818,
+          null,
+          -0.005961170420050621,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 21,
+      "maps": [
+        "diag-control-11-42",
+        "diag-control-11-43"
+      ],
+      "choices": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "q_values": [
+        [
+          0.389832466840744,
+          null,
+          0.4153497815132141,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          0.389832466840744,
+          null,
+          0.4153497815132141,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 22,
+      "maps": [
+        "diag-control-11-44",
+        "diag-control-11-45"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "q_values": [
+        [
+          null,
+          0.4594680368900299,
+          null,
+          0.4905432164669037,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.4594680368900299,
+          null,
+          0.4905432164669037,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 23,
+      "maps": [
+        "diag-control-11-46",
+        "diag-control-11-47"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          0.09964440017938614,
+          null,
+          0.1892685890197754,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.09964440017938614,
+          null,
+          0.1892685890197754,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    },
+    {
+      "pair": 24,
+      "maps": [
+        "diag-control-11-48",
+        "diag-control-11-49"
+      ],
+      "choices": [
+        3,
+        3
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "q_values": [
+        [
+          null,
+          0.19762325286865234,
+          null,
+          0.21561750769615173,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          0.19762325286865234,
+          null,
+          0.21561750769615173,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "correct": 1,
+      "changed": false,
+      "margin_shift": 0.0
+    }
+  ],
+  "uniform_read": null,
+  "fork_episodes": [
+    {
+      "map": "diag-control-04-00",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-01",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-02",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-03",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-04",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-05",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-06",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-07",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-08",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-09",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-10",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-11",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-12",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-13",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-14",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-15",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-16",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-17",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-18",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-19",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-20",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-21",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-22",
+      "stage": 4,
+      "outcome": "SUCCESS",
+      "steps": 79,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "diag-control-04-23",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-24",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-25",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-26",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-27",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-28",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-29",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-30",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-31",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-32",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-33",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-34",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-35",
+      "stage": 4,
+      "outcome": "SUCCESS",
+      "steps": 47,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "diag-control-04-36",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-37",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-38",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-39",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-40",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-41",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-42",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-43",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-44",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-45",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-46",
+      "stage": 4,
+      "outcome": "SUCCESS",
+      "steps": 52,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "diag-control-04-47",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-48",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "diag-control-04-49",
+      "stage": 4,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    }
+  ],
+  "validation": [
+    {
+      "map": "validation_id-00000-0",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 13,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00000-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 104,
+      "refuels": 1,
+      "repairs": 12
+    },
+    {
+      "map": "validation_id-00000-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00000-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 6,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00001-0",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 968,
+      "refuels": 195,
+      "repairs": 96
+    },
+    {
+      "map": "validation_id-00001-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00001-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 7,
+      "refuels": 4,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00001-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 105,
+      "refuels": 1,
+      "repairs": 12
+    },
+    {
+      "map": "validation_id-00002-0",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00002-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 11,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00002-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 6,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00002-3",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 968,
+      "refuels": 138,
+      "repairs": 69
+    },
+    {
+      "map": "validation_id-00003-0",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 108,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "validation_id-00003-1",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 51,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00003-2",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 106,
+      "refuels": 1,
+      "repairs": 12
+    },
+    {
+      "map": "validation_id-00003-3",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 968,
+      "refuels": 194,
+      "repairs": 193
+    },
+    {
+      "map": "validation_id-00004-0",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 34,
+      "refuels": 1,
+      "repairs": 2
+    },
+    {
+      "map": "validation_id-00004-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 4,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00004-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 186,
+      "refuels": 15,
+      "repairs": 4
+    },
+    {
+      "map": "validation_id-00004-3",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 4,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00005-0",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 968,
+      "refuels": 161,
+      "repairs": 81
+    },
+    {
+      "map": "validation_id-00005-1",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 28,
+      "refuels": 6,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00005-2",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 968,
+      "refuels": 203,
+      "repairs": 26
+    },
+    {
+      "map": "validation_id-00005-3",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 12,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00006-0",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 43,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00006-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00006-2",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 90,
+      "refuels": 0,
+      "repairs": 15
+    },
+    {
+      "map": "validation_id-00006-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00007-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00007-1",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 49,
+      "refuels": 8,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00007-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00007-3",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 90,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "validation_id-00008-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00008-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00008-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 4,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00008-3",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00009-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 39,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00009-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00009-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00009-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 3,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00010-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 33,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00010-1",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 31,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00010-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 6,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00010-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 5,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00011-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 44,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00011-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00011-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 38,
+      "refuels": 4,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00011-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00012-0",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 53,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00012-1",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 10,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00012-2",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00012-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00013-0",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 36,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00013-1",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 42,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00013-2",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 122,
+      "refuels": 5,
+      "repairs": 2
+    },
+    {
+      "map": "validation_id-00013-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 14,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00014-0",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 117,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "validation_id-00014-1",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 6,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00014-2",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 10,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00014-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00015-0",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 96,
+      "refuels": 22,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00015-1",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00015-2",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 59,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00015-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00016-0",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 105,
+      "refuels": 1,
+      "repairs": 3
+    },
+    {
+      "map": "validation_id-00016-1",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 4,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00016-2",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 13,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00016-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 2,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00017-0",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 73,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00017-1",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00017-2",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 35,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00017-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00018-0",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 77,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00018-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 64,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00018-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 90,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00018-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 43,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00019-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 48,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00019-1",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 51,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00019-2",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 86,
+      "refuels": 0,
+      "repairs": 5
+    },
+    {
+      "map": "validation_id-00019-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00020-0",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 109,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00020-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00020-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00020-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00021-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 43,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00021-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00021-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 38,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00021-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 10,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00022-0",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 33,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00022-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 14,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00022-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 5,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00022-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 4,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00023-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00023-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 69,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00023-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 78,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00023-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 53,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00024-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00024-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 97,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00024-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 64,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00024-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 52,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00025-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 65,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00025-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00025-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 37,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00025-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00026-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 115,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00026-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00026-2",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00026-3",
+      "stage": 3,
+      "outcome": "LIMIT",
+      "steps": 13448,
+      "refuels": 2239,
+      "repairs": 2239
+    },
+    {
+      "map": "validation_id-00027-0",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 61,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00027-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00027-2",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 5
+    },
+    {
+      "map": "validation_id-00027-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 28,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00028-0",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 75,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00028-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 36,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00028-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00028-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00029-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00029-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 77,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00029-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 77,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00029-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 79,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00030-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00030-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 107,
+      "refuels": 2,
+      "repairs": 24
+    },
+    {
+      "map": "validation_id-00030-2",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 968,
+      "refuels": 242,
+      "repairs": 242
+    },
+    {
+      "map": "validation_id-00030-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 104,
+      "refuels": 1,
+      "repairs": 25
+    },
+    {
+      "map": "validation_id-00031-0",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 968,
+      "refuels": 97,
+      "repairs": 194
+    },
+    {
+      "map": "validation_id-00031-1",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 968,
+      "refuels": 241,
+      "repairs": 242
+    },
+    {
+      "map": "validation_id-00031-2",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 10,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00031-3",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 12,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00032-0",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 32,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00032-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 3,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00032-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 7,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00032-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 4,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00033-0",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 101,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00033-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 5,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00033-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00033-3",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 102,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00034-0",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 8,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00034-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 4,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00034-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 6,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00034-3",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 12,
+      "refuels": 2,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00035-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 1,
+      "repairs": 20
+    },
+    {
+      "map": "validation_id-00035-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 5,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00035-2",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 105,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "validation_id-00035-3",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 10,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00036-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 72,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00036-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 10,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00036-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00036-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00037-0",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00037-1",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 56,
+      "refuels": 9,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00037-2",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 12,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00037-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00038-0",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 105,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00038-1",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 1800,
+      "refuels": 359,
+      "repairs": 179
+    },
+    {
+      "map": "validation_id-00038-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00038-3",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 61,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00039-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 32,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00039-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00039-2",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 81,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00039-3",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 7,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00040-0",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 27,
+      "refuels": 10,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00040-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 4,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00040-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00040-3",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 6,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00041-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 31,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00041-1",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00041-2",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00041-3",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 24,
+      "refuels": 3,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00042-0",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 77,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00042-1",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 69,
+      "refuels": 9,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00042-2",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00042-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 11,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00043-0",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 45,
+      "refuels": 7,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00043-1",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 117,
+      "refuels": 2,
+      "repairs": 2
+    },
+    {
+      "map": "validation_id-00043-2",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00043-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 109,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00044-0",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 109,
+      "refuels": 7,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00044-1",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 102,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00044-2",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 103,
+      "refuels": 1,
+      "repairs": 12
+    },
+    {
+      "map": "validation_id-00044-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 104,
+      "refuels": 1,
+      "repairs": 17
+    },
+    {
+      "map": "validation_id-00045-0",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 35,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00045-1",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00045-2",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 102,
+      "refuels": 1,
+      "repairs": 8
+    },
+    {
+      "map": "validation_id-00045-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00046-0",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 43,
+      "refuels": 4,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00046-1",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 5,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00046-2",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00046-3",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00047-0",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 88,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00047-1",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00047-2",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 53,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00047-3",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 31,
+      "refuels": 4,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00048-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00048-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00048-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 79,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00048-3",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 55,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00049-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 83,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00049-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00049-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00049-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 4,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00050-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 54,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00050-1",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 39,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00050-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00050-3",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 10,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00051-0",
+      "stage": 3,
+      "outcome": "LIMIT",
+      "steps": 7688,
+      "refuels": 247,
+      "repairs": 247
+    },
+    {
+      "map": "validation_id-00051-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 116,
+      "refuels": 1,
+      "repairs": 13
+    },
+    {
+      "map": "validation_id-00051-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00051-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 10,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00052-0",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 47,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00052-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 2
+    },
+    {
+      "map": "validation_id-00052-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00052-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 6,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00053-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00053-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 75,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00053-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 78,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00053-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 66,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00054-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00054-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 94,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00054-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 98,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00054-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 82,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00055-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 75,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00055-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00055-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00055-3",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 27,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00056-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 44,
+      "refuels": 0,
+      "repairs": 2
+    },
+    {
+      "map": "validation_id-00056-1",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 72,
+      "refuels": 1,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00056-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00056-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 109,
+      "refuels": 1,
+      "repairs": 1
+    },
+    {
+      "map": "validation_id-00057-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00057-1",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 52,
+      "refuels": 4,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00057-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 38,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00057-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00058-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 101,
+      "refuels": 1,
+      "repairs": 8
+    },
+    {
+      "map": "validation_id-00058-1",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 36,
+      "refuels": 8,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00058-2",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 32,
+      "refuels": 0,
+      "repairs": 5
+    },
+    {
+      "map": "validation_id-00058-3",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 3,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00059-0",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 100,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00059-1",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 60,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00059-2",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 93,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00059-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 59,
+      "refuels": 0,
+      "repairs": 0
+    }
+  ],
+  "stress": [
+    {
+      "map": "H1-01",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-02",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-03",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 2,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-04",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "I"
+    },
+    {
+      "map": "H1-05",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 111,
+      "refuels": 1,
+      "repairs": 17,
+      "split": "I"
+    },
+    {
+      "map": "H1-06",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 30,
+      "refuels": 4,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-07",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-08",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 2,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-09",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-10",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-11",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-12",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 14,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-13",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 108,
+      "refuels": 2,
+      "repairs": 30,
+      "split": "I"
+    },
+    {
+      "map": "H1-14",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 13,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-15",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 24,
+      "refuels": 3,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-16",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-17",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 31,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-18",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-19",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-20",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-21",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-22",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-23",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H1-24",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 105,
+      "refuels": 1,
+      "repairs": 38,
+      "split": "I"
+    },
+    {
+      "map": "H1-25",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-01",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-02",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-03",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-04",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-05",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 35,
+      "refuels": 4,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-06",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-07",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 28,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-08",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-09",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-10",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-11",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 14,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-12",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-13",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-14",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-15",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-16",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-17",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-18",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-19",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-20",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-21",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-22",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-23",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-24",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 2,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H2-25",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-01",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-02",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-03",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-04",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 29,
+      "refuels": 4,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-05",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-06",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-07",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-08",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-09",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-10",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 102,
+      "refuels": 33,
+      "repairs": 1,
+      "split": "I"
+    },
+    {
+      "map": "H3-11",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 28,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-12",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "I"
+    },
+    {
+      "map": "H3-13",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-14",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-15",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-16",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-17",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-18",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 28,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-19",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-20",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-21",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 14,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-22",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-23",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-24",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H3-25",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 35,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-01",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-02",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 44,
+      "refuels": 0,
+      "repairs": 2,
+      "split": "I"
+    },
+    {
+      "map": "H4-03",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-04",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-05",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-06",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-07",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-08",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-09",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-10",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-11",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-12",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-13",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-14",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-15",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-16",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 45,
+      "refuels": 19,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-17",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-18",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-19",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 3,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-20",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 28,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "I"
+    },
+    {
+      "map": "H4-21",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-22",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-23",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-24",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "H4-25",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "I"
+    },
+    {
+      "map": "fresh-H1-01",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-02",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-03",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-04",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-05",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-06",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-07",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-08",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-09",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-10",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-11",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-12",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-13",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-14",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-15",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 14,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-16",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-17",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-18",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-19",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-20",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-21",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-22",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 102,
+      "refuels": 1,
+      "repairs": 2,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-23",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-24",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 112,
+      "refuels": 1,
+      "repairs": 24,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H1-25",
+      "stage": 2,
+      "outcome": "LIMIT",
+      "steps": 3192,
+      "refuels": 229,
+      "repairs": 227,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-01",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-02",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-03",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-04",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-05",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 11,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-06",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-07",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-08",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-09",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 11,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-10",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-11",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-12",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-13",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 42,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-14",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-15",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 11,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-16",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-17",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-18",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 33,
+      "refuels": 0,
+      "repairs": 7,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-19",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-20",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-21",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-22",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 38,
+      "refuels": 5,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-23",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 14,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-24",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H2-25",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-01",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-02",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-03",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-04",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-05",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-06",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-07",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-08",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-09",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-10",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-11",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-12",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-13",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 31,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-14",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-15",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-16",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-17",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 6,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-18",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-19",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-20",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-21",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-22",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-23",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-24",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H3-25",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 2,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-01",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-02",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-03",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 14,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-04",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-05",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-06",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 5,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-07",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-08",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-09",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-10",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 127,
+      "refuels": 1,
+      "repairs": 3,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-11",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 6,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-12",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 111,
+      "refuels": 1,
+      "repairs": 20,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-13",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-14",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-15",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 28,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-16",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-17",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 4,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-18",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-19",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-20",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-21",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-22",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-23",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-24",
+      "stage": 2,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "fresh-H4-25",
+      "stage": 2,
+      "outcome": "EMPTY",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "II"
+    },
+    {
+      "map": "check-H1-01",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-02",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 3,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-03",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-04",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 24,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-05",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-06",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-07",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-08",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-09",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-10",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-11",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 32,
+      "refuels": 12,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-12",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-13",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-14",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-15",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 2,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-16",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 2,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-17",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-18",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 3,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-19",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-20",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-21",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-22",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 28,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-23",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 15,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-24",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 35,
+      "refuels": 2,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H1-25",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-01",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 6,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-02",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-03",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-04",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 10,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-05",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-06",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-07",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-08",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-09",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-10",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-11",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-12",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-13",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-14",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 36,
+      "refuels": 0,
+      "repairs": 5,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-15",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-16",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 32,
+      "refuels": 2,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-17",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 38,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-18",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-19",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-20",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-21",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 23,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-22",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-23",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-24",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 30,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H2-25",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-01",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-02",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-03",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-04",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 11,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-05",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 55,
+      "refuels": 0,
+      "repairs": 10,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-06",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 31,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-07",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-08",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-09",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 20,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-10",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 2,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-11",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-12",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-13",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 13,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-14",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-15",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-16",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-17",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 29,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-18",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-19",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 11,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-20",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-21",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-22",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-23",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 102,
+      "refuels": 1,
+      "repairs": 1,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-24",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H3-25",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 12,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-01",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 1,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-02",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 28,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-03",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 26,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-04",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-05",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 1,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-06",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-07",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 16,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-08",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 22,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-09",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 15,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-10",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-11",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-12",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 19,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-13",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 9,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-14",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-15",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 21,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-16",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-17",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-18",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 17,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-19",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 29,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-20",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 7,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-21",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 24,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-22",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-23",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 8,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-24",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 18,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    },
+    {
+      "map": "check-H4-25",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 27,
+      "refuels": 0,
+      "repairs": 0,
+      "split": "III"
+    }
+  ],
+  "checked_paths": {
+    "fresh-H4-17": "1330",
+    "H2-14": "3330033",
+    "check-H4-20": "0113322"
+  }
+}

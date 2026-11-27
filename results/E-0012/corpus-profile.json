@@ -1,0 +1,2601 @@
+{
+  "geometries": 76500,
+  "scenarios": 306000,
+  "groups": {
+    "train": {
+      "standard": 60000
+    },
+    "validation_id": {
+      "standard": 3000
+    },
+    "shift_development": {
+      "size": 300,
+      "parameters": 300,
+      "services": 300,
+      "resources": 300,
+      "combined": 300
+    },
+    "test_id": {
+      "standard": 6000
+    },
+    "test_ood": {
+      "size": 1000,
+      "generator": 1000,
+      "topology": 1000,
+      "services": 1000,
+      "resources": 1000,
+      "combined": 1000
+    }
+  },
+  "checked_seeds": [
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "dfs",
+      "width": 45,
+      "height": 45,
+      "index": 0
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "dfs",
+      "width": 11,
+      "height": 15,
+      "index": 1
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "dfs",
+      "width": 11,
+      "height": 11,
+      "index": 2
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "dfs",
+      "width": 11,
+      "height": 11,
+      "index": 3
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "dfs",
+      "width": 45,
+      "height": 49,
+      "index": 4
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "prim",
+      "width": 45,
+      "height": 45,
+      "index": 5
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "prim",
+      "width": 11,
+      "height": 15,
+      "index": 6
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "prim",
+      "width": 11,
+      "height": 11,
+      "index": 7
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "prim",
+      "width": 11,
+      "height": 11,
+      "index": 8
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "prim",
+      "width": 45,
+      "height": 49,
+      "index": 9
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "braid",
+      "width": 45,
+      "height": 45,
+      "index": 10
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "braid",
+      "width": 11,
+      "height": 15,
+      "index": 11
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "braid",
+      "width": 11,
+      "height": 11,
+      "index": 12
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "braid",
+      "width": 11,
+      "height": 11,
+      "index": 13
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "braid",
+      "width": 45,
+      "height": 49,
+      "index": 14
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "rooms",
+      "width": 45,
+      "height": 45,
+      "index": 15
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "rooms",
+      "width": 11,
+      "height": 15,
+      "index": 16
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "rooms",
+      "width": 11,
+      "height": 11,
+      "index": 17
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "rooms",
+      "width": 11,
+      "height": 11,
+      "index": 18
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "rooms",
+      "width": 45,
+      "height": 49,
+      "index": 19
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "field",
+      "width": 45,
+      "height": 45,
+      "index": 20
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "field",
+      "width": 11,
+      "height": 15,
+      "index": 21
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "field",
+      "width": 11,
+      "height": 11,
+      "index": 22
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "field",
+      "width": 11,
+      "height": 11,
+      "index": 23
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "field",
+      "width": 45,
+      "height": 49,
+      "index": 24
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "blocks",
+      "width": 45,
+      "height": 45,
+      "index": 25
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "blocks",
+      "width": 11,
+      "height": 15,
+      "index": 26
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "blocks",
+      "width": 11,
+      "height": 11,
+      "index": 27
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "blocks",
+      "width": 11,
+      "height": 11,
+      "index": 28
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "blocks",
+      "width": 45,
+      "height": 49,
+      "index": 29
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "dfs",
+      "width": 49,
+      "height": 49,
+      "index": 30
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "dfs",
+      "width": 15,
+      "height": 19,
+      "index": 31
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "dfs",
+      "width": 15,
+      "height": 15,
+      "index": 32
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "dfs",
+      "width": 15,
+      "height": 15,
+      "index": 33
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "dfs",
+      "width": 49,
+      "height": 53,
+      "index": 34
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "prim",
+      "width": 49,
+      "height": 49,
+      "index": 35
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "prim",
+      "width": 15,
+      "height": 19,
+      "index": 36
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "prim",
+      "width": 15,
+      "height": 15,
+      "index": 37
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "prim",
+      "width": 15,
+      "height": 15,
+      "index": 38
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "prim",
+      "width": 49,
+      "height": 53,
+      "index": 39
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "braid",
+      "width": 49,
+      "height": 49,
+      "index": 40
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "braid",
+      "width": 15,
+      "height": 19,
+      "index": 41
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "braid",
+      "width": 15,
+      "height": 15,
+      "index": 42
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "braid",
+      "width": 15,
+      "height": 15,
+      "index": 43
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "braid",
+      "width": 49,
+      "height": 53,
+      "index": 44
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "rooms",
+      "width": 49,
+      "height": 49,
+      "index": 45
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "rooms",
+      "width": 15,
+      "height": 19,
+      "index": 46
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "rooms",
+      "width": 15,
+      "height": 15,
+      "index": 47
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "rooms",
+      "width": 15,
+      "height": 15,
+      "index": 48
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "rooms",
+      "width": 49,
+      "height": 53,
+      "index": 49
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "field",
+      "width": 49,
+      "height": 49,
+      "index": 50
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "field",
+      "width": 15,
+      "height": 19,
+      "index": 51
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "field",
+      "width": 15,
+      "height": 15,
+      "index": 52
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "field",
+      "width": 15,
+      "height": 15,
+      "index": 53
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "field",
+      "width": 49,
+      "height": 53,
+      "index": 54
+    },
+    {
+      "split": "shift_development",
+      "group": "size",
+      "family": "blocks",
+      "width": 49,
+      "height": 49,
+      "index": 55
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "blocks",
+      "width": 15,
+      "height": 19,
+      "index": 56
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "blocks",
+      "width": 15,
+      "height": 15,
+      "index": 57
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "blocks",
+      "width": 15,
+      "height": 15,
+      "index": 58
+    },
+    {
+      "split": "shift_development",
+      "group": "combined",
+      "family": "blocks",
+      "width": 49,
+      "height": 53,
+      "index": 59
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "dfs",
+      "width": 21,
+      "height": 25,
+      "index": 61
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "dfs",
+      "width": 21,
+      "height": 21,
+      "index": 62
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "dfs",
+      "width": 21,
+      "height": 21,
+      "index": 63
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "prim",
+      "width": 21,
+      "height": 25,
+      "index": 66
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "prim",
+      "width": 21,
+      "height": 21,
+      "index": 67
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "prim",
+      "width": 21,
+      "height": 21,
+      "index": 68
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "braid",
+      "width": 21,
+      "height": 25,
+      "index": 71
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "braid",
+      "width": 21,
+      "height": 21,
+      "index": 72
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "braid",
+      "width": 21,
+      "height": 21,
+      "index": 73
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "rooms",
+      "width": 21,
+      "height": 25,
+      "index": 76
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "rooms",
+      "width": 21,
+      "height": 21,
+      "index": 77
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "rooms",
+      "width": 21,
+      "height": 21,
+      "index": 78
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "field",
+      "width": 21,
+      "height": 25,
+      "index": 81
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "field",
+      "width": 21,
+      "height": 21,
+      "index": 82
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "field",
+      "width": 21,
+      "height": 21,
+      "index": 83
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "blocks",
+      "width": 21,
+      "height": 25,
+      "index": 86
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "blocks",
+      "width": 21,
+      "height": 21,
+      "index": 87
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "blocks",
+      "width": 21,
+      "height": 21,
+      "index": 88
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "dfs",
+      "width": 31,
+      "height": 35,
+      "index": 91
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "dfs",
+      "width": 31,
+      "height": 31,
+      "index": 92
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "dfs",
+      "width": 31,
+      "height": 31,
+      "index": 93
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "prim",
+      "width": 31,
+      "height": 35,
+      "index": 96
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "prim",
+      "width": 31,
+      "height": 31,
+      "index": 97
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "prim",
+      "width": 31,
+      "height": 31,
+      "index": 98
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "braid",
+      "width": 31,
+      "height": 35,
+      "index": 101
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "braid",
+      "width": 31,
+      "height": 31,
+      "index": 102
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "braid",
+      "width": 31,
+      "height": 31,
+      "index": 103
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "rooms",
+      "width": 31,
+      "height": 35,
+      "index": 106
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "rooms",
+      "width": 31,
+      "height": 31,
+      "index": 107
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "rooms",
+      "width": 31,
+      "height": 31,
+      "index": 108
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "field",
+      "width": 31,
+      "height": 35,
+      "index": 111
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "field",
+      "width": 31,
+      "height": 31,
+      "index": 112
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "field",
+      "width": 31,
+      "height": 31,
+      "index": 113
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "blocks",
+      "width": 31,
+      "height": 35,
+      "index": 116
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "blocks",
+      "width": 31,
+      "height": 31,
+      "index": 117
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "blocks",
+      "width": 31,
+      "height": 31,
+      "index": 118
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "dfs",
+      "width": 41,
+      "height": 45,
+      "index": 121
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "dfs",
+      "width": 41,
+      "height": 41,
+      "index": 122
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "dfs",
+      "width": 41,
+      "height": 41,
+      "index": 123
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "prim",
+      "width": 41,
+      "height": 45,
+      "index": 126
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "prim",
+      "width": 41,
+      "height": 41,
+      "index": 127
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "prim",
+      "width": 41,
+      "height": 41,
+      "index": 128
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "braid",
+      "width": 41,
+      "height": 45,
+      "index": 131
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "braid",
+      "width": 41,
+      "height": 41,
+      "index": 132
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "braid",
+      "width": 41,
+      "height": 41,
+      "index": 133
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "rooms",
+      "width": 41,
+      "height": 45,
+      "index": 136
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "rooms",
+      "width": 41,
+      "height": 41,
+      "index": 137
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "rooms",
+      "width": 41,
+      "height": 41,
+      "index": 138
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "field",
+      "width": 41,
+      "height": 45,
+      "index": 141
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "field",
+      "width": 41,
+      "height": 41,
+      "index": 142
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "field",
+      "width": 41,
+      "height": 41,
+      "index": 143
+    },
+    {
+      "split": "shift_development",
+      "group": "parameters",
+      "family": "blocks",
+      "width": 41,
+      "height": 45,
+      "index": 146
+    },
+    {
+      "split": "shift_development",
+      "group": "services",
+      "family": "blocks",
+      "width": 41,
+      "height": 41,
+      "index": 147
+    },
+    {
+      "split": "shift_development",
+      "group": "resources",
+      "family": "blocks",
+      "width": 41,
+      "height": 41,
+      "index": 148
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 11,
+      "height": 11,
+      "index": 0
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 11,
+      "height": 11,
+      "index": 1
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 11,
+      "height": 11,
+      "index": 2
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 11,
+      "height": 11,
+      "index": 3
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "field",
+      "width": 11,
+      "height": 11,
+      "index": 4
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 11,
+      "height": 11,
+      "index": 5
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 15,
+      "height": 15,
+      "index": 6
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 15,
+      "height": 15,
+      "index": 7
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 15,
+      "height": 15,
+      "index": 8
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 15,
+      "height": 15,
+      "index": 9
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "field",
+      "width": 15,
+      "height": 15,
+      "index": 10
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 15,
+      "height": 15,
+      "index": 11
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 21,
+      "height": 21,
+      "index": 12
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 21,
+      "height": 21,
+      "index": 13
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 21,
+      "height": 21,
+      "index": 14
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 21,
+      "height": 21,
+      "index": 15
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "field",
+      "width": 21,
+      "height": 21,
+      "index": 16
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 21,
+      "height": 21,
+      "index": 17
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 31,
+      "height": 31,
+      "index": 18
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 31,
+      "height": 31,
+      "index": 19
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 31,
+      "height": 31,
+      "index": 20
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 31,
+      "height": 31,
+      "index": 21
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "field",
+      "width": 31,
+      "height": 31,
+      "index": 22
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 31,
+      "height": 31,
+      "index": 23
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 41,
+      "height": 41,
+      "index": 24
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 41,
+      "height": 41,
+      "index": 25
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 41,
+      "height": 41,
+      "index": 26
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 41,
+      "height": 41,
+      "index": 27
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "field",
+      "width": 41,
+      "height": 41,
+      "index": 28
+    },
+    {
+      "split": "test_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 41,
+      "height": 41,
+      "index": 29
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "dfs",
+      "width": 61,
+      "height": 61,
+      "index": 0
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "wilson",
+      "width": 11,
+      "height": 11,
+      "index": 1
+    },
+    {
+      "split": "test_ood",
+      "group": "topology",
+      "family": "dfs",
+      "width": 41,
+      "height": 41,
+      "index": 2
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "dfs",
+      "width": 11,
+      "height": 11,
+      "index": 3
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "dfs",
+      "width": 11,
+      "height": 11,
+      "index": 4
+    },
+    {
+      "split": "test_ood",
+      "group": "combined",
+      "family": "wilson",
+      "width": 61,
+      "height": 61,
+      "index": 5
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "prim",
+      "width": 61,
+      "height": 61,
+      "index": 6
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "division",
+      "width": 11,
+      "height": 11,
+      "index": 7
+    },
+    {
+      "split": "test_ood",
+      "group": "topology",
+      "family": "braid",
+      "width": 41,
+      "height": 41,
+      "index": 8
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "prim",
+      "width": 11,
+      "height": 11,
+      "index": 9
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "prim",
+      "width": 11,
+      "height": 11,
+      "index": 10
+    },
+    {
+      "split": "test_ood",
+      "group": "combined",
+      "family": "division",
+      "width": 61,
+      "height": 61,
+      "index": 11
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "braid",
+      "width": 61,
+      "height": 61,
+      "index": 12
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "braid",
+      "width": 11,
+      "height": 11,
+      "index": 15
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "braid",
+      "width": 11,
+      "height": 11,
+      "index": 16
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "rooms",
+      "width": 61,
+      "height": 61,
+      "index": 18
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "rooms",
+      "width": 11,
+      "height": 11,
+      "index": 21
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "rooms",
+      "width": 11,
+      "height": 11,
+      "index": 22
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "field",
+      "width": 61,
+      "height": 61,
+      "index": 24
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "field",
+      "width": 11,
+      "height": 11,
+      "index": 27
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "field",
+      "width": 11,
+      "height": 11,
+      "index": 28
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "blocks",
+      "width": 61,
+      "height": 61,
+      "index": 30
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "blocks",
+      "width": 11,
+      "height": 11,
+      "index": 33
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "blocks",
+      "width": 11,
+      "height": 11,
+      "index": 34
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "dfs",
+      "width": 81,
+      "height": 81,
+      "index": 36
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "wilson",
+      "width": 15,
+      "height": 15,
+      "index": 37
+    },
+    {
+      "split": "test_ood",
+      "group": "topology",
+      "family": "dfs",
+      "width": 49,
+      "height": 49,
+      "index": 38
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "dfs",
+      "width": 15,
+      "height": 15,
+      "index": 39
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "dfs",
+      "width": 15,
+      "height": 15,
+      "index": 40
+    },
+    {
+      "split": "test_ood",
+      "group": "combined",
+      "family": "wilson",
+      "width": 81,
+      "height": 81,
+      "index": 41
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "prim",
+      "width": 81,
+      "height": 81,
+      "index": 42
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "division",
+      "width": 15,
+      "height": 15,
+      "index": 43
+    },
+    {
+      "split": "test_ood",
+      "group": "topology",
+      "family": "braid",
+      "width": 49,
+      "height": 49,
+      "index": 44
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "prim",
+      "width": 15,
+      "height": 15,
+      "index": 45
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "prim",
+      "width": 15,
+      "height": 15,
+      "index": 46
+    },
+    {
+      "split": "test_ood",
+      "group": "combined",
+      "family": "division",
+      "width": 81,
+      "height": 81,
+      "index": 47
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "braid",
+      "width": 81,
+      "height": 81,
+      "index": 48
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "braid",
+      "width": 15,
+      "height": 15,
+      "index": 51
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "braid",
+      "width": 15,
+      "height": 15,
+      "index": 52
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "rooms",
+      "width": 81,
+      "height": 81,
+      "index": 54
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "rooms",
+      "width": 15,
+      "height": 15,
+      "index": 57
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "rooms",
+      "width": 15,
+      "height": 15,
+      "index": 58
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "field",
+      "width": 81,
+      "height": 81,
+      "index": 60
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "field",
+      "width": 15,
+      "height": 15,
+      "index": 63
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "field",
+      "width": 15,
+      "height": 15,
+      "index": 64
+    },
+    {
+      "split": "test_ood",
+      "group": "size",
+      "family": "blocks",
+      "width": 81,
+      "height": 81,
+      "index": 66
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "blocks",
+      "width": 15,
+      "height": 15,
+      "index": 69
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "blocks",
+      "width": 15,
+      "height": 15,
+      "index": 70
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "wilson",
+      "width": 21,
+      "height": 21,
+      "index": 73
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "dfs",
+      "width": 21,
+      "height": 21,
+      "index": 75
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "dfs",
+      "width": 21,
+      "height": 21,
+      "index": 76
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "division",
+      "width": 21,
+      "height": 21,
+      "index": 79
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "prim",
+      "width": 21,
+      "height": 21,
+      "index": 81
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "prim",
+      "width": 21,
+      "height": 21,
+      "index": 82
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "braid",
+      "width": 21,
+      "height": 21,
+      "index": 87
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "braid",
+      "width": 21,
+      "height": 21,
+      "index": 88
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "rooms",
+      "width": 21,
+      "height": 21,
+      "index": 93
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "rooms",
+      "width": 21,
+      "height": 21,
+      "index": 94
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "field",
+      "width": 21,
+      "height": 21,
+      "index": 99
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "field",
+      "width": 21,
+      "height": 21,
+      "index": 100
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "blocks",
+      "width": 21,
+      "height": 21,
+      "index": 105
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "blocks",
+      "width": 21,
+      "height": 21,
+      "index": 106
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "wilson",
+      "width": 31,
+      "height": 31,
+      "index": 109
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "dfs",
+      "width": 31,
+      "height": 31,
+      "index": 111
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "dfs",
+      "width": 31,
+      "height": 31,
+      "index": 112
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "division",
+      "width": 31,
+      "height": 31,
+      "index": 115
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "prim",
+      "width": 31,
+      "height": 31,
+      "index": 117
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "prim",
+      "width": 31,
+      "height": 31,
+      "index": 118
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "braid",
+      "width": 31,
+      "height": 31,
+      "index": 123
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "braid",
+      "width": 31,
+      "height": 31,
+      "index": 124
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "rooms",
+      "width": 31,
+      "height": 31,
+      "index": 129
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "rooms",
+      "width": 31,
+      "height": 31,
+      "index": 130
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "field",
+      "width": 31,
+      "height": 31,
+      "index": 135
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "field",
+      "width": 31,
+      "height": 31,
+      "index": 136
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "blocks",
+      "width": 31,
+      "height": 31,
+      "index": 141
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "blocks",
+      "width": 31,
+      "height": 31,
+      "index": 142
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "wilson",
+      "width": 41,
+      "height": 41,
+      "index": 145
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "dfs",
+      "width": 41,
+      "height": 41,
+      "index": 147
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "dfs",
+      "width": 41,
+      "height": 41,
+      "index": 148
+    },
+    {
+      "split": "test_ood",
+      "group": "generator",
+      "family": "division",
+      "width": 41,
+      "height": 41,
+      "index": 151
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "prim",
+      "width": 41,
+      "height": 41,
+      "index": 153
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "prim",
+      "width": 41,
+      "height": 41,
+      "index": 154
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "braid",
+      "width": 41,
+      "height": 41,
+      "index": 159
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "braid",
+      "width": 41,
+      "height": 41,
+      "index": 160
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "rooms",
+      "width": 41,
+      "height": 41,
+      "index": 165
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "rooms",
+      "width": 41,
+      "height": 41,
+      "index": 166
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "field",
+      "width": 41,
+      "height": 41,
+      "index": 171
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "field",
+      "width": 41,
+      "height": 41,
+      "index": 172
+    },
+    {
+      "split": "test_ood",
+      "group": "services",
+      "family": "blocks",
+      "width": 41,
+      "height": 41,
+      "index": 177
+    },
+    {
+      "split": "test_ood",
+      "group": "resources",
+      "family": "blocks",
+      "width": 41,
+      "height": 41,
+      "index": 178
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "dfs",
+      "width": 11,
+      "height": 11,
+      "index": 0
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "prim",
+      "width": 11,
+      "height": 11,
+      "index": 1
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "braid",
+      "width": 11,
+      "height": 11,
+      "index": 2
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "rooms",
+      "width": 11,
+      "height": 11,
+      "index": 3
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "field",
+      "width": 11,
+      "height": 11,
+      "index": 4
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "blocks",
+      "width": 11,
+      "height": 11,
+      "index": 5
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "dfs",
+      "width": 15,
+      "height": 15,
+      "index": 6
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "prim",
+      "width": 15,
+      "height": 15,
+      "index": 7
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "braid",
+      "width": 15,
+      "height": 15,
+      "index": 8
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "rooms",
+      "width": 15,
+      "height": 15,
+      "index": 9
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "field",
+      "width": 15,
+      "height": 15,
+      "index": 10
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "blocks",
+      "width": 15,
+      "height": 15,
+      "index": 11
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "dfs",
+      "width": 21,
+      "height": 21,
+      "index": 12
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "prim",
+      "width": 21,
+      "height": 21,
+      "index": 13
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "braid",
+      "width": 21,
+      "height": 21,
+      "index": 14
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "rooms",
+      "width": 21,
+      "height": 21,
+      "index": 15
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "field",
+      "width": 21,
+      "height": 21,
+      "index": 16
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "blocks",
+      "width": 21,
+      "height": 21,
+      "index": 17
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "dfs",
+      "width": 31,
+      "height": 31,
+      "index": 18
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "prim",
+      "width": 31,
+      "height": 31,
+      "index": 19
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "braid",
+      "width": 31,
+      "height": 31,
+      "index": 20
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "rooms",
+      "width": 31,
+      "height": 31,
+      "index": 21
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "field",
+      "width": 31,
+      "height": 31,
+      "index": 22
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "blocks",
+      "width": 31,
+      "height": 31,
+      "index": 23
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "dfs",
+      "width": 41,
+      "height": 41,
+      "index": 24
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "prim",
+      "width": 41,
+      "height": 41,
+      "index": 25
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "braid",
+      "width": 41,
+      "height": 41,
+      "index": 26
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "rooms",
+      "width": 41,
+      "height": 41,
+      "index": 27
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "field",
+      "width": 41,
+      "height": 41,
+      "index": 28
+    },
+    {
+      "split": "train",
+      "group": "standard",
+      "family": "blocks",
+      "width": 41,
+      "height": 41,
+      "index": 29
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 11,
+      "height": 11,
+      "index": 0
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 11,
+      "height": 11,
+      "index": 1
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 11,
+      "height": 11,
+      "index": 2
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 11,
+      "height": 11,
+      "index": 3
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "field",
+      "width": 11,
+      "height": 11,
+      "index": 4
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 11,
+      "height": 11,
+      "index": 5
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 15,
+      "height": 15,
+      "index": 6
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 15,
+      "height": 15,
+      "index": 7
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 15,
+      "height": 15,
+      "index": 8
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 15,
+      "height": 15,
+      "index": 9
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "field",
+      "width": 15,
+      "height": 15,
+      "index": 10
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 15,
+      "height": 15,
+      "index": 11
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 21,
+      "height": 21,
+      "index": 12
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 21,
+      "height": 21,
+      "index": 13
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 21,
+      "height": 21,
+      "index": 14
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 21,
+      "height": 21,
+      "index": 15
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "field",
+      "width": 21,
+      "height": 21,
+      "index": 16
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 21,
+      "height": 21,
+      "index": 17
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 31,
+      "height": 31,
+      "index": 18
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 31,
+      "height": 31,
+      "index": 19
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 31,
+      "height": 31,
+      "index": 20
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 31,
+      "height": 31,
+      "index": 21
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "field",
+      "width": 31,
+      "height": 31,
+      "index": 22
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 31,
+      "height": 31,
+      "index": 23
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "dfs",
+      "width": 41,
+      "height": 41,
+      "index": 24
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "prim",
+      "width": 41,
+      "height": 41,
+      "index": 25
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "braid",
+      "width": 41,
+      "height": 41,
+      "index": 26
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "rooms",
+      "width": 41,
+      "height": 41,
+      "index": 27
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "field",
+      "width": 41,
+      "height": 41,
+      "index": 28
+    },
+    {
+      "split": "validation_id",
+      "group": "standard",
+      "family": "blocks",
+      "width": 41,
+      "height": 41,
+      "index": 29
+    }
+  ],
+  "train_counts": {
+    "300": {
+      "dfs": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "prim": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "braid": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "rooms": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "field": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "blocks": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "3000": {
+      "dfs": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "prim": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "braid": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "rooms": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "field": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "blocks": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ]
+    },
+    "30000": {
+      "dfs": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "prim": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "braid": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "rooms": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "field": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "blocks": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ]
+    },
+    "60000": {
+      "dfs": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "prim": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "braid": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "rooms": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "field": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ],
+      "blocks": [
+        2000,
+        2000,
+        2000,
+        2000,
+        2000
+      ]
+    }
+  },
+  "train_sizes": [
+    11,
+    15,
+    21,
+    31,
+    41
+  ],
+  "necessary_by_direct_path": {
+    "train": {
+      "0": 51613,
+      "1": 51590,
+      "2": 51737,
+      "3": 85060
+    },
+    "validation_id": {
+      "0": 2583,
+      "1": 2582,
+      "2": 2592,
+      "3": 4243
+    },
+    "shift_development": {
+      "3": 3811,
+      "0": 704,
+      "1": 760,
+      "2": 725
+    },
+    "test_id": {
+      "0": 5146,
+      "1": 5139,
+      "2": 5151,
+      "3": 8564
+    },
+    "test_ood": {
+      "3": 13223,
+      "0": 3585,
+      "1": 3581,
+      "2": 3611
+    }
+  }
+}

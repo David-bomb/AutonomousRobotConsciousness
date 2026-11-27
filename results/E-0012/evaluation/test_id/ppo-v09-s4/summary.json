@@ -1,0 +1,39 @@
+{
+  "id": "ppo-v09-s4",
+  "split": "test_id",
+  "weights_sha256": "083a85fef418d87b0c94a603c9106e950fb033c85b05ab642fcfc80b67aa37b2",
+  "scenarios": 24000,
+  "wins": 680,
+  "outcomes": {
+    "EMPTY": 12751,
+    "SUCCESS": 680,
+    "BROKEN": 9484,
+    "LIMIT": 1085
+  },
+  "by_stage": {
+    "1": 0.06104166666666667,
+    "2": 0.013333333333333334,
+    "3": 0.003125
+  },
+  "worst": 0.003125,
+  "mean_success_steps": 30.13529411764706,
+  "groups": {
+    "standard": {
+      "scenarios": 24000,
+      "wins": 680,
+      "outcomes": {
+        "EMPTY": 12751,
+        "SUCCESS": 680,
+        "BROKEN": 9484,
+        "LIMIT": 1085
+      },
+      "by_stage": {
+        "1": 0.06104166666666667,
+        "2": 0.013333333333333334,
+        "3": 0.003125
+      },
+      "worst": 0.003125,
+      "mean_success_steps": 30.13529411764706
+    }
+  }
+}

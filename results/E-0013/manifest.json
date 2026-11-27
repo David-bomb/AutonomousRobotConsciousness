@@ -1,0 +1,5471 @@
+{
+  "source": "E-0012",
+  "map_source": "E-0010",
+  "sets_sha256_lf": {
+    "I": "ea09b467f486a64ffcabe20086c632da27c9c431e55d017be2732174971ef899",
+    "II": "ed26050bcb1cd455e9fad8a19bd522e82426615ededac10dbf244e91d8c79e64",
+    "III": "daf93cb623f52361a60c89dac63ba29ee99bc6ec6a7231d4effd1ee48d73f9e3"
+  },
+  "train_overlap": [],
+  "diagnostic_train_overlap": [],
+  "input_canvas": 81,
+  "models": {
+    "double-v01-s1": {
+      "config": {
+        "id": "double-v01-s1",
+        "family": "double",
+        "variant": 1,
+        "seed": 39139,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v01-s1/weights.pt",
+      "sha256": "b735f6bf158af1ad6578e8ec11285cc9798f9b388b221bee13a5152c4487e0ef",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v01-s1": {
+      "config": {
+        "id": "dueling-v01-s1",
+        "family": "dueling",
+        "variant": 1,
+        "seed": 39139,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v01-s1/weights.pt",
+      "sha256": "80ce449a021e6248dba7e798fef769b893b9816aff5df0c0710351a1163b3143",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v01-s1": {
+      "config": {
+        "id": "rainbow-v01-s1",
+        "family": "rainbow",
+        "variant": 1,
+        "seed": 39139,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v01-s1/weights.pt",
+      "sha256": "c570926e5a34c12e16b8a9133144bd75b58e0df98ea427d448d48e2ad2004fb9",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v01-s1": {
+      "config": {
+        "id": "ppo-v01-s1",
+        "family": "ppo",
+        "variant": 1,
+        "seed": 39139,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v01-s1/weights.pt",
+      "sha256": "f28d6cd51850101d843700f52aa13d0222083b1fc6c6342db19ed19ce79aa054",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v01-s2": {
+      "config": {
+        "id": "double-v01-s2",
+        "family": "double",
+        "variant": 1,
+        "seed": 71809,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v01-s2/weights.pt",
+      "sha256": "9cf37b2aead2ed1297ca3a928dee9b9e6dad136f9e28e7fc87dd71b8246ffa24",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v01-s2": {
+      "config": {
+        "id": "dueling-v01-s2",
+        "family": "dueling",
+        "variant": 1,
+        "seed": 71809,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v01-s2/weights.pt",
+      "sha256": "0cb74a842374def67462453b20b323fe62a72a11a16e8e4af487e9d56c838e30",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v01-s2": {
+      "config": {
+        "id": "rainbow-v01-s2",
+        "family": "rainbow",
+        "variant": 1,
+        "seed": 71809,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v01-s2/weights.pt",
+      "sha256": "1e57027a108cd6bcb2aca3fda5e18cee8db32f8dad6034a6104778a9f043ee70",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v01-s2": {
+      "config": {
+        "id": "ppo-v01-s2",
+        "family": "ppo",
+        "variant": 1,
+        "seed": 71809,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v01-s2/weights.pt",
+      "sha256": "66eccf020935831f93740e2f14fb5d74b81383dc1550ba3b0776582a2e274c7c",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v01-s3": {
+      "config": {
+        "id": "double-v01-s3",
+        "family": "double",
+        "variant": 1,
+        "seed": 92221,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v01-s3/weights.pt",
+      "sha256": "29b8ba1bf87700dd0054b24ec4da443f96fcaa283d3d5b804a71c2287b42605e",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v01-s3": {
+      "config": {
+        "id": "dueling-v01-s3",
+        "family": "dueling",
+        "variant": 1,
+        "seed": 92221,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v01-s3/weights.pt",
+      "sha256": "4e953388327ebd4b722961915d9557c3420360802f14f550c5d2315d4c6ff83c",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v01-s3": {
+      "config": {
+        "id": "rainbow-v01-s3",
+        "family": "rainbow",
+        "variant": 1,
+        "seed": 92221,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v01-s3/weights.pt",
+      "sha256": "b50413dd2053b9ae5998d9c02bd070032ac74437cbd307d8681ac3d6ba561196",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v01-s3": {
+      "config": {
+        "id": "ppo-v01-s3",
+        "family": "ppo",
+        "variant": 1,
+        "seed": 92221,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v01-s3/weights.pt",
+      "sha256": "78e1e2c6f74d8d5569f88c09b8c9140bfbbbd21dd7d6d1ef6120d0dd4800b48a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v01-s4": {
+      "config": {
+        "id": "double-v01-s4",
+        "family": "double",
+        "variant": 1,
+        "seed": 130031,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v01-s4/weights.pt",
+      "sha256": "f1fe021af2d66347db5370d4ab7210a33e69ef1cf27a27776a3ac1f5f0734851",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v01-s4": {
+      "config": {
+        "id": "dueling-v01-s4",
+        "family": "dueling",
+        "variant": 1,
+        "seed": 130031,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v01-s4/weights.pt",
+      "sha256": "f9ef8a697a10b9f0589a33925379c28c0d0fead26884b3a883f76076873d81a7",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v01-s4": {
+      "config": {
+        "id": "rainbow-v01-s4",
+        "family": "rainbow",
+        "variant": 1,
+        "seed": 130031,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v01-s4/weights.pt",
+      "sha256": "c07afea5e8a01fe7ea3ddc0510ed10769d60270a21d31e0a204355fd93158615",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v01-s4": {
+      "config": {
+        "id": "ppo-v01-s4",
+        "family": "ppo",
+        "variant": 1,
+        "seed": 130031,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v01-s4/weights.pt",
+      "sha256": "8723d4ddab623319125c332fb14ffc3bfb0b47c00a8f12cdfb89d9bb7e155eab",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v01-s5": {
+      "config": {
+        "id": "double-v01-s5",
+        "family": "double",
+        "variant": 1,
+        "seed": 175003,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v01-s5/weights.pt",
+      "sha256": "af4b075c5892e03ba99831f91a22c6ad479dd72db507131e5e1e90f8edec8786",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v01-s5": {
+      "config": {
+        "id": "dueling-v01-s5",
+        "family": "dueling",
+        "variant": 1,
+        "seed": 175003,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v01-s5/weights.pt",
+      "sha256": "a3bc3174349eb095eec199104eec119ad2619063ec55aa7a979aa654de5440d0",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v01-s5": {
+      "config": {
+        "id": "rainbow-v01-s5",
+        "family": "rainbow",
+        "variant": 1,
+        "seed": 175003,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v01-s5/weights.pt",
+      "sha256": "b3cb1780efffaa9b74976e2e928f7d0837cb3cdd68d939475af3a669ca882800",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v01-s5": {
+      "config": {
+        "id": "ppo-v01-s5",
+        "family": "ppo",
+        "variant": 1,
+        "seed": 175003,
+        "geometry_count": 300,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v01-s5/weights.pt",
+      "sha256": "a0149bc7a8dce4b1744c04fc87947f6bb8fa5e51ee57af3406b4e280d95abeff",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v02-s1": {
+      "config": {
+        "id": "double-v02-s1",
+        "family": "double",
+        "variant": 2,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v02-s1/weights.pt",
+      "sha256": "0205891abb51403e9266d6f1dca04e5e02a059893fae3b723e3c76fe384634ff",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v02-s1": {
+      "config": {
+        "id": "dueling-v02-s1",
+        "family": "dueling",
+        "variant": 2,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v02-s1/weights.pt",
+      "sha256": "2b2962424550890b73b50e3b8cbc27e2aec6714f8da7fbcd1741bf49d02cd678",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v02-s1": {
+      "config": {
+        "id": "rainbow-v02-s1",
+        "family": "rainbow",
+        "variant": 2,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v02-s1/weights.pt",
+      "sha256": "27cd12a9c6cca420dffcf71a252d0b0865f6f71eac70c9dabb8985aaec70ecb4",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v02-s1": {
+      "config": {
+        "id": "ppo-v02-s1",
+        "family": "ppo",
+        "variant": 2,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v02-s1/weights.pt",
+      "sha256": "99abf47cbca0b9f1906eaa331f3a86ceb344732ad659a59cfa0b39e0a8d08c58",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v02-s2": {
+      "config": {
+        "id": "double-v02-s2",
+        "family": "double",
+        "variant": 2,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v02-s2/weights.pt",
+      "sha256": "63f0c6f95efc978cf439d53cd49c0fe4b94d0eda65df827725493e3c83daec99",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v02-s2": {
+      "config": {
+        "id": "dueling-v02-s2",
+        "family": "dueling",
+        "variant": 2,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v02-s2/weights.pt",
+      "sha256": "92312f6237a7a21eadf66d88a5465648b5ef7bd30aa049f3db59bec4379ea818",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v02-s2": {
+      "config": {
+        "id": "rainbow-v02-s2",
+        "family": "rainbow",
+        "variant": 2,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v02-s2/weights.pt",
+      "sha256": "59835639ed7b265c0b8d2804479f6aff76b5ff9580371f501e35d2bdded35753",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v02-s2": {
+      "config": {
+        "id": "ppo-v02-s2",
+        "family": "ppo",
+        "variant": 2,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v02-s2/weights.pt",
+      "sha256": "8dcab6dc13986fe130209af4d673c1c0c92f88321936f07954337f3ccec9369f",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v02-s3": {
+      "config": {
+        "id": "double-v02-s3",
+        "family": "double",
+        "variant": 2,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v02-s3/weights.pt",
+      "sha256": "2b643cf1f062ba75180849322cef1c519a537c2a919b0e9b3bf1c3aa8137c1f0",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v02-s3": {
+      "config": {
+        "id": "dueling-v02-s3",
+        "family": "dueling",
+        "variant": 2,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v02-s3/weights.pt",
+      "sha256": "d0410d753dc2e1e15078d02d9d2390eb2d324b4f68d41dc66a3f888dc2509f25",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v02-s3": {
+      "config": {
+        "id": "rainbow-v02-s3",
+        "family": "rainbow",
+        "variant": 2,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v02-s3/weights.pt",
+      "sha256": "8b0f2a849f6b61495d19f0fb8ec207e1fd6a9f08796253d54f9f6f61d6ae356d",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v02-s3": {
+      "config": {
+        "id": "ppo-v02-s3",
+        "family": "ppo",
+        "variant": 2,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v02-s3/weights.pt",
+      "sha256": "3837b138f090ad07f485f1747f662cec27db538444a8e98c3e3a343a95090a11",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v02-s4": {
+      "config": {
+        "id": "double-v02-s4",
+        "family": "double",
+        "variant": 2,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v02-s4/weights.pt",
+      "sha256": "0bcf630cef3f30ec17e25a62feddd11106614369c9eb5955bbf7c772c8293854",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v02-s4": {
+      "config": {
+        "id": "dueling-v02-s4",
+        "family": "dueling",
+        "variant": 2,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v02-s4/weights.pt",
+      "sha256": "11bc6b74c5b1b06ff34bfb955df907499bdf22a92333bf040a8eb7503bfb5525",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v02-s4": {
+      "config": {
+        "id": "rainbow-v02-s4",
+        "family": "rainbow",
+        "variant": 2,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v02-s4/weights.pt",
+      "sha256": "99df274ad145dfc702649e892fde429fe13b539778f170e11528f36145979cec",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v02-s4": {
+      "config": {
+        "id": "ppo-v02-s4",
+        "family": "ppo",
+        "variant": 2,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v02-s4/weights.pt",
+      "sha256": "acfac3cb1ccb3f576b483121d78f7b95a4214ba3f6de5b015a8a2c2383971e54",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v02-s5": {
+      "config": {
+        "id": "double-v02-s5",
+        "family": "double",
+        "variant": 2,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v02-s5/weights.pt",
+      "sha256": "5835978ee2c0e35b6cf1f9507a5a8d314968210132c4467e3b0c16e1afb05e9b",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v02-s5": {
+      "config": {
+        "id": "dueling-v02-s5",
+        "family": "dueling",
+        "variant": 2,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v02-s5/weights.pt",
+      "sha256": "92f90f29ef72c0c6d4747bc3844e845559ca40d7883aee09a60b122ffd6ac92a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v02-s5": {
+      "config": {
+        "id": "rainbow-v02-s5",
+        "family": "rainbow",
+        "variant": 2,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v02-s5/weights.pt",
+      "sha256": "d66acbffa65ad1915dfe3aa4926f642703711fe6ac94e13f8e306d2e6223ba4b",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v02-s5": {
+      "config": {
+        "id": "ppo-v02-s5",
+        "family": "ppo",
+        "variant": 2,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v02-s5/weights.pt",
+      "sha256": "b25178d5fdf9b0750e5b8458dcacb49e1e9f462bc0ecdf5f6fae1829e1b67437",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v03-s1": {
+      "config": {
+        "id": "double-v03-s1",
+        "family": "double",
+        "variant": 3,
+        "seed": 39139,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v03-s1/weights.pt",
+      "sha256": "3859520305240f4d2058bd28b66b3223b20c12789cf97f8cbe82fe149ea344df",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v03-s1": {
+      "config": {
+        "id": "dueling-v03-s1",
+        "family": "dueling",
+        "variant": 3,
+        "seed": 39139,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v03-s1/weights.pt",
+      "sha256": "aeddf41dc5b873e81d6ed0bdff3016bbf6840224f3d8548a6c894e92831f1a8d",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v03-s1": {
+      "config": {
+        "id": "rainbow-v03-s1",
+        "family": "rainbow",
+        "variant": 3,
+        "seed": 39139,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v03-s1/weights.pt",
+      "sha256": "21fd3fa778150256974f72530133a98b6ca27c2afef0dcc3e6e51e7f0ae5ae45",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v03-s1": {
+      "config": {
+        "id": "ppo-v03-s1",
+        "family": "ppo",
+        "variant": 3,
+        "seed": 39139,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v03-s1/weights.pt",
+      "sha256": "5d2bc3f9a3db2e698e9261202fe216816559bb88271bf74b83349e1a19f3700a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v03-s2": {
+      "config": {
+        "id": "double-v03-s2",
+        "family": "double",
+        "variant": 3,
+        "seed": 71809,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v03-s2/weights.pt",
+      "sha256": "7481a5230380232602e0b8c76c90deb91143b7829f1b99da29ebf0ab2a79e4d5",
+      "kind": "primary",
+      "frozen": true
+    },
+    "dueling-v03-s2": {
+      "config": {
+        "id": "dueling-v03-s2",
+        "family": "dueling",
+        "variant": 3,
+        "seed": 71809,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v03-s2/weights.pt",
+      "sha256": "71a9fcb7f1d7d8d41271da8a348dd34070fc2b6a50a25d19a7215c9a0200b679",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v03-s2": {
+      "config": {
+        "id": "rainbow-v03-s2",
+        "family": "rainbow",
+        "variant": 3,
+        "seed": 71809,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v03-s2/weights.pt",
+      "sha256": "2d371ec7a54bc7805a396b023aad788f9fc9a767af3d56b8392d474484b4f9ec",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v03-s2": {
+      "config": {
+        "id": "ppo-v03-s2",
+        "family": "ppo",
+        "variant": 3,
+        "seed": 71809,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v03-s2/weights.pt",
+      "sha256": "b645d96e2e636eccf579ce0a6369a39c40d68b995a85339dd07b5ce284fd4486",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v03-s3": {
+      "config": {
+        "id": "double-v03-s3",
+        "family": "double",
+        "variant": 3,
+        "seed": 92221,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v03-s3/weights.pt",
+      "sha256": "f604be24a73eb770fd1647020649a9bcf31daba2bb4f2a18e7c0ed6e40c46386",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v03-s3": {
+      "config": {
+        "id": "dueling-v03-s3",
+        "family": "dueling",
+        "variant": 3,
+        "seed": 92221,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v03-s3/weights.pt",
+      "sha256": "4bb11819beb8d280d28d7e5db2bcc82f70c247276f2aeb419b7cfd6d79cf32ea",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v03-s3": {
+      "config": {
+        "id": "rainbow-v03-s3",
+        "family": "rainbow",
+        "variant": 3,
+        "seed": 92221,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v03-s3/weights.pt",
+      "sha256": "91f35c885d73670926bfe74f0c537e255a5a96f4f7f1a1858985b57412f85a98",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v03-s3": {
+      "config": {
+        "id": "ppo-v03-s3",
+        "family": "ppo",
+        "variant": 3,
+        "seed": 92221,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v03-s3/weights.pt",
+      "sha256": "a1cc7603f9a548ffa91f2fb578733753936c7faddb0ca9178fdb4402e7d9ce9c",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v03-s4": {
+      "config": {
+        "id": "double-v03-s4",
+        "family": "double",
+        "variant": 3,
+        "seed": 130031,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v03-s4/weights.pt",
+      "sha256": "525b88d1b5229f680d47ce663d5243c08f0ac283c6c226acfc6e5298c77b5ede",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v03-s4": {
+      "config": {
+        "id": "dueling-v03-s4",
+        "family": "dueling",
+        "variant": 3,
+        "seed": 130031,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v03-s4/weights.pt",
+      "sha256": "8f60a7a09bb22ca8edc5c9ba810d0a0dd83101ad8ebabbd1d1eeea4f745d7ade",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v03-s4": {
+      "config": {
+        "id": "rainbow-v03-s4",
+        "family": "rainbow",
+        "variant": 3,
+        "seed": 130031,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v03-s4/weights.pt",
+      "sha256": "8e399b48caa236c08be64621f129a5eba1b747fd5c683fa6dfffe509cc43a562",
+      "kind": "primary",
+      "frozen": true
+    },
+    "ppo-v03-s4": {
+      "config": {
+        "id": "ppo-v03-s4",
+        "family": "ppo",
+        "variant": 3,
+        "seed": 130031,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v03-s4/weights.pt",
+      "sha256": "f91cafaed969af16def1dccf2eec196eb1489ec2022d30c24d0c7cea452fa0df",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v03-s5": {
+      "config": {
+        "id": "double-v03-s5",
+        "family": "double",
+        "variant": 3,
+        "seed": 175003,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v03-s5/weights.pt",
+      "sha256": "698a3cc04e117e53f3e5f5e46b6b3e65d41a52eb21dfe2186215a8e52a1a3a9d",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v03-s5": {
+      "config": {
+        "id": "dueling-v03-s5",
+        "family": "dueling",
+        "variant": 3,
+        "seed": 175003,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v03-s5/weights.pt",
+      "sha256": "6f3d77670e3da4e54ca4ee3d1cc0125a9f7b5e1e80df5edeab2af9bba2414dd9",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v03-s5": {
+      "config": {
+        "id": "rainbow-v03-s5",
+        "family": "rainbow",
+        "variant": 3,
+        "seed": 175003,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v03-s5/weights.pt",
+      "sha256": "f976033a070021c056d63f43867dadfdaa4bd0905c8ca70752038c098720fc4a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v03-s5": {
+      "config": {
+        "id": "ppo-v03-s5",
+        "family": "ppo",
+        "variant": 3,
+        "seed": 175003,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v03-s5/weights.pt",
+      "sha256": "2c299b4d6a4970706099f574e462402b1bc0a7bad8ce0660249bbe6b2069a584",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v04-s1": {
+      "config": {
+        "id": "double-v04-s1",
+        "family": "double",
+        "variant": 4,
+        "seed": 39139,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v04-s1/weights.pt",
+      "sha256": "a7192a9f7b09ca22b2bd4f6ccb89c756476994097d3e231a9e25eb0996253cbd",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v04-s1": {
+      "config": {
+        "id": "dueling-v04-s1",
+        "family": "dueling",
+        "variant": 4,
+        "seed": 39139,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v04-s1/weights.pt",
+      "sha256": "3635da58c13e23672659a3c9641f014692d6fe39fc34a9a62aaa4215d1eb1ca3",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v04-s1": {
+      "config": {
+        "id": "rainbow-v04-s1",
+        "family": "rainbow",
+        "variant": 4,
+        "seed": 39139,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v04-s1/weights.pt",
+      "sha256": "ed96b2fd373c3f43eb739ba74b44ebf7a875370bfa318b48e2f4d80e8385f8d4",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v04-s1": {
+      "config": {
+        "id": "ppo-v04-s1",
+        "family": "ppo",
+        "variant": 4,
+        "seed": 39139,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v04-s1/weights.pt",
+      "sha256": "223e77c11e41d66d7a8c45182d9cb6d89dd821ad81ccfda2b97419d466d71437",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v04-s2": {
+      "config": {
+        "id": "double-v04-s2",
+        "family": "double",
+        "variant": 4,
+        "seed": 71809,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v04-s2/weights.pt",
+      "sha256": "82ff82d4d7591dc7fdaeea30b50d4d3f69148414b11db1330a69f8ee805cc1a5",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v04-s2": {
+      "config": {
+        "id": "dueling-v04-s2",
+        "family": "dueling",
+        "variant": 4,
+        "seed": 71809,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v04-s2/weights.pt",
+      "sha256": "343dd11dbb15bd5928a6f637e3e6d20ce55bbecd9aa627ee51365c567ccb7bf9",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v04-s2": {
+      "config": {
+        "id": "rainbow-v04-s2",
+        "family": "rainbow",
+        "variant": 4,
+        "seed": 71809,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v04-s2/weights.pt",
+      "sha256": "a97f88c19e0956c2e33cccf6acd202c35e1c7cb1e4c6bd3f5f8f535325df3aec",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v04-s2": {
+      "config": {
+        "id": "ppo-v04-s2",
+        "family": "ppo",
+        "variant": 4,
+        "seed": 71809,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v04-s2/weights.pt",
+      "sha256": "3014585fd593428be7f8f21de4cebeef94cf4770c061aa101ec655316f431322",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v04-s3": {
+      "config": {
+        "id": "double-v04-s3",
+        "family": "double",
+        "variant": 4,
+        "seed": 92221,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v04-s3/weights.pt",
+      "sha256": "b3fe82c487ef499a988fb4a7769d1cc99c415cdd00c5729452560588bfa05cf7",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v04-s3": {
+      "config": {
+        "id": "dueling-v04-s3",
+        "family": "dueling",
+        "variant": 4,
+        "seed": 92221,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v04-s3/weights.pt",
+      "sha256": "c0e9bc1ce572a2bc127ec415d46ce8eb8d71123d5ae4fbc7e50ec22b6f2e6a0a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v04-s3": {
+      "config": {
+        "id": "rainbow-v04-s3",
+        "family": "rainbow",
+        "variant": 4,
+        "seed": 92221,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v04-s3/weights.pt",
+      "sha256": "ad3f6dc71d090ba855b7c0725a3411121c6b5061edb08d77f7c77cfd0411504d",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v04-s3": {
+      "config": {
+        "id": "ppo-v04-s3",
+        "family": "ppo",
+        "variant": 4,
+        "seed": 92221,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v04-s3/weights.pt",
+      "sha256": "f948876f562d6debf8327ca30a4145a5f870d92b94ff2e16efbda94fafb996d0",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v04-s4": {
+      "config": {
+        "id": "double-v04-s4",
+        "family": "double",
+        "variant": 4,
+        "seed": 130031,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v04-s4/weights.pt",
+      "sha256": "16add7390abe9810612b20bad407f37b2c3a32ba5cce1dcdd1f4672e315b94ba",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v04-s4": {
+      "config": {
+        "id": "dueling-v04-s4",
+        "family": "dueling",
+        "variant": 4,
+        "seed": 130031,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v04-s4/weights.pt",
+      "sha256": "bf4b589eb3dcb12458ec4a1af1881eefc26fc9dd75f436a54fc4b62b5017c3e6",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v04-s4": {
+      "config": {
+        "id": "rainbow-v04-s4",
+        "family": "rainbow",
+        "variant": 4,
+        "seed": 130031,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v04-s4/weights.pt",
+      "sha256": "233014f83d7604a8c8254184d6dbabe0187987327abed4c5f00ebafde7eadabe",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v04-s4": {
+      "config": {
+        "id": "ppo-v04-s4",
+        "family": "ppo",
+        "variant": 4,
+        "seed": 130031,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v04-s4/weights.pt",
+      "sha256": "3b8fd53b7ca05e50426a3340dd94c305d591b07aae107e8ed1aee56435bd6cd3",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v04-s5": {
+      "config": {
+        "id": "double-v04-s5",
+        "family": "double",
+        "variant": 4,
+        "seed": 175003,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v04-s5/weights.pt",
+      "sha256": "a9b4bad50f2f14e8d9a14f62defeb35e3061c7bca1d70977526d40ba8d3a521e",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v04-s5": {
+      "config": {
+        "id": "dueling-v04-s5",
+        "family": "dueling",
+        "variant": 4,
+        "seed": 175003,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v04-s5/weights.pt",
+      "sha256": "bf964e7cf76087d9b055ee4308acd1482fb74149784c656dd814bbd138b5cc19",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v04-s5": {
+      "config": {
+        "id": "rainbow-v04-s5",
+        "family": "rainbow",
+        "variant": 4,
+        "seed": 175003,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v04-s5/weights.pt",
+      "sha256": "827d37f1c24aea35c69e6232c7f704aa2207434a4bda856e6bd93bf8faea80cb",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v04-s5": {
+      "config": {
+        "id": "ppo-v04-s5",
+        "family": "ppo",
+        "variant": 4,
+        "seed": 175003,
+        "geometry_count": 60000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v04-s5/weights.pt",
+      "sha256": "002e2e71f2229f34c70220e11ba912a635e0513325f1a7068b9dafad2efb8b32",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v05-s1": {
+      "config": {
+        "id": "double-v05-s1",
+        "family": "double",
+        "variant": 5,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v05-s1/weights.pt",
+      "sha256": "bebd8c4f6f83d7623808166da9ac3a722eaa23650f9a3aef8158e1ab975c8532",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v05-s1": {
+      "config": {
+        "id": "dueling-v05-s1",
+        "family": "dueling",
+        "variant": 5,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v05-s1/weights.pt",
+      "sha256": "6d297ec2388f09b1d700306f0d6d886d0c7516dab0415bafcc02c788bc1079f6",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v05-s1": {
+      "config": {
+        "id": "rainbow-v05-s1",
+        "family": "rainbow",
+        "variant": 5,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v05-s1/weights.pt",
+      "sha256": "35eb4ca1c87b9ff42300263c20c6f5b091fb969c16738247ac7ada52b970028a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v05-s1": {
+      "config": {
+        "id": "ppo-v05-s1",
+        "family": "ppo",
+        "variant": 5,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v05-s1/weights.pt",
+      "sha256": "6cca88e2059c1081619a229737ce759e296f2a5b840ade978a2a991eb0337414",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v05-s2": {
+      "config": {
+        "id": "double-v05-s2",
+        "family": "double",
+        "variant": 5,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v05-s2/weights.pt",
+      "sha256": "b7536e5f6f57e31d84dc2e8e0f441c0350c200d5802d7e6a81372544f301e65c",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v05-s2": {
+      "config": {
+        "id": "dueling-v05-s2",
+        "family": "dueling",
+        "variant": 5,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v05-s2/weights.pt",
+      "sha256": "664299bf70545e354e23f7eff25556a9d31242064754015f41ce1b73abc75382",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v05-s2": {
+      "config": {
+        "id": "rainbow-v05-s2",
+        "family": "rainbow",
+        "variant": 5,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v05-s2/weights.pt",
+      "sha256": "11ea6354431418d46e63b084c09a6a5bd2666b5ffb70e9de8c3fb1e3518383c6",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v05-s2": {
+      "config": {
+        "id": "ppo-v05-s2",
+        "family": "ppo",
+        "variant": 5,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v05-s2/weights.pt",
+      "sha256": "b2a944cb243a5f19a354a83d1fc968de0c6d1ccb64f990c6f8fb26a4d56ce8c9",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v05-s3": {
+      "config": {
+        "id": "double-v05-s3",
+        "family": "double",
+        "variant": 5,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v05-s3/weights.pt",
+      "sha256": "2a61d397759e489f07ee0a4fdaeaddaa6fa95af2332fc8381824b535b6d45fb4",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v05-s3": {
+      "config": {
+        "id": "dueling-v05-s3",
+        "family": "dueling",
+        "variant": 5,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v05-s3/weights.pt",
+      "sha256": "0692c2b18b9c655181d607e1aedbaf2562938ea4d173cefe28a6230551bab35b",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v05-s3": {
+      "config": {
+        "id": "rainbow-v05-s3",
+        "family": "rainbow",
+        "variant": 5,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v05-s3/weights.pt",
+      "sha256": "e8707d150acc39229fd4ea94955397d9e9b968323a57d61bc30fce67d9ce86b7",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v05-s3": {
+      "config": {
+        "id": "ppo-v05-s3",
+        "family": "ppo",
+        "variant": 5,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v05-s3/weights.pt",
+      "sha256": "216f0de341c665cedbc94b9e85923082698258eda6781d129069115332d5653b",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v05-s4": {
+      "config": {
+        "id": "double-v05-s4",
+        "family": "double",
+        "variant": 5,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v05-s4/weights.pt",
+      "sha256": "671a7c8ad13fb23edc7191b98e795e52e290f2f8c51276c9aea9c87ef3e81d4a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v05-s4": {
+      "config": {
+        "id": "dueling-v05-s4",
+        "family": "dueling",
+        "variant": 5,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v05-s4/weights.pt",
+      "sha256": "238ccf061ac7ce848f47d84653370835306eb480ab2ef8789ecc5fd006f5a378",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v05-s4": {
+      "config": {
+        "id": "rainbow-v05-s4",
+        "family": "rainbow",
+        "variant": 5,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v05-s4/weights.pt",
+      "sha256": "f36d2123462aa37572b6b1373f2f004a7f4c5f0ba551cf655282e007bb799758",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v05-s4": {
+      "config": {
+        "id": "ppo-v05-s4",
+        "family": "ppo",
+        "variant": 5,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v05-s4/weights.pt",
+      "sha256": "89865c374666e9588704b7e4eeec594e0613945d876dc236d7f26e44b5050849",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v05-s5": {
+      "config": {
+        "id": "double-v05-s5",
+        "family": "double",
+        "variant": 5,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v05-s5/weights.pt",
+      "sha256": "66dfbe9b508850effc451f6d86d35be60d117d0020ff9a6dc5383850828e03d2",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v05-s5": {
+      "config": {
+        "id": "dueling-v05-s5",
+        "family": "dueling",
+        "variant": 5,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v05-s5/weights.pt",
+      "sha256": "d33f46217b7ec1bf271de814d0f791aaff35a94aa38fca78b9513e8a9c75d51a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v05-s5": {
+      "config": {
+        "id": "rainbow-v05-s5",
+        "family": "rainbow",
+        "variant": 5,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v05-s5/weights.pt",
+      "sha256": "18719c63ce992c1334e98e12f522586bd0d7f206b6ffcbb9d795bce5828cc27d",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v05-s5": {
+      "config": {
+        "id": "ppo-v05-s5",
+        "family": "ppo",
+        "variant": 5,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          2
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v05-s5/weights.pt",
+      "sha256": "059474629304eada45713076c5a4aefa5d0b2303010888b5fa6caace56f82d92",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v06-s1": {
+      "config": {
+        "id": "double-v06-s1",
+        "family": "double",
+        "variant": 6,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v06-s1/weights.pt",
+      "sha256": "c8fc8852460eb77c3040ea61bf1b89cf49719f24456221db9b34296efebd6231",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v06-s1": {
+      "config": {
+        "id": "dueling-v06-s1",
+        "family": "dueling",
+        "variant": 6,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v06-s1/weights.pt",
+      "sha256": "8f45a700b837949953150c5d7e462a4bf3c88fbf3dfcba9062088b125d30f0a2",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v06-s1": {
+      "config": {
+        "id": "rainbow-v06-s1",
+        "family": "rainbow",
+        "variant": 6,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v06-s1/weights.pt",
+      "sha256": "b0aca3da20fc4ae91fcf741201a96f01a55491754e66bfe2741eca47bb3c8252",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v06-s1": {
+      "config": {
+        "id": "ppo-v06-s1",
+        "family": "ppo",
+        "variant": 6,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v06-s1/weights.pt",
+      "sha256": "65e99c70dadeaac81d48b16fb1b353f207b22bc7e47fc735393ea8f361a7bb0a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v06-s2": {
+      "config": {
+        "id": "double-v06-s2",
+        "family": "double",
+        "variant": 6,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v06-s2/weights.pt",
+      "sha256": "d6e977d6cb2e3e9863223d54fa6fa70b01a7eef51e9fa7b1e37d5d7b7a04db85",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v06-s2": {
+      "config": {
+        "id": "dueling-v06-s2",
+        "family": "dueling",
+        "variant": 6,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v06-s2/weights.pt",
+      "sha256": "a464fa113093aaf10c85bcad2520f0e73ddf8b2f2a2eb2c55eeb9df63524fe0d",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v06-s2": {
+      "config": {
+        "id": "rainbow-v06-s2",
+        "family": "rainbow",
+        "variant": 6,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v06-s2/weights.pt",
+      "sha256": "051a8720ed15a0b56bbf6ca7f9227e240cf624138d63b693bfcc1bac3e7ee620",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v06-s2": {
+      "config": {
+        "id": "ppo-v06-s2",
+        "family": "ppo",
+        "variant": 6,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v06-s2/weights.pt",
+      "sha256": "a034911647d45c14ebf23c2766a5b0c8f9a62b09315aa45119f59c008b87dd98",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v06-s3": {
+      "config": {
+        "id": "double-v06-s3",
+        "family": "double",
+        "variant": 6,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v06-s3/weights.pt",
+      "sha256": "103f85f4892338db11a652ef81660883adab99822864fbbc1b2c459c7e6ed113",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v06-s3": {
+      "config": {
+        "id": "dueling-v06-s3",
+        "family": "dueling",
+        "variant": 6,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v06-s3/weights.pt",
+      "sha256": "4714f8be61c3757b1276890b0c4debca4c1f6fe9043ebd39e48c0ef7c9f69133",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v06-s3": {
+      "config": {
+        "id": "rainbow-v06-s3",
+        "family": "rainbow",
+        "variant": 6,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v06-s3/weights.pt",
+      "sha256": "a1af274581daecb3917791dceaa3e803451d6217e877c5d30e13a14d3f5e8ce1",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v06-s3": {
+      "config": {
+        "id": "ppo-v06-s3",
+        "family": "ppo",
+        "variant": 6,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v06-s3/weights.pt",
+      "sha256": "42b75dfd358911f6abcb277555b324f094fdfa51917e9e055b09a1fa786b0749",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v06-s4": {
+      "config": {
+        "id": "double-v06-s4",
+        "family": "double",
+        "variant": 6,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v06-s4/weights.pt",
+      "sha256": "cd48076ced846851a5d52144f2777af75afd92056f4021ec0867f25f5cf73d65",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v06-s4": {
+      "config": {
+        "id": "dueling-v06-s4",
+        "family": "dueling",
+        "variant": 6,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v06-s4/weights.pt",
+      "sha256": "b7d56f5243e4170137e92dec4bca04db9b7fc6502ad8884c5b7883028e2844b6",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v06-s4": {
+      "config": {
+        "id": "rainbow-v06-s4",
+        "family": "rainbow",
+        "variant": 6,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v06-s4/weights.pt",
+      "sha256": "dc7425bd5e6f95fdf02afdc7f110d8dbadd0ce742fed4dde7c4936f1342bdcaa",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v06-s4": {
+      "config": {
+        "id": "ppo-v06-s4",
+        "family": "ppo",
+        "variant": 6,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v06-s4/weights.pt",
+      "sha256": "0f77c6cb59fcffa200cc4f03994073b75480f30517bc9ca7d12d17b48b7a53a7",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v06-s5": {
+      "config": {
+        "id": "double-v06-s5",
+        "family": "double",
+        "variant": 6,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v06-s5/weights.pt",
+      "sha256": "ed906a1063b9b8b1ef1776eee8ff6b45ab16aa6405bf30151ba71ab2e14dffa6",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v06-s5": {
+      "config": {
+        "id": "dueling-v06-s5",
+        "family": "dueling",
+        "variant": 6,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v06-s5/weights.pt",
+      "sha256": "76e8a82f540b83f752cb4d59e352c46515fd87a4d3af53e93de3baf73bfcc03a",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v06-s5": {
+      "config": {
+        "id": "rainbow-v06-s5",
+        "family": "rainbow",
+        "variant": 6,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v06-s5/weights.pt",
+      "sha256": "1a68ffb77e5f61c94c1748a99bcee316cd91104adfb73f892e5b78b0b73fb369",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v06-s5": {
+      "config": {
+        "id": "ppo-v06-s5",
+        "family": "ppo",
+        "variant": 6,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          16,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v06-s5/weights.pt",
+      "sha256": "5b441936b1e79512034782f2942b66166e55de2afb1fb774ef0c711e263eb3c0",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v07-s1": {
+      "config": {
+        "id": "double-v07-s1",
+        "family": "double",
+        "variant": 7,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v07-s1/weights.pt",
+      "sha256": "555a57446f0e750e762be4bf1dab212b7f697b4ac6032833c0a1be056faeea38",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v07-s1": {
+      "config": {
+        "id": "dueling-v07-s1",
+        "family": "dueling",
+        "variant": 7,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v07-s1/weights.pt",
+      "sha256": "1bf66dcfd46320081d3894b9a12324fe9447c42ca121b278494e5dfe47811ae1",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v07-s1": {
+      "config": {
+        "id": "rainbow-v07-s1",
+        "family": "rainbow",
+        "variant": 7,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v07-s1/weights.pt",
+      "sha256": "808e355b5c689fb85f5d72d25c64ce1f5c88cb51c8039284936fb10ecc7b8721",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v07-s1": {
+      "config": {
+        "id": "ppo-v07-s1",
+        "family": "ppo",
+        "variant": 7,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v07-s1/weights.pt",
+      "sha256": "9070080030b29511df861dbbed7bd23840e405760faee037ed9e2ea1e2ad0d79",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v07-s2": {
+      "config": {
+        "id": "double-v07-s2",
+        "family": "double",
+        "variant": 7,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v07-s2/weights.pt",
+      "sha256": "84d9371134501f57dadbd76d151305626b0131e2c267816e7e2c7e70c300b329",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v07-s2": {
+      "config": {
+        "id": "dueling-v07-s2",
+        "family": "dueling",
+        "variant": 7,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v07-s2/weights.pt",
+      "sha256": "4edaecadaa078a6ebf680a89a5d47caaeaa9d9647fa67ce20fba4ff771c74d78",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v07-s2": {
+      "config": {
+        "id": "rainbow-v07-s2",
+        "family": "rainbow",
+        "variant": 7,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v07-s2/weights.pt",
+      "sha256": "888ec0823b704ce01fd85641b6c7d54706cce2c9424486b86107b4964adc5be2",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v07-s2": {
+      "config": {
+        "id": "ppo-v07-s2",
+        "family": "ppo",
+        "variant": 7,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v07-s2/weights.pt",
+      "sha256": "cd967562512e1d7fc836f40ec475d5ccfda5c58f28d4cdfe6344a88bbb5523a4",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v07-s3": {
+      "config": {
+        "id": "double-v07-s3",
+        "family": "double",
+        "variant": 7,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v07-s3/weights.pt",
+      "sha256": "6d9f76768583e4e7d827f03c697c390167ddf16867e58b56d0393b643531da94",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v07-s3": {
+      "config": {
+        "id": "dueling-v07-s3",
+        "family": "dueling",
+        "variant": 7,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v07-s3/weights.pt",
+      "sha256": "4ad81a8d30254dcec69aae39cde356156453052b003c7e96f1ac041faad46aad",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v07-s3": {
+      "config": {
+        "id": "rainbow-v07-s3",
+        "family": "rainbow",
+        "variant": 7,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v07-s3/weights.pt",
+      "sha256": "faea8aa37e71f082dbff9f4fd05ce8fe69590265bc40a5b0d3b6e42b6b9e6784",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v07-s3": {
+      "config": {
+        "id": "ppo-v07-s3",
+        "family": "ppo",
+        "variant": 7,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v07-s3/weights.pt",
+      "sha256": "d86292f9cbd3679da81e461efd440c498ad03c21c5f8e9ac032074c320dbcbf3",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v07-s4": {
+      "config": {
+        "id": "double-v07-s4",
+        "family": "double",
+        "variant": 7,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v07-s4/weights.pt",
+      "sha256": "86c06a3fcf692f69a668d049c3c4821a7a6a50a2fd16a2e9f1f5cd4a23ec2b34",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v07-s4": {
+      "config": {
+        "id": "dueling-v07-s4",
+        "family": "dueling",
+        "variant": 7,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v07-s4/weights.pt",
+      "sha256": "9400138e6a43175543e5a14026bafa5a5f799ff03f238ae7cc66c36b32ee736e",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v07-s4": {
+      "config": {
+        "id": "rainbow-v07-s4",
+        "family": "rainbow",
+        "variant": 7,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v07-s4/weights.pt",
+      "sha256": "11bbe35456b8f51854f7b8cc09cb0b66a72b3e301db5ebc4adcd8e581f44c77c",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v07-s4": {
+      "config": {
+        "id": "ppo-v07-s4",
+        "family": "ppo",
+        "variant": 7,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v07-s4/weights.pt",
+      "sha256": "d80a03c8501e170929c41caf9fdb3759df1f9955ca9967750b02b868f8af5050",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v07-s5": {
+      "config": {
+        "id": "double-v07-s5",
+        "family": "double",
+        "variant": 7,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v07-s5/weights.pt",
+      "sha256": "0bd513ff17ea69bbfbbb3c63857eec87c099d558d5c9fda46fc3aea31e87ae82",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v07-s5": {
+      "config": {
+        "id": "dueling-v07-s5",
+        "family": "dueling",
+        "variant": 7,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v07-s5/weights.pt",
+      "sha256": "815b98588f4d26815aca7a363fe3e88f0aa8bbc894ce1e402cf77f276fefd868",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v07-s5": {
+      "config": {
+        "id": "rainbow-v07-s5",
+        "family": "rainbow",
+        "variant": 7,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v07-s5/weights.pt",
+      "sha256": "fccd58a8397e2f28f075f8f9dfceeb6adfc1db70bd59d4a13e556fc57c3eb14b",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v07-s5": {
+      "config": {
+        "id": "ppo-v07-s5",
+        "family": "ppo",
+        "variant": 7,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0003,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v07-s5/weights.pt",
+      "sha256": "1a606786e93d428ba8f764f82d5d5ad1d85b0a760375db16a59becf34e11a7c6",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v08-s1": {
+      "config": {
+        "id": "double-v08-s1",
+        "family": "double",
+        "variant": 8,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v08-s1/weights.pt",
+      "sha256": "7dc9f0a478fb757e7f534a9418344872242ee75022f1eae45e144cfd48711b63",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v08-s1": {
+      "config": {
+        "id": "dueling-v08-s1",
+        "family": "dueling",
+        "variant": 8,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v08-s1/weights.pt",
+      "sha256": "b7da395d469590f8f977f2f22cec3b2bfb40054b23fdf4a54195707b04f9398c",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v08-s1": {
+      "config": {
+        "id": "rainbow-v08-s1",
+        "family": "rainbow",
+        "variant": 8,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v08-s1/weights.pt",
+      "sha256": "35164ee312db4375edbf38ba3d895e1d0052a626fcf8f2131ea0db3621850fbf",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v08-s1": {
+      "config": {
+        "id": "ppo-v08-s1",
+        "family": "ppo",
+        "variant": 8,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v08-s1/weights.pt",
+      "sha256": "52acbba02edd4e41cdf442636e4f037da1a81e26c8d87f8b7a8893a3cea29e7d",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v08-s2": {
+      "config": {
+        "id": "double-v08-s2",
+        "family": "double",
+        "variant": 8,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v08-s2/weights.pt",
+      "sha256": "35c5982e9344b168f5c340d6640601c74df09efc83fa653f40a274f8a6cc6352",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v08-s2": {
+      "config": {
+        "id": "dueling-v08-s2",
+        "family": "dueling",
+        "variant": 8,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v08-s2/weights.pt",
+      "sha256": "6e6591e8945a20fa6322390ff142adaba3dc67873e03b7b65c050d74c11646fd",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v08-s2": {
+      "config": {
+        "id": "rainbow-v08-s2",
+        "family": "rainbow",
+        "variant": 8,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v08-s2/weights.pt",
+      "sha256": "44495c8ca6bb3faa8d65f5d85489ab4892739b6d9884c4a954b0e0b152df1e9f",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v08-s2": {
+      "config": {
+        "id": "ppo-v08-s2",
+        "family": "ppo",
+        "variant": 8,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v08-s2/weights.pt",
+      "sha256": "d2972d2d75ad7b49d98b2f3f150b010dd11af10ff7b8da75a9ea2568db4112e3",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v08-s3": {
+      "config": {
+        "id": "double-v08-s3",
+        "family": "double",
+        "variant": 8,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v08-s3/weights.pt",
+      "sha256": "114599ccd21f63c2461d23ce68ce8ae03e9eb87aa8f33918108ee97403f02a7f",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v08-s3": {
+      "config": {
+        "id": "dueling-v08-s3",
+        "family": "dueling",
+        "variant": 8,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v08-s3/weights.pt",
+      "sha256": "6191051901debd119fc898ec9b64564ecfdb14a84d68ad635d14a2372bdc2d2d",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v08-s3": {
+      "config": {
+        "id": "rainbow-v08-s3",
+        "family": "rainbow",
+        "variant": 8,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v08-s3/weights.pt",
+      "sha256": "218c76d0bbed589e2e076f82ecbee57697af4377f850bc52baf76a0ed785a480",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v08-s3": {
+      "config": {
+        "id": "ppo-v08-s3",
+        "family": "ppo",
+        "variant": 8,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v08-s3/weights.pt",
+      "sha256": "e48f1a8bfa2fba94849bd8c934c608f98084ac7569c69299c73474ba4cd74d88",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v08-s4": {
+      "config": {
+        "id": "double-v08-s4",
+        "family": "double",
+        "variant": 8,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v08-s4/weights.pt",
+      "sha256": "a52f0b64934074f8825aad55ad296bfa46a9ced51edb5440bac1f6ffad30f3ff",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v08-s4": {
+      "config": {
+        "id": "dueling-v08-s4",
+        "family": "dueling",
+        "variant": 8,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v08-s4/weights.pt",
+      "sha256": "95088942174328d56badcbd0d544881ad1f08e23c6c8916b33cd7ac28dd6e22d",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v08-s4": {
+      "config": {
+        "id": "rainbow-v08-s4",
+        "family": "rainbow",
+        "variant": 8,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v08-s4/weights.pt",
+      "sha256": "935171f246a39df23faa9762bf78d56916d34e1a754cbdf3697f1ab7b338b820",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v08-s4": {
+      "config": {
+        "id": "ppo-v08-s4",
+        "family": "ppo",
+        "variant": 8,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v08-s4/weights.pt",
+      "sha256": "785e9e49107aba88471594746d4fa84a0ebb5346f144048f66648d6cf14b71db",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v08-s5": {
+      "config": {
+        "id": "double-v08-s5",
+        "family": "double",
+        "variant": 8,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v08-s5/weights.pt",
+      "sha256": "67fe3037837039aca2b09eeb97e3ed27dba201777523db50c3f3f9366ac1f0fc",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v08-s5": {
+      "config": {
+        "id": "dueling-v08-s5",
+        "family": "dueling",
+        "variant": 8,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v08-s5/weights.pt",
+      "sha256": "c594bcc98b9c34a3968fdb9c8d18ed870c5ba601efef0d5466ed3bfe7549cae1",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v08-s5": {
+      "config": {
+        "id": "rainbow-v08-s5",
+        "family": "rainbow",
+        "variant": 8,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v08-s5/weights.pt",
+      "sha256": "f1c2c3b83cbd589b9334545494b23b7f0cb59a9584f94e6d0a069e049e38b8d3",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v08-s5": {
+      "config": {
+        "id": "ppo-v08-s5",
+        "family": "ppo",
+        "variant": 8,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.99,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v08-s5/weights.pt",
+      "sha256": "f686ed10dfc5793bfc8a9b23296f4f01a1335da30b4991f053747bb8af675bfa",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v09-s1": {
+      "config": {
+        "id": "double-v09-s1",
+        "family": "double",
+        "variant": 9,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/double-v09-s1/weights.pt",
+      "sha256": "774546ac9addf9212f89c507196d1f9c330782674a50e319c0c814893bc33700",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v09-s1": {
+      "config": {
+        "id": "dueling-v09-s1",
+        "family": "dueling",
+        "variant": 9,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/dueling-v09-s1/weights.pt",
+      "sha256": "b01b70e5f0ce9a554af3fcb07f76a8f958bb49a2b8c20c5d5613450e5db17e08",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v09-s1": {
+      "config": {
+        "id": "rainbow-v09-s1",
+        "family": "rainbow",
+        "variant": 9,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/rainbow-v09-s1/weights.pt",
+      "sha256": "f222b055013e48423e9d11c9d04e2a5905bcf7b6ec49fe2e50c5ed733ba1fa89",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v09-s1": {
+      "config": {
+        "id": "ppo-v09-s1",
+        "family": "ppo",
+        "variant": 9,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.12,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v09-s1/weights.pt",
+      "sha256": "b43aaba77c2f964330f779a329e54e065b67bf61b57374c3be840b64f43527c4",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v09-s2": {
+      "config": {
+        "id": "double-v09-s2",
+        "family": "double",
+        "variant": 9,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/double-v09-s2/weights.pt",
+      "sha256": "c580585838fdb6df0e05010d97b0d09256f9b376a192e5f59b0ae9cc70f104bd",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v09-s2": {
+      "config": {
+        "id": "dueling-v09-s2",
+        "family": "dueling",
+        "variant": 9,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/dueling-v09-s2/weights.pt",
+      "sha256": "c3750bae1e40fea2d93141307f2a235582c46ac2486a835a3a28d07d8a635278",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v09-s2": {
+      "config": {
+        "id": "rainbow-v09-s2",
+        "family": "rainbow",
+        "variant": 9,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/rainbow-v09-s2/weights.pt",
+      "sha256": "f3f225c7cf16bc2cdb879431b8031df86c888545f2e74ed53dfc4c1263c508de",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v09-s2": {
+      "config": {
+        "id": "ppo-v09-s2",
+        "family": "ppo",
+        "variant": 9,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.12,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v09-s2/weights.pt",
+      "sha256": "5b6c5942c9f567fb0fc60ca17cba2db946df7b876b82380199c60a4592dcae4c",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v09-s3": {
+      "config": {
+        "id": "double-v09-s3",
+        "family": "double",
+        "variant": 9,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/double-v09-s3/weights.pt",
+      "sha256": "d7cb355964da9605f6dd424afeb53288e40e332ee420fe13fd2268dd684e8966",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v09-s3": {
+      "config": {
+        "id": "dueling-v09-s3",
+        "family": "dueling",
+        "variant": 9,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/dueling-v09-s3/weights.pt",
+      "sha256": "5cec53fadedccb2156f6e1c42ea5872cbd14d0469a6863b5dde277f85889f270",
+      "kind": "primary",
+      "frozen": true
+    },
+    "rainbow-v09-s3": {
+      "config": {
+        "id": "rainbow-v09-s3",
+        "family": "rainbow",
+        "variant": 9,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/rainbow-v09-s3/weights.pt",
+      "sha256": "abf705ec2a8ee77237b1375c2b97d80edc1bba109867da5d3f99b13595a9d167",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v09-s3": {
+      "config": {
+        "id": "ppo-v09-s3",
+        "family": "ppo",
+        "variant": 9,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.12,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v09-s3/weights.pt",
+      "sha256": "4b582449a9570638f2f4c2dd268a72ec56b7a5b00628d9a7cf281d20ed1e2e18",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v09-s4": {
+      "config": {
+        "id": "double-v09-s4",
+        "family": "double",
+        "variant": 9,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/double-v09-s4/weights.pt",
+      "sha256": "ec9b4815cdd244c1fa62f65b5f8587696f22394c88b7038f7329988178f18cca",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v09-s4": {
+      "config": {
+        "id": "dueling-v09-s4",
+        "family": "dueling",
+        "variant": 9,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/dueling-v09-s4/weights.pt",
+      "sha256": "01445df3e0735f4297db88fdbba2c987fba933b971506e869b71edc97c5514bf",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v09-s4": {
+      "config": {
+        "id": "rainbow-v09-s4",
+        "family": "rainbow",
+        "variant": 9,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/rainbow-v09-s4/weights.pt",
+      "sha256": "6edac1bf6b9e0aef29613a57789172df87d3d437698c1ca05b3c4f3a85ac97ad",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v09-s4": {
+      "config": {
+        "id": "ppo-v09-s4",
+        "family": "ppo",
+        "variant": 9,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.12,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v09-s4/weights.pt",
+      "sha256": "083a85fef418d87b0c94a603c9106e950fb033c85b05ab642fcfc80b67aa37b2",
+      "kind": "primary",
+      "frozen": true
+    },
+    "double-v09-s5": {
+      "config": {
+        "id": "double-v09-s5",
+        "family": "double",
+        "variant": 9,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/double-v09-s5/weights.pt",
+      "sha256": "c2e274498f706b86ffb8cb49c8b1ce45dfe8e09f3ebd95553b514c68b3b0623b",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v09-s5": {
+      "config": {
+        "id": "dueling-v09-s5",
+        "family": "dueling",
+        "variant": 9,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/dueling-v09-s5/weights.pt",
+      "sha256": "486f1ffec187abecc46c0b72e1d54940804223d375c3b9b645c80504bb0c6f55",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v09-s5": {
+      "config": {
+        "id": "rainbow-v09-s5",
+        "family": "rainbow",
+        "variant": 9,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/runs/rainbow-v09-s5/weights.pt",
+      "sha256": "f0ecaf0e96e01547a35bcca5d2c692d4572f6670ecffbf2a91d15324ba1a37a4",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v09-s5": {
+      "config": {
+        "id": "ppo-v09-s5",
+        "family": "ppo",
+        "variant": 9,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.12,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v09-s5/weights.pt",
+      "sha256": "589cd12e1274828e4edfbbc84eeeaeb444006a815ddf3b551892d1095571a4e5",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v10-s1": {
+      "config": {
+        "id": "double-v10-s1",
+        "family": "double",
+        "variant": 10,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v10-s1/weights.pt",
+      "sha256": "a949236f8ed3d89dfcb143e0129c3ccd33333afbb0e5f5eb92c2b3c9b39623fe",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v10-s1": {
+      "config": {
+        "id": "dueling-v10-s1",
+        "family": "dueling",
+        "variant": 10,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v10-s1/weights.pt",
+      "sha256": "6d5b37382559f5be0f4639b22b000c88d3c84d002c68f55c05e453ae5dfecde2",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v10-s1": {
+      "config": {
+        "id": "rainbow-v10-s1",
+        "family": "rainbow",
+        "variant": 10,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v10-s1/weights.pt",
+      "sha256": "d087aefb6a172f86c82d0dc0b8cfce575a40494568e0fc6afbbbf6b5220960b4",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v10-s1": {
+      "config": {
+        "id": "ppo-v10-s1",
+        "family": "ppo",
+        "variant": 10,
+        "seed": 39139,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.04,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v10-s1/weights.pt",
+      "sha256": "297227d8b2909ff8353599886c199b7b7696949177997a1d976f036c3a2df64e",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v10-s2": {
+      "config": {
+        "id": "double-v10-s2",
+        "family": "double",
+        "variant": 10,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v10-s2/weights.pt",
+      "sha256": "8ff33631dc7aafad2140775a2ca518414cd213c78a3f0b7c956091667eb2ca67",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v10-s2": {
+      "config": {
+        "id": "dueling-v10-s2",
+        "family": "dueling",
+        "variant": 10,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v10-s2/weights.pt",
+      "sha256": "38c03ebb263101670e228d05db56c4fb0a15ad24b4f84b1bec5bbdf5377be435",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v10-s2": {
+      "config": {
+        "id": "rainbow-v10-s2",
+        "family": "rainbow",
+        "variant": 10,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v10-s2/weights.pt",
+      "sha256": "9290fc6cb5d5488a38e444c3f272509f2681316078ad0d29a37408ca097f5bd1",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v10-s2": {
+      "config": {
+        "id": "ppo-v10-s2",
+        "family": "ppo",
+        "variant": 10,
+        "seed": 71809,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.04,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v10-s2/weights.pt",
+      "sha256": "1018ff4f6d9c4021a87266d80fa8f35f8609a958fb7eded9e83c0322d22ce5fd",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v10-s3": {
+      "config": {
+        "id": "double-v10-s3",
+        "family": "double",
+        "variant": 10,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v10-s3/weights.pt",
+      "sha256": "407e724b855f587e27c6dc8ca5b0b0ff7933a1b142c4ba8c8fc656111103a424",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v10-s3": {
+      "config": {
+        "id": "dueling-v10-s3",
+        "family": "dueling",
+        "variant": 10,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v10-s3/weights.pt",
+      "sha256": "61378321f842ec2d6ad540acc431ba4fe686158bbdf197a94e31aa4ab5de5d05",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v10-s3": {
+      "config": {
+        "id": "rainbow-v10-s3",
+        "family": "rainbow",
+        "variant": 10,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v10-s3/weights.pt",
+      "sha256": "7f1ada393481c86602ed7765635fca23fefdcfe49fadf933737cbd9861046cf5",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v10-s3": {
+      "config": {
+        "id": "ppo-v10-s3",
+        "family": "ppo",
+        "variant": 10,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.04,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v10-s3/weights.pt",
+      "sha256": "e43fec69a7172e19839dca557817dc43ba334d91985d8cfbfd0acec4b41dd7fe",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v10-s4": {
+      "config": {
+        "id": "double-v10-s4",
+        "family": "double",
+        "variant": 10,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v10-s4/weights.pt",
+      "sha256": "95ef12c60ff7019dbf55bd751b898496dd0372bb1e23ca6cce3cee39f15eb03b",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v10-s4": {
+      "config": {
+        "id": "dueling-v10-s4",
+        "family": "dueling",
+        "variant": 10,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v10-s4/weights.pt",
+      "sha256": "41e82eb623c032883d8c0133472056ac0a4d08f7496ee4ccba5c0abe9788f167",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v10-s4": {
+      "config": {
+        "id": "rainbow-v10-s4",
+        "family": "rainbow",
+        "variant": 10,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v10-s4/weights.pt",
+      "sha256": "abd5a4ec42a5d24544dc7076ea421b1c4e3b512470cb9a69c59305a82e1c4018",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v10-s4": {
+      "config": {
+        "id": "ppo-v10-s4",
+        "family": "ppo",
+        "variant": 10,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.04,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v10-s4/weights.pt",
+      "sha256": "739e3339d4151f091c66214fa3fcea1ac14e69d8a98d50395a060458c2e62195",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v10-s5": {
+      "config": {
+        "id": "double-v10-s5",
+        "family": "double",
+        "variant": 10,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/double-v10-s5/weights.pt",
+      "sha256": "cfb42422a94457559c205713001cbefe7088672e102c6ff3d28afaeaec9b8db3",
+      "kind": "primary",
+      "frozen": false
+    },
+    "dueling-v10-s5": {
+      "config": {
+        "id": "dueling-v10-s5",
+        "family": "dueling",
+        "variant": 10,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/dueling-v10-s5/weights.pt",
+      "sha256": "81cbedc2c0566a8f396ee5d8f12c27b93a14a3ad007a64e7a1998f889b1a5a0b",
+      "kind": "primary",
+      "frozen": false
+    },
+    "rainbow-v10-s5": {
+      "config": {
+        "id": "rainbow-v10-s5",
+        "family": "rainbow",
+        "variant": 10,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 96,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/runs/rainbow-v10-s5/weights.pt",
+      "sha256": "598a21b956b982cdb7fc26d8cc0f5f33dd01bfd6f42760acd8f92ffc73b8fe74",
+      "kind": "primary",
+      "frozen": false
+    },
+    "ppo-v10-s5": {
+      "config": {
+        "id": "ppo-v10-s5",
+        "family": "ppo",
+        "variant": 10,
+        "seed": 175003,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.2,
+        "entropy": 0.04,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/runs/ppo-v10-s5/weights.pt",
+      "sha256": "1b06da0bab9e9bd13af3b617cbe6362b596a701181715e6cb5cf8f10f40f63a4",
+      "kind": "primary",
+      "frozen": false
+    },
+    "double-v03-s2-diag": {
+      "config": {
+        "id": "double-v03-s2",
+        "family": "double",
+        "variant": 3,
+        "seed": 71809,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/diagnostics/training/double/weights.pt",
+      "sha256": "c7262cc4108538ffe0789c3dcce79fe8172393967c691dd9b256cf36fb7036d0",
+      "kind": "diagnostic",
+      "frozen": false
+    },
+    "dueling-v09-s3-diag": {
+      "config": {
+        "id": "dueling-v09-s3",
+        "family": "dueling",
+        "variant": 9,
+        "seed": 92221,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 32
+      },
+      "weights": "results/E-0012/diagnostics/training/dueling/weights.pt",
+      "sha256": "9ef52e1e05d5444aa17a35c46e6e85e63e5e8ca9bb24042fdd087a836a891566",
+      "kind": "diagnostic",
+      "frozen": false
+    },
+    "rainbow-v03-s4-diag": {
+      "config": {
+        "id": "rainbow-v03-s4",
+        "family": "rainbow",
+        "variant": 3,
+        "seed": 130031,
+        "geometry_count": 30000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "batch": 64,
+        "replay": 16384,
+        "sync": 64
+      },
+      "weights": "results/E-0012/diagnostics/training/rainbow/weights.pt",
+      "sha256": "0ec792ed4ef0bb6a9aee852a31d89f02553509f1ba2ee907c33af612140189b6",
+      "kind": "diagnostic",
+      "frozen": false
+    },
+    "ppo-v09-s4-diag": {
+      "config": {
+        "id": "ppo-v09-s4",
+        "family": "ppo",
+        "variant": 9,
+        "seed": 130031,
+        "geometry_count": 3000,
+        "architecture": [
+          8,
+          64,
+          1
+        ],
+        "lr": 0.0008,
+        "gamma": 0.97,
+        "lanes": 24,
+        "ticks": 1024,
+        "horizon": 1,
+        "rollout": 16,
+        "epochs": 2,
+        "batch": 96,
+        "clip": 0.12,
+        "entropy": 0.02,
+        "lambda": 0.95
+      },
+      "weights": "results/E-0012/diagnostics/training/ppo/weights.pt",
+      "sha256": "10008aff802658bcd33476dad5c27448f9a7df3d2072abc5d36990b44094da78",
+      "kind": "diagnostic",
+      "frozen": false
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "before": [
+    {
+      "map": "validation_id-00000-0",
+      "stage": 1,
+      "outcome": "BROKEN",
+      "steps": 27,
+      "refuels": 2,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00059-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 59,
+      "refuels": 0,
+      "repairs": 0
+    }
+  ],
+  "after": [
+    {
+      "map": "validation_id-00000-0",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 25,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00059-3",
+      "stage": 3,
+      "outcome": "EMPTY",
+      "steps": 59,
+      "refuels": 0,
+      "repairs": 0
+    }
+  ]
+}

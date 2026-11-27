@@ -1,0 +1,67 @@
+{
+  "weights": 200,
+  "initial_and_final_screen": 96000,
+  "full_validation_rows": 96000,
+  "selected_evaluation_rows": 216000,
+  "physical_replays": {
+    "double-v03-s2": [
+      "shift_development-00803-3",
+      "shift_development-00152-1",
+      "test_id-02164-3",
+      "test_id-00214-3",
+      "test_ood-01104-2",
+      "test_ood-00730-3",
+      "shift_development-00144-3",
+      "test_id-00000-0",
+      "test_ood-00019-3",
+      "shift_development-00003-0",
+      "test_id-00000-2",
+      "test_ood-00001-1"
+    ],
+    "dueling-v09-s3": [
+      "shift_development-00623-2",
+      "shift_development-00383-3",
+      "test_id-02164-3",
+      "test_id-00214-3",
+      "test_ood-01104-2",
+      "test_ood-00568-3",
+      "shift_development-00043-1",
+      "test_id-00213-2",
+      "test_ood-00925-3",
+      "shift_development-00003-0",
+      "test_id-00000-2",
+      "test_ood-00003-1"
+    ],
+    "rainbow-v03-s4": [
+      "shift_development-00623-2",
+      "shift_development-00162-3",
+      "test_id-02164-3",
+      "test_id-00214-3",
+      "test_ood-01104-2",
+      "test_ood-00027-1",
+      "shift_development-00157-0",
+      "test_id-00240-0",
+      "test_ood-00549-0",
+      "shift_development-00003-2",
+      "test_id-00000-0",
+      "test_ood-00003-0"
+    ],
+    "ppo-v09-s4": [
+      "shift_development-00623-2",
+      "shift_development-00017-3",
+      "test_id-00933-2",
+      "test_id-00152-3",
+      "test_ood-01104-2",
+      "test_ood-00027-1",
+      "shift_development-00051-2",
+      "test_id-00002-3",
+      "test_ood-01822-0",
+      "shift_development-00002-3",
+      "test_id-00001-0",
+      "test_ood-00004-2"
+    ]
+  },
+  "corpus_certificates": 306000,
+  "diagnostic_certificates": 2000,
+  "additional_diagnostic_training_steps": 294912
+}

@@ -1,0 +1,19 @@
+{
+  "source_sha256": "5236d199cb93df7cd3ab4fa378bc38c1d05d2bc17c0c3b84b330a6f47393cf14",
+  "banks": {
+    "train": "0315504613b8ce0ca314173658b9a4576a4f987458ef9fac2056d43f97a2896d",
+    "control": "35ded1472c1ee42555c63ba1af6c11b1b845780576bf04970780fcd62e125395"
+  },
+  "families": [
+    "double",
+    "dueling",
+    "rainbow",
+    "ppo"
+  ],
+  "steps": 73728,
+  "selection": "one validation-selected checkpoint per family",
+  "stage": "1 + within-group case number modulo 3",
+  "evaluation": "1000 independent controls, once",
+  "optimizer": "fresh Adam, same hyperparameters",
+  "seed_offset": 1000000
+}

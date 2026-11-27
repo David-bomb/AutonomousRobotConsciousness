@@ -1,0 +1,44 @@
+{
+  "id": "double-v01-s1",
+  "weights_sha256": "b735f6bf158af1ad6578e8ec11285cc9798f9b388b221bee13a5152c4487e0ef",
+  "rows": [
+    {
+      "map": "validation_id-00058-3",
+      "stage": 3,
+      "outcome": "BROKEN",
+      "steps": 3,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00034-3",
+      "stage": 1,
+      "outcome": "EMPTY",
+      "steps": 1,
+      "refuels": 0,
+      "repairs": 0
+    },
+    {
+      "map": "validation_id-00001-0",
+      "stage": 1,
+      "outcome": "LIMIT",
+      "steps": 968,
+      "refuels": 107,
+      "repairs": 106
+    },
+    {
+      "map": "validation_id-00032-2",
+      "stage": 1,
+      "outcome": "SUCCESS",
+      "steps": 9,
+      "refuels": 1,
+      "repairs": 1
+    }
+  ],
+  "verified_maps": [
+    "validation_id-00034-3",
+    "validation_id-00058-3",
+    "validation_id-00032-2",
+    "validation_id-00001-0"
+  ]
+}

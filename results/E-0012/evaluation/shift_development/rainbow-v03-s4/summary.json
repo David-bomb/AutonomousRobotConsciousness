@@ -1,0 +1,102 @@
+{
+  "id": "rainbow-v03-s4",
+  "split": "shift_development",
+  "weights_sha256": "8e399b48caa236c08be64621f129a5eba1b747fd5c683fa6dfffe509cc43a562",
+  "scenarios": 6000,
+  "wins": 132,
+  "outcomes": {
+    "EMPTY": 3847,
+    "BROKEN": 1792,
+    "LIMIT": 229,
+    "SUCCESS": 132
+  },
+  "by_stage": {
+    "1": 0.07833333333333334,
+    "2": 0.03333333333333333,
+    "3": 0.003431372549019608
+  },
+  "worst": 0.003431372549019608,
+  "mean_success_steps": 41.053030303030305,
+  "groups": {
+    "size": {
+      "scenarios": 1200,
+      "wins": 3,
+      "outcomes": {
+        "EMPTY": 742,
+        "BROKEN": 427,
+        "LIMIT": 28,
+        "SUCCESS": 3
+      },
+      "by_stage": {
+        "3": 0.0025
+      },
+      "worst": 0.0025,
+      "mean_success_steps": 45.333333333333336
+    },
+    "parameters": {
+      "scenarios": 1200,
+      "wins": 46,
+      "outcomes": {
+        "BROKEN": 442,
+        "EMPTY": 648,
+        "LIMIT": 64,
+        "SUCCESS": 46
+      },
+      "by_stage": {
+        "1": 0.08333333333333333,
+        "2": 0.06666666666666667,
+        "3": 0.013888888888888888
+      },
+      "worst": 0.013888888888888888,
+      "mean_success_steps": 42.43478260869565
+    },
+    "services": {
+      "scenarios": 1200,
+      "wins": 51,
+      "outcomes": {
+        "EMPTY": 624,
+        "BROKEN": 427,
+        "LIMIT": 98,
+        "SUCCESS": 51
+      },
+      "by_stage": {
+        "1": 0.09375,
+        "2": 0.020833333333333332,
+        "3": 0.0020833333333333333
+      },
+      "worst": 0.0020833333333333333,
+      "mean_success_steps": 40.86274509803921
+    },
+    "resources": {
+      "scenarios": 1200,
+      "wins": 32,
+      "outcomes": {
+        "BROKEN": 244,
+        "EMPTY": 895,
+        "LIMIT": 29,
+        "SUCCESS": 32
+      },
+      "by_stage": {
+        "1": 0.06041666666666667,
+        "2": 0.0125,
+        "3": 0.0
+      },
+      "worst": 0.0,
+      "mean_success_steps": 38.96875
+    },
+    "combined": {
+      "scenarios": 1200,
+      "wins": 0,
+      "outcomes": {
+        "EMPTY": 938,
+        "BROKEN": 252,
+        "LIMIT": 10
+      },
+      "by_stage": {
+        "3": 0.0
+      },
+      "worst": 0.0,
+      "mean_success_steps": null
+    }
+  }
+}

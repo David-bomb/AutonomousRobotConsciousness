@@ -1,0 +1,102 @@
+{
+  "id": "ppo-v09-s4",
+  "split": "shift_development",
+  "weights_sha256": "083a85fef418d87b0c94a603c9106e950fb033c85b05ab642fcfc80b67aa37b2",
+  "scenarios": 6000,
+  "wins": 86,
+  "outcomes": {
+    "EMPTY": 3801,
+    "BROKEN": 1962,
+    "LIMIT": 151,
+    "SUCCESS": 86
+  },
+  "by_stage": {
+    "1": 0.051666666666666666,
+    "2": 0.027777777777777776,
+    "3": 0.000980392156862745
+  },
+  "worst": 0.000980392156862745,
+  "mean_success_steps": 35.19767441860465,
+  "groups": {
+    "size": {
+      "scenarios": 1200,
+      "wins": 1,
+      "outcomes": {
+        "EMPTY": 743,
+        "BROKEN": 444,
+        "LIMIT": 12,
+        "SUCCESS": 1
+      },
+      "by_stage": {
+        "3": 0.0008333333333333334
+      },
+      "worst": 0.0008333333333333334,
+      "mean_success_steps": 30
+    },
+    "parameters": {
+      "scenarios": 1200,
+      "wins": 22,
+      "outcomes": {
+        "BROKEN": 474,
+        "LIMIT": 48,
+        "EMPTY": 656,
+        "SUCCESS": 22
+      },
+      "by_stage": {
+        "1": 0.05416666666666667,
+        "2": 0.0375,
+        "3": 0.0
+      },
+      "worst": 0.0,
+      "mean_success_steps": 36.04545454545455
+    },
+    "services": {
+      "scenarios": 1200,
+      "wins": 38,
+      "outcomes": {
+        "EMPTY": 624,
+        "SUCCESS": 38,
+        "BROKEN": 487,
+        "LIMIT": 51
+      },
+      "by_stage": {
+        "1": 0.058333333333333334,
+        "2": 0.0375,
+        "3": 0.0020833333333333333
+      },
+      "worst": 0.0020833333333333333,
+      "mean_success_steps": 32.18421052631579
+    },
+    "resources": {
+      "scenarios": 1200,
+      "wins": 25,
+      "outcomes": {
+        "BROKEN": 287,
+        "EMPTY": 855,
+        "LIMIT": 33,
+        "SUCCESS": 25
+      },
+      "by_stage": {
+        "1": 0.04375,
+        "2": 0.008333333333333333,
+        "3": 0.004166666666666667
+      },
+      "worst": 0.004166666666666667,
+      "mean_success_steps": 39.24
+    },
+    "combined": {
+      "scenarios": 1200,
+      "wins": 0,
+      "outcomes": {
+        "EMPTY": 923,
+        "BROKEN": 270,
+        "LIMIT": 7
+      },
+      "by_stage": {
+        "3": 0.0
+      },
+      "worst": 0.0,
+      "mean_success_steps": null
+    }
+  }
+}

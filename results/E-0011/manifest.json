@@ -1,0 +1,4930 @@
+{
+  "format": 1,
+  "runs": [
+    {
+      "family": "double",
+      "variant": 1,
+      "seed": 39139,
+      "id": "double/v01-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 1,
+      "seed": 39139,
+      "id": "dueling/v01-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 1,
+      "seed": 39139,
+      "id": "rainbow/v01-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 1,
+      "seed": 39139,
+      "id": "ppo/v01-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 1,
+      "seed": 39139,
+      "id": "hrl_astar/v01-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 2,
+      "seed": 39139,
+      "id": "double/v02-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 2,
+      "seed": 39139,
+      "id": "dueling/v02-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 2,
+      "seed": 39139,
+      "id": "rainbow/v02-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 2,
+      "seed": 39139,
+      "id": "ppo/v02-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 2,
+      "seed": 39139,
+      "id": "hrl_astar/v02-s1",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 3,
+      "seed": 39139,
+      "id": "double/v03-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 3,
+      "seed": 39139,
+      "id": "dueling/v03-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 3,
+      "seed": 39139,
+      "id": "rainbow/v03-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 3,
+      "seed": 39139,
+      "id": "ppo/v03-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 3,
+      "seed": 39139,
+      "id": "hrl_astar/v03-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 4,
+      "seed": 39139,
+      "id": "double/v04-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 4,
+      "seed": 39139,
+      "id": "dueling/v04-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 4,
+      "seed": 39139,
+      "id": "rainbow/v04-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 4,
+      "seed": 39139,
+      "id": "ppo/v04-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 4,
+      "seed": 39139,
+      "id": "hrl_astar/v04-s1",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 5,
+      "seed": 39139,
+      "id": "double/v05-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 5,
+      "seed": 39139,
+      "id": "dueling/v05-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 5,
+      "seed": 39139,
+      "id": "rainbow/v05-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 5,
+      "seed": 39139,
+      "id": "ppo/v05-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 5,
+      "seed": 39139,
+      "id": "hrl_astar/v05-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 6,
+      "seed": 39139,
+      "id": "double/v06-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 6,
+      "seed": 39139,
+      "id": "dueling/v06-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 6,
+      "seed": 39139,
+      "id": "rainbow/v06-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 6,
+      "seed": 39139,
+      "id": "ppo/v06-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 6,
+      "seed": 39139,
+      "id": "hrl_astar/v06-s1",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 7,
+      "seed": 39139,
+      "id": "double/v07-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 7,
+      "seed": 39139,
+      "id": "dueling/v07-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 7,
+      "seed": 39139,
+      "id": "rainbow/v07-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 7,
+      "seed": 39139,
+      "id": "ppo/v07-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 7,
+      "seed": 39139,
+      "id": "hrl_astar/v07-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 8,
+      "seed": 39139,
+      "id": "double/v08-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 8,
+      "seed": 39139,
+      "id": "dueling/v08-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 8,
+      "seed": 39139,
+      "id": "rainbow/v08-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 8,
+      "seed": 39139,
+      "id": "ppo/v08-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 8,
+      "seed": 39139,
+      "id": "hrl_astar/v08-s1",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 9,
+      "seed": 39139,
+      "id": "double/v09-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 9,
+      "seed": 39139,
+      "id": "dueling/v09-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 9,
+      "seed": 39139,
+      "id": "rainbow/v09-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 9,
+      "seed": 39139,
+      "id": "ppo/v09-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 9,
+      "seed": 39139,
+      "id": "hrl_astar/v09-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 10,
+      "seed": 39139,
+      "id": "double/v10-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 10,
+      "seed": 39139,
+      "id": "dueling/v10-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 10,
+      "seed": 39139,
+      "id": "rainbow/v10-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 10,
+      "seed": 39139,
+      "id": "ppo/v10-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 10,
+      "seed": 39139,
+      "id": "hrl_astar/v10-s1",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 1,
+      "seed": 71809,
+      "id": "double/v01-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 1,
+      "seed": 71809,
+      "id": "dueling/v01-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 1,
+      "seed": 71809,
+      "id": "rainbow/v01-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 1,
+      "seed": 71809,
+      "id": "ppo/v01-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 1,
+      "seed": 71809,
+      "id": "hrl_astar/v01-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 2,
+      "seed": 71809,
+      "id": "double/v02-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 2,
+      "seed": 71809,
+      "id": "dueling/v02-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 2,
+      "seed": 71809,
+      "id": "rainbow/v02-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 2,
+      "seed": 71809,
+      "id": "ppo/v02-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 2,
+      "seed": 71809,
+      "id": "hrl_astar/v02-s2",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 3,
+      "seed": 71809,
+      "id": "double/v03-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 3,
+      "seed": 71809,
+      "id": "dueling/v03-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 3,
+      "seed": 71809,
+      "id": "rainbow/v03-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 3,
+      "seed": 71809,
+      "id": "ppo/v03-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 3,
+      "seed": 71809,
+      "id": "hrl_astar/v03-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 4,
+      "seed": 71809,
+      "id": "double/v04-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 4,
+      "seed": 71809,
+      "id": "dueling/v04-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 4,
+      "seed": 71809,
+      "id": "rainbow/v04-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 4,
+      "seed": 71809,
+      "id": "ppo/v04-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 4,
+      "seed": 71809,
+      "id": "hrl_astar/v04-s2",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 5,
+      "seed": 71809,
+      "id": "double/v05-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 5,
+      "seed": 71809,
+      "id": "dueling/v05-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 5,
+      "seed": 71809,
+      "id": "rainbow/v05-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 5,
+      "seed": 71809,
+      "id": "ppo/v05-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 5,
+      "seed": 71809,
+      "id": "hrl_astar/v05-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 6,
+      "seed": 71809,
+      "id": "double/v06-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 6,
+      "seed": 71809,
+      "id": "dueling/v06-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 6,
+      "seed": 71809,
+      "id": "rainbow/v06-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 6,
+      "seed": 71809,
+      "id": "ppo/v06-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 6,
+      "seed": 71809,
+      "id": "hrl_astar/v06-s2",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 7,
+      "seed": 71809,
+      "id": "double/v07-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 7,
+      "seed": 71809,
+      "id": "dueling/v07-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 7,
+      "seed": 71809,
+      "id": "rainbow/v07-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 7,
+      "seed": 71809,
+      "id": "ppo/v07-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 7,
+      "seed": 71809,
+      "id": "hrl_astar/v07-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 8,
+      "seed": 71809,
+      "id": "double/v08-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 8,
+      "seed": 71809,
+      "id": "dueling/v08-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 8,
+      "seed": 71809,
+      "id": "rainbow/v08-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 8,
+      "seed": 71809,
+      "id": "ppo/v08-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 8,
+      "seed": 71809,
+      "id": "hrl_astar/v08-s2",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 9,
+      "seed": 71809,
+      "id": "double/v09-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 9,
+      "seed": 71809,
+      "id": "dueling/v09-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 9,
+      "seed": 71809,
+      "id": "rainbow/v09-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 9,
+      "seed": 71809,
+      "id": "ppo/v09-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 9,
+      "seed": 71809,
+      "id": "hrl_astar/v09-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 10,
+      "seed": 71809,
+      "id": "double/v10-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 10,
+      "seed": 71809,
+      "id": "dueling/v10-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 10,
+      "seed": 71809,
+      "id": "rainbow/v10-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 10,
+      "seed": 71809,
+      "id": "ppo/v10-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 10,
+      "seed": 71809,
+      "id": "hrl_astar/v10-s2",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 1,
+      "seed": 92221,
+      "id": "double/v01-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 1,
+      "seed": 92221,
+      "id": "dueling/v01-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 1,
+      "seed": 92221,
+      "id": "rainbow/v01-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 1,
+      "seed": 92221,
+      "id": "ppo/v01-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 1,
+      "seed": 92221,
+      "id": "hrl_astar/v01-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 2,
+      "seed": 92221,
+      "id": "double/v02-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 2,
+      "seed": 92221,
+      "id": "dueling/v02-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 2,
+      "seed": 92221,
+      "id": "rainbow/v02-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 2,
+      "seed": 92221,
+      "id": "ppo/v02-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 2,
+      "seed": 92221,
+      "id": "hrl_astar/v02-s3",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 3,
+      "seed": 92221,
+      "id": "double/v03-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 3,
+      "seed": 92221,
+      "id": "dueling/v03-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 3,
+      "seed": 92221,
+      "id": "rainbow/v03-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 3,
+      "seed": 92221,
+      "id": "ppo/v03-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 3,
+      "seed": 92221,
+      "id": "hrl_astar/v03-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 4,
+      "seed": 92221,
+      "id": "double/v04-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 4,
+      "seed": 92221,
+      "id": "dueling/v04-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 4,
+      "seed": 92221,
+      "id": "rainbow/v04-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 4,
+      "seed": 92221,
+      "id": "ppo/v04-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 4,
+      "seed": 92221,
+      "id": "hrl_astar/v04-s3",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 5,
+      "seed": 92221,
+      "id": "double/v05-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 5,
+      "seed": 92221,
+      "id": "dueling/v05-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 5,
+      "seed": 92221,
+      "id": "rainbow/v05-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 5,
+      "seed": 92221,
+      "id": "ppo/v05-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 5,
+      "seed": 92221,
+      "id": "hrl_astar/v05-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 6,
+      "seed": 92221,
+      "id": "double/v06-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 6,
+      "seed": 92221,
+      "id": "dueling/v06-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 6,
+      "seed": 92221,
+      "id": "rainbow/v06-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 6,
+      "seed": 92221,
+      "id": "ppo/v06-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 6,
+      "seed": 92221,
+      "id": "hrl_astar/v06-s3",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 7,
+      "seed": 92221,
+      "id": "double/v07-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 7,
+      "seed": 92221,
+      "id": "dueling/v07-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 7,
+      "seed": 92221,
+      "id": "rainbow/v07-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 7,
+      "seed": 92221,
+      "id": "ppo/v07-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 7,
+      "seed": 92221,
+      "id": "hrl_astar/v07-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 8,
+      "seed": 92221,
+      "id": "double/v08-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 8,
+      "seed": 92221,
+      "id": "dueling/v08-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 8,
+      "seed": 92221,
+      "id": "rainbow/v08-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 8,
+      "seed": 92221,
+      "id": "ppo/v08-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 8,
+      "seed": 92221,
+      "id": "hrl_astar/v08-s3",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 9,
+      "seed": 92221,
+      "id": "double/v09-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 9,
+      "seed": 92221,
+      "id": "dueling/v09-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 9,
+      "seed": 92221,
+      "id": "rainbow/v09-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 9,
+      "seed": 92221,
+      "id": "ppo/v09-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 9,
+      "seed": 92221,
+      "id": "hrl_astar/v09-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 10,
+      "seed": 92221,
+      "id": "double/v10-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 10,
+      "seed": 92221,
+      "id": "dueling/v10-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 10,
+      "seed": 92221,
+      "id": "rainbow/v10-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 10,
+      "seed": 92221,
+      "id": "ppo/v10-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 10,
+      "seed": 92221,
+      "id": "hrl_astar/v10-s3",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 1,
+      "seed": 130031,
+      "id": "double/v01-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 1,
+      "seed": 130031,
+      "id": "dueling/v01-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 1,
+      "seed": 130031,
+      "id": "rainbow/v01-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 1,
+      "seed": 130031,
+      "id": "ppo/v01-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 1,
+      "seed": 130031,
+      "id": "hrl_astar/v01-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 2,
+      "seed": 130031,
+      "id": "double/v02-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 2,
+      "seed": 130031,
+      "id": "dueling/v02-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 2,
+      "seed": 130031,
+      "id": "rainbow/v02-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 2,
+      "seed": 130031,
+      "id": "ppo/v02-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 2,
+      "seed": 130031,
+      "id": "hrl_astar/v02-s4",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 3,
+      "seed": 130031,
+      "id": "double/v03-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 3,
+      "seed": 130031,
+      "id": "dueling/v03-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 3,
+      "seed": 130031,
+      "id": "rainbow/v03-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 3,
+      "seed": 130031,
+      "id": "ppo/v03-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 3,
+      "seed": 130031,
+      "id": "hrl_astar/v03-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 4,
+      "seed": 130031,
+      "id": "double/v04-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 4,
+      "seed": 130031,
+      "id": "dueling/v04-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 4,
+      "seed": 130031,
+      "id": "rainbow/v04-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 4,
+      "seed": 130031,
+      "id": "ppo/v04-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 4,
+      "seed": 130031,
+      "id": "hrl_astar/v04-s4",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 5,
+      "seed": 130031,
+      "id": "double/v05-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 5,
+      "seed": 130031,
+      "id": "dueling/v05-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 5,
+      "seed": 130031,
+      "id": "rainbow/v05-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 5,
+      "seed": 130031,
+      "id": "ppo/v05-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 5,
+      "seed": 130031,
+      "id": "hrl_astar/v05-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 6,
+      "seed": 130031,
+      "id": "double/v06-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 6,
+      "seed": 130031,
+      "id": "dueling/v06-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 6,
+      "seed": 130031,
+      "id": "rainbow/v06-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 6,
+      "seed": 130031,
+      "id": "ppo/v06-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 6,
+      "seed": 130031,
+      "id": "hrl_astar/v06-s4",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 7,
+      "seed": 130031,
+      "id": "double/v07-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 7,
+      "seed": 130031,
+      "id": "dueling/v07-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 7,
+      "seed": 130031,
+      "id": "rainbow/v07-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 7,
+      "seed": 130031,
+      "id": "ppo/v07-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 7,
+      "seed": 130031,
+      "id": "hrl_astar/v07-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 8,
+      "seed": 130031,
+      "id": "double/v08-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 8,
+      "seed": 130031,
+      "id": "dueling/v08-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 8,
+      "seed": 130031,
+      "id": "rainbow/v08-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 8,
+      "seed": 130031,
+      "id": "ppo/v08-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 8,
+      "seed": 130031,
+      "id": "hrl_astar/v08-s4",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 9,
+      "seed": 130031,
+      "id": "double/v09-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 9,
+      "seed": 130031,
+      "id": "dueling/v09-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 9,
+      "seed": 130031,
+      "id": "rainbow/v09-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 9,
+      "seed": 130031,
+      "id": "ppo/v09-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 9,
+      "seed": 130031,
+      "id": "hrl_astar/v09-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 10,
+      "seed": 130031,
+      "id": "double/v10-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 10,
+      "seed": 130031,
+      "id": "dueling/v10-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 10,
+      "seed": 130031,
+      "id": "rainbow/v10-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 10,
+      "seed": 130031,
+      "id": "ppo/v10-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 10,
+      "seed": 130031,
+      "id": "hrl_astar/v10-s4",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 1,
+      "seed": 175003,
+      "id": "double/v01-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 1,
+      "seed": 175003,
+      "id": "dueling/v01-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 1,
+      "seed": 175003,
+      "id": "rainbow/v01-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 1,
+      "seed": 175003,
+      "id": "ppo/v01-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 1,
+      "seed": 175003,
+      "id": "hrl_astar/v01-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 2,
+      "seed": 175003,
+      "id": "double/v02-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 2,
+      "seed": 175003,
+      "id": "dueling/v02-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 2,
+      "seed": 175003,
+      "id": "rainbow/v02-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 2,
+      "seed": 175003,
+      "id": "ppo/v02-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 2,
+      "seed": 175003,
+      "id": "hrl_astar/v02-s5",
+      "architecture": [
+        8,
+        48,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 3,
+      "seed": 175003,
+      "id": "double/v03-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 3,
+      "seed": 175003,
+      "id": "dueling/v03-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 3,
+      "seed": 175003,
+      "id": "rainbow/v03-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 3,
+      "seed": 175003,
+      "id": "ppo/v03-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 3,
+      "seed": 175003,
+      "id": "hrl_astar/v03-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 4,
+      "seed": 175003,
+      "id": "double/v04-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 4,
+      "seed": 175003,
+      "id": "dueling/v04-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 4,
+      "seed": 175003,
+      "id": "rainbow/v04-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 4,
+      "seed": 175003,
+      "id": "ppo/v04-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 4,
+      "seed": 175003,
+      "id": "hrl_astar/v04-s5",
+      "architecture": [
+        12,
+        64,
+        1
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 5,
+      "seed": 175003,
+      "id": "double/v05-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 5,
+      "seed": 175003,
+      "id": "dueling/v05-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 5,
+      "seed": 175003,
+      "id": "rainbow/v05-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 5,
+      "seed": 175003,
+      "id": "ppo/v05-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 5,
+      "seed": 175003,
+      "id": "hrl_astar/v05-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 6,
+      "seed": 175003,
+      "id": "double/v06-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 6,
+      "seed": 175003,
+      "id": "dueling/v06-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 6,
+      "seed": 175003,
+      "id": "rainbow/v06-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 6,
+      "seed": 175003,
+      "id": "ppo/v06-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 6,
+      "seed": 175003,
+      "id": "hrl_astar/v06-s5",
+      "architecture": [
+        8,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 7,
+      "seed": 175003,
+      "id": "double/v07-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 7,
+      "seed": 175003,
+      "id": "dueling/v07-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 7,
+      "seed": 175003,
+      "id": "rainbow/v07-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 7,
+      "seed": 175003,
+      "id": "ppo/v07-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 7,
+      "seed": 175003,
+      "id": "hrl_astar/v07-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 8,
+      "seed": 175003,
+      "id": "double/v08-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 8,
+      "seed": 175003,
+      "id": "dueling/v08-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 8,
+      "seed": 175003,
+      "id": "rainbow/v08-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 8,
+      "seed": 175003,
+      "id": "ppo/v08-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 8,
+      "seed": 175003,
+      "id": "hrl_astar/v08-s5",
+      "architecture": [
+        12,
+        64,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "double",
+      "variant": 9,
+      "seed": 175003,
+      "id": "double/v09-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "dueling",
+      "variant": 9,
+      "seed": 175003,
+      "id": "dueling/v09-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "rainbow",
+      "variant": 9,
+      "seed": 175003,
+      "id": "rainbow/v09-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "ppo",
+      "variant": 9,
+      "seed": 175003,
+      "id": "ppo/v09-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.15,
+      "entropy": 0.015,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 9,
+      "seed": 175003,
+      "id": "hrl_astar/v09-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0004,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 3,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 32
+    },
+    {
+      "family": "double",
+      "variant": 10,
+      "seed": 175003,
+      "id": "double/v10-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "dueling",
+      "variant": 10,
+      "seed": 175003,
+      "id": "dueling/v10-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "rainbow",
+      "variant": 10,
+      "seed": 175003,
+      "id": "rainbow/v10-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    },
+    {
+      "family": "ppo",
+      "variant": 10,
+      "seed": 175003,
+      "id": "ppo/v10-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 1,
+      "rollout": 16,
+      "epochs": 2,
+      "batch": 96,
+      "clip": 0.25,
+      "entropy": 0.035,
+      "lambda": 0.95
+    },
+    {
+      "family": "hrl_astar",
+      "variant": 10,
+      "seed": 175003,
+      "id": "hrl_astar/v10-s5",
+      "architecture": [
+        16,
+        96,
+        2
+      ],
+      "lr": 0.0012,
+      "gamma": 0.97,
+      "lanes": 24,
+      "ticks": 256,
+      "horizon": 6,
+      "batch": 64,
+      "replay": 8192,
+      "sync": 64
+    }
+  ],
+  "dataset": {
+    "train.jsonl": "9e18643967598d4b0ab2c192510e921efdbf8d9a7dd7204fdada70aa2dddce6e",
+    "val.jsonl": "07d6060cb73172bdbd059b086a3589d4a049424188b68c78606393556c7877c7",
+    "test-manifest.json": "bb4fddd349c5c0b68aa3bfa968f9aacb02d545e320651edeab680308175051c1"
+  },
+  "sources": {
+    "neural_rl/experiment.py": "72dfefbd6f5bd1f2861fc8b76b575ecfc31aaa3d77bb6a791ec8cba5c422871c",
+    "neural_rl/networks.py": "cdaa197a24188c7b2476e76bcd2d4c51f8899733d1a34cc88ac508e798ad0e6a",
+    "neural_rl/perception.py": "6528362295a8c6cd6c89c08f448275574cb40dc9a96737f1ecbd1491f839c228",
+    "neural_rl/rollout.py": "69a0012951f245064c90c02ac848087ad1807bf6d766d55e448603f5fb6f2606",
+    "neural_rl/training.py": "a6823c069409bc58520c17fd6cc73109a3435d33ed2fd810ec6423f02f0b7e29",
+    "maze/datasets.py": "f31150fe9a2d328ff14f2ce83e73cbdc164f7c8f939e9bf67341339a856ae2f7",
+    "maze/interface.py": "71009a026fe9825b31c66f416bd0ae7e8fa21f780d08e42ac5b1ab3d7aab662f",
+    "maze/environment.py": "703046fe3788f308f5ec4e66be5610f869e6dd68d0506b365aaefc9b719d306b",
+    "maze/memory.py": "026f40914da9f29b687b181884c11dcd1ba521a8b8aa06b4292e90f1bdb67b57",
+    "maze/grid.py": "e0e0e0a3bc7912a2d08f68210d980cafe78aa810bd7a68bc9d57461d9661d867",
+    "maze/levels.py": "6b100178a475715d90399ca3aa9cf32530981d94af2ceaa0b6467bb6a247a842",
+    "maze/learning.py": "4ef9d4a6940e52c5cefd99ee0e5f7fec78c9e3cf0d6c515ea694c59a23f9e217"
+  },
+  "selection": "Худшая группа val, число финишей, среднее число ходов на финишах, меньший номер варианта и зерна.",
+  "python": "3.13.2",
+  "torch": "2.8.0+cu129",
+  "numpy": "2.2.6",
+  "cuda": "12.9",
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+}

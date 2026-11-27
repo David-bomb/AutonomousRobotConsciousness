@@ -1,0 +1,156 @@
+{
+  "status": "design_only_no_maze_dataset_generated",
+  "environment_contract": {
+    "movement_assumption": "4 cardinal moves",
+    "visibility": "3x3",
+    "fuel_step_cost_assumption": 1,
+    "goal_sensor": [
+      "dx",
+      "dy"
+    ],
+    "service_sensor": [
+      "dx",
+      "dy",
+      "dS_nearest_by_true_path"
+    ],
+    "repair": "conditional_only_if_mechanic_exists",
+    "nearest_service_semantics": "must_confirm_fuel_only_vs_combined",
+    "policy_forbidden_fields": [
+      "hidden_map",
+      "true_goal_shortest_path",
+      "oracle_path",
+      "generator_seed",
+      "task_id"
+    ],
+    "final_memory_reset_each_episode": true
+  },
+  "train_families": [
+    "randomized_dfs",
+    "randomized_prim_or_kruskal",
+    "braided",
+    "rooms_and_corridors",
+    "connected_obstacles",
+    "hierarchical_blocks"
+  ],
+  "example_train_sizes": [
+    11,
+    15,
+    21,
+    31,
+    41
+  ],
+  "splits": [
+    {
+      "split": "train",
+      "geometries": 60000,
+      "scenarios_per_geometry": 4,
+      "tasks": 240000
+    },
+    {
+      "split": "validation_id",
+      "geometries": 3000,
+      "scenarios_per_geometry": 4,
+      "tasks": 12000
+    },
+    {
+      "split": "test_id",
+      "geometries": 6000,
+      "scenarios_per_geometry": 4,
+      "tasks": 24000
+    },
+    {
+      "split": "shift_development",
+      "geometries": 1500,
+      "scenarios_per_geometry": 4,
+      "tasks": 6000
+    },
+    {
+      "split": "test_ood",
+      "geometries": 6000,
+      "scenarios_per_geometry": 4,
+      "tasks": 24000
+    }
+  ],
+  "train_subsets_geometries": [
+    300,
+    3000,
+    30000,
+    60000
+  ],
+  "diagnostic_cases": 1000,
+  "ood_axes": [
+    "size",
+    "heldout_generator",
+    "topology",
+    "service_layout",
+    "resource_budget",
+    "combined"
+  ],
+  "split_unit": "canonical_base_geometry_including_rotations_and_reflections",
+  "oracle": "evaluation_and_generation_validation_only",
+  "trajectory_dataset": {
+    "target_transitions": [
+      5000000,
+      10000000
+    ],
+    "sources": {
+      "strong_learned_policy": 0.3,
+      "intermediate_checkpoint": 0.3,
+      "early_checkpoint": 0.2,
+      "high_exploration_learned_policy": 0.2
+    },
+    "maps": "train_only"
+  },
+  "task_schema": [
+    "task_id",
+    "base_map_id",
+    "canonical_hash",
+    "split",
+    "environment_version",
+    "generator_family",
+    "generator_version",
+    "generator_seed",
+    "grid",
+    "start",
+    "goal",
+    "services",
+    "fuel_capacity",
+    "initial_fuel",
+    "action_costs",
+    "time_limit",
+    "time_limit_semantics",
+    "difficulty_strata"
+  ],
+  "private_evaluator_schema": [
+    "oracle_feasible",
+    "resource_optimal_action_count",
+    "minimum_required_refuels",
+    "true_goal_shortest_path",
+    "topology_descriptors"
+  ],
+  "transition_schema": [
+    "episode_id",
+    "task_id",
+    "policy_id",
+    "checkpoint",
+    "t",
+    "observation",
+    "action",
+    "reward_components",
+    "next_observation",
+    "terminated",
+    "truncated",
+    "termination_reason",
+    "fuel_before",
+    "fuel_after",
+    "behavior_logprob",
+    "observation_based_action_mask"
+  ],
+  "sequence_rules": [
+    "no_cross_episode_sequences",
+    "preserve_final_observation_before_auto_reset",
+    "reconstruct_map_without_future_observations",
+    "burn_in_for_recurrent_replay",
+    "reset_episode_memory_only_on_real_episode_reset"
+  ]
+}
